@@ -26,3 +26,11 @@ Theodor von Holst 1844) and the works were published 1831–1895, so they are pu
 Free preview: chapter I of each illustrated edition; later chapters are Premium.
 
 Not illustrated yet: *The Great Gatsby*, *Heart of Darkness*, *Dr. Jekyll and Mr. Hyde*, *Romeo and Juliet*. For Gatsby (1925) we found no public-domain interior illustrations (the famous Cugat jacket art is not used); the others need more sourcing.
+
+## Adventures of Huckleberry Finn
+E. W. Kemble, illustrations for the first edition (1884; US 1885). Public domain (published before 1930; artist d. 1933). Sources: Wikimedia Commons:
+- Frontispiece: Huckleberry Finn: https://commons.wikimedia.org/wiki/File:Huckleberry-finn-with-rabbit.jpg
+- Huck creeps into his window: https://commons.wikimedia.org/wiki/File:Adventures_of_Huckleberry_Finn_1885-p28.png
+- “Doan’ hurt me—don’t!”: https://commons.wikimedia.org/wiki/File:Jim_and_ghost_huck_finn.jpg
+- Huck and Jim on the raft: https://commons.wikimedia.org/wiki/File:Huck_and_jim_on_raft.jpg
+- Traveling by rail: https://commons.wikimedia.org/wiki/File:Huck_Finn_Travelling_by_Rail.jpg
