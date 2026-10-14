@@ -13,3 +13,9 @@ were downloaded as 1280 px thumbnails and resized for the app.
 | constable_hay_wain.jpg | The Hay Wain | John Constable (1776–1837) | 1821 | https://commons.wikimedia.org/wiki/File:John_Constable_The_Hay_Wain.jpg |
 | friedrich_monk_by_the_sea.jpg | The Monk by the Sea | Caspar David Friedrich (1774–1840) | 1808–1810 | https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg |
 | constable_wivenhoe_park.jpg | Wivenhoe Park, Essex | John Constable (1776–1837) | 1816 | https://commons.wikimedia.org/wiki/File:John_Constable_-_Wivenhoe_Park,_Essex_-_Google_Art_Project.jpg (Public domain; original: National Gallery of Art, Washington, Widener Collection; checked Oct 14, 2026) |
+| monet_poppy_field.jpg | Poppy Field (Coquelicots, La promenade), Argenteuil | Claude Monet (1840–1926) | 1873 | https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Poppy_Field_-_Google_Art_Project.jpg (Public domain, PD-Art; original: Musée d'Orsay, Paris, RF 1676; Google Art Project reproduction; downloaded as a 1920 px thumbnail; checked Oct 14, 2026). Used for the Classroom scene. |
+
+## Classroom desk
+
+assets/scene/classroom/desk.png is our own work (CC0), rendered procedurally by
+tool/mockups/make_desk.py (no third-party imagery).
