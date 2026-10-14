@@ -115530,7 +115530,7 @@ if(!l){q=B.a4Q
 s=1
 break}k=a.r
 i=a.d>=11?"gpt-5.4-mini":"gpt-5-mini"
-n=k===B.aR?"[PLACEHOLDER: choose Fran\xe7ais, Espa\xf1ol or Krey\xf2l ayisyen as the target language.]":"[PLACEHOLDER: "+k.d+" ("+k.c+") translation is not available offline. The live Sentinel returns it here. English shown below.]"
+n=k===B.aR?"[PLACEHOLDER: choose Fran\xe7ais, Espa\xf1ol or Krey\xf2l ayisyen as the target language.]":"[PLACEHOLDER: "+k.d+" ("+k.c+") translation is not available offline. The live Sentinel returns it here. The original passage is shown below.]"
 m=B.nN.h(0,k)
 m.toString
 q=new A.fw(B.eD,m,B.cA,B.T,B.T,B.c8,B.c9,i,k,n,h,!0)
