@@ -1,8 +1,9 @@
 {
- "schemaVersion": 1,
+ "schemaVersion": 2,
  "bookId": "mary-shelley_frankenstein",
  "title": "Frankenstein",
  "author": "Mary Shelley",
+ "edition": "1831 revised edition (with the 1818 Preface)",
  "chapterCount": 30,
  "chapterFiles": [
   "chapters/000.json",
@@ -47,12 +48,16 @@
   "title": "Frankenstein unit",
   "author": "Mary Shelley",
   "year": 1818,
+  "edition": "1831 revised edition (with the 1818 Preface)",
+  "editionNote": "The reading text is Mary Shelley's revised 1831 edition (Standard Ebooks, from Project Gutenberg #42324), which also prints the 1818 Preface and the 1831 Introduction. In 1818 Elizabeth is Victor's cousin; in 1831 she is the orphaned daughter of a Milanese nobleman, adopted by Victor's mother. Chapter breaks also differ (e.g. around Chapter III). Cite this edition.",
   "gradeBand": "Grades 9–12 (also 7–8; scales to graduate via rigor levels)",
-  "weeks": 6,
+  "middleSchoolTrack": "Excerpt-based support track: these novels are above the grades 6–8 text-complexity band, so Middle School prompts work from teacher-selected passages.",
+  "weeks": 7,
   "lessons": 30,
+  "unitDays": 35,
   "lessonMinutes": 90,
   "lessonsPerWeek": 5,
-  "schedule": "30 lessons of 90 minutes, 5 a week (block schedule), 6 weeks",
+  "schedule": "30 chapter lessons plus 3 seminar day(s), a test day and an essay day: 35 class days of 90 minutes, 5 a week (block schedule), 7 weeks",
   "segments": [
    {
     "phase": "Bell-ringer",
@@ -119,24 +124,94 @@
    "RL.9-10.2",
    "RL.9-10.3",
    "RL.9-10.4",
+   "RL.11-12.1",
    "RL.11-12.2",
+   "RL.11-12.5",
    "W.9-10.1",
    "W.11-12.1",
-   "RL.7.2",
-   "AP.RL.2",
-   "CF.RL.2",
-   "C2.RL.2",
-   "C3.RL.2",
-   "C4.RL.2",
-   "GR.RL.2"
+   "RL.7.2"
   ],
+  "standardsByFramework": {
+   "ccss": [
+    "RL.7.2",
+    "RL.9-10.1",
+    "RL.9-10.2",
+    "RL.9-10.3",
+    "RL.9-10.4",
+    "RL.9-10.5",
+    "RL.11-12.1",
+    "RL.11-12.2",
+    "RL.11-12.4",
+    "RL.11-12.5",
+    "W.7.1",
+    "W.9-10.1",
+    "W.11-12.1",
+    "L.9-10.4",
+    "L.11-12.4"
+   ],
+   "IN": [
+    "7.RC.2",
+    "7.RC.3",
+    "7.W.1",
+    "9-10.RC.1",
+    "9-10.RC.2",
+    "9-10.RC.3",
+    "9-10.RC.9",
+    "9-10.RC.12",
+    "9-10.W.1",
+    "11-12.RC.1",
+    "11-12.RC.3",
+    "11-12.RC.4",
+    "11-12.RC.11",
+    "11-12.RC.13",
+    "11-12.W.1"
+   ],
+   "dualCredit": [
+    "ICC-WC-1.1",
+    "ICC-WC-1.3",
+    "ICC-WC-1.4",
+    "ICC-WC-1.5",
+    "ICC-WC-1.7"
+   ],
+   "ap": [
+    "AP-LIT.CHR",
+    "AP-LIT.SET",
+    "AP-LIT.STR",
+    "AP-LIT.NAR",
+    "AP-LIT.FIG",
+    "AP-LIT.LAN"
+   ],
+   "cambridge": [
+    "CAIE-9695.AO1",
+    "CAIE-9695.AO2",
+    "CAIE-9695.AO3",
+    "CAIE-9695.AO4",
+    "CAIE-9695.AO5"
+   ],
+   "lel": [
+    "LeL-C2-LIT-1",
+    "LeL-C3-LIT-1",
+    "LeL-C4-LIT-1",
+    "LeL-GR-LIT-1"
+   ]
+  },
+  "frameworks": {
+   "ccss": "Common Core State Standards (ELA-Literacy), thecorestandards.org",
+   "IN": "Indiana Academic Standards, English/Language Arts (2023), IDOE",
+   "dualCredit": "Indiana College Core, Written Communication outcomes 1.1–1.7 (CHE guidance); ICC-WC-x IDs are ours",
+   "ap": "AP English Literature and Composition big ideas (our summaries; apcentral.collegeboard.org)",
+   "cambridge": "Cambridge International AS & A Level Literature in English 9695 assessment objectives (our summaries; cambridgeinternational.org)",
+   "lel": "Liber et Libri program outcome, not an official standard"
+  },
+  "contentNote": "The novel includes suicide, the murder of a child, a wrongful execution and the murder of a bride; see the chapter notes and the safe-messaging script.",
   "assessments": [
    "Daily chapter quizzes (auto-graded)",
    "Weekly writing prompt (rubric)",
-   "Whole-book test",
-   "Final essay"
+   "Socratic seminars (scheduled days)",
+   "Whole-book test (scheduled day)",
+   "Final essay (scheduled day); College Sophomore and above write one essay of the five"
   ],
-  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level.",
+  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
   "materials": [
    "Liber et Libri reader",
    "Annotation journal",
@@ -161,14 +236,40 @@
     "Letter III"
    ],
    "focus": "the costs of unchecked ambition",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 0,
+     "title": "Introduction"
+    },
+    {
+     "type": "lesson",
+     "chapter": 1,
+     "title": "Preface"
+    },
+    {
+     "type": "lesson",
+     "chapter": 2,
+     "title": "Letter I"
+    },
+    {
+     "type": "lesson",
+     "chapter": 3,
+     "title": "Letter II"
+    },
+    {
+     "type": "lesson",
+     "chapter": 4,
+     "title": "Letter III"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
    "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Socratic seminar on the costs of unchecked ambition",
-    "Weekly writing prompt at assigned rigor"
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Quiz average plus one graded writing prompt"
   },
@@ -178,137 +279,311 @@
     5,
     6,
     7,
-    8,
-    9
+    8
    ],
    "chapterTitles": [
     "Letter IV",
     "Chapter I",
     "Chapter II",
-    "Chapter III",
-    "Chapter IV"
+    "Chapter III"
    ],
    "focus": "creation and responsibility",
+   "days": [
+    {
+     "type": "seminar",
+     "title": "Socratic seminar on the costs of unchecked ambition"
+    },
+    {
+     "type": "lesson",
+     "chapter": 5,
+     "title": "Letter IV"
+    },
+    {
+     "type": "lesson",
+     "chapter": 6,
+     "title": "Chapter I"
+    },
+    {
+     "type": "lesson",
+     "chapter": 7,
+     "title": "Chapter II"
+    },
+    {
+     "type": "lesson",
+     "chapter": 8,
+     "title": "Chapter III"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
-   "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
+   "readingLoad": "4 chapters in 4 90-minute lessons, plus 1 unit day(s) (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Annotation check and vocabulary game",
-    "Weekly writing prompt at assigned rigor"
+    "Socratic seminar on the costs of unchecked ambition",
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Quiz average plus one graded writing prompt"
   },
   {
    "week": 3,
    "chapters": [
+    9,
     10,
     11,
     12,
-    13,
-    14
+    13
    ],
    "chapterTitles": [
+    "Chapter IV",
     "Chapter V",
     "Chapter VI",
     "Chapter VII",
-    "Chapter VIII",
-    "Chapter IX"
+    "Chapter VIII"
    ],
    "focus": "isolation and the need for companionship",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 9,
+     "title": "Chapter IV"
+    },
+    {
+     "type": "lesson",
+     "chapter": 10,
+     "title": "Chapter V"
+    },
+    {
+     "type": "lesson",
+     "chapter": 11,
+     "title": "Chapter VI"
+    },
+    {
+     "type": "lesson",
+     "chapter": 12,
+     "title": "Chapter VII"
+    },
+    {
+     "type": "lesson",
+     "chapter": 13,
+     "title": "Chapter VIII"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
    "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Socratic seminar on isolation and the need for companionship",
-    "Weekly writing prompt at assigned rigor"
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Quiz average plus one graded writing prompt"
   },
   {
    "week": 4,
    "chapters": [
+    14,
     15,
     16,
-    17,
-    18,
-    19
+    17
    ],
    "chapterTitles": [
+    "Chapter IX",
     "Chapter X",
     "Chapter XI",
-    "Chapter XII",
-    "Chapter XIII",
-    "Chapter XIV"
+    "Chapter XII"
    ],
    "focus": "nature versus nurture",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 14,
+     "title": "Chapter IX"
+    },
+    {
+     "type": "seminar",
+     "title": "Socratic seminar on creation and responsibility"
+    },
+    {
+     "type": "lesson",
+     "chapter": 15,
+     "title": "Chapter X"
+    },
+    {
+     "type": "lesson",
+     "chapter": 16,
+     "title": "Chapter XI"
+    },
+    {
+     "type": "lesson",
+     "chapter": 17,
+     "title": "Chapter XII"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
-   "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
+   "readingLoad": "4 chapters in 4 90-minute lessons, plus 1 unit day(s) (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Annotation check and vocabulary game",
-    "Weekly writing prompt at assigned rigor"
+    "Socratic seminar on creation and responsibility",
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Quiz average plus one graded writing prompt"
   },
   {
    "week": 5,
    "chapters": [
+    18,
+    19,
     20,
     21,
-    22,
-    23,
-    24
+    22
    ],
    "chapterTitles": [
+    "Chapter XIII",
+    "Chapter XIV",
     "Chapter XV",
     "Chapter XVI",
-    "Chapter XVII",
-    "Chapter XVIII",
-    "Chapter XIX"
+    "Chapter XVII"
    ],
    "focus": "the sublime power of nature",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 18,
+     "title": "Chapter XIII"
+    },
+    {
+     "type": "lesson",
+     "chapter": 19,
+     "title": "Chapter XIV"
+    },
+    {
+     "type": "lesson",
+     "chapter": 20,
+     "title": "Chapter XV"
+    },
+    {
+     "type": "lesson",
+     "chapter": 21,
+     "title": "Chapter XVI"
+    },
+    {
+     "type": "lesson",
+     "chapter": 22,
+     "title": "Chapter XVII"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
    "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Socratic seminar on the sublime power of nature",
-    "Weekly writing prompt at assigned rigor"
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Quiz average plus one graded writing prompt"
   },
   {
    "week": 6,
    "chapters": [
+    23,
+    24,
     25,
-    26,
+    26
+   ],
+   "chapterTitles": [
+    "Chapter XVIII",
+    "Chapter XIX",
+    "Chapter XX",
+    "Chapter XXI"
+   ],
+   "focus": "the costs of unchecked ambition",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 23,
+     "title": "Chapter XVIII"
+    },
+    {
+     "type": "lesson",
+     "chapter": 24,
+     "title": "Chapter XIX"
+    },
+    {
+     "type": "seminar",
+     "title": "Socratic seminar on isolation and the need for companionship"
+    },
+    {
+     "type": "lesson",
+     "chapter": 25,
+     "title": "Chapter XX"
+    },
+    {
+     "type": "lesson",
+     "chapter": 26,
+     "title": "Chapter XXI"
+    }
+   ],
+   "lessons": 5,
+   "minutes": 450,
+   "readingLoad": "4 chapters in 4 90-minute lessons, plus 1 unit day(s) (450 minutes)",
+   "activities": [
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Chapter quizzes in the app",
+    "Socratic seminar on isolation and the need for companionship",
+    "Writing prompt at assigned rigor (one graded per week)"
+   ],
+   "assessment": "Quiz average plus one graded writing prompt"
+  },
+  {
+   "week": 7,
+   "chapters": [
     27,
     28,
     29
    ],
    "chapterTitles": [
-    "Chapter XX",
-    "Chapter XXI",
     "Chapter XXII",
     "Chapter XXIII",
     "Chapter XXIV"
    ],
-   "focus": "the costs of unchecked ambition",
+   "focus": "creation and responsibility",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 27,
+     "title": "Chapter XXII"
+    },
+    {
+     "type": "lesson",
+     "chapter": 28,
+     "title": "Chapter XXIII"
+    },
+    {
+     "type": "lesson",
+     "chapter": 29,
+     "title": "Chapter XXIV"
+    },
+    {
+     "type": "test",
+     "title": "Whole-book test (90 minutes)"
+    },
+    {
+     "type": "essay",
+     "title": "Final essay workshop and submission"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
-   "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
+   "readingLoad": "3 chapters in 3 90-minute lessons, plus 2 unit day(s) (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Annotation check and vocabulary game",
-    "Weekly writing prompt at assigned rigor"
+    "Whole-book test (90 minutes)",
+    "Final essay workshop and submission",
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Whole-book test and final essay"
   }
@@ -441,12 +716,12 @@
     "chapterIndex": 10,
     "prompt": "What month does the creature come to life?",
     "options": [
-     "December",
-     "June",
      "March",
-     "November"
+     "December",
+     "November",
+     "June"
     ],
-    "answer": 3,
+    "answer": 2,
     "element": "setting"
    },
    {
@@ -487,9 +762,9 @@
    },
    {
     "chapterIndex": 14,
-    "prompt": "What does Victor consider in his despair?",
+    "prompt": "What does Victor's despair lead him to contemplate?",
     "options": [
-     "Suicide",
+     "Ending his own life",
      "Becoming a monk",
      "Marrying at once",
      "Moving to England"
@@ -549,24 +824,24 @@
     "chapterIndex": 19,
     "prompt": "Why were the De Laceys exiled?",
     "options": [
-     "Felix helped a Turkish merchant escape",
      "They were scientists",
      "They stole money",
+     "Felix helped a Turkish merchant escape",
      "They insulted the king"
     ],
-    "answer": 0,
+    "answer": 2,
     "element": "plot"
    },
    {
     "chapterIndex": 20,
     "prompt": "Which book is NOT among those he finds?",
     "options": [
-     "The Sorrows of Young Werther",
-     "Plutarch's Lives",
      "Robinson Crusoe",
-     "Paradise Lost"
+     "Paradise Lost",
+     "The Sorrows of Young Werther",
+     "Plutarch's Lives"
     ],
-    "answer": 2,
+    "answer": 0,
     "element": "allusion"
    },
    {
@@ -575,10 +850,10 @@
     "options": [
      "To Ingolstadt",
      "To London",
-     "To the North Pole",
-     "Toward Geneva"
+     "Toward Geneva",
+     "To the North Pole"
     ],
-    "answer": 3,
+    "answer": 2,
     "element": "setting"
    },
    {
@@ -586,9 +861,9 @@
     "prompt": "What does the creature demand?",
     "options": [
      "A female companion",
+     "Victor's death",
      "To live in Geneva",
-     "Money",
-     "Victor's death"
+     "Money"
     ],
     "answer": 0,
     "element": "plot"
@@ -597,8 +872,8 @@
     "chapterIndex": 23,
     "prompt": "Why does Victor travel to England?",
     "options": [
-     "To study law",
      "To meet Walton",
+     "To study law",
      "To create the female in secret",
      "To visit his mother"
     ],
@@ -609,22 +884,22 @@
     "chapterIndex": 24,
     "prompt": "Where does Victor work on the second creature?",
     "options": [
-     "Oxford",
      "London",
-     "Edinburgh University",
-     "A remote island in the Orkneys"
+     "A remote island in the Orkneys",
+     "Oxford",
+     "Edinburgh University"
     ],
-    "answer": 3,
+    "answer": 1,
     "element": "setting"
    },
    {
     "chapterIndex": 25,
     "prompt": "Why does Victor destroy the female?",
     "options": [
-     "She is finished and dangerous",
+     "He runs out of materials",
      "He fears a race of devils",
      "The creature asks him",
-     "He runs out of materials"
+     "She is finished and dangerous"
     ],
     "answer": 1,
     "element": "conflict"
@@ -633,48 +908,48 @@
     "chapterIndex": 26,
     "prompt": "Who is the murdered man?",
     "options": [
-     "Henry Clerval",
-     "William",
      "Felix",
-     "Mr. Kirwin"
+     "Mr. Kirwin",
+     "Henry Clerval",
+     "William"
     ],
-    "answer": 0,
+    "answer": 2,
     "element": "plot"
    },
    {
     "chapterIndex": 27,
-    "prompt": "Where do the newlyweds spend their wedding night?",
+    "prompt": "Who travels with Victor to Paris and cares for him there?",
     "options": [
-     "Rome",
-     "Paris",
-     "Evian",
-     "London"
+     "Elizabeth",
+     "His father",
+     "Walton",
+     "Clerval"
     ],
-    "answer": 2,
-    "element": "setting"
+    "answer": 1,
+    "element": "plot"
    },
    {
     "chapterIndex": 28,
-    "prompt": "What does the creature leave for Victor during the pursuit?",
+    "prompt": "Where does Elizabeth's murder take place?",
     "options": [
-     "Taunting messages and food",
-     "A boat",
-     "Letters from Elizabeth",
-     "Money"
+     "On the boat",
+     "At the inn at Evian",
+     "In Paris",
+     "In Geneva"
     ],
-    "answer": 0,
-    "element": "plot"
+    "answer": 1,
+    "element": "setting"
    },
    {
     "chapterIndex": 29,
     "prompt": "What do Walton's crew demand?",
     "options": [
+     "More pay",
      "To find the creature",
      "To turn back south",
-     "More pay",
      "To land in Russia"
     ],
-    "answer": 1,
+    "answer": 2,
     "element": "plot"
    }
   ],
@@ -751,7 +1026,7 @@
    },
    {
     "n": 15,
-    "answer": "Suicide",
+    "answer": "Ending his own life",
     "element": "tone"
    },
    {
@@ -816,13 +1091,13 @@
    },
    {
     "n": 28,
-    "answer": "Evian",
-    "element": "setting"
+    "answer": "His father",
+    "element": "plot"
    },
    {
     "n": 29,
-    "answer": "Taunting messages and food",
-    "element": "plot"
+    "answer": "At the inn at Evian",
+    "element": "setting"
    },
    {
     "n": 30,
@@ -849,7 +1124,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Frankenstein teaches about the costs of unchecked ambition. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Frankenstein teaches about the costs of unchecked ambition. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -858,6 +1143,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Mary Shelley develops the costs of unchecked ambition in Frankenstein. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -867,6 +1162,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Mary Shelley develops the costs of unchecked ambition across Frankenstein. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -874,8 +1179,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Frankenstein (its order, turns and ending) shapes the meaning of the costs of unchecked ambition. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -885,62 +1203,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of the costs of unchecked ambition in Frankenstein. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Mary Shelley uses a recurring literary element to shape the meaning of the costs of unchecked ambition in Frankenstein. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Mary Shelley's choices in Frankenstein (a recurring element, structure and narration) shape a complex understanding of the costs of unchecked ambition, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Frankenstein's treatment of the costs of unchecked ambition in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on the costs of unchecked ambition in Frankenstein that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on the costs of unchecked ambition in Frankenstein that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on the costs of unchecked ambition in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on the costs of unchecked ambition in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about the costs of unchecked ambition in Frankenstein, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about the costs of unchecked ambition in Frankenstein, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the costs of unchecked ambition in Frankenstein, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the costs of unchecked ambition in Frankenstein, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -962,7 +1345,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Frankenstein teaches about creation and responsibility. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Frankenstein teaches about creation and responsibility. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -971,6 +1364,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Mary Shelley develops creation and responsibility in Frankenstein. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -980,6 +1383,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Mary Shelley develops creation and responsibility across Frankenstein. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -987,8 +1400,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Frankenstein (its order, turns and ending) shapes the meaning of creation and responsibility. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -998,62 +1424,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of creation and responsibility in Frankenstein. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Mary Shelley uses a recurring literary element to shape the meaning of creation and responsibility in Frankenstein. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Mary Shelley's choices in Frankenstein (a recurring element, structure and narration) shape a complex understanding of creation and responsibility, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Frankenstein's treatment of creation and responsibility in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on creation and responsibility in Frankenstein that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on creation and responsibility in Frankenstein that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on creation and responsibility in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on creation and responsibility in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about creation and responsibility in Frankenstein, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about creation and responsibility in Frankenstein, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on creation and responsibility in Frankenstein, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on creation and responsibility in Frankenstein, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -1075,7 +1566,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Frankenstein teaches about isolation and the need for companionship. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Frankenstein teaches about isolation and the need for companionship. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1084,6 +1585,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Mary Shelley develops isolation and the need for companionship in Frankenstein. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -1093,6 +1604,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Mary Shelley develops isolation and the need for companionship across Frankenstein. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -1100,8 +1621,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Frankenstein (its order, turns and ending) shapes the meaning of isolation and the need for companionship. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -1111,62 +1645,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of isolation and the need for companionship in Frankenstein. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Mary Shelley uses a recurring literary element to shape the meaning of isolation and the need for companionship in Frankenstein. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Mary Shelley's choices in Frankenstein (a recurring element, structure and narration) shape a complex understanding of isolation and the need for companionship, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Frankenstein's treatment of isolation and the need for companionship in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on isolation and the need for companionship in Frankenstein that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on isolation and the need for companionship in Frankenstein that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on isolation and the need for companionship in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on isolation and the need for companionship in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about isolation and the need for companionship in Frankenstein, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about isolation and the need for companionship in Frankenstein, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on isolation and the need for companionship in Frankenstein, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on isolation and the need for companionship in Frankenstein, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -1188,7 +1787,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Frankenstein teaches about nature versus nurture. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Frankenstein teaches about nature versus nurture. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1197,6 +1806,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Mary Shelley develops nature versus nurture in Frankenstein. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -1206,6 +1825,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Mary Shelley develops nature versus nurture across Frankenstein. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -1213,8 +1842,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Frankenstein (its order, turns and ending) shapes the meaning of nature versus nurture. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -1224,62 +1866,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of nature versus nurture in Frankenstein. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Mary Shelley uses a recurring literary element to shape the meaning of nature versus nurture in Frankenstein. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Mary Shelley's choices in Frankenstein (a recurring element, structure and narration) shape a complex understanding of nature versus nurture, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Frankenstein's treatment of nature versus nurture in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on nature versus nurture in Frankenstein that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on nature versus nurture in Frankenstein that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on nature versus nurture in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on nature versus nurture in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about nature versus nurture in Frankenstein, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about nature versus nurture in Frankenstein, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on nature versus nurture in Frankenstein, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on nature versus nurture in Frankenstein, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -1301,7 +2008,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Frankenstein teaches about the sublime power of nature. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Frankenstein teaches about the sublime power of nature. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1310,6 +2027,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Mary Shelley develops the sublime power of nature in Frankenstein. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -1319,6 +2046,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Mary Shelley develops the sublime power of nature across Frankenstein. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -1326,8 +2063,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Frankenstein (its order, turns and ending) shapes the meaning of the sublime power of nature. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -1337,62 +2087,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of the sublime power of nature in Frankenstein. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Mary Shelley uses a recurring literary element to shape the meaning of the sublime power of nature in Frankenstein. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Mary Shelley's choices in Frankenstein (a recurring element, structure and narration) shape a complex understanding of the sublime power of nature, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Frankenstein's treatment of the sublime power of nature in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on the sublime power of nature in Frankenstein that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on the sublime power of nature in Frankenstein that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on the sublime power of nature in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on the sublime power of nature in Frankenstein. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about the sublime power of nature in Frankenstein, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about the sublime power of nature in Frankenstein, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the sublime power of nature in Frankenstein, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the sublime power of nature in Frankenstein, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [

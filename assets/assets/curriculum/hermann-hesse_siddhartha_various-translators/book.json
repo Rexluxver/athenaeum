@@ -1,8 +1,9 @@
 {
- "schemaVersion": 1,
+ "schemaVersion": 2,
  "bookId": "hermann-hesse_siddhartha_various-translators",
  "title": "Siddhartha",
  "author": "Hermann Hesse",
+ "edition": "English translation by Gunther Olesch, Anke Dreher, Amy Coulter, Stefan Langer and Semyon Chaichenets (Project Gutenberg #2500; Standard Ebooks edition)",
  "chapterCount": 12,
  "chapterFiles": [
   "chapters/000.json",
@@ -29,12 +30,16 @@
   "title": "Siddhartha unit",
   "author": "Hermann Hesse",
   "year": 1922,
+  "edition": "English translation by Gunther Olesch, Anke Dreher, Amy Coulter, Stefan Langer and Semyon Chaichenets (Project Gutenberg #2500; Standard Ebooks edition)",
+  "editionNote": "Translated from the German by Gunther Olesch, Anke Dreher, Amy Coulter, Stefan Langer and Semyon Chaichenets for Project Gutenberg (ebook #2500); this text is the Standard Ebooks edition, believed to be in the U.S. public domain, with Standard Ebooks' own contributions dedicated under CC0 1.0. Word-choice analysis studies the translators' English, not Hesse's German.",
   "gradeBand": "Grades 9–12 (also 7–8; scales to graduate via rigor levels)",
+  "middleSchoolTrack": "Excerpt-based support track: these novels are above the grades 6–8 text-complexity band, so Middle School prompts work from teacher-selected passages.",
   "weeks": 3,
   "lessons": 12,
+  "unitDays": 15,
   "lessonMinutes": 90,
   "lessonsPerWeek": 5,
-  "schedule": "12 lessons of 90 minutes, 5 a week (block schedule), 3 weeks",
+  "schedule": "12 chapter lessons plus 1 seminar day(s), a test day and an essay day: 15 class days of 90 minutes, 5 a week (block schedule), 3 weeks",
   "segments": [
    {
     "phase": "Bell-ringer",
@@ -101,24 +106,94 @@
    "RL.9-10.2",
    "RL.9-10.3",
    "RL.9-10.4",
+   "RL.11-12.1",
    "RL.11-12.2",
+   "RL.11-12.5",
    "W.9-10.1",
    "W.11-12.1",
-   "RL.7.2",
-   "AP.RL.2",
-   "CF.RL.2",
-   "C2.RL.2",
-   "C3.RL.2",
-   "C4.RL.2",
-   "GR.RL.2"
+   "RL.7.2"
   ],
+  "standardsByFramework": {
+   "ccss": [
+    "RL.7.2",
+    "RL.9-10.1",
+    "RL.9-10.2",
+    "RL.9-10.3",
+    "RL.9-10.4",
+    "RL.9-10.5",
+    "RL.11-12.1",
+    "RL.11-12.2",
+    "RL.11-12.4",
+    "RL.11-12.5",
+    "W.7.1",
+    "W.9-10.1",
+    "W.11-12.1",
+    "L.9-10.4",
+    "L.11-12.4"
+   ],
+   "IN": [
+    "7.RC.2",
+    "7.RC.3",
+    "7.W.1",
+    "9-10.RC.1",
+    "9-10.RC.2",
+    "9-10.RC.3",
+    "9-10.RC.9",
+    "9-10.RC.12",
+    "9-10.W.1",
+    "11-12.RC.1",
+    "11-12.RC.3",
+    "11-12.RC.4",
+    "11-12.RC.11",
+    "11-12.RC.13",
+    "11-12.W.1"
+   ],
+   "dualCredit": [
+    "ICC-WC-1.1",
+    "ICC-WC-1.3",
+    "ICC-WC-1.4",
+    "ICC-WC-1.5",
+    "ICC-WC-1.7"
+   ],
+   "ap": [
+    "AP-LIT.CHR",
+    "AP-LIT.SET",
+    "AP-LIT.STR",
+    "AP-LIT.NAR",
+    "AP-LIT.FIG",
+    "AP-LIT.LAN"
+   ],
+   "cambridge": [
+    "CAIE-9695.AO1",
+    "CAIE-9695.AO2",
+    "CAIE-9695.AO3",
+    "CAIE-9695.AO4",
+    "CAIE-9695.AO5"
+   ],
+   "lel": [
+    "LeL-C2-LIT-1",
+    "LeL-C3-LIT-1",
+    "LeL-C4-LIT-1",
+    "LeL-GR-LIT-1"
+   ]
+  },
+  "frameworks": {
+   "ccss": "Common Core State Standards (ELA-Literacy), thecorestandards.org",
+   "IN": "Indiana Academic Standards, English/Language Arts (2023), IDOE",
+   "dualCredit": "Indiana College Core, Written Communication outcomes 1.1–1.7 (CHE guidance); ICC-WC-x IDs are ours",
+   "ap": "AP English Literature and Composition big ideas (our summaries; apcentral.collegeboard.org)",
+   "cambridge": "Cambridge International AS & A Level Literature in English 9695 assessment objectives (our summaries; cambridgeinternational.org)",
+   "lel": "Liber et Libri program outcome, not an official standard"
+  },
+  "contentNote": "Cultural representation: Siddhartha is a German novelist's adaptation of Hindu and Buddhist ideas, not a sacred or authoritative text. Discuss whose perspective shapes the story, and frame the caste system as a system of harm.",
   "assessments": [
    "Daily chapter quizzes (auto-graded)",
    "Weekly writing prompt (rubric)",
-   "Whole-book test",
-   "Final essay"
+   "Socratic seminars (scheduled days)",
+   "Whole-book test (scheduled day)",
+   "Final essay (scheduled day); College Sophomore and above write one essay of the five"
   ],
-  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level.",
+  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
   "materials": [
    "Liber et Libri reader",
    "Annotation journal",
@@ -143,14 +218,40 @@
     "Kamala"
    ],
    "focus": "the search for self-knowledge",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 0,
+     "title": "The Son of the Brahmin"
+    },
+    {
+     "type": "lesson",
+     "chapter": 1,
+     "title": "With the Samanas"
+    },
+    {
+     "type": "lesson",
+     "chapter": 2,
+     "title": "Gotama"
+    },
+    {
+     "type": "lesson",
+     "chapter": 3,
+     "title": "Awakening"
+    },
+    {
+     "type": "lesson",
+     "chapter": 4,
+     "title": "Kamala"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
    "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Socratic seminar on the search for self-knowledge",
-    "Weekly writing prompt at assigned rigor"
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Quiz average plus one graded writing prompt"
   },
@@ -160,47 +261,99 @@
     5,
     6,
     7,
-    8,
-    9
+    8
    ],
    "chapterTitles": [
     "With the Childlike People",
     "Sansara",
     "By the River",
-    "The Ferryman",
-    "The Son"
+    "The Ferryman"
    ],
    "focus": "experience versus teaching",
+   "days": [
+    {
+     "type": "seminar",
+     "title": "Socratic seminar on the search for self-knowledge"
+    },
+    {
+     "type": "lesson",
+     "chapter": 5,
+     "title": "With the Childlike People"
+    },
+    {
+     "type": "lesson",
+     "chapter": 6,
+     "title": "Sansara"
+    },
+    {
+     "type": "lesson",
+     "chapter": 7,
+     "title": "By the River"
+    },
+    {
+     "type": "lesson",
+     "chapter": 8,
+     "title": "The Ferryman"
+    }
+   ],
    "lessons": 5,
    "minutes": 450,
-   "readingLoad": "5 chapters in 5 90-minute lessons (450 minutes)",
+   "readingLoad": "4 chapters in 4 90-minute lessons, plus 1 unit day(s) (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Annotation check and vocabulary game",
-    "Weekly writing prompt at assigned rigor"
+    "Socratic seminar on the search for self-knowledge",
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Quiz average plus one graded writing prompt"
   },
   {
    "week": 3,
    "chapters": [
+    9,
     10,
     11
    ],
    "chapterTitles": [
+    "The Son",
     "Om",
     "Govinda"
    ],
    "focus": "the unity of all things",
-   "lessons": 2,
-   "minutes": 180,
-   "readingLoad": "2 chapters in 2 90-minute lessons (180 minutes)",
+   "days": [
+    {
+     "type": "lesson",
+     "chapter": 9,
+     "title": "The Son"
+    },
+    {
+     "type": "lesson",
+     "chapter": 10,
+     "title": "Om"
+    },
+    {
+     "type": "lesson",
+     "chapter": 11,
+     "title": "Govinda"
+    },
+    {
+     "type": "test",
+     "title": "Whole-book test (90 minutes)"
+    },
+    {
+     "type": "essay",
+     "title": "Final essay workshop and submission"
+    }
+   ],
+   "lessons": 5,
+   "minutes": 450,
+   "readingLoad": "3 chapters in 3 90-minute lessons, plus 2 unit day(s) (450 minutes)",
    "activities": [
-    "Daily 90-minute lesson: bell-ringer, vocabulary and etymology, background, I do / We do / You do, discussion, exit ticket, closure",
+    "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Chapter quizzes in the app",
-    "Socratic seminar on the unity of all things",
-    "Weekly writing prompt at assigned rigor"
+    "Whole-book test (90 minutes)",
+    "Final essay workshop and submission",
+    "Writing prompt at assigned rigor (one graded per week)"
    ],
    "assessment": "Whole-book test and final essay"
   }
@@ -226,33 +379,33 @@
     "prompt": "What do the Samanas practice?",
     "options": [
      "Farming",
-     "Trading goods",
+     "Fasting and self-denial",
      "Warfare",
-     "Fasting and self-denial"
+     "Trading goods"
     ],
-    "answer": 3,
+    "answer": 1,
     "element": "setting"
    },
    {
     "chapterIndex": 2,
     "prompt": "Where do they hear Gotama teach?",
     "options": [
-     "In a palace",
-     "In the grove of Jetavana",
      "In a city market",
-     "By the river"
+     "In a palace",
+     "By the river",
+     "In the grove of Jetavana"
     ],
-    "answer": 1,
+    "answer": 3,
     "element": "setting"
    },
    {
     "chapterIndex": 3,
     "prompt": "What does Siddhartha resolve to learn from?",
     "options": [
+     "His father",
      "The Samanas",
-     "The Buddha",
      "Himself",
-     "His father"
+     "The Buddha"
     ],
     "answer": 2,
     "element": "theme"
@@ -261,12 +414,12 @@
     "chapterIndex": 4,
     "prompt": "Who ferries Siddhartha across the river?",
     "options": [
-     "Kamaswami",
-     "Gotama",
+     "Govinda",
      "Vasudeva",
-     "Govinda"
+     "Kamaswami",
+     "Gotama"
     ],
-    "answer": 2,
+    "answer": 1,
     "element": "characterization"
    },
    {
@@ -285,72 +438,72 @@
     "chapterIndex": 6,
     "prompt": "What happens to Siddhartha over the years in the city?",
     "options": [
+     "He becomes a ferryman",
      "He becomes poor",
      "He becomes greedy and weary",
-     "He becomes a ferryman",
      "He becomes a holy man"
     ],
-    "answer": 1,
+    "answer": 2,
     "element": "theme"
    },
    {
     "chapterIndex": 7,
-    "prompt": "What does Siddhartha intend to do at the river?",
+    "prompt": "What does Siddhartha's despair lead him toward at the river?",
     "options": [
-     "Bathe",
-     "Fish",
-     "Drown himself",
-     "Cross it"
+     "Crossing it",
+     "Fishing",
+     "Bathing",
+     "Ending his life in the water"
     ],
-    "answer": 2,
+    "answer": 3,
     "element": "plot"
    },
    {
     "chapterIndex": 8,
     "prompt": "Whose assistant does Siddhartha become?",
     "options": [
-     "Gotama's",
-     "Govinda's",
      "Kamaswami's",
-     "Vasudeva's"
+     "Gotama's",
+     "Vasudeva's",
+     "Govinda's"
     ],
-    "answer": 3,
+    "answer": 2,
     "element": "plot"
    },
    {
     "chapterIndex": 9,
     "prompt": "How does the son treat Siddhartha?",
     "options": [
-     "With love",
+     "With contempt",
      "With fear",
      "With silence",
-     "With contempt"
+     "With love"
     ],
-    "answer": 3,
+    "answer": 0,
     "element": "characterization"
    },
    {
     "chapterIndex": 10,
     "prompt": "Whom does Siddhartha's reflection resemble?",
     "options": [
+     "His father",
      "His son",
      "Govinda",
-     "His father",
      "Gotama"
     ],
-    "answer": 2,
+    "answer": 0,
     "element": "symbolism"
    },
    {
     "chapterIndex": 11,
     "prompt": "Who comes to the ferry at the end?",
     "options": [
+     "Govinda",
      "Gotama",
-     "Kamala",
      "Siddhartha's son",
-     "Govinda"
+     "Kamala"
     ],
-    "answer": 3,
+    "answer": 0,
     "element": "plot"
    }
   ],
@@ -392,7 +545,7 @@
    },
    {
     "n": 8,
-    "answer": "Drown himself",
+    "answer": "Ending his life in the water",
     "element": "plot"
    },
    {
@@ -435,7 +588,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Siddhartha teaches about the search for self-knowledge. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Siddhartha teaches about the search for self-knowledge. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -444,6 +607,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Hermann Hesse develops the search for self-knowledge in Siddhartha. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -453,6 +626,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Hermann Hesse develops the search for self-knowledge across Siddhartha. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -460,8 +643,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Siddhartha (its order, turns and ending) shapes the meaning of the search for self-knowledge. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -471,62 +667,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of the search for self-knowledge in Siddhartha. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Hermann Hesse uses a recurring literary element to shape the meaning of the search for self-knowledge in Siddhartha. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Hermann Hesse's choices in Siddhartha (a recurring element, structure and narration) shape a complex understanding of the search for self-knowledge, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Siddhartha's treatment of the search for self-knowledge in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on the search for self-knowledge in Siddhartha that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on the search for self-knowledge in Siddhartha that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on the search for self-knowledge in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on the search for self-knowledge in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about the search for self-knowledge in Siddhartha, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about the search for self-knowledge in Siddhartha, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the search for self-knowledge in Siddhartha, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the search for self-knowledge in Siddhartha, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -548,7 +809,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Siddhartha teaches about experience versus teaching. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Siddhartha teaches about experience versus teaching. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -557,6 +828,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Hermann Hesse develops experience versus teaching in Siddhartha. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -566,6 +847,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Hermann Hesse develops experience versus teaching across Siddhartha. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -573,8 +864,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Siddhartha (its order, turns and ending) shapes the meaning of experience versus teaching. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -584,62 +888,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of experience versus teaching in Siddhartha. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Hermann Hesse uses a recurring literary element to shape the meaning of experience versus teaching in Siddhartha. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Hermann Hesse's choices in Siddhartha (a recurring element, structure and narration) shape a complex understanding of experience versus teaching, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Siddhartha's treatment of experience versus teaching in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on experience versus teaching in Siddhartha that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on experience versus teaching in Siddhartha that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on experience versus teaching in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on experience versus teaching in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about experience versus teaching in Siddhartha, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about experience versus teaching in Siddhartha, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on experience versus teaching in Siddhartha, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on experience versus teaching in Siddhartha, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -661,7 +1030,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Siddhartha teaches about the unity of all things. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Siddhartha teaches about the unity of all things. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -670,6 +1049,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Hermann Hesse develops the unity of all things in Siddhartha. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -679,6 +1068,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Hermann Hesse develops the unity of all things across Siddhartha. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -686,8 +1085,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Siddhartha (its order, turns and ending) shapes the meaning of the unity of all things. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -697,62 +1109,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of the unity of all things in Siddhartha. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Hermann Hesse uses a recurring literary element to shape the meaning of the unity of all things in Siddhartha. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Hermann Hesse's choices in Siddhartha (a recurring element, structure and narration) shape a complex understanding of the unity of all things, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Siddhartha's treatment of the unity of all things in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on the unity of all things in Siddhartha that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on the unity of all things in Siddhartha that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on the unity of all things in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on the unity of all things in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about the unity of all things in Siddhartha, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about the unity of all things in Siddhartha, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the unity of all things in Siddhartha, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the unity of all things in Siddhartha, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -774,7 +1251,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Siddhartha teaches about the river and time. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Siddhartha teaches about the river and time. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -783,6 +1270,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Hermann Hesse develops the river and time in Siddhartha. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -792,6 +1289,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Hermann Hesse develops the river and time across Siddhartha. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -799,8 +1306,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Siddhartha (its order, turns and ending) shapes the meaning of the river and time. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -810,62 +1330,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of the river and time in Siddhartha. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Hermann Hesse uses a recurring literary element to shape the meaning of the river and time in Siddhartha. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Hermann Hesse's choices in Siddhartha (a recurring element, structure and narration) shape a complex understanding of the river and time, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Siddhartha's treatment of the river and time in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on the river and time in Siddhartha that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on the river and time in Siddhartha that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on the river and time in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on the river and time in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about the river and time in Siddhartha, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about the river and time in Siddhartha, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the river and time in Siddhartha, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on the river and time in Siddhartha, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
@@ -887,7 +1472,17 @@
       "W.7.1",
       "RL.7.2"
      ],
-     "text": "Write a five-paragraph essay explaining what Siddhartha teaches about love and attachment. Use at least three quotations from different parts of the book.",
+     "alignment": {
+      "ccss": [
+       "W.7.1",
+       "RL.7.2"
+      ],
+      "IN": [
+       "7.W.1",
+       "7.RC.2"
+      ]
+     },
+     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Siddhartha teaches about love and attachment. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -896,6 +1491,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write a multi-paragraph essay explaining how Hermann Hesse develops love and attachment in Siddhartha. Use evidence from the beginning, middle and end of the book.",
      "wordTarget": 800
     },
@@ -905,6 +1510,16 @@
       "W.9-10.1",
       "RL.9-10.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.9-10.1",
+       "RL.9-10.2"
+      ],
+      "IN": [
+       "9-10.W.1",
+       "9-10.RC.2"
+      ]
+     },
      "text": "Write an argumentative essay analyzing how Hermann Hesse develops love and attachment across Siddhartha. Trace the idea through at least three chapters and address a counterclaim.",
      "wordTarget": 1000
     },
@@ -912,8 +1527,21 @@
      "label": "HS Junior",
      "standards": [
       "W.11-12.1",
-      "RL.11-12.2"
+      "RL.11-12.5"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.5"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.3"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO2"
+      ]
+     },
      "text": "Write an analytical essay on how the structure of Siddhartha (its order, turns and ending) shapes the meaning of love and attachment. Discuss at least one place where the book leaves the question open.",
      "wordTarget": 1100
     },
@@ -923,62 +1551,127 @@
       "W.11-12.1",
       "RL.11-12.2"
      ],
+     "alignment": {
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO5"
+      ]
+     },
      "text": "Write a sustained argument comparing two interpretations of love and attachment in Siddhartha. Weigh the evidence for each and defend the stronger reading in a mature, well-organized essay.",
      "wordTarget": 1200
     },
     "ap": {
      "label": "AP",
      "standards": [
-      "AP.W.1",
-      "AP.RL.2"
+      "AP-LIT.LAN"
      ],
-     "text": "In a well-organized essay, analyze how Hermann Hesse uses a recurring literary element to shape the meaning of love and attachment in Siddhartha. Do not merely summarize.",
-     "wordTarget": 900
+     "alignment": {
+      "ap": [
+       "AP-LIT.LAN"
+      ],
+      "ccss": [
+       "W.11-12.1",
+       "RL.11-12.2"
+      ],
+      "IN": [
+       "11-12.W.1",
+       "11-12.RC.1"
+      ],
+      "cambridge": [
+       "CAIE-9695.AO3",
+       "CAIE-9695.AO4"
+      ]
+     },
+     "text": "Write a literary argument: develop a defensible thesis about how Hermann Hesse's choices in Siddhartha (a recurring element, structure and narration) shape a complex understanding of love and attachment, weigh at least one competing reading, and sustain commentary on well-chosen evidence. Do not merely summarize.",
+     "wordTarget": 1300
     },
     "collegeFreshman": {
      "label": "College Freshman",
      "standards": [
-      "CF.W.1",
-      "CF.RL.2"
+      "ICC-WC-1.5",
+      "ICC-WC-1.4",
+      "ICC-WC-1.7"
      ],
+     "alignment": {
+      "dualCredit": [
+       "ICC-WC-1.5",
+       "ICC-WC-1.4",
+       "ICC-WC-1.7"
+      ]
+     },
      "text": "Write a researched essay (4–6 pages) that places Siddhartha's treatment of love and attachment in its historical context, using at least two scholarly sources.",
      "wordTarget": 1600
     },
     "collegeSophomore": {
      "label": "College Sophomore",
      "standards": [
-      "C2.W.1",
-      "C2.RL.2"
+      "LeL-C2-W-1",
+      "LeL-C2-LIT-1"
      ],
-     "text": "Write a contextual essay (6–8 pages) on love and attachment in Siddhartha that reads the novel against its genre and period and engages two published critics.",
-     "wordTarget": 2200
+     "alignment": {
+      "lel": [
+       "LeL-C2-W-1",
+       "LeL-C2-LIT-1"
+      ]
+     },
+     "text": "Write a contextual essay (6–8 pages) on love and attachment in Siddhartha that reads the novel against its genre and period and engages two published critics. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2200,
+     "chooseOne": true
     },
     "collegeJunior": {
      "label": "College Junior",
      "standards": [
-      "C3.W.1",
-      "C3.RL.2"
+      "LeL-C3-W-1",
+      "LeL-C3-LIT-1"
      ],
-     "text": "Write a theoretically informed essay (8–10 pages) on love and attachment in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits.",
-     "wordTarget": 2800
+     "alignment": {
+      "lel": [
+       "LeL-C3-W-1",
+       "LeL-C3-LIT-1"
+      ]
+     },
+     "text": "Write a theoretically informed essay (8–10 pages) on love and attachment in Siddhartha. Name your critical method, apply it closely, and acknowledge its limits. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 2800,
+     "chooseOne": true
     },
     "collegeSenior": {
      "label": "College Senior",
      "standards": [
-      "C4.W.1",
-      "C4.RL.2"
+      "LeL-C4-W-1",
+      "LeL-C4-LIT-1"
      ],
-     "text": "Write a capstone research paper (12–15 pages) with an original argument about love and attachment in Siddhartha, engaging at least four scholarly sources in Chicago style.",
-     "wordTarget": 4000
+     "alignment": {
+      "lel": [
+       "LeL-C4-W-1",
+       "LeL-C4-LIT-1"
+      ]
+     },
+     "text": "Write a research paper (12–15 pages) with an original argument about love and attachment in Siddhartha, engaging at least four scholarly sources in Chicago style. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 4000,
+     "chooseOne": true
     },
     "graduate": {
      "label": "Graduate / PhD",
      "standards": [
-      "GR.W.1",
-      "GR.RL.2"
+      "LeL-GR-W-1",
+      "LeL-GR-LIT-1"
      ],
-     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on love and attachment in Siddhartha, engaging the relevant scholarship and textual history.",
-     "wordTarget": 6000
+     "alignment": {
+      "lel": [
+       "LeL-GR-W-1",
+       "LeL-GR-LIT-1"
+      ]
+     },
+     "text": "Write a seminar paper (15–20 pages) that intervenes in the critical conversation on love and attachment in Siddhartha, engaging the relevant scholarship and textual history. At this level students write ONE of the unit's essays (choose one theme), not all five.",
+     "wordTarget": 6000,
+     "chooseOne": true
     }
    },
    "rubric": [
