@@ -1,5 +1,5 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "bookId": "jane-austen_pride-and-prejudice",
  "title": "Pride and Prejudice",
  "author": "Jane Austen",
@@ -82,6 +82,178 @@
   "edition": null,
   "editionNote": null,
   "gradeBand": "Grades 9–12 (also 7–8; scales to graduate via rigor levels)",
+  "form": "novel",
+  "questioning": {
+   "perLesson": 30,
+   "tiers": {
+    "literal": 10,
+    "inferential": 10,
+    "evaluative": 10
+   },
+   "dok": "Webb’s Depth of Knowledge 1–4",
+   "strategies": [
+    {
+     "id": "waitTime",
+     "label": "Wait time",
+     "howTo": "Pause at least 3 seconds after asking (5 to 10 for DOK 3 and 4 questions) before calling on anyone, and pause again after a student answers so others can add on. Call on students at random, not only volunteers."
+    },
+    {
+     "id": "thinkPairShare",
+     "label": "Think-pair-share",
+     "howTo": "One minute of silent thinking or jotting, two minutes with a partner, then pairs report. Use it for every DOK 3 and 4 question so all students rehearse an answer."
+    },
+    {
+     "id": "followUp",
+     "label": "Follow-up probes",
+     "howTo": "Answer a response with a probe instead of a verdict: ask for the line that proves it, ask \"why?\" or \"how do you know?\", or ask another student to agree, extend or challenge."
+    },
+    {
+     "id": "studentGenerated",
+     "label": "Student-generated questions",
+     "howTo": "Students write their own questions at each level (a recall, a \"why/how\" and a \"should/what if\" question), trade them, and answer a classmate's. The teacher picks one or two for the whole class."
+    },
+    {
+     "id": "turnAndTalk",
+     "label": "Turn and talk",
+     "howTo": "A 60-second partner check for literal questions, so every student says the answer aloud before one is called on."
+    },
+    {
+     "id": "coldCallWithSupport",
+     "label": "Cold call with support",
+     "howTo": "Call on a student by name after the wait time; if they are stuck, offer a choice of two answers or let them \"phone a friend\" and come back to them."
+    },
+    {
+     "id": "socraticCircle",
+     "label": "Socratic circle",
+     "howTo": "Inner circle discusses for 5 minutes while the outer circle tracks evidence and questions; then swap."
+    },
+    {
+     "id": "fourCorners",
+     "label": "Four corners / take a stand",
+     "howTo": "Students move to Agree / Somewhat agree / Somewhat disagree / Disagree and must cite a line to defend the position; anyone may move after hearing evidence."
+    }
+   ],
+   "tierSupports": {
+    "literal": {
+     "label": "Literal / recall",
+     "scaffold": "Sentence starter: “In this chapter, … because the text says …”",
+     "extension": "Note how this detail is set up or echoed elsewhere in Pride and Prejudice.",
+     "followUps": [
+      "Where exactly does it say that? Read us the line.",
+      "Who can add a detail that comes just before or after?"
+     ]
+    },
+    "inferential": {
+     "label": "Inferential / analytical",
+     "scaffold": "Sentence starter: “The text says …, which suggests … because …”",
+     "extension": "Test your reading against one critical approach (formalist, historicist, psychoanalytic, feminist) and say what it adds.",
+     "followUps": [
+      "What in the text makes you think so?",
+      "Does anyone read that line differently? What would change?"
+     ]
+    },
+    "evaluative": {
+     "label": "Evaluative / synthesis / creative",
+     "scaffold": "Sentence starter: “I (dis)agree that … because …; someone might object that …, but …”",
+     "extension": "Situate your judgment in a critical conversation about Pride and Prejudice: whose reading does yours support or challenge?",
+     "followUps": [
+      "What is the strongest argument against your position?",
+      "What evidence would make you change your mind?"
+     ]
+    }
+   },
+   "rigorLevels": {
+    "middleSchool": {
+     "mix": {
+      "literal": 6,
+      "inferential": 4,
+      "evaluative": 2
+     },
+     "note": "Excerpt-based: read the passage aloud first; use the scaffolds; accept partial answers and build with probes."
+    },
+    "hsFreshman": {
+     "mix": {
+      "literal": 5,
+      "inferential": 4,
+      "evaluative": 3
+     },
+     "note": "Use the scaffolds for literal and inferential items; require one quotation for every inferential answer."
+    },
+    "hsSophomore": {
+     "mix": {
+      "literal": 4,
+      "inferential": 5,
+      "evaluative": 3
+     },
+     "note": "Require a quotation and an explanation; push evaluative answers to address a counterclaim."
+    },
+    "hsJunior": {
+     "mix": {
+      "literal": 3,
+      "inferential": 5,
+      "evaluative": 4
+     },
+     "note": "Emphasize structure and ambiguity; students should name where the text leaves matters open."
+    },
+    "hsSenior": {
+     "mix": {
+      "literal": 3,
+      "inferential": 4,
+      "evaluative": 5
+     },
+     "note": "Weigh competing interpretations; students should defend the stronger reading."
+    },
+    "ap": {
+     "mix": {
+      "literal": 2,
+      "inferential": 5,
+      "evaluative": 5
+     },
+     "note": "Treat each evaluative item as a thesis rehearsal: defensible claim, purposeful evidence, commentary on choices."
+    },
+    "collegeFreshman": {
+     "mix": {
+      "literal": 2,
+      "inferential": 4,
+      "evaluative": 6
+     },
+     "note": "Add the extension: connect answers to historical context and one secondary perspective."
+    },
+    "collegeSophomore": {
+     "mix": {
+      "literal": 2,
+      "inferential": 4,
+      "evaluative": 6
+     },
+     "note": "Use the extensions: genre and period conventions, and a published critic."
+    },
+    "collegeJunior": {
+     "mix": {
+      "literal": 1,
+      "inferential": 4,
+      "evaluative": 7
+     },
+     "note": "Use the extensions: name a critical method and test it against the passage."
+    },
+    "collegeSenior": {
+     "mix": {
+      "literal": 1,
+      "inferential": 4,
+      "evaluative": 7
+     },
+     "note": "Use the extensions: connect the chapter to the whole work and the scholarship."
+    },
+    "graduate": {
+     "mix": {
+      "literal": 1,
+      "inferential": 3,
+      "evaluative": 8
+     },
+     "note": "Use the extensions: position answers in a critical conversation and the textual history."
+    }
+   },
+   "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
+  },
   "middleSchoolTrack": "Excerpt-based support track: these novels are above the grades 6–8 text-complexity band, so Middle School prompts work from teacher-selected passages.",
   "weeks": 14,
   "lessons": 61,
