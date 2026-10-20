@@ -19,3 +19,18 @@ were downloaded as 1280 px thumbnails and resized for the app.
 
 assets/scene/classroom/desk.png is our own work (CC0), rendered procedurally by
 tool/mockups/make_desk.py (no third-party imagery).
+
+## Word-game backdrops (added Oct 19, 2026)
+
+Same basis: Wikimedia Commons marks each file **Public domain** (PD-Art; every
+artist died before 1956, in fact before 1925). Checked Oct 19, 2026 via the
+Commons API (LicenseShortName = "Public domain"); downloaded as 1920 px
+thumbnails and resized to 1600 px on the long side.
+
+| File | Painting | Artist | Date | Used for | Source |
+|---|---|---|---|---|---|
+| fragonard_the_reader.jpg | The Reader (Young Girl Reading) | Jean-Honoré Fragonard (1732–1806) | c. 1770 | Wordle-style | https://commons.wikimedia.org/wiki/File:Fragonard,_The_Reader.jpg (National Gallery of Art, Washington) |
+| seurat_grande_jatte.jpg | A Sunday on La Grande Jatte | Georges Seurat (1859–1891) | 1884–1886 | Connections | https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg (Art Institute of Chicago) |
+| renoir_moulin_de_la_galette.jpg | Bal du moulin de la Galette | Pierre-Auguste Renoir (1841–1919) | 1876 | Crossword | https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir,_Le_Moulin_de_la_Galette.jpg (Musée d'Orsay) |
+| renoir_boating_party.jpg | Luncheon of the Boating Party | Pierre-Auguste Renoir (1841–1919) | 1880–1881 | Fill in the blank | https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg (Phillips Collection) |
+| caillebotte_paris_street.jpg | Paris Street; Rainy Day | Gustave Caillebotte (1848–1894) | 1877 | Matching | https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg (Art Institute of Chicago) |
