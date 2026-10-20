@@ -34,3 +34,18 @@ thumbnails and resized to 1600 px on the long side.
 | renoir_moulin_de_la_galette.jpg | Bal du moulin de la Galette | Pierre-Auguste Renoir (1841–1919) | 1876 | Crossword | https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir,_Le_Moulin_de_la_Galette.jpg (Musée d'Orsay) |
 | renoir_boating_party.jpg | Luncheon of the Boating Party | Pierre-Auguste Renoir (1841–1919) | 1880–1881 | Fill in the blank | https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg (Phillips Collection) |
 | caillebotte_paris_street.jpg | Paris Street; Rainy Day | Gustave Caillebotte (1848–1894) | 1877 | Matching | https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg (Art Institute of Chicago) |
+
+## Seasonal Classroom scenes (added Oct 20, 2026)
+
+The Classroom painting changes with the season (lib/config/seasons.dart);
+summer keeps the Monet *Poppy Field* above. A gentle snowfall is drawn on top
+in code (no image) from December 1 to January 6. Same basis: Wikimedia
+Commons marks each painting **Public domain** (PD-Art; Claude Monet died in
+1926). Checked Oct 20, 2026 via the Commons API; resized to at most 1600 px.
+
+| File | Painting | Artist | Date | Season | Source |
+|---|---|---|---|---|---|
+| monet_the_magpie.jpg | The Magpie (La Pie) | Claude Monet (1840–1926) | 1868–1869 | Winter | https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg (Public domain; original: Musée d'Orsay, Paris; Google Art Project reproduction) |
+| monet_springtime.jpg | Springtime | Claude Monet (1840–1926) | 1872 | Spring | https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Springtime_-_Google_Art_Project.jpg (Public domain; original: Walters Art Museum, Baltimore; Google Art Project reproduction) |
+| monet_poppy_field.jpg | Poppy Field, Argenteuil | Claude Monet (1840–1926) | 1873 | Summer | see above |
+| monet_autumn_argenteuil.jpg | Autumn Effect at Argenteuil | Claude Monet (1840–1926) | 1873 | Autumn | https://commons.wikimedia.org/wiki/File:Claude_Monet_027.jpg (Public domain, PD-Art; original: The Courtauld, London) |
