@@ -377,7 +377,7 @@
    },
    "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
   },
-  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Middle School prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
+  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Scaffolded-support prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
   "weeks": 1,
   "lessons": 1,
   "unitDays": 2,
@@ -437,11 +437,11 @@
    "What does The Monkey's Paw suggest about grief?"
   ],
   "objectives": [
-   "Cite textual evidence to support analysis of what the text says explicitly and implicitly.",
-   "Determine themes and analyze their development over the course of the story.",
-   "Analyze how characters, setting and point of view interact.",
-   "Determine the meaning of words and phrases as they are used in the text.",
-   "Write arguments to support claims with clear reasons and relevant evidence."
+   "Students will cite at least 2 quotations, with locations, to support each written claim about what the text says explicitly and implicitly (scored on the writing-prompt rubric).",
+   "Students will trace one theme across at least 3 sections of the story in the final paper, earning at least 70 of 100 rubric points.",
+   "Students will explain how characters, setting and point of view interact in at least 3 exit tickets, each meeting the claim-evidence-reasoning criteria.",
+   "Students will determine the in-context meaning of taught vocabulary, scoring at least 80% on the vocabulary items of the story quizzes.",
+   "Students will write an argument with a clear claim, reasons and relevant evidence, scoring at least 80% on the unit test's short-answer scoring guides."
   ],
   "standards": [
    "RL.9-10.1",
@@ -535,7 +535,7 @@
    "Whole-story test (scheduled day)",
    "Final essay (scheduled day); College Sophomore and above write one essay of the five"
   ],
-  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
+  "differentiation": "Every prompt and quiz has eleven rigor levels (Scaffolded support through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
   "materials": [
    "Liber et Libri reader",
    "Annotation journal",
@@ -582,15 +582,31 @@
   "items": [
    {
     "type": "mc",
-    "prompt": "What is the third wish implied to be?",
+    "prompt": "Who brings the paw?",
     "options": [
-     "That the thing at the door go away",
-     "For Herbert's happiness",
-     "To die",
-     "For more money"
+     "Herbert",
+     "Sergeant-Major Morris",
+     "The company man",
+     "A fakir"
     ],
-    "answer": 0,
-    "element": "foreshadowing",
+    "answer": 1,
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the first wish?",
+    "options": [
+     "Herbert's return",
+     "Two hundred pounds",
+     "A new house",
+     "Long life"
+    ],
+    "answer": 1,
+    "element": "plot",
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
@@ -610,50 +626,50 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 3
-   },
-   {
-    "type": "mc",
-    "prompt": "Who brings the paw?",
-    "options": [
-     "Herbert",
-     "Sergeant-Major Morris",
-     "The company man",
-     "A fakir"
-    ],
-    "answer": 1,
-    "element": "plot",
-    "level": "recall",
-    "dok": 1,
-    "chapterIndex": 0,
     "n": 4
    },
    {
     "type": "mc",
-    "prompt": "What is the first wish?",
+    "prompt": "What is the third wish implied to be?",
     "options": [
-     "Herbert's return",
-     "Two hundred pounds",
-     "A new house",
-     "Long life"
+     "That the thing at the door go away",
+     "For Herbert's happiness",
+     "To die",
+     "For more money"
     ],
-    "answer": 1,
-    "element": "plot",
+    "answer": 0,
+    "element": "foreshadowing",
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 8
+    "n": 9
+   },
+   {
+    "type": "mc",
+    "prompt": "How does the money arrive?",
+    "options": [
+     "As an inheritance",
+     "In a letter from Morris",
+     "As a lottery prize",
+     "As compensation for Herbert's death"
+    ],
+    "answer": 3,
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
     "type": "mc",
     "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
     "options": [
-     "What fifteen years of solitude teach",
-     "A story told to protect a livelihood",
+     "Waking into a changed nation",
      "Wishes that defy fate",
-     "Racial pride destroying love"
+     "Self-destruction and the urge to do wrong",
+     "Friendship tested by duty"
     ],
-    "answer": 2,
+    "answer": 1,
     "element": "theme",
     "level": "inference",
     "dok": 2,
@@ -662,14 +678,30 @@
    },
    {
     "type": "mc",
-    "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+    "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
     "options": [
-     "Point of view",
-     "Plot",
+     "Symbolism",
      "Alliteration",
-     "Irony"
+     "Plot",
+     "Foreshadowing"
     ],
     "answer": 3,
+    "element": "foreshadowing",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+    "options": [
+     "Characterization",
+     "Irony",
+     "Alliteration",
+     "Symbolism"
+    ],
+    "answer": 1,
     "element": "irony",
     "level": "analysis",
     "dok": 3,
@@ -680,31 +712,41 @@
   "answerKey": [
    {
     "n": 1,
-    "answer": "That the thing at the door go away",
-    "element": "foreshadowing"
-   },
-   {
-    "n": 2,
-    "answer": "That fate rules people's lives",
-    "element": "theme"
-   },
-   {
-    "n": 3,
     "answer": "Sergeant-Major Morris",
     "element": "plot"
    },
    {
-    "n": 4,
+    "n": 2,
     "answer": "Two hundred pounds",
     "element": "plot"
    },
    {
+    "n": 3,
+    "answer": "That fate rules people's lives",
+    "element": "theme"
+   },
+   {
+    "n": 4,
+    "answer": "That the thing at the door go away",
+    "element": "foreshadowing"
+   },
+   {
     "n": 5,
+    "answer": "As compensation for Herbert's death",
+    "element": "irony"
+   },
+   {
+    "n": 6,
     "answer": "Wishes that defy fate",
     "element": "theme"
    },
    {
-    "n": 6,
+    "n": 7,
+    "answer": "Foreshadowing",
+    "element": "foreshadowing"
+   },
+   {
+    "n": 8,
     "answer": "Irony",
     "element": "irony"
    }
@@ -714,16 +756,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She came _____ across the room toward him. \"I want it,\" she said, quietly. \"You've not destroyed it?\"”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
       "wordBank": [
-       "stumbling",
+       "resounded",
        "sideboard",
-       "undecided",
-       "dangling"
+       "dangling",
+       "undecided"
       ],
-      "answer": "stumbling",
+      "answer": "dangling",
       "accept": [
-       "stumbling"
+       "dangling"
       ],
       "element": "diction",
       "level": "recall",
@@ -733,14 +775,14 @@
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
-      "answer": "frantically",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
+      "answer": "wanted",
       "accept": [
-       "frantically",
-       "frantically"
+       "wanted",
+       "wanted"
       ],
       "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
+      "location": "The Monkey's Paw, paragraph 25",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -763,89 +805,19 @@
       "n": 3
      },
      {
-      "type": "mc",
-      "prompt": "Who brings the paw?",
-      "options": [
-       "Herbert",
-       "Sergeant-Major Morris",
-       "The company man",
-       "A fakir"
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
+      "answer": "frantically",
+      "accept": [
+       "frantically",
+       "frantically"
       ],
-      "answer": 1,
-      "element": "plot",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
-      "answer": "wanted",
-      "accept": [
-       "wanted",
-       "wanted"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was _____ on the sideboard with a carelessness which betokened no great belief in its virtues.”",
-      "wordBank": [
-       "sideboard",
-       "pitched",
-       "undecided",
-       "dangling"
-      ],
-      "answer": "pitched",
-      "accept": [
-       "pitched"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
-      "wordBank": [
-       "undecided",
-       "sideboard",
-       "introducing",
-       "dangling"
-      ],
-      "answer": "introducing",
-      "accept": [
-       "introducing"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "What did the fakir want the paw to show?",
-      "options": [
-       "That magic is good",
-       "That fate rules people's lives",
-       "That India is rich",
-       "That wishes are free"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "mc",
@@ -861,7 +833,39 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who brings the paw?",
+      "options": [
+       "Herbert",
+       "Sergeant-Major Morris",
+       "The company man",
+       "A fakir"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What did the fakir want the paw to show?",
+      "options": [
+       "That magic is good",
+       "That fate rules people's lives",
+       "That India is rich",
+       "That wishes are free"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
      },
      {
       "type": "fill",
@@ -876,7 +880,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 10
+      "n": 8
      },
      {
       "type": "mc",
@@ -892,26 +896,26 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 11
+      "n": 9
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Morris said the things happened so naturally,\" said his father, \"that you might if you so wished attribute it to _____.\"”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the _____ with a carelessness which betokened no great belief in its virtues.”",
       "wordBank": [
-       "sideboard",
        "dangling",
-       "coincidence",
-       "undecided"
+       "undecided",
+       "sideboard",
+       "resounded"
       ],
-      "answer": "coincidence",
+      "answer": "sideboard",
       "accept": [
-       "coincidence"
+       "sideboard"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 12
+      "n": 10
      },
      {
       "type": "short",
@@ -922,7 +926,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 13,
+      "n": 11,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -939,7 +943,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 12,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -951,17 +955,17 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
       "options": [
-       "What fifteen years of solitude teach",
-       "A story told to protect a livelihood",
+       "Waking into a changed nation",
        "Wishes that defy fate",
-       "Racial pride destroying love"
+       "Self-destruction and the urge to do wrong",
+       "Friendship tested by duty"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 15
+      "n": 13
      },
      {
       "type": "short",
@@ -972,7 +976,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 16,
+      "n": 14,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -989,13 +993,45 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 17,
+      "n": 15,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
        "partial": "1 point: partly correct or no supporting detail.",
        "zero": "0: incorrect or blank."
       }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "options": [
+       "Symbolism",
+       "Alliteration",
+       "Plot",
+       "Foreshadowing"
+      ],
+      "answer": 3,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "options": [
+       "Characterization",
+       "Irony",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
      },
      {
       "type": "short",
@@ -1019,13 +1055,13 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "stumbling"
+      "answer": "dangling"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "frantically"
+      "answer": "wanted"
      },
      {
       "n": 3,
@@ -1035,498 +1071,75 @@
      },
      {
       "n": 4,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Sergeant-Major Morris"
+      "answer": "frantically"
      },
      {
       "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "wanted"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "pitched"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "introducing"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That fate rules people's lives"
-     },
-     {
-      "n": 9,
       "type": "mc",
       "level": "recall",
       "answer": "Two hundred pounds"
      },
      {
-      "n": 10,
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sergeant-Major Morris"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That fate rules people's lives"
+     },
+     {
+      "n": 8,
       "type": "fill",
       "level": "recall",
       "answer": "hundred"
      },
      {
-      "n": 11,
+      "n": 9,
       "type": "mc",
       "level": "recall",
       "answer": "That the thing at the door go away"
      },
      {
-      "n": 12,
+      "n": 10,
       "type": "fill",
       "level": "recall",
-      "answer": "coincidence"
+      "answer": "sideboard"
      },
      {
-      "n": 13,
+      "n": 11,
       "type": "short",
       "level": "inference",
       "answer": "Theme."
      },
      {
-      "n": 14,
+      "n": 12,
       "type": "short",
       "level": "inference",
       "answer": "The wish."
      },
      {
-      "n": 15,
+      "n": 13,
       "type": "mc",
       "level": "inference",
       "answer": "Wishes that defy fate"
      },
      {
-      "n": 16,
+      "n": 14,
       "type": "short",
       "level": "analysis",
       "answer": "The end."
      },
      {
-      "n": 17,
+      "n": 15,
       "type": "short",
       "level": "analysis",
       "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
-     }
-    ],
-    "mix": {
-     "recall": 12,
-     "inference": 3,
-     "analysis": 2,
-     "synthesis": 1
-    },
-    "types": {
-     "mc": 6,
-     "fill": 7,
-     "short": 5
-    }
-   },
-   "hsFreshman": {
-    "items": [
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
-      "answer": "wanted",
-      "accept": [
-       "wanted",
-       "wanted"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
-      "answer": "hundred",
-      "accept": [
-       "hundred",
-       "hundred"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "What did the fakir want the paw to show?",
-      "options": [
-       "That magic is good",
-       "That fate rules people's lives",
-       "That India is rich",
-       "That wishes are free"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She came _____ across the room toward him. \"I want it,\" she said, quietly. \"You've not destroyed it?\"”",
-      "wordBank": [
-       "stumbling",
-       "sideboard",
-       "undecided",
-       "dangling"
-      ],
-      "answer": "stumbling",
-      "accept": [
-       "stumbling"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was _____ on the sideboard with a carelessness which betokened no great belief in its virtues.”",
-      "wordBank": [
-       "sideboard",
-       "pitched",
-       "undecided",
-       "dangling"
-      ],
-      "answer": "pitched",
-      "accept": [
-       "pitched"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
-      "answer": "frantically",
-      "accept": [
-       "frantically",
-       "frantically"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the third wish implied to be?",
-      "options": [
-       "That the thing at the door go away",
-       "For Herbert's happiness",
-       "To die",
-       "For more money"
-      ],
-      "answer": 0,
-      "element": "foreshadowing",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the first wish?",
-      "options": [
-       "Herbert's return",
-       "Two hundred pounds",
-       "A new house",
-       "Long life"
-      ],
-      "answer": 1,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "mc",
-      "prompt": "Who brings the paw?",
-      "options": [
-       "Herbert",
-       "Sergeant-Major Morris",
-       "The company man",
-       "A fakir"
-      ],
-      "answer": 1,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
-      "wordBank": [
-       "undecided",
-       "sideboard",
-       "introducing",
-       "dangling"
-      ],
-      "answer": "introducing",
-      "accept": [
-       "introducing"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "mc",
-      "prompt": "How does the money arrive?",
-      "options": [
-       "As an inheritance",
-       "In a letter from Morris",
-       "As a lottery prize",
-       "As compensation for Herbert's death"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
-      "options": [
-       "What fifteen years of solitude teach",
-       "A story told to protect a livelihood",
-       "Wishes that defy fate",
-       "Racial pride destroying love"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
-      "expected": "The wish.",
-      "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
-      "expected": "Theme.",
-      "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
-      "expected": "The end.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
-      "options": [
-       "Characterization",
-       "Foreshadowing",
-       "Symbolism",
-       "Allusion"
-      ],
-      "answer": 1,
-      "element": "foreshadowing",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
-      "options": [
-       "Point of view",
-       "Plot",
-       "Alliteration",
-       "Irony"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 17
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
-      "expected": "The wish.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "wanted"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "hundred"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That fate rules people's lives"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "stumbling"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "pitched"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "frantically"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That the thing at the door go away"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Two hundred pounds"
-     },
-     {
-      "n": 9,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Sergeant-Major Morris"
-     },
-     {
-      "n": 10,
-      "type": "fill",
-      "level": "recall",
-      "answer": "introducing"
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "recall",
-      "answer": "As compensation for Herbert's death"
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Wishes that defy fate"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "inference",
-      "answer": "The wish."
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "inference",
-      "answer": "Theme."
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The end."
      },
      {
       "n": 16,
@@ -1544,124 +1157,23 @@
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "The wish."
+      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
      }
     ],
     "mix": {
-     "recall": 11,
+     "recall": 10,
      "inference": 3,
-     "analysis": 3,
+     "analysis": 4,
      "synthesis": 1
     },
     "types": {
      "mc": 8,
-     "fill": 6,
-     "short": 4
+     "fill": 5,
+     "short": 5
     }
    },
-   "hsSophomore": {
+   "hsFreshman": {
     "items": [
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
-      "answer": "frantically",
-      "accept": [
-       "frantically",
-       "frantically"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the third wish implied to be?",
-      "options": [
-       "That the thing at the door go away",
-       "For Herbert's happiness",
-       "To die",
-       "For more money"
-      ],
-      "answer": 0,
-      "element": "foreshadowing",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "What did the fakir want the paw to show?",
-      "options": [
-       "That magic is good",
-       "That fate rules people's lives",
-       "That India is rich",
-       "That wishes are free"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "Who brings the paw?",
-      "options": [
-       "Herbert",
-       "Sergeant-Major Morris",
-       "The company man",
-       "A fakir"
-      ],
-      "answer": 1,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Morris said the things happened so naturally,\" said his father, \"that you might if you so wished attribute it to _____.\"”",
-      "wordBank": [
-       "sideboard",
-       "dangling",
-       "coincidence",
-       "undecided"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was _____ on the sideboard with a carelessness which betokened no great belief in its virtues.”",
-      "wordBank": [
-       "sideboard",
-       "pitched",
-       "undecided",
-       "dangling"
-      ],
-      "answer": "pitched",
-      "accept": [
-       "pitched"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
      {
       "type": "fill",
       "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
@@ -1675,7 +1187,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 1
      },
      {
       "type": "mc",
@@ -1691,26 +1203,23 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 8
+      "n": 2
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
-      "wordBank": [
-       "undecided",
-       "sideboard",
-       "introducing",
-       "dangling"
+      "type": "mc",
+      "prompt": "What is the third wish implied to be?",
+      "options": [
+       "That the thing at the door go away",
+       "For Herbert's happiness",
+       "To die",
+       "For more money"
       ],
-      "answer": "introducing",
-      "accept": [
-       "introducing"
-      ],
-      "element": "diction",
+      "answer": 0,
+      "element": "foreshadowing",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
+      "n": 3
      },
      {
       "type": "fill",
@@ -1722,6 +1231,527 @@
       ],
       "element": "diction",
       "location": "The Monkey's Paw, paragraph 25",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What did the fakir want the paw to show?",
+      "options": [
+       "That magic is good",
+       "That fate rules people's lives",
+       "That India is rich",
+       "That wishes are free"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
+      "answer": "frantically",
+      "accept": [
+       "frantically",
+       "frantically"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who brings the paw?",
+      "options": [
+       "Herbert",
+       "Sergeant-Major Morris",
+       "The company man",
+       "A fakir"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "sideboard",
+       "dangling",
+       "undecided"
+      ],
+      "answer": "dangling",
+      "accept": [
+       "dangling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the money arrive?",
+      "options": [
+       "As an inheritance",
+       "In a letter from Morris",
+       "As a lottery prize",
+       "As compensation for Herbert's death"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the _____ with a carelessness which betokened no great belief in its virtues.”",
+      "wordBank": [
+       "dangling",
+       "undecided",
+       "sideboard",
+       "resounded"
+      ],
+      "answer": "sideboard",
+      "accept": [
+       "sideboard"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
+      "options": [
+       "Waking into a changed nation",
+       "Wishes that defy fate",
+       "Self-destruction and the urge to do wrong",
+       "Friendship tested by duty"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
+      "expected": "The wish.",
+      "element": "characterization",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "options": [
+       "Symbolism",
+       "Alliteration",
+       "Plot",
+       "Foreshadowing"
+      ],
+      "answer": 3,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "options": [
+       "Characterization",
+       "Irony",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
+      "expected": "The end.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "hundred"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Two hundred pounds"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That the thing at the door go away"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wanted"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That fate rules people's lives"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frantically"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sergeant-Major Morris"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dangling"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As compensation for Herbert's death"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sideboard"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Wishes that defy fate"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The wish."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The end."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who brings the paw?",
+      "options": [
+       "Herbert",
+       "Sergeant-Major Morris",
+       "The company man",
+       "A fakir"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the first wish?",
+      "options": [
+       "Herbert's return",
+       "Two hundred pounds",
+       "A new house",
+       "Long life"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the _____ with a carelessness which betokened no great belief in its virtues.”",
+      "wordBank": [
+       "dangling",
+       "undecided",
+       "sideboard",
+       "resounded"
+      ],
+      "answer": "sideboard",
+      "accept": [
+       "sideboard"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What did the fakir want the paw to show?",
+      "options": [
+       "That magic is good",
+       "That fate rules people's lives",
+       "That India is rich",
+       "That wishes are free"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "sideboard",
+       "dangling",
+       "undecided"
+      ],
+      "answer": "dangling",
+      "accept": [
+       "dangling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
+      "answer": "hundred",
+      "accept": [
+       "hundred",
+       "hundred"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
+      "answer": "wanted",
+      "accept": [
+       "wanted",
+       "wanted"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
+      "answer": "frantically",
+      "accept": [
+       "frantically",
+       "frantically"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the third wish implied to be?",
+      "options": [
+       "That the thing at the door go away",
+       "For Herbert's happiness",
+       "To die",
+       "For more money"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the money arrive?",
+      "options": [
+       "As an inheritance",
+       "In a letter from Morris",
+       "As a lottery prize",
+       "As compensation for Herbert's death"
+      ],
+      "answer": 3,
+      "element": "irony",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -1748,12 +1778,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
       "options": [
-       "What fifteen years of solitude teach",
-       "A story told to protect a livelihood",
+       "Waking into a changed nation",
        "Wishes that defy fate",
-       "Racial pride destroying love"
+       "Self-destruction and the urge to do wrong",
+       "Friendship tested by duty"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -1778,21 +1808,20 @@
       }
      },
      {
-      "type": "short",
-      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "location": "The Monkey's Paw, paragraph 25",
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "options": [
+       "Symbolism",
+       "Alliteration",
+       "Plot",
+       "Foreshadowing"
+      ],
+      "answer": 3,
+      "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
+      "n": 14
      },
      {
       "type": "short",
@@ -1815,12 +1844,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
       "options": [
-       "Point of view",
-       "Plot",
+       "Characterization",
+       "Irony",
        "Alliteration",
-       "Irony"
+       "Symbolism"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -1829,10 +1858,10 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) shape its meaning? Consider a second, competing reading.",
-      "expected": "Theme.",
+      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
+      "expected": "The wish.",
       "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
+      "location": "The Monkey's Paw, paragraph 56",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -1864,63 +1893,63 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "frantically"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That the thing at the door go away"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That fate rules people's lives"
-     },
-     {
-      "n": 4,
       "type": "mc",
       "level": "recall",
       "answer": "Sergeant-Major Morris"
      },
      {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "coincidence"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "pitched"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "hundred"
-     },
-     {
-      "n": 8,
+      "n": 2,
       "type": "mc",
       "level": "recall",
       "answer": "Two hundred pounds"
      },
      {
-      "n": 9,
+      "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "introducing"
+      "answer": "sideboard"
      },
      {
-      "n": 10,
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That fate rules people's lives"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dangling"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "hundred"
+     },
+     {
+      "n": 7,
       "type": "fill",
       "level": "recall",
       "answer": "wanted"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frantically"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That the thing at the door go away"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As compensation for Herbert's death"
      },
      {
       "n": 11,
@@ -1942,9 +1971,9 @@
      },
      {
       "n": 14,
-      "type": "short",
+      "type": "mc",
       "level": "analysis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+      "answer": "Foreshadowing"
      },
      {
       "n": 15,
@@ -1962,7 +1991,7 @@
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Theme."
+      "answer": "The wish."
      },
      {
       "n": 18,
@@ -1978,23 +2007,27 @@
      "synthesis": 2
     },
     "types": {
-     "mc": 6,
-     "fill": 6,
-     "short": 6
+     "mc": 8,
+     "fill": 5,
+     "short": 5
     }
    },
    "hsJunior": {
     "items": [
      {
       "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
-      "answer": "frantically",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "sideboard",
+       "dangling",
+       "undecided"
+      ],
+      "answer": "dangling",
       "accept": [
-       "frantically",
-       "frantically"
+       "dangling"
       ],
       "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2002,18 +2035,34 @@
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
-      "answer": "hundred",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
+      "answer": "wanted",
       "accept": [
-       "hundred",
-       "hundred"
+       "wanted",
+       "wanted"
       ],
       "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
+      "location": "The Monkey's Paw, paragraph 25",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What did the fakir want the paw to show?",
+      "options": [
+       "That magic is good",
+       "That fate rules people's lives",
+       "That India is rich",
+       "That wishes are free"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
      },
      {
       "type": "mc",
@@ -2029,7 +2078,41 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 3
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the _____ with a carelessness which betokened no great belief in its virtues.”",
+      "wordBank": [
+       "dangling",
+       "undecided",
+       "sideboard",
+       "resounded"
+      ],
+      "answer": "sideboard",
+      "accept": [
+       "sideboard"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
+      "answer": "hundred",
+      "accept": [
+       "hundred",
+       "hundred"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
      },
      {
       "type": "mc",
@@ -2045,45 +2128,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
-      "wordBank": [
-       "undecided",
-       "sideboard",
-       "introducing",
-       "dangling"
-      ],
-      "answer": "introducing",
-      "accept": [
-       "introducing"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was _____ on the sideboard with a carelessness which betokened no great belief in its virtues.”",
-      "wordBank": [
-       "sideboard",
-       "pitched",
-       "undecided",
-       "dangling"
-      ],
-      "answer": "pitched",
-      "accept": [
-       "pitched"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
+      "n": 7
      },
      {
       "type": "mc",
@@ -2099,45 +2144,38 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She came _____ across the room toward him. \"I want it,\" she said, quietly. \"You've not destroyed it?\"”",
-      "wordBank": [
-       "stumbling",
-       "sideboard",
-       "undecided",
-       "dangling"
-      ],
-      "answer": "stumbling",
-      "accept": [
-       "stumbling"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 8
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Morris said the things happened so naturally,\" said his father, \"that you might if you so wished attribute it to _____.\"”",
-      "wordBank": [
-       "sideboard",
-       "dangling",
-       "coincidence",
-       "undecided"
-      ],
-      "answer": "coincidence",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
+      "answer": "frantically",
       "accept": [
-       "coincidence"
+       "frantically",
+       "frantically"
       ],
       "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
+      "options": [
+       "Waking into a changed nation",
+       "Wishes that defy fate",
+       "Self-destruction and the urge to do wrong",
+       "Friendship tested by duty"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
      },
      {
       "type": "short",
@@ -2148,29 +2186,13 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 10,
+      "n": 11,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
        "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
        "zero": "0: incorrect, off-text or blank."
       }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
-      "options": [
-       "What fifteen years of solitude teach",
-       "A story told to protect a livelihood",
-       "Wishes that defy fate",
-       "Racial pride destroying love"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 11
      },
      {
       "type": "short",
@@ -2191,15 +2213,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
       "options": [
-       "Point of view",
-       "Plot",
+       "Symbolism",
        "Alliteration",
-       "Irony"
+       "Plot",
+       "Foreshadowing"
       ],
       "answer": 3,
-      "element": "irony",
+      "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -2207,15 +2229,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
       "options": [
        "Characterization",
-       "Foreshadowing",
-       "Symbolism",
-       "Allusion"
+       "Irony",
+       "Alliteration",
+       "Symbolism"
       ],
       "answer": 1,
-      "element": "foreshadowing",
+      "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -2294,67 +2316,67 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "frantically"
+      "answer": "dangling"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "hundred"
+      "answer": "wanted"
      },
      {
       "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "Two hundred pounds"
+      "answer": "That fate rules people's lives"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "That the thing at the door go away"
+      "answer": "Two hundred pounds"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "introducing"
+      "answer": "sideboard"
      },
      {
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "pitched"
+      "answer": "hundred"
      },
      {
       "n": 7,
       "type": "mc",
       "level": "recall",
-      "answer": "As compensation for Herbert's death"
+      "answer": "That the thing at the door go away"
      },
      {
       "n": 8,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "stumbling"
+      "answer": "As compensation for Herbert's death"
      },
      {
       "n": 9,
       "type": "fill",
       "level": "recall",
-      "answer": "coincidence"
+      "answer": "frantically"
      },
      {
       "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "Theme."
-     },
-     {
-      "n": 11,
       "type": "mc",
       "level": "inference",
       "answer": "Wishes that defy fate"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
      },
      {
       "n": 12,
@@ -2366,13 +2388,13 @@
       "n": 13,
       "type": "mc",
       "level": "analysis",
-      "answer": "Irony"
+      "answer": "Foreshadowing"
      },
      {
       "n": 14,
       "type": "mc",
       "level": "analysis",
-      "answer": "Foreshadowing"
+      "answer": "Irony"
      },
      {
       "n": 15,
@@ -2406,112 +2428,31 @@
      "synthesis": 2
     },
     "types": {
-     "mc": 6,
-     "fill": 6,
+     "mc": 7,
+     "fill": 5,
      "short": 6
     }
    },
    "hsSenior": {
     "items": [
      {
-      "type": "mc",
-      "prompt": "Who brings the paw?",
-      "options": [
-       "Herbert",
-       "Sergeant-Major Morris",
-       "The company man",
-       "A fakir"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "sideboard",
+       "dangling",
+       "undecided"
       ],
-      "answer": 1,
-      "element": "plot",
+      "answer": "dangling",
+      "accept": [
+       "dangling"
+      ],
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Morris said the things happened so naturally,\" said his father, \"that you might if you so wished attribute it to _____.\"”",
-      "wordBank": [
-       "sideboard",
-       "dangling",
-       "coincidence",
-       "undecided"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
-      "answer": "frantically",
-      "accept": [
-       "frantically",
-       "frantically"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the third wish implied to be?",
-      "options": [
-       "That the thing at the door go away",
-       "For Herbert's happiness",
-       "To die",
-       "For more money"
-      ],
-      "answer": 0,
-      "element": "foreshadowing",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
-      "answer": "wanted",
-      "accept": [
-       "wanted",
-       "wanted"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She came _____ across the room toward him. \"I want it,\" she said, quietly. \"You've not destroyed it?\"”",
-      "wordBank": [
-       "stumbling",
-       "sideboard",
-       "undecided",
-       "dangling"
-      ],
-      "answer": "stumbling",
-      "accept": [
-       "stumbling"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
      },
      {
       "type": "mc",
@@ -2527,22 +2468,97 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the money arrive?",
+      "options": [
+       "As an inheritance",
+       "In a letter from Morris",
+       "As a lottery prize",
+       "As compensation for Herbert's death"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What did the fakir want the paw to show?",
+      "options": [
+       "That magic is good",
+       "That fate rules people's lives",
+       "That India is rich",
+       "That wishes are free"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
-      "wordBank": [
-       "undecided",
-       "sideboard",
-       "introducing",
-       "dangling"
-      ],
-      "answer": "introducing",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
+      "answer": "hundred",
       "accept": [
-       "introducing"
+       "hundred",
+       "hundred"
       ],
       "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the third wish implied to be?",
+      "options": [
+       "That the thing at the door go away",
+       "For Herbert's happiness",
+       "To die",
+       "For more money"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
+      "answer": "frantically",
+      "accept": [
+       "frantically",
+       "frantically"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who brings the paw?",
+      "options": [
+       "Herbert",
+       "Sergeant-Major Morris",
+       "The company man",
+       "A fakir"
+      ],
+      "answer": 1,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2552,12 +2568,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
       "options": [
-       "What fifteen years of solitude teach",
-       "A story told to protect a livelihood",
+       "Waking into a changed nation",
        "Wishes that defy fate",
-       "Racial pride destroying love"
+       "Self-destruction and the urge to do wrong",
+       "Friendship tested by duty"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -2566,10 +2582,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
-      "expected": "Theme.",
+      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
+      "expected": "The wish.",
       "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 25",
+      "location": "The Monkey's Paw, paragraph 56",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -2583,10 +2599,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
-      "expected": "The wish.",
+      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
       "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 56",
+      "location": "The Monkey's Paw, paragraph 25",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -2600,35 +2616,19 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
-      "options": [
-       "Point of view",
-       "Plot",
-       "Alliteration",
-       "Irony"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
       "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
       "options": [
-       "Characterization",
-       "Foreshadowing",
        "Symbolism",
-       "Allusion"
+       "Alliteration",
+       "Plot",
+       "Foreshadowing"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 13
+      "n": 12
      },
      {
       "type": "short",
@@ -2639,13 +2639,29 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 13,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
        "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
        "zero": "0: incorrect, off-text or blank."
       }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "options": [
+       "Characterization",
+       "Irony",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
      },
      {
       "type": "short",
@@ -2666,10 +2682,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) shape its meaning? Consider a second, competing reading.",
-      "expected": "Theme.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
+      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2699,9 +2714,10 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 25",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2717,51 +2733,51 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Sergeant-Major Morris"
+      "answer": "dangling"
      },
      {
       "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "coincidence"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "frantically"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That the thing at the door go away"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "wanted"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "stumbling"
-     },
-     {
-      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "Two hundred pounds"
      },
      {
-      "n": 8,
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As compensation for Herbert's death"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That fate rules people's lives"
+     },
+     {
+      "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "introducing"
+      "answer": "hundred"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That the thing at the door go away"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frantically"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sergeant-Major Morris"
      },
      {
       "n": 9,
@@ -2773,31 +2789,31 @@
       "n": 10,
       "type": "short",
       "level": "inference",
-      "answer": "Theme."
+      "answer": "The wish."
      },
      {
       "n": 11,
       "type": "short",
       "level": "inference",
-      "answer": "The wish."
+      "answer": "Theme."
      },
      {
       "n": 12,
       "type": "mc",
       "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
       "answer": "Foreshadowing"
      },
      {
-      "n": 14,
+      "n": 13,
       "type": "short",
       "level": "analysis",
       "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
      },
      {
       "n": 15,
@@ -2809,7 +2825,7 @@
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Theme."
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
      },
      {
       "n": 17,
@@ -2821,7 +2837,7 @@
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+      "answer": "Theme."
      }
     ],
     "mix": {
@@ -2831,8 +2847,8 @@
      "synthesis": 3
     },
     "types": {
-     "mc": 6,
-     "fill": 5,
+     "mc": 8,
+     "fill": 3,
      "short": 7
     }
    },
@@ -2855,19 +2871,16 @@
       "n": 1
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She came _____ across the room toward him. \"I want it,\" she said, quietly. \"You've not destroyed it?\"”",
-      "wordBank": [
-       "dangling",
-       "stumbling",
-       "sideboard",
-       "undecided"
+      "type": "mc",
+      "prompt": "What is the first wish?",
+      "options": [
+       "Long life",
+       "Herbert's return",
+       "A new house",
+       "Two hundred pounds"
       ],
-      "answer": "stumbling",
-      "accept": [
-       "stumbling"
-      ],
-      "element": "diction",
+      "answer": 3,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2875,69 +2888,37 @@
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
-      "answer": "frantically",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
+      "answer": "hundred",
       "accept": [
-       "frantically",
-       "frantically"
+       "hundred",
+       "hundred"
       ],
       "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
+      "location": "The Monkey's Paw, paragraph 56",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 3
      },
      {
-      "type": "mc",
-      "prompt": "In the line “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the sideboard with a carelessness which betokened no great belief…”, what does “sideboard” most nearly mean?",
-      "options": [
-       "ring or echo with sound",
-       "a long dining-room cabinet with a flat top",
-       "hang freely",
-       "not brought to a conclusion; subject to further thought"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "undecided",
+       "dangling",
+       "sideboard"
       ],
-      "answer": 1,
+      "answer": "dangling",
+      "accept": [
+       "dangling"
+      ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the third wish implied to be?",
-      "options": [
-       "For more money",
-       "For Herbert's happiness",
-       "To die",
-       "That the thing at the door go away"
-      ],
-      "answer": 3,
-      "element": "foreshadowing",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was _____ on the sideboard with a carelessness which betokened no great belief in its virtues.”",
-      "wordBank": [
-       "sideboard",
-       "undecided",
-       "dangling",
-       "pitched"
-      ],
-      "answer": "pitched",
-      "accept": [
-       "pitched"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
      },
      {
       "type": "mc",
@@ -2953,426 +2934,35 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
-      "options": [
-       "Wishes that defy fate",
-       "The mind's final escape at the moment of death",
-       "Courage in defense of home",
-       "A symbol of hidden sin that isolates its wearer"
-      ],
-      "answer": 0,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
-      "expected": "Theme.",
-      "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
-      "expected": "The wish.",
-      "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
-      "options": [
-       "Metaphor",
-       "Foreshadowing",
-       "Plot",
-       "Hyperbole"
-      ],
-      "answer": 1,
-      "element": "foreshadowing",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
-      "expected": "The end.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
-      "options": [
-       "Symbolism",
-       "Irony",
-       "Characterization",
-       "Alliteration"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) shape its meaning? Consider a second, competing reading.",
-      "expected": "Theme.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
-      "expected": "The wish.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how fate develops from an earlier story to “The Monkey's Paw”. Use one quotation from each.",
-      "expected": "the fakir's spell proves that interfering with fate brings sorrow.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "As compensation for Herbert's death"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "stumbling"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "frantically"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "a long dining-room cabinet with a flat top"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That the thing at the door go away"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "pitched"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "hang freely"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Wishes that defy fate"
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "Theme."
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "The wish."
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Foreshadowing"
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The end."
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Theme."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The wish."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 7,
-     "fill": 3,
-     "short": 8
-    }
-   },
-   "collegeFreshman": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "What is the first wish?",
-      "options": [
-       "Long life",
-       "Herbert's return",
-       "A new house",
-       "Two hundred pounds"
-      ],
-      "answer": 3,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “She was watching the mysterious movements of a man outside, who, peering in an undecided fashion at the house, appeared to be trying to make up his mind to enter.”, what does “undecided” most nearly mean?",
-      "options": [
-       "not brought to a conclusion; subject to further thought",
-       "hang freely",
-       "a long dining-room cabinet with a flat top",
-       "ring or echo with sound"
-      ],
-      "answer": 0,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Morris said the things happened so naturally,\" said his father, \"that you might if you so wished attribute it to _____.\"”",
-      "wordBank": [
-       "sideboard",
-       "dangling",
-       "coincidence",
-       "undecided"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
-      "answer": "hundred",
-      "accept": [
-       "hundred",
-       "hundred"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the sideboard with a carelessness which betokened no great belief…”, what does “sideboard” most nearly mean?",
-      "options": [
-       "ring or echo with sound",
-       "a long dining-room cabinet with a flat top",
-       "hang freely",
-       "not brought to a conclusion; subject to further thought"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 5
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
-      "answer": "wanted",
-      "accept": [
-       "wanted",
-       "wanted"
+      "type": "mc",
+      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
+      "options": [
+       "a long dining-room cabinet with a flat top",
+       "hang freely",
+       "ring or echo with sound",
+       "not brought to a conclusion; subject to further thought"
       ],
+      "answer": 2,
       "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 6
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
-      "wordBank": [
-       "undecided",
-       "dangling",
-       "introducing",
-       "sideboard"
+      "type": "mc",
+      "prompt": "What is the third wish implied to be?",
+      "options": [
+       "For more money",
+       "For Herbert's happiness",
+       "To die",
+       "That the thing at the door go away"
       ],
-      "answer": "introducing",
-      "accept": [
-       "introducing"
-      ],
-      "element": "diction",
+      "answer": 3,
+      "element": "foreshadowing",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3399,12 +2989,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
       "options": [
+       "Racial pride destroying love",
        "Wishes that defy fate",
-       "The mind's final escape at the moment of death",
-       "Courage in defense of home",
-       "A symbol of hidden sin that isolates its wearer"
+       "Love and rivalry destroyed by racial violence",
+       "Self-destruction and the urge to do wrong"
       ],
-      "answer": 0,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3430,15 +3020,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
       "options": [
-       "Symbolism",
-       "Irony",
-       "Characterization",
-       "Alliteration"
+       "Foreshadowing",
+       "Hyperbole",
+       "Allusion",
+       "Simile"
       ],
-      "answer": 1,
-      "element": "irony",
+      "answer": 0,
+      "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -3446,10 +3036,10 @@
      },
      {
       "type": "short",
-      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
-      "expected": "The end.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
+      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "location": "The Monkey's Paw, paragraph 25",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -3463,15 +3053,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
       "options": [
        "Metaphor",
-       "Foreshadowing",
+       "Irony",
        "Plot",
        "Hyperbole"
       ],
       "answer": 1,
-      "element": "foreshadowing",
+      "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -3479,30 +3069,14 @@
      },
      {
       "type": "short",
-      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "location": "The Monkey's Paw, paragraph 25",
+      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
+      "expected": "The end.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
       "n": 14,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3518,7 +3092,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 16,
+      "n": 15,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3528,14 +3102,13 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
-      "expected": "The wish.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
+      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 17,
+      "n": 16,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3549,6 +3122,23 @@
       "expected": "Theme.",
       "element": "diction",
       "location": "The Monkey's Paw, paragraph 25",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
+      "expected": "The wish.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3566,43 +3156,43 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "Two hundred pounds"
+      "answer": "As compensation for Herbert's death"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "not brought to a conclusion; subject to further thought"
+      "answer": "Two hundred pounds"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "coincidence"
+      "answer": "hundred"
      },
      {
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "hundred"
+      "answer": "dangling"
      },
      {
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "a long dining-room cabinet with a flat top"
+      "answer": "hang freely"
      },
      {
       "n": 6,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "wanted"
+      "answer": "ring or echo with sound"
      },
      {
       "n": 7,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "introducing"
+      "answer": "That the thing at the door go away"
      },
      {
       "n": 8,
@@ -3626,49 +3216,49 @@
       "n": 11,
       "type": "mc",
       "level": "analysis",
-      "answer": "Irony"
+      "answer": "Foreshadowing"
      },
      {
       "n": 12,
       "type": "short",
       "level": "analysis",
-      "answer": "The end."
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
      },
      {
       "n": 13,
       "type": "mc",
       "level": "analysis",
-      "answer": "Foreshadowing"
+      "answer": "Irony"
      },
      {
       "n": 14,
       "type": "short",
       "level": "analysis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+      "answer": "The end."
      },
      {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "The wish."
+      "answer": "Theme."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "Theme."
+      "answer": "The wish."
      }
     ],
     "mix": {
@@ -3678,25 +3268,25 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 6,
-     "fill": 4,
+     "mc": 8,
+     "fill": 2,
      "short": 8
     }
    },
-   "collegeSophomore": {
+   "collegeFreshman": {
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the _____ with a carelessness which betokened no great belief in its virtues.”",
       "wordBank": [
-       "undecided",
        "dangling",
-       "introducing",
-       "sideboard"
+       "undecided",
+       "sideboard",
+       "resounded"
       ],
-      "answer": "introducing",
+      "answer": "sideboard",
       "accept": [
-       "introducing"
+       "sideboard"
       ],
       "element": "diction",
       "level": "recall",
@@ -3705,69 +3295,20 @@
       "n": 1
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
-      "answer": "hundred",
-      "accept": [
-       "hundred",
-       "hundred"
+      "type": "mc",
+      "prompt": "What is the third wish implied to be?",
+      "options": [
+       "For more money",
+       "For Herbert's happiness",
+       "To die",
+       "That the thing at the door go away"
       ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
+      "answer": 3,
+      "element": "foreshadowing",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 141: “_____ breathed his third and last wish”",
-      "answer": "frantically",
-      "accept": [
-       "frantically",
-       "frantically"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "What did the fakir want the paw to show?",
-      "options": [
-       "That wishes are free",
-       "That India is rich",
-       "That fate rules people's lives",
-       "That magic is good"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Morris said the things happened so naturally,\" said his father, \"that you might if you so wished attribute it to _____.\"”",
-      "wordBank": [
-       "sideboard",
-       "dangling",
-       "coincidence",
-       "undecided"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
      },
      {
       "type": "mc",
@@ -3783,39 +3324,87 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
+      "n": 3
      },
      {
       "type": "mc",
-      "prompt": "Who brings the paw?",
+      "prompt": "What is the first wish?",
       "options": [
-       "Sergeant-Major Morris",
-       "A fakir",
-       "The company man",
-       "Herbert"
+       "Long life",
+       "Herbert's return",
+       "A new house",
+       "Two hundred pounds"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the sideboard with a carelessness which betokened no great belief…”, what does “sideboard” most nearly mean?",
+      "options": [
+       "ring or echo with sound",
+       "a long dining-room cabinet with a flat top",
+       "hang freely",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
+      "options": [
+       "a long dining-room cabinet with a flat top",
+       "hang freely",
+       "ring or echo with sound",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
+      "answer": "hundred",
+      "accept": [
+       "hundred",
+       "hundred"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 7
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
-      "options": [
-       "Wishes that defy fate",
-       "The mind's final escape at the moment of death",
-       "Courage in defense of home",
-       "A symbol of hidden sin that isolates its wearer"
-      ],
-      "answer": 0,
-      "element": "theme",
+      "type": "short",
+      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Monkey's Paw, paragraph 25",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 8
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
      },
      {
       "type": "short",
@@ -3835,6 +3424,397 @@
       }
      },
      {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
+      "options": [
+       "Racial pride destroying love",
+       "Wishes that defy fate",
+       "Love and rivalry destroyed by racial violence",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "options": [
+       "Metaphor",
+       "Irony",
+       "Plot",
+       "Hyperbole"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "options": [
+       "Foreshadowing",
+       "Hyperbole",
+       "Allusion",
+       "Simile"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
+      "expected": "The end.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how fate develops from an earlier story to “The Monkey's Paw”. Use one quotation from each.",
+      "expected": "the fakir's spell proves that interfering with fate brings sorrow.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
+      "expected": "The wish.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sideboard"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That the thing at the door go away"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "hang freely"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Two hundred pounds"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a long dining-room cabinet with a flat top"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "ring or echo with sound"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "hundred"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The wish."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Wishes that defy fate"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The end."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The wish."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "undecided",
+       "dangling",
+       "sideboard"
+      ],
+      "answer": "dangling",
+      "accept": [
+       "dangling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He took the paw, and dangling it between his forefinger and thumb, suddenly threw it upon the fire.”, what does “dangling” most nearly mean?",
+      "options": [
+       "hang freely",
+       "ring or echo with sound",
+       "a long dining-room cabinet with a flat top",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
+      "options": [
+       "a long dining-room cabinet with a flat top",
+       "hang freely",
+       "ring or echo with sound",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who brings the paw?",
+      "options": [
+       "Sergeant-Major Morris",
+       "A fakir",
+       "The company man",
+       "Herbert"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the _____ with a carelessness which betokened no great belief in its virtues.”",
+      "wordBank": [
+       "dangling",
+       "undecided",
+       "sideboard",
+       "resounded"
+      ],
+      "answer": "sideboard",
+      "accept": [
+       "sideboard"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the third wish implied to be?",
+      "options": [
+       "For more money",
+       "For Herbert's happiness",
+       "To die",
+       "That the thing at the door go away"
+      ],
+      "answer": 3,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What did the fakir want the paw to show?",
+      "options": [
+       "That wishes are free",
+       "That India is rich",
+       "That fate rules people's lives",
+       "That magic is good"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
       "type": "short",
       "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
       "expected": "Theme.",
@@ -3843,13 +3823,46 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 10,
+      "n": 8,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
        "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
+      "expected": "The wish.",
+      "element": "characterization",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
+      "options": [
+       "Racial pride destroying love",
+       "Wishes that defy fate",
+       "Love and rivalry destroyed by racial violence",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
      },
      {
       "type": "short",
@@ -3869,22 +3882,6 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
-      "options": [
-       "Symbolism",
-       "Irony",
-       "Characterization",
-       "Alliteration"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
       "type": "short",
       "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
       "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
@@ -3893,7 +3890,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 13,
+      "n": 12,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3903,14 +3900,30 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
       "options": [
        "Metaphor",
-       "Foreshadowing",
+       "Irony",
        "Plot",
        "Hyperbole"
       ],
       "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "options": [
+       "Foreshadowing",
+       "Hyperbole",
+       "Allusion",
+       "Simile"
+      ],
+      "answer": 0,
       "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
@@ -3952,9 +3965,10 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how fate develops from an earlier story to “The Monkey's Paw”. Use one quotation from each.",
-      "expected": "the fakir's spell proves that interfering with fate brings sorrow.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
+      "expected": "The wish.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3968,10 +3982,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
-      "expected": "The wish.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
+      "prompt": "Synthesis: trace how fate develops from an earlier story to “The Monkey's Paw”. Use one quotation from each.",
+      "expected": "the fakir's spell proves that interfering with fate brings sorrow.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3989,49 +4002,49 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "introducing"
+      "answer": "dangling"
      },
      {
       "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "hundred"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "frantically"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That fate rules people's lives"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "coincidence"
-     },
-     {
-      "n": 6,
       "type": "mc",
       "level": "recall",
       "answer": "hang freely"
      },
      {
-      "n": 7,
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "ring or echo with sound"
+     },
+     {
+      "n": 4,
       "type": "mc",
       "level": "recall",
       "answer": "Sergeant-Major Morris"
      },
      {
-      "n": 8,
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sideboard"
+     },
+     {
+      "n": 6,
       "type": "mc",
+      "level": "recall",
+      "answer": "That the thing at the door go away"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That fate rules people's lives"
+     },
+     {
+      "n": 8,
+      "type": "short",
       "level": "inference",
-      "answer": "Wishes that defy fate"
+      "answer": "Theme."
      },
      {
       "n": 9,
@@ -4041,9 +4054,9 @@
      },
      {
       "n": 10,
-      "type": "short",
+      "type": "mc",
       "level": "inference",
-      "answer": "Theme."
+      "answer": "Wishes that defy fate"
      },
      {
       "n": 11,
@@ -4053,15 +4066,15 @@
      },
      {
       "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 13,
       "type": "short",
       "level": "analysis",
       "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
      },
      {
       "n": 14,
@@ -4085,13 +4098,13 @@
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
+      "answer": "The wish."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "The wish."
+      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
      }
     ],
     "mix": {
@@ -4101,82 +4114,28 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 6,
-     "fill": 4,
+     "mc": 8,
+     "fill": 2,
      "short": 8
     }
    },
    "collegeJunior": {
     "items": [
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was _____ on the sideboard with a carelessness which betokened no great belief in its virtues.”",
-      "wordBank": [
-       "sideboard",
-       "undecided",
-       "dangling",
-       "pitched"
+      "type": "mc",
+      "prompt": "In the line “She was watching the mysterious movements of a man outside, who, peering in an undecided fashion at the house, appeared to be trying to make up his mind to enter.”, what does “undecided” most nearly mean?",
+      "options": [
+       "not brought to a conclusion; subject to further thought",
+       "hang freely",
+       "a long dining-room cabinet with a flat top",
+       "ring or echo with sound"
       ],
-      "answer": "pitched",
-      "accept": [
-       "pitched"
-      ],
+      "answer": 0,
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "How does the money arrive?",
-      "options": [
-       "As a lottery prize",
-       "In a letter from Morris",
-       "As compensation for Herbert's death",
-       "As an inheritance"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She came _____ across the room toward him. \"I want it,\" she said, quietly. \"You've not destroyed it?\"”",
-      "wordBank": [
-       "dangling",
-       "stumbling",
-       "sideboard",
-       "undecided"
-      ],
-      "answer": "stumbling",
-      "accept": [
-       "stumbling"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the sideboard with a carelessness which betokened no great belief…”, what does “sideboard” most nearly mean?",
-      "options": [
-       "ring or echo with sound",
-       "a long dining-room cabinet with a flat top",
-       "hang freely",
-       "not brought to a conclusion; subject to further thought"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
      },
      {
       "type": "mc",
@@ -4192,7 +4151,73 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the first wish?",
+      "options": [
+       "Long life",
+       "Herbert's return",
+       "A new house",
+       "Two hundred pounds"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "undecided",
+       "dangling",
+       "sideboard"
+      ],
+      "answer": "dangling",
+      "accept": [
+       "dangling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
+      "answer": "hundred",
+      "accept": [
+       "hundred",
+       "hundred"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
+      "options": [
+       "a long dining-room cabinet with a flat top",
+       "hang freely",
+       "ring or echo with sound",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
      },
      {
       "type": "mc",
@@ -4208,29 +4233,14 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
-      "answer": "hundred",
-      "accept": [
-       "hundred",
-       "hundred"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 7
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
-      "expected": "The wish.",
+      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
       "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 56",
+      "location": "The Monkey's Paw, paragraph 25",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -4244,10 +4254,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
-      "expected": "Theme.",
+      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
+      "expected": "The wish.",
       "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 25",
+      "location": "The Monkey's Paw, paragraph 56",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -4263,12 +4273,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
       "options": [
+       "Racial pride destroying love",
        "Wishes that defy fate",
-       "The mind's final escape at the moment of death",
-       "Courage in defense of home",
-       "A symbol of hidden sin that isolates its wearer"
+       "Love and rivalry destroyed by racial violence",
+       "Self-destruction and the urge to do wrong"
       ],
-      "answer": 0,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -4294,35 +4304,19 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
-      "options": [
-       "Metaphor",
-       "Foreshadowing",
-       "Plot",
-       "Hyperbole"
-      ],
-      "answer": 1,
-      "element": "foreshadowing",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
       "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
       "options": [
-       "Symbolism",
+       "Metaphor",
        "Irony",
-       "Characterization",
-       "Alliteration"
+       "Plot",
+       "Hyperbole"
       ],
       "answer": 1,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 13
+      "n": 12
      },
      {
       "type": "short",
@@ -4333,7 +4327,39 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "options": [
+       "Foreshadowing",
+       "Hyperbole",
+       "Allusion",
+       "Simile"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4349,7 +4375,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 16,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4363,22 +4389,6 @@
       "expected": "Theme.",
       "element": "diction",
       "location": "The Monkey's Paw, paragraph 25",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -4411,57 +4421,57 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "pitched"
+      "answer": "not brought to a conclusion; subject to further thought"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "As compensation for Herbert's death"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "stumbling"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "a long dining-room cabinet with a flat top"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
       "answer": "Sergeant-Major Morris"
      },
      {
-      "n": 6,
+      "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "That the thing at the door go away"
+      "answer": "Two hundred pounds"
      },
      {
-      "n": 7,
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dangling"
+     },
+     {
+      "n": 5,
       "type": "fill",
       "level": "recall",
       "answer": "hundred"
      },
      {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "ring or echo with sound"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "That the thing at the door go away"
+     },
+     {
       "n": 8,
       "type": "short",
       "level": "inference",
-      "answer": "The wish."
+      "answer": "Theme."
      },
      {
       "n": 9,
       "type": "short",
       "level": "inference",
-      "answer": "Theme."
+      "answer": "The wish."
      },
      {
       "n": 10,
@@ -4479,37 +4489,37 @@
       "n": 12,
       "type": "mc",
       "level": "analysis",
-      "answer": "Foreshadowing"
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
       "answer": "Irony"
      },
      {
-      "n": 14,
+      "n": 13,
       "type": "short",
       "level": "analysis",
       "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
      },
      {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Theme."
+      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+      "answer": "Theme."
      },
      {
       "n": 18,
@@ -4525,8 +4535,8 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 7,
-     "fill": 3,
+     "mc": 8,
+     "fill": 2,
      "short": 8
     }
    },
@@ -4542,427 +4552,6 @@
       ],
       "element": "diction",
       "location": "The Monkey's Paw, paragraph 56",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the third wish implied to be?",
-      "options": [
-       "For more money",
-       "For Herbert's happiness",
-       "To die",
-       "That the thing at the door go away"
-      ],
-      "answer": 3,
-      "element": "foreshadowing",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
-      "options": [
-       "a long dining-room cabinet with a flat top",
-       "hang freely",
-       "ring or echo with sound",
-       "not brought to a conclusion; subject to further thought"
-      ],
-      "answer": 2,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the sideboard with a carelessness which betokened no great belief…”, what does “sideboard” most nearly mean?",
-      "options": [
-       "ring or echo with sound",
-       "a long dining-room cabinet with a flat top",
-       "hang freely",
-       "not brought to a conclusion; subject to further thought"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Morris said the things happened so naturally,\" said his father, \"that you might if you so wished attribute it to _____.\"”",
-      "wordBank": [
-       "sideboard",
-       "dangling",
-       "coincidence",
-       "undecided"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 25: “He _____ to show that fate ruled people's lives”",
-      "answer": "wanted",
-      "accept": [
-       "wanted",
-       "wanted"
-      ],
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "How does the money arrive?",
-      "options": [
-       "As a lottery prize",
-       "In a letter from Morris",
-       "As compensation for Herbert's death",
-       "As an inheritance"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
-      "expected": "The wish.",
-      "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
-      "expected": "Theme.",
-      "element": "characterization",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
-      "options": [
-       "Wishes that defy fate",
-       "The mind's final escape at the moment of death",
-       "Courage in defense of home",
-       "A symbol of hidden sin that isolates its wearer"
-      ],
-      "answer": 0,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
-      "options": [
-       "Symbolism",
-       "Irony",
-       "Characterization",
-       "Alliteration"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
-      "expected": "The end.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 141",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
-      "options": [
-       "Metaphor",
-       "Foreshadowing",
-       "Plot",
-       "Hyperbole"
-      ],
-      "answer": 1,
-      "element": "foreshadowing",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) shape its meaning? Consider a second, competing reading.",
-      "expected": "Theme.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 25",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
-      "expected": "The wish.",
-      "element": "diction",
-      "location": "The Monkey's Paw, paragraph 56",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how fate develops from an earlier story to “The Monkey's Paw”. Use one quotation from each.",
-      "expected": "the fakir's spell proves that interfering with fate brings sorrow.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "hundred"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "That the thing at the door go away"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "ring or echo with sound"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "a long dining-room cabinet with a flat top"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "coincidence"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "wanted"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "As compensation for Herbert's death"
-     },
-     {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The wish."
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "Theme."
-     },
-     {
-      "n": 10,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Wishes that defy fate"
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The end."
-     },
-     {
-      "n": 14,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Foreshadowing"
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Theme."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The wish."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 7,
-     "fill": 3,
-     "short": 8
-    }
-   },
-   "graduate": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
-      "options": [
-       "a long dining-room cabinet with a flat top",
-       "hang freely",
-       "ring or echo with sound",
-       "not brought to a conclusion; subject to further thought"
-      ],
-      "answer": 2,
-      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -4986,15 +4575,15 @@
      },
      {
       "type": "mc",
-      "prompt": "What is the first wish?",
+      "prompt": "What is the third wish implied to be?",
       "options": [
-       "Long life",
-       "Herbert's return",
-       "A new house",
-       "Two hundred pounds"
+       "For more money",
+       "For Herbert's happiness",
+       "To die",
+       "That the thing at the door go away"
       ],
       "answer": 3,
-      "element": "plot",
+      "element": "foreshadowing",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5002,15 +4591,15 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the sideboard with a carelessness which betokened no great belief…”, what does “sideboard” most nearly mean?",
+      "prompt": "How does the money arrive?",
       "options": [
-       "ring or echo with sound",
-       "a long dining-room cabinet with a flat top",
-       "hang freely",
-       "not brought to a conclusion; subject to further thought"
+       "As a lottery prize",
+       "In a letter from Morris",
+       "As compensation for Herbert's death",
+       "As an inheritance"
       ],
-      "answer": 1,
-      "element": "diction",
+      "answer": 2,
+      "element": "irony",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5018,14 +4607,14 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “He took the paw, and dangling it between his forefinger and thumb, suddenly threw it upon the fire.”, what does “dangling” most nearly mean?",
+      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
       "options": [
+       "a long dining-room cabinet with a flat top",
        "hang freely",
        "ring or echo with sound",
-       "a long dining-room cabinet with a flat top",
        "not brought to a conclusion; subject to further thought"
       ],
-      "answer": 0,
+      "answer": 2,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -5033,19 +4622,16 @@
       "n": 5
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Sergeant-Major Morris,\" he said, _____ him.”",
-      "wordBank": [
-       "undecided",
-       "dangling",
-       "introducing",
-       "sideboard"
+      "type": "mc",
+      "prompt": "Who brings the paw?",
+      "options": [
+       "Sergeant-Major Morris",
+       "A fakir",
+       "The company man",
+       "Herbert"
       ],
-      "answer": "introducing",
-      "accept": [
-       "introducing"
-      ],
-      "element": "diction",
+      "answer": 0,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5053,38 +4639,22 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was _____ on the sideboard with a carelessness which betokened no great belief in its virtues.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
       "wordBank": [
-       "sideboard",
+       "resounded",
        "undecided",
        "dangling",
-       "pitched"
+       "sideboard"
       ],
-      "answer": "pitched",
+      "answer": "dangling",
       "accept": [
-       "pitched"
+       "dangling"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
-      "options": [
-       "Wishes that defy fate",
-       "The mind's final escape at the moment of death",
-       "Courage in defense of home",
-       "A symbol of hidden sin that isolates its wearer"
-      ],
-      "answer": 0,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "short",
@@ -5095,13 +4665,29 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 9,
+      "n": 8,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
        "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
+      "options": [
+       "Racial pride destroying love",
+       "Wishes that defy fate",
+       "Love and rivalry destroyed by racial violence",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
      },
      {
       "type": "short",
@@ -5141,17 +4727,33 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
       "options": [
-       "Metaphor",
        "Foreshadowing",
-       "Plot",
-       "Hyperbole"
+       "Hyperbole",
+       "Allusion",
+       "Simile"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
       "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "options": [
+       "Metaphor",
+       "Irony",
+       "Plot",
+       "Hyperbole"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
      },
      {
       "type": "short",
@@ -5162,39 +4764,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
-      "options": [
-       "Symbolism",
-       "Irony",
-       "Characterization",
-       "Alliteration"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
+      "n": 14,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -5211,7 +4781,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 16,
+      "n": 15,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -5223,6 +4793,22 @@
       "type": "short",
       "prompt": "Synthesis: trace how fate develops from an earlier story to “The Monkey's Paw”. Use one quotation from each.",
       "expected": "the fakir's spell proves that interfering with fate brings sorrow.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -5256,9 +4842,9 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "ring or echo with sound"
+      "answer": "hundred"
      },
      {
       "n": 2,
@@ -5270,43 +4856,43 @@
       "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "Two hundred pounds"
+      "answer": "That the thing at the door go away"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "a long dining-room cabinet with a flat top"
+      "answer": "As compensation for Herbert's death"
      },
      {
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "hang freely"
+      "answer": "ring or echo with sound"
      },
      {
       "n": 6,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "introducing"
+      "answer": "Sergeant-Major Morris"
      },
      {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "pitched"
+      "answer": "dangling"
      },
      {
       "n": 8,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Wishes that defy fate"
-     },
-     {
-      "n": 9,
       "type": "short",
       "level": "inference",
       "answer": "The wish."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Wishes that defy fate"
      },
      {
       "n": 10,
@@ -5328,33 +4914,33 @@
      },
      {
       "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The end."
-     },
-     {
-      "n": 14,
       "type": "mc",
       "level": "analysis",
       "answer": "Irony"
      },
      {
-      "n": 15,
+      "n": 14,
       "type": "short",
-      "level": "synthesis",
-      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+      "level": "analysis",
+      "answer": "The end."
      },
      {
-      "n": 16,
+      "n": 15,
       "type": "short",
       "level": "synthesis",
       "answer": "The wish."
      },
      {
-      "n": 17,
+      "n": 16,
       "type": "short",
       "level": "synthesis",
       "answer": "the fakir's spell proves that interfering with fate brings sorrow."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
      },
      {
       "n": 18,
@@ -5374,6 +4960,430 @@
      "fill": 2,
      "short": 8
     }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the sideboard with a carelessness which betokened no great belief…”, what does “sideboard” most nearly mean?",
+      "options": [
+       "ring or echo with sound",
+       "a long dining-room cabinet with a flat top",
+       "hang freely",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A loud knock resounded through the house.”, what does “resounded” most nearly mean?",
+      "options": [
+       "a long dining-room cabinet with a flat top",
+       "hang freely",
+       "ring or echo with sound",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There was an air of prosaic wholesomeness about the room which it had lacked on the previous night, and the dirty, shrivelled little paw was pitched on the _____ with a carelessness which betokened no great belief in its virtues.”",
+      "wordBank": [
+       "dangling",
+       "undecided",
+       "sideboard",
+       "resounded"
+      ],
+      "answer": "sideboard",
+      "accept": [
+       "sideboard"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He took the paw, and _____ it between his forefinger and thumb, suddenly threw it upon the fire.”",
+      "wordBank": [
+       "resounded",
+       "undecided",
+       "dangling",
+       "sideboard"
+      ],
+      "answer": "dangling",
+      "accept": [
+       "dangling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He took the paw, and dangling it between his forefinger and thumb, suddenly threw it upon the fire.”, what does “dangling” most nearly mean?",
+      "options": [
+       "hang freely",
+       "ring or echo with sound",
+       "a long dining-room cabinet with a flat top",
+       "not brought to a conclusion; subject to further thought"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Monkey's Paw, paragraph 56: “I wish for two _____ pounds”",
+      "answer": "hundred",
+      "accept": [
+       "hundred",
+       "hundred"
+      ],
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “She was watching the mysterious movements of a man outside, who, peering in an undecided fashion at the house, appeared to be trying to make up his mind to enter.”, what does “undecided” most nearly mean?",
+      "options": [
+       "not brought to a conclusion; subject to further thought",
+       "hang freely",
+       "a long dining-room cabinet with a flat top",
+       "ring or echo with sound"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Monkey's Paw”?",
+      "options": [
+       "Racial pride destroying love",
+       "Wishes that defy fate",
+       "Love and rivalry destroyed by racial violence",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) Answer in two or three sentences with one detail.",
+      "expected": "The wish.",
+      "element": "characterization",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “frantically breathed his third and last wish” (The Monkey's Paw, paragraph 141). Pick two words and explain what they suggest.",
+      "expected": "The end.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 141",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The paw shows that meddling with fate brings sorrow. Explain how this evidence supports the claim: “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25).",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The sergeant-major throws the paw into the fire, and his warning that the first owner's third wish was for death prepares the reader for horror.",
+      "options": [
+       "Foreshadowing",
+       "Hyperbole",
+       "Allusion",
+       "Simile"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Monkey's Paw”? The wish is granted exactly, and the money comes as compensation for Herbert's death.",
+      "options": [
+       "Metaphor",
+       "Irony",
+       "Plot",
+       "Hyperbole"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “He wanted to show that fate ruled people's lives” (The Monkey's Paw, paragraph 25) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 25",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The paw shows that meddling with fate brings sorrow.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I wish for two hundred pounds” (The Monkey's Paw, paragraph 56) shape its meaning? Consider a second, competing reading.",
+      "expected": "The wish.",
+      "element": "diction",
+      "location": "The Monkey's Paw, paragraph 56",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how fate develops from an earlier story to “The Monkey's Paw”. Use one quotation from each.",
+      "expected": "the fakir's spell proves that interfering with fate brings sorrow.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a long dining-room cabinet with a flat top"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "ring or echo with sound"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sideboard"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dangling"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "hang freely"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "hundred"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "not brought to a conclusion; subject to further thought"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Wishes that defy fate"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The wish."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The end."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The fakir wanted to prove \"fate ruled people's lives,\" and Mr. White's wish \"for two hundred pounds\" is granted through Herbert's death."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The wish."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the fakir's spell proves that interfering with fate brings sorrow."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
    }
   },
   "defaultRigor": "hsSophomore",
@@ -5386,7 +5396,7 @@
    "theme": "fate and greed",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5607,7 +5617,7 @@
    "theme": "be careful what you wish for",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5828,7 +5838,7 @@
    "theme": "grief",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"

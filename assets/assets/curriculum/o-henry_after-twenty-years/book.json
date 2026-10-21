@@ -379,7 +379,7 @@
    },
    "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
   },
-  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Middle School prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
+  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Scaffolded-support prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
   "weeks": 1,
   "lessons": 1,
   "unitDays": 2,
@@ -439,11 +439,11 @@
    "What does After Twenty Years suggest about friendship?"
   ],
   "objectives": [
-   "Cite textual evidence to support analysis of what the text says explicitly and implicitly.",
-   "Determine themes and analyze their development over the course of the story.",
-   "Analyze how characters, setting and point of view interact.",
-   "Determine the meaning of words and phrases as they are used in the text.",
-   "Write arguments to support claims with clear reasons and relevant evidence."
+   "Students will cite at least 2 quotations, with locations, to support each written claim about what the text says explicitly and implicitly (scored on the writing-prompt rubric).",
+   "Students will trace one theme across at least 3 sections of the story in the final paper, earning at least 70 of 100 rubric points.",
+   "Students will explain how characters, setting and point of view interact in at least 3 exit tickets, each meeting the claim-evidence-reasoning criteria.",
+   "Students will determine the in-context meaning of taught vocabulary, scoring at least 80% on the vocabulary items of the story quizzes.",
+   "Students will write an argument with a clear claim, reasons and relevant evidence, scoring at least 80% on the unit test's short-answer scoring guides."
   ],
   "standards": [
    "RL.9-10.1",
@@ -537,7 +537,7 @@
    "Whole-story test (scheduled day)",
    "Final essay (scheduled day); College Sophomore and above write one essay of the five"
   ],
-  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
+  "differentiation": "Every prompt and quiz has eleven rigor levels (Scaffolded support through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
   "materials": [
    "Liber et Libri reader",
    "Annotation journal",
@@ -596,7 +596,7 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 2
+    "n": 1
    },
    {
     "type": "mc",
@@ -612,7 +612,7 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 7
+    "n": 5
    },
    {
     "type": "mc",
@@ -628,7 +628,7 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 9
+    "n": 8
    },
    {
     "type": "mc",
@@ -644,32 +644,64 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
+    "n": 9
+   },
+   {
+    "type": "mc",
+    "prompt": "What clue shows the waiting man's wealth?",
+    "options": [
+     "A diamond scarfpin and watch",
+     "A fur coat",
+     "A new car",
+     "A bag of gold"
+    ],
+    "answer": 0,
+    "element": "foreshadowing",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
     "n": 10
    },
    {
     "type": "mc",
     "prompt": "Which choice best states a central concern of “After Twenty Years”?",
     "options": [
-     "The loss of faith in human goodness",
-     "Love and rivalry destroyed by racial violence",
      "Friendship tested by duty",
-     "A story so convincing it becomes real"
+     "Science that poisons love",
+     "The cost of wanting to seem richer than you are",
+     "Moral worth found among those society rejects"
     ],
-    "answer": 2,
+    "answer": 0,
     "element": "theme",
     "level": "inference",
     "dok": 2,
     "chapterIndex": 0,
-    "n": 11
+    "n": 12
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
+    "options": [
+     "Symbolism",
+     "Characterization",
+     "Plot",
+     "Theme"
+    ],
+    "answer": 1,
+    "element": "characterization",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
    },
    {
     "type": "mc",
     "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
     "options": [
      "Foreshadowing",
-     "Tone / mood",
      "Theme",
-     "Characterization"
+     "Alliteration",
+     "Irony"
     ],
     "answer": 0,
     "element": "foreshadowing",
@@ -702,11 +734,21 @@
    },
    {
     "n": 5,
+    "answer": "A diamond scarfpin and watch",
+    "element": "foreshadowing"
+   },
+   {
+    "n": 6,
     "answer": "Friendship tested by duty",
     "element": "theme"
    },
    {
-    "n": 6,
+    "n": 7,
+    "answer": "Characterization",
+    "element": "characterization"
+   },
+   {
+    "n": 8,
     "answer": "Foreshadowing",
     "element": "foreshadowing"
    }
@@ -779,27 +821,12 @@
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 30: “_____ years is a long time, but not long enough to change a man’s nose from a Roman to a pug”",
-      "answer": "Twenty",
-      "accept": [
-       "Twenty",
-       "twenty"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 30",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
       "wordBank": [
+       "corresponded",
        "doubtfully",
        "egotism",
-       "submerged",
-       "corresponded"
+       "submerged"
       ],
       "answer": "doubtfully",
       "accept": [
@@ -809,15 +836,15 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
+      "n": 5
      },
      {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
       "wordBank": [
+       "egotism",
        "corresponded",
        "dismally",
-       "egotism",
        "submerged"
       ],
       "answer": "dismally",
@@ -828,26 +855,26 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 6
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ was one that kept early hours.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
       "wordBank": [
+       "impressively",
        "egotism",
-       "corresponded",
-       "vicinity",
-       "submerged"
+       "submerged",
+       "corresponded"
       ],
-      "answer": "vicinity",
+      "answer": "impressively",
       "accept": [
-       "vicinity"
+       "impressively"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 8
+      "n": 7
      },
      {
       "type": "mc",
@@ -863,26 +890,22 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
+      "n": 8
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
-      "wordBank": [
-       "submerged",
-       "impressively",
-       "corresponded",
-       "egotism"
-      ],
-      "answer": "impressively",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 30: “_____ years is a long time, but not long enough to change a man’s nose from a Roman to a pug”",
+      "answer": "Twenty",
       "accept": [
-       "impressively"
+       "Twenty",
+       "twenty"
       ],
       "element": "diction",
+      "location": "After Twenty Years, paragraph 30",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 10
+      "n": 9
      },
      {
       "type": "fill",
@@ -897,7 +920,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 11
+      "n": 10
      },
      {
       "type": "mc",
@@ -913,7 +936,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 12
+      "n": 11
      },
      {
       "type": "short",
@@ -924,7 +947,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 13,
+      "n": 12,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -936,17 +959,17 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "The loss of faith in human goodness",
-       "Love and rivalry destroyed by racial violence",
        "Friendship tested by duty",
-       "A story so convincing it becomes real"
+       "Science that poisons love",
+       "The cost of wanting to seem richer than you are",
+       "Moral worth found among those society rejects"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 14
+      "n": 13
      },
      {
       "type": "short",
@@ -957,7 +980,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 14,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -969,33 +992,50 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
       "options": [
-       "Point of view",
-       "Metaphor",
-       "Hyperbole",
-       "Characterization"
+       "Symbolism",
+       "Characterization",
+       "Plot",
+       "Theme"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 16
+      "n": 15
      },
      {
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
       "options": [
        "Foreshadowing",
-       "Tone / mood",
        "Theme",
-       "Characterization"
+       "Alliteration",
+       "Irony"
       ],
       "answer": 0,
       "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 17
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33). Pick two words and explain what they suggest.",
+      "expected": "Jimmy's note.",
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 33",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
      },
      {
       "type": "short",
@@ -1044,79 +1084,79 @@
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "Twenty"
+      "answer": "doubtfully"
      },
      {
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "doubtfully"
+      "answer": "dismally"
      },
      {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "dismally"
+      "answer": "impressively"
      },
      {
       "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "vicinity"
-     },
-     {
-      "n": 9,
       "type": "mc",
       "level": "recall",
       "answer": "A diamond scarfpin and watch"
      },
      {
-      "n": 10,
+      "n": 9,
       "type": "fill",
       "level": "recall",
-      "answer": "impressively"
+      "answer": "Twenty"
      },
      {
-      "n": 11,
+      "n": 10,
       "type": "fill",
       "level": "recall",
       "answer": "appointed"
      },
      {
-      "n": 12,
+      "n": 11,
       "type": "mc",
       "level": "recall",
       "answer": "He could not bring himself to arrest his old friend"
      },
      {
-      "n": 13,
+      "n": 12,
       "type": "short",
       "level": "inference",
       "answer": "The reveal."
      },
      {
-      "n": 14,
+      "n": 13,
       "type": "mc",
       "level": "inference",
       "answer": "Friendship tested by duty"
      },
      {
-      "n": 15,
+      "n": 14,
       "type": "short",
       "level": "inference",
       "answer": "The theme of change."
      },
      {
-      "n": 16,
+      "n": 15,
       "type": "mc",
       "level": "analysis",
       "answer": "Characterization"
      },
      {
-      "n": 17,
+      "n": 16,
       "type": "mc",
       "level": "analysis",
       "answer": "Foreshadowing"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Jimmy's note."
      },
      {
       "n": 18,
@@ -1126,38 +1166,19 @@
      }
     ],
     "mix": {
-     "recall": 12,
+     "recall": 11,
      "inference": 3,
-     "analysis": 2,
+     "analysis": 3,
      "synthesis": 1
     },
     "types": {
      "mc": 8,
-     "fill": 7,
-     "short": 3
+     "fill": 6,
+     "short": 4
     }
    },
    "hsFreshman": {
     "items": [
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
-      "wordBank": [
-       "submerged",
-       "impressively",
-       "corresponded",
-       "egotism"
-      ],
-      "answer": "impressively",
-      "accept": [
-       "impressively"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
      {
       "type": "fill",
       "prompt": "Complete the quotation from After Twenty Years, paragraph 30: “_____ years is a long time, but not long enough to change a man’s nose from a Roman to a pug”",
@@ -1171,20 +1192,35 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
+      "answer": "sometimes",
+      "accept": [
+       "sometimes",
+       "sometimes"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 2
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
       "wordBank": [
        "corresponded",
-       "dismally",
+       "doubtfully",
        "egotism",
        "submerged"
       ],
-      "answer": "dismally",
+      "answer": "doubtfully",
       "accept": [
-       "dismally"
+       "doubtfully"
       ],
       "element": "diction",
       "level": "recall",
@@ -1210,16 +1246,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
       "wordBank": [
-       "doubtfully",
+       "impressively",
        "egotism",
        "submerged",
        "corresponded"
       ],
-      "answer": "doubtfully",
+      "answer": "impressively",
       "accept": [
-       "doubtfully"
+       "impressively"
       ],
       "element": "diction",
       "level": "recall",
@@ -1245,16 +1281,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ was one that kept early hours.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
       "wordBank": [
        "egotism",
        "corresponded",
-       "vicinity",
+       "dismally",
        "submerged"
       ],
-      "answer": "vicinity",
+      "answer": "dismally",
       "accept": [
-       "vicinity"
+       "dismally"
       ],
       "element": "diction",
       "level": "recall",
@@ -1329,12 +1365,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "The loss of faith in human goodness",
-       "Love and rivalry destroyed by racial violence",
        "Friendship tested by duty",
-       "A story so convincing it becomes real"
+       "Science that poisons love",
+       "The cost of wanting to seem richer than you are",
+       "Moral worth found among those society rejects"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -1413,12 +1449,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
       "options": [
-       "Point of view",
-       "Metaphor",
-       "Hyperbole",
-       "Characterization"
+       "Symbolism",
+       "Characterization",
+       "Plot",
+       "Theme"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -1447,19 +1483,19 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "impressively"
+      "answer": "Twenty"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "Twenty"
+      "answer": "sometimes"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "dismally"
+      "answer": "doubtfully"
      },
      {
       "n": 4,
@@ -1471,7 +1507,7 @@
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "doubtfully"
+      "answer": "impressively"
      },
      {
       "n": 6,
@@ -1483,7 +1519,7 @@
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "vicinity"
+      "answer": "dismally"
      },
      {
       "n": 8,
@@ -1567,21 +1603,6 @@
    "hsSophomore": {
     "items": [
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 30: “_____ years is a long time, but not long enough to change a man’s nose from a Roman to a pug”",
-      "answer": "Twenty",
-      "accept": [
-       "Twenty",
-       "twenty"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 30",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
       "type": "mc",
       "prompt": "How long ago did the two friends agree to meet?",
       "options": [
@@ -1595,536 +1616,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
-      "wordBank": [
-       "doubtfully",
-       "egotism",
-       "submerged",
-       "corresponded"
-      ],
-      "answer": "doubtfully",
-      "accept": [
-       "doubtfully"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
-      "answer": "appointed",
-      "accept": [
-       "appointed",
-       "appointed"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 33",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
-      "wordBank": [
-       "submerged",
-       "impressively",
-       "corresponded",
-       "egotism"
-      ],
-      "answer": "impressively",
-      "accept": [
-       "impressively"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
-      "answer": "sometimes",
-      "accept": [
-       "sometimes",
-       "sometimes"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 31",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "Who was the patrolling policeman?",
-      "options": [
-       "A stranger",
-       "Bob's brother",
-       "A Chicago detective",
-       "Jimmy Wells"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ was one that kept early hours.”",
-      "wordBank": [
-       "egotism",
-       "corresponded",
-       "vicinity",
-       "submerged"
-      ],
-      "answer": "vicinity",
-      "accept": [
-       "vicinity"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "mc",
-      "prompt": "Why did Jimmy send someone else to make the arrest?",
-      "options": [
-       "He was ordered to",
-       "He was afraid",
-       "He could not bring himself to arrest his old friend",
-       "He was off duty"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "mc",
-      "prompt": "Where is the waiting man from now?",
-      "options": [
-       "The West, Chicago",
-       "Boston",
-       "New Orleans",
-       "London"
-      ],
-      "answer": 0,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
-      "options": [
-       "The loss of faith in human goodness",
-       "Love and rivalry destroyed by racial violence",
-       "Friendship tested by duty",
-       "A story so convincing it becomes real"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) Answer in two or three sentences with one detail.",
-      "expected": "The reveal.",
-      "element": "characterization",
-      "location": "After Twenty Years, paragraph 30",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
-      "expected": "The theme of change.",
-      "element": "characterization",
-      "location": "After Twenty Years, paragraph 31",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33). Pick two words and explain what they suggest.",
-      "expected": "Jimmy's note.",
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 33",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: Jimmy proves his loyalty to both his friend and his duty. Explain how this evidence supports the claim: “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33).",
-      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
-      "element": "theme",
-      "location": "After Twenty Years, paragraph 33",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
-      "options": [
-       "Foreshadowing",
-       "Tone / mood",
-       "Theme",
-       "Characterization"
-      ],
-      "answer": 0,
-      "element": "foreshadowing",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) shape its meaning? Consider a second, competing reading.",
-      "expected": "The theme of change.",
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 31",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 30",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Twenty"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Twenty years"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "doubtfully"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "appointed"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "impressively"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "sometimes"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Jimmy Wells"
-     },
-     {
-      "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "vicinity"
-     },
-     {
-      "n": 9,
-      "type": "mc",
-      "level": "recall",
-      "answer": "He could not bring himself to arrest his old friend"
-     },
-     {
-      "n": 10,
-      "type": "mc",
-      "level": "recall",
-      "answer": "The West, Chicago"
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Friendship tested by duty"
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "inference",
-      "answer": "The theme of change."
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Jimmy's note."
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "analysis",
-      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
-     },
-     {
-      "n": 16,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Foreshadowing"
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The theme of change."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The reveal."
-     }
-    ],
-    "mix": {
-     "recall": 10,
-     "inference": 3,
-     "analysis": 3,
-     "synthesis": 2
-    },
-    "types": {
-     "mc": 6,
-     "fill": 6,
-     "short": 6
-    }
-   },
-   "hsJunior": {
-    "items": [
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
-      "wordBank": [
-       "submerged",
-       "impressively",
-       "corresponded",
-       "egotism"
-      ],
-      "answer": "impressively",
-      "accept": [
-       "impressively"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
-      "answer": "appointed",
-      "accept": [
-       "appointed",
-       "appointed"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 33",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
-      "wordBank": [
-       "doubtfully",
-       "egotism",
-       "submerged",
-       "corresponded"
-      ],
-      "answer": "doubtfully",
-      "accept": [
-       "doubtfully"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "Who was the patrolling policeman?",
-      "options": [
-       "A stranger",
-       "Bob's brother",
-       "A Chicago detective",
-       "Jimmy Wells"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
-      "wordBank": [
-       "corresponded",
-       "dismally",
-       "egotism",
-       "submerged"
-      ],
-      "answer": "dismally",
-      "accept": [
-       "dismally"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "Why did Jimmy send someone else to make the arrest?",
-      "options": [
-       "He was ordered to",
-       "He was afraid",
-       "He could not bring himself to arrest his old friend",
-       "He was off duty"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "Where is the waiting man from now?",
-      "options": [
-       "The West, Chicago",
-       "Boston",
-       "New Orleans",
-       "London"
-      ],
-      "answer": 0,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
-      "answer": "sometimes",
-      "accept": [
-       "sometimes",
-       "sometimes"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 31",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "fill",
@@ -2139,18 +1631,150 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
+      "wordBank": [
+       "impressively",
+       "egotism",
+       "submerged",
+       "corresponded"
+      ],
+      "answer": "impressively",
+      "accept": [
+       "impressively"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
+      "wordBank": [
+       "egotism",
+       "corresponded",
+       "dismally",
+       "submerged"
+      ],
+      "answer": "dismally",
+      "accept": [
+       "dismally"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Who was the patrolling policeman?",
+      "options": [
+       "A stranger",
+       "Bob's brother",
+       "A Chicago detective",
+       "Jimmy Wells"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
+      "answer": "sometimes",
+      "accept": [
+       "sometimes",
+       "sometimes"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
+      "answer": "appointed",
+      "accept": [
+       "appointed",
+       "appointed"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 33",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Why did Jimmy send someone else to make the arrest?",
+      "options": [
+       "He was ordered to",
+       "He was afraid",
+       "He could not bring himself to arrest his old friend",
+       "He was off duty"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Where is the waiting man from now?",
+      "options": [
+       "The West, Chicago",
+       "Boston",
+       "New Orleans",
+       "London"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 9
      },
      {
+      "type": "mc",
+      "prompt": "What clue shows the waiting man's wealth?",
+      "options": [
+       "A diamond scarfpin and watch",
+       "A fur coat",
+       "A new car",
+       "A bag of gold"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
       "type": "short",
-      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
-      "expected": "The theme of change.",
+      "prompt": "What can you infer from this line? “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
       "element": "characterization",
-      "location": "After Twenty Years, paragraph 31",
+      "location": "After Twenty Years, paragraph 30",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 10,
+      "n": 11,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2162,17 +1786,424 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "The loss of faith in human goodness",
-       "Love and rivalry destroyed by racial violence",
        "Friendship tested by duty",
-       "A story so convincing it becomes real"
+       "Science that poisons love",
+       "The cost of wanting to seem richer than you are",
+       "Moral worth found among those society rejects"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "The theme of change.",
+      "element": "characterization",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33). Pick two words and explain what they suggest.",
+      "expected": "Jimmy's note.",
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 33",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
+      "options": [
+       "Foreshadowing",
+       "Theme",
+       "Alliteration",
+       "Irony"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Jimmy proves his loyalty to both his friend and his duty.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Twenty"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impressively"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismally"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Jimmy Wells"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sometimes"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "appointed"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He could not bring himself to arrest his old friend"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The West, Chicago"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A diamond scarfpin and watch"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Friendship tested by duty"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The theme of change."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Jimmy's note."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who was the patrolling policeman?",
+      "options": [
+       "A stranger",
+       "Bob's brother",
+       "A Chicago detective",
+       "Jimmy Wells"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 30: “_____ years is a long time, but not long enough to change a man’s nose from a Roman to a pug”",
+      "answer": "Twenty",
+      "accept": [
+       "Twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
+      "wordBank": [
+       "impressively",
+       "egotism",
+       "submerged",
+       "corresponded"
+      ],
+      "answer": "impressively",
+      "accept": [
+       "impressively"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
+      "answer": "sometimes",
+      "accept": [
+       "sometimes",
+       "sometimes"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Where is the waiting man from now?",
+      "options": [
+       "The West, Chicago",
+       "Boston",
+       "New Orleans",
+       "London"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
+      "wordBank": [
+       "corresponded",
+       "doubtfully",
+       "egotism",
+       "submerged"
+      ],
+      "answer": "doubtfully",
+      "accept": [
+       "doubtfully"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
+      "answer": "appointed",
+      "accept": [
+       "appointed",
+       "appointed"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 33",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What clue shows the waiting man's wealth?",
+      "options": [
+       "A diamond scarfpin and watch",
+       "A fur coat",
+       "A new car",
+       "A bag of gold"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
+      "wordBank": [
+       "egotism",
+       "corresponded",
+       "dismally",
+       "submerged"
+      ],
+      "answer": "dismally",
+      "accept": [
+       "dismally"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
+      "options": [
+       "Friendship tested by duty",
+       "Science that poisons love",
+       "The cost of wanting to seem richer than you are",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "The theme of change.",
+      "element": "characterization",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
      },
      {
       "type": "short",
@@ -2192,38 +2223,6 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
-      "options": [
-       "Foreshadowing",
-       "Tone / mood",
-       "Theme",
-       "Characterization"
-      ],
-      "answer": 0,
-      "element": "foreshadowing",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
-      "options": [
-       "Point of view",
-       "Metaphor",
-       "Hyperbole",
-       "Characterization"
-      ],
-      "answer": 3,
-      "element": "characterization",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14
-     },
-     {
       "type": "short",
       "prompt": "Claim: Jimmy proves his loyalty to both his friend and his duty. Explain how this evidence supports the claim: “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33).",
       "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
@@ -2232,13 +2231,45 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 13,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
        "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
        "zero": "0: incorrect, off-text or blank."
       }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
+      "options": [
+       "Foreshadowing",
+       "Theme",
+       "Alliteration",
+       "Irony"
+      ],
+      "answer": 0,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
      },
      {
       "type": "short",
@@ -2276,10 +2307,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 30",
+      "prompt": "Synthesis: trace how loyalty and duty develops from an earlier story to “After Twenty Years”. Use one quotation from each.",
+      "expected": "Jimmy keeps both the appointment and the law.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2295,69 +2325,69 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "impressively"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "appointed"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "doubtfully"
-     },
-     {
-      "n": 4,
       "type": "mc",
       "level": "recall",
       "answer": "Jimmy Wells"
      },
      {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "dismally"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "He could not bring himself to arrest his old friend"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "The West, Chicago"
-     },
-     {
-      "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "sometimes"
-     },
-     {
-      "n": 9,
+      "n": 2,
       "type": "fill",
       "level": "recall",
       "answer": "Twenty"
      },
      {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "The theme of change."
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impressively"
      },
      {
-      "n": 11,
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sometimes"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The West, Chicago"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubtfully"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "appointed"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A diamond scarfpin and watch"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismally"
+     },
+     {
+      "n": 10,
       "type": "mc",
       "level": "inference",
       "answer": "Friendship tested by duty"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The theme of change."
      },
      {
       "n": 12,
@@ -2367,9 +2397,9 @@
      },
      {
       "n": 13,
-      "type": "mc",
+      "type": "short",
       "level": "analysis",
-      "answer": "Foreshadowing"
+      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
      },
      {
       "n": 14,
@@ -2379,9 +2409,9 @@
      },
      {
       "n": 15,
-      "type": "short",
+      "type": "mc",
       "level": "analysis",
-      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
+      "answer": "Foreshadowing"
      },
      {
       "n": 16,
@@ -2399,7 +2429,7 @@
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "The reveal."
+      "answer": "Jimmy keeps both the appointment and the law."
      }
     ],
     "mix": {
@@ -2417,6 +2447,25 @@
    "hsSenior": {
     "items": [
      {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
+      "wordBank": [
+       "impressively",
+       "egotism",
+       "submerged",
+       "corresponded"
+      ],
+      "answer": "impressively",
+      "accept": [
+       "impressively"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
       "type": "mc",
       "prompt": "What clue shows the waiting man's wealth?",
       "options": [
@@ -2430,7 +2479,26 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 1
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
+      "wordBank": [
+       "corresponded",
+       "doubtfully",
+       "egotism",
+       "submerged"
+      ],
+      "answer": "doubtfully",
+      "accept": [
+       "doubtfully"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
      },
      {
       "type": "mc",
@@ -2446,60 +2514,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
-      "wordBank": [
-       "corresponded",
-       "dismally",
-       "egotism",
-       "submerged"
-      ],
-      "answer": "dismally",
-      "accept": [
-       "dismally"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
-      "wordBank": [
-       "doubtfully",
-       "egotism",
-       "submerged",
-       "corresponded"
-      ],
-      "answer": "doubtfully",
-      "accept": [
-       "doubtfully"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
-      "answer": "sometimes",
-      "accept": [
-       "sometimes",
-       "sometimes"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 31",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
      },
      {
       "type": "mc",
@@ -2515,22 +2530,22 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
+      "n": 5
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
-      "answer": "appointed",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
+      "answer": "sometimes",
       "accept": [
-       "appointed",
-       "appointed"
+       "sometimes",
+       "sometimes"
       ],
       "element": "diction",
-      "location": "After Twenty Years, paragraph 33",
+      "location": "After Twenty Years, paragraph 31",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 6
      },
      {
       "type": "mc",
@@ -2546,24 +2561,38 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
+      "answer": "appointed",
+      "accept": [
+       "appointed",
+       "appointed"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 33",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 8
      },
      {
-      "type": "short",
-      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
-      "expected": "The theme of change.",
-      "element": "characterization",
-      "location": "After Twenty Years, paragraph 31",
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
+      "options": [
+       "Friendship tested by duty",
+       "Science that poisons love",
+       "The cost of wanting to seem richer than you are",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 9,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
+      "n": 9
      },
      {
       "type": "short",
@@ -2583,36 +2612,38 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
-      "options": [
-       "The loss of faith in human goodness",
-       "Love and rivalry destroyed by racial violence",
-       "Friendship tested by duty",
-       "A story so convincing it becomes real"
-      ],
-      "answer": 2,
-      "element": "theme",
+      "type": "short",
+      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "The theme of change.",
+      "element": "characterization",
+      "location": "After Twenty Years, paragraph 31",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
-      "options": [
-       "Point of view",
-       "Metaphor",
-       "Hyperbole",
-       "Characterization"
-      ],
-      "answer": 3,
-      "element": "characterization",
+      "type": "short",
+      "prompt": "Claim: Jimmy proves his loyalty to both his friend and his duty. Explain how this evidence supports the claim: “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33).",
+      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
+      "element": "theme",
+      "location": "After Twenty Years, paragraph 33",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 12
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
      },
      {
       "type": "short",
@@ -2632,30 +2663,29 @@
       }
      },
      {
-      "type": "short",
-      "prompt": "Claim: Jimmy proves his loyalty to both his friend and his duty. Explain how this evidence supports the claim: “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33).",
-      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
-      "element": "theme",
-      "location": "After Twenty Years, paragraph 33",
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "characterization",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
+      "n": 14
      },
      {
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
       "options": [
        "Foreshadowing",
-       "Tone / mood",
        "Theme",
-       "Characterization"
+       "Alliteration",
+       "Irony"
       ],
       "answer": 0,
       "element": "foreshadowing",
@@ -2666,8 +2696,8 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how loyalty and duty develops from an earlier story to “After Twenty Years”. Use one quotation from each.",
-      "expected": "Jimmy keeps both the appointment and the law.",
+      "prompt": "Evaluate this claim about the story: “Jimmy proves his loyalty to both his friend and his duty.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -2718,57 +2748,57 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "A diamond scarfpin and watch"
+      "answer": "impressively"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "He could not bring himself to arrest his old friend"
+      "answer": "A diamond scarfpin and watch"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "dismally"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
       "answer": "doubtfully"
      },
      {
-      "n": 5,
-      "type": "fill",
+      "n": 4,
+      "type": "mc",
       "level": "recall",
-      "answer": "sometimes"
+      "answer": "He could not bring himself to arrest his old friend"
      },
      {
-      "n": 6,
+      "n": 5,
       "type": "mc",
       "level": "recall",
       "answer": "The West, Chicago"
      },
      {
-      "n": 7,
+      "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "appointed"
+      "answer": "sometimes"
      },
      {
-      "n": 8,
+      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "Twenty years"
      },
      {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "appointed"
+     },
+     {
       "n": 9,
-      "type": "short",
+      "type": "mc",
       "level": "inference",
-      "answer": "The theme of change."
+      "answer": "Friendship tested by duty"
      },
      {
       "n": 10,
@@ -2778,15 +2808,15 @@
      },
      {
       "n": 11,
-      "type": "mc",
+      "type": "short",
       "level": "inference",
-      "answer": "Friendship tested by duty"
+      "answer": "The theme of change."
      },
      {
       "n": 12,
-      "type": "mc",
+      "type": "short",
       "level": "analysis",
-      "answer": "Characterization"
+      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
      },
      {
       "n": 13,
@@ -2796,9 +2826,9 @@
      },
      {
       "n": 14,
-      "type": "short",
+      "type": "mc",
       "level": "analysis",
-      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
+      "answer": "Characterization"
      },
      {
       "n": 15,
@@ -2810,7 +2840,7 @@
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Jimmy keeps both the appointment and the law."
+      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
      },
      {
       "n": 17,
@@ -2841,14 +2871,14 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "In the line “The man from the West unfolded the little piece cf paper handed him.”, what does “unfolded” most nearly mean?",
+      "prompt": "In the line “The man from the West, his egotism enlarged by success, was beginning to outline the history of his career.”, what does “egotism” most nearly mean?",
       "options": [
+       "exchanged letters",
        "sink below the surface; go under or as if under water",
-       "too much concern with oneself",
-       "explained; revealed",
-       "exchanged letters"
+       "a surrounding or nearby region",
+       "too much concern with oneself"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -2857,15 +2887,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Why did Jimmy send someone else to make the arrest?",
+      "prompt": "In the line “The vicinity was one that kept early hours.”, what does “vicinity” most nearly mean?",
       "options": [
-       "He was ordered to",
-       "He was off duty",
-       "He could not bring himself to arrest his old friend",
-       "He was afraid"
+       "sink below the surface; go under or as if under water",
+       "too much concern with oneself",
+       "a surrounding or nearby region",
+       "exchanged letters"
       ],
       "answer": 2,
-      "element": "characterization",
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2876,9 +2906,9 @@
       "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
       "wordBank": [
        "impressively",
-       "submerged",
        "corresponded",
-       "egotism"
+       "egotism",
+       "submerged"
       ],
       "answer": "impressively",
       "accept": [
@@ -2892,18 +2922,14 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ was one that kept early hours.”",
-      "wordBank": [
-       "vicinity",
-       "egotism",
-       "submerged",
-       "corresponded"
-      ],
-      "answer": "vicinity",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
+      "answer": "appointed",
       "accept": [
-       "vicinity"
+       "appointed",
+       "appointed"
       ],
       "element": "diction",
+      "location": "After Twenty Years, paragraph 33",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2916,7 +2942,7 @@
        "exchanged letters",
        "too much concern with oneself",
        "sink below the surface; go under or as if under water",
-       "explained; revealed"
+       "a surrounding or nearby region"
       ],
       "answer": 2,
       "element": "diction",
@@ -2926,32 +2952,30 @@
       "n": 5
      },
      {
-      "type": "mc",
-      "prompt": "In the line “The man from the West, his egotism enlarged by success, was beginning to outline the history of his career.”, what does “egotism” most nearly mean?",
-      "options": [
-       "exchanged letters",
-       "sink below the surface; go under or as if under water",
-       "explained; revealed",
-       "too much concern with oneself"
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
+      "answer": "sometimes",
+      "accept": [
+       "sometimes",
+       "sometimes"
       ],
-      "answer": 3,
       "element": "diction",
+      "location": "After Twenty Years, paragraph 31",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 6
      },
      {
-      "type": "mc",
-      "prompt": "Where is the waiting man from now?",
-      "options": [
-       "The West, Chicago",
-       "New Orleans",
-       "Boston",
-       "London"
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 30: “_____ years is a long time, but not long enough to change a man’s nose from a Roman to a pug”",
+      "answer": "Twenty",
+      "accept": [
+       "Twenty",
+       "twenty"
       ],
-      "answer": 0,
-      "element": "setting",
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 30",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2961,12 +2985,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "A choice the reader must make",
-       "The hunter becoming the hunted",
+       "The foolishness of wishing to be young again",
        "Friendship tested by duty",
-       "Science that poisons love"
+       "Reason struggling against terror",
+       "The loss of faith in human goodness"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3011,10 +3035,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
       "options": [
-       "Theme",
+       "Irony",
        "Alliteration",
        "Foreshadowing",
-       "Point of view"
+       "Simile"
       ],
       "answer": 2,
       "element": "foreshadowing",
@@ -3044,12 +3068,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
       "options": [
-       "Symbolism",
-       "Point of view",
        "Characterization",
+       "Hyperbole",
+       "Personification",
        "Foreshadowing"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -3145,13 +3169,13 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "explained; revealed"
+      "answer": "too much concern with oneself"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "He could not bring himself to arrest his old friend"
+      "answer": "a surrounding or nearby region"
      },
      {
       "n": 3,
@@ -3163,7 +3187,7 @@
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "vicinity"
+      "answer": "appointed"
      },
      {
       "n": 5,
@@ -3173,15 +3197,15 @@
      },
      {
       "n": 6,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "too much concern with oneself"
+      "answer": "sometimes"
      },
      {
       "n": 7,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "The West, Chicago"
+      "answer": "Twenty"
      },
      {
       "n": 8,
@@ -3257,8 +3281,8 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 8,
-     "fill": 2,
+     "mc": 6,
+     "fill": 4,
      "short": 8
     }
    },
@@ -3266,16 +3290,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
       "wordBank": [
-       "doubtfully",
+       "impressively",
        "corresponded",
        "egotism",
        "submerged"
       ],
-      "answer": "doubtfully",
+      "answer": "impressively",
       "accept": [
-       "doubtfully"
+       "impressively"
       ],
       "element": "diction",
       "level": "recall",
@@ -3285,11 +3309,11 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The man from the West unfolded the little piece cf paper handed him.”, what does “unfolded” most nearly mean?",
+      "prompt": "In the line “The vicinity was one that kept early hours.”, what does “vicinity” most nearly mean?",
       "options": [
        "sink below the surface; go under or as if under water",
        "too much concern with oneself",
-       "explained; revealed",
+       "a surrounding or nearby region",
        "exchanged letters"
       ],
       "answer": 2,
@@ -3333,18 +3357,14 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
-      "wordBank": [
-       "impressively",
-       "submerged",
-       "corresponded",
-       "egotism"
-      ],
-      "answer": "impressively",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 30: “_____ years is a long time, but not long enough to change a man’s nose from a Roman to a pug”",
+      "answer": "Twenty",
       "accept": [
-       "impressively"
+       "Twenty",
+       "twenty"
       ],
       "element": "diction",
+      "location": "After Twenty Years, paragraph 30",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3368,14 +3388,18 @@
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
-      "answer": "appointed",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
+      "wordBank": [
+       "doubtfully",
+       "egotism",
+       "submerged",
+       "corresponded"
+      ],
+      "answer": "doubtfully",
       "accept": [
-       "appointed",
-       "appointed"
+       "doubtfully"
       ],
       "element": "diction",
-      "location": "After Twenty Years, paragraph 33",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3385,12 +3409,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "A choice the reader must make",
-       "The hunter becoming the hunted",
+       "The foolishness of wishing to be young again",
        "Friendship tested by duty",
-       "Science that poisons love"
+       "Reason struggling against terror",
+       "The loss of faith in human goodness"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3435,12 +3459,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
       "options": [
-       "Symbolism",
-       "Point of view",
        "Characterization",
+       "Hyperbole",
+       "Personification",
        "Foreshadowing"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -3451,10 +3475,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
       "options": [
-       "Theme",
+       "Irony",
        "Alliteration",
        "Foreshadowing",
-       "Point of view"
+       "Simile"
       ],
       "answer": 2,
       "element": "foreshadowing",
@@ -3569,13 +3593,13 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "doubtfully"
+      "answer": "impressively"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "explained; revealed"
+      "answer": "a surrounding or nearby region"
      },
      {
       "n": 3,
@@ -3593,7 +3617,7 @@
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "impressively"
+      "answer": "Twenty"
      },
      {
       "n": 6,
@@ -3605,7 +3629,7 @@
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "appointed"
+      "answer": "doubtfully"
      },
      {
       "n": 8,
@@ -3694,7 +3718,7 @@
       "options": [
        "exchanged letters",
        "sink below the surface; go under or as if under water",
-       "explained; revealed",
+       "a surrounding or nearby region",
        "too much concern with oneself"
       ],
       "answer": 3,
@@ -3756,18 +3780,15 @@
       "n": 4
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ was one that kept early hours.”",
-      "wordBank": [
-       "vicinity",
-       "egotism",
-       "submerged",
-       "corresponded"
+      "type": "mc",
+      "prompt": "In the line “The vicinity was one that kept early hours.”, what does “vicinity” most nearly mean?",
+      "options": [
+       "sink below the surface; go under or as if under water",
+       "too much concern with oneself",
+       "a surrounding or nearby region",
+       "exchanged letters"
       ],
-      "answer": "vicinity",
-      "accept": [
-       "vicinity"
-      ],
+      "answer": 2,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -3792,16 +3813,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
       "wordBank": [
-       "impressively",
+       "doubtfully",
+       "egotism",
        "submerged",
-       "corresponded",
-       "egotism"
+       "corresponded"
       ],
-      "answer": "impressively",
+      "answer": "doubtfully",
       "accept": [
-       "impressively"
+       "doubtfully"
       ],
       "element": "diction",
       "level": "recall",
@@ -3813,12 +3834,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "A choice the reader must make",
-       "The hunter becoming the hunted",
+       "The foolishness of wishing to be young again",
        "Friendship tested by duty",
-       "Science that poisons love"
+       "Reason struggling against terror",
+       "The loss of faith in human goodness"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3880,12 +3901,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
       "options": [
-       "Symbolism",
-       "Point of view",
        "Characterization",
+       "Hyperbole",
+       "Personification",
        "Foreshadowing"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -3896,10 +3917,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
       "options": [
-       "Theme",
+       "Irony",
        "Alliteration",
        "Foreshadowing",
-       "Point of view"
+       "Simile"
       ],
       "answer": 2,
       "element": "foreshadowing",
@@ -4019,9 +4040,9 @@
      },
      {
       "n": 5,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "vicinity"
+      "answer": "a surrounding or nearby region"
      },
      {
       "n": 6,
@@ -4033,7 +4054,7 @@
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "impressively"
+      "answer": "doubtfully"
      },
      {
       "n": 8,
@@ -4109,8 +4130,8 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 7,
-     "fill": 3,
+     "mc": 8,
+     "fill": 2,
      "short": 8
     }
    },
@@ -4118,16 +4139,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
       "wordBank": [
-       "doubtfully",
+       "impressively",
        "corresponded",
        "egotism",
        "submerged"
       ],
-      "answer": "doubtfully",
+      "answer": "impressively",
       "accept": [
-       "doubtfully"
+       "impressively"
       ],
       "element": "diction",
       "level": "recall",
@@ -4137,38 +4158,22 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ was one that kept early hours.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The few foot passengers astir in that quarter hurried _____ and silently along with coat collars turned high and pocketed hands.”",
       "wordBank": [
-       "vicinity",
+       "dismally",
        "egotism",
        "submerged",
        "corresponded"
       ],
-      "answer": "vicinity",
+      "answer": "dismally",
       "accept": [
-       "vicinity"
+       "dismally"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “The man from the West, his egotism enlarged by success, was beginning to outline the history of his career.”, what does “egotism” most nearly mean?",
-      "options": [
-       "exchanged letters",
-       "sink below the surface; go under or as if under water",
-       "explained; revealed",
-       "too much concern with oneself"
-      ],
-      "answer": 3,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
      },
      {
       "type": "mc",
@@ -4184,39 +4189,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "Why did Jimmy send someone else to make the arrest?",
-      "options": [
-       "He was ordered to",
-       "He was off duty",
-       "He could not bring himself to arrest his old friend",
-       "He was afraid"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “The other, submerged in his overcoat, listened with interest.”, what does “submerged” most nearly mean?",
-      "options": [
-       "exchanged letters",
-       "too much concern with oneself",
-       "sink below the surface; go under or as if under water",
-       "explained; revealed"
-      ],
-      "answer": 2,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
+      "n": 3
      },
      {
       "type": "mc",
@@ -4229,6 +4202,54 @@
       ],
       "answer": 1,
       "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The man from the West, his egotism enlarged by success, was beginning to outline the history of his career.”, what does “egotism” most nearly mean?",
+      "options": [
+       "exchanged letters",
+       "sink below the surface; go under or as if under water",
+       "a surrounding or nearby region",
+       "too much concern with oneself"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line ““Well, yes, for a time we corresponded,” said the other.”, what does “corresponded” most nearly mean?",
+      "options": [
+       "exchanged letters",
+       "a surrounding or nearby region",
+       "too much concern with oneself",
+       "sink below the surface; go under or as if under water"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The other, submerged in his overcoat, listened with interest.”, what does “submerged” most nearly mean?",
+      "options": [
+       "exchanged letters",
+       "too much concern with oneself",
+       "sink below the surface; go under or as if under water",
+       "a surrounding or nearby region"
+      ],
+      "answer": 2,
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -4252,22 +4273,6 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
-      "options": [
-       "A choice the reader must make",
-       "The hunter becoming the hunted",
-       "Friendship tested by duty",
-       "Science that poisons love"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
       "type": "short",
       "prompt": "What can you infer from this line? “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) Answer in two or three sentences with one detail.",
       "expected": "The reveal.",
@@ -4276,7 +4281,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 10,
+      "n": 9,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4286,15 +4291,31 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
+      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "Theme",
-       "Alliteration",
-       "Foreshadowing",
-       "Point of view"
+       "The foolishness of wishing to be young again",
+       "Friendship tested by duty",
+       "Reason struggling against terror",
+       "The loss of faith in human goodness"
       ],
-      "answer": 2,
-      "element": "foreshadowing",
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
+      "options": [
+       "Characterization",
+       "Hyperbole",
+       "Personification",
+       "Foreshadowing"
+      ],
+      "answer": 0,
+      "element": "characterization",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -4302,15 +4323,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
       "options": [
-       "Symbolism",
-       "Point of view",
-       "Characterization",
-       "Foreshadowing"
+       "Irony",
+       "Alliteration",
+       "Foreshadowing",
+       "Simile"
       ],
       "answer": 2,
-      "element": "characterization",
+      "element": "foreshadowing",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -4349,6 +4370,427 @@
        "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loyalty and duty develops from an earlier story to “After Twenty Years”. Use one quotation from each.",
+      "expected": "Jimmy keeps both the appointment and the law.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "The theme of change.",
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Jimmy proves his loyalty to both his friend and his duty.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impressively"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismally"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A diamond scarfpin and watch"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "too much concern with oneself"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "exchanged letters"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "sink below the surface; go under or as if under water"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The theme of change."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Friendship tested by duty"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Jimmy's note."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jimmy keeps both the appointment and the law."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The theme of change."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What clue shows the waiting man's wealth?",
+      "options": [
+       "A fur coat",
+       "A diamond scarfpin and watch",
+       "A bag of gold",
+       "A new car"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How long ago did the two friends agree to meet?",
+      "options": [
+       "Fifty years",
+       "Twenty years",
+       "Ten years",
+       "Five years"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line ““Well, yes, for a time we corresponded,” said the other.”, what does “corresponded” most nearly mean?",
+      "options": [
+       "exchanged letters",
+       "a surrounding or nearby region",
+       "too much concern with oneself",
+       "sink below the surface; go under or as if under water"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from After Twenty Years, paragraph 31: “It _____ changes a good man into a bad one”",
+      "answer": "sometimes",
+      "accept": [
+       "sometimes",
+       "sometimes"
+      ],
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Where is the waiting man from now?",
+      "options": [
+       "The West, Chicago",
+       "New Orleans",
+       "Boston",
+       "London"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
+      "wordBank": [
+       "impressively",
+       "corresponded",
+       "egotism",
+       "submerged"
+      ],
+      "answer": "impressively",
+      "accept": [
+       "impressively"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who was the patrolling policeman?",
+      "options": [
+       "Bob's brother",
+       "A stranger",
+       "A Chicago detective",
+       "Jimmy Wells"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "The theme of change.",
+      "element": "characterization",
+      "location": "After Twenty Years, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Friendship tested by duty",
+       "Reason struggling against terror",
+       "The loss of faith in human goodness"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "After Twenty Years, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Jimmy proves his loyalty to both his friend and his duty. Explain how this evidence supports the claim: “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33).",
+      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
+      "element": "theme",
+      "location": "After Twenty Years, paragraph 33",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
+      "options": [
+       "Characterization",
+       "Hyperbole",
+       "Personification",
+       "Foreshadowing"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33). Pick two words and explain what they suggest.",
+      "expected": "Jimmy's note.",
+      "element": "diction",
+      "location": "After Twenty Years, paragraph 33",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
+      "options": [
+       "Irony",
+       "Alliteration",
+       "Foreshadowing",
+       "Simile"
+      ],
+      "answer": 2,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
      },
      {
       "type": "short",
@@ -4420,45 +4862,45 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "doubtfully"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "vicinity"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "too much concern with oneself"
-     },
-     {
-      "n": 4,
       "type": "mc",
       "level": "recall",
       "answer": "A diamond scarfpin and watch"
      },
      {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "exchanged letters"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sometimes"
+     },
+     {
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "He could not bring himself to arrest his old friend"
+      "answer": "The West, Chicago"
      },
      {
       "n": 6,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "sink below the surface; go under or as if under water"
+      "answer": "impressively"
      },
      {
       "n": 7,
       "type": "mc",
       "level": "recall",
-      "answer": "Twenty years"
+      "answer": "Jimmy Wells"
      },
      {
       "n": 8,
@@ -4480,9 +4922,9 @@
      },
      {
       "n": 11,
-      "type": "mc",
+      "type": "short",
       "level": "analysis",
-      "answer": "Foreshadowing"
+      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
      },
      {
       "n": 12,
@@ -4494,13 +4936,13 @@
       "n": 13,
       "type": "short",
       "level": "analysis",
-      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
+      "answer": "Jimmy's note."
      },
      {
       "n": 14,
-      "type": "short",
+      "type": "mc",
       "level": "analysis",
-      "answer": "Jimmy's note."
+      "answer": "Foreshadowing"
      },
      {
       "n": 15,
@@ -4539,55 +4981,23 @@
      "short": 8
     }
    },
-   "collegeSenior": {
+   "graduate": {
     "items": [
      {
       "type": "mc",
-      "prompt": "In the line “The other, submerged in his overcoat, listened with interest.”, what does “submerged” most nearly mean?",
+      "prompt": "In the line “The man from the West, his egotism enlarged by success, was beginning to outline the history of his career.”, what does “egotism” most nearly mean?",
       "options": [
        "exchanged letters",
-       "too much concern with oneself",
        "sink below the surface; go under or as if under water",
-       "explained; revealed"
+       "a surrounding or nearby region",
+       "too much concern with oneself"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "How long ago did the two friends agree to meet?",
-      "options": [
-       "Fifty years",
-       "Twenty years",
-       "Ten years",
-       "Five years"
-      ],
-      "answer": 1,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line ““Well, yes, for a time we corresponded,” said the other.”, what does “corresponded” most nearly mean?",
-      "options": [
-       "exchanged letters",
-       "explained; revealed",
-       "too much concern with oneself",
-       "sink below the surface; go under or as if under water"
-      ],
-      "answer": 0,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
      },
      {
       "type": "fill",
@@ -4606,42 +5016,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "Where is the waiting man from now?",
-      "options": [
-       "The West, Chicago",
-       "New Orleans",
-       "Boston",
-       "London"
-      ],
-      "answer": 0,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
-      "wordBank": [
-       "doubtfully",
-       "corresponded",
-       "egotism",
-       "submerged"
-      ],
-      "answer": "doubtfully",
-      "accept": [
-       "doubtfully"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
+      "n": 2
      },
      {
       "type": "fill",
@@ -4656,323 +5031,32 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) Answer in two or three sentences with one detail.",
-      "expected": "The reveal.",
-      "element": "characterization",
-      "location": "After Twenty Years, paragraph 30",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
-      "expected": "The theme of change.",
-      "element": "characterization",
-      "location": "After Twenty Years, paragraph 31",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
+      "n": 3
      },
      {
       "type": "mc",
-      "prompt": "Which choice best states a central concern of “After Twenty Years”?",
+      "prompt": "In the line “The other, submerged in his overcoat, listened with interest.”, what does “submerged” most nearly mean?",
       "options": [
-       "A choice the reader must make",
-       "The hunter becoming the hunted",
-       "Friendship tested by duty",
-       "Science that poisons love"
+       "exchanged letters",
+       "too much concern with oneself",
+       "sink below the surface; go under or as if under water",
+       "a surrounding or nearby region"
       ],
       "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
-      "options": [
-       "Theme",
-       "Alliteration",
-       "Foreshadowing",
-       "Point of view"
-      ],
-      "answer": 2,
-      "element": "foreshadowing",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
-      "options": [
-       "Symbolism",
-       "Point of view",
-       "Characterization",
-       "Foreshadowing"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: Jimmy proves his loyalty to both his friend and his duty. Explain how this evidence supports the claim: “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33).",
-      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
-      "element": "theme",
-      "location": "After Twenty Years, paragraph 33",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “Bob: I was at the appointed place on time” (After Twenty Years, paragraph 33). Pick two words and explain what they suggest.",
-      "expected": "Jimmy's note.",
       "element": "diction",
-      "location": "After Twenty Years, paragraph 33",
-      "level": "analysis",
-      "dok": 3,
+      "level": "recall",
+      "dok": 1,
       "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
+      "n": 4
      },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) shape its meaning? Consider a second, competing reading.",
-      "expected": "The theme of change.",
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 31",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how loyalty and duty develops from an earlier story to “After Twenty Years”. Use one quotation from each.",
-      "expected": "Jimmy keeps both the appointment and the law.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 30",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Jimmy proves his loyalty to both his friend and his duty.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "sink below the surface; go under or as if under water"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Twenty years"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "exchanged letters"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "dismally"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "The West, Chicago"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "doubtfully"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "sometimes"
-     },
-     {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "The theme of change."
-     },
-     {
-      "n": 10,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Friendship tested by duty"
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Foreshadowing"
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Characterization"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Jimmy's note."
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The theme of change."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Jimmy keeps both the appointment and the law."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The reveal."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "His note says \"I was at the appointed place on time,\" so he kept his promise, but he sent another officer because he was bound by duty and could not bear to arrest Bob himself."
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 7,
-     "fill": 3,
-     "short": 8
-    }
-   },
-   "graduate": {
-    "items": [
      {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: ““Is that you, Bob?” he asked, _____.”",
       "wordBank": [
        "doubtfully",
-       "corresponded",
        "egotism",
-       "submerged"
+       "submerged",
+       "corresponded"
       ],
       "answer": "doubtfully",
       "accept": [
@@ -4982,54 +5066,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from After Twenty Years, paragraph 33: “Bob: I was at the _____ place on time”",
-      "answer": "appointed",
-      "accept": [
-       "appointed",
-       "appointed"
-      ],
-      "element": "diction",
-      "location": "After Twenty Years, paragraph 33",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "Who was the patrolling policeman?",
-      "options": [
-       "Bob's brother",
-       "A stranger",
-       "A Chicago detective",
-       "Jimmy Wells"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “The man from the West, his egotism enlarged by success, was beginning to outline the history of his career.”, what does “egotism” most nearly mean?",
-      "options": [
-       "exchanged letters",
-       "sink below the surface; go under or as if under water",
-       "explained; revealed",
-       "too much concern with oneself"
-      ],
-      "answer": 3,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
+      "n": 5
      },
      {
       "type": "mc",
@@ -5045,37 +5082,18 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “The other, submerged in his overcoat, listened with interest.”, what does “submerged” most nearly mean?",
-      "options": [
-       "exchanged letters",
-       "too much concern with oneself",
-       "sink below the surface; go under or as if under water",
-       "explained; revealed"
-      ],
-      "answer": 2,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 6
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “THE policeman on the beat moved up the avenue _____.”",
-      "wordBank": [
-       "impressively",
-       "submerged",
-       "corresponded",
-       "egotism"
+      "type": "mc",
+      "prompt": "In the line ““Well, yes, for a time we corresponded,” said the other.”, what does “corresponded” most nearly mean?",
+      "options": [
+       "exchanged letters",
+       "a surrounding or nearby region",
+       "too much concern with oneself",
+       "sink below the surface; go under or as if under water"
       ],
-      "answer": "impressively",
-      "accept": [
-       "impressively"
-      ],
+      "answer": 0,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -5084,10 +5102,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) Answer in two or three sentences with one detail.",
-      "expected": "The reveal.",
+      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "The theme of change.",
       "element": "characterization",
-      "location": "After Twenty Years, paragraph 30",
+      "location": "After Twenty Years, paragraph 31",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -5103,12 +5121,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “After Twenty Years”?",
       "options": [
-       "A choice the reader must make",
-       "The hunter becoming the hunted",
+       "The foolishness of wishing to be young again",
        "Friendship tested by duty",
-       "Science that poisons love"
+       "Reason struggling against terror",
+       "The loss of faith in human goodness"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -5117,10 +5135,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “It sometimes changes a good man into a bad one” (After Twenty Years, paragraph 31) Answer in two or three sentences with one detail.",
-      "expected": "The theme of change.",
+      "prompt": "What can you infer from this line? “Twenty years is a long time, but not long enough to change a man’s nose from a Roman to a pug” (After Twenty Years, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
       "element": "characterization",
-      "location": "After Twenty Years, paragraph 31",
+      "location": "After Twenty Years, paragraph 30",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -5136,10 +5154,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? The cop's careful questions and Bob's diamond scarfpin hint at the twist.",
       "options": [
-       "Theme",
+       "Irony",
        "Alliteration",
        "Foreshadowing",
-       "Point of view"
+       "Simile"
       ],
       "answer": 2,
       "element": "foreshadowing",
@@ -5169,12 +5187,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “After Twenty Years”? Bob is boastful and flashy; Jimmy is quiet and dutiful.",
       "options": [
-       "Symbolism",
-       "Point of view",
        "Characterization",
+       "Hyperbole",
+       "Personification",
        "Foreshadowing"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -5268,51 +5286,51 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "doubtfully"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "appointed"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Jimmy Wells"
-     },
-     {
-      "n": 4,
       "type": "mc",
       "level": "recall",
       "answer": "too much concern with oneself"
      },
      {
-      "n": 5,
-      "type": "mc",
+      "n": 2,
+      "type": "fill",
       "level": "recall",
-      "answer": "Twenty years"
+      "answer": "dismally"
      },
      {
-      "n": 6,
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "sometimes"
+     },
+     {
+      "n": 4,
       "type": "mc",
       "level": "recall",
       "answer": "sink below the surface; go under or as if under water"
      },
      {
-      "n": 7,
+      "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "impressively"
+      "answer": "doubtfully"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "exchanged letters"
      },
      {
       "n": 8,
       "type": "short",
       "level": "inference",
-      "answer": "The reveal."
+      "answer": "The theme of change."
      },
      {
       "n": 9,
@@ -5324,7 +5342,7 @@
       "n": 10,
       "type": "short",
       "level": "inference",
-      "answer": "The theme of change."
+      "answer": "The reveal."
      },
      {
       "n": 11,
@@ -5398,7 +5416,7 @@
    "theme": "loyalty and duty",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5619,7 +5637,7 @@
    "theme": "change over time",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5840,7 +5858,7 @@
    "theme": "friendship",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"

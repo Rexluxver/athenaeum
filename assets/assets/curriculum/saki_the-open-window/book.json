@@ -377,7 +377,7 @@
    },
    "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
   },
-  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Middle School prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
+  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Scaffolded-support prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
   "weeks": 1,
   "lessons": 1,
   "unitDays": 2,
@@ -437,11 +437,11 @@
    "What does The Open Window suggest about romance as invention?"
   ],
   "objectives": [
-   "Cite textual evidence to support analysis of what the text says explicitly and implicitly.",
-   "Determine themes and analyze their development over the course of the story.",
-   "Analyze how characters, setting and point of view interact.",
-   "Determine the meaning of words and phrases as they are used in the text.",
-   "Write arguments to support claims with clear reasons and relevant evidence."
+   "Students will cite at least 2 quotations, with locations, to support each written claim about what the text says explicitly and implicitly (scored on the writing-prompt rubric).",
+   "Students will trace one theme across at least 3 sections of the story in the final paper, earning at least 70 of 100 rubric points.",
+   "Students will explain how characters, setting and point of view interact in at least 3 exit tickets, each meeting the claim-evidence-reasoning criteria.",
+   "Students will determine the in-context meaning of taught vocabulary, scoring at least 80% on the vocabulary items of the story quizzes.",
+   "Students will write an argument with a clear claim, reasons and relevant evidence, scoring at least 80% on the unit test's short-answer scoring guides."
   ],
   "standards": [
    "RL.9-10.1",
@@ -535,7 +535,7 @@
    "Whole-story test (scheduled day)",
    "Final essay (scheduled day); College Sophomore and above write one essay of the five"
   ],
-  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
+  "differentiation": "Every prompt and quiz has eleven rigor levels (Scaffolded support through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
   "materials": [
    "Liber et Libri reader",
    "Annotation journal",
@@ -598,6 +598,22 @@
    },
    {
     "type": "mc",
+    "prompt": "What does Vera claim happened three years ago?",
+    "options": [
+     "Her uncle and his brothers died in a bog",
+     "Her aunt went mad",
+     "A dog drowned",
+     "The house burned"
+    ],
+    "answer": 0,
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 3
+   },
+   {
+    "type": "mc",
     "prompt": "What is Vera's 'speciality'?",
     "options": [
      "Hunting",
@@ -626,23 +642,7 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 5
-   },
-   {
-    "type": "mc",
-    "prompt": "What does Vera claim happened three years ago?",
-    "options": [
-     "Her uncle and his brothers died in a bog",
-     "Her aunt went mad",
-     "A dog drowned",
-     "The house burned"
-    ],
-    "answer": 0,
-    "element": "plot",
-    "level": "recall",
-    "dok": 1,
-    "chapterIndex": 0,
-    "n": 8
+    "n": 6
    },
    {
     "type": "mc",
@@ -658,18 +658,18 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 9
+    "n": 8
    },
    {
     "type": "mc",
     "prompt": "Which choice best states a central concern of “The Open Window”?",
     "options": [
-     "Racial pride destroying love",
-     "A story so convincing it becomes real",
+     "Reason struggling against terror",
      "A girl choosing nature over a stranger's approval",
-     "Reason defeating a hidden crime"
+     "A story so convincing it becomes real",
+     "Wishes that defy fate"
     ],
-    "answer": 1,
+    "answer": 2,
     "element": "theme",
     "level": "inference",
     "dok": 2,
@@ -680,12 +680,12 @@
     "type": "mc",
     "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
     "options": [
-     "Personification",
+     "Allusion",
+     "Plot",
      "Characterization",
-     "Foreshadowing",
-     "Plot"
+     "Imagery"
     ],
-    "answer": 1,
+    "answer": 2,
     "element": "characterization",
     "level": "analysis",
     "dok": 3,
@@ -696,12 +696,12 @@
     "type": "mc",
     "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
     "options": [
-     "Tone / mood",
+     "Personification",
+     "Setting",
      "Irony",
-     "Foreshadowing",
-     "Imagery"
+     "Theme"
     ],
-    "answer": 1,
+    "answer": 2,
     "element": "irony",
     "level": "analysis",
     "dok": 3,
@@ -717,18 +717,18 @@
    },
    {
     "n": 2,
+    "answer": "Her uncle and his brothers died in a bog",
+    "element": "plot"
+   },
+   {
+    "n": 3,
     "answer": "Romance at short notice: inventing stories",
     "element": "characterization"
    },
    {
-    "n": 3,
+    "n": 4,
     "answer": "Vera, the niece",
     "element": "pointOfView"
-   },
-   {
-    "n": 4,
-    "answer": "Her uncle and his brothers died in a bog",
-    "element": "plot"
    },
    {
     "n": 5,
@@ -756,14 +756,18 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
-      "answer": "speciality",
-      "accept": [
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
+      "wordBank": [
+       "mackintosh",
        "speciality",
-       "speciality"
+       "carpets",
+       "discounting"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
       ],
       "element": "diction",
-      "location": "The Open Window, paragraph 29",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -819,22 +823,37 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
       "wordBank": [
+       "discounting",
+       "coincidence",
        "mackintosh",
-       "speciality",
-       "carpets",
-       "discounting"
+       "speciality"
       ],
-      "answer": "carpets",
+      "answer": "coincidence",
       "accept": [
-       "carpets"
+       "coincidence"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
+      "answer": "speciality",
+      "accept": [
+       "speciality",
+       "speciality"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
      },
      {
       "type": "mc",
@@ -850,45 +869,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““You may wonder why we keep that window wide open on an October afternoon,” said the niece, _____ a large French window that opened on to a lawn.”",
-      "wordBank": [
-       "discounting",
-       "indicating",
-       "mackintosh",
-       "speciality"
-      ],
-      "answer": "indicating",
-      "accept": [
-       "indicating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““My sister was _____ here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.””",
-      "wordBank": [
-       "mackintosh",
-       "discounting",
-       "speciality",
-       "staying"
-      ],
-      "answer": "staying",
-      "accept": [
-       "staying"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "fill",
@@ -903,7 +884,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
+      "n": 8
      },
      {
       "type": "mc",
@@ -919,7 +900,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 10
+      "n": 9
      },
      {
       "type": "fill",
@@ -934,26 +915,26 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 11
+      "n": 10
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Here the child’s voice lost its self-possessed note and became _____ human.”",
       "wordBank": [
        "speciality",
        "discounting",
        "mackintosh",
-       "coincidence"
+       "falteringly"
       ],
-      "answer": "coincidence",
+      "answer": "falteringly",
       "accept": [
-       "coincidence"
+       "falteringly"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 12
+      "n": 11
      },
      {
       "type": "short",
@@ -964,7 +945,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 13,
+      "n": 12,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -981,7 +962,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 13,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -993,17 +974,17 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Open Window”?",
       "options": [
-       "Racial pride destroying love",
-       "A story so convincing it becomes real",
+       "Reason struggling against terror",
        "A girl choosing nature over a stranger's approval",
-       "Reason defeating a hidden crime"
+       "A story so convincing it becomes real",
+       "Wishes that defy fate"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 15
+      "n": 14
      },
      {
       "type": "short",
@@ -1014,7 +995,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 16,
+      "n": 15,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -1026,17 +1007,34 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
       "options": [
-       "Personification",
+       "Allusion",
+       "Plot",
        "Characterization",
-       "Foreshadowing",
-       "Plot"
+       "Imagery"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 17
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Vera's skill shows the power of a story. Explain how this evidence supports the claim: “Romance at short notice was her speciality” (The Open Window, paragraph 29).",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
+      "location": "The Open Window, paragraph 29",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
      },
      {
       "type": "short",
@@ -1060,7 +1058,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "speciality"
+      "answer": "carpets"
      },
      {
       "n": 2,
@@ -1084,79 +1082,79 @@
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "carpets"
+      "answer": "coincidence"
      },
      {
       "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "speciality"
+     },
+     {
+      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "Romance at short notice: inventing stories"
      },
      {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "indicating"
-     },
-     {
       "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "staying"
-     },
-     {
-      "n": 9,
       "type": "fill",
       "level": "recall",
       "answer": "undergoing"
      },
      {
-      "n": 10,
+      "n": 9,
       "type": "mc",
       "level": "recall",
       "answer": "The men appear walking toward the window"
      },
      {
-      "n": 11,
+      "n": 10,
       "type": "fill",
       "level": "recall",
       "answer": "happened"
      },
      {
-      "n": 12,
+      "n": 11,
       "type": "fill",
       "level": "recall",
-      "answer": "coincidence"
+      "answer": "falteringly"
      },
      {
-      "n": 13,
+      "n": 12,
       "type": "short",
       "level": "inference",
       "answer": "The reveal."
      },
      {
-      "n": 14,
+      "n": 13,
       "type": "short",
       "level": "inference",
       "answer": "Framton."
      },
      {
-      "n": 15,
+      "n": 14,
       "type": "mc",
       "level": "inference",
       "answer": "A story so convincing it becomes real"
      },
      {
-      "n": 16,
+      "n": 15,
       "type": "short",
       "level": "analysis",
       "answer": "Vera's story."
      },
      {
-      "n": 17,
+      "n": 16,
       "type": "mc",
       "level": "analysis",
       "answer": "Characterization"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
      },
      {
       "n": 18,
@@ -1166,15 +1164,15 @@
      }
     ],
     "mix": {
-     "recall": 12,
+     "recall": 11,
      "inference": 3,
-     "analysis": 2,
+     "analysis": 3,
      "synthesis": 1
     },
     "types": {
      "mc": 7,
-     "fill": 7,
-     "short": 4
+     "fill": 6,
+     "short": 5
     }
    },
    "hsFreshman": {
@@ -1196,16 +1194,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““You may wonder why we keep that window wide open on an October afternoon,” said the niece, _____ a large French window that opened on to a lawn.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Here the child’s voice lost its self-possessed note and became _____ human.”",
       "wordBank": [
+       "speciality",
        "discounting",
-       "indicating",
        "mackintosh",
-       "speciality"
+       "falteringly"
       ],
-      "answer": "indicating",
+      "answer": "falteringly",
       "accept": [
-       "indicating"
+       "falteringly"
       ],
       "element": "diction",
       "level": "recall",
@@ -1214,16 +1212,19 @@
       "n": 2
      },
      {
-      "type": "mc",
-      "prompt": "What does Vera claim happened three years ago?",
-      "options": [
-       "Her uncle and his brothers died in a bog",
-       "Her aunt went mad",
-       "A dog drowned",
-       "The house burned"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
+      "wordBank": [
+       "mackintosh",
+       "speciality",
+       "carpets",
+       "discounting"
       ],
-      "answer": 0,
-      "element": "plot",
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -1246,25 +1247,6 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““My sister was _____ here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.””",
-      "wordBank": [
-       "mackintosh",
-       "discounting",
-       "speciality",
-       "staying"
-      ],
-      "answer": "staying",
-      "accept": [
-       "staying"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
       "prompt": "Complete the quotation from The Open Window, paragraph 2: “nerve cure which he was supposed to be _____”",
       "answer": "undergoing",
       "accept": [
@@ -1276,16 +1258,32 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Vera claim happened three years ago?",
+      "options": [
+       "Her uncle and his brothers died in a bog",
+       "Her aunt went mad",
+       "A dog drowned",
+       "The house burned"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 6
      },
      {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
       "wordBank": [
-       "speciality",
        "discounting",
+       "coincidence",
        "mackintosh",
-       "coincidence"
+       "speciality"
       ],
       "answer": "coincidence",
       "accept": [
@@ -1296,25 +1294,6 @@
       "dok": 1,
       "chapterIndex": 0,
       "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
-      "wordBank": [
-       "mackintosh",
-       "speciality",
-       "carpets",
-       "discounting"
-      ],
-      "answer": "carpets",
-      "accept": [
-       "carpets"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "mc",
@@ -1330,7 +1309,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
+      "n": 8
      },
      {
       "type": "mc",
@@ -1346,7 +1325,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 10
+      "n": 9
      },
      {
       "type": "mc",
@@ -1362,18 +1341,34 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Framton flee?",
+      "options": [
+       "The dog bites him",
+       "The men appear walking toward the window",
+       "A ghost appears",
+       "Mrs. Sappleton screams"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 11
      },
      {
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Open Window”?",
       "options": [
-       "Racial pride destroying love",
-       "A story so convincing it becomes real",
+       "Reason struggling against terror",
        "A girl choosing nature over a stranger's approval",
-       "Reason defeating a hidden crime"
+       "A story so convincing it becomes real",
+       "Wishes that defy fate"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -1418,12 +1413,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
       "options": [
-       "Personification",
+       "Allusion",
+       "Plot",
        "Characterization",
-       "Foreshadowing",
-       "Plot"
+       "Imagery"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -1434,12 +1429,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
       "options": [
-       "Tone / mood",
+       "Personification",
+       "Setting",
        "Irony",
-       "Foreshadowing",
-       "Imagery"
+       "Theme"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -1492,13 +1487,13 @@
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "indicating"
+      "answer": "falteringly"
      },
      {
       "n": 3,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Her uncle and his brothers died in a bog"
+      "answer": "carpets"
      },
      {
       "n": 4,
@@ -1510,13 +1505,13 @@
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "staying"
+      "answer": "undergoing"
      },
      {
       "n": 6,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "undergoing"
+      "answer": "Her uncle and his brothers died in a bog"
      },
      {
       "n": 7,
@@ -1526,27 +1521,27 @@
      },
      {
       "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "carpets"
-     },
-     {
-      "n": 9,
       "type": "mc",
       "level": "recall",
       "answer": "Romance at short notice: inventing stories"
      },
      {
-      "n": 10,
+      "n": 9,
       "type": "mc",
       "level": "recall",
       "answer": "Vera, the niece"
      },
      {
-      "n": 11,
+      "n": 10,
       "type": "mc",
       "level": "recall",
       "answer": "For a nerve cure"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The men appear walking toward the window"
      },
      {
       "n": 12,
@@ -1598,8 +1593,8 @@
      "synthesis": 1
     },
     "types": {
-     "mc": 7,
-     "fill": 7,
+     "mc": 8,
+     "fill": 6,
      "short": 4
     }
    },
@@ -1607,18 +1602,14 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““My sister was _____ here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.””",
-      "wordBank": [
-       "mackintosh",
-       "discounting",
-       "speciality",
-       "staying"
-      ],
-      "answer": "staying",
+      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
+      "answer": "speciality",
       "accept": [
-       "staying"
+       "speciality",
+       "speciality"
       ],
       "element": "diction",
+      "location": "The Open Window, paragraph 29",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -1641,15 +1632,16 @@
       "n": 2
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
-      "answer": "speciality",
-      "accept": [
-       "speciality",
-       "speciality"
+      "type": "mc",
+      "prompt": "What does Vera claim happened three years ago?",
+      "options": [
+       "Her uncle and his brothers died in a bog",
+       "Her aunt went mad",
+       "A dog drowned",
+       "The house burned"
       ],
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
+      "answer": 0,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -1672,22 +1664,6 @@
       "n": 4
      },
      {
-      "type": "mc",
-      "prompt": "Who tells Framton about the open window?",
-      "options": [
-       "Mrs. Sappleton",
-       "A servant",
-       "Vera, the niece",
-       "His sister"
-      ],
-      "answer": 2,
-      "element": "pointOfView",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
       "wordBank": [
@@ -1704,38 +1680,38 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who tells Framton about the open window?",
+      "options": [
+       "Mrs. Sappleton",
+       "A servant",
+       "Vera, the niece",
+       "His sister"
+      ],
+      "answer": 2,
+      "element": "pointOfView",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 6
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 10: “Her great tragedy _____ just three years ago”",
-      "answer": "happened",
+      "prompt": "Complete the quotation from The Open Window, paragraph 2: “nerve cure which he was supposed to be _____”",
+      "answer": "undergoing",
       "accept": [
-       "happened",
-       "happened"
+       "undergoing",
+       "undergoing"
       ],
       "element": "diction",
-      "location": "The Open Window, paragraph 10",
+      "location": "The Open Window, paragraph 2",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "What does Vera claim happened three years ago?",
-      "options": [
-       "Her uncle and his brothers died in a bog",
-       "Her aunt went mad",
-       "A dog drowned",
-       "The house burned"
-      ],
-      "answer": 0,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "mc",
@@ -1751,16 +1727,35 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Here the child’s voice lost its self-possessed note and became _____ human.”",
+      "wordBank": [
+       "speciality",
+       "discounting",
+       "mackintosh",
+       "falteringly"
+      ],
+      "answer": "falteringly",
+      "accept": [
+       "falteringly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 9
      },
      {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
       "wordBank": [
-       "speciality",
        "discounting",
+       "coincidence",
        "mackintosh",
-       "coincidence"
+       "speciality"
       ],
       "answer": "coincidence",
       "accept": [
@@ -1810,12 +1805,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Open Window”?",
       "options": [
-       "Racial pride destroying love",
-       "A story so convincing it becomes real",
+       "Reason struggling against terror",
        "A girl choosing nature over a stranger's approval",
-       "Reason defeating a hidden crime"
+       "A story so convincing it becomes real",
+       "Wishes that defy fate"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -1843,12 +1838,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
       "options": [
-       "Personification",
+       "Allusion",
+       "Plot",
        "Characterization",
-       "Foreshadowing",
-       "Plot"
+       "Imagery"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -1859,12 +1854,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
       "options": [
-       "Tone / mood",
+       "Personification",
+       "Setting",
        "Irony",
-       "Foreshadowing",
-       "Imagery"
+       "Theme"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -1910,7 +1905,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "staying"
+      "answer": "speciality"
      },
      {
       "n": 2,
@@ -1920,9 +1915,9 @@
      },
      {
       "n": 3,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "speciality"
+      "answer": "Her uncle and his brothers died in a bog"
      },
      {
       "n": 4,
@@ -1932,33 +1927,33 @@
      },
      {
       "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Vera, the niece"
-     },
-     {
-      "n": 6,
       "type": "fill",
       "level": "recall",
       "answer": "carpets"
      },
      {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Vera, the niece"
+     },
+     {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "happened"
+      "answer": "undergoing"
      },
      {
       "n": 8,
       "type": "mc",
       "level": "recall",
-      "answer": "Her uncle and his brothers died in a bog"
+      "answer": "For a nerve cure"
      },
      {
       "n": 9,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "For a nerve cure"
+      "answer": "falteringly"
      },
      {
       "n": 10,
@@ -2046,6 +2041,427 @@
       "n": 1
      },
      {
+      "type": "mc",
+      "prompt": "Why is Framton visiting the country?",
+      "options": [
+       "To hunt",
+       "To buy land",
+       "To see his sister",
+       "For a nerve cure"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Vera's 'speciality'?",
+      "options": [
+       "Hunting",
+       "Gardening",
+       "Romance at short notice: inventing stories",
+       "Music"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
+      "wordBank": [
+       "mackintosh",
+       "speciality",
+       "carpets",
+       "discounting"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
+      "answer": "speciality",
+      "accept": [
+       "speciality",
+       "speciality"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Here the child’s voice lost its self-possessed note and became _____ human.”",
+      "wordBank": [
+       "speciality",
+       "discounting",
+       "mackintosh",
+       "falteringly"
+      ],
+      "answer": "falteringly",
+      "accept": [
+       "falteringly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Framton flee?",
+      "options": [
+       "The dog bites him",
+       "The men appear walking toward the window",
+       "A ghost appears",
+       "Mrs. Sappleton screams"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 2: “nerve cure which he was supposed to be _____”",
+      "answer": "undergoing",
+      "accept": [
+       "undergoing",
+       "undergoing"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 10: “Her great tragedy _____ just three years ago”",
+      "answer": "happened",
+      "accept": [
+       "happened",
+       "happened"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 10",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Open Window, paragraph 29",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Framton.",
+      "element": "characterization",
+      "location": "The Open Window, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Window”?",
+      "options": [
+       "Reason struggling against terror",
+       "A girl choosing nature over a stranger's approval",
+       "A story so convincing it becomes real",
+       "Wishes that defy fate"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
+      "options": [
+       "Allusion",
+       "Plot",
+       "Characterization",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
+      "options": [
+       "Personification",
+       "Setting",
+       "Irony",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
+      "expected": "Vera's story.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 10",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Vera's skill shows the power of a story. Explain how this evidence supports the claim: “Romance at short notice was her speciality” (The Open Window, paragraph 29).",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
+      "location": "The Open Window, paragraph 29",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
+      "expected": "a young girl, with little social power, controls the adults through storytelling.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Vera, the niece"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "For a nerve cure"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Romance at short notice: inventing stories"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "speciality"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "falteringly"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The men appear walking toward the window"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "undergoing"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "happened"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Framton."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A story so convincing it becomes real"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Vera's story."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "a young girl, with little social power, controls the adults through storytelling."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Why is Framton visiting the country?",
+      "options": [
+       "To hunt",
+       "To buy land",
+       "To see his sister",
+       "For a nerve cure"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
       "wordBank": [
@@ -2081,89 +2497,23 @@
       "n": 3
      },
      {
-      "type": "mc",
-      "prompt": "Why is Framton visiting the country?",
-      "options": [
-       "To hunt",
-       "To buy land",
-       "To see his sister",
-       "For a nerve cure"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Here the child’s voice lost its self-possessed note and became _____ human.”",
+      "wordBank": [
+       "speciality",
+       "discounting",
+       "mackintosh",
+       "falteringly"
       ],
-      "answer": 3,
-      "element": "characterization",
+      "answer": "falteringly",
+      "accept": [
+       "falteringly"
+      ],
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
-      "wordBank": [
-       "speciality",
-       "discounting",
-       "mackintosh",
-       "coincidence"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
-      "answer": "speciality",
-      "accept": [
-       "speciality",
-       "speciality"
-      ],
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "What makes Framton flee?",
-      "options": [
-       "The dog bites him",
-       "The men appear walking toward the window",
-       "A ghost appears",
-       "Mrs. Sappleton screams"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““My sister was _____ here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.””",
-      "wordBank": [
-       "mackintosh",
-       "discounting",
-       "speciality",
-       "staying"
-      ],
-      "answer": "staying",
-      "accept": [
-       "staying"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "fill",
@@ -2178,375 +2528,19 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Open Window”?",
-      "options": [
-       "Racial pride destroying love",
-       "A story so convincing it becomes real",
-       "A girl choosing nature over a stranger's approval",
-       "Reason defeating a hidden crime"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
-      "expected": "The reveal.",
-      "element": "characterization",
-      "location": "The Open Window, paragraph 29",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
-      "expected": "Framton.",
-      "element": "characterization",
-      "location": "The Open Window, paragraph 2",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: Vera's skill shows the power of a story. Explain how this evidence supports the claim: “Romance at short notice was her speciality” (The Open Window, paragraph 29).",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
-      "location": "The Open Window, paragraph 29",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
-      "expected": "Vera's story.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 10",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
-      "options": [
-       "Personification",
-       "Characterization",
-       "Foreshadowing",
-       "Plot"
-      ],
-      "answer": 1,
-      "element": "characterization",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
-      "options": [
-       "Tone / mood",
-       "Irony",
-       "Foreshadowing",
-       "Imagery"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
-      "expected": "Framton.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 2",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Vera, the niece"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "carpets"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Romance at short notice: inventing stories"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "For a nerve cure"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "coincidence"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "speciality"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "The men appear walking toward the window"
-     },
-     {
-      "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "staying"
-     },
-     {
-      "n": 9,
-      "type": "fill",
-      "level": "recall",
-      "answer": "undergoing"
-     },
-     {
-      "n": 10,
-      "type": "mc",
-      "level": "inference",
-      "answer": "A story so convincing it becomes real"
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "inference",
-      "answer": "Framton."
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Vera's story."
-     },
-     {
-      "n": 15,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Characterization"
-     },
-     {
-      "n": 16,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Framton."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
-     }
-    ],
-    "mix": {
-     "recall": 9,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 2
-    },
-    "types": {
-     "mc": 7,
-     "fill": 5,
-     "short": 6
-    }
-   },
-   "hsSenior": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "What makes Framton flee?",
-      "options": [
-       "The dog bites him",
-       "The men appear walking toward the window",
-       "A ghost appears",
-       "Mrs. Sappleton screams"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
-      "wordBank": [
-       "speciality",
-       "discounting",
-       "mackintosh",
-       "coincidence"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "Who tells Framton about the open window?",
-      "options": [
-       "Mrs. Sappleton",
-       "A servant",
-       "Vera, the niece",
-       "His sister"
-      ],
-      "answer": 2,
-      "element": "pointOfView",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Vera's 'speciality'?",
-      "options": [
-       "Hunting",
-       "Gardening",
-       "Romance at short notice: inventing stories",
-       "Music"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "Why is Framton visiting the country?",
-      "options": [
-       "To hunt",
-       "To buy land",
-       "To see his sister",
-       "For a nerve cure"
-      ],
-      "answer": 3,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 5
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 2: “nerve cure which he was supposed to be _____”",
-      "answer": "undergoing",
-      "accept": [
-       "undergoing",
-       "undergoing"
+      "type": "mc",
+      "prompt": "What does Vera claim happened three years ago?",
+      "options": [
+       "Her uncle and his brothers died in a bog",
+       "Her aunt went mad",
+       "A dog drowned",
+       "The house burned"
       ],
-      "element": "diction",
-      "location": "The Open Window, paragraph 2",
+      "answer": 0,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2568,15 +2562,16 @@
       "n": 7
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
-      "answer": "speciality",
-      "accept": [
-       "speciality",
-       "speciality"
+      "type": "mc",
+      "prompt": "What makes Framton flee?",
+      "options": [
+       "The dog bites him",
+       "The men appear walking toward the window",
+       "A ghost appears",
+       "Mrs. Sappleton screams"
       ],
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
+      "answer": 1,
+      "element": "irony",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2584,10 +2579,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
-      "expected": "Framton.",
+      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
       "element": "characterization",
-      "location": "The Open Window, paragraph 2",
+      "location": "The Open Window, paragraph 29",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -2600,31 +2595,15 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Open Window”?",
-      "options": [
-       "Racial pride destroying love",
-       "A story so convincing it becomes real",
-       "A girl choosing nature over a stranger's approval",
-       "Reason defeating a hidden crime"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
       "type": "short",
-      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
-      "expected": "The reveal.",
+      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Framton.",
       "element": "characterization",
-      "location": "The Open Window, paragraph 29",
+      "location": "The Open Window, paragraph 2",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11,
+      "n": 10,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2634,15 +2613,31 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
+      "prompt": "Which choice best states a central concern of “The Open Window”?",
+      "options": [
+       "Reason struggling against terror",
+       "A girl choosing nature over a stranger's approval",
+       "A story so convincing it becomes real",
+       "Wishes that defy fate"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
       "options": [
        "Personification",
-       "Characterization",
-       "Foreshadowing",
-       "Plot"
+       "Setting",
+       "Irony",
+       "Theme"
       ],
-      "answer": 1,
-      "element": "characterization",
+      "answer": 2,
+      "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -2650,15 +2645,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
+      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
       "options": [
-       "Tone / mood",
-       "Irony",
-       "Foreshadowing",
+       "Allusion",
+       "Plot",
+       "Characterization",
        "Imagery"
       ],
-      "answer": 1,
-      "element": "irony",
+      "answer": 2,
+      "element": "characterization",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -2700,9 +2695,10 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2716,10 +2712,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
-      "expected": "Framton.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 2",
+      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
+      "expected": "a young girl, with little social power, controls the adults through storytelling.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2733,8 +2728,8 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
-      "expected": "a young girl, with little social power, controls the adults through storytelling.",
+      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -2753,37 +2748,37 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "The men appear walking toward the window"
+      "answer": "For a nerve cure"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "coincidence"
+      "answer": "carpets"
      },
      {
       "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "Vera, the niece"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
       "answer": "Romance at short notice: inventing stories"
      },
      {
-      "n": 5,
-      "type": "mc",
+      "n": 4,
+      "type": "fill",
       "level": "recall",
-      "answer": "For a nerve cure"
+      "answer": "falteringly"
      },
      {
-      "n": 6,
+      "n": 5,
       "type": "fill",
       "level": "recall",
       "answer": "undergoing"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her uncle and his brothers died in a bog"
      },
      {
       "n": 7,
@@ -2793,39 +2788,39 @@
      },
      {
       "n": 8,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "speciality"
+      "answer": "The men appear walking toward the window"
      },
      {
       "n": 9,
       "type": "short",
       "level": "inference",
-      "answer": "Framton."
+      "answer": "The reveal."
      },
      {
       "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Framton."
+     },
+     {
+      "n": 11,
       "type": "mc",
       "level": "inference",
       "answer": "A story so convincing it becomes real"
      },
      {
-      "n": 11,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
-     },
-     {
       "n": 12,
       "type": "mc",
       "level": "analysis",
-      "answer": "Characterization"
+      "answer": "Irony"
      },
      {
       "n": 13,
       "type": "mc",
       "level": "analysis",
-      "answer": "Irony"
+      "answer": "Characterization"
      },
      {
       "n": 14,
@@ -2843,19 +2838,19 @@
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+      "answer": "The reveal."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Framton."
+      "answer": "a young girl, with little social power, controls the adults through storytelling."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "a young girl, with little social power, controls the adults through storytelling."
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
      }
     ],
     "mix": {
@@ -2874,15 +2869,435 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "Why is Framton visiting the country?",
+      "prompt": "In the line “Romance at short notice was her speciality.”, what does “speciality” most nearly mean?",
       "options": [
-       "For a nerve cure",
-       "To see his sister",
-       "To buy land",
-       "To hunt"
+       "swallowed up completely",
+       "disregarding or not taking seriously",
+       "a particular skill or thing a person is known for",
+       "a raincoat"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Vera's 'speciality'?",
+      "options": [
+       "Music",
+       "Romance at short notice: inventing stories",
+       "Hunting",
+       "Gardening"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
+      "wordBank": [
+       "discounting",
+       "coincidence",
+       "mackintosh",
+       "speciality"
+      ],
+      "answer": "coincidence",
+      "accept": [
+       "coincidence"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
+      "answer": "speciality",
+      "accept": [
+       "speciality",
+       "speciality"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line ““Here we are, my dear,” said the bearer of the white mackintosh, coming in through the window; “fairly muddy, but most of it’s dry.”, what does “mackintosh” most nearly mean?",
+      "options": [
+       "a raincoat",
+       "swallowed up completely",
+       "disregarding or not taking seriously",
+       "a particular skill or thing a person is known for"
       ],
       "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In crossing the moor to their favourite snipe-shooting ground they were all three engulfed in a treacherous piece of bog.”, what does “engulfed” most nearly mean?",
+      "options": [
+       "disregarding or not taking seriously",
+       "a raincoat",
+       "a particular skill or thing a person is known for",
+       "swallowed up completely"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 10: “Her great tragedy _____ just three years ago”",
+      "answer": "happened",
+      "accept": [
+       "happened",
+       "happened"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 10",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
       "element": "characterization",
+      "location": "The Open Window, paragraph 29",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Window”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "The arrogance and loneliness of seeing differently",
+       "A family and a house collapsing together",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Framton.",
+      "element": "characterization",
+      "location": "The Open Window, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
+      "options": [
+       "Theme",
+       "Hyperbole",
+       "Alliteration",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
+      "options": [
+       "Foreshadowing",
+       "Irony",
+       "Point of view",
+       "Simile"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
+      "expected": "Vera's story.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 10",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Vera's skill shows the power of a story. Explain how this evidence supports the claim: “Romance at short notice was her speciality” (The Open Window, paragraph 29).",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
+      "location": "The Open Window, paragraph 29",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
+      "expected": "a young girl, with little social power, controls the adults through storytelling.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Framton.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a particular skill or thing a person is known for"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Romance at short notice: inventing stories"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "coincidence"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "speciality"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a raincoat"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "swallowed up completely"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "happened"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A story so convincing it becomes real"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Framton."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Vera's story."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "a young girl, with little social power, controls the adults through storytelling."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Framton."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who tells Framton about the open window?",
+      "options": [
+       "Vera, the niece",
+       "His sister",
+       "A servant",
+       "Mrs. Sappleton"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2890,18 +3305,14 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
-      "wordBank": [
-       "speciality",
-       "mackintosh",
-       "carpets",
-       "discounting"
-      ],
-      "answer": "carpets",
+      "prompt": "Complete the quotation from The Open Window, paragraph 2: “nerve cure which he was supposed to be _____”",
+      "answer": "undergoing",
       "accept": [
-       "carpets"
+       "undergoing",
+       "undergoing"
       ],
       "element": "diction",
+      "location": "The Open Window, paragraph 2",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2924,31 +3335,33 @@
       "n": 3
      },
      {
-      "type": "mc",
-      "prompt": "Who tells Framton about the open window?",
-      "options": [
-       "Vera, the niece",
-       "His sister",
-       "A servant",
-       "Mrs. Sappleton"
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 10: “Her great tragedy _____ just three years ago”",
+      "answer": "happened",
+      "accept": [
+       "happened",
+       "happened"
       ],
-      "answer": 0,
-      "element": "pointOfView",
+      "element": "diction",
+      "location": "The Open Window, paragraph 10",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 4
      },
      {
-      "type": "mc",
-      "prompt": "In the line ““Here we are, my dear,” said the bearer of the white mackintosh, coming in through the window; “fairly muddy, but most of it’s dry.”, what does “mackintosh” most nearly mean?",
-      "options": [
-       "a raincoat",
-       "swallowed up completely",
-       "disregarding or not taking seriously",
-       "a particular skill or thing a person is known for"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
+      "wordBank": [
+       "discounting",
+       "coincidence",
+       "mackintosh",
+       "speciality"
       ],
-      "answer": 0,
+      "answer": "coincidence",
+      "accept": [
+       "coincidence"
+      ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -2970,367 +3383,6 @@
       "dok": 1,
       "chapterIndex": 0,
       "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
-      "wordBank": [
-       "coincidence",
-       "speciality",
-       "discounting",
-       "mackintosh"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
-      "expected": "The reveal.",
-      "element": "characterization",
-      "location": "The Open Window, paragraph 29",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Open Window”?",
-      "options": [
-       "Love and rivalry destroyed by racial violence",
-       "Wishes that defy fate",
-       "A story so convincing it becomes real",
-       "Brotherhood against an indifferent sea"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
-      "expected": "Framton.",
-      "element": "characterization",
-      "location": "The Open Window, paragraph 2",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
-      "expected": "Vera's story.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 10",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
-      "options": [
-       "Structure",
-       "Foreshadowing",
-       "Irony",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
-      "options": [
-       "Characterization",
-       "Simile",
-       "Conflict",
-       "Metaphor"
-      ],
-      "answer": 0,
-      "element": "characterization",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: Vera's skill shows the power of a story. Explain how this evidence supports the claim: “Romance at short notice was her speciality” (The Open Window, paragraph 29).",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
-      "location": "The Open Window, paragraph 29",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
-      "expected": "Framton.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 2",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
-      "expected": "a young girl, with little social power, controls the adults through storytelling.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "For a nerve cure"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "carpets"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Her uncle and his brothers died in a bog"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Vera, the niece"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "a raincoat"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Romance at short notice: inventing stories"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "coincidence"
-     },
-     {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
-     },
-     {
-      "n": 9,
-      "type": "mc",
-      "level": "inference",
-      "answer": "A story so convincing it becomes real"
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "Framton."
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Vera's story."
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Characterization"
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Framton."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The reveal."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "a young girl, with little social power, controls the adults through storytelling."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 8,
-     "fill": 2,
-     "short": 8
-    }
-   },
-   "collegeFreshman": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "In the line ““Here we are, my dear,” said the bearer of the white mackintosh, coming in through the window; “fairly muddy, but most of it’s dry.”, what does “mackintosh” most nearly mean?",
-      "options": [
-       "a raincoat",
-       "swallowed up completely",
-       "disregarding or not taking seriously",
-       "a particular skill or thing a person is known for"
-      ],
-      "answer": 0,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““My sister was _____ here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.””",
-      "wordBank": [
-       "speciality",
-       "mackintosh",
-       "discounting",
-       "staying"
-      ],
-      "answer": "staying",
-      "accept": [
-       "staying"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
      },
      {
       "type": "fill",
@@ -3349,70 +3401,23 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 3
+      "n": 7
      },
      {
       "type": "mc",
-      "prompt": "In the line “Framton Nuttel endeavoured to say the correct something which should duly flatter the niece of the moment without unduly discounting the aunt that was to come.”, what does “discounting” most nearly mean?",
+      "prompt": "Which choice best states a central concern of “The Open Window”?",
       "options": [
-       "swallowed up completely",
-       "disregarding or not taking seriously",
-       "a raincoat",
-       "a particular skill or thing a person is known for"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "What makes Framton flee?",
-      "options": [
-       "The men appear walking toward the window",
-       "Mrs. Sappleton screams",
-       "A ghost appears",
-       "The dog bites him"
+       "A story so convincing it becomes real",
+       "The arrogance and loneliness of seeing differently",
+       "A family and a house collapsing together",
+       "The mind's final escape at the moment of death"
       ],
       "answer": 0,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
       "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
-      "answer": "speciality",
-      "accept": [
-       "speciality",
-       "speciality"
-      ],
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Vera's 'speciality'?",
-      "options": [
-       "Music",
-       "Romance at short notice: inventing stories",
-       "Hunting",
-       "Gardening"
-      ],
-      "answer": 1,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
+      "n": 8
      },
      {
       "type": "short",
@@ -3423,29 +3428,13 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 8,
+      "n": 9,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
        "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Open Window”?",
-      "options": [
-       "Love and rivalry destroyed by racial violence",
-       "Wishes that defy fate",
-       "A story so convincing it becomes real",
-       "Brotherhood against an indifferent sea"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
      },
      {
       "type": "short",
@@ -3482,6 +3471,38 @@
       }
      },
      {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
+      "options": [
+       "Theme",
+       "Hyperbole",
+       "Alliteration",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
+      "options": [
+       "Foreshadowing",
+       "Irony",
+       "Point of view",
+       "Simile"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
       "type": "short",
       "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
       "expected": "Vera's story.",
@@ -3490,45 +3511,13 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 12,
+      "n": 14,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
        "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
-      "options": [
-       "Structure",
-       "Foreshadowing",
-       "Irony",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
-      "options": [
-       "Characterization",
-       "Simile",
-       "Conflict",
-       "Metaphor"
-      ],
-      "answer": 0,
-      "element": "characterization",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14
      },
      {
       "type": "short",
@@ -3548,10 +3537,10 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
+      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Framton.",
       "element": "diction",
-      "location": "The Open Window, paragraph 29",
+      "location": "The Open Window, paragraph 2",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3581,10 +3570,10 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
-      "expected": "Framton.",
+      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
       "element": "diction",
-      "location": "The Open Window, paragraph 2",
+      "location": "The Open Window, paragraph 29",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3602,55 +3591,55 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "a raincoat"
+      "answer": "Vera, the niece"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "staying"
+      "answer": "undergoing"
      },
      {
       "n": 3,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "carpets"
+      "answer": "Her uncle and his brothers died in a bog"
      },
      {
       "n": 4,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "disregarding or not taking seriously"
+      "answer": "happened"
      },
      {
       "n": 5,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "The men appear walking toward the window"
+      "answer": "coincidence"
      },
      {
       "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "speciality"
-     },
-     {
-      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "Romance at short notice: inventing stories"
      },
      {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
      },
      {
-      "n": 9,
+      "n": 8,
       "type": "mc",
       "level": "inference",
       "answer": "A story so convincing it becomes real"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
      },
      {
       "n": 10,
@@ -3666,9 +3655,9 @@
      },
      {
       "n": 12,
-      "type": "short",
+      "type": "mc",
       "level": "analysis",
-      "answer": "Vera's story."
+      "answer": "Characterization"
      },
      {
       "n": 13,
@@ -3678,9 +3667,9 @@
      },
      {
       "n": 14,
-      "type": "mc",
+      "type": "short",
       "level": "analysis",
-      "answer": "Characterization"
+      "answer": "Vera's story."
      },
      {
       "n": 15,
@@ -3692,7 +3681,7 @@
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "The reveal."
+      "answer": "Framton."
      },
      {
       "n": 17,
@@ -3704,7 +3693,7 @@
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "Framton."
+      "answer": "The reveal."
      }
     ],
     "mix": {
@@ -3714,8 +3703,8 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 7,
-     "fill": 3,
+     "mc": 6,
+     "fill": 4,
      "short": 8
     }
    },
@@ -3737,23 +3726,427 @@
       "n": 1
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
-      "wordBank": [
-       "speciality",
-       "mackintosh",
-       "carpets",
-       "discounting"
+      "type": "mc",
+      "prompt": "Who tells Framton about the open window?",
+      "options": [
+       "Vera, the niece",
+       "His sister",
+       "A servant",
+       "Mrs. Sappleton"
       ],
-      "answer": "carpets",
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
+      "wordBank": [
+       "discounting",
+       "coincidence",
+       "mackintosh",
+       "speciality"
+      ],
+      "answer": "coincidence",
       "accept": [
-       "carpets"
+       "coincidence"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 2
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In crossing the moor to their favourite snipe-shooting ground they were all three engulfed in a treacherous piece of bog.”, what does “engulfed” most nearly mean?",
+      "options": [
+       "disregarding or not taking seriously",
+       "a raincoat",
+       "a particular skill or thing a person is known for",
+       "swallowed up completely"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 2: “nerve cure which he was supposed to be _____”",
+      "answer": "undergoing",
+      "accept": [
+       "undergoing",
+       "undergoing"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Here the child’s voice lost its self-possessed note and became _____ human.”",
+      "wordBank": [
+       "falteringly",
+       "speciality",
+       "discounting",
+       "mackintosh"
+      ],
+      "answer": "falteringly",
+      "accept": [
+       "falteringly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Vera claim happened three years ago?",
+      "options": [
+       "The house burned",
+       "Her uncle and his brothers died in a bog",
+       "A dog drowned",
+       "Her aunt went mad"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Framton.",
+      "element": "characterization",
+      "location": "The Open Window, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Window”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "The arrogance and loneliness of seeing differently",
+       "A family and a house collapsing together",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Open Window, paragraph 29",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
+      "options": [
+       "Theme",
+       "Hyperbole",
+       "Alliteration",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
+      "options": [
+       "Foreshadowing",
+       "Irony",
+       "Point of view",
+       "Simile"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
+      "expected": "Vera's story.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 10",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Vera's skill shows the power of a story. Explain how this evidence supports the claim: “Romance at short notice was her speciality” (The Open Window, paragraph 29).",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
+      "location": "The Open Window, paragraph 29",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
+      "expected": "a young girl, with little social power, controls the adults through storytelling.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Framton.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "speciality"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Vera, the niece"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "coincidence"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "swallowed up completely"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "undergoing"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "falteringly"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her uncle and his brothers died in a bog"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Framton."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A story so convincing it becomes real"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Vera's story."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "a young girl, with little social power, controls the adults through storytelling."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Framton."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
+      "answer": "speciality",
+      "accept": [
+       "speciality",
+       "speciality"
+      ],
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
      },
      {
       "type": "mc",
@@ -3769,26 +4162,58 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Framton Nuttel endeavoured to say the correct something which should duly flatter the niece of the moment without unduly discounting the aunt that was to come.”, what does “discounting” most nearly mean?",
+      "options": [
+       "swallowed up completely",
+       "disregarding or not taking seriously",
+       "a raincoat",
+       "a particular skill or thing a person is known for"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 3
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
-      "wordBank": [
-       "coincidence",
-       "speciality",
-       "discounting",
-       "mackintosh"
+      "type": "mc",
+      "prompt": "In the line “In crossing the moor to their favourite snipe-shooting ground they were all three engulfed in a treacherous piece of bog.”, what does “engulfed” most nearly mean?",
+      "options": [
+       "disregarding or not taking seriously",
+       "a raincoat",
+       "a particular skill or thing a person is known for",
+       "swallowed up completely"
       ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
+      "answer": 3,
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Here the child’s voice lost its self-possessed note and became _____ human.”",
+      "wordBank": [
+       "falteringly",
+       "speciality",
+       "discounting",
+       "mackintosh"
+      ],
+      "answer": "falteringly",
+      "accept": [
+       "falteringly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
      },
      {
       "type": "mc",
@@ -3801,22 +4226,6 @@
       ],
       "answer": 0,
       "element": "pointOfView",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line ““Here we are, my dear,” said the bearer of the white mackintosh, coming in through the window; “fairly muddy, but most of it’s dry.”, what does “mackintosh” most nearly mean?",
-      "options": [
-       "a raincoat",
-       "swallowed up completely",
-       "disregarding or not taking seriously",
-       "a particular skill or thing a person is known for"
-      ],
-      "answer": 0,
-      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3849,9 +4258,9 @@
       "chapterIndex": 0,
       "n": 8,
       "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
      },
@@ -3859,12 +4268,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Open Window”?",
       "options": [
-       "Love and rivalry destroyed by racial violence",
-       "Wishes that defy fate",
        "A story so convincing it becomes real",
-       "Brotherhood against an indifferent sea"
+       "The arrogance and loneliness of seeing differently",
+       "A family and a house collapsing together",
+       "The mind's final escape at the moment of death"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3882,26 +4291,9 @@
       "chapterIndex": 0,
       "n": 10,
       "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
-      "expected": "Vera's story.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 10",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
      },
@@ -3914,11 +4306,28 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
+      "expected": "Vera's story.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 10",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
       "n": 12,
       "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
      },
@@ -3926,12 +4335,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
       "options": [
-       "Characterization",
-       "Simile",
-       "Conflict",
-       "Metaphor"
+       "Theme",
+       "Hyperbole",
+       "Alliteration",
+       "Characterization"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -3942,17 +4351,33 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
       "options": [
-       "Structure",
        "Foreshadowing",
        "Irony",
-       "Alliteration"
+       "Point of view",
+       "Simile"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
       "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
      },
      {
       "type": "short",
@@ -3962,11 +4387,11 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 16,
       "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
      },
@@ -3979,27 +4404,11 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
       "n": 17,
       "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
      },
@@ -4014,9 +4423,9 @@
       "chapterIndex": 0,
       "n": 18,
       "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
      }
@@ -4030,33 +4439,33 @@
      },
      {
       "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "carpets"
-     },
-     {
-      "n": 3,
       "type": "mc",
       "level": "recall",
       "answer": "The men appear walking toward the window"
      },
      {
-      "n": 4,
-      "type": "fill",
+      "n": 3,
+      "type": "mc",
       "level": "recall",
-      "answer": "coincidence"
+      "answer": "disregarding or not taking seriously"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "swallowed up completely"
      },
      {
       "n": 5,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Vera, the niece"
+      "answer": "falteringly"
      },
      {
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "a raincoat"
+      "answer": "Vera, the niece"
      },
      {
       "n": 7,
@@ -4086,13 +4495,13 @@
       "n": 11,
       "type": "short",
       "level": "analysis",
-      "answer": "Vera's story."
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
      },
      {
       "n": 12,
       "type": "short",
       "level": "analysis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+      "answer": "Vera's story."
      },
      {
       "n": 13,
@@ -4110,19 +4519,19 @@
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "a young girl, with little social power, controls the adults through storytelling."
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "The reveal."
+      "answer": "a young girl, with little social power, controls the adults through storytelling."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+      "answer": "The reveal."
      },
      {
       "n": 18,
@@ -4138,23 +4547,24 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 7,
-     "fill": 3,
+     "mc": 8,
+     "fill": 2,
      "short": 8
     }
    },
-   "collegeJunior": {
+   "collegeSenior": {
     "items": [
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 2: “nerve cure which he was supposed to be _____”",
-      "answer": "undergoing",
-      "accept": [
-       "undergoing",
-       "undergoing"
+      "type": "mc",
+      "prompt": "What is Vera's 'speciality'?",
+      "options": [
+       "Music",
+       "Romance at short notice: inventing stories",
+       "Hunting",
+       "Gardening"
       ],
-      "element": "diction",
-      "location": "The Open Window, paragraph 2",
+      "answer": 1,
+      "element": "characterization",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -4162,14 +4572,18 @@
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
-      "answer": "speciality",
-      "accept": [
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor _____.”",
+      "wordBank": [
        "speciality",
-       "speciality"
+       "mackintosh",
+       "carpets",
+       "discounting"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
       ],
       "element": "diction",
-      "location": "The Open Window, paragraph 29",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -4177,54 +4591,19 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “In crossing the moor to their favourite snipe-shooting ground they were all three engulfed in a treacherous piece of bog.”, what does “engulfed” most nearly mean?",
+      "prompt": "What does Vera claim happened three years ago?",
       "options": [
-       "disregarding or not taking seriously",
-       "a raincoat",
-       "a particular skill or thing a person is known for",
-       "swallowed up completely"
+       "The house burned",
+       "Her uncle and his brothers died in a bog",
+       "A dog drowned",
+       "Her aunt went mad"
       ],
-      "answer": 3,
-      "element": "diction",
+      "answer": 1,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
-      "wordBank": [
-       "coincidence",
-       "speciality",
-       "discounting",
-       "mackintosh"
-      ],
-      "answer": "coincidence",
-      "accept": [
-       "coincidence"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “Framton Nuttel endeavoured to say the correct something which should duly flatter the niece of the moment without unduly discounting the aunt that was to come.”, what does “discounting” most nearly mean?",
-      "options": [
-       "swallowed up completely",
-       "disregarding or not taking seriously",
-       "a raincoat",
-       "a particular skill or thing a person is known for"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
      },
      {
       "type": "mc",
@@ -4240,334 +4619,8 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
+      "n": 4
      },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““You may wonder why we keep that window wide open on an October afternoon,” said the niece, _____ a large French window that opened on to a lawn.”",
-      "wordBank": [
-       "discounting",
-       "indicating",
-       "mackintosh",
-       "speciality"
-      ],
-      "answer": "indicating",
-      "accept": [
-       "indicating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Romance at short notice was her speciality” (The Open Window, paragraph 29) Answer in two or three sentences with one detail.",
-      "expected": "The reveal.",
-      "element": "characterization",
-      "location": "The Open Window, paragraph 29",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Open Window”?",
-      "options": [
-       "Love and rivalry destroyed by racial violence",
-       "Wishes that defy fate",
-       "A story so convincing it becomes real",
-       "Brotherhood against an indifferent sea"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) Answer in two or three sentences with one detail.",
-      "expected": "Framton.",
-      "element": "characterization",
-      "location": "The Open Window, paragraph 2",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
-      "options": [
-       "Characterization",
-       "Simile",
-       "Conflict",
-       "Metaphor"
-      ],
-      "answer": 0,
-      "element": "characterization",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
-      "expected": "Vera's story.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 10",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
-      "options": [
-       "Structure",
-       "Foreshadowing",
-       "Irony",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: Vera's skill shows the power of a story. Explain how this evidence supports the claim: “Romance at short notice was her speciality” (The Open Window, paragraph 29).",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
-      "location": "The Open Window, paragraph 29",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
-      "expected": "a young girl, with little social power, controls the adults through storytelling.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
-      "expected": "Framton.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 2",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "undergoing"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "speciality"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "swallowed up completely"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "coincidence"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "disregarding or not taking seriously"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "a raincoat"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "indicating"
-     },
-     {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
-     },
-     {
-      "n": 9,
-      "type": "mc",
-      "level": "inference",
-      "answer": "A story so convincing it becomes real"
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "Framton."
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Characterization"
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Vera's story."
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The reveal."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "a young girl, with little social power, controls the adults through storytelling."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Framton."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 6,
-     "fill": 4,
-     "short": 8
-    }
-   },
-   "collegeSenior": {
-    "items": [
      {
       "type": "fill",
       "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
@@ -4581,89 +4634,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "Why is Framton visiting the country?",
-      "options": [
-       "For a nerve cure",
-       "To see his sister",
-       "To buy land",
-       "To hunt"
-      ],
-      "answer": 0,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 10: “Her great tragedy _____ just three years ago”",
-      "answer": "happened",
-      "accept": [
-       "happened",
-       "happened"
-      ],
-      "element": "diction",
-      "location": "The Open Window, paragraph 10",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Vera's 'speciality'?",
-      "options": [
-       "Music",
-       "Romance at short notice: inventing stories",
-       "Hunting",
-       "Gardening"
-      ],
-      "answer": 1,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “Romance at short notice was her speciality.”, what does “speciality” most nearly mean?",
-      "options": [
-       "swallowed up completely",
-       "disregarding or not taking seriously",
-       "a particular skill or thing a person is known for",
-       "a raincoat"
-      ],
-      "answer": 2,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““You may wonder why we keep that window wide open on an October afternoon,” said the niece, _____ a large French window that opened on to a lawn.”",
-      "wordBank": [
-       "discounting",
-       "indicating",
-       "mackintosh",
-       "speciality"
-      ],
-      "answer": "indicating",
-      "accept": [
-       "indicating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
      },
      {
       "type": "mc",
@@ -4679,7 +4650,42 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
+      "wordBank": [
+       "discounting",
+       "coincidence",
+       "mackintosh",
+       "speciality"
+      ],
+      "answer": "coincidence",
+      "accept": [
+       "coincidence"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Window”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "The arrogance and loneliness of seeing differently",
+       "A family and a house collapsing together",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
      },
      {
       "type": "short",
@@ -4690,29 +4696,13 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 8,
+      "n": 9,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
        "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Open Window”?",
-      "options": [
-       "Love and rivalry destroyed by racial violence",
-       "Wishes that defy fate",
-       "A story so convincing it becomes real",
-       "Brotherhood against an indifferent sea"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
      },
      {
       "type": "short",
@@ -4750,15 +4740,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
+      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
       "options": [
-       "Characterization",
-       "Simile",
-       "Conflict",
-       "Metaphor"
+       "Foreshadowing",
+       "Irony",
+       "Point of view",
+       "Simile"
       ],
-      "answer": 0,
-      "element": "characterization",
+      "answer": 1,
+      "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -4766,15 +4756,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
+      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
       "options": [
-       "Structure",
-       "Foreshadowing",
-       "Irony",
-       "Alliteration"
+       "Theme",
+       "Hyperbole",
+       "Alliteration",
+       "Characterization"
       ],
-      "answer": 2,
-      "element": "irony",
+      "answer": 3,
+      "element": "characterization",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -4832,10 +4822,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
+      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
+      "expected": "a young girl, with little social power, controls the adults through storytelling.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -4849,9 +4838,10 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how deception develops from an earlier story to “The Open Window”. Use one quotation from each.",
-      "expected": "a young girl, with little social power, controls the adults through storytelling.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 29",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -4867,57 +4857,57 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "speciality"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "For a nerve cure"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "happened"
-     },
-     {
-      "n": 4,
       "type": "mc",
       "level": "recall",
       "answer": "Romance at short notice: inventing stories"
      },
      {
-      "n": 5,
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "a particular skill or thing a person is known for"
+      "answer": "Her uncle and his brothers died in a bog"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a raincoat"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "speciality"
      },
      {
       "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "indicating"
-     },
-     {
-      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "The men appear walking toward the window"
      },
      {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The reveal."
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "coincidence"
      },
      {
-      "n": 9,
+      "n": 8,
       "type": "mc",
       "level": "inference",
       "answer": "A story so convincing it becomes real"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
      },
      {
       "n": 10,
@@ -4935,13 +4925,13 @@
       "n": 12,
       "type": "mc",
       "level": "analysis",
-      "answer": "Characterization"
+      "answer": "Irony"
      },
      {
       "n": 13,
       "type": "mc",
       "level": "analysis",
-      "answer": "Irony"
+      "answer": "Characterization"
      },
      {
       "n": 14,
@@ -4965,13 +4955,13 @@
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "The reveal."
+      "answer": "a young girl, with little social power, controls the adults through storytelling."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "a young girl, with little social power, controls the adults through storytelling."
+      "answer": "The reveal."
      }
     ],
     "mix": {
@@ -5005,6 +4995,41 @@
       "n": 1
      },
      {
+      "type": "mc",
+      "prompt": "In the line “Romance at short notice was her speciality.”, what does “speciality” most nearly mean?",
+      "options": [
+       "swallowed up completely",
+       "disregarding or not taking seriously",
+       "a particular skill or thing a person is known for",
+       "a raincoat"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was certainly an unfortunate _____ that he should have paid his visit on this tragic anniversary.”",
+      "wordBank": [
+       "discounting",
+       "coincidence",
+       "mackintosh",
+       "speciality"
+      ],
+      "answer": "coincidence",
+      "accept": [
+       "coincidence"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
       "type": "fill",
       "prompt": "Complete the quotation from The Open Window, paragraph 10: “Her great tragedy _____ just three years ago”",
       "answer": "happened",
@@ -5017,22 +5042,39 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 2
+      "n": 4
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Open Window, paragraph 29: “Romance at short notice was her _____”",
-      "answer": "speciality",
-      "accept": [
-       "speciality",
-       "speciality"
+      "type": "mc",
+      "prompt": "In the line ““Here we are, my dear,” said the bearer of the white mackintosh, coming in through the window; “fairly muddy, but most of it’s dry.”, what does “mackintosh” most nearly mean?",
+      "options": [
+       "a raincoat",
+       "swallowed up completely",
+       "disregarding or not taking seriously",
+       "a particular skill or thing a person is known for"
       ],
+      "answer": 0,
       "element": "diction",
-      "location": "The Open Window, paragraph 29",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 3
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Framton flee?",
+      "options": [
+       "The men appear walking toward the window",
+       "Mrs. Sappleton screams",
+       "A ghost appears",
+       "The dog bites him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
      },
      {
       "type": "fill",
@@ -5047,77 +5089,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “Framton Nuttel endeavoured to say the correct something which should duly flatter the niece of the moment without unduly discounting the aunt that was to come.”, what does “discounting” most nearly mean?",
-      "options": [
-       "swallowed up completely",
-       "disregarding or not taking seriously",
-       "a raincoat",
-       "a particular skill or thing a person is known for"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““You may wonder why we keep that window wide open on an October afternoon,” said the niece, _____ a large French window that opened on to a lawn.”",
-      "wordBank": [
-       "discounting",
-       "indicating",
-       "mackintosh",
-       "speciality"
-      ],
-      "answer": "indicating",
-      "accept": [
-       "indicating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: ““My sister was _____ here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.””",
-      "wordBank": [
-       "speciality",
-       "mackintosh",
-       "discounting",
-       "staying"
-      ],
-      "answer": "staying",
-      "accept": [
-       "staying"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Open Window”?",
-      "options": [
-       "Love and rivalry destroyed by racial violence",
-       "Wishes that defy fate",
-       "A story so convincing it becomes real",
-       "Brotherhood against an indifferent sea"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "short",
@@ -5128,13 +5100,29 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 9,
+      "n": 8,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
        "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
        "zero": "0: incorrect or blank."
       }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Window”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "The arrogance and loneliness of seeing differently",
+       "A family and a house collapsing together",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
      },
      {
       "type": "short",
@@ -5171,38 +5159,6 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
-      "options": [
-       "Structure",
-       "Foreshadowing",
-       "Irony",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
-      "options": [
-       "Characterization",
-       "Simile",
-       "Conflict",
-       "Metaphor"
-      ],
-      "answer": 0,
-      "element": "characterization",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
       "type": "short",
       "prompt": "Analyze the word choice in “Her great tragedy happened just three years ago” (The Open Window, paragraph 10). Pick two words and explain what they suggest.",
       "expected": "Vera's story.",
@@ -5211,7 +5167,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 12,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -5220,11 +5176,42 @@
       }
      },
      {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Vera, \"a very self-possessed young lady of fifteen,\" invents with total composure; Framton is anxious, self-absorbed and easy prey.",
+      "options": [
+       "Theme",
+       "Hyperbole",
+       "Alliteration",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Window”? Dramatic this device is withheld: the reader believes Vera as Framton does, so the twist catches both.",
+      "options": [
+       "Foreshadowing",
+       "Irony",
+       "Point of view",
+       "Simile"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
-      "expected": "The reveal.",
-      "element": "diction",
-      "location": "The Open Window, paragraph 29",
+      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -5238,10 +5225,10 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
-      "expected": "Framton.",
+      "prompt": "Close reading: how do the diction and syntax of “Romance at short notice was her speciality” (The Open Window, paragraph 29) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
       "element": "diction",
-      "location": "The Open Window, paragraph 2",
+      "location": "The Open Window, paragraph 29",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -5271,9 +5258,10 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Vera's skill shows the power of a story.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\"",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “nerve cure which he was supposed to be undergoing” (The Open Window, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Framton.",
+      "element": "diction",
+      "location": "The Open Window, paragraph 2",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -5295,51 +5283,51 @@
      },
      {
       "n": 2,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "happened"
+      "answer": "a particular skill or thing a person is known for"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "speciality"
+      "answer": "coincidence"
      },
      {
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "undergoing"
+      "answer": "happened"
      },
      {
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "disregarding or not taking seriously"
+      "answer": "a raincoat"
      },
      {
       "n": 6,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "indicating"
+      "answer": "The men appear walking toward the window"
      },
      {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "staying"
+      "answer": "undergoing"
      },
      {
       "n": 8,
-      "type": "mc",
-      "level": "inference",
-      "answer": "A story so convincing it becomes real"
-     },
-     {
-      "n": 9,
       "type": "short",
       "level": "inference",
       "answer": "Framton."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A story so convincing it becomes real"
      },
      {
       "n": 10,
@@ -5355,9 +5343,9 @@
      },
      {
       "n": 12,
-      "type": "mc",
+      "type": "short",
       "level": "analysis",
-      "answer": "Irony"
+      "answer": "Vera's story."
      },
      {
       "n": 13,
@@ -5367,21 +5355,21 @@
      },
      {
       "n": 14,
-      "type": "short",
+      "type": "mc",
       "level": "analysis",
-      "answer": "Vera's story."
+      "answer": "Irony"
      },
      {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "The reveal."
+      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Framton."
+      "answer": "The reveal."
      },
      {
       "n": 17,
@@ -5393,7 +5381,7 @@
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "She invents \"Her great tragedy\" so convincingly that Framton flees, and the narrator says \"Romance at short notice was her speciality.\""
+      "answer": "Framton."
      }
     ],
     "mix": {
@@ -5403,8 +5391,8 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 5,
-     "fill": 5,
+     "mc": 7,
+     "fill": 3,
      "short": 8
     }
    }
@@ -5419,7 +5407,7 @@
    "theme": "deception and storytelling",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5640,7 +5628,7 @@
    "theme": "nerves and credulity",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5861,7 +5849,7 @@
    "theme": "romance as invention",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"

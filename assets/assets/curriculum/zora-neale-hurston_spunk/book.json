@@ -381,7 +381,7 @@
    },
    "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
   },
-  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Middle School prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
+  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Scaffolded-support prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
   "weeks": 1,
   "lessons": 1,
   "unitDays": 2,
@@ -441,11 +441,11 @@
    "What does Spunk suggest about community gossip?"
   ],
   "objectives": [
-   "Cite textual evidence to support analysis of what the text says explicitly and implicitly.",
-   "Determine themes and analyze their development over the course of the story.",
-   "Analyze how characters, setting and point of view interact.",
-   "Determine the meaning of words and phrases as they are used in the text.",
-   "Write arguments to support claims with clear reasons and relevant evidence."
+   "Students will cite at least 2 quotations, with locations, to support each written claim about what the text says explicitly and implicitly (scored on the writing-prompt rubric).",
+   "Students will trace one theme across at least 3 sections of the story in the final paper, earning at least 70 of 100 rubric points.",
+   "Students will explain how characters, setting and point of view interact in at least 3 exit tickets, each meeting the claim-evidence-reasoning criteria.",
+   "Students will determine the in-context meaning of taught vocabulary, scoring at least 80% on the vocabulary items of the story quizzes.",
+   "Students will write an argument with a clear claim, reasons and relevant evidence, scoring at least 80% on the unit test's short-answer scoring guides."
   ],
   "standards": [
    "RL.9-10.1",
@@ -539,7 +539,7 @@
    "Whole-story test (scheduled day)",
    "Final essay (scheduled day); College Sophomore and above write one essay of the five"
   ],
-  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
+  "differentiation": "Every prompt and quiz has eleven rigor levels (Scaffolded support through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
   "materials": [
    "Liber et Libri reader",
    "Annotation journal",
@@ -718,16 +718,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
       "wordBank": [
-       "boisterously",
-       "claimed",
+       "skittish",
        "sixteen",
+       "machinist",
        "footstool"
       ],
-      "answer": "boisterously",
+      "answer": "skittish",
       "accept": [
-       "boisterously"
+       "skittish"
       ],
       "element": "diction",
       "level": "recall",
@@ -768,31 +768,12 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
-      "wordBank": [
-       "sixteen",
-       "skittish",
-       "claimed",
-       "footstool"
-      ],
-      "answer": "skittish",
-      "accept": [
-       "skittish"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
       "wordBank": [
-       "footstool",
-       "claimed",
+       "machinist",
        "loungers",
-       "sixteen"
+       "sixteen",
+       "footstool"
       ],
       "answer": "loungers",
       "accept": [
@@ -802,20 +783,39 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
+      "wordBank": [
+       "footstool",
+       "sixteen",
+       "nonchalance",
+       "machinist"
+      ],
+      "answer": "nonchalance",
+      "accept": [
+       "nonchalance"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 5
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
        "footstool",
-       "claimed",
        "sixteen",
-       "accusingly"
+       "machinist",
+       "boisterously"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -1025,7 +1025,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "boisterously"
+      "answer": "skittish"
      },
      {
       "n": 2,
@@ -1043,19 +1043,19 @@
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "skittish"
+      "answer": "loungers"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 7,
@@ -1146,16 +1146,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
       "wordBank": [
-       "boisterously",
-       "claimed",
+       "skittish",
        "sixteen",
+       "machinist",
        "footstool"
       ],
-      "answer": "boisterously",
+      "answer": "skittish",
       "accept": [
-       "boisterously"
+       "skittish"
       ],
       "element": "diction",
       "level": "recall",
@@ -1165,16 +1165,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
       "wordBank": [
        "footstool",
-       "claimed",
-       "loungers",
-       "sixteen"
+       "sixteen",
+       "nonchalance",
+       "machinist"
       ],
-      "answer": "loungers",
+      "answer": "nonchalance",
       "accept": [
-       "loungers"
+       "nonchalance"
       ],
       "element": "diction",
       "level": "recall",
@@ -1262,16 +1262,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
       "wordBank": [
+       "machinist",
+       "loungers",
        "sixteen",
-       "skittish",
-       "claimed",
        "footstool"
       ],
-      "answer": "skittish",
+      "answer": "loungers",
       "accept": [
-       "skittish"
+       "loungers"
       ],
       "element": "diction",
       "level": "recall",
@@ -1313,16 +1313,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
        "footstool",
-       "claimed",
        "sixteen",
-       "accusingly"
+       "machinist",
+       "boisterously"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -1452,13 +1452,13 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "boisterously"
+      "answer": "skittish"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 3,
@@ -1494,7 +1494,7 @@
       "n": 8,
       "type": "fill",
       "level": "recall",
-      "answer": "skittish"
+      "answer": "loungers"
      },
      {
       "n": 9,
@@ -1512,7 +1512,7 @@
       "n": 11,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 12,
@@ -1573,16 +1573,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
       "wordBank": [
        "footstool",
-       "claimed",
-       "loungers",
-       "sixteen"
+       "sixteen",
+       "nonchalance",
+       "machinist"
       ],
-      "answer": "loungers",
+      "answer": "nonchalance",
       "accept": [
-       "loungers"
+       "nonchalance"
       ],
       "element": "diction",
       "level": "recall",
@@ -1592,16 +1592,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
       "wordBank": [
-       "boisterously",
-       "claimed",
+       "skittish",
        "sixteen",
+       "machinist",
        "footstool"
       ],
-      "answer": "boisterously",
+      "answer": "skittish",
       "accept": [
-       "boisterously"
+       "skittish"
       ],
       "element": "diction",
       "level": "recall",
@@ -1611,16 +1611,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
        "footstool",
-       "claimed",
        "sixteen",
-       "accusingly"
+       "machinist",
+       "boisterously"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -1724,16 +1724,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
       "wordBank": [
+       "machinist",
+       "loungers",
        "sixteen",
-       "skittish",
-       "claimed",
        "footstool"
       ],
-      "answer": "skittish",
+      "answer": "loungers",
       "accept": [
-       "skittish"
+       "loungers"
       ],
       "element": "diction",
       "level": "recall",
@@ -1880,19 +1880,19 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "boisterously"
+      "answer": "skittish"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 4,
@@ -1934,7 +1934,7 @@
       "n": 10,
       "type": "fill",
       "level": "recall",
-      "answer": "skittish"
+      "answer": "loungers"
      },
      {
       "n": 11,
@@ -2001,16 +2001,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
        "footstool",
-       "claimed",
        "sixteen",
-       "accusingly"
+       "machinist",
+       "boisterously"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -2052,16 +2052,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
       "wordBank": [
+       "machinist",
+       "loungers",
        "sixteen",
-       "skittish",
-       "claimed",
        "footstool"
       ],
-      "answer": "skittish",
+      "answer": "loungers",
       "accept": [
-       "skittish"
+       "loungers"
       ],
       "element": "diction",
       "level": "recall",
@@ -2071,16 +2071,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
       "wordBank": [
-       "boisterously",
-       "claimed",
+       "skittish",
        "sixteen",
+       "machinist",
        "footstool"
       ],
-      "answer": "boisterously",
+      "answer": "skittish",
       "accept": [
-       "boisterously"
+       "skittish"
       ],
       "element": "diction",
       "level": "recall",
@@ -2137,16 +2137,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
       "wordBank": [
        "footstool",
-       "claimed",
-       "loungers",
-       "sixteen"
+       "sixteen",
+       "nonchalance",
+       "machinist"
       ],
-      "answer": "loungers",
+      "answer": "nonchalance",
       "accept": [
-       "loungers"
+       "nonchalance"
       ],
       "element": "diction",
       "level": "recall",
@@ -2308,7 +2308,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 2,
@@ -2326,13 +2326,13 @@
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "skittish"
+      "answer": "loungers"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "boisterously"
+      "answer": "skittish"
      },
      {
       "n": 6,
@@ -2356,7 +2356,7 @@
       "n": 9,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 10,
@@ -2476,16 +2476,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
       "wordBank": [
        "footstool",
-       "claimed",
-       "loungers",
-       "sixteen"
+       "sixteen",
+       "nonchalance",
+       "machinist"
       ],
-      "answer": "loungers",
+      "answer": "nonchalance",
       "accept": [
-       "loungers"
+       "nonchalance"
       ],
       "element": "diction",
       "level": "recall",
@@ -2495,16 +2495,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
       "wordBank": [
-       "boisterously",
-       "claimed",
+       "skittish",
        "sixteen",
+       "machinist",
        "footstool"
       ],
-      "answer": "boisterously",
+      "answer": "skittish",
       "accept": [
-       "boisterously"
+       "skittish"
       ],
       "element": "diction",
       "level": "recall",
@@ -2546,16 +2546,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
        "footstool",
-       "claimed",
        "sixteen",
-       "accusingly"
+       "machinist",
+       "boisterously"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -2753,13 +2753,13 @@
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "boisterously"
+      "answer": "skittish"
      },
      {
       "n": 6,
@@ -2777,7 +2777,7 @@
       "n": 8,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 9,
@@ -2856,16 +2856,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
-       "accusingly",
-       "claimed",
+       "boisterously",
+       "sixteen",
        "footstool",
-       "sixteen"
+       "machinist"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -2875,12 +2875,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
+      "prompt": "In the line “The men glared at Elijah, accusingly.”, what does “accusingly” most nearly mean?",
       "options": [
+       "in a way that suggests someone has done wrong",
        "a worker who operates machines",
-       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "demanded; called for"
+       "the cardinal number that is the sum of fifteen and one"
       ],
       "answer": 0,
       "element": "diction",
@@ -2891,16 +2891,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
       "wordBank": [
        "footstool",
-       "claimed",
-       "loungers",
-       "sixteen"
+       "sixteen",
+       "nonchalance",
+       "machinist"
       ],
-      "answer": "loungers",
+      "answer": "nonchalance",
       "accept": [
-       "loungers"
+       "nonchalance"
       ],
       "element": "diction",
       "level": "recall",
@@ -2910,12 +2910,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The cooling board consisted of three sixteen-inch boards on saw horses, a dingy sheet was his shroud.”, what does “sixteen” most nearly mean?",
+      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
       "options": [
-       "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "the cardinal number that is the sum of fifteen and one"
+       "a worker who operates machines"
       ],
       "answer": 3,
       "element": "diction",
@@ -2928,9 +2928,9 @@
       "type": "mc",
       "prompt": "In the line ““But that’s one thing Ah likes about Spunk Banks—he ain’t skeered of nothin’ on God’s green footstool—nothin'!”, what does “footstool” most nearly mean?",
       "options": [
-       "the cardinal number that is the sum of fifteen and one",
        "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person"
       ],
       "answer": 3,
@@ -3159,25 +3159,25 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "a worker who operates machines"
+      "answer": "in a way that suggests someone has done wrong"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "the cardinal number that is the sum of fifteen and one"
+      "answer": "a worker who operates machines"
      },
      {
       "n": 5,
@@ -3280,16 +3280,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
       "wordBank": [
        "footstool",
-       "claimed",
-       "loungers",
-       "sixteen"
+       "sixteen",
+       "nonchalance",
+       "machinist"
       ],
-      "answer": "loungers",
+      "answer": "nonchalance",
       "accept": [
-       "loungers"
+       "nonchalance"
       ],
       "element": "diction",
       "level": "recall",
@@ -3330,12 +3330,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The cooling board consisted of three sixteen-inch boards on saw horses, a dingy sheet was his shroud.”, what does “sixteen” most nearly mean?",
+      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
       "options": [
-       "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "the cardinal number that is the sum of fifteen and one"
+       "a worker who operates machines"
       ],
       "answer": 3,
       "element": "diction",
@@ -3346,16 +3346,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
-       "accusingly",
-       "claimed",
+       "boisterously",
+       "sixteen",
        "footstool",
-       "sixteen"
+       "machinist"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -3380,16 +3380,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
       "wordBank": [
-       "sixteen",
+       "machinist",
        "footstool",
-       "claimed",
-       "boisterously"
+       "sixteen",
+       "skittish"
       ],
-      "answer": "boisterously",
+      "answer": "skittish",
       "accept": [
-       "boisterously"
+       "skittish"
       ],
       "element": "diction",
       "level": "recall",
@@ -3585,7 +3585,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 2,
@@ -3603,13 +3603,13 @@
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "the cardinal number that is the sum of fifteen and one"
+      "answer": "a worker who operates machines"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 6,
@@ -3621,7 +3621,7 @@
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "boisterously"
+      "answer": "skittish"
      },
      {
       "n": 8,
@@ -3706,16 +3706,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
-       "accusingly",
-       "claimed",
+       "boisterously",
+       "sixteen",
        "footstool",
-       "sixteen"
+       "machinist"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -3725,16 +3725,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
       "wordBank": [
        "footstool",
-       "skittish",
-       "sixteen",
-       "claimed"
+       "loungers",
+       "machinist",
+       "sixteen"
       ],
-      "answer": "skittish",
+      "answer": "loungers",
       "accept": [
-       "skittish"
+       "loungers"
       ],
       "element": "diction",
       "level": "recall",
@@ -3744,12 +3744,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The cooling board consisted of three sixteen-inch boards on saw horses, a dingy sheet was his shroud.”, what does “sixteen” most nearly mean?",
+      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
       "options": [
-       "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "the cardinal number that is the sum of fifteen and one"
+       "a worker who operates machines"
       ],
       "answer": 3,
       "element": "diction",
@@ -3808,12 +3808,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
+      "prompt": "In the line “The men glared at Elijah, accusingly.”, what does “accusingly” most nearly mean?",
       "options": [
+       "in a way that suggests someone has done wrong",
        "a worker who operates machines",
-       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "demanded; called for"
+       "the cardinal number that is the sum of fifteen and one"
       ],
       "answer": 0,
       "element": "diction",
@@ -4010,19 +4010,19 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "skittish"
+      "answer": "loungers"
      },
      {
       "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "the cardinal number that is the sum of fifteen and one"
+      "answer": "a worker who operates machines"
      },
      {
       "n": 4,
@@ -4046,7 +4046,7 @@
       "n": 7,
       "type": "mc",
       "level": "recall",
-      "answer": "a worker who operates machines"
+      "answer": "in a way that suggests someone has done wrong"
      },
      {
       "n": 8,
@@ -4149,9 +4149,9 @@
       "type": "mc",
       "prompt": "In the line ““But that’s one thing Ah likes about Spunk Banks—he ain’t skeered of nothin’ on God’s green footstool—nothin'!”, what does “footstool” most nearly mean?",
       "options": [
-       "the cardinal number that is the sum of fifteen and one",
        "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person"
       ],
       "answer": 3,
@@ -4163,16 +4163,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the loungers in the store tried to walk to the door with an air of _____ but with small success.”",
       "wordBank": [
        "footstool",
-       "claimed",
-       "loungers",
-       "sixteen"
+       "sixteen",
+       "nonchalance",
+       "machinist"
       ],
-      "answer": "loungers",
+      "answer": "nonchalance",
       "accept": [
-       "loungers"
+       "nonchalance"
       ],
       "element": "diction",
       "level": "recall",
@@ -4228,16 +4228,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
-       "accusingly",
-       "claimed",
+       "boisterously",
+       "sixteen",
        "footstool",
-       "sixteen"
+       "machinist"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -4445,7 +4445,7 @@
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "loungers"
+      "answer": "nonchalance"
      },
      {
       "n": 4,
@@ -4469,7 +4469,7 @@
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 8,
@@ -4554,16 +4554,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
       "wordBank": [
-       "sixteen",
+       "machinist",
        "footstool",
-       "claimed",
-       "boisterously"
+       "sixteen",
+       "skittish"
       ],
-      "answer": "boisterously",
+      "answer": "skittish",
       "accept": [
-       "boisterously"
+       "skittish"
       ],
       "element": "diction",
       "level": "recall",
@@ -4573,12 +4573,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
+      "prompt": "In the line “The men glared at Elijah, accusingly.”, what does “accusingly” most nearly mean?",
       "options": [
+       "in a way that suggests someone has done wrong",
        "a worker who operates machines",
-       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "demanded; called for"
+       "the cardinal number that is the sum of fifteen and one"
       ],
       "answer": 0,
       "element": "diction",
@@ -4591,9 +4591,9 @@
       "type": "mc",
       "prompt": "In the line ““But that’s one thing Ah likes about Spunk Banks—he ain’t skeered of nothin’ on God’s green footstool—nothin'!”, what does “footstool” most nearly mean?",
       "options": [
-       "the cardinal number that is the sum of fifteen and one",
        "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person"
       ],
       "answer": 3,
@@ -4605,12 +4605,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The cooling board consisted of three sixteen-inch boards on saw horses, a dingy sheet was his shroud.”, what does “sixteen” most nearly mean?",
+      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
       "options": [
-       "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "the cardinal number that is the sum of fifteen and one"
+       "a worker who operates machines"
       ],
       "answer": 3,
       "element": "diction",
@@ -4621,16 +4621,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
-       "accusingly",
-       "claimed",
+       "boisterously",
+       "sixteen",
        "footstool",
-       "sixteen"
+       "machinist"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -4858,13 +4858,13 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "boisterously"
+      "answer": "skittish"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "a worker who operates machines"
+      "answer": "in a way that suggests someone has done wrong"
      },
      {
       "n": 3,
@@ -4876,13 +4876,13 @@
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "the cardinal number that is the sum of fifteen and one"
+      "answer": "a worker who operates machines"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 6,
@@ -4979,16 +4979,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tell yuh the truth, Ah’m a lil bit _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “All the _____ in the store tried to walk to the door with an air of nonchalance but with small success.”",
       "wordBank": [
        "footstool",
-       "skittish",
-       "sixteen",
-       "claimed"
+       "loungers",
+       "machinist",
+       "sixteen"
       ],
-      "answer": "skittish",
+      "answer": "loungers",
       "accept": [
-       "skittish"
+       "loungers"
       ],
       "element": "diction",
       "level": "recall",
@@ -4998,12 +4998,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The cooling board consisted of three sixteen-inch boards on saw horses, a dingy sheet was his shroud.”, what does “sixteen” most nearly mean?",
+      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
       "options": [
-       "a worker who operates machines",
-       "demanded; called for",
+       "in a way that suggests someone has done wrong",
+       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "the cardinal number that is the sum of fifteen and one"
+       "a worker who operates machines"
       ],
       "answer": 3,
       "element": "diction",
@@ -5014,16 +5014,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The men glared at Elijah, _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The men laughed _____ behind Joe's back as they watched him shamble woodward.”",
       "wordBank": [
-       "accusingly",
-       "claimed",
+       "boisterously",
+       "sixteen",
        "footstool",
-       "sixteen"
+       "machinist"
       ],
-      "answer": "accusingly",
+      "answer": "boisterously",
       "accept": [
-       "accusingly"
+       "boisterously"
       ],
       "element": "diction",
       "level": "recall",
@@ -5033,12 +5033,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The machinist come, looked it over an' said it wuz alright.”, what does “machinist” most nearly mean?",
+      "prompt": "In the line “The men glared at Elijah, accusingly.”, what does “accusingly” most nearly mean?",
       "options": [
+       "in a way that suggests someone has done wrong",
        "a worker who operates machines",
-       "the cardinal number that is the sum of fifteen and one",
        "a low seat or a stool to rest the feet of a seated person",
-       "demanded; called for"
+       "the cardinal number that is the sum of fifteen and one"
       ],
       "answer": 0,
       "element": "diction",
@@ -5282,25 +5282,25 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "skittish"
+      "answer": "loungers"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "the cardinal number that is the sum of fifteen and one"
+      "answer": "a worker who operates machines"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "accusingly"
+      "answer": "boisterously"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "a worker who operates machines"
+      "answer": "in a way that suggests someone has done wrong"
      },
      {
       "n": 5,
@@ -5410,7 +5410,7 @@
    "theme": "courage and cowardice",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5631,7 +5631,7 @@
    "theme": "the supernatural",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5852,7 +5852,7 @@
    "theme": "community gossip",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"

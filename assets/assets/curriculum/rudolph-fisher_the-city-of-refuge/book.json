@@ -381,7 +381,7 @@
    },
    "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
   },
-  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Middle School prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
+  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Scaffolded-support prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
   "weeks": 1,
   "lessons": 1,
   "unitDays": 2,
@@ -441,11 +441,11 @@
    "What does The City of Refuge suggest about urban identity?"
   ],
   "objectives": [
-   "Cite textual evidence to support analysis of what the text says explicitly and implicitly.",
-   "Determine themes and analyze their development over the course of the story.",
-   "Analyze how characters, setting and point of view interact.",
-   "Determine the meaning of words and phrases as they are used in the text.",
-   "Write arguments to support claims with clear reasons and relevant evidence."
+   "Students will cite at least 2 quotations, with locations, to support each written claim about what the text says explicitly and implicitly (scored on the writing-prompt rubric).",
+   "Students will trace one theme across at least 3 sections of the story in the final paper, earning at least 70 of 100 rubric points.",
+   "Students will explain how characters, setting and point of view interact in at least 3 exit tickets, each meeting the claim-evidence-reasoning criteria.",
+   "Students will determine the in-context meaning of taught vocabulary, scoring at least 80% on the vocabulary items of the story quizzes.",
+   "Students will write an argument with a clear claim, reasons and relevant evidence, scoring at least 80% on the unit test's short-answer scoring guides."
   ],
   "standards": [
    "RL.9-10.1",
@@ -539,7 +539,7 @@
    "Whole-story test (scheduled day)",
    "Final essay (scheduled day); College Sophomore and above write one essay of the five"
   ],
-  "differentiation": "Every prompt and quiz has eleven rigor levels (Middle School through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
+  "differentiation": "Every prompt and quiz has eleven rigor levels (Scaffolded support through Graduate / PhD); the app applies student override, then class standard, then the automatic level. Each prompt is tagged for Common Core, Indiana 2023, Dual Credit (Indiana College Core), AP and Cambridge where they apply.",
   "materials": [
    "Liber et Libri reader",
    "Annotation journal",
@@ -807,16 +807,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
-       "shifting",
+       "valuable",
        "spokesman",
        "crouched"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -826,31 +826,12 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
-      "wordBank": [
-       "singsong",
-       "spokesman",
-       "meditating",
-       "crouched"
-      ],
-      "answer": "meditating",
-      "accept": [
-       "meditating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
-       "spokesman",
-       "crouched",
        "singsong",
-       "gratefully"
+       "spokesman",
+       "gratefully",
+       "crouched"
       ],
       "answer": "gratefully",
       "accept": [
@@ -860,20 +841,39 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
+      "wordBank": [
+       "spokesman",
+       "crouched",
+       "singsong",
+       "repeatedly"
+      ],
+      "answer": "repeatedly",
+      "accept": [
+       "repeatedly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 6
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
        "spokesman",
-       "mornings",
+       "meditating",
        "singsong",
        "crouched"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -1085,25 +1085,25 @@
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 8,
@@ -1203,16 +1203,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
        "spokesman",
        "crouched",
        "singsong",
-       "gratefully"
+       "repeatedly"
       ],
-      "answer": "gratefully",
+      "answer": "repeatedly",
       "accept": [
-       "gratefully"
+       "repeatedly"
       ],
       "element": "diction",
       "level": "recall",
@@ -1238,16 +1238,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
-       "shifting",
+       "valuable",
        "spokesman",
        "crouched"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -1273,16 +1273,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
        "spokesman",
-       "mornings",
+       "meditating",
        "singsong",
        "crouched"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -1340,16 +1340,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
        "singsong",
        "spokesman",
-       "meditating",
+       "gratefully",
        "crouched"
       ],
-      "answer": "meditating",
+      "answer": "gratefully",
       "accept": [
-       "meditating"
+       "gratefully"
       ],
       "element": "diction",
       "level": "recall",
@@ -1502,7 +1502,7 @@
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 3,
@@ -1514,7 +1514,7 @@
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 5,
@@ -1526,7 +1526,7 @@
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 7,
@@ -1550,7 +1550,7 @@
       "n": 10,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 11,
@@ -1649,16 +1649,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
        "spokesman",
-       "mornings",
+       "meditating",
        "singsong",
        "crouched"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -1668,16 +1668,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
        "singsong",
        "spokesman",
-       "meditating",
+       "gratefully",
        "crouched"
       ],
-      "answer": "meditating",
+      "answer": "gratefully",
       "accept": [
-       "meditating"
+       "gratefully"
       ],
       "element": "diction",
       "level": "recall",
@@ -1734,16 +1734,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
-       "shifting",
+       "valuable",
        "spokesman",
        "crouched"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -1753,16 +1753,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
        "spokesman",
        "crouched",
        "singsong",
-       "gratefully"
+       "repeatedly"
       ],
-      "answer": "gratefully",
+      "answer": "repeatedly",
       "accept": [
-       "gratefully"
+       "repeatedly"
       ],
       "element": "diction",
       "level": "recall",
@@ -1936,13 +1936,13 @@
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 5,
@@ -1966,13 +1966,13 @@
       "n": 8,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 9,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 10,
@@ -2045,16 +2045,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
        "spokesman",
-       "mornings",
+       "meditating",
        "singsong",
        "crouched"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -2127,16 +2127,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
-       "shifting",
+       "valuable",
        "spokesman",
        "crouched"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -2178,16 +2178,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
        "singsong",
        "spokesman",
-       "meditating",
+       "gratefully",
        "crouched"
       ],
-      "answer": "meditating",
+      "answer": "gratefully",
       "accept": [
-       "meditating"
+       "gratefully"
       ],
       "element": "diction",
       "level": "recall",
@@ -2349,7 +2349,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 2,
@@ -2379,7 +2379,7 @@
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 7,
@@ -2397,7 +2397,7 @@
       "n": 9,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 10,
@@ -2470,16 +2470,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
        "spokesman",
        "crouched",
        "singsong",
-       "gratefully"
+       "repeatedly"
       ],
-      "answer": "gratefully",
+      "answer": "repeatedly",
       "accept": [
-       "gratefully"
+       "repeatedly"
       ],
       "element": "diction",
       "level": "recall",
@@ -2504,16 +2504,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
        "singsong",
        "spokesman",
-       "meditating",
+       "gratefully",
        "crouched"
       ],
-      "answer": "meditating",
+      "answer": "gratefully",
       "accept": [
-       "meditating"
+       "gratefully"
       ],
       "element": "diction",
       "level": "recall",
@@ -2772,7 +2772,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 2,
@@ -2784,7 +2784,7 @@
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 4,
@@ -2893,10 +2893,10 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "In the line “The mysterious thing about it was that their purchases totalled little more than those of the original three or four.”, what does “purchases” most nearly mean?",
+      "prompt": "In the line “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three mornings.”, what does “mornings” most nearly mean?",
       "options": [
-       "bend one's back forward from the waist on down",
-       "the acquisition of something for payment",
+       "bent down low with the knees bent",
+       "the time period between dawn and noon",
        "the person who did most of the talking",
        "a regular and monotonous rising and falling intonation"
       ],
@@ -2909,16 +2909,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
        "spokesman",
-       "meditating",
+       "gratefully",
        "singsong",
        "crouched"
       ],
-      "answer": "meditating",
+      "answer": "gratefully",
       "accept": [
-       "meditating"
+       "gratefully"
       ],
       "element": "diction",
       "level": "recall",
@@ -2930,9 +2930,9 @@
       "type": "mc",
       "prompt": "In the line “A high, strongly accented Jamaican voice, with its characteristic singsong intonation, interrupted King Solomon's sigh of relief.”, what does “singsong” most nearly mean?",
       "options": [
-       "the acquisition of something for payment",
+       "the time period between dawn and noon",
        "a regular and monotonous rising and falling intonation",
-       "bend one's back forward from the waist on down",
+       "bent down low with the knees bent",
        "the person who did most of the talking"
       ],
       "answer": 1,
@@ -2946,8 +2946,8 @@
       "type": "mc",
       "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
       "options": [
-       "the acquisition of something for payment",
-       "bend one's back forward from the waist on down",
+       "the time period between dawn and noon",
+       "bent down low with the knees bent",
        "the person who did most of the talking",
        "a regular and monotonous rising and falling intonation"
       ],
@@ -2960,16 +2960,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
        "crouched",
        "spokesman",
        "singsong",
-       "gratefully"
+       "repeatedly"
       ],
-      "answer": "gratefully",
+      "answer": "repeatedly",
       "accept": [
-       "gratefully"
+       "repeatedly"
       ],
       "element": "diction",
       "level": "recall",
@@ -3196,13 +3196,13 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "the acquisition of something for payment"
+      "answer": "the time period between dawn and noon"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 3,
@@ -3220,7 +3220,7 @@
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 6,
@@ -3317,10 +3317,10 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "In the line “The mysterious thing about it was that their purchases totalled little more than those of the original three or four.”, what does “purchases” most nearly mean?",
+      "prompt": "In the line “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three mornings.”, what does “mornings” most nearly mean?",
       "options": [
-       "bend one's back forward from the waist on down",
-       "the acquisition of something for payment",
+       "bent down low with the knees bent",
+       "the time period between dawn and noon",
        "the person who did most of the talking",
        "a regular and monotonous rising and falling intonation"
       ],
@@ -3333,16 +3333,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
        "spokesman",
        "crouched",
-       "shifting"
+       "valuable"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -3352,16 +3352,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
-       "mornings",
+       "meditating",
        "spokesman",
        "crouched",
        "singsong"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -3371,16 +3371,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
        "crouched",
        "spokesman",
        "singsong",
-       "gratefully"
+       "repeatedly"
       ],
-      "answer": "gratefully",
+      "answer": "repeatedly",
       "accept": [
-       "gratefully"
+       "repeatedly"
       ],
       "element": "diction",
       "level": "recall",
@@ -3424,8 +3424,8 @@
       "type": "mc",
       "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
       "options": [
-       "the acquisition of something for payment",
-       "bend one's back forward from the waist on down",
+       "the time period between dawn and noon",
+       "bent down low with the knees bent",
        "the person who did most of the talking",
        "a regular and monotonous rising and falling intonation"
       ],
@@ -3624,25 +3624,25 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "the acquisition of something for payment"
+      "answer": "the time period between dawn and noon"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 5,
@@ -3745,10 +3745,10 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "In the line “The mysterious thing about it was that their purchases totalled little more than those of the original three or four.”, what does “purchases” most nearly mean?",
+      "prompt": "In the line “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three mornings.”, what does “mornings” most nearly mean?",
       "options": [
-       "bend one's back forward from the waist on down",
-       "the acquisition of something for payment",
+       "bent down low with the knees bent",
+       "the time period between dawn and noon",
        "the person who did most of the talking",
        "a regular and monotonous rising and falling intonation"
       ],
@@ -3761,16 +3761,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
        "spokesman",
-       "meditating",
+       "gratefully",
        "singsong",
        "crouched"
       ],
-      "answer": "meditating",
+      "answer": "gratefully",
       "accept": [
-       "meditating"
+       "gratefully"
       ],
       "element": "diction",
       "level": "recall",
@@ -3780,16 +3780,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
-       "mornings",
+       "meditating",
        "spokesman",
        "crouched",
        "singsong"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -3799,16 +3799,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
        "spokesman",
        "crouched",
-       "shifting"
+       "valuable"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -3820,8 +3820,8 @@
       "type": "mc",
       "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
       "options": [
-       "the acquisition of something for payment",
-       "bend one's back forward from the waist on down",
+       "the time period between dawn and noon",
+       "bent down low with the knees bent",
        "the person who did most of the talking",
        "a regular and monotonous rising and falling intonation"
       ],
@@ -4052,25 +4052,25 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "the acquisition of something for payment"
+      "answer": "the time period between dawn and noon"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 4,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 5,
@@ -4173,16 +4173,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
        "spokesman",
        "crouched",
-       "shifting"
+       "valuable"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -4207,16 +4207,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
-       "mornings",
+       "meditating",
        "spokesman",
        "crouched",
        "singsong"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -4261,9 +4261,9 @@
       "prompt": "In the line “Yet most of the vehicles that leaped or crouched at his bidding carried white passengers.”, what does “crouched” most nearly mean?",
       "options": [
        "the person who did most of the talking",
-       "the acquisition of something for payment",
+       "the time period between dawn and noon",
        "a regular and monotonous rising and falling intonation",
-       "bend one's back forward from the waist on down"
+       "bent down low with the knees bent"
       ],
       "answer": 3,
       "element": "diction",
@@ -4274,16 +4274,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
        "crouched",
        "spokesman",
        "singsong",
-       "gratefully"
+       "repeatedly"
       ],
-      "answer": "gratefully",
+      "answer": "repeatedly",
       "accept": [
-       "gratefully"
+       "repeatedly"
       ],
       "element": "diction",
       "level": "recall",
@@ -4479,7 +4479,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 2,
@@ -4491,7 +4491,7 @@
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 4,
@@ -4509,13 +4509,13 @@
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "bend one's back forward from the waist on down"
+      "answer": "bent down low with the knees bent"
      },
      {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 8,
@@ -4600,16 +4600,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
       "wordBank": [
-       "mornings",
+       "meditating",
        "spokesman",
        "crouched",
        "singsong"
       ],
-      "answer": "mornings",
+      "answer": "meditating",
       "accept": [
-       "mornings"
+       "meditating"
       ],
       "element": "diction",
       "level": "recall",
@@ -4619,16 +4619,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon Gillis sat _____ in a room half the size of his hencoop back home, with a single window opening into an airshaft.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
       "wordBank": [
        "spokesman",
-       "meditating",
+       "gratefully",
        "singsong",
        "crouched"
       ],
-      "answer": "meditating",
+      "answer": "gratefully",
       "accept": [
-       "meditating"
+       "gratefully"
       ],
       "element": "diction",
       "level": "recall",
@@ -4673,9 +4673,9 @@
       "prompt": "In the line “Yet most of the vehicles that leaped or crouched at his bidding carried white passengers.”, what does “crouched” most nearly mean?",
       "options": [
        "the person who did most of the talking",
-       "the acquisition of something for payment",
+       "the time period between dawn and noon",
        "a regular and monotonous rising and falling intonation",
-       "bend one's back forward from the waist on down"
+       "bent down low with the knees bent"
       ],
       "answer": 3,
       "element": "diction",
@@ -4686,10 +4686,10 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “The mysterious thing about it was that their purchases totalled little more than those of the original three or four.”, what does “purchases” most nearly mean?",
+      "prompt": "In the line “Tony had tested him, as he always tested a new man, by apparently leaving him alone in charge for two or three mornings.”, what does “mornings” most nearly mean?",
       "options": [
-       "bend one's back forward from the waist on down",
-       "the acquisition of something for payment",
+       "bent down low with the knees bent",
+       "the time period between dawn and noon",
        "the person who did most of the talking",
        "a regular and monotonous rising and falling intonation"
       ],
@@ -4704,9 +4704,9 @@
       "type": "mc",
       "prompt": "In the line “A high, strongly accented Jamaican voice, with its characteristic singsong intonation, interrupted King Solomon's sigh of relief.”, what does “singsong” most nearly mean?",
       "options": [
-       "the acquisition of something for payment",
+       "the time period between dawn and noon",
        "a regular and monotonous rising and falling intonation",
-       "bend one's back forward from the waist on down",
+       "bent down low with the knees bent",
        "the person who did most of the talking"
       ],
       "answer": 1,
@@ -4904,13 +4904,13 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "mornings"
+      "answer": "meditating"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "meditating"
+      "answer": "gratefully"
      },
      {
       "n": 3,
@@ -4928,13 +4928,13 @@
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "bend one's back forward from the waist on down"
+      "answer": "bent down low with the knees bent"
      },
      {
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "the acquisition of something for payment"
+      "answer": "the time period between dawn and noon"
      },
      {
       "n": 7,
@@ -5025,16 +5025,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Patronage had a queer way of _____ itself in Harlem.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
       "wordBank": [
        "singsong",
        "spokesman",
        "crouched",
-       "shifting"
+       "valuable"
       ],
-      "answer": "shifting",
+      "answer": "valuable",
       "accept": [
-       "shifting"
+       "valuable"
       ],
       "element": "diction",
       "level": "recall",
@@ -5060,16 +5060,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “King Solomon located and _____ extended a slip of paper.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
        "crouched",
        "spokesman",
        "singsong",
-       "gratefully"
+       "repeatedly"
       ],
-      "answer": "gratefully",
+      "answer": "repeatedly",
       "accept": [
-       "gratefully"
+       "repeatedly"
       ],
       "element": "diction",
       "level": "recall",
@@ -5081,9 +5081,9 @@
       "type": "mc",
       "prompt": "In the line “A high, strongly accented Jamaican voice, with its characteristic singsong intonation, interrupted King Solomon's sigh of relief.”, what does “singsong” most nearly mean?",
       "options": [
-       "the acquisition of something for payment",
+       "the time period between dawn and noon",
        "a regular and monotonous rising and falling intonation",
-       "bend one's back forward from the waist on down",
+       "bent down low with the knees bent",
        "the person who did most of the talking"
       ],
       "answer": 1,
@@ -5113,9 +5113,9 @@
       "prompt": "In the line “Yet most of the vehicles that leaped or crouched at his bidding carried white passengers.”, what does “crouched” most nearly mean?",
       "options": [
        "the person who did most of the talking",
-       "the acquisition of something for payment",
+       "the time period between dawn and noon",
        "a regular and monotonous rising and falling intonation",
-       "bend one's back forward from the waist on down"
+       "bent down low with the knees bent"
       ],
       "answer": 3,
       "element": "diction",
@@ -5328,7 +5328,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "shifting"
+      "answer": "valuable"
      },
      {
       "n": 2,
@@ -5340,7 +5340,7 @@
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "gratefully"
+      "answer": "repeatedly"
      },
      {
       "n": 4,
@@ -5358,7 +5358,7 @@
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "bend one's back forward from the waist on down"
+      "answer": "bent down low with the knees bent"
      },
      {
       "n": 7,
@@ -5456,7 +5456,7 @@
    "theme": "the Great Migration",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5677,7 +5677,7 @@
    "theme": "hope and exploitation",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
@@ -5898,7 +5898,7 @@
    "theme": "urban identity",
    "prompts": {
     "middleSchool": {
-     "label": "Middle School",
+     "label": "Scaffolded support",
      "standards": [
       "W.7.1",
       "RL.7.2"
