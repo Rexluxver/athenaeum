@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Pit and the Pendulum unit",
   "author": "Edgar Allan Poe",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,152 +580,121 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Pit and the Pendulum: whole-book test",
+  "title": "The Pit and the Pendulum: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Who has condemned the narrator?",
     "options": [
+     "The Inquisition",
      "A king",
-     "A pirate captain",
      "A rival family",
-     "The Inquisition"
-    ],
-    "answer": 3,
-    "element": "setting"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "How does the narrator first discover the pit?",
-    "options": [
-     "A guard shows him",
-     "He trips and falls with his face at its edge",
-     "He hears water drip",
-     "He sees it by torchlight"
-    ],
-    "answer": 1,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "How does he escape the pendulum?",
-    "options": [
-     "He rubs food on his straps so rats gnaw them",
-     "He stops the gear",
-     "He breaks the chains",
-     "A guard frees him"
+     "A pirate captain"
     ],
     "answer": 0,
-    "element": "plot"
+    "element": "setting",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
+    "type": "mc",
+    "prompt": "How does the narrator first discover the pit?",
+    "options": [
+     "He trips and falls with his face at its edge",
+     "A guard shows him",
+     "He sees it by torchlight",
+     "He hears water drip"
+    ],
+    "answer": 0,
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
     "chapterIndex": 0,
+    "n": 5
+   },
+   {
+    "type": "mc",
     "prompt": "What do the walls do?",
     "options": [
      "Collapse",
      "Glow red-hot and close in",
-     "Flood with water",
-     "Turn to glass"
+     "Turn to glass",
+     "Flood with water"
     ],
     "answer": 1,
-    "element": "imagery"
+    "element": "imagery",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Who rescues the narrator?",
     "options": [
      "His brother",
      "A priest",
-     "General Lasalle and the French army",
-     "The rats' owner"
-    ],
-    "answer": 2,
-    "element": "structure"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “I might as well have attempted to arrest an avalanche!”, what does “avalanche” most nearly mean?",
-    "options": [
-     "combat to overcome an opposing tendency or force",
-     "dark underground prison cells",
-     "a vault or building where corpses or bones are deposited",
-     "a slide of large masses of snow and ice and mud down a mountain"
+     "The rats' owner",
+     "General Lasalle and the French army"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "structure",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “The entire surface of this metallic enclosure was rudely daubed in all the hideous and repulsive devices to which the charnel superstition of the monks has given rise.”, what does “charnel” most nearly mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
     "options": [
-     "dark underground prison cells",
-     "combat to overcome an opposing tendency or force",
-     "a slide of large masses of snow and ice and mud down a mountain",
-     "a vault or building where corpses or bones are deposited"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“I might as well have attempted to arrest an avalanche!”), what does “avalanche” mean?",
-    "options": [
-     "a slide of large masses of snow and ice and mud down a mountain",
-     "cause to start burning",
-     "surrounded",
-     "a vault or building where corpses or bones are deposited"
+     "Reason struggling against terror",
+     "Reason defeating a hidden crime",
+     "A wife's quiet rebellion for a decent home",
+     "A story so convincing it becomes real"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 13
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“The entire surface of this metallic enclosure was rudely daubed in all the hideous and repulsive devices to which the charnel superstition o”), what does “charnel” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
     "options": [
-     "prickling or stinging slightly",
-     "a vault or building where corpses or bones are deposited",
-     "finding out for certain",
-     "dark underground prison cells"
+     "Metaphor",
+     "Imagery",
+     "Foreshadowing",
+     "Irony"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "imagery",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Of the dungeons there had been strange things narrated—fables I had always deemed them—but yet strange, and too ghastly to repeat, save in a”), what does “dungeons” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
     "options": [
-     "a heavy rain",
-     "a stopping",
-     "dark underground prison cells",
-     "combat to overcome an opposing tendency or force"
+     "Characterization",
+     "Foreshadowing",
+     "Pacing",
+     "Setting"
     ],
     "answer": 2,
-    "element": "diction"
-   },
-   {
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
     "chapterIndex": 0,
-    "prompt": "As used in the story (“At length it forced—it wrestled its way into my soul—it burned itself in upon my shuddering reason.”), what does “wrestled” mean?",
-    "options": [
-     "surrounded",
-     "a slide of large masses of snow and ice and mud down a mountain",
-     "cause to start burning",
-     "combat to overcome an opposing tendency or force"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“The glare from the enkindled roof illumined its inmost recesses.”), what does “enkindled” mean?",
-    "options": [
-     "cause to start burning",
-     "finding out for certain",
-     "a vault or building where corpses or bones are deposited",
-     "prickling or stinging slightly"
-    ],
-    "answer": 0,
-    "element": "diction"
+    "n": 16
    }
   ],
   "answerKey": [
@@ -740,61 +710,4721 @@
    },
    {
     "n": 3,
-    "answer": "He rubs food on his straps so rats gnaw them",
-    "element": "plot"
-   },
-   {
-    "n": 4,
     "answer": "Glow red-hot and close in",
     "element": "imagery"
    },
    {
-    "n": 5,
+    "n": 4,
     "answer": "General Lasalle and the French army",
     "element": "structure"
    },
    {
+    "n": 5,
+    "answer": "Reason struggling against terror",
+    "element": "theme"
+   },
+   {
     "n": 6,
-    "answer": "a slide of large masses of snow and ice and mud down a mountain",
-    "element": "diction"
+    "answer": "Imagery",
+    "element": "imagery"
    },
    {
     "n": 7,
-    "answer": "a vault or building where corpses or bones are deposited",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "a slide of large masses of snow and ice and mud down a mountain",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "a vault or building where corpses or bones are deposited",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "dark underground prison cells",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "combat to overcome an opposing tendency or force",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "cause to start burning",
-    "element": "diction"
+    "answer": "Pacing",
+    "element": "structure"
    }
   ],
-  "shortAnswer": [
-   "Explain how terror and endurance develops from the beginning of the story to the end. Use two passages.",
-   "Explain how the mind under torture develops from the beginning of the story to the end. Use two passages.",
-   "Explain how rescue and hope develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (terror and endurance, the mind under torture, rescue and hope) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "dungeons",
+       "charnel",
+       "avalanche",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He sees it by torchlight",
+       "He hears water drip"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How does he escape the pendulum?",
+      "options": [
+       "He rubs food on his straps so rats gnaw them",
+       "He breaks the chains",
+       "A guard frees him",
+       "He stops the gear"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who has condemned the narrator?",
+      "options": [
+       "The Inquisition",
+       "A king",
+       "A rival family",
+       "A pirate captain"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “An _____ arm caught my own as I fell, fainting, into the abyss”",
+      "answer": "outstretched",
+      "accept": [
+       "outstretched",
+       "outstretched"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "encompassed",
+       "dungeons"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "His brother",
+       "A priest",
+       "The rats' owner",
+       "General Lasalle and the French army"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the walls do?",
+      "options": [
+       "Collapse",
+       "Glow red-hot and close in",
+       "Turn to glass",
+       "Flood with water"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "avalanche",
+       "dungeons",
+       "charnel",
+       "torrents"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Reason struggling against terror",
+       "Reason defeating a hidden crime",
+       "A wife's quiet rebellion for a decent home",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Pacing",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He rubs food on his straps so rats gnaw them"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Inquisition"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "outstretched"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Glow red-hot and close in"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "dungeons",
+       "charnel",
+       "avalanche",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How does he escape the pendulum?",
+      "options": [
+       "He rubs food on his straps so rats gnaw them",
+       "He breaks the chains",
+       "A guard frees him",
+       "He stops the gear"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He sees it by torchlight",
+       "He hears water drip"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "His brother",
+       "A priest",
+       "The rats' owner",
+       "General Lasalle and the French army"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the walls do?",
+      "options": [
+       "Collapse",
+       "Glow red-hot and close in",
+       "Turn to glass",
+       "Flood with water"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “An _____ arm caught my own as I fell, fainting, into the abyss”",
+      "answer": "outstretched",
+      "accept": [
+       "outstretched",
+       "outstretched"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who has condemned the narrator?",
+      "options": [
+       "The Inquisition",
+       "A king",
+       "A rival family",
+       "A pirate captain"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "encompassed",
+       "dungeons"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "avalanche",
+       "dungeons",
+       "charnel",
+       "torrents"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Reason struggling against terror",
+       "Reason defeating a hidden crime",
+       "A wife's quiet rebellion for a decent home",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Pacing",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Metaphor",
+       "Imagery",
+       "Foreshadowing",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He rubs food on his straps so rats gnaw them"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Glow red-hot and close in"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "outstretched"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Inquisition"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "avalanche",
+       "dungeons",
+       "charnel",
+       "torrents"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "encompassed",
+       "dungeons"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who has condemned the narrator?",
+      "options": [
+       "The Inquisition",
+       "A king",
+       "A rival family",
+       "A pirate captain"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He sees it by torchlight",
+       "He hears water drip"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the walls do?",
+      "options": [
+       "Collapse",
+       "Glow red-hot and close in",
+       "Turn to glass",
+       "Flood with water"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “An _____ arm caught my own as I fell, fainting, into the abyss”",
+      "answer": "outstretched",
+      "accept": [
+       "outstretched",
+       "outstretched"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "dungeons",
+       "charnel",
+       "avalanche",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "His brother",
+       "A priest",
+       "The rats' owner",
+       "General Lasalle and the French army"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Reason struggling against terror",
+       "Reason defeating a hidden crime",
+       "A wife's quiet rebellion for a decent home",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Metaphor",
+       "Imagery",
+       "Foreshadowing",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Pacing",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Inquisition"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Glow red-hot and close in"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "outstretched"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "His brother",
+       "A priest",
+       "The rats' owner",
+       "General Lasalle and the French army"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "encompassed",
+       "dungeons"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "dungeons",
+       "charnel",
+       "avalanche",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the walls do?",
+      "options": [
+       "Collapse",
+       "Glow red-hot and close in",
+       "Turn to glass",
+       "Flood with water"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How does he escape the pendulum?",
+      "options": [
+       "He rubs food on his straps so rats gnaw them",
+       "He breaks the chains",
+       "A guard frees him",
+       "He stops the gear"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "avalanche",
+       "dungeons",
+       "charnel",
+       "torrents"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He sees it by torchlight",
+       "He hears water drip"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Who has condemned the narrator?",
+      "options": [
+       "The Inquisition",
+       "A king",
+       "A rival family",
+       "A pirate captain"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Reason struggling against terror",
+       "Reason defeating a hidden crime",
+       "A wife's quiet rebellion for a decent home",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Pacing",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Metaphor",
+       "Imagery",
+       "Foreshadowing",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Glow red-hot and close in"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He rubs food on his straps so rats gnaw them"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Inquisition"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "His brother",
+       "A priest",
+       "The rats' owner",
+       "General Lasalle and the French army"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the walls do?",
+      "options": [
+       "Collapse",
+       "Glow red-hot and close in",
+       "Turn to glass",
+       "Flood with water"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "avalanche",
+       "dungeons",
+       "charnel",
+       "torrents"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He sees it by torchlight",
+       "He hears water drip"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "encompassed",
+       "dungeons"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who has condemned the narrator?",
+      "options": [
+       "The Inquisition",
+       "A king",
+       "A rival family",
+       "A pirate captain"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Reason struggling against terror",
+       "Reason defeating a hidden crime",
+       "A wife's quiet rebellion for a decent home",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Metaphor",
+       "Imagery",
+       "Foreshadowing",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Pacing",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Glow red-hot and close in"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Inquisition"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who has condemned the narrator?",
+      "options": [
+       "A rival family",
+       "A king",
+       "A pirate captain",
+       "The Inquisition"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "tingling",
+       "avalanche",
+       "dungeons",
+       "charnel"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He sees it by torchlight",
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He hears water drip"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "The rats' owner",
+       "His brother",
+       "General Lasalle and the French army",
+       "A priest"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “An _____ arm caught my own as I fell, fainting, into the abyss”",
+      "answer": "outstretched",
+      "accept": [
+       "outstretched",
+       "outstretched"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “At length it forced—it wrestled its way into my soul—it burned itself in upon my shuddering reason.”, what does “wrestled” most nearly mean?",
+      "options": [
+       "a vault or building where corpses or bones are deposited",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "dark underground prison cells",
+       "combat to overcome an opposing tendency or force"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Reason struggling against terror",
+       "A story so convincing it becomes real",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Characterization",
+       "Metaphor",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Pacing",
+       "Setting",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Inquisition"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "outstretched"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "combat to overcome an opposing tendency or force"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "The rats' owner",
+       "His brother",
+       "General Lasalle and the French army",
+       "A priest"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the walls do?",
+      "options": [
+       "Glow red-hot and close in",
+       "Collapse",
+       "Flood with water",
+       "Turn to glass"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "charnel",
+       "torrents",
+       "avalanche",
+       "dungeons"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The entire surface of this metallic enclosure was rudely daubed in all the hideous and repulsive devices to which the charnel superstition of the monks has given rise.”, what does “charnel” most nearly mean?",
+      "options": [
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "combat to overcome an opposing tendency or force",
+       "dark underground prison cells",
+       "a vault or building where corpses or bones are deposited"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "tingling",
+       "avalanche",
+       "dungeons",
+       "charnel"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Reason struggling against terror",
+       "A story so convincing it becomes real",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Characterization",
+       "Metaphor",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Pacing",
+       "Setting",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Glow red-hot and close in"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a vault or building where corpses or bones are deposited"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "charnel",
+       "torrents",
+       "avalanche",
+       "dungeons"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “At length it forced—it wrestled its way into my soul—it burned itself in upon my shuddering reason.”, what does “wrestled” most nearly mean?",
+      "options": [
+       "a vault or building where corpses or bones are deposited",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "dark underground prison cells",
+       "combat to overcome an opposing tendency or force"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "encompassed",
+       "dungeons",
+       "avalanche",
+       "charnel"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "tingling",
+       "avalanche",
+       "dungeons",
+       "charnel"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who rescues the narrator?",
+      "options": [
+       "The rats' owner",
+       "His brother",
+       "General Lasalle and the French army",
+       "A priest"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He sees it by torchlight",
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He hears water drip"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Reason struggling against terror",
+       "A story so convincing it becomes real",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Characterization",
+       "Metaphor",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Pacing",
+       "Setting",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "combat to overcome an opposing tendency or force"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "General Lasalle and the French army"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “At length it forced—it wrestled its way into my soul—it burned itself in upon my shuddering reason.”, what does “wrestled” most nearly mean?",
+      "options": [
+       "a vault or building where corpses or bones are deposited",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "dark underground prison cells",
+       "combat to overcome an opposing tendency or force"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who has condemned the narrator?",
+      "options": [
+       "A rival family",
+       "A king",
+       "A pirate captain",
+       "The Inquisition"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “I might as well have attempted to arrest an avalanche!”, what does “avalanche” most nearly mean?",
+      "options": [
+       "dark underground prison cells",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "combat to overcome an opposing tendency or force",
+       "a vault or building where corpses or bones are deposited"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He sees it by torchlight",
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He hears water drip"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “An _____ arm caught my own as I fell, fainting, into the abyss”",
+      "answer": "outstretched",
+      "accept": [
+       "outstretched",
+       "outstretched"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "encompassed",
+       "dungeons",
+       "avalanche",
+       "charnel"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Reason struggling against terror",
+       "A story so convincing it becomes real",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Characterization",
+       "Metaphor",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Pacing",
+       "Setting",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "combat to overcome an opposing tendency or force"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Inquisition"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a slide of large masses of snow and ice and mud down a mountain"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "outstretched"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “At length it forced—it wrestled its way into my soul—it burned itself in upon my shuddering reason.”, what does “wrestled” most nearly mean?",
+      "options": [
+       "a vault or building where corpses or bones are deposited",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "dark underground prison cells",
+       "combat to overcome an opposing tendency or force"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then again sound, and motion, and touch—a _____ sensation pervading my frame.”",
+      "wordBank": [
+       "tingling",
+       "avalanche",
+       "dungeons",
+       "charnel"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He sees it by torchlight",
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He hears water drip"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How does he escape the pendulum?",
+      "options": [
+       "He stops the gear",
+       "He rubs food on his straps so rats gnaw them",
+       "A guard frees him",
+       "He breaks the chains"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The entire surface of this metallic enclosure was rudely daubed in all the hideous and repulsive devices to which the charnel superstition of the monks has given rise.”, what does “charnel” most nearly mean?",
+      "options": [
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "combat to overcome an opposing tendency or force",
+       "dark underground prison cells",
+       "a vault or building where corpses or bones are deposited"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "encompassed",
+       "dungeons",
+       "avalanche",
+       "charnel"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “An _____ arm caught my own as I fell, fainting, into the abyss”",
+      "answer": "outstretched",
+      "accept": [
+       "outstretched",
+       "outstretched"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Reason struggling against terror",
+       "A story so convincing it becomes real",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Pacing",
+       "Setting",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Characterization",
+       "Metaphor",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "combat to overcome an opposing tendency or force"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He rubs food on his straps so rats gnaw them"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a vault or building where corpses or bones are deposited"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "outstretched"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A fearful idea now suddenly drove the blood in _____ upon my heart, and for a brief period, I once more relapsed into insensibility.”",
+      "wordBank": [
+       "charnel",
+       "torrents",
+       "avalanche",
+       "dungeons"
+      ],
+      "answer": "torrents",
+      "accept": [
+       "torrents"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Of the dungeons there had been strange things narrated—fables I had always deemed them—but yet strange, and too ghastly to repeat, save in a whisper.”, what does “dungeons” most nearly mean?",
+      "options": [
+       "a vault or building where corpses or bones are deposited",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "combat to overcome an opposing tendency or force",
+       "dark underground prison cells"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The blackness of eternal night _____ me.”",
+      "wordBank": [
+       "encompassed",
+       "dungeons",
+       "avalanche",
+       "charnel"
+      ],
+      "answer": "encompassed",
+      "accept": [
+       "encompassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the narrator first discover the pit?",
+      "options": [
+       "He sees it by torchlight",
+       "He trips and falls with his face at its edge",
+       "A guard shows him",
+       "He hears water drip"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Pit and the Pendulum, paragraph 44: “The _____ was in the hands of its enemies”",
+      "answer": "Inquisition",
+      "accept": [
+       "Inquisition",
+       "inquisition"
+      ],
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “I might as well have attempted to arrest an avalanche!”, what does “avalanche” most nearly mean?",
+      "options": [
+       "dark underground prison cells",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "combat to overcome an opposing tendency or force",
+       "a vault or building where corpses or bones are deposited"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The glare from the _____ roof illumined its inmost recesses.”",
+      "wordBank": [
+       "charnel",
+       "avalanche",
+       "enkindled",
+       "dungeons"
+      ],
+      "answer": "enkindled",
+      "accept": [
+       "enkindled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) Answer in two or three sentences with one detail.",
+      "expected": "Pacing of the descent.",
+      "element": "characterization",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Pit and the Pendulum”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Reason struggling against terror",
+       "A story so convincing it becomes real",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Poe builds suspense by slowing time to the speed of the blade. Explain how this evidence supports the claim: “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31).",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Darkness, smell, touch and sound dominate before sight returns.",
+      "options": [
+       "Characterization",
+       "Metaphor",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “An outstretched arm caught my own as I fell, fainting, into the abyss” (The Pit and the Pendulum, paragraph 44). Pick two words and explain what they suggest.",
+      "expected": "The rescue.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Pit and the Pendulum”? Long sentences slow time as the blade descends (\"Down—steadily down it crept\"); the countdown makes the reader count too.",
+      "options": [
+       "Pacing",
+       "Setting",
+       "Alliteration",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how reason against terror develops from an earlier story to “The Pit and the Pendulum”. Use one quotation from each.",
+      "expected": "measuring the cell and using the rats show reason defeating despair.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The Inquisition was in the hands of its enemies” (The Pit and the Pendulum, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "The last line: history, not reason, delivers him.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Down—steadily down it crept” (The Pit and the Pendulum, paragraph 31) shape its meaning? Consider a second, competing reading.",
+      "expected": "Pacing of the descent.",
+      "element": "diction",
+      "location": "The Pit and the Pendulum, paragraph 31",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Poe builds suspense by slowing time to the speed of the blade.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "torrents"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "dark underground prison cells"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "encompassed"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He trips and falls with his face at its edge"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Inquisition"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a slide of large masses of snow and ice and mud down a mountain"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enkindled"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Reason struggling against terror"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The rescue."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Pacing"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "measuring the cell and using the rats show reason defeating despair."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The last line: history, not reason, delivers him."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Pacing of the descent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The repeated \"Down—steadily down it crept\" makes the reader endure each swing, so the escape feels earned even though the final rescue, \"An outstretched arm caught my own,\" comes from outside."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5448,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Pit and the Pendulum teaches about terror and endurance. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Pit and the Pendulum teaches about terror and endurance. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5669,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Pit and the Pendulum teaches about the mind under torture. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Pit and the Pendulum teaches about the mind under torture. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5890,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Pit and the Pendulum teaches about rescue and hope. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Pit and the Pendulum teaches about rescue and hope. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6090,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Pit and the Pendulum: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Edgar Allan Poe develops terror and endurance across The Pit and the Pendulum. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Pit and the Pendulum and argue how its meaning changes over the story and why that change matters to the mind under torture."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Pit and the Pendulum. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Pit and the Pendulum finally endorses or criticizes its society's view of rescue and hope. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

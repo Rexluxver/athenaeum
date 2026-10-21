@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Minister's Black Veil unit",
   "author": "Nathaniel Hawthorne",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,152 +580,121 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Minister's Black Veil: whole-book test",
+  "title": "The Minister's Black Veil: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What does Mr. Hooper wear?",
     "options": [
-     "A black veil over his face",
      "A hood",
+     "A black robe only",
      "A mask",
-     "A black robe only"
+     "A black veil over his face"
     ],
-    "answer": 0,
-    "element": "symbolism"
+    "answer": 3,
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Who is Elizabeth?",
     "options": [
-     "A widow in the congregation",
-     "Hooper's fiancée",
      "The sexton's wife",
-     "His sister"
-    ],
-    "answer": 1,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What happens at the young lady's funeral?",
-    "options": [
-     "Hooper weeps",
-     "The church burns",
-     "Some fancy the corpse shudders as Hooper bends over it",
-     "The veil falls off"
+     "His sister",
+     "Hooper's fiancée",
+     "A widow in the congregation"
     ],
     "answer": 2,
-    "element": "imagery"
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 6
    },
    {
-    "chapterIndex": 0,
-    "prompt": "What effect does the veil have on his ministry?",
-    "options": [
-     "He loses his job",
-     "He becomes powerful with sinners but feared",
-     "He leaves town",
-     "He becomes cheerful"
-    ],
-    "answer": 1,
-    "element": "theme"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What does Hooper say on his deathbed?",
     "options": [
      "He thanks Elizabeth",
-     "He asks to be unveiled",
      "He confesses a crime",
-     "He sees a black veil on every face"
-    ],
-    "answer": 3,
-    "element": "irony"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “A person, who watched the interview between the dead and living, scrupled not to affirm, that, at the instant when the clergyman's features were disclosed, the corpse had slightly shuddered, rustling the shroud and muslin cap, though the countenance retained the composure of death.”, what does “scrupled” most nearly mean?",
-    "options": [
-     "tidiness and order",
-     "speak, pronounce, or utter in a certain way",
-     "gentleness",
-     "hesitated because of a moral doubt"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “Hooper, a gentlemanly person of about thirty, though still a bachelor, was dressed with due clerical neatness, as if a careful wife had starched his band, and brushed the weekly dust from his Sunday's garb.”, what does “neatness” most nearly mean?",
-    "options": [
-     "hesitated because of a moral doubt",
-     "gentleness",
-     "tidiness and order",
-     "speak, pronounce, or utter in a certain way"
+     "He sees a black veil on every face",
+     "He asks to be unveiled"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“A person, who watched the interview between the dead and living, scrupled not to affirm, that, at the instant when the clergyman's features ”), what does “scrupled” mean?",
+    "type": "mc",
+    "prompt": "What effect does the veil have on his ministry?",
     "options": [
-     "hesitated because of a moral doubt",
-     "a sign; an indication",
-     "put to use",
-     "tidiness and order"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Hooper, a gentlemanly person of about thirty, though still a bachelor, was dressed with due clerical neatness, as if a careful wife had star”), what does “neatness” mean?",
-    "options": [
-     "pause or hold back in uncertainty or unwillingness",
-     "tidiness and order",
-     "lessen the strength of",
-     "gentleness"
+     "He becomes cheerful",
+     "He becomes powerful with sinners but feared",
+     "He leaves town",
+     "He loses his job"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "theme",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Hooper's mildness did not forsake him.”), what does “mildness” mean?",
+    "type": "mc",
+    "prompt": "What happens at the young lady's funeral?",
     "options": [
-     "be larger in number, quantity, power, status or importance",
-     "presenting (someone) to another person",
-     "gentleness",
-     "speak, pronounce, or utter in a certain way"
+     "The veil falls off",
+     "Some fancy the corpse shudders as Hooper bends over it",
+     "The church burns",
+     "Hooper weeps"
     ],
-    "answer": 2,
-    "element": "diction"
+    "answer": 1,
+    "element": "imagery",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 9
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Finally, the deputies returned abashed to their constituents, pronouncing the matter too weighty to be handled, except by a council of the c”), what does “pronouncing” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
     "options": [
-     "put to use",
-     "hesitated because of a moral doubt",
-     "a sign; an indication",
-     "speak, pronounce, or utter in a certain way"
+     "A woman's brief taste of freedom",
+     "The cost of wanting to seem richer than you are",
+     "The arrogance and loneliness of seeing differently",
+     "A symbol of hidden sin that isolates its wearer"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 12
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a”), what does “symptom” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
     "options": [
-     "a sign; an indication",
-     "lessen the strength of",
-     "tidiness and order",
-     "pause or hold back in uncertainty or unwillingness"
+     "Symbolism",
+     "Conflict",
+     "Irony",
+     "Plot"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    }
   ],
   "answerKey": [
@@ -740,8 +710,8 @@
    },
    {
     "n": 3,
-    "answer": "Some fancy the corpse shudders as Hooper bends over it",
-    "element": "imagery"
+    "answer": "He sees a black veil on every face",
+    "element": "irony"
    },
    {
     "n": 4,
@@ -750,51 +720,4695 @@
    },
    {
     "n": 5,
-    "answer": "He sees a black veil on every face",
-    "element": "irony"
+    "answer": "Some fancy the corpse shudders as Hooper bends over it",
+    "element": "imagery"
    },
    {
     "n": 6,
-    "answer": "hesitated because of a moral doubt",
-    "element": "diction"
+    "answer": "A symbol of hidden sin that isolates its wearer",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "tidiness and order",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "hesitated because of a moral doubt",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "tidiness and order",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "gentleness",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "speak, pronounce, or utter in a certain way",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "a sign; an indication",
-    "element": "diction"
+    "answer": "Symbolism",
+    "element": "symbolism"
    }
   ],
-  "shortAnswer": [
-   "Explain how secret sin develops from the beginning of the story to the end. Use two passages.",
-   "Explain how isolation develops from the beginning of the story to the end. Use two passages.",
-   "Explain how symbol and meaning develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (secret sin, isolation, symbol and meaning) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Hooper say on his deathbed?",
+      "options": [
+       "He thanks Elizabeth",
+       "He confesses a crime",
+       "He sees a black veil on every face",
+       "He asks to be unveiled"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “I look _____ me, and, lo! on every visage a Black Veil”",
+      "answer": "around",
+      "accept": [
+       "around",
+       "around"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens at the young lady's funeral?",
+      "options": [
+       "The veil falls off",
+       "Some fancy the corpse shudders as Hooper bends over it",
+       "The church burns",
+       "Hooper weeps"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A hood",
+       "A black robe only",
+       "A mask",
+       "A black veil over his face"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Father Hooper at, first replied merely by a feeble motion of his head; then, apprehensive, perhaps, that his meaning might be doubtful, he _____ himself to speak.”",
+      "wordBank": [
+       "scrupled",
+       "mildness",
+       "neatness",
+       "exerted"
+      ],
+      "answer": "exerted",
+      "accept": [
+       "exerted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "symptom",
+       "scrupled"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He seemed not fully to partake of the _____ wonder, till Mr.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "scrupled",
+       "prevailing"
+      ],
+      "answer": "prevailing",
+      "accept": [
+       "prevailing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What effect does the veil have on his ministry?",
+      "options": [
+       "He becomes cheerful",
+       "He becomes powerful with sinners but feared",
+       "He leaves town",
+       "He loses his job"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For some time previous, his mind had been confused, _____ doubtfully between the past and the present, and hovering forward, as it were, at intervals, into the indistinctness of the world to come.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "mildness",
+       "wavering"
+      ],
+      "answer": "wavering",
+      "accept": [
+       "wavering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "The sexton's wife",
+       "His sister",
+       "Hooper's fiancée",
+       "A widow in the congregation"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "A woman's brief taste of freedom",
+       "The cost of wanting to seem richer than you are",
+       "The arrogance and loneliness of seeing differently",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Metaphor",
+       "Foreshadowing",
+       "Characterization",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He sees a black veil on every face"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "around"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Some fancy the corpse shudders as Hooper bends over it"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "exerted"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "prevailing"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He becomes powerful with sinners but feared"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wavering"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He seemed not fully to partake of the _____ wonder, till Mr.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "scrupled",
+       "prevailing"
+      ],
+      "answer": "prevailing",
+      "accept": [
+       "prevailing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "symptom",
+       "scrupled"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens at the young lady's funeral?",
+      "options": [
+       "The veil falls off",
+       "Some fancy the corpse shudders as Hooper bends over it",
+       "The church burns",
+       "Hooper weeps"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For some time previous, his mind had been confused, _____ doubtfully between the past and the present, and hovering forward, as it were, at intervals, into the indistinctness of the world to come.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "mildness",
+       "wavering"
+      ],
+      "answer": "wavering",
+      "accept": [
+       "wavering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Father Hooper at, first replied merely by a feeble motion of his head; then, apprehensive, perhaps, that his meaning might be doubtful, he _____ himself to speak.”",
+      "wordBank": [
+       "scrupled",
+       "mildness",
+       "neatness",
+       "exerted"
+      ],
+      "answer": "exerted",
+      "accept": [
+       "exerted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A hood",
+       "A black robe only",
+       "A mask",
+       "A black veil over his face"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “I look _____ me, and, lo! on every visage a Black Veil”",
+      "answer": "around",
+      "accept": [
+       "around",
+       "around"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Hooper say on his deathbed?",
+      "options": [
+       "He thanks Elizabeth",
+       "He confesses a crime",
+       "He sees a black veil on every face",
+       "He asks to be unveiled"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "The sexton's wife",
+       "His sister",
+       "Hooper's fiancée",
+       "A widow in the congregation"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What effect does the veil have on his ministry?",
+      "options": [
+       "He becomes cheerful",
+       "He becomes powerful with sinners but feared",
+       "He leaves town",
+       "He loses his job"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "A woman's brief taste of freedom",
+       "The cost of wanting to seem richer than you are",
+       "The arrogance and loneliness of seeing differently",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "prevailing"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Some fancy the corpse shudders as Hooper bends over it"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wavering"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "exerted"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "around"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He sees a black veil on every face"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He becomes powerful with sinners but feared"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A hood",
+       "A black robe only",
+       "A mask",
+       "A black veil over his face"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "symptom",
+       "scrupled"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “I look _____ me, and, lo! on every visage a Black Veil”",
+      "answer": "around",
+      "accept": [
+       "around",
+       "around"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For some time previous, his mind had been confused, _____ doubtfully between the past and the present, and hovering forward, as it were, at intervals, into the indistinctness of the world to come.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "mildness",
+       "wavering"
+      ],
+      "answer": "wavering",
+      "accept": [
+       "wavering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "The sexton's wife",
+       "His sister",
+       "Hooper's fiancée",
+       "A widow in the congregation"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Hooper say on his deathbed?",
+      "options": [
+       "He thanks Elizabeth",
+       "He confesses a crime",
+       "He sees a black veil on every face",
+       "He asks to be unveiled"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What effect does the veil have on his ministry?",
+      "options": [
+       "He becomes cheerful",
+       "He becomes powerful with sinners but feared",
+       "He leaves town",
+       "He loses his job"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens at the young lady's funeral?",
+      "options": [
+       "The veil falls off",
+       "Some fancy the corpse shudders as Hooper bends over it",
+       "The church burns",
+       "Hooper weeps"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He seemed not fully to partake of the _____ wonder, till Mr.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "scrupled",
+       "prevailing"
+      ],
+      "answer": "prevailing",
+      "accept": [
+       "prevailing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "A woman's brief taste of freedom",
+       "The cost of wanting to seem richer than you are",
+       "The arrogance and loneliness of seeing differently",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His accusation.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "around"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wavering"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He sees a black veil on every face"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He becomes powerful with sinners but feared"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Some fancy the corpse shudders as Hooper bends over it"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "prevailing"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His accusation."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What effect does the veil have on his ministry?",
+      "options": [
+       "He becomes cheerful",
+       "He becomes powerful with sinners but feared",
+       "He leaves town",
+       "He loses his job"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Hooper say on his deathbed?",
+      "options": [
+       "He thanks Elizabeth",
+       "He confesses a crime",
+       "He sees a black veil on every face",
+       "He asks to be unveiled"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For some time previous, his mind had been confused, _____ doubtfully between the past and the present, and hovering forward, as it were, at intervals, into the indistinctness of the world to come.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "mildness",
+       "wavering"
+      ],
+      "answer": "wavering",
+      "accept": [
+       "wavering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Father Hooper at, first replied merely by a feeble motion of his head; then, apprehensive, perhaps, that his meaning might be doubtful, he _____ himself to speak.”",
+      "wordBank": [
+       "scrupled",
+       "mildness",
+       "neatness",
+       "exerted"
+      ],
+      "answer": "exerted",
+      "accept": [
+       "exerted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He seemed not fully to partake of the _____ wonder, till Mr.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "scrupled",
+       "prevailing"
+      ],
+      "answer": "prevailing",
+      "accept": [
+       "prevailing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "The sexton's wife",
+       "His sister",
+       "Hooper's fiancée",
+       "A widow in the congregation"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A hood",
+       "A black robe only",
+       "A mask",
+       "A black veil over his face"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "symptom",
+       "scrupled"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "A woman's brief taste of freedom",
+       "The cost of wanting to seem richer than you are",
+       "The arrogance and loneliness of seeing differently",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Metaphor",
+       "Foreshadowing",
+       "Characterization",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He becomes powerful with sinners but feared"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He sees a black veil on every face"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wavering"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "exerted"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "prevailing"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A hood",
+       "A black robe only",
+       "A mask",
+       "A black veil over his face"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "symptom",
+       "scrupled"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Father Hooper at, first replied merely by a feeble motion of his head; then, apprehensive, perhaps, that his meaning might be doubtful, he _____ himself to speak.”",
+      "wordBank": [
+       "scrupled",
+       "mildness",
+       "neatness",
+       "exerted"
+      ],
+      "answer": "exerted",
+      "accept": [
+       "exerted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Hooper say on his deathbed?",
+      "options": [
+       "He thanks Elizabeth",
+       "He confesses a crime",
+       "He sees a black veil on every face",
+       "He asks to be unveiled"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He seemed not fully to partake of the _____ wonder, till Mr.”",
+      "wordBank": [
+       "neatness",
+       "mildness",
+       "scrupled",
+       "prevailing"
+      ],
+      "answer": "prevailing",
+      "accept": [
+       "prevailing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens at the young lady's funeral?",
+      "options": [
+       "The veil falls off",
+       "Some fancy the corpse shudders as Hooper bends over it",
+       "The church burns",
+       "Hooper weeps"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For some time previous, his mind had been confused, _____ doubtfully between the past and the present, and hovering forward, as it were, at intervals, into the indistinctness of the world to come.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "mildness",
+       "wavering"
+      ],
+      "answer": "wavering",
+      "accept": [
+       "wavering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "A woman's brief taste of freedom",
+       "The cost of wanting to seem richer than you are",
+       "The arrogance and loneliness of seeing differently",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Metaphor",
+       "Foreshadowing",
+       "Characterization",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "exerted"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He sees a black veil on every face"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "prevailing"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Some fancy the corpse shudders as Hooper bends over it"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wavering"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 6,
+     "fill": 5,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A black robe only",
+       "A mask",
+       "A black veil over his face",
+       "A hood"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A person, who watched the interview between the dead and living, scrupled not to affirm, that, at the instant when the clergyman's features were disclosed, the corpse had slightly shuddered, rustling the shroud and…”, what does “scrupled” most nearly mean?",
+      "options": [
+       "hesitated because of a moral doubt",
+       "gentleness",
+       "speak, pronounce, or utter in a certain way",
+       "tidiness and order"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “I look _____ me, and, lo! on every visage a Black Veil”",
+      "answer": "around",
+      "accept": [
+       "around",
+       "around"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "His sister",
+       "The sexton's wife",
+       "A widow in the congregation",
+       "Hooper's fiancée"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Father Hooper at, first replied merely by a feeble motion of his head; then, apprehensive, perhaps, that his meaning might be doubtful, he _____ himself to speak.”",
+      "wordBank": [
+       "exerted",
+       "scrupled",
+       "neatness",
+       "mildness"
+      ],
+      "answer": "exerted",
+      "accept": [
+       "exerted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Finally, the deputies returned abashed to their constituents, pronouncing the matter too weighty to be handled, except by a council of the churches, if, indeed, it might not require a general synod.”, what does “pronouncing” most nearly mean?",
+      "options": [
+       "hesitated because of a moral doubt",
+       "speak, pronounce, or utter in a certain way",
+       "tidiness and order",
+       "gentleness"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "Accepting one's place in nature's cycle",
+       "The mind's final escape at the moment of death",
+       "Racial pride destroying love",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Foreshadowing",
+       "Personification",
+       "Conflict",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Theme",
+       "Personification",
+       "Allusion",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His accusation.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "hesitated because of a moral doubt"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "around"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "exerted"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "speak, pronounce, or utter in a certain way"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His accusation."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "scrupled",
+       "neatness",
+       "mildness",
+       "symptom"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Hooper's mildness did not forsake him.”, what does “mildness” most nearly mean?",
+      "options": [
+       "gentleness",
+       "hesitated because of a moral doubt",
+       "tidiness and order",
+       "speak, pronounce, or utter in a certain way"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens at the young lady's funeral?",
+      "options": [
+       "The veil falls off",
+       "Hooper weeps",
+       "The church burns",
+       "Some fancy the corpse shudders as Hooper bends over it"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Hooper, a gentlemanly person of about thirty, though still a bachelor, was dressed with due clerical neatness, as if a careful wife had starched his band, and brushed the weekly dust from his Sunday's garb.”, what does “neatness” most nearly mean?",
+      "options": [
+       "speak, pronounce, or utter in a certain way",
+       "hesitated because of a moral doubt",
+       "gentleness",
+       "tidiness and order"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "His sister",
+       "The sexton's wife",
+       "A widow in the congregation",
+       "Hooper's fiancée"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A black robe only",
+       "A mask",
+       "A black veil over his face",
+       "A hood"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He seemed not fully to partake of the _____ wonder, till Mr.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "prevailing",
+       "mildness"
+      ],
+      "answer": "prevailing",
+      "accept": [
+       "prevailing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "Accepting one's place in nature's cycle",
+       "The mind's final escape at the moment of death",
+       "Racial pride destroying love",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Foreshadowing",
+       "Personification",
+       "Conflict",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Theme",
+       "Personification",
+       "Allusion",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His accusation.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "gentleness"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Some fancy the corpse shudders as Hooper bends over it"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "tidiness and order"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "prevailing"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His accusation."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "His sister",
+       "The sexton's wife",
+       "A widow in the congregation",
+       "Hooper's fiancée"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens at the young lady's funeral?",
+      "options": [
+       "The veil falls off",
+       "Hooper weeps",
+       "The church burns",
+       "Some fancy the corpse shudders as Hooper bends over it"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Father Hooper at, first replied merely by a feeble motion of his head; then, apprehensive, perhaps, that his meaning might be doubtful, he _____ himself to speak.”",
+      "wordBank": [
+       "exerted",
+       "scrupled",
+       "neatness",
+       "mildness"
+      ],
+      "answer": "exerted",
+      "accept": [
+       "exerted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Hooper's mildness did not forsake him.”, what does “mildness” most nearly mean?",
+      "options": [
+       "gentleness",
+       "hesitated because of a moral doubt",
+       "tidiness and order",
+       "speak, pronounce, or utter in a certain way"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "scrupled",
+       "neatness",
+       "mildness",
+       "symptom"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Finally, the deputies returned abashed to their constituents, pronouncing the matter too weighty to be handled, except by a council of the churches, if, indeed, it might not require a general synod.”, what does “pronouncing” most nearly mean?",
+      "options": [
+       "hesitated because of a moral doubt",
+       "speak, pronounce, or utter in a certain way",
+       "tidiness and order",
+       "gentleness"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "Accepting one's place in nature's cycle",
+       "The mind's final escape at the moment of death",
+       "Racial pride destroying love",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Theme",
+       "Personification",
+       "Allusion",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Foreshadowing",
+       "Personification",
+       "Conflict",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His accusation.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Some fancy the corpse shudders as Hooper bends over it"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "exerted"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "gentleness"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "speak, pronounce, or utter in a certain way"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His accusation."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “A person, who watched the interview between the dead and living, scrupled not to affirm, that, at the instant when the clergyman's features were disclosed, the corpse had slightly shuddered, rustling the shroud and…”, what does “scrupled” most nearly mean?",
+      "options": [
+       "hesitated because of a moral doubt",
+       "gentleness",
+       "speak, pronounce, or utter in a certain way",
+       "tidiness and order"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A black robe only",
+       "A mask",
+       "A black veil over his face",
+       "A hood"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “I look _____ me, and, lo! on every visage a Black Veil”",
+      "answer": "around",
+      "accept": [
+       "around",
+       "around"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For some time previous, his mind had been confused, _____ doubtfully between the past and the present, and hovering forward, as it were, at intervals, into the indistinctness of the world to come.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "wavering",
+       "mildness"
+      ],
+      "answer": "wavering",
+      "accept": [
+       "wavering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Finally, the deputies returned abashed to their constituents, pronouncing the matter too weighty to be handled, except by a council of the churches, if, indeed, it might not require a general synod.”, what does “pronouncing” most nearly mean?",
+      "options": [
+       "hesitated because of a moral doubt",
+       "speak, pronounce, or utter in a certain way",
+       "tidiness and order",
+       "gentleness"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "His sister",
+       "The sexton's wife",
+       "A widow in the congregation",
+       "Hooper's fiancée"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He seemed not fully to partake of the _____ wonder, till Mr.”",
+      "wordBank": [
+       "neatness",
+       "scrupled",
+       "prevailing",
+       "mildness"
+      ],
+      "answer": "prevailing",
+      "accept": [
+       "prevailing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "Accepting one's place in nature's cycle",
+       "The mind's final escape at the moment of death",
+       "Racial pride destroying love",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Foreshadowing",
+       "Personification",
+       "Conflict",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Theme",
+       "Personification",
+       "Allusion",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His accusation.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "hesitated because of a moral doubt"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "around"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wavering"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "speak, pronounce, or utter in a certain way"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "prevailing"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His accusation."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Father Hooper at, first replied merely by a feeble motion of his head; then, apprehensive, perhaps, that his meaning might be doubtful, he _____ himself to speak.”",
+      "wordBank": [
+       "exerted",
+       "scrupled",
+       "neatness",
+       "mildness"
+      ],
+      "answer": "exerted",
+      "accept": [
+       "exerted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Finally, the deputies returned abashed to their constituents, pronouncing the matter too weighty to be handled, except by a council of the churches, if, indeed, it might not require a general synod.”, what does “pronouncing” most nearly mean?",
+      "options": [
+       "hesitated because of a moral doubt",
+       "speak, pronounce, or utter in a certain way",
+       "tidiness and order",
+       "gentleness"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A black robe only",
+       "A mask",
+       "A black veil over his face",
+       "A hood"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "His sister",
+       "The sexton's wife",
+       "A widow in the congregation",
+       "Hooper's fiancée"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For a few moments she appeared lost in thought, considering, probably, what new methods might be tried, to withdraw her lover from so dark a fantasy, which, if it had no other meaning, was perhaps a _____ of mental disease.”",
+      "wordBank": [
+       "scrupled",
+       "neatness",
+       "mildness",
+       "symptom"
+      ],
+      "answer": "symptom",
+      "accept": [
+       "symptom"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Hooper, a gentlemanly person of about thirty, though still a bachelor, was dressed with due clerical neatness, as if a careful wife had starched his band, and brushed the weekly dust from his Sunday's garb.”, what does “neatness” most nearly mean?",
+      "options": [
+       "speak, pronounce, or utter in a certain way",
+       "hesitated because of a moral doubt",
+       "gentleness",
+       "tidiness and order"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Hooper's mildness did not forsake him.”, what does “mildness” most nearly mean?",
+      "options": [
+       "gentleness",
+       "hesitated because of a moral doubt",
+       "tidiness and order",
+       "speak, pronounce, or utter in a certain way"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "Accepting one's place in nature's cycle",
+       "The mind's final escape at the moment of death",
+       "Racial pride destroying love",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Foreshadowing",
+       "Personification",
+       "Conflict",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Theme",
+       "Personification",
+       "Allusion",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His accusation.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "exerted"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "speak, pronounce, or utter in a certain way"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "symptom"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "tidiness and order"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "gentleness"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His accusation."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “Why do you _____ at me alone”",
+      "answer": "tremble",
+      "accept": [
+       "tremble",
+       "tremble"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Mr. Hooper wear?",
+      "options": [
+       "A black robe only",
+       "A mask",
+       "A black veil over his face",
+       "A hood"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Hooper say on his deathbed?",
+      "options": [
+       "He confesses a crime",
+       "He thanks Elizabeth",
+       "He sees a black veil on every face",
+       "He asks to be unveiled"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Elizabeth?",
+      "options": [
+       "His sister",
+       "The sexton's wife",
+       "A widow in the congregation",
+       "Hooper's fiancée"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What effect does the veil have on his ministry?",
+      "options": [
+       "He becomes cheerful",
+       "He leaves town",
+       "He becomes powerful with sinners but feared",
+       "He loses his job"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Minister's Black Veil, paragraph 58: “I look _____ me, and, lo! on every visage a Black Veil”",
+      "answer": "around",
+      "accept": [
+       "around",
+       "around"
+      ],
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Hooper, a gentlemanly person of about thirty, though still a bachelor, was dressed with due clerical neatness, as if a careful wife had starched his band, and brushed the weekly dust from his Sunday's garb.”, what does “neatness” most nearly mean?",
+      "options": [
+       "speak, pronounce, or utter in a certain way",
+       "hesitated because of a moral doubt",
+       "gentleness",
+       "tidiness and order"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His last words begin.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) Answer in two or three sentences with one detail.",
+      "expected": "His accusation.",
+      "element": "characterization",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Minister's Black Veil”?",
+      "options": [
+       "Accepting one's place in nature's cycle",
+       "The mind's final escape at the moment of death",
+       "Racial pride destroying love",
+       "A symbol of hidden sin that isolates its wearer"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “a very efficient clergyman” (The Minister's Black Veil, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The irony of his success.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Hooper's veil reveals more about the villagers than about him. Explain how this evidence supports the claim: “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58).",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? The veil is never explained; it may mean sin, sorrow, the barrier between people, or the barrier between humanity and God.",
+      "options": [
+       "Foreshadowing",
+       "Personification",
+       "Conflict",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Minister's Black Veil”? Hooper is gentle but immovable; Elizabeth is the only one who speaks to him directly.",
+      "options": [
+       "Theme",
+       "Personification",
+       "Allusion",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why do you tremble at me alone” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last words begin.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I look around me, and, lo! on every visage a Black Veil” (The Minister's Black Veil, paragraph 58) shape its meaning? Consider a second, competing reading.",
+      "expected": "His accusation.",
+      "element": "diction",
+      "location": "The Minister's Black Veil, paragraph 58",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how isolation develops from an earlier story to “The Minister's Black Veil”. Use one quotation from each.",
+      "expected": "the veil separates him from everyone, even himself (he avoids mirrors).",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Hooper's veil reveals more about the villagers than about him.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tremble"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A black veil over his face"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He sees a black veil on every face"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Hooper's fiancée"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He becomes powerful with sinners but feared"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "around"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "tidiness and order"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His accusation."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A symbol of hidden sin that isolates its wearer"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The irony of his success."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last words begin."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His accusation."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the veil separates him from everyone, even himself (he avoids mirrors)."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He asks the crowd \"Why do you tremble at me alone,\" and says \"on every visage a Black Veil,\" pointing out that their fear comes from their own hidden sins."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5432,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Minister's Black Veil teaches about secret sin. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Minister's Black Veil teaches about secret sin. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5653,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Minister's Black Veil teaches about isolation. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Minister's Black Veil teaches about isolation. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5874,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Minister's Black Veil teaches about symbol and meaning. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Minister's Black Veil teaches about symbol and meaning. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6074,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Minister's Black Veil: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Nathaniel Hawthorne develops secret sin across The Minister's Black Veil. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Minister's Black Veil and argue how its meaning changes over the story and why that change matters to isolation."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Minister's Black Veil. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Minister's Black Veil finally endorses or criticizes its society's view of symbol and meaning. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

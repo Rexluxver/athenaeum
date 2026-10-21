@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Masque of the Red Death unit",
   "author": "Edgar Allan Poe",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,11 +580,44 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Masque of the Red Death: whole-book test",
+  "title": "The Masque of the Red Death: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
+    "type": "mc",
+    "prompt": "What do the revelers find when they seize the stranger?",
+    "options": [
+     "He is a doctor",
+     "The mask and shroud are empty",
+     "He is the prince's brother",
+     "He is a thief"
+    ],
+    "answer": 1,
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
     "chapterIndex": 0,
+    "n": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "How many rooms are in the imperial suite?",
+    "options": [
+     "One",
+     "Seven",
+     "Twelve",
+     "Three"
+    ],
+    "answer": 1,
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 3
+   },
+   {
+    "type": "mc",
     "prompt": "What does Prince Prospero do when the plague strikes?",
     "options": [
      "He shuts himself and a thousand nobles in an abbey",
@@ -592,146 +626,98 @@
      "He nurses the sick"
     ],
     "answer": 0,
-    "element": "plot"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 5
    },
    {
-    "chapterIndex": 0,
-    "prompt": "How many rooms are in the imperial suite?",
-    "options": [
-     "Twelve",
-     "Seven",
-     "Three",
-     "One"
-    ],
-    "answer": 1,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What object in the black room makes the dancers pause each hour?",
-    "options": [
-     "A fountain",
-     "A bell tower",
-     "A gigantic ebony clock",
-     "An organ"
-    ],
-    "answer": 2,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "How is the mysterious guest disguised?",
     "options": [
-     "As a monk",
+     "As a corpse marked by the Red Death",
      "As the prince",
      "As a jester",
-     "As a corpse marked by the Red Death"
-    ],
-    "answer": 3,
-    "element": "imagery"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What do the revelers find when they seize the stranger?",
-    "options": [
-     "He is the prince's brother",
-     "The mask and shroud are empty",
-     "He is a thief",
-     "He is a doctor"
-    ],
-    "answer": 1,
-    "element": "irony"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “And one by one dropped the revellers in the blood-bedewed halls of their revel, and died each in the despairing posture of his fall.”, what does “bedewed” most nearly mean?",
-    "options": [
-     "wet with drops, as of dew or tears",
-     "dip a foot or hand briefly into a liquid",
-     "capture; being taken by force",
-     "conspicuously or grossly unconventional or unusual"
+     "As a monk"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "imagery",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “His vesture was dabbled in blood—and his broad brow, with all the features of the face, was besprinkled with the scarlet horror.”, what does “dabbled” most nearly mean?",
+    "type": "mc",
+    "prompt": "What object in the black room makes the dancers pause each hour?",
     "options": [
-     "conspicuously or grossly unconventional or unusual",
-     "dip a foot or hand briefly into a liquid",
-     "wet with drops, as of dew or tears",
-     "capture; being taken by force"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“And one by one dropped the revellers in the blood-bedewed halls of their revel, and died each in the despairing posture of his fall.”), what does “bedewed” mean?",
-    "options": [
-     "wet with drops, as of dew or tears",
-     "driving one wild",
-     "calmed",
-     "dip a foot or hand briefly into a liquid"
+     "A gigantic ebony clock",
+     "A fountain",
+     "A bell tower",
+     "An organ"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“His vesture was dabbled in blood—and his broad brow, with all the features of the face, was besprinkled with the scarlet horror.”), what does “dabbled” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
     "options": [
-     "produced or growing in extreme abundance",
-     "dip a foot or hand briefly into a liquid",
-     "a stopping",
-     "conspicuously or grossly unconventional or unusual"
+     "Hope created by an act of sacrifice",
+     "The futile attempt to shut out death",
+     "Reason defeating a hidden crime",
+     "The mind's final escape at the moment of death"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 12
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Here the case was very different; as might have been expected from the duke's love of the bizarre.”), what does “bizarre” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
     "options": [
-     "the act of winding or twisting",
-     "propriety in manners and conduct",
-     "conspicuously or grossly unconventional or unusual",
-     "capture; being taken by force"
+     "Metaphor",
+     "Allusion",
+     "Symbolism",
+     "Point of view"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“And the whole seizure, progress and termination of the disease, were the incidents of half an hour.”), what does “seizure” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
     "options": [
-     "calmed",
-     "wet with drops, as of dew or tears",
-     "driving one wild",
-     "capture; being taken by force"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“It was then, however, that the Prince Prospero, maddening with rage and the shame of his own momentary cowardice, rushed hurriedly through t”), what does “maddening” mean?",
-    "options": [
-     "driving one wild",
-     "a stopping",
-     "dip a foot or hand briefly into a liquid",
-     "produced or growing in extreme abundance"
+     "Setting",
+     "Diction / vocabulary",
+     "Simile",
+     "Point of view"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "setting",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "He shuts himself and a thousand nobles in an abbey",
-    "element": "plot"
+    "answer": "The mask and shroud are empty",
+    "element": "irony"
    },
    {
     "n": 2,
@@ -740,8 +726,8 @@
    },
    {
     "n": 3,
-    "answer": "A gigantic ebony clock",
-    "element": "symbolism"
+    "answer": "He shuts himself and a thousand nobles in an abbey",
+    "element": "plot"
    },
    {
     "n": 4,
@@ -750,51 +736,4688 @@
    },
    {
     "n": 5,
-    "answer": "The mask and shroud are empty",
-    "element": "irony"
+    "answer": "A gigantic ebony clock",
+    "element": "symbolism"
    },
    {
     "n": 6,
-    "answer": "wet with drops, as of dew or tears",
-    "element": "diction"
+    "answer": "The futile attempt to shut out death",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "dip a foot or hand briefly into a liquid",
-    "element": "diction"
+    "answer": "Symbolism",
+    "element": "symbolism"
    },
    {
     "n": 8,
-    "answer": "wet with drops, as of dew or tears",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "dip a foot or hand briefly into a liquid",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "conspicuously or grossly unconventional or unusual",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "capture; being taken by force",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "driving one wild",
-    "element": "diction"
+    "answer": "Setting",
+    "element": "setting"
    }
   ],
-  "shortAnswer": [
-   "Explain how the inevitability of death develops from the beginning of the story to the end. Use two passages.",
-   "Explain how privilege and isolation develops from the beginning of the story to the end. Use two passages.",
-   "Explain how time develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (the inevitability of death, privilege and isolation, time) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "bedewed",
+       "profuse",
+       "bizarre",
+       "dabbled"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How is the mysterious guest disguised?",
+      "options": [
+       "As a corpse marked by the Red Death",
+       "As the prince",
+       "As a jester",
+       "As a monk"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Prince Prospero do when the plague strikes?",
+      "options": [
+       "He shuts himself and a thousand nobles in an abbey",
+       "He burns the villages",
+       "He flees to another country",
+       "He nurses the sick"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "One",
+       "Seven",
+       "Twelve",
+       "Three"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 5: “the musicians of the orchestra were _____ to pause, momentarily, in their performance, to harken to the sound”",
+      "answer": "constrained",
+      "accept": [
+       "constrained",
+       "constrained"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was then, however, that the Prince Prospero, _____ with rage and the shame of his own momentary cowardice, rushed hurriedly through the six chambers, while none followed him on account of a deadly terror that had seized upon all.”",
+      "wordBank": [
+       "bizarre",
+       "dabbled",
+       "maddening",
+       "bedewed"
+      ],
+      "answer": "maddening",
+      "accept": [
+       "maddening"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “To the right and left, in the middle of each wall, a tall and narrow Gothic window looked out upon a closed corridor which pursued the _____ of the suite.”",
+      "wordBank": [
+       "bizarre",
+       "bedewed",
+       "windings",
+       "dabbled"
+      ],
+      "answer": "windings",
+      "accept": [
+       "windings"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 2: “The _____ world could take care of itself”",
+      "answer": "external",
+      "accept": [
+       "external",
+       "external"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “And then the music ceased, as I have told; and the evolutions of the waltzers were _____; and there was an uneasy cessation of all things as before.”",
+      "wordBank": [
+       "bedewed",
+       "quieted",
+       "dabbled",
+       "bizarre"
+      ],
+      "answer": "quieted",
+      "accept": [
+       "quieted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What object in the black room makes the dancers pause each hour?",
+      "options": [
+       "A gigantic ebony clock",
+       "A fountain",
+       "A bell tower",
+       "An organ"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the revelers find when they seize the stranger?",
+      "options": [
+       "He is a doctor",
+       "The mask and shroud are empty",
+       "He is the prince's brother",
+       "He is a thief"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "Hope created by an act of sacrifice",
+       "The futile attempt to shut out death",
+       "Reason defeating a hidden crime",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Setting",
+       "Diction / vocabulary",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As a corpse marked by the Red Death"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shuts himself and a thousand nobles in an abbey"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "constrained"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "maddening"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "windings"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "external"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "quieted"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A gigantic ebony clock"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The mask and shroud are empty"
+     },
+     {
+      "n": 12,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     }
+    ],
+    "mix": {
+     "recall": 12,
+     "inference": 3,
+     "analysis": 2,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 7,
+     "short": 4
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How is the mysterious guest disguised?",
+      "options": [
+       "As a corpse marked by the Red Death",
+       "As the prince",
+       "As a jester",
+       "As a monk"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Prince Prospero do when the plague strikes?",
+      "options": [
+       "He shuts himself and a thousand nobles in an abbey",
+       "He burns the villages",
+       "He flees to another country",
+       "He nurses the sick"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the revelers find when they seize the stranger?",
+      "options": [
+       "He is a doctor",
+       "The mask and shroud are empty",
+       "He is the prince's brother",
+       "He is a thief"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 2: “The _____ world could take care of itself”",
+      "answer": "external",
+      "accept": [
+       "external",
+       "external"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 5: “the musicians of the orchestra were _____ to pause, momentarily, in their performance, to harken to the sound”",
+      "answer": "constrained",
+      "accept": [
+       "constrained",
+       "constrained"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "One",
+       "Seven",
+       "Twelve",
+       "Three"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "bedewed",
+       "profuse",
+       "bizarre",
+       "dabbled"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What object in the black room makes the dancers pause each hour?",
+      "options": [
+       "A gigantic ebony clock",
+       "A fountain",
+       "A bell tower",
+       "An organ"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was then, however, that the Prince Prospero, _____ with rage and the shame of his own momentary cowardice, rushed hurriedly through the six chambers, while none followed him on account of a deadly terror that had seized upon all.”",
+      "wordBank": [
+       "bizarre",
+       "dabbled",
+       "maddening",
+       "bedewed"
+      ],
+      "answer": "maddening",
+      "accept": [
+       "maddening"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “And then the music ceased, as I have told; and the evolutions of the waltzers were _____; and there was an uneasy cessation of all things as before.”",
+      "wordBank": [
+       "bedewed",
+       "quieted",
+       "dabbled",
+       "bizarre"
+      ],
+      "answer": "quieted",
+      "accept": [
+       "quieted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "Hope created by an act of sacrifice",
+       "The futile attempt to shut out death",
+       "Reason defeating a hidden crime",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Setting",
+       "Diction / vocabulary",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Metaphor",
+       "Allusion",
+       "Symbolism",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As a corpse marked by the Red Death"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shuts himself and a thousand nobles in an abbey"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The mask and shroud are empty"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "external"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "constrained"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A gigantic ebony clock"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "maddening"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "quieted"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What do the revelers find when they seize the stranger?",
+      "options": [
+       "He is a doctor",
+       "The mask and shroud are empty",
+       "He is the prince's brother",
+       "He is a thief"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 2: “The _____ world could take care of itself”",
+      "answer": "external",
+      "accept": [
+       "external",
+       "external"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "One",
+       "Seven",
+       "Twelve",
+       "Three"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was then, however, that the Prince Prospero, _____ with rage and the shame of his own momentary cowardice, rushed hurriedly through the six chambers, while none followed him on account of a deadly terror that had seized upon all.”",
+      "wordBank": [
+       "bizarre",
+       "dabbled",
+       "maddening",
+       "bedewed"
+      ],
+      "answer": "maddening",
+      "accept": [
+       "maddening"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Prince Prospero do when the plague strikes?",
+      "options": [
+       "He shuts himself and a thousand nobles in an abbey",
+       "He burns the villages",
+       "He flees to another country",
+       "He nurses the sick"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How is the mysterious guest disguised?",
+      "options": [
+       "As a corpse marked by the Red Death",
+       "As the prince",
+       "As a jester",
+       "As a monk"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “To the right and left, in the middle of each wall, a tall and narrow Gothic window looked out upon a closed corridor which pursued the _____ of the suite.”",
+      "wordBank": [
+       "bizarre",
+       "bedewed",
+       "windings",
+       "dabbled"
+      ],
+      "answer": "windings",
+      "accept": [
+       "windings"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 5: “the musicians of the orchestra were _____ to pause, momentarily, in their performance, to harken to the sound”",
+      "answer": "constrained",
+      "accept": [
+       "constrained",
+       "constrained"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What object in the black room makes the dancers pause each hour?",
+      "options": [
+       "A gigantic ebony clock",
+       "A fountain",
+       "A bell tower",
+       "An organ"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "Hope created by an act of sacrifice",
+       "The futile attempt to shut out death",
+       "Reason defeating a hidden crime",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Metaphor",
+       "Allusion",
+       "Symbolism",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Setting",
+       "Diction / vocabulary",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The mask and shroud are empty"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "external"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "maddening"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shuts himself and a thousand nobles in an abbey"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As a corpse marked by the Red Death"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "windings"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "constrained"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A gigantic ebony clock"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Prince Prospero do when the plague strikes?",
+      "options": [
+       "He shuts himself and a thousand nobles in an abbey",
+       "He burns the villages",
+       "He flees to another country",
+       "He nurses the sick"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “To the right and left, in the middle of each wall, a tall and narrow Gothic window looked out upon a closed corridor which pursued the _____ of the suite.”",
+      "wordBank": [
+       "bizarre",
+       "bedewed",
+       "windings",
+       "dabbled"
+      ],
+      "answer": "windings",
+      "accept": [
+       "windings"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 2: “The _____ world could take care of itself”",
+      "answer": "external",
+      "accept": [
+       "external",
+       "external"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What object in the black room makes the dancers pause each hour?",
+      "options": [
+       "A gigantic ebony clock",
+       "A fountain",
+       "A bell tower",
+       "An organ"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was then, however, that the Prince Prospero, _____ with rage and the shame of his own momentary cowardice, rushed hurriedly through the six chambers, while none followed him on account of a deadly terror that had seized upon all.”",
+      "wordBank": [
+       "bizarre",
+       "dabbled",
+       "maddening",
+       "bedewed"
+      ],
+      "answer": "maddening",
+      "accept": [
+       "maddening"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How is the mysterious guest disguised?",
+      "options": [
+       "As a corpse marked by the Red Death",
+       "As the prince",
+       "As a jester",
+       "As a monk"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 5: “the musicians of the orchestra were _____ to pause, momentarily, in their performance, to harken to the sound”",
+      "answer": "constrained",
+      "accept": [
+       "constrained",
+       "constrained"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "bedewed",
+       "profuse",
+       "bizarre",
+       "dabbled"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "One",
+       "Seven",
+       "Twelve",
+       "Three"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "Hope created by an act of sacrifice",
+       "The futile attempt to shut out death",
+       "Reason defeating a hidden crime",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Metaphor",
+       "Allusion",
+       "Symbolism",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Setting",
+       "Diction / vocabulary",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shuts himself and a thousand nobles in an abbey"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "windings"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "external"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A gigantic ebony clock"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "maddening"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As a corpse marked by the Red Death"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "constrained"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "bedewed",
+       "profuse",
+       "bizarre",
+       "dabbled"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What object in the black room makes the dancers pause each hour?",
+      "options": [
+       "A gigantic ebony clock",
+       "A fountain",
+       "A bell tower",
+       "An organ"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 2: “The _____ world could take care of itself”",
+      "answer": "external",
+      "accept": [
+       "external",
+       "external"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the revelers find when they seize the stranger?",
+      "options": [
+       "He is a doctor",
+       "The mask and shroud are empty",
+       "He is the prince's brother",
+       "He is a thief"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How is the mysterious guest disguised?",
+      "options": [
+       "As a corpse marked by the Red Death",
+       "As the prince",
+       "As a jester",
+       "As a monk"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “And then the music ceased, as I have told; and the evolutions of the waltzers were _____; and there was an uneasy cessation of all things as before.”",
+      "wordBank": [
+       "bedewed",
+       "quieted",
+       "dabbled",
+       "bizarre"
+      ],
+      "answer": "quieted",
+      "accept": [
+       "quieted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “To the right and left, in the middle of each wall, a tall and narrow Gothic window looked out upon a closed corridor which pursued the _____ of the suite.”",
+      "wordBank": [
+       "bizarre",
+       "bedewed",
+       "windings",
+       "dabbled"
+      ],
+      "answer": "windings",
+      "accept": [
+       "windings"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "One",
+       "Seven",
+       "Twelve",
+       "Three"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "Hope created by an act of sacrifice",
+       "The futile attempt to shut out death",
+       "Reason defeating a hidden crime",
+       "The mind's final escape at the moment of death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Setting",
+       "Diction / vocabulary",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Metaphor",
+       "Allusion",
+       "Symbolism",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A gigantic ebony clock"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "external"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The mask and shroud are empty"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As a corpse marked by the Red Death"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "quieted"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "windings"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “To the right and left, in the middle of each wall, a tall and narrow Gothic window looked out upon a closed corridor which pursued the _____ of the suite.”",
+      "wordBank": [
+       "bedewed",
+       "bizarre",
+       "windings",
+       "dabbled"
+      ],
+      "answer": "windings",
+      "accept": [
+       "windings"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Here the case was very different; as might have been expected from the duke's love of the bizarre.”, what does “bizarre” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "conspicuously or grossly unconventional or unusual",
+       "capture; being taken by force",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "dabbled",
+       "profuse",
+       "bizarre",
+       "bedewed"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And one by one dropped the revellers in the blood-bedewed halls of their revel, and died each in the despairing posture of his fall.”, what does “bedewed” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "capture; being taken by force",
+       "conspicuously or grossly unconventional or unusual",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "Seven",
+       "Three",
+       "One",
+       "Twelve"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was then, however, that the Prince Prospero, _____ with rage and the shame of his own momentary cowardice, rushed hurriedly through the six chambers, while none followed him on account of a deadly terror that had seized upon all.”",
+      "wordBank": [
+       "bedewed",
+       "dabbled",
+       "maddening",
+       "bizarre"
+      ],
+      "answer": "maddening",
+      "accept": [
+       "maddening"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What object in the black room makes the dancers pause each hour?",
+      "options": [
+       "A bell tower",
+       "A gigantic ebony clock",
+       "An organ",
+       "A fountain"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "A symbol of hidden sin that isolates its wearer",
+       "The art of the deadpan tall tale",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Alliteration",
+       "Characterization",
+       "Symbolism",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Theme",
+       "Metaphor",
+       "Personification",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "windings"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "conspicuously or grossly unconventional or unusual"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wet with drops, as of dew or tears"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "maddening"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A gigantic ebony clock"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “His vesture was dabbled in blood—and his broad brow, with all the features of the face, was besprinkled with the scarlet horror.”, what does “dabbled” most nearly mean?",
+      "options": [
+       "capture; being taken by force",
+       "conspicuously or grossly unconventional or unusual",
+       "dip a foot or hand briefly into a liquid",
+       "wet with drops, as of dew or tears"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Prince Prospero do when the plague strikes?",
+      "options": [
+       "He flees to another country",
+       "He nurses the sick",
+       "He burns the villages",
+       "He shuts himself and a thousand nobles in an abbey"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What object in the black room makes the dancers pause each hour?",
+      "options": [
+       "A bell tower",
+       "A gigantic ebony clock",
+       "An organ",
+       "A fountain"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the revelers find when they seize the stranger?",
+      "options": [
+       "He is a thief",
+       "He is a doctor",
+       "The mask and shroud are empty",
+       "He is the prince's brother"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “To the right and left, in the middle of each wall, a tall and narrow Gothic window looked out upon a closed corridor which pursued the _____ of the suite.”",
+      "wordBank": [
+       "bedewed",
+       "bizarre",
+       "windings",
+       "dabbled"
+      ],
+      "answer": "windings",
+      "accept": [
+       "windings"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “And then the music ceased, as I have told; and the evolutions of the waltzers were _____; and there was an uneasy cessation of all things as before.”",
+      "wordBank": [
+       "quieted",
+       "bedewed",
+       "bizarre",
+       "dabbled"
+      ],
+      "answer": "quieted",
+      "accept": [
+       "quieted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "A symbol of hidden sin that isolates its wearer",
+       "The art of the deadpan tall tale",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Theme",
+       "Metaphor",
+       "Personification",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Alliteration",
+       "Characterization",
+       "Symbolism",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "dip a foot or hand briefly into a liquid"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shuts himself and a thousand nobles in an abbey"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A gigantic ebony clock"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The mask and shroud are empty"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "windings"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "quieted"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “Here the case was very different; as might have been expected from the duke's love of the bizarre.”, what does “bizarre” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "conspicuously or grossly unconventional or unusual",
+       "capture; being taken by force",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "dabbled",
+       "profuse",
+       "bizarre",
+       "bedewed"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And one by one dropped the revellers in the blood-bedewed halls of their revel, and died each in the despairing posture of his fall.”, what does “bedewed” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "capture; being taken by force",
+       "conspicuously or grossly unconventional or unusual",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How is the mysterious guest disguised?",
+      "options": [
+       "As a jester",
+       "As a corpse marked by the Red Death",
+       "As the prince",
+       "As a monk"
+      ],
+      "answer": 1,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was then, however, that the Prince Prospero, _____ with rage and the shame of his own momentary cowardice, rushed hurriedly through the six chambers, while none followed him on account of a deadly terror that had seized upon all.”",
+      "wordBank": [
+       "bedewed",
+       "dabbled",
+       "maddening",
+       "bizarre"
+      ],
+      "answer": "maddening",
+      "accept": [
+       "maddening"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And the whole seizure, progress and termination of the disease, were the incidents of half an hour.”, what does “seizure” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "conspicuously or grossly unconventional or unusual",
+       "capture; being taken by force",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "A symbol of hidden sin that isolates its wearer",
+       "The art of the deadpan tall tale",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Theme",
+       "Metaphor",
+       "Personification",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Alliteration",
+       "Characterization",
+       "Symbolism",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "conspicuously or grossly unconventional or unusual"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wet with drops, as of dew or tears"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "As a corpse marked by the Red Death"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "maddening"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "capture; being taken by force"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “Here the case was very different; as might have been expected from the duke's love of the bizarre.”, what does “bizarre” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "conspicuously or grossly unconventional or unusual",
+       "capture; being taken by force",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the revelers find when they seize the stranger?",
+      "options": [
+       "He is a thief",
+       "He is a doctor",
+       "The mask and shroud are empty",
+       "He is the prince's brother"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "Seven",
+       "Three",
+       "One",
+       "Twelve"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "dabbled",
+       "profuse",
+       "bizarre",
+       "bedewed"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “His vesture was dabbled in blood—and his broad brow, with all the features of the face, was besprinkled with the scarlet horror.”, what does “dabbled” most nearly mean?",
+      "options": [
+       "capture; being taken by force",
+       "conspicuously or grossly unconventional or unusual",
+       "dip a foot or hand briefly into a liquid",
+       "wet with drops, as of dew or tears"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Prince Prospero do when the plague strikes?",
+      "options": [
+       "He flees to another country",
+       "He nurses the sick",
+       "He burns the villages",
+       "He shuts himself and a thousand nobles in an abbey"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "A symbol of hidden sin that isolates its wearer",
+       "The art of the deadpan tall tale",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Theme",
+       "Metaphor",
+       "Personification",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Alliteration",
+       "Characterization",
+       "Symbolism",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "conspicuously or grossly unconventional or unusual"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The mask and shroud are empty"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "dip a foot or hand briefly into a liquid"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shuts himself and a thousand nobles in an abbey"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “And then the music ceased, as I have told; and the evolutions of the waltzers were _____; and there was an uneasy cessation of all things as before.”",
+      "wordBank": [
+       "quieted",
+       "bedewed",
+       "bizarre",
+       "dabbled"
+      ],
+      "answer": "quieted",
+      "accept": [
+       "quieted"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And the whole seizure, progress and termination of the disease, were the incidents of half an hour.”, what does “seizure” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "conspicuously or grossly unconventional or unusual",
+       "capture; being taken by force",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the revelers find when they seize the stranger?",
+      "options": [
+       "He is a thief",
+       "He is a doctor",
+       "The mask and shroud are empty",
+       "He is the prince's brother"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "dabbled",
+       "profuse",
+       "bizarre",
+       "bedewed"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And one by one dropped the revellers in the blood-bedewed halls of their revel, and died each in the despairing posture of his fall.”, what does “bedewed” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "capture; being taken by force",
+       "conspicuously or grossly unconventional or unusual",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 5: “the musicians of the orchestra were _____ to pause, momentarily, in their performance, to harken to the sound”",
+      "answer": "constrained",
+      "accept": [
+       "constrained",
+       "constrained"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "A symbol of hidden sin that isolates its wearer",
+       "The art of the deadpan tall tale",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Theme",
+       "Metaphor",
+       "Personification",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Alliteration",
+       "Characterization",
+       "Symbolism",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "quieted"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "capture; being taken by force"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The mask and shroud are empty"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wet with drops, as of dew or tears"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "constrained"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Prince Prospero do when the plague strikes?",
+      "options": [
+       "He flees to another country",
+       "He nurses the sick",
+       "He burns the villages",
+       "He shuts himself and a thousand nobles in an abbey"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 5: “the musicians of the orchestra were _____ to pause, momentarily, in their performance, to harken to the sound”",
+      "answer": "constrained",
+      "accept": [
+       "constrained",
+       "constrained"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And one by one dropped the revellers in the blood-bedewed halls of their revel, and died each in the despairing posture of his fall.”, what does “bedewed” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "capture; being taken by force",
+       "conspicuously or grossly unconventional or unusual",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How many rooms are in the imperial suite?",
+      "options": [
+       "Seven",
+       "Three",
+       "One",
+       "Twelve"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “There were sharp pains, and sudden dizziness, and then _____ bleeding at the pores, with dissolution.”",
+      "wordBank": [
+       "dabbled",
+       "profuse",
+       "bizarre",
+       "bedewed"
+      ],
+      "answer": "profuse",
+      "accept": [
+       "profuse"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Here the case was very different; as might have been expected from the duke's love of the bizarre.”, what does “bizarre” most nearly mean?",
+      "options": [
+       "wet with drops, as of dew or tears",
+       "conspicuously or grossly unconventional or unusual",
+       "capture; being taken by force",
+       "dip a foot or hand briefly into a liquid"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Masque of the Red Death, paragraph 14: “And Darkness and Decay and the Red Death held _____ dominion over all”",
+      "answer": "illimitable",
+      "accept": [
+       "illimitable",
+       "illimitable"
+      ],
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) Answer in two or three sentences with one detail.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Masque of the Red Death”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "A symbol of hidden sin that isolates its wearer",
+       "The art of the deadpan tall tale",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Prospero's indifference.",
+      "element": "characterization",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The story's setting and symbols show that wealth cannot protect anyone from death. Explain how this evidence supports the claim: “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14).",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? Seven rooms running east to west (blue to black) are often read as the stages of life; the last, black with blood-red windows, contains the clock.",
+      "options": [
+       "Theme",
+       "Metaphor",
+       "Personification",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the musicians of the orchestra were constrained to pause, momentarily, in their performance, to harken to the sound” (The Masque of the Red Death, paragraph 5). Pick two words and explain what they suggest.",
+      "expected": "The clock's power.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 5",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Masque of the Red Death”? The sealed abbey with welded gates is a world of artificial pleasure built to deny death.",
+      "options": [
+       "Alliteration",
+       "Characterization",
+       "Symbolism",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how privilege and isolation develops from an earlier story to “The Masque of the Red Death”. Use one quotation from each.",
+      "expected": "Prospero's withdrawal is selfish and doomed.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “And Darkness and Decay and the Red Death held illimitable dominion over all” (The Masque of the Red Death, paragraph 14) shape its meaning? Consider a second, competing reading.",
+      "expected": "The final sentence: personified triumph.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 14",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The story's setting and symbols show that wealth cannot protect anyone from death.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The external world could take care of itself” (The Masque of the Red Death, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Prospero's indifference.",
+      "element": "diction",
+      "location": "The Masque of the Red Death, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shuts himself and a thousand nobles in an abbey"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "constrained"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wet with drops, as of dew or tears"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Seven"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "profuse"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "conspicuously or grossly unconventional or unusual"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "illimitable"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The futile attempt to shut out death"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Prospero's indifference."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The clock's power."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's withdrawal is selfish and doomed."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The final sentence: personified triumph."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero declares that \"the external world could take care of itself,\" but the clock forces even his musicians \"to pause ... to harken to the sound,\" and the final sentence gives \"the Red Death\" \"illimitable dominion over all.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Prospero's indifference."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5441,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Masque of the Red Death teaches about the inevitability of death. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Masque of the Red Death teaches about the inevitability of death. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5662,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Masque of the Red Death teaches about privilege and isolation. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Masque of the Red Death teaches about privilege and isolation. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5883,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Masque of the Red Death teaches about time. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Masque of the Red Death teaches about time. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6083,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Masque of the Red Death: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Edgar Allan Poe develops the inevitability of death across The Masque of the Red Death. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Masque of the Red Death and argue how its meaning changes over the story and why that change matters to privilege and isolation."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Masque of the Red Death. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Masque of the Red Death finally endorses or criticizes its society's view of time. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

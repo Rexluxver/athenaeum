@@ -202,9 +202,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "Bartleby, the Scrivener unit",
   "author": "Herman Melville",
@@ -572,7 +573,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -583,169 +584,154 @@
   }
  ],
  "wholeBookTest": {
-  "title": "Bartleby, the Scrivener: whole-book test",
+  "title": "Bartleby, the Scrivener: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "What is the narrator's profession?",
-    "options": [
-     "A Wall Street lawyer",
-     "A doctor",
-     "A banker",
-     "A judge"
-    ],
-    "answer": 0,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What is Bartleby's job?",
     "options": [
-     "Accountant",
      "Clerk in a shop",
      "Scrivener, or copyist",
+     "Accountant",
      "Messenger"
     ],
-    "answer": 2,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What is Bartleby's famous reply?",
-    "options": [
-     "Not today",
-     "I would prefer not to",
-     "Leave me alone",
-     "I cannot"
-    ],
     "answer": 1,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
-    "chapterIndex": 0,
-    "prompt": "What does the narrator finally do?",
+    "type": "mc",
+    "prompt": "What is the narrator's profession?",
     "options": [
-     "Moves his offices away",
-     "Fires everyone",
-     "Calls the police at once",
-     "Pays Bartleby to leave"
+     "A doctor",
+     "A banker",
+     "A Wall Street lawyer",
+     "A judge"
     ],
-    "answer": 0,
-    "element": "plot"
+    "answer": 2,
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Where had Bartleby worked before, according to rumor?",
     "options": [
      "A bank",
      "A ship",
-     "The Dead Letter Office",
-     "A prison"
-    ],
-    "answer": 2,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “Owing to the great height of the surrounding buildings, and my chambers being on the second floor, the interval between this wall and mine not a little resembled a huge square cistern.”, what does “cistern” most nearly mean?",
-    "options": [
-     "pushed forward unwelcome",
-     "in a kind, well-meaning way",
-     "wild, impossible dreams or fantasies",
-     "a tank for storing water"
+     "A prison",
+     "The Dead Letter Office"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “At any rate, upon the occasion in question, I strove to drown my exasperated feelings towards the scrivener by benevolently construing his conduct.”, what does “benevolently” most nearly mean?",
+    "type": "mc",
+    "prompt": "What does the narrator finally do?",
     "options": [
-     "a tank for storing water",
-     "pushed forward unwelcome",
-     "in a kind, well-meaning way",
-     "wild, impossible dreams or fantasies"
+     "Fires everyone",
+     "Pays Bartleby to leave",
+     "Calls the police at once",
+     "Moves his offices away"
     ],
-    "answer": 2,
-    "element": "diction"
+    "answer": 3,
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Owing to the great height of the surrounding buildings, and my chambers being on the second floor, the interval between this wall and mine n”), what does “cistern” mean?",
+    "type": "mc",
+    "prompt": "What is Bartleby's famous reply?",
     "options": [
-     "a tank for storing water",
-     "a prayer asking God's help as part of a religious service",
-     "to increase",
-     "in a kind, well-meaning way"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“At any rate, upon the occasion in question, I strove to drown my exasperated feelings towards the scrivener by benevolently construing his c”), what does “benevolently” mean?",
-    "options": [
-     "never seen before; unequaled",
-     "in a kind, well-meaning way",
-     "guesses",
-     "wild, impossible dreams or fantasies"
+     "I cannot",
+     "I would prefer not to",
+     "Leave me alone",
+     "Not today"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "diction",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“These sad fancyings—chimeras, doubtless, of a sick and silly brain—led on to other and more special thoughts, concerning the eccentricities ”), what does “chimeras” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
     "options": [
-     "the ritual placing of a corpse in a grave",
-     "not having enough money to pay for necessities",
-     "wild, impossible dreams or fantasies",
-     "pushed forward unwelcome"
+     "Endurance turning to justice",
+     "The futile attempt to shut out death",
+     "Refusal as a mystery the narrator cannot solve",
+     "Science that poisons love"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 13
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“I believe that this wise and blessed frame of mind would have continued with me, had it not been for the unsolicited and uncharitable remark”), what does “obtruded” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
     "options": [
-     "to increase",
-     "a tank for storing water",
-     "a prayer asking God's help as part of a religious service",
-     "pushed forward unwelcome"
+     "Diction / vocabulary",
+     "Setting",
+     "Personification",
+     "Structure"
     ],
-    "answer": 3,
-    "element": "diction"
+    "answer": 1,
+    "element": "setting",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Like a very ghost, agreeably to the laws of magical invocation, at the”), what does “invocation” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
     "options": [
-     "a prayer asking God's help as part of a religious service",
-     "guesses",
-     "in a kind, well-meaning way",
-     "never seen before; unequaled"
+     "Metaphor",
+     "Symbolism",
+     "Narrator",
+     "Point of view"
     ],
-    "answer": 0,
-    "element": "diction"
+    "answer": 2,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "A Wall Street lawyer",
-    "element": "characterization"
-   },
-   {
-    "n": 2,
     "answer": "Scrivener, or copyist",
     "element": "plot"
    },
    {
+    "n": 2,
+    "answer": "A Wall Street lawyer",
+    "element": "characterization"
+   },
+   {
     "n": 3,
-    "answer": "I would prefer not to",
-    "element": "diction"
+    "answer": "The Dead Letter Office",
+    "element": "symbolism"
    },
    {
     "n": 4,
@@ -754,51 +740,4720 @@
    },
    {
     "n": 5,
-    "answer": "The Dead Letter Office",
-    "element": "symbolism"
+    "answer": "I would prefer not to",
+    "element": "diction"
    },
    {
     "n": 6,
-    "answer": "a tank for storing water",
-    "element": "diction"
+    "answer": "Refusal as a mystery the narrator cannot solve",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "in a kind, well-meaning way",
-    "element": "diction"
+    "answer": "Setting",
+    "element": "setting"
    },
    {
     "n": 8,
-    "answer": "a tank for storing water",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "in a kind, well-meaning way",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "wild, impossible dreams or fantasies",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "pushed forward unwelcome",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "a prayer asking God's help as part of a religious service",
-    "element": "diction"
+    "answer": "Narrator",
+    "element": "structure"
    }
   ],
-  "shortAnswer": [
-   "Explain how passive resistance develops from the beginning of the story to the end. Use two passages.",
-   "Explain how alienation in modern work develops from the beginning of the story to the end. Use two passages.",
-   "Explain how charity and responsibility develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (passive resistance, alienation in modern work, charity and responsibility) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does the narrator finally do?",
+      "options": [
+       "Fires everyone",
+       "Pays Bartleby to leave",
+       "Calls the police at once",
+       "Moves his offices away"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Scrivener, or copyist",
+       "Accountant",
+       "Messenger"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "chimeras",
+       "cistern",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Bartleby, the Scrivener, paragraph 485: “Dead _____! does it not sound like dead men”",
+      "answer": "letters",
+      "accept": [
+       "letters",
+       "letters"
+      ],
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A banker",
+       "A Wall Street lawyer",
+       "A judge"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Conceive a man by nature and misfortune prone to a pallid hopelessness, can any business seem more fitted to _____ it than that of continually handling these dead letters, and assorting them for the flames?”",
+      "wordBank": [
+       "cistern",
+       "heighten",
+       "benevolently",
+       "chimeras"
+      ],
+      "answer": "heighten",
+      "accept": [
+       "heighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "chimeras",
+       "invocation"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's famous reply?",
+      "options": [
+       "I cannot",
+       "I would prefer not to",
+       "Leave me alone",
+       "Not today"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A ship",
+       "A prison",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Imagination will readily supply the meager recital of poor Bartleby's _____.”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "interment",
+       "chimeras"
+      ],
+      "answer": "interment",
+      "accept": [
+       "interment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Endurance turning to justice",
+       "The futile attempt to shut out death",
+       "Refusal as a mystery the narrator cannot solve",
+       "Science that poisons love"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Metaphor",
+       "Symbolism",
+       "Narrator",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Diction / vocabulary",
+       "Setting",
+       "Personification",
+       "Structure"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Moves his offices away"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "letters"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "heighten"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "I would prefer not to"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interment"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Bartleby, the Scrivener, paragraph 485: “Dead _____! does it not sound like dead men”",
+      "answer": "letters",
+      "accept": [
+       "letters",
+       "letters"
+      ],
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Imagination will readily supply the meager recital of poor Bartleby's _____.”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "interment",
+       "chimeras"
+      ],
+      "answer": "interment",
+      "accept": [
+       "interment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "chimeras",
+       "cistern",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Conceive a man by nature and misfortune prone to a pallid hopelessness, can any business seem more fitted to _____ it than that of continually handling these dead letters, and assorting them for the flames?”",
+      "wordBank": [
+       "cistern",
+       "heighten",
+       "benevolently",
+       "chimeras"
+      ],
+      "answer": "heighten",
+      "accept": [
+       "heighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A banker",
+       "A Wall Street lawyer",
+       "A judge"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "chimeras",
+       "invocation"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's famous reply?",
+      "options": [
+       "I cannot",
+       "I would prefer not to",
+       "Leave me alone",
+       "Not today"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the narrator finally do?",
+      "options": [
+       "Fires everyone",
+       "Pays Bartleby to leave",
+       "Calls the police at once",
+       "Moves his offices away"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A ship",
+       "A prison",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Scrivener, or copyist",
+       "Accountant",
+       "Messenger"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Endurance turning to justice",
+       "The futile attempt to shut out death",
+       "Refusal as a mystery the narrator cannot solve",
+       "Science that poisons love"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Metaphor",
+       "Symbolism",
+       "Narrator",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Diction / vocabulary",
+       "Setting",
+       "Personification",
+       "Structure"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "letters"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interment"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "heighten"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "I would prefer not to"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Moves his offices away"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Scrivener, or copyist",
+       "Accountant",
+       "Messenger"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Bartleby, the Scrivener, paragraph 485: “Dead _____! does it not sound like dead men”",
+      "answer": "letters",
+      "accept": [
+       "letters",
+       "letters"
+      ],
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "chimeras",
+       "cistern",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A banker",
+       "A Wall Street lawyer",
+       "A judge"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Imagination will readily supply the meager recital of poor Bartleby's _____.”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "interment",
+       "chimeras"
+      ],
+      "answer": "interment",
+      "accept": [
+       "interment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Conceive a man by nature and misfortune prone to a pallid hopelessness, can any business seem more fitted to _____ it than that of continually handling these dead letters, and assorting them for the flames?”",
+      "wordBank": [
+       "cistern",
+       "heighten",
+       "benevolently",
+       "chimeras"
+      ],
+      "answer": "heighten",
+      "accept": [
+       "heighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A ship",
+       "A prison",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the narrator finally do?",
+      "options": [
+       "Fires everyone",
+       "Pays Bartleby to leave",
+       "Calls the police at once",
+       "Moves his offices away"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "chimeras",
+       "invocation"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's famous reply?",
+      "options": [
+       "I cannot",
+       "I would prefer not to",
+       "Leave me alone",
+       "Not today"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Endurance turning to justice",
+       "The futile attempt to shut out death",
+       "Refusal as a mystery the narrator cannot solve",
+       "Science that poisons love"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Diction / vocabulary",
+       "Setting",
+       "Personification",
+       "Structure"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Metaphor",
+       "Symbolism",
+       "Narrator",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "letters"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interment"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "heighten"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Moves his offices away"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "I would prefer not to"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A banker",
+       "A Wall Street lawyer",
+       "A judge"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "chimeras",
+       "cistern",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Scrivener, or copyist",
+       "Accountant",
+       "Messenger"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A ship",
+       "A prison",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's famous reply?",
+      "options": [
+       "I cannot",
+       "I would prefer not to",
+       "Leave me alone",
+       "Not today"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Imagination will readily supply the meager recital of poor Bartleby's _____.”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "interment",
+       "chimeras"
+      ],
+      "answer": "interment",
+      "accept": [
+       "interment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "chimeras",
+       "invocation"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Bartleby, the Scrivener, paragraph 485: “Dead _____! does it not sound like dead men”",
+      "answer": "letters",
+      "accept": [
+       "letters",
+       "letters"
+      ],
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Conceive a man by nature and misfortune prone to a pallid hopelessness, can any business seem more fitted to _____ it than that of continually handling these dead letters, and assorting them for the flames?”",
+      "wordBank": [
+       "cistern",
+       "heighten",
+       "benevolently",
+       "chimeras"
+      ],
+      "answer": "heighten",
+      "accept": [
+       "heighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Endurance turning to justice",
+       "The futile attempt to shut out death",
+       "Refusal as a mystery the narrator cannot solve",
+       "Science that poisons love"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Diction / vocabulary",
+       "Setting",
+       "Personification",
+       "Structure"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Metaphor",
+       "Symbolism",
+       "Narrator",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) shape its meaning? Consider a second, competing reading.",
+      "expected": "The refrain.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "I would prefer not to"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interment"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "letters"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "heighten"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The refrain."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A banker",
+       "A Wall Street lawyer",
+       "A judge"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Bartleby, the Scrivener, paragraph 485: “Dead _____! does it not sound like dead men”",
+      "answer": "letters",
+      "accept": [
+       "letters",
+       "letters"
+      ],
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Imagination will readily supply the meager recital of poor Bartleby's _____.”",
+      "wordBank": [
+       "cistern",
+       "benevolently",
+       "interment",
+       "chimeras"
+      ],
+      "answer": "interment",
+      "accept": [
+       "interment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's famous reply?",
+      "options": [
+       "I cannot",
+       "I would prefer not to",
+       "Leave me alone",
+       "Not today"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the narrator finally do?",
+      "options": [
+       "Fires everyone",
+       "Pays Bartleby to leave",
+       "Calls the police at once",
+       "Moves his offices away"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Scrivener, or copyist",
+       "Accountant",
+       "Messenger"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Conceive a man by nature and misfortune prone to a pallid hopelessness, can any business seem more fitted to _____ it than that of continually handling these dead letters, and assorting them for the flames?”",
+      "wordBank": [
+       "cistern",
+       "heighten",
+       "benevolently",
+       "chimeras"
+      ],
+      "answer": "heighten",
+      "accept": [
+       "heighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "chimeras",
+       "cistern",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Endurance turning to justice",
+       "The futile attempt to shut out death",
+       "Refusal as a mystery the narrator cannot solve",
+       "Science that poisons love"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Diction / vocabulary",
+       "Setting",
+       "Personification",
+       "Structure"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Metaphor",
+       "Symbolism",
+       "Narrator",
+       "Point of view"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "letters"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interment"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "I would prefer not to"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Moves his offices away"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "heighten"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "invocation",
+       "benevolently",
+       "cistern",
+       "chimeras"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “I believe that this wise and blessed frame of mind would have continued with me, had it not been for the unsolicited and uncharitable remarks obtruded upon me by my professional friends who visited the rooms.”, what does “obtruded” most nearly mean?",
+      "options": [
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome",
+       "in a kind, well-meaning way",
+       "a tank for storing water"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the narrator finally do?",
+      "options": [
+       "Moves his offices away",
+       "Pays Bartleby to leave",
+       "Fires everyone",
+       "Calls the police at once"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Owing to the great height of the surrounding buildings, and my chambers being on the second floor, the interval between this wall and mine not a little resembled a huge square cistern.”, what does “cistern” most nearly mean?",
+      "options": [
+       "in a kind, well-meaning way",
+       "pushed forward unwelcome",
+       "wild, impossible dreams or fantasies",
+       "a tank for storing water"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "cistern",
+       "chimeras",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “At any rate, upon the occasion in question, I strove to drown my exasperated feelings towards the scrivener by benevolently construing his conduct.”, what does “benevolently” most nearly mean?",
+      "options": [
+       "wild, impossible dreams or fantasies",
+       "in a kind, well-meaning way",
+       "a tank for storing water",
+       "pushed forward unwelcome"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A prison",
+       "A ship",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Refusal as a mystery the narrator cannot solve",
+       "A girl choosing nature over a stranger's approval",
+       "Friendship tested by duty",
+       "The hunter becoming the hunted"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Plot",
+       "Simile",
+       "Narrator",
+       "Metaphor"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Metaphor",
+       "Personification",
+       "Conflict",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) shape its meaning? Consider a second, competing reading.",
+      "expected": "The refrain.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pushed forward unwelcome"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Moves his offices away"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a tank for storing water"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "in a kind, well-meaning way"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The refrain."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A prison",
+       "A ship",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Accountant",
+       "Scrivener, or copyist",
+       "Messenger"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “I believe that this wise and blessed frame of mind would have continued with me, had it not been for the unsolicited and uncharitable remarks obtruded upon me by my professional friends who visited the rooms.”, what does “obtruded” most nearly mean?",
+      "options": [
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome",
+       "in a kind, well-meaning way",
+       "a tank for storing water"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "invocation",
+       "benevolently",
+       "cistern",
+       "chimeras"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Owing to the great height of the surrounding buildings, and my chambers being on the second floor, the interval between this wall and mine not a little resembled a huge square cistern.”, what does “cistern” most nearly mean?",
+      "options": [
+       "in a kind, well-meaning way",
+       "pushed forward unwelcome",
+       "wild, impossible dreams or fantasies",
+       "a tank for storing water"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "cistern",
+       "chimeras",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Bartleby, the Scrivener, paragraph 485: “Dead _____! does it not sound like dead men”",
+      "answer": "letters",
+      "accept": [
+       "letters",
+       "letters"
+      ],
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Refusal as a mystery the narrator cannot solve",
+       "A girl choosing nature over a stranger's approval",
+       "Friendship tested by duty",
+       "The hunter becoming the hunted"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Plot",
+       "Simile",
+       "Narrator",
+       "Metaphor"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Metaphor",
+       "Personification",
+       "Conflict",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) shape its meaning? Consider a second, competing reading.",
+      "expected": "The refrain.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pushed forward unwelcome"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a tank for storing water"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "letters"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The refrain."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A Wall Street lawyer",
+       "A banker",
+       "A judge"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the narrator finally do?",
+      "options": [
+       "Moves his offices away",
+       "Pays Bartleby to leave",
+       "Fires everyone",
+       "Calls the police at once"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “These sad fancyings—chimeras, doubtless, of a sick and silly brain—led on to other and more special thoughts, concerning the eccentricities of Bartleby.”, what does “chimeras” most nearly mean?",
+      "options": [
+       "in a kind, well-meaning way",
+       "a tank for storing water",
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “I believe that this wise and blessed frame of mind would have continued with me, had it not been for the unsolicited and uncharitable remarks obtruded upon me by my professional friends who visited the rooms.”, what does “obtruded” most nearly mean?",
+      "options": [
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome",
+       "in a kind, well-meaning way",
+       "a tank for storing water"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "cistern",
+       "chimeras",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "invocation",
+       "benevolently",
+       "cistern",
+       "chimeras"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Accountant",
+       "Scrivener, or copyist",
+       "Messenger"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Refusal as a mystery the narrator cannot solve",
+       "A girl choosing nature over a stranger's approval",
+       "Friendship tested by duty",
+       "The hunter becoming the hunted"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Metaphor",
+       "Personification",
+       "Conflict",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Plot",
+       "Simile",
+       "Narrator",
+       "Metaphor"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) shape its meaning? Consider a second, competing reading.",
+      "expected": "The refrain.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Moves his offices away"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wild, impossible dreams or fantasies"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pushed forward unwelcome"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The refrain."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does the narrator finally do?",
+      "options": [
+       "Moves his offices away",
+       "Pays Bartleby to leave",
+       "Fires everyone",
+       "Calls the police at once"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Imagination will readily supply the meager recital of poor Bartleby's _____.”",
+      "wordBank": [
+       "interment",
+       "cistern",
+       "chimeras",
+       "benevolently"
+      ],
+      "answer": "interment",
+      "accept": [
+       "interment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A prison",
+       "A ship",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "cistern",
+       "chimeras",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Owing to the great height of the surrounding buildings, and my chambers being on the second floor, the interval between this wall and mine not a little resembled a huge square cistern.”, what does “cistern” most nearly mean?",
+      "options": [
+       "in a kind, well-meaning way",
+       "pushed forward unwelcome",
+       "wild, impossible dreams or fantasies",
+       "a tank for storing water"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A Wall Street lawyer",
+       "A banker",
+       "A judge"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "invocation",
+       "benevolently",
+       "cistern",
+       "chimeras"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Refusal as a mystery the narrator cannot solve",
+       "A girl choosing nature over a stranger's approval",
+       "Friendship tested by duty",
+       "The hunter becoming the hunted"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Plot",
+       "Simile",
+       "Narrator",
+       "Metaphor"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Metaphor",
+       "Personification",
+       "Conflict",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) shape its meaning? Consider a second, competing reading.",
+      "expected": "The refrain.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Moves his offices away"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interment"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a tank for storing water"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The refrain."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's profession?",
+      "options": [
+       "A doctor",
+       "A Wall Street lawyer",
+       "A banker",
+       "A judge"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Accountant",
+       "Scrivener, or copyist",
+       "Messenger"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "invocation",
+       "benevolently",
+       "cistern",
+       "chimeras"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Instantly it occurred to me, that his _____ diligence in”",
+      "wordBank": [
+       "benevolently",
+       "cistern",
+       "chimeras",
+       "unexampled"
+      ],
+      "answer": "unexampled",
+      "accept": [
+       "unexampled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's famous reply?",
+      "options": [
+       "Leave me alone",
+       "I would prefer not to",
+       "Not today",
+       "I cannot"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “These sad fancyings—chimeras, doubtless, of a sick and silly brain—led on to other and more special thoughts, concerning the eccentricities of Bartleby.”, what does “chimeras” most nearly mean?",
+      "options": [
+       "in a kind, well-meaning way",
+       "a tank for storing water",
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “I believe that this wise and blessed frame of mind would have continued with me, had it not been for the unsolicited and uncharitable remarks obtruded upon me by my professional friends who visited the rooms.”, what does “obtruded” most nearly mean?",
+      "options": [
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome",
+       "in a kind, well-meaning way",
+       "a tank for storing water"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Refusal as a mystery the narrator cannot solve",
+       "A girl choosing nature over a stranger's approval",
+       "Friendship tested by duty",
+       "The hunter becoming the hunted"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Plot",
+       "Simile",
+       "Narrator",
+       "Metaphor"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Metaphor",
+       "Personification",
+       "Conflict",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) shape its meaning? Consider a second, competing reading.",
+      "expected": "The refrain.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Wall Street lawyer"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unexampled"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "I would prefer not to"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wild, impossible dreams or fantasies"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pushed forward unwelcome"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The refrain."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's job?",
+      "options": [
+       "Clerk in a shop",
+       "Accountant",
+       "Scrivener, or copyist",
+       "Messenger"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Like a very ghost, agreeably to the laws of magical _____, at the”",
+      "wordBank": [
+       "invocation",
+       "benevolently",
+       "cistern",
+       "chimeras"
+      ],
+      "answer": "invocation",
+      "accept": [
+       "invocation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Bartleby's famous reply?",
+      "options": [
+       "Leave me alone",
+       "I would prefer not to",
+       "Not today",
+       "I cannot"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Conceive a man by nature and misfortune prone to a pallid hopelessness, can any business seem more fitted to _____ it than that of continually handling these dead letters, and assorting them for the flames?”",
+      "wordBank": [
+       "heighten",
+       "chimeras",
+       "cistern",
+       "benevolently"
+      ],
+      "answer": "heighten",
+      "accept": [
+       "heighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “I believe that this wise and blessed frame of mind would have continued with me, had it not been for the unsolicited and uncharitable remarks obtruded upon me by my professional friends who visited the rooms.”, what does “obtruded” most nearly mean?",
+      "options": [
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome",
+       "in a kind, well-meaning way",
+       "a tank for storing water"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Where had Bartleby worked before, according to rumor?",
+      "options": [
+       "A bank",
+       "A prison",
+       "A ship",
+       "The Dead Letter Office"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “These sad fancyings—chimeras, doubtless, of a sick and silly brain—led on to other and more special thoughts, concerning the eccentricities of Bartleby.”, what does “chimeras” most nearly mean?",
+      "options": [
+       "in a kind, well-meaning way",
+       "a tank for storing water",
+       "wild, impossible dreams or fantasies",
+       "pushed forward unwelcome"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Bartleby, the Scrivener”?",
+      "options": [
+       "Refusal as a mystery the narrator cannot solve",
+       "A girl choosing nature over a stranger's approval",
+       "Friendship tested by duty",
+       "The hunter becoming the hunted"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) Answer in two or three sentences with one detail.",
+      "expected": "The lawyer's reflection.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) Answer in two or three sentences with one detail.",
+      "expected": "The refrain.",
+      "element": "characterization",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The lawyer is comfortable, cautious and self-justifying; the story is as much about him as about Bartleby.",
+      "options": [
+       "Plot",
+       "Simile",
+       "Narrator",
+       "Metaphor"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The lawyer comes to see Bartleby's despair as a sign of a wider human condition. Explain how this evidence supports the claim: “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485).",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Bartleby, the Scrivener”? The office's windows face walls (one white, one black), an image of a walled-in life.",
+      "options": [
+       "Metaphor",
+       "Personification",
+       "Conflict",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Ah Bartleby! Ah humanity” (Bartleby, the Scrivener, paragraph 486). Pick two words and explain what they suggest.",
+      "expected": "The last line.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 486",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The lawyer comes to see Bartleby's despair as a sign of a wider human condition.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Dead letters! does it not sound like dead men” (Bartleby, the Scrivener, paragraph 485) shape its meaning? Consider a second, competing reading.",
+      "expected": "The lawyer's reflection.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 485",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would prefer not to” (Bartleby, the Scrivener, paragraph 51) shape its meaning? Consider a second, competing reading.",
+      "expected": "The refrain.",
+      "element": "diction",
+      "location": "Bartleby, the Scrivener, paragraph 51",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how alienation and work develops from an earlier story to “Bartleby, the Scrivener”. Use one quotation from each.",
+      "expected": "copying, repeated endlessly, strips Bartleby of meaning.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Scrivener, or copyist"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "invocation"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "I would prefer not to"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "heighten"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pushed forward unwelcome"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The Dead Letter Office"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wild, impossible dreams or fantasies"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Refusal as a mystery the narrator cannot solve"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The refrain."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Narrator"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The last line."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Hearing of the Dead Letter Office, he exclaims \"Dead letters! does it not sound like dead men,\" and ends \"Ah Bartleby! Ah humanity,\" linking one clerk to everyone."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The lawyer's reflection."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The refrain."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "copying, repeated endlessly, strips Bartleby of meaning."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -822,7 +5477,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Bartleby, the Scrivener teaches about passive resistance. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Bartleby, the Scrivener teaches about passive resistance. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1043,7 +5698,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Bartleby, the Scrivener teaches about alienation in modern work. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Bartleby, the Scrivener teaches about alienation in modern work. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1264,7 +5919,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Bartleby, the Scrivener teaches about charity and responsibility. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Bartleby, the Scrivener teaches about charity and responsibility. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1464,5 +6119,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "Bartleby, the Scrivener: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Herman Melville develops passive resistance across Bartleby, the Scrivener. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in Bartleby, the Scrivener and argue how its meaning changes over the story and why that change matters to alienation in modern work."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in Bartleby, the Scrivener. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether Bartleby, the Scrivener finally endorses or criticizes its society's view of charity and responsibility. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

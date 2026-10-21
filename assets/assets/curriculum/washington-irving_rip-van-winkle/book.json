@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "Rip Van Winkle unit",
   "author": "Washington Irving",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,222 +580,4879 @@
   }
  ],
  "wholeBookTest": {
-  "title": "Rip Van Winkle: whole-book test",
+  "title": "Rip Van Winkle: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "Why does Rip go into the mountains?",
-    "options": [
-     "To find gold",
-     "To hunt a bear",
-     "To escape his wife's scolding",
-     "To fight the British"
-    ],
-    "answer": 2,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What game are the strange men playing?",
-    "options": [
-     "Cards",
-     "Dice",
-     "Chess",
-     "Ninepins"
-    ],
-    "answer": 3,
-    "element": "setting"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "How long does Rip sleep?",
-    "options": [
-     "One night",
-     "Seven years",
-     "Twenty years",
-     "A hundred years"
-    ],
-    "answer": 2,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What has replaced King George on the inn's sign?",
     "options": [
+     "George Washington",
      "Rip himself",
      "A ship",
-     "A bear",
-     "George Washington"
+     "A bear"
     ],
-    "answer": 3,
-    "element": "symbolism"
+    "answer": 0,
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
+    "type": "mc",
+    "prompt": "Why does Rip go into the mountains?",
+    "options": [
+     "To fight the British",
+     "To escape his wife's scolding",
+     "To find gold",
+     "To hunt a bear"
+    ],
+    "answer": 1,
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
     "chapterIndex": 0,
+    "n": 6
+   },
+   {
+    "type": "mc",
     "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
     "options": [
      "Rip's grown son",
+     "Rip's grandson",
      "A ghost",
-     "A stranger",
-     "Rip's grandson"
+     "A stranger"
     ],
     "answer": 0,
-    "element": "irony"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “They are a dismembered branch of the great Appalachian family, and are seen away to the west of the river, swelling up to a noble height, and lording it over the surrounding country.”, what does “dismembered” most nearly mean?",
+    "type": "mc",
+    "prompt": "How long does Rip sleep?",
     "options": [
-     "friendly and trying to win good will",
-     "annoyances; worries",
-     "cut a body into pieces",
-     "visit again"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be obsequious and conciliating abroad, who are under the discipline of shrews at home.”, what does “conciliating” most nearly mean?",
-    "options": [
-     "visit again",
-     "cut a body into pieces",
-     "annoyances; worries",
-     "friendly and trying to win good will"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“They are a dismembered branch of the great Appalachian family, and are seen away to the west of the river, swelling up to a noble height, an”), what does “dismembered” mean?",
-    "options": [
-     "cut a body into pieces",
-     "a sloping gallery with seats for spectators (as in an operating room or theater)",
-     "provide commentary for a film, for example",
-     "friendly and trying to win good will"
+     "Twenty years",
+     "Seven years",
+     "One night",
+     "A hundred years"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 9
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt ”), what does “conciliating” mean?",
+    "type": "mc",
+    "prompt": "What game are the strange men playing?",
     "options": [
-     "something very like another; a copy",
-     "friendly and trying to win good will",
-     "a very steep cliff",
-     "annoyances; worries"
+     "Dice",
+     "Ninepins",
+     "Chess",
+     "Cards"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "setting",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“In old times, say the Indian traditions, there was a kind of Manitou or Spirit, who kept about the wildest recesses of the Catskill mountain”), what does “vexations” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
     "options": [
-     "attempting to win favor from influential people by flattery",
-     "an event that happens",
-     "annoyances; worries",
-     "visit again"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“He determined to revisit the scene of the last evening's gambol, and if he met with any of the party, to demand his dog and gun.”), what does “revisit” mean?",
-    "options": [
-     "provide commentary for a film, for example",
-     "cut a body into pieces",
-     "a sloping gallery with seats for spectators (as in an operating room or theater)",
-     "visit again"
+     "A girl choosing nature over a stranger's approval",
+     "A family and a house collapsing together",
+     "The futile attempt to shut out death",
+     "Waking into a changed nation"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 12
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Passing through the ravine, they came to a hollow, like a small amphitheatre, surrounded by perpendicular precipices, over the brinks of whi”), what does “amphitheatre” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
     "options": [
-     "a sloping gallery with seats for spectators (as in an operating room or theater)",
-     "a very steep cliff",
-     "friendly and trying to win good will",
-     "something very like another; a copy"
+     "Irony",
+     "Hyperbole",
+     "Imagery",
+     "Satire"
+    ],
+    "answer": 3,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+    "options": [
+     "FrameNarrator",
+     "Irony",
+     "Foreshadowing",
+     "Plot"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "To escape his wife's scolding",
-    "element": "characterization"
-   },
-   {
-    "n": 2,
-    "answer": "Ninepins",
-    "element": "setting"
-   },
-   {
-    "n": 3,
-    "answer": "Twenty years",
-    "element": "plot"
-   },
-   {
-    "n": 4,
     "answer": "George Washington",
     "element": "symbolism"
    },
    {
-    "n": 5,
+    "n": 2,
+    "answer": "To escape his wife's scolding",
+    "element": "characterization"
+   },
+   {
+    "n": 3,
     "answer": "Rip's grown son",
     "element": "irony"
    },
    {
+    "n": 4,
+    "answer": "Twenty years",
+    "element": "plot"
+   },
+   {
+    "n": 5,
+    "answer": "Ninepins",
+    "element": "setting"
+   },
+   {
     "n": 6,
-    "answer": "cut a body into pieces",
-    "element": "diction"
+    "answer": "Waking into a changed nation",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "friendly and trying to win good will",
-    "element": "diction"
+    "answer": "Satire",
+    "element": "structure"
    },
    {
     "n": 8,
-    "answer": "cut a body into pieces",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "friendly and trying to win good will",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "annoyances; worries",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "visit again",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "a sloping gallery with seats for spectators (as in an operating room or theater)",
-    "element": "diction"
+    "answer": "FrameNarrator",
+    "element": "structure"
    }
   ],
-  "shortAnswer": [
-   "Explain how change and time develops from the beginning of the story to the end. Use two passages.",
-   "Explain how the American Revolution develops from the beginning of the story to the end. Use two passages.",
-   "Explain how escape from responsibility develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (change and time, the American Revolution, escape from responsibility) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "dismembered",
+       "counterpart",
+       "vexations",
+       "conciliating"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "Twenty years",
+       "Seven years",
+       "One night",
+       "A hundred years"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "dismembered",
+       "conciliating",
+       "vexations",
+       "amphitheatre"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "dismembered",
+       "vexations",
+       "narrated",
+       "conciliating"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What has replaced King George on the inn's sign?",
+      "options": [
+       "George Washington",
+       "Rip himself",
+       "A ship",
+       "A bear"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "Rip's grown son",
+       "Rip's grandson",
+       "A ghost",
+       "A stranger"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To find gold",
+       "To hunt a bear"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Dice",
+       "Ninepins",
+       "Chess",
+       "Cards"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "A girl choosing nature over a stranger's approval",
+       "A family and a house collapsing together",
+       "The futile attempt to shut out death",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Irony",
+       "Hyperbole",
+       "Imagery",
+       "Satire"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "FrameNarrator",
+       "Irony",
+       "Foreshadowing",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "George Washington"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "Rip's grown son",
+       "Rip's grandson",
+       "A ghost",
+       "A stranger"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "Twenty years",
+       "Seven years",
+       "One night",
+       "A hundred years"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "dismembered",
+       "counterpart",
+       "vexations",
+       "conciliating"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "dismembered",
+       "vexations",
+       "narrated",
+       "conciliating"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Dice",
+       "Ninepins",
+       "Chess",
+       "Cards"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What has replaced King George on the inn's sign?",
+      "options": [
+       "George Washington",
+       "Rip himself",
+       "A ship",
+       "A bear"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "dismembered",
+       "conciliating",
+       "vexations",
+       "amphitheatre"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To find gold",
+       "To hunt a bear"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "A girl choosing nature over a stranger's approval",
+       "A family and a house collapsing together",
+       "The futile attempt to shut out death",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "FrameNarrator",
+       "Irony",
+       "Foreshadowing",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Irony",
+       "Hyperbole",
+       "Imagery",
+       "Satire"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "George Washington"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "dismembered",
+       "conciliating",
+       "vexations",
+       "amphitheatre"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "dismembered",
+       "vexations",
+       "narrated",
+       "conciliating"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What has replaced King George on the inn's sign?",
+      "options": [
+       "George Washington",
+       "Rip himself",
+       "A ship",
+       "A bear"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "dismembered",
+       "counterpart",
+       "vexations",
+       "conciliating"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To find gold",
+       "To hunt a bear"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "Rip's grown son",
+       "Rip's grandson",
+       "A ghost",
+       "A stranger"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "Twenty years",
+       "Seven years",
+       "One night",
+       "A hundred years"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Dice",
+       "Ninepins",
+       "Chess",
+       "Cards"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "A girl choosing nature over a stranger's approval",
+       "A family and a house collapsing together",
+       "The futile attempt to shut out death",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Irony",
+       "Hyperbole",
+       "Imagery",
+       "Satire"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "FrameNarrator",
+       "Irony",
+       "Foreshadowing",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "George Washington"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "dismembered",
+       "counterpart",
+       "vexations",
+       "conciliating"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Dice",
+       "Ninepins",
+       "Chess",
+       "Cards"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "dismembered",
+       "conciliating",
+       "vexations",
+       "amphitheatre"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "Rip's grown son",
+       "Rip's grandson",
+       "A ghost",
+       "A stranger"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "Twenty years",
+       "Seven years",
+       "One night",
+       "A hundred years"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To find gold",
+       "To hunt a bear"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "dismembered",
+       "vexations",
+       "narrated",
+       "conciliating"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "A girl choosing nature over a stranger's approval",
+       "A family and a house collapsing together",
+       "The futile attempt to shut out death",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "FrameNarrator",
+       "Irony",
+       "Foreshadowing",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Irony",
+       "Hyperbole",
+       "Imagery",
+       "Satire"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "dismembered",
+       "conciliating",
+       "vexations",
+       "amphitheatre"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "dismembered",
+       "vexations",
+       "narrated",
+       "conciliating"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To find gold",
+       "To hunt a bear"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "Rip's grown son",
+       "Rip's grandson",
+       "A ghost",
+       "A stranger"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "Twenty years",
+       "Seven years",
+       "One night",
+       "A hundred years"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "dismembered",
+       "counterpart",
+       "vexations",
+       "conciliating"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "A girl choosing nature over a stranger's approval",
+       "A family and a house collapsing together",
+       "The futile attempt to shut out death",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "FrameNarrator",
+       "Irony",
+       "Foreshadowing",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Irony",
+       "Hyperbole",
+       "Imagery",
+       "Satire"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 6,
+     "fill": 5,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "A hundred years",
+       "Twenty years",
+       "One night",
+       "Seven years"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What has replaced King George on the inn's sign?",
+      "options": [
+       "A bear",
+       "A ship",
+       "George Washington",
+       "Rip himself"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To hunt a bear",
+       "To find gold"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "counterpart",
+       "dismembered"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "conciliating",
+       "amphitheatre",
+       "dismembered",
+       "vexations"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He determined to revisit the scene of the last evening's gambol, and if he met with any of the party, to demand his dog and gun.”, what does “revisit” most nearly mean?",
+      "options": [
+       "friendly and trying to win good will",
+       "cut a body into pieces",
+       "annoyances; worries",
+       "visit again"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In old times, say the Indian traditions, there was a kind of Manitou or Spirit, who kept about the wildest recesses of the Catskill mountains, and took a mischievous pleasure in wreaking all kind of evils and vexations…”, what does “vexations” most nearly mean?",
+      "options": [
+       "annoyances; worries",
+       "visit again",
+       "cut a body into pieces",
+       "friendly and trying to win good will"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death",
+       "Reason struggling against terror",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "Simile",
+       "FrameNarrator",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Metaphor",
+       "Satire",
+       "Symbolism",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "George Washington"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "visit again"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "annoyances; worries"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "A hundred years",
+       "Twenty years",
+       "One night",
+       "Seven years"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He determined to revisit the scene of the last evening's gambol, and if he met with any of the party, to demand his dog and gun.”, what does “revisit” most nearly mean?",
+      "options": [
+       "friendly and trying to win good will",
+       "cut a body into pieces",
+       "annoyances; worries",
+       "visit again"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "conciliating",
+       "amphitheatre",
+       "dismembered",
+       "vexations"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "A ghost",
+       "A stranger",
+       "Rip's grown son",
+       "Rip's grandson"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Ninepins",
+       "Cards",
+       "Chess",
+       "Dice"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death",
+       "Reason struggling against terror",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Metaphor",
+       "Satire",
+       "Symbolism",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "Simile",
+       "FrameNarrator",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "visit again"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To hunt a bear",
+       "To find gold"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "A ghost",
+       "A stranger",
+       "Rip's grown son",
+       "Rip's grandson"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "conciliating",
+       "dismembered",
+       "narrated",
+       "vexations"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How long does Rip sleep?",
+      "options": [
+       "A hundred years",
+       "Twenty years",
+       "One night",
+       "Seven years"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "counterpart",
+       "dismembered"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What has replaced King George on the inn's sign?",
+      "options": [
+       "A bear",
+       "A ship",
+       "George Washington",
+       "Rip himself"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death",
+       "Reason struggling against terror",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "Simile",
+       "FrameNarrator",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Metaphor",
+       "Satire",
+       "Symbolism",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Twenty years"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "George Washington"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Passing through the ravine, they came to a hollow, like a small _____, surrounded by perpendicular precipices, over the brinks of which impending trees shot their branches, so that you only caught glimpses of the azure sky, and the bright evening cloud.”",
+      "wordBank": [
+       "conciliating",
+       "amphitheatre",
+       "dismembered",
+       "vexations"
+      ],
+      "answer": "amphitheatre",
+      "accept": [
+       "amphitheatre"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Rip go into the mountains?",
+      "options": [
+       "To fight the British",
+       "To escape his wife's scolding",
+       "To hunt a bear",
+       "To find gold"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Ninepins",
+       "Cards",
+       "Chess",
+       "Dice"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In old times, say the Indian traditions, there was a kind of Manitou or Spirit, who kept about the wildest recesses of the Catskill mountains, and took a mischievous pleasure in wreaking all kind of evils and vexations…”, what does “vexations” most nearly mean?",
+      "options": [
+       "annoyances; worries",
+       "visit again",
+       "cut a body into pieces",
+       "friendly and trying to win good will"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “They are a dismembered branch of the great Appalachian family, and are seen away to the west of the river, swelling up to a noble height, and lording it over the surrounding country.”, what does “dismembered” most nearly mean?",
+      "options": [
+       "annoyances; worries",
+       "friendly and trying to win good will",
+       "visit again",
+       "cut a body into pieces"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "A ghost",
+       "A stranger",
+       "Rip's grown son",
+       "Rip's grandson"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death",
+       "Reason struggling against terror",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "Simile",
+       "FrameNarrator",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Metaphor",
+       "Satire",
+       "Symbolism",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "amphitheatre"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To escape his wife's scolding"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "annoyances; worries"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cut a body into pieces"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Indeed, to the latter circumstance might be owing that meekness of spirit which gained him such universal popularity; for those men are apt to be _____ and conciliating abroad, who are under the discipline of shrews at home.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "dismembered",
+       "obsequious"
+      ],
+      "answer": "obsequious",
+      "accept": [
+       "obsequious"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "counterpart",
+       "dismembered"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Ninepins",
+       "Cards",
+       "Chess",
+       "Dice"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What has replaced King George on the inn's sign?",
+      "options": [
+       "A bear",
+       "A ship",
+       "George Washington",
+       "Rip himself"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In old times, say the Indian traditions, there was a kind of Manitou or Spirit, who kept about the wildest recesses of the Catskill mountains, and took a mischievous pleasure in wreaking all kind of evils and vexations…”, what does “vexations” most nearly mean?",
+      "options": [
+       "annoyances; worries",
+       "visit again",
+       "cut a body into pieces",
+       "friendly and trying to win good will"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “They are a dismembered branch of the great Appalachian family, and are seen away to the west of the river, swelling up to a noble height, and lording it over the surrounding country.”, what does “dismembered” most nearly mean?",
+      "options": [
+       "annoyances; worries",
+       "friendly and trying to win good will",
+       "visit again",
+       "cut a body into pieces"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "conciliating",
+       "dismembered",
+       "narrated",
+       "vexations"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death",
+       "Reason struggling against terror",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "Simile",
+       "FrameNarrator",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Metaphor",
+       "Satire",
+       "Symbolism",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obsequious"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "George Washington"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "annoyances; worries"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cut a body into pieces"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “He determined to revisit the scene of the last evening's gambol, and if he met with any of the party, to demand his dog and gun.”, what does “revisit” most nearly mean?",
+      "options": [
+       "friendly and trying to win good will",
+       "cut a body into pieces",
+       "annoyances; worries",
+       "visit again"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is the 'Rip Van Winkle' leaning against a tree?",
+      "options": [
+       "A ghost",
+       "A stranger",
+       "Rip's grown son",
+       "Rip's grandson"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “They are a dismembered branch of the great Appalachian family, and are seen away to the west of the river, swelling up to a noble height, and lording it over the surrounding country.”, what does “dismembered” most nearly mean?",
+      "options": [
+       "annoyances; worries",
+       "friendly and trying to win good will",
+       "visit again",
+       "cut a body into pieces"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Rip looked, and beheld a precise _____ of himself as he went up the mountain; apparently as lazy, and certainly as ragged.”",
+      "wordBank": [
+       "vexations",
+       "conciliating",
+       "counterpart",
+       "dismembered"
+      ],
+      "answer": "counterpart",
+      "accept": [
+       "counterpart"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What game are the strange men playing?",
+      "options": [
+       "Ninepins",
+       "Cards",
+       "Chess",
+       "Dice"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Knickerbocker by a little German superstition about the Emperor Frederick der Rothbart and the Kypphauser mountain; the subjoined note, however, which had appended to the tale, shows that it is an absolute fact, _____ with his usual fidelity.”",
+      "wordBank": [
+       "conciliating",
+       "dismembered",
+       "narrated",
+       "vexations"
+      ],
+      "answer": "narrated",
+      "accept": [
+       "narrated"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rip Van Winkle, paragraph 70: “the whole _____ years had been to him but as one night”",
+      "answer": "twenty",
+      "accept": [
+       "twenty",
+       "twenty"
+      ],
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “petticoat government” (Rip Van Winkle, paragraph 74) Answer in two or three sentences with one detail.",
+      "expected": "Rip's escape.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) Answer in two or three sentences with one detail.",
+      "expected": "Identity crisis.",
+      "element": "characterization",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rip Van Winkle”?",
+      "options": [
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death",
+       "Reason struggling against terror",
+       "Waking into a changed nation"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Irving suggests the Revolution changed the surface more than the people. Explain how this evidence supports the claim: “petticoat government” (Rip Van Winkle, paragraph 74).",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? Diedrich Knickerbocker supposedly found the story; this layered frame makes truth uncertain.",
+      "options": [
+       "Simile",
+       "FrameNarrator",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “the whole twenty years had been to him but as one night” (Rip Van Winkle, paragraph 70). Pick two words and explain what they suggest.",
+      "expected": "The sleep.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 70",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rip Van Winkle”? The village politics after the Revolution are as noisy and empty as before.",
+      "options": [
+       "Metaphor",
+       "Satire",
+       "Symbolism",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “petticoat government” (Rip Van Winkle, paragraph 74) shape its meaning? Consider a second, competing reading.",
+      "expected": "Rip's escape.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 74",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Irving suggests the Revolution changed the surface more than the people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how change and continuity develops from an earlier story to “Rip Van Winkle”. Use one quotation from each.",
+      "expected": "the inn sign changes from King George to General Washington.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I'm not myself--I'm somebody else” (Rip Van Winkle, paragraph 59) shape its meaning? Consider a second, competing reading.",
+      "expected": "Identity crisis.",
+      "element": "diction",
+      "location": "Rip Van Winkle, paragraph 59",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "visit again"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Rip's grown son"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cut a body into pieces"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "counterpart"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ninepins"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "narrated"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "twenty"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Identity crisis."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Waking into a changed nation"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrator"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The sleep."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Satire"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip's escape."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Rip, still free of \"petticoat government,\" wonders \"I'm not myself--I'm somebody else,\" yet he soon settles back exactly as before."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the inn sign changes from King George to General Washington."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Identity crisis."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5476,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rip Van Winkle teaches about change and time. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rip Van Winkle teaches about change and time. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5697,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rip Van Winkle teaches about the American Revolution. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rip Van Winkle teaches about the American Revolution. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5918,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rip Van Winkle teaches about escape from responsibility. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rip Van Winkle teaches about escape from responsibility. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6118,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "Rip Van Winkle: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Washington Irving develops change and time across Rip Van Winkle. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in Rip Van Winkle and argue how its meaning changes over the story and why that change matters to the American Revolution."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in Rip Van Winkle. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether Rip Van Winkle finally endorses or criticizes its society's view of escape from responsibility. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

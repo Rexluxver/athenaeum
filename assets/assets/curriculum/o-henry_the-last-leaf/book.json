@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Last Leaf unit",
   "author": "O. Henry",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,222 +580,4834 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Last Leaf: whole-book test",
+  "title": "The Last Leaf: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
+    "type": "mc",
+    "prompt": "What happens to Behrman?",
+    "options": [
+     "He moves away",
+     "He dies of pneumonia",
+     "He becomes famous",
+     "He marries Sue"
+    ],
+    "answer": 1,
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
     "chapterIndex": 0,
+    "n": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Who is Behrman?",
+    "options": [
+     "Johnsy's doctor",
+     "Sue's father",
+     "An old painter who has never painted his masterpiece",
+     "The landlord"
+    ],
+    "answer": 2,
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
+   },
+   {
+    "type": "mc",
     "prompt": "What illness does Johnsy have?",
     "options": [
-     "Cholera",
-     "Smallpox",
      "Tuberculosis",
+     "Smallpox",
+     "Cholera",
      "Pneumonia"
     ],
     "answer": 3,
-    "element": "plot"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What does Johnsy believe will happen when the last leaf falls?",
     "options": [
-     "She will paint again",
      "She will die",
-     "Sue will leave",
-     "Spring will come"
-    ],
-    "answer": 1,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "Who is Behrman?",
-    "options": [
-     "The landlord",
-     "Sue's father",
-     "Johnsy's doctor",
-     "An old painter who has never painted his masterpiece"
-    ],
-    "answer": 3,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "Why does the last leaf never fall?",
-    "options": [
-     "The wind stopped",
-     "It was glued",
-     "It was plastic",
-     "Behrman painted it on the wall"
-    ],
-    "answer": 3,
-    "element": "irony"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What happens to Behrman?",
-    "options": [
-     "He marries Sue",
-     "He dies of pneumonia",
-     "He becomes famous",
-     "He moves away"
-    ],
-    "answer": 1,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.”, what does “swaggered” most nearly mean?",
-    "options": [
-     "having or showing no mercy",
-     "walked or behaved in a boastful, arrogant way",
-     "having a jagged, saw-toothed edge",
-     "soft, gentle breezes"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer.”, what does “zephyrs” most nearly mean?",
-    "options": [
-     "having a jagged, saw-toothed edge",
-     "having or showing no mercy",
-     "walked or behaved in a boastful, arrogant way",
-     "soft, gentle breezes"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.”), what does “swaggered” mean?",
-    "options": [
-     "walked or behaved in a boastful, arrogant way",
-     "pleasant and well suited",
-     "one who destroys or lays waste",
-     "soft, gentle breezes"
+     "Spring will come",
+     "She will paint again",
+     "Sue will leave"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 9
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer.”), what does “zephyrs” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Last Leaf”?",
     "options": [
-     "useful; worth having",
-     "soft, gentle breezes",
-     "with anxious care for someone",
-     "having a jagged, saw-toothed edge"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Still dark green near its stem, but with its serrated edges tinted with the yellow of dissolution and decay, it hung bravely from a branch s”), what does “serrated” mean?",
-    "options": [
-     "relating to the medical treatment of patients",
-     "relating to the gallant, protective code of knights",
-     "having a jagged, saw-toothed edge",
-     "having or showing no mercy"
+     "A family and a house collapsing together",
+     "Reason defeating a hidden crime",
+     "Hope created by an act of sacrifice",
+     "A story so convincing it becomes real"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 11
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“When it was light enough Johnsy, the merciless, commanded that the shade be raised.”), what does “merciless” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
     "options": [
-     "one who destroys or lays waste",
-     "walked or behaved in a boastful, arrogant way",
-     "pleasant and well suited",
-     "having or showing no mercy"
+     "Imagery",
+     "Irony",
+     "Personification",
+     "Foreshadowing"
     ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
+    "answer": 2,
+    "element": "personification",
+    "level": "analysis",
+    "dok": 3,
     "chapterIndex": 0,
-    "prompt": "As used in the story (“They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so conge”), what does “congenial” mean?",
-    "options": [
-     "pleasant and well suited",
-     "with anxious care for someone",
-     "soft, gentle breezes",
-     "useful; worth having"
-    ],
-    "answer": 0,
-    "element": "diction"
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "Pneumonia",
-    "element": "plot"
-   },
-   {
-    "n": 2,
-    "answer": "She will die",
-    "element": "symbolism"
-   },
-   {
-    "n": 3,
-    "answer": "An old painter who has never painted his masterpiece",
-    "element": "characterization"
-   },
-   {
-    "n": 4,
-    "answer": "Behrman painted it on the wall",
-    "element": "irony"
-   },
-   {
-    "n": 5,
     "answer": "He dies of pneumonia",
     "element": "plot"
    },
    {
+    "n": 2,
+    "answer": "An old painter who has never painted his masterpiece",
+    "element": "characterization"
+   },
+   {
+    "n": 3,
+    "answer": "Pneumonia",
+    "element": "plot"
+   },
+   {
+    "n": 4,
+    "answer": "She will die",
+    "element": "symbolism"
+   },
+   {
+    "n": 5,
+    "answer": "Hope created by an act of sacrifice",
+    "element": "theme"
+   },
+   {
     "n": 6,
-    "answer": "walked or behaved in a boastful, arrogant way",
-    "element": "diction"
-   },
-   {
-    "n": 7,
-    "answer": "soft, gentle breezes",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "walked or behaved in a boastful, arrogant way",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "soft, gentle breezes",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "having a jagged, saw-toothed edge",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "having or showing no mercy",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "pleasant and well suited",
-    "element": "diction"
+    "answer": "Personification",
+    "element": "personification"
    }
   ],
-  "shortAnswer": [
-   "Explain how hope and the will to live develops from the beginning of the story to the end. Use two passages.",
-   "Explain how art and sacrifice develops from the beginning of the story to the end. Use two passages.",
-   "Explain how friendship develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (hope and the will to live, art and sacrifice, friendship) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Behrman?",
+      "options": [
+       "Johnsy's doctor",
+       "Sue's father",
+       "An old painter who has never painted his masterpiece",
+       "The landlord"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 55: “it’s Behrman’s _____—he painted it there the night that the last leaf fell”",
+      "answer": "masterpiece",
+      "accept": [
+       "masterpiece",
+       "masterpiece"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Johnsy believe will happen when the last leaf falls?",
+      "options": [
+       "She will die",
+       "Spring will come",
+       "She will paint again",
+       "Sue will leave"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Behrman?",
+      "options": [
+       "He moves away",
+       "He dies of pneumonia",
+       "He becomes famous",
+       "He marries Sue"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the last leaf never fall?",
+      "options": [
+       "It was glued",
+       "It was plastic",
+       "The wind stopped",
+       "Behrman painted it on the wall"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 4: “whom the doctors called _____, stalked about the colony”",
+      "answer": "Pneumonia",
+      "accept": [
+       "Pneumonia",
+       "pneumonia"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "congenial",
+       "zephyrs"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Tuberculosis",
+       "Smallpox",
+       "Cholera",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "ravager",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "swaggered",
+       "valuable",
+       "serrated",
+       "zephyrs"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "A family and a house collapsing together",
+       "Reason defeating a hidden crime",
+       "Hope created by an act of sacrifice",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Imagery",
+       "Irony",
+       "Personification",
+       "Foreshadowing"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Symbolism",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old painter who has never painted his masterpiece"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "masterpiece"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She will die"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He dies of pneumonia"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Behrman painted it on the wall"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 4: “whom the doctors called _____, stalked about the colony”",
+      "answer": "Pneumonia",
+      "accept": [
+       "Pneumonia",
+       "pneumonia"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 55: “it’s Behrman’s _____—he painted it there the night that the last leaf fell”",
+      "answer": "masterpiece",
+      "accept": [
+       "masterpiece",
+       "masterpiece"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Johnsy believe will happen when the last leaf falls?",
+      "options": [
+       "She will die",
+       "Spring will come",
+       "She will paint again",
+       "Sue will leave"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "congenial",
+       "zephyrs"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Behrman?",
+      "options": [
+       "He moves away",
+       "He dies of pneumonia",
+       "He becomes famous",
+       "He marries Sue"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the last leaf never fall?",
+      "options": [
+       "It was glued",
+       "It was plastic",
+       "The wind stopped",
+       "Behrman painted it on the wall"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "ravager",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "swaggered",
+       "valuable",
+       "serrated",
+       "zephyrs"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Tuberculosis",
+       "Smallpox",
+       "Cholera",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Behrman?",
+      "options": [
+       "Johnsy's doctor",
+       "Sue's father",
+       "An old painter who has never painted his masterpiece",
+       "The landlord"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "A family and a house collapsing together",
+       "Reason defeating a hidden crime",
+       "Hope created by an act of sacrifice",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Symbolism",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "masterpiece"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She will die"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He dies of pneumonia"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Behrman painted it on the wall"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old painter who has never painted his masterpiece"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 4: “whom the doctors called _____, stalked about the colony”",
+      "answer": "Pneumonia",
+      "accept": [
+       "Pneumonia",
+       "pneumonia"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Behrman?",
+      "options": [
+       "He moves away",
+       "He dies of pneumonia",
+       "He becomes famous",
+       "He marries Sue"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "congenial",
+       "zephyrs"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Behrman?",
+      "options": [
+       "Johnsy's doctor",
+       "Sue's father",
+       "An old painter who has never painted his masterpiece",
+       "The landlord"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "swaggered",
+       "valuable",
+       "serrated",
+       "zephyrs"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "ravager",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Tuberculosis",
+       "Smallpox",
+       "Cholera",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Johnsy believe will happen when the last leaf falls?",
+      "options": [
+       "She will die",
+       "Spring will come",
+       "She will paint again",
+       "Sue will leave"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 55: “it’s Behrman’s _____—he painted it there the night that the last leaf fell”",
+      "answer": "masterpiece",
+      "accept": [
+       "masterpiece",
+       "masterpiece"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "A family and a house collapsing together",
+       "Reason defeating a hidden crime",
+       "Hope created by an act of sacrifice",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Imagery",
+       "Irony",
+       "Personification",
+       "Foreshadowing"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He dies of pneumonia"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old painter who has never painted his masterpiece"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She will die"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "masterpiece"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 6,
+     "fill": 6,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What happens to Behrman?",
+      "options": [
+       "He moves away",
+       "He dies of pneumonia",
+       "He becomes famous",
+       "He marries Sue"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "swaggered",
+       "valuable",
+       "serrated",
+       "zephyrs"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the last leaf never fall?",
+      "options": [
+       "It was glued",
+       "It was plastic",
+       "The wind stopped",
+       "Behrman painted it on the wall"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "ravager",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Johnsy believe will happen when the last leaf falls?",
+      "options": [
+       "She will die",
+       "Spring will come",
+       "She will paint again",
+       "Sue will leave"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "congenial",
+       "zephyrs"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Tuberculosis",
+       "Smallpox",
+       "Cholera",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 55: “it’s Behrman’s _____—he painted it there the night that the last leaf fell”",
+      "answer": "masterpiece",
+      "accept": [
+       "masterpiece",
+       "masterpiece"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "A family and a house collapsing together",
+       "Reason defeating a hidden crime",
+       "Hope created by an act of sacrifice",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Symbolism",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Imagery",
+       "Irony",
+       "Personification",
+       "Foreshadowing"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Behrman's leaf proves that true art serves people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He dies of pneumonia"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Behrman painted it on the wall"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She will die"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "masterpiece"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "swaggered",
+       "valuable",
+       "serrated",
+       "zephyrs"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "serrated",
+       "swaggered",
+       "ravager",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the last leaf never fall?",
+      "options": [
+       "It was glued",
+       "It was plastic",
+       "The wind stopped",
+       "Behrman painted it on the wall"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Behrman?",
+      "options": [
+       "He moves away",
+       "He dies of pneumonia",
+       "He becomes famous",
+       "He marries Sue"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 4: “whom the doctors called _____, stalked about the colony”",
+      "answer": "Pneumonia",
+      "accept": [
+       "Pneumonia",
+       "pneumonia"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Johnsy believe will happen when the last leaf falls?",
+      "options": [
+       "She will die",
+       "Spring will come",
+       "She will paint again",
+       "Sue will leave"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Tuberculosis",
+       "Smallpox",
+       "Cholera",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "A family and a house collapsing together",
+       "Reason defeating a hidden crime",
+       "Hope created by an act of sacrifice",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Symbolism",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Imagery",
+       "Irony",
+       "Personification",
+       "Foreshadowing"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrifice develops from an earlier story to “The Last Leaf”. Use one quotation from each.",
+      "expected": "Behrman gives his life for Johnsy's.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Behrman painted it on the wall"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He dies of pneumonia"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She will die"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman gives his life for Johnsy's."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "valuable",
+       "serrated",
+       "zephyrs",
+       "swaggered"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 4: “whom the doctors called _____, stalked about the colony”",
+      "answer": "Pneumonia",
+      "accept": [
+       "Pneumonia",
+       "pneumonia"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Still dark green near its stem, but with its serrated edges tinted with the yellow of dissolution and decay, it hung bravely from a branch some twenty feet above the ground.”, what does “serrated” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "having a jagged, saw-toothed edge",
+       "walked or behaved in a boastful, arrogant way"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.”, what does “swaggered” most nearly mean?",
+      "options": [
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge",
+       "having or showing no mercy",
+       "soft, gentle breezes"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "swaggered",
+       "serrated",
+       "zephyrs",
+       "congenial"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Cholera",
+       "Tuberculosis",
+       "Smallpox",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Greed that grasps more than a person needs",
+       "A boy's romantic quest ending in disillusion",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Conflict",
+       "Symbolism",
+       "Plot",
+       "Metaphor"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Tone / mood",
+       "Conflict",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Behrman's leaf proves that true art serves people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrifice develops from an earlier story to “The Last Leaf”. Use one quotation from each.",
+      "expected": "Behrman gives his life for Johnsy's.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "having a jagged, saw-toothed edge"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "walked or behaved in a boastful, arrogant way"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman gives his life for Johnsy's."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Cholera",
+       "Tuberculosis",
+       "Smallpox",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Still dark green near its stem, but with its serrated edges tinted with the yellow of dissolution and decay, it hung bravely from a branch some twenty feet above the ground.”, what does “serrated” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "having a jagged, saw-toothed edge",
+       "walked or behaved in a boastful, arrogant way"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.”, what does “swaggered” most nearly mean?",
+      "options": [
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge",
+       "having or showing no mercy",
+       "soft, gentle breezes"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "swaggered",
+       "serrated",
+       "zephyrs",
+       "congenial"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “When it was light enough Johnsy, the merciless, commanded that the shade be raised.”, what does “merciless” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "having a jagged, saw-toothed edge",
+       "walked or behaved in a boastful, arrogant way"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 55: “it’s Behrman’s _____—he painted it there the night that the last leaf fell”",
+      "answer": "masterpiece",
+      "accept": [
+       "masterpiece",
+       "masterpiece"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "ravager",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Greed that grasps more than a person needs",
+       "A boy's romantic quest ending in disillusion",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Tone / mood",
+       "Conflict",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Conflict",
+       "Symbolism",
+       "Plot",
+       "Metaphor"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrifice develops from an earlier story to “The Last Leaf”. Use one quotation from each.",
+      "expected": "Behrman gives his life for Johnsy's.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Behrman's leaf proves that true art serves people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "having a jagged, saw-toothed edge"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "walked or behaved in a boastful, arrogant way"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "having or showing no mercy"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "masterpiece"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman gives his life for Johnsy's."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What illness does Johnsy have?",
+      "options": [
+       "Cholera",
+       "Tuberculosis",
+       "Smallpox",
+       "Pneumonia"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer.”, what does “zephyrs” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "valuable",
+       "serrated",
+       "zephyrs",
+       "swaggered"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 55: “it’s Behrman’s _____—he painted it there the night that the last leaf fell”",
+      "answer": "masterpiece",
+      "accept": [
+       "masterpiece",
+       "masterpiece"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.”, what does “swaggered” most nearly mean?",
+      "options": [
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge",
+       "having or showing no mercy",
+       "soft, gentle breezes"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "swaggered",
+       "serrated",
+       "zephyrs",
+       "congenial"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Greed that grasps more than a person needs",
+       "A boy's romantic quest ending in disillusion",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Tone / mood",
+       "Conflict",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Conflict",
+       "Symbolism",
+       "Plot",
+       "Metaphor"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Behrman's leaf proves that true art serves people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrifice develops from an earlier story to “The Last Leaf”. Use one quotation from each.",
+      "expected": "Behrman gives his life for Johnsy's.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "soft, gentle breezes"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "masterpiece"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "walked or behaved in a boastful, arrogant way"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman gives his life for Johnsy's."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They had met at the table d’hote of an Eighth street “Delmonico’s,” and found their tastes in art, chicory salad and bishop sleeves so _____ that the joint studio resulted.”",
+      "wordBank": [
+       "swaggered",
+       "serrated",
+       "zephyrs",
+       "congenial"
+      ],
+      "answer": "congenial",
+      "accept": [
+       "congenial"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Behrman?",
+      "options": [
+       "He dies of pneumonia",
+       "He moves away",
+       "He becomes famous",
+       "He marries Sue"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer.”, what does “zephyrs” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.”, what does “swaggered” most nearly mean?",
+      "options": [
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge",
+       "having or showing no mercy",
+       "soft, gentle breezes"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the last leaf never fall?",
+      "options": [
+       "Behrman painted it on the wall",
+       "It was glued",
+       "The wind stopped",
+       "It was plastic"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Johnsy believe will happen when the last leaf falls?",
+      "options": [
+       "She will paint again",
+       "Spring will come",
+       "Sue will leave",
+       "She will die"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "ravager",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Greed that grasps more than a person needs",
+       "A boy's romantic quest ending in disillusion",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Tone / mood",
+       "Conflict",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Conflict",
+       "Symbolism",
+       "Plot",
+       "Metaphor"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Behrman's leaf proves that true art serves people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrifice develops from an earlier story to “The Last Leaf”. Use one quotation from each.",
+      "expected": "Behrman gives his life for Johnsy's.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "congenial"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He dies of pneumonia"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "soft, gentle breezes"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "walked or behaved in a boastful, arrogant way"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Behrman painted it on the wall"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She will die"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman gives his life for Johnsy's."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “When it was light enough Johnsy, the merciless, commanded that the shade be raised.”, what does “merciless” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "having a jagged, saw-toothed edge",
+       "walked or behaved in a boastful, arrogant way"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 4: “whom the doctors called _____, stalked about the colony”",
+      "answer": "Pneumonia",
+      "accept": [
+       "Pneumonia",
+       "pneumonia"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "ravager",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer.”, what does “zephyrs” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Then she swaggered into Johnsy’s room with her drawing board, whistling ragtime.”, what does “swaggered” most nearly mean?",
+      "options": [
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge",
+       "having or showing no mercy",
+       "soft, gentle breezes"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the last leaf never fall?",
+      "options": [
+       "Behrman painted it on the wall",
+       "It was glued",
+       "The wind stopped",
+       "It was plastic"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Still dark green near its stem, but with its serrated edges tinted with the yellow of dissolution and decay, it hung bravely from a branch some twenty feet above the ground.”, what does “serrated” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "having a jagged, saw-toothed edge",
+       "walked or behaved in a boastful, arrogant way"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Greed that grasps more than a person needs",
+       "A boy's romantic quest ending in disillusion",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Conflict",
+       "Symbolism",
+       "Plot",
+       "Metaphor"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Tone / mood",
+       "Conflict",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Behrman's leaf proves that true art serves people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrifice develops from an earlier story to “The Last Leaf”. Use one quotation from each.",
+      "expected": "Behrman gives his life for Johnsy's.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "having or showing no mercy"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "soft, gentle breezes"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "walked or behaved in a boastful, arrogant way"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Behrman painted it on the wall"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "having a jagged, saw-toothed edge"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman gives his life for Johnsy's."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Over on the east side this _____ strode boldly, smiting his victims by scores, but his feet trod slowly through the maze of the narrow and moss-grown “places.””",
+      "wordBank": [
+       "ravager",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "ravager",
+      "accept": [
+       "ravager"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the last leaf never fall?",
+      "options": [
+       "Behrman painted it on the wall",
+       "It was glued",
+       "The wind stopped",
+       "It was plastic"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Behrman?",
+      "options": [
+       "Johnsy's doctor",
+       "An old painter who has never painted his masterpiece",
+       "The landlord",
+       "Sue's father"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A mite of a little woman with blood thinned by California zephyrs was hardly fair game for the red-fisted, short-breathed old duffer.”, what does “zephyrs” most nearly mean?",
+      "options": [
+       "soft, gentle breezes",
+       "having or showing no mercy",
+       "walked or behaved in a boastful, arrogant way",
+       "having a jagged, saw-toothed edge"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Last Leaf, paragraph 4: “whom the doctors called _____, stalked about the colony”",
+      "answer": "Pneumonia",
+      "accept": [
+       "Pneumonia",
+       "pneumonia"
+      ],
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: ““She has one chance in—let us say, ten,” he said;’ as he shook down the mercury in his _____ thermometer.”",
+      "wordBank": [
+       "clinical",
+       "serrated",
+       "swaggered",
+       "zephyrs"
+      ],
+      "answer": "clinical",
+      "accept": [
+       "clinical"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “An artist once discovered a _____ possibility in this street.”",
+      "wordBank": [
+       "valuable",
+       "serrated",
+       "zephyrs",
+       "swaggered"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Last Leaf”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Greed that grasps more than a person needs",
+       "A boy's romantic quest ending in disillusion",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “When the last one falls I must go, too” (The Last Leaf, paragraph 21) Answer in two or three sentences with one detail.",
+      "expected": "Her despair.",
+      "element": "characterization",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “whom the doctors called Pneumonia, stalked about the colony” (The Last Leaf, paragraph 4). Pick two words and explain what they suggest.",
+      "expected": "Personification.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Behrman's leaf proves that true art serves people. Explain how this evidence supports the claim: “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55).",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? The leaf stands for life and hope.",
+      "options": [
+       "Conflict",
+       "Symbolism",
+       "Plot",
+       "Metaphor"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Last Leaf”? Pneumonia is \"Mr. Pneumonia,\" a cold stranger with an icy finger.",
+      "options": [
+       "Tone / mood",
+       "Conflict",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Behrman's leaf proves that true art serves people.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “When the last one falls I must go, too” (The Last Leaf, paragraph 21) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her despair.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 21",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrifice develops from an earlier story to “The Last Leaf”. Use one quotation from each.",
+      "expected": "Behrman gives his life for Johnsy's.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell” (The Last Leaf, paragraph 55) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Last Leaf, paragraph 55",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ravager"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Behrman painted it on the wall"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old painter who has never painted his masterpiece"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "soft, gentle breezes"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Pneumonia"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "clinical"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Hope created by an act of sacrifice"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her despair."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Personification."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman, who never painted a masterpiece, paints one leaf, and Sue says \"it’s Behrman’s masterpiece—he painted it there the night that the last leaf fell\"; its value is that it saved Johnsy."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her despair."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Behrman gives his life for Johnsy's."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5431,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Last Leaf teaches about hope and the will to live. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Last Leaf teaches about hope and the will to live. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5652,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Last Leaf teaches about art and sacrifice. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Last Leaf teaches about art and sacrifice. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5873,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Last Leaf teaches about friendship. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Last Leaf teaches about friendship. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6073,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Last Leaf: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how O. Henry develops hope and the will to live across The Last Leaf. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Last Leaf and argue how its meaning changes over the story and why that change matters to art and sacrifice."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Last Leaf. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Last Leaf finally endorses or criticizes its society's view of friendship. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

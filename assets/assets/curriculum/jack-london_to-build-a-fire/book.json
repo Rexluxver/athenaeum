@@ -196,9 +196,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "To Build a Fire unit",
   "author": "Jack London",
@@ -566,7 +567,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -577,159 +578,144 @@
   }
  ],
  "wholeBookTest": {
-  "title": "To Build a Fire: whole-book test",
+  "title": "To Build a Fire: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "How cold is it?",
-    "options": [
-     "About seventy-five degrees below zero",
-     "Forty above",
-     "Ten below",
-     "Freezing, thirty-two degrees"
-    ],
-    "answer": 0,
-    "element": "setting"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What advice did the old-timer from Sulphur Creek give?",
-    "options": [
-     "Never travel alone below fifty below",
-     "Follow the river",
-     "Leave the dog behind",
-     "Always carry a gun"
-    ],
-    "answer": 0,
-    "element": "foreshadowing"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What puts out the man's first big fire?",
     "options": [
-     "Snow falling from the spruce tree above",
-     "The dog",
      "Water from the creek",
-     "Wind"
+     "Wind",
+     "Snow falling from the spruce tree above",
+     "The dog"
     ],
-    "answer": 0,
-    "element": "irony"
+    "answer": 2,
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 2
    },
    {
+    "type": "mc",
+    "prompt": "What advice did the old-timer from Sulphur Creek give?",
+    "options": [
+     "Always carry a gun",
+     "Never travel alone below fifty below",
+     "Follow the river",
+     "Leave the dog behind"
+    ],
+    "answer": 1,
+    "element": "foreshadowing",
+    "level": "recall",
+    "dok": 1,
     "chapterIndex": 0,
+    "n": 3
+   },
+   {
+    "type": "mc",
     "prompt": "What does the dog rely on?",
     "options": [
      "The man's orders",
      "Instinct",
-     "Reason",
-     "A map"
+     "A map",
+     "Reason"
     ],
     "answer": 1,
-    "element": "theme"
+    "element": "theme",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What does the dog do at the end?",
     "options": [
      "Stays by the man",
      "Howls until rescued",
-     "Heads toward the camp and other food-providers",
-     "Runs into the woods"
-    ],
-    "answer": 2,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “It grew like an avalanche, and it descended without warning upon the man and the fire, and the fire was blotted out!”, what does “avalanche” most nearly mean?",
-    "options": [
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "expel air",
-     "informed; told",
-     "a slide of large masses of snow and ice and mud down a mountain"
+     "Runs into the woods",
+     "Heads toward the camp and other food-providers"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 6
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “He did not expose his fingers more than a minute, and was astonished at the swift numbness that smote them.”, what does “numbness” most nearly mean?",
+    "type": "mc",
+    "prompt": "How cold is it?",
     "options": [
-     "expel air",
-     "a slide of large masses of snow and ice and mud down a mountain",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "informed; told"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“It grew like an avalanche, and it descended without warning upon the man and the fire, and the fire was blotted out!”), what does “avalanche” mean?",
-    "options": [
-     "a slide of large masses of snow and ice and mud down a mountain",
-     "extend out or project in space",
-     "chew (food); to bite and grind with the teeth",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+     "About seventy-five degrees below zero",
+     "Forty above",
+     "Freezing, thirty-two degrees",
+     "Ten below"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "setting",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“He did not expose his fingers more than a minute, and was astonished at the swift numbness that smote them.”), what does “numbness” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “To Build a Fire”?",
     "options": [
-     "prickling or stinging slightly",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "get involved, so as to alter or hinder an action, or through force or threat of force",
-     "informed; told"
+     "The mind's final escape at the moment of death",
+     "A family and a house collapsing together",
+     "Waking into a changed nation",
+     "Human limits in an indifferent nature"
+    ],
+    "answer": 3,
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 12
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+    "options": [
+     "Conflict",
+     "Point of view",
+     "Simile",
+     "Imagery"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "pointOfView",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Usually the snow above the hidden pools had a sunken, candied appearance that advertised the danger.”), what does “advertised” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
     "options": [
-     "talk indistinctly; usually in a low voice",
-     "first one and then the other",
-     "informed; told",
-     "expel air"
+     "Plot",
+     "Foreshadowing",
+     "Allusion",
+     "Setting"
     ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
+    "answer": 1,
+    "element": "foreshadowing",
+    "level": "analysis",
+    "dok": 3,
     "chapterIndex": 0,
-    "prompt": "As used in the story (“The man's red beard and mustache were likewise frosted, but more solidly, the deposit taking the form of ice and increasing with every warm,”), what does “exhaled” mean?",
-    "options": [
-     "chew (food); to bite and grind with the teeth",
-     "a slide of large masses of snow and ice and mud down a mountain",
-     "extend out or project in space",
-     "expel air"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“As for lunch, he pressed his hand against the protruding bundle under his jacket.”), what does “protruding” mean?",
-    "options": [
-     "extend out or project in space",
-     "get involved, so as to alter or hinder an action, or through force or threat of force",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "prickling or stinging slightly"
-    ],
-    "answer": 0,
-    "element": "diction"
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "About seventy-five degrees below zero",
-    "element": "setting"
+    "answer": "Snow falling from the spruce tree above",
+    "element": "irony"
    },
    {
     "n": 2,
@@ -738,61 +724,4707 @@
    },
    {
     "n": 3,
-    "answer": "Snow falling from the spruce tree above",
-    "element": "irony"
-   },
-   {
-    "n": 4,
     "answer": "Instinct",
     "element": "theme"
    },
    {
-    "n": 5,
+    "n": 4,
     "answer": "Heads toward the camp and other food-providers",
     "element": "plot"
    },
    {
+    "n": 5,
+    "answer": "About seventy-five degrees below zero",
+    "element": "setting"
+   },
+   {
     "n": 6,
-    "answer": "a slide of large masses of snow and ice and mud down a mountain",
-    "element": "diction"
+    "answer": "Human limits in an indifferent nature",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-    "element": "diction"
+    "answer": "Point of view",
+    "element": "pointOfView"
    },
    {
     "n": 8,
-    "answer": "a slide of large masses of snow and ice and mud down a mountain",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "informed; told",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "expel air",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "extend out or project in space",
-    "element": "diction"
+    "answer": "Foreshadowing",
+    "element": "foreshadowing"
    }
   ],
-  "shortAnswer": [
-   "Explain how nature's indifference develops from the beginning of the story to the end. Use two passages.",
-   "Explain how instinct versus reason develops from the beginning of the story to the end. Use two passages.",
-   "Explain how pride develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (nature's indifference, instinct versus reason, pride) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What advice did the old-timer from Sulphur Creek give?",
+      "options": [
+       "Always carry a gun",
+       "Never travel alone below fifty below",
+       "Follow the river",
+       "Leave the dog behind"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog rely on?",
+      "options": [
+       "The man's orders",
+       "Instinct",
+       "A map",
+       "Reason"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Water from the creek",
+       "Wind",
+       "Snow falling from the spruce tree above",
+       "The dog"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Stays by the man",
+       "Howls until rescued",
+       "Runs into the woods",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “As for lunch, he pressed his hand against the _____ bundle under his jacket.”",
+      "wordBank": [
+       "protruding",
+       "numbness",
+       "advertised",
+       "avalanche"
+      ],
+      "answer": "protruding",
+      "accept": [
+       "protruding"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 41: “Then it turned and trotted up the trail in the _____ of the camp it knew”",
+      "answer": "direction",
+      "accept": [
+       "direction",
+       "direction"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "avalanche",
+       "advertised",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "advertised",
+       "numbness",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Also, the man was _____ tobacco, and the muzzle of ice held his lips so rigidly that he was unable to clear his chin when he expelled the juice.”",
+      "wordBank": [
+       "advertised",
+       "numbness",
+       "avalanche",
+       "chewing"
+      ],
+      "answer": "chewing",
+      "accept": [
+       "chewing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "How cold is it?",
+      "options": [
+       "About seventy-five degrees below zero",
+       "Forty above",
+       "Freezing, thirty-two degrees",
+       "Ten below"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "A family and a house collapsing together",
+       "Waking into a changed nation",
+       "Human limits in an indifferent nature"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Plot",
+       "Foreshadowing",
+       "Allusion",
+       "Setting"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Never travel alone below fifty below"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Instinct"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "protruding"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "direction"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "chewing"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "About seventy-five degrees below zero"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Also, the man was _____ tobacco, and the muzzle of ice held his lips so rigidly that he was unable to clear his chin when he expelled the juice.”",
+      "wordBank": [
+       "advertised",
+       "numbness",
+       "avalanche",
+       "chewing"
+      ],
+      "answer": "chewing",
+      "accept": [
+       "chewing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "advertised",
+       "numbness",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Water from the creek",
+       "Wind",
+       "Snow falling from the spruce tree above",
+       "The dog"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 41: “Then it turned and trotted up the trail in the _____ of the camp it knew”",
+      "answer": "direction",
+      "accept": [
+       "direction",
+       "direction"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "avalanche",
+       "advertised",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Stays by the man",
+       "Howls until rescued",
+       "Runs into the woods",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “As for lunch, he pressed his hand against the _____ bundle under his jacket.”",
+      "wordBank": [
+       "protruding",
+       "numbness",
+       "advertised",
+       "avalanche"
+      ],
+      "answer": "protruding",
+      "accept": [
+       "protruding"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "How cold is it?",
+      "options": [
+       "About seventy-five degrees below zero",
+       "Forty above",
+       "Freezing, thirty-two degrees",
+       "Ten below"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog rely on?",
+      "options": [
+       "The man's orders",
+       "Instinct",
+       "A map",
+       "Reason"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What advice did the old-timer from Sulphur Creek give?",
+      "options": [
+       "Always carry a gun",
+       "Never travel alone below fifty below",
+       "Follow the river",
+       "Leave the dog behind"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "A family and a house collapsing together",
+       "Waking into a changed nation",
+       "Human limits in an indifferent nature"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Plot",
+       "Foreshadowing",
+       "Allusion",
+       "Setting"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "chewing"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "direction"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "protruding"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "About seventy-five degrees below zero"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Instinct"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Never travel alone below fifty below"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "avalanche",
+       "advertised",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Water from the creek",
+       "Wind",
+       "Snow falling from the spruce tree above",
+       "The dog"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What advice did the old-timer from Sulphur Creek give?",
+      "options": [
+       "Always carry a gun",
+       "Never travel alone below fifty below",
+       "Follow the river",
+       "Leave the dog behind"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog rely on?",
+      "options": [
+       "The man's orders",
+       "Instinct",
+       "A map",
+       "Reason"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "advertised",
+       "numbness",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Stays by the man",
+       "Howls until rescued",
+       "Runs into the woods",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 41: “Then it turned and trotted up the trail in the _____ of the camp it knew”",
+      "answer": "direction",
+      "accept": [
+       "direction",
+       "direction"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “As for lunch, he pressed his hand against the _____ bundle under his jacket.”",
+      "wordBank": [
+       "protruding",
+       "numbness",
+       "advertised",
+       "avalanche"
+      ],
+      "answer": "protruding",
+      "accept": [
+       "protruding"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "How cold is it?",
+      "options": [
+       "About seventy-five degrees below zero",
+       "Forty above",
+       "Freezing, thirty-two degrees",
+       "Ten below"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "A family and a house collapsing together",
+       "Waking into a changed nation",
+       "Human limits in an indifferent nature"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Conflict",
+       "Point of view",
+       "Simile",
+       "Imagery"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Plot",
+       "Foreshadowing",
+       "Allusion",
+       "Setting"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Never travel alone below fifty below"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Instinct"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "direction"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "protruding"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "About seventy-five degrees below zero"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “As for lunch, he pressed his hand against the _____ bundle under his jacket.”",
+      "wordBank": [
+       "protruding",
+       "numbness",
+       "advertised",
+       "avalanche"
+      ],
+      "answer": "protruding",
+      "accept": [
+       "protruding"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog rely on?",
+      "options": [
+       "The man's orders",
+       "Instinct",
+       "A map",
+       "Reason"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Also, the man was _____ tobacco, and the muzzle of ice held his lips so rigidly that he was unable to clear his chin when he expelled the juice.”",
+      "wordBank": [
+       "advertised",
+       "numbness",
+       "avalanche",
+       "chewing"
+      ],
+      "answer": "chewing",
+      "accept": [
+       "chewing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How cold is it?",
+      "options": [
+       "About seventy-five degrees below zero",
+       "Forty above",
+       "Freezing, thirty-two degrees",
+       "Ten below"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "advertised",
+       "numbness",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What advice did the old-timer from Sulphur Creek give?",
+      "options": [
+       "Always carry a gun",
+       "Never travel alone below fifty below",
+       "Follow the river",
+       "Leave the dog behind"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 41: “Then it turned and trotted up the trail in the _____ of the camp it knew”",
+      "answer": "direction",
+      "accept": [
+       "direction",
+       "direction"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Water from the creek",
+       "Wind",
+       "Snow falling from the spruce tree above",
+       "The dog"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "A family and a house collapsing together",
+       "Waking into a changed nation",
+       "Human limits in an indifferent nature"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Plot",
+       "Foreshadowing",
+       "Allusion",
+       "Setting"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Conflict",
+       "Point of view",
+       "Simile",
+       "Imagery"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "protruding"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Instinct"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "chewing"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "About seventy-five degrees below zero"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Never travel alone below fifty below"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "direction"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does the dog rely on?",
+      "options": [
+       "The man's orders",
+       "Instinct",
+       "A map",
+       "Reason"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Also, the man was _____ tobacco, and the muzzle of ice held his lips so rigidly that he was unable to clear his chin when he expelled the juice.”",
+      "wordBank": [
+       "advertised",
+       "numbness",
+       "avalanche",
+       "chewing"
+      ],
+      "answer": "chewing",
+      "accept": [
+       "chewing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 41: “Then it turned and trotted up the trail in the _____ of the camp it knew”",
+      "answer": "direction",
+      "accept": [
+       "direction",
+       "direction"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "advertised",
+       "numbness",
+       "tingling"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Stays by the man",
+       "Howls until rescued",
+       "Runs into the woods",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Water from the creek",
+       "Wind",
+       "Snow falling from the spruce tree above",
+       "The dog"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What advice did the old-timer from Sulphur Creek give?",
+      "options": [
+       "Always carry a gun",
+       "Never travel alone below fifty below",
+       "Follow the river",
+       "Leave the dog behind"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "A family and a house collapsing together",
+       "Waking into a changed nation",
+       "Human limits in an indifferent nature"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Plot",
+       "Foreshadowing",
+       "Allusion",
+       "Setting"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Conflict",
+       "Point of view",
+       "Simile",
+       "Imagery"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last admission.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Instinct"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "chewing"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "direction"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Never travel alone below fifty below"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last admission."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “Usually the snow above the hidden pools had a sunken, candied appearance that advertised the danger.”, what does “advertised” most nearly mean?",
+      "options": [
+       "expel air",
+       "informed; told",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "advertised",
+       "avalanche",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Wind",
+       "Water from the creek",
+       "The dog",
+       "Snow falling from the spruce tree above"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "numbness",
+       "tingling",
+       "advertised"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The man's red beard and mustache were likewise frosted, but more solidly, the deposit taking the form of ice and increasing with every warm, moist breath he exhaled.”, what does “exhaled” most nearly mean?",
+      "options": [
+       "informed; told",
+       "expel air",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "a slide of large masses of snow and ice and mud down a mountain"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He did not expose his fingers more than a minute, and was astonished at the swift numbness that smote them.”, what does “numbness” most nearly mean?",
+      "options": [
+       "expel air",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "informed; told"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "The arrogance and loneliness of seeing differently",
+       "A reversal that punishes a change of heart",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Allusion",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Point of view",
+       "Metaphor",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last admission.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "informed; told"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "expel air"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last admission."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “He did not expose his fingers more than a minute, and was astonished at the swift numbness that smote them.”, what does “numbness” most nearly mean?",
+      "options": [
+       "expel air",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "informed; told"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The man's red beard and mustache were likewise frosted, but more solidly, the deposit taking the form of ice and increasing with every warm, moist breath he exhaled.”, what does “exhaled” most nearly mean?",
+      "options": [
+       "informed; told",
+       "expel air",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "a slide of large masses of snow and ice and mud down a mountain"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What advice did the old-timer from Sulphur Creek give?",
+      "options": [
+       "Always carry a gun",
+       "Never travel alone below fifty below",
+       "Follow the river",
+       "Leave the dog behind"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "advertised",
+       "avalanche",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Usually the snow above the hidden pools had a sunken, candied appearance that advertised the danger.”, what does “advertised” most nearly mean?",
+      "options": [
+       "expel air",
+       "informed; told",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Wind",
+       "Water from the creek",
+       "The dog",
+       "Snow falling from the spruce tree above"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "The arrogance and loneliness of seeing differently",
+       "A reversal that punishes a change of heart",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Point of view",
+       "Metaphor",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Allusion",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last admission.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "expel air"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Never travel alone below fifty below"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "informed; told"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last admission."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “The man's red beard and mustache were likewise frosted, but more solidly, the deposit taking the form of ice and increasing with every warm, moist breath he exhaled.”, what does “exhaled” most nearly mean?",
+      "options": [
+       "informed; told",
+       "expel air",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "a slide of large masses of snow and ice and mud down a mountain"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Also, the man was _____ tobacco, and the muzzle of ice held his lips so rigidly that he was unable to clear his chin when he expelled the juice.”",
+      "wordBank": [
+       "numbness",
+       "avalanche",
+       "advertised",
+       "chewing"
+      ],
+      "answer": "chewing",
+      "accept": [
+       "chewing"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “As for lunch, he pressed his hand against the _____ bundle under his jacket.”",
+      "wordBank": [
+       "protruding",
+       "numbness",
+       "advertised",
+       "avalanche"
+      ],
+      "answer": "protruding",
+      "accept": [
+       "protruding"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Runs into the woods",
+       "Stays by the man",
+       "Howls until rescued",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog rely on?",
+      "options": [
+       "Reason",
+       "The man's orders",
+       "A map",
+       "Instinct"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What advice did the old-timer from Sulphur Creek give?",
+      "options": [
+       "Always carry a gun",
+       "Never travel alone below fifty below",
+       "Follow the river",
+       "Leave the dog behind"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "numbness",
+       "tingling",
+       "advertised"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "The arrogance and loneliness of seeing differently",
+       "A reversal that punishes a change of heart",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Allusion",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Point of view",
+       "Metaphor",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last admission.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "expel air"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "chewing"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "protruding"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Instinct"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Never travel alone below fifty below"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last admission."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The man's red beard and mustache were likewise frosted, but more solidly, the deposit taking the form of ice and increasing with every warm, moist breath he exhaled.”, what does “exhaled” most nearly mean?",
+      "options": [
+       "informed; told",
+       "expel air",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "a slide of large masses of snow and ice and mud down a mountain"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Runs into the woods",
+       "Stays by the man",
+       "Howls until rescued",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "numbness",
+       "tingling",
+       "advertised"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "advertised",
+       "avalanche",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “As for lunch, he pressed his hand against the _____ bundle under his jacket.”",
+      "wordBank": [
+       "protruding",
+       "numbness",
+       "advertised",
+       "avalanche"
+      ],
+      "answer": "protruding",
+      "accept": [
+       "protruding"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog rely on?",
+      "options": [
+       "Reason",
+       "The man's orders",
+       "A map",
+       "Instinct"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "The arrogance and loneliness of seeing differently",
+       "A reversal that punishes a change of heart",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Point of view",
+       "Metaphor",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Allusion",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last admission.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "expel air"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "protruding"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Instinct"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last admission."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “It grew like an avalanche, and it descended without warning upon the man and the fire, and the fire was blotted out!”, what does “avalanche” most nearly mean?",
+      "options": [
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "informed; told",
+       "expel air",
+       "a slide of large masses of snow and ice and mud down a mountain"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 41: “Then it turned and trotted up the trail in the _____ of the camp it knew”",
+      "answer": "direction",
+      "accept": [
+       "direction",
+       "direction"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Runs into the woods",
+       "Stays by the man",
+       "Howls until rescued",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Wind",
+       "Water from the creek",
+       "The dog",
+       "Snow falling from the spruce tree above"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He did not expose his fingers more than a minute, and was astonished at the swift numbness that smote them.”, what does “numbness” most nearly mean?",
+      "options": [
+       "expel air",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "informed; told"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "advertised",
+       "avalanche",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "The arrogance and loneliness of seeing differently",
+       "A reversal that punishes a change of heart",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Point of view",
+       "Metaphor",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Allusion",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last admission.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a slide of large masses of snow and ice and mud down a mountain"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "direction"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last admission."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"You were right, old hoss; you were right,\" the man _____ to the old-timer of Sulphur Creek.”",
+      "wordBank": [
+       "numbness",
+       "advertised",
+       "avalanche",
+       "mumbled"
+      ],
+      "answer": "mumbled",
+      "accept": [
+       "mumbled"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 41: “Then it turned and trotted up the trail in the _____ of the camp it knew”",
+      "answer": "direction",
+      "accept": [
+       "direction",
+       "direction"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Usually the snow above the hidden pools had a sunken, candied appearance that advertised the danger.”, what does “advertised” most nearly mean?",
+      "options": [
+       "expel air",
+       "informed; told",
+       "a slide of large masses of snow and ice and mud down a mountain",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from To Build a Fire, paragraph 3: “The trouble with him was that he was without _____”",
+      "answer": "imagination",
+      "accept": [
+       "imagination",
+       "imagination"
+      ],
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the dog do at the end?",
+      "options": [
+       "Runs into the woods",
+       "Stays by the man",
+       "Howls until rescued",
+       "Heads toward the camp and other food-providers"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The faint _____ grew stronger till it evolved into a stinging ache that was excruciating, but which the man hailed with satisfaction.”",
+      "wordBank": [
+       "avalanche",
+       "numbness",
+       "tingling",
+       "advertised"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What puts out the man's first big fire?",
+      "options": [
+       "Wind",
+       "Water from the creek",
+       "The dog",
+       "Snow falling from the spruce tree above"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) Answer in two or three sentences with one detail.",
+      "expected": "His flaw.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) Answer in two or three sentences with one detail.",
+      "expected": "His last admission.",
+      "element": "characterization",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “To Build a Fire”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "The arrogance and loneliness of seeing differently",
+       "A reversal that punishes a change of heart",
+       "Confinement driving a woman into madness"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? An omniscient narrator knows more than the man and tells us his flaw early.",
+      "options": [
+       "Point of view",
+       "Metaphor",
+       "Plot",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “To Build a Fire”? The old-timer's warning and each mistake build suspense.",
+      "options": [
+       "Characterization",
+       "Foreshadowing",
+       "Allusion",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "foreshadowing",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The man dies because he has information but no imagination. Explain how this evidence supports the claim: “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3).",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Then it turned and trotted up the trail in the direction of the camp it knew” (To Build a Fire, paragraph 41). Pick two words and explain what they suggest.",
+      "expected": "Nature's indifference.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 41",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “The trouble with him was that he was without imagination” (To Build a Fire, paragraph 3) shape its meaning? Consider a second, competing reading.",
+      "expected": "His flaw.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 3",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how instinct versus intelligence develops from an earlier story to “To Build a Fire”. Use one quotation from each.",
+      "expected": "the dog knows what the man does not.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The man dies because he has information but no imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “You were right, old hoss; you were right” (To Build a Fire, paragraph 40) shape its meaning? Consider a second, competing reading.",
+      "expected": "His last admission.",
+      "element": "diction",
+      "location": "To Build a Fire, paragraph 40",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mumbled"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "direction"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "informed; told"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "imagination"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Heads toward the camp and other food-providers"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Snow falling from the spruce tree above"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His flaw."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His last admission."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Human limits in an indifferent nature"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Foreshadowing"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Nature's indifference."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His flaw."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the dog knows what the man does not."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator says \"The trouble with him was that he was without imagination\"; only at death does he admit \"You were right, old hoss,\" and the dog \"trotted up the trail,\" indifferent."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His last admission."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -816,7 +5448,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what To Build a Fire teaches about nature's indifference. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what To Build a Fire teaches about nature's indifference. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1037,7 +5669,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what To Build a Fire teaches about instinct versus reason. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what To Build a Fire teaches about instinct versus reason. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1258,7 +5890,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what To Build a Fire teaches about pride. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what To Build a Fire teaches about pride. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1458,5 +6090,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "To Build a Fire: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Jack London develops nature's indifference across To Build a Fire. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in To Build a Fire and argue how its meaning changes over the story and why that change matters to instinct versus reason."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in To Build a Fire. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether To Build a Fire finally endorses or criticizes its society's view of pride. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

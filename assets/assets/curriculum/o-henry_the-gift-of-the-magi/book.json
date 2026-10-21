@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Gift of the Magi unit",
   "author": "O. Henry",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,47 +580,28 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Gift of the Magi: whole-book test",
+  "title": "The Gift of the Magi: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "How much money does Della have at the start?",
-    "options": [
-     "Eight dollars",
-     "Nothing",
-     "One dollar and eighty-seven cents",
-     "Twenty dollars"
-    ],
-    "answer": 2,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What does Della sell?",
     "options": [
-     "Her coat",
-     "Her watch",
      "Her ring",
+     "Her watch",
+     "Her coat",
      "Her hair"
     ],
     "answer": 3,
-    "element": "plot"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
-    "chapterIndex": 0,
-    "prompt": "What does Della buy for Jim?",
-    "options": [
-     "A gold ring",
-     "A new coat",
-     "A pair of gloves",
-     "A platinum fob chain for his watch"
-    ],
-    "answer": 3,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What has Jim bought for Della?",
     "options": [
      "A mirror",
@@ -628,173 +610,4824 @@
      "A set of tortoise-shell combs"
     ],
     "answer": 3,
-    "element": "irony"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 3
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Why does the narrator call Jim and Della 'the magi'?",
     "options": [
-     "They are kings",
      "They are rich",
      "They gave the wisest gifts, out of love",
-     "They are from the East"
-    ],
-    "answer": 2,
-    "element": "allusion"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “She was ransacking the stores for Jim’s present.”, what does “ransacking” most nearly mean?",
-    "options": [
-     "searching a place thoroughly, often roughly",
-     "an entrance hall",
-     "to belittle; to speak of as unimportant",
-     "a falling mass, like a waterfall"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “So now Della’s beautiful hair fell about her, rippling and shining like a cascade of brown waters.”, what does “cascade” most nearly mean?",
-    "options": [
-     "searching a place thoroughly, often roughly",
-     "to belittle; to speak of as unimportant",
-     "an entrance hall",
-     "a falling mass, like a waterfall"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“She was ransacking the stores for Jim’s present.”), what does “ransacking” mean?",
-    "options": [
-     "searching a place thoroughly, often roughly",
-     "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
-     "not important",
-     "a falling mass, like a waterfall"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“So now Della’s beautiful hair fell about her, rippling and shining like a cascade of brown waters.”), what does “cascade” mean?",
-    "options": [
-     "useful; worth having",
-     "a falling mass, like a waterfall",
-     "showy but cheap or without real value",
-     "to belittle; to speak of as unimportant"
+     "They are from the East",
+     "They are kings"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "allusion",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Had the Queen of Sheba lived in the flat across the airshaft, Della would have let her hair hang out the window some day to dry just to depr”), what does “depreciate” mean?",
+    "type": "mc",
+    "prompt": "How much money does Della have at the start?",
     "options": [
-     "the practice or state of begging",
-     "things that decorate or beautify",
-     "to belittle; to speak of as unimportant",
-     "an entrance hall"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“In the vestibule below was a letter-box into which no letter would go, and an electric button from which no mortal finger could coax a ring.”), what does “vestibule” mean?",
-    "options": [
-     "not important",
-     "searching a place thoroughly, often roughly",
-     "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
-     "an entrance hall"
+     "Nothing",
+     "Twenty dollars",
+     "Eight dollars",
+     "One dollar and eighty-seven cents"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly accurate conc”), what does “accurate” mean?",
+    "type": "mc",
+    "prompt": "What does Della buy for Jim?",
     "options": [
-     "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
-     "showy but cheap or without real value",
-     "a falling mass, like a waterfall",
-     "useful; worth having"
+     "A pair of gloves",
+     "A platinum fob chain for his watch",
+     "A gold ring",
+     "A new coat"
+    ],
+    "answer": 1,
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 9
+   },
+   {
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+    "options": [
+     "Love measured by sacrifice",
+     "The cost of wanting to seem richer than you are",
+     "A reversal that punishes a change of heart",
+     "Hope created by an act of sacrifice"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 11
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+    "options": [
+     "Setting",
+     "NarratorVoice",
+     "Personification",
+     "Tone / mood"
+    ],
+    "answer": 1,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+    "options": [
+     "Alliteration",
+     "Conflict",
+     "Irony",
+     "Structure"
+    ],
+    "answer": 2,
+    "element": "irony",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "One dollar and eighty-seven cents",
-    "element": "plot"
-   },
-   {
-    "n": 2,
     "answer": "Her hair",
     "element": "plot"
    },
    {
-    "n": 3,
-    "answer": "A platinum fob chain for his watch",
-    "element": "symbolism"
-   },
-   {
-    "n": 4,
+    "n": 2,
     "answer": "A set of tortoise-shell combs",
     "element": "irony"
    },
    {
-    "n": 5,
+    "n": 3,
     "answer": "They gave the wisest gifts, out of love",
     "element": "allusion"
    },
    {
+    "n": 4,
+    "answer": "One dollar and eighty-seven cents",
+    "element": "plot"
+   },
+   {
+    "n": 5,
+    "answer": "A platinum fob chain for his watch",
+    "element": "symbolism"
+   },
+   {
     "n": 6,
-    "answer": "searching a place thoroughly, often roughly",
-    "element": "diction"
+    "answer": "Love measured by sacrifice",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "a falling mass, like a waterfall",
-    "element": "diction"
+    "answer": "NarratorVoice",
+    "element": "structure"
    },
    {
     "n": 8,
-    "answer": "searching a place thoroughly, often roughly",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "a falling mass, like a waterfall",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "to belittle; to speak of as unimportant",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "an entrance hall",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
-    "element": "diction"
+    "answer": "Irony",
+    "element": "irony"
    }
   ],
-  "shortAnswer": [
-   "Explain how sacrificial love develops from the beginning of the story to the end. Use two passages.",
-   "Explain how wealth and poverty develops from the beginning of the story to the end. Use two passages.",
-   "Explain how irony of giving develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (sacrificial love, wealth and poverty, irony of giving) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Why does the narrator call Jim and Della 'the magi'?",
+      "options": [
+       "They are rich",
+       "They gave the wisest gifts, out of love",
+       "They are from the East",
+       "They are kings"
+      ],
+      "answer": 1,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 1: “ONE _____ and eighty-seven cents. That was all”",
+      "answer": "dollar",
+      "accept": [
+       "dollar",
+       "dollar"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "valuable",
+       "cascade",
+       "ransacking",
+       "depreciate"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 44: “let’s put our _____ presents away and keep’em a while”",
+      "answer": "Christmas",
+      "accept": [
+       "Christmas",
+       "christmas"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly _____ conception of his looks.”",
+      "wordBank": [
+       "depreciate",
+       "ransacking",
+       "cascade",
+       "accurate"
+      ],
+      "answer": "accurate",
+      "accept": [
+       "accurate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How much money does Della have at the start?",
+      "options": [
+       "Nothing",
+       "Twenty dollars",
+       "Eight dollars",
+       "One dollar and eighty-seven cents"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For ten seconds let us regard with discreet scrutiny some _____ object in the other direction.”",
+      "wordBank": [
+       "inconsequential",
+       "ransacking",
+       "cascade",
+       "depreciate"
+      ],
+      "answer": "inconsequential",
+      "accept": [
+       "inconsequential"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della buy for Jim?",
+      "options": [
+       "A pair of gloves",
+       "A platinum fob chain for his watch",
+       "A gold ring",
+       "A new coat"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It did not exactly beggar description, but it certainly had that word on the lookout for the _____ squad.”",
+      "wordBank": [
+       "cascade",
+       "ransacking",
+       "mendicancy",
+       "depreciate"
+      ],
+      "answer": "mendicancy",
+      "accept": [
+       "mendicancy"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della sell?",
+      "options": [
+       "Her ring",
+       "Her watch",
+       "Her coat",
+       "Her hair"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 45: “of all who give gifts these two were the _____”",
+      "answer": "wisest",
+      "accept": [
+       "wisest",
+       "wisest"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A mirror",
+       "A hat",
+       "A necklace",
+       "A set of tortoise-shell combs"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "The cost of wanting to seem richer than you are",
+       "A reversal that punishes a change of heart",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Alliteration",
+       "Conflict",
+       "Irony",
+       "Structure"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Setting",
+       "NarratorVoice",
+       "Personification",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "They gave the wisest gifts, out of love"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dollar"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Christmas"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "accurate"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "One dollar and eighty-seven cents"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "inconsequential"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A platinum fob chain for his watch"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mendicancy"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her hair"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wisest"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     }
+    ],
+    "mix": {
+     "recall": 12,
+     "inference": 3,
+     "analysis": 2,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 7,
+     "short": 3
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For ten seconds let us regard with discreet scrutiny some _____ object in the other direction.”",
+      "wordBank": [
+       "inconsequential",
+       "ransacking",
+       "cascade",
+       "depreciate"
+      ],
+      "answer": "inconsequential",
+      "accept": [
+       "inconsequential"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "valuable",
+       "cascade",
+       "ransacking",
+       "depreciate"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly _____ conception of his looks.”",
+      "wordBank": [
+       "depreciate",
+       "ransacking",
+       "cascade",
+       "accurate"
+      ],
+      "answer": "accurate",
+      "accept": [
+       "accurate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 1: “ONE _____ and eighty-seven cents. That was all”",
+      "answer": "dollar",
+      "accept": [
+       "dollar",
+       "dollar"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della buy for Jim?",
+      "options": [
+       "A pair of gloves",
+       "A platinum fob chain for his watch",
+       "A gold ring",
+       "A new coat"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 44: “let’s put our _____ presents away and keep’em a while”",
+      "answer": "Christmas",
+      "accept": [
+       "Christmas",
+       "christmas"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 45: “of all who give gifts these two were the _____”",
+      "answer": "wisest",
+      "accept": [
+       "wisest",
+       "wisest"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the narrator call Jim and Della 'the magi'?",
+      "options": [
+       "They are rich",
+       "They gave the wisest gifts, out of love",
+       "They are from the East",
+       "They are kings"
+      ],
+      "answer": 1,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della sell?",
+      "options": [
+       "Her ring",
+       "Her watch",
+       "Her coat",
+       "Her hair"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A mirror",
+       "A hat",
+       "A necklace",
+       "A set of tortoise-shell combs"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "How much money does Della have at the start?",
+      "options": [
+       "Nothing",
+       "Twenty dollars",
+       "Eight dollars",
+       "One dollar and eighty-seven cents"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "The cost of wanting to seem richer than you are",
+       "A reversal that punishes a change of heart",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Setting",
+       "NarratorVoice",
+       "Personification",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Alliteration",
+       "Conflict",
+       "Irony",
+       "Structure"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "inconsequential"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "accurate"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dollar"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A platinum fob chain for his watch"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Christmas"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wisest"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "They gave the wisest gifts, out of love"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her hair"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "One dollar and eighty-seven cents"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Della sell?",
+      "options": [
+       "Her ring",
+       "Her watch",
+       "Her coat",
+       "Her hair"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It did not exactly beggar description, but it certainly had that word on the lookout for the _____ squad.”",
+      "wordBank": [
+       "cascade",
+       "ransacking",
+       "mendicancy",
+       "depreciate"
+      ],
+      "answer": "mendicancy",
+      "accept": [
+       "mendicancy"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A mirror",
+       "A hat",
+       "A necklace",
+       "A set of tortoise-shell combs"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the narrator call Jim and Della 'the magi'?",
+      "options": [
+       "They are rich",
+       "They gave the wisest gifts, out of love",
+       "They are from the East",
+       "They are kings"
+      ],
+      "answer": 1,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 45: “of all who give gifts these two were the _____”",
+      "answer": "wisest",
+      "accept": [
+       "wisest",
+       "wisest"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For ten seconds let us regard with discreet scrutiny some _____ object in the other direction.”",
+      "wordBank": [
+       "inconsequential",
+       "ransacking",
+       "cascade",
+       "depreciate"
+      ],
+      "answer": "inconsequential",
+      "accept": [
+       "inconsequential"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 44: “let’s put our _____ presents away and keep’em a while”",
+      "answer": "Christmas",
+      "accept": [
+       "Christmas",
+       "christmas"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How much money does Della have at the start?",
+      "options": [
+       "Nothing",
+       "Twenty dollars",
+       "Eight dollars",
+       "One dollar and eighty-seven cents"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della buy for Jim?",
+      "options": [
+       "A pair of gloves",
+       "A platinum fob chain for his watch",
+       "A gold ring",
+       "A new coat"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "valuable",
+       "cascade",
+       "ransacking",
+       "depreciate"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "The cost of wanting to seem richer than you are",
+       "A reversal that punishes a change of heart",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Setting",
+       "NarratorVoice",
+       "Personification",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Alliteration",
+       "Conflict",
+       "Irony",
+       "Structure"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her hair"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mendicancy"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "They gave the wisest gifts, out of love"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wisest"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "inconsequential"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Christmas"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "One dollar and eighty-seven cents"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A platinum fob chain for his watch"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 1: “ONE _____ and eighty-seven cents. That was all”",
+      "answer": "dollar",
+      "accept": [
+       "dollar",
+       "dollar"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "valuable",
+       "cascade",
+       "ransacking",
+       "depreciate"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della buy for Jim?",
+      "options": [
+       "A pair of gloves",
+       "A platinum fob chain for his watch",
+       "A gold ring",
+       "A new coat"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How much money does Della have at the start?",
+      "options": [
+       "Nothing",
+       "Twenty dollars",
+       "Eight dollars",
+       "One dollar and eighty-seven cents"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A mirror",
+       "A hat",
+       "A necklace",
+       "A set of tortoise-shell combs"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della sell?",
+      "options": [
+       "Her ring",
+       "Her watch",
+       "Her coat",
+       "Her hair"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For ten seconds let us regard with discreet scrutiny some _____ object in the other direction.”",
+      "wordBank": [
+       "inconsequential",
+       "ransacking",
+       "cascade",
+       "depreciate"
+      ],
+      "answer": "inconsequential",
+      "accept": [
+       "inconsequential"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 44: “let’s put our _____ presents away and keep’em a while”",
+      "answer": "Christmas",
+      "accept": [
+       "Christmas",
+       "christmas"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly _____ conception of his looks.”",
+      "wordBank": [
+       "depreciate",
+       "ransacking",
+       "cascade",
+       "accurate"
+      ],
+      "answer": "accurate",
+      "accept": [
+       "accurate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "The cost of wanting to seem richer than you are",
+       "A reversal that punishes a change of heart",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Setting",
+       "NarratorVoice",
+       "Personification",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Alliteration",
+       "Conflict",
+       "Irony",
+       "Structure"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dollar"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A platinum fob chain for his watch"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "One dollar and eighty-seven cents"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her hair"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "inconsequential"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Christmas"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "accurate"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How much money does Della have at the start?",
+      "options": [
+       "Nothing",
+       "Twenty dollars",
+       "Eight dollars",
+       "One dollar and eighty-seven cents"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della buy for Jim?",
+      "options": [
+       "A pair of gloves",
+       "A platinum fob chain for his watch",
+       "A gold ring",
+       "A new coat"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It did not exactly beggar description, but it certainly had that word on the lookout for the _____ squad.”",
+      "wordBank": [
+       "cascade",
+       "ransacking",
+       "mendicancy",
+       "depreciate"
+      ],
+      "answer": "mendicancy",
+      "accept": [
+       "mendicancy"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly _____ conception of his looks.”",
+      "wordBank": [
+       "depreciate",
+       "ransacking",
+       "cascade",
+       "accurate"
+      ],
+      "answer": "accurate",
+      "accept": [
+       "accurate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della sell?",
+      "options": [
+       "Her ring",
+       "Her watch",
+       "Her coat",
+       "Her hair"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For ten seconds let us regard with discreet scrutiny some _____ object in the other direction.”",
+      "wordBank": [
+       "inconsequential",
+       "ransacking",
+       "cascade",
+       "depreciate"
+      ],
+      "answer": "inconsequential",
+      "accept": [
+       "inconsequential"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "valuable",
+       "cascade",
+       "ransacking",
+       "depreciate"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 1: “ONE _____ and eighty-seven cents. That was all”",
+      "answer": "dollar",
+      "accept": [
+       "dollar",
+       "dollar"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "The cost of wanting to seem richer than you are",
+       "A reversal that punishes a change of heart",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Alliteration",
+       "Conflict",
+       "Irony",
+       "Structure"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Setting",
+       "NarratorVoice",
+       "Personification",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "One dollar and eighty-seven cents"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A platinum fob chain for his watch"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mendicancy"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "accurate"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her hair"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "inconsequential"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dollar"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 6,
+     "fill": 5,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It did not exactly beggar description, but it certainly had that word on the lookout for the _____ squad.”",
+      "wordBank": [
+       "ransacking",
+       "mendicancy",
+       "cascade",
+       "depreciate"
+      ],
+      "answer": "mendicancy",
+      "accept": [
+       "mendicancy"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 45: “of all who give gifts these two were the _____”",
+      "answer": "wisest",
+      "accept": [
+       "wisest",
+       "wisest"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In the vestibule below was a letter-box into which no letter would go, and an electric button from which no mortal finger could coax a ring.”, what does “vestibule” most nearly mean?",
+      "options": [
+       "an entrance hall",
+       "searching a place thoroughly, often roughly",
+       "a falling mass, like a waterfall",
+       "to belittle; to speak of as unimportant"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A necklace",
+       "A set of tortoise-shell combs",
+       "A mirror",
+       "A hat"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 1: “ONE _____ and eighty-seven cents. That was all”",
+      "answer": "dollar",
+      "accept": [
+       "dollar",
+       "dollar"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della buy for Jim?",
+      "options": [
+       "A new coat",
+       "A gold ring",
+       "A pair of gloves",
+       "A platinum fob chain for his watch"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "depreciate",
+       "valuable",
+       "cascade",
+       "ransacking"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "Enemies reconciled too late",
+       "A reversal that punishes a change of heart",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "NarratorVoice",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Simile",
+       "Structure",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The irony of the gifts shows that love, not objects, is the real gift.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mendicancy"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wisest"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "an entrance hall"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dollar"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A platinum fob chain for his watch"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "depreciate",
+       "valuable",
+       "cascade",
+       "ransacking"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In the vestibule below was a letter-box into which no letter would go, and an electric button from which no mortal finger could coax a ring.”, what does “vestibule” most nearly mean?",
+      "options": [
+       "an entrance hall",
+       "searching a place thoroughly, often roughly",
+       "a falling mass, like a waterfall",
+       "to belittle; to speak of as unimportant"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “So now Della’s beautiful hair fell about her, rippling and shining like a cascade of brown waters.”, what does “cascade” most nearly mean?",
+      "options": [
+       "a falling mass, like a waterfall",
+       "to belittle; to speak of as unimportant",
+       "searching a place thoroughly, often roughly",
+       "an entrance hall"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How much money does Della have at the start?",
+      "options": [
+       "Eight dollars",
+       "One dollar and eighty-seven cents",
+       "Nothing",
+       "Twenty dollars"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly _____ conception of his looks.”",
+      "wordBank": [
+       "accurate",
+       "depreciate",
+       "ransacking",
+       "cascade"
+      ],
+      "answer": "accurate",
+      "accept": [
+       "accurate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “She was ransacking the stores for Jim’s present.”, what does “ransacking” most nearly mean?",
+      "options": [
+       "to belittle; to speak of as unimportant",
+       "an entrance hall",
+       "a falling mass, like a waterfall",
+       "searching a place thoroughly, often roughly"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Had the Queen of Sheba lived in the flat across the airshaft, Della would have let her hair hang out the window some day to dry just to depreciate Her Majesty’s jewels and gifts.”, what does “depreciate” most nearly mean?",
+      "options": [
+       "to belittle; to speak of as unimportant",
+       "a falling mass, like a waterfall",
+       "searching a place thoroughly, often roughly",
+       "an entrance hall"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "Enemies reconciled too late",
+       "A reversal that punishes a change of heart",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Simile",
+       "Structure",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "NarratorVoice",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The irony of the gifts shows that love, not objects, is the real gift.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "an entrance hall"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a falling mass, like a waterfall"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "One dollar and eighty-seven cents"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "accurate"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "searching a place thoroughly, often roughly"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to belittle; to speak of as unimportant"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A necklace",
+       "A set of tortoise-shell combs",
+       "A mirror",
+       "A hat"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Had the Queen of Sheba lived in the flat across the airshaft, Della would have let her hair hang out the window some day to dry just to depreciate Her Majesty’s jewels and gifts.”, what does “depreciate” most nearly mean?",
+      "options": [
+       "to belittle; to speak of as unimportant",
+       "a falling mass, like a waterfall",
+       "searching a place thoroughly, often roughly",
+       "an entrance hall"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “She was ransacking the stores for Jim’s present.”, what does “ransacking” most nearly mean?",
+      "options": [
+       "to belittle; to speak of as unimportant",
+       "an entrance hall",
+       "a falling mass, like a waterfall",
+       "searching a place thoroughly, often roughly"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In the vestibule below was a letter-box into which no letter would go, and an electric button from which no mortal finger could coax a ring.”, what does “vestibule” most nearly mean?",
+      "options": [
+       "an entrance hall",
+       "searching a place thoroughly, often roughly",
+       "a falling mass, like a waterfall",
+       "to belittle; to speak of as unimportant"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the narrator call Jim and Della 'the magi'?",
+      "options": [
+       "They are from the East",
+       "They are rich",
+       "They are kings",
+       "They gave the wisest gifts, out of love"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "depreciate",
+       "valuable",
+       "cascade",
+       "ransacking"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 44: “let’s put our _____ presents away and keep’em a while”",
+      "answer": "Christmas",
+      "accept": [
+       "Christmas",
+       "christmas"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "Enemies reconciled too late",
+       "A reversal that punishes a change of heart",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "NarratorVoice",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Simile",
+       "Structure",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The irony of the gifts shows that love, not objects, is the real gift.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to belittle; to speak of as unimportant"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "searching a place thoroughly, often roughly"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "an entrance hall"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "They gave the wisest gifts, out of love"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Christmas"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “Had the Queen of Sheba lived in the flat across the airshaft, Della would have let her hair hang out the window some day to dry just to depreciate Her Majesty’s jewels and gifts.”, what does “depreciate” most nearly mean?",
+      "options": [
+       "to belittle; to speak of as unimportant",
+       "a falling mass, like a waterfall",
+       "searching a place thoroughly, often roughly",
+       "an entrance hall"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the narrator call Jim and Della 'the magi'?",
+      "options": [
+       "They are from the East",
+       "They are rich",
+       "They are kings",
+       "They gave the wisest gifts, out of love"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How much money does Della have at the start?",
+      "options": [
+       "Eight dollars",
+       "One dollar and eighty-seven cents",
+       "Nothing",
+       "Twenty dollars"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “For ten seconds let us regard with discreet scrutiny some _____ object in the other direction.”",
+      "wordBank": [
+       "depreciate",
+       "ransacking",
+       "inconsequential",
+       "cascade"
+      ],
+      "answer": "inconsequential",
+      "accept": [
+       "inconsequential"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "depreciate",
+       "valuable",
+       "cascade",
+       "ransacking"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A necklace",
+       "A set of tortoise-shell combs",
+       "A mirror",
+       "A hat"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly _____ conception of his looks.”",
+      "wordBank": [
+       "accurate",
+       "depreciate",
+       "ransacking",
+       "cascade"
+      ],
+      "answer": "accurate",
+      "accept": [
+       "accurate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "Enemies reconciled too late",
+       "A reversal that punishes a change of heart",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "NarratorVoice",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Simile",
+       "Structure",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The irony of the gifts shows that love, not objects, is the real gift.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to belittle; to speak of as unimportant"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "They gave the wisest gifts, out of love"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "One dollar and eighty-seven cents"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "inconsequential"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "accurate"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “Had the Queen of Sheba lived in the flat across the airshaft, Della would have let her hair hang out the window some day to dry just to depreciate Her Majesty’s jewels and gifts.”, what does “depreciate” most nearly mean?",
+      "options": [
+       "to belittle; to speak of as unimportant",
+       "a falling mass, like a waterfall",
+       "searching a place thoroughly, often roughly",
+       "an entrance hall"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What has Jim bought for Della?",
+      "options": [
+       "A necklace",
+       "A set of tortoise-shell combs",
+       "A mirror",
+       "A hat"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A very thin and very agile person may, by observing his reflection in a rapid sequence of longitudinal strips, obtain a fairly _____ conception of his looks.”",
+      "wordBank": [
+       "accurate",
+       "depreciate",
+       "ransacking",
+       "cascade"
+      ],
+      "answer": "accurate",
+      "accept": [
+       "accurate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The magi brought _____ gifts, but that was not among them.”",
+      "wordBank": [
+       "depreciate",
+       "valuable",
+       "cascade",
+       "ransacking"
+      ],
+      "answer": "valuable",
+      "accept": [
+       "valuable"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “She was ransacking the stores for Jim’s present.”, what does “ransacking” most nearly mean?",
+      "options": [
+       "to belittle; to speak of as unimportant",
+       "an entrance hall",
+       "a falling mass, like a waterfall",
+       "searching a place thoroughly, often roughly"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della sell?",
+      "options": [
+       "Her hair",
+       "Her coat",
+       "Her ring",
+       "Her watch"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It did not exactly beggar description, but it certainly had that word on the lookout for the _____ squad.”",
+      "wordBank": [
+       "ransacking",
+       "mendicancy",
+       "cascade",
+       "depreciate"
+      ],
+      "answer": "mendicancy",
+      "accept": [
+       "mendicancy"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "Enemies reconciled too late",
+       "A reversal that punishes a change of heart",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "NarratorVoice",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Simile",
+       "Structure",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The irony of the gifts shows that love, not objects, is the real gift.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to belittle; to speak of as unimportant"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A set of tortoise-shell combs"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "accurate"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "valuable"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "searching a place thoroughly, often roughly"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her hair"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mendicancy"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Della sell?",
+      "options": [
+       "Her hair",
+       "Her coat",
+       "Her ring",
+       "Her watch"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Della buy for Jim?",
+      "options": [
+       "A new coat",
+       "A gold ring",
+       "A pair of gloves",
+       "A platinum fob chain for his watch"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 1: “ONE _____ and eighty-seven cents. That was all”",
+      "answer": "dollar",
+      "accept": [
+       "dollar",
+       "dollar"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 45: “of all who give gifts these two were the _____”",
+      "answer": "wisest",
+      "accept": [
+       "wisest",
+       "wisest"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does the narrator call Jim and Della 'the magi'?",
+      "options": [
+       "They are from the East",
+       "They are rich",
+       "They are kings",
+       "They gave the wisest gifts, out of love"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Gift of the Magi, paragraph 44: “let’s put our _____ presents away and keep’em a while”",
+      "answer": "Christmas",
+      "accept": [
+       "Christmas",
+       "christmas"
+      ],
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In the vestibule below was a letter-box into which no letter would go, and an electric button from which no mortal finger could coax a ring.”, what does “vestibule” most nearly mean?",
+      "options": [
+       "an entrance hall",
+       "searching a place thoroughly, often roughly",
+       "a falling mass, like a waterfall",
+       "to belittle; to speak of as unimportant"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Gift of the Magi”?",
+      "options": [
+       "Love measured by sacrifice",
+       "Enemies reconciled too late",
+       "A reversal that punishes a change of heart",
+       "Moral worth found among those society rejects"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Poverty.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) Answer in two or three sentences with one detail.",
+      "expected": "Jim's gentle response.",
+      "element": "characterization",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45). Pick two words and explain what they suggest.",
+      "expected": "The moral.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? A chatty narrator comments directly (\"a last word to the wise of these days\"), turning the story into a parable.",
+      "options": [
+       "Symbolism",
+       "Conflict",
+       "NarratorVoice",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Gift of the Magi”? Situational this device: each gift is made useless by the other's sacrifice.",
+      "options": [
+       "Simile",
+       "Structure",
+       "Irony",
+       "Plot"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The irony of the gifts shows that love, not objects, is the real gift. Explain how this evidence supports the claim: “of all who give gifts these two were the wisest” (The Gift of the Magi, paragraph 45).",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "location": "The Gift of the Magi, paragraph 45",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how sacrificial love develops from an earlier story to “The Gift of the Magi”. Use one quotation from each.",
+      "expected": "the gifts are worthless; the sacrifice is priceless.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “ONE dollar and eighty-seven cents. That was all” (The Gift of the Magi, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Poverty.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The irony of the gifts shows that love, not objects, is the real gift.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “let’s put our Christmas presents away and keep’em a while” (The Gift of the Magi, paragraph 44) shape its meaning? Consider a second, competing reading.",
+      "expected": "Jim's gentle response.",
+      "element": "diction",
+      "location": "The Gift of the Magi, paragraph 44",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Her hair"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A platinum fob chain for his watch"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dollar"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wisest"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "They gave the wisest gifts, out of love"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Christmas"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "an entrance hall"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love measured by sacrifice"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Poverty."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Jim's gentle response."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The moral."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "NarratorVoice"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the gifts are worthless; the sacrifice is priceless."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Poverty."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Both sacrifices make the presents useless, yet Jim says \"let’s put our Christmas presents away,\" and the narrator concludes \"of all who give gifts these two were the wisest.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Jim's gentle response."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5451,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Gift of the Magi teaches about sacrificial love. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Gift of the Magi teaches about sacrificial love. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5672,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Gift of the Magi teaches about wealth and poverty. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Gift of the Magi teaches about wealth and poverty. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5893,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Gift of the Magi teaches about irony of giving. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Gift of the Magi teaches about irony of giving. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6093,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Gift of the Magi: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how O. Henry develops sacrificial love across The Gift of the Magi. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Gift of the Magi and argue how its meaning changes over the story and why that change matters to wealth and poverty."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Gift of the Magi. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Gift of the Magi finally endorses or criticizes its society's view of irony of giving. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

@@ -202,9 +202,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "Blood-Burning Moon unit",
   "author": "Jean Toomer",
@@ -572,7 +573,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -583,152 +584,105 @@
   }
  ],
  "wholeBookTest": {
-  "title": "Blood-Burning Moon: whole-book test",
+  "title": "Blood-Burning Moon: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What do the women read the full moon as?",
     "options": [
-     "A blessing",
      "Nothing",
      "A sign of rain",
-     "An omen"
+     "An omen",
+     "A blessing"
     ],
-    "answer": 3,
-    "element": "symbolism"
+    "answer": 2,
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 2
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Who are Louisa's two suitors?",
     "options": [
-     "Tom Burwell and Bob Stone",
      "Bob and Jim",
+     "Tom Burwell and Bob Stone",
      "Tom and Sam",
      "Two brothers"
     ],
-    "answer": 0,
-    "element": "conflict"
+    "answer": 1,
+    "element": "conflict",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What building dominates the setting?",
     "options": [
      "A school",
-     "A church",
      "An old pre-war cotton factory",
+     "A church",
      "A courthouse"
     ],
-    "answer": 2,
-    "element": "setting"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "How does Bob Stone die?",
-    "options": [
-     "He falls",
-     "Tom cuts his throat in a fight",
-     "He drowns",
-     "He is shot"
-    ],
     "answer": 1,
-    "element": "plot"
+    "element": "setting",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 5
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What does Louisa do at the end?",
     "options": [
-     "Sings to the moon, unaware",
      "Flees",
+     "Joins the mob",
      "Calls for help",
-     "Joins the mob"
-    ],
-    "answer": 0,
-    "element": "irony"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “To meet Bob in the canebrake, as she was going to do an hour or so later, was nothing new.”, what does “canebrake” most nearly mean?",
-    "options": [
-     "announcing that something is coming",
-     "mixed up in a confused way",
-     "to flow in drops",
-     "a thicket of tall cane plants"
+     "Sings to the moon, unaware"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “Intermittently, all over the countryside dogs barked and roosters crowed as if heralding a weird dawn or some ungodly awakening.”, what does “heralding” most nearly mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
     "options": [
-     "a thicket of tall cane plants",
-     "mixed up in a confused way",
-     "to flow in drops",
-     "announcing that something is coming"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“To meet Bob in the canebrake, as she was going to do an hour or so later, was nothing new.”), what does “canebrake” mean?",
-    "options": [
-     "a thicket of tall cane plants",
-     "coming close (to)",
-     "walking at a slow, easy pace",
-     "to flow in drops"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Intermittently, all over the countryside dogs barked and roosters crowed as if heralding a weird dawn or some ungodly awakening.”), what does “heralding” mean?",
-    "options": [
-     "the act of preparing something (as food) by the application of heat",
-     "announcing that something is coming",
-     "a thicket of tall cane plants",
-     "coming close (to)"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“But for some reason, they jumbled when her eyes gazed vacantly at the rising moon.”), what does “jumbled” mean?",
-    "options": [
-     "cause to be embarrassed; cause to feel self-conscious",
-     "announcing that something is coming",
-     "mixed up in a confused way",
-     "the act of preparing something (as food) by the application of heat"
+     "A story so convincing it becomes real",
+     "Reason defeating a hidden crime",
+     "Love and rivalry destroyed by racial violence",
+     "Wishes that defy fate"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 13
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Nails scratches let little lines of blood trickle down and mat into the hair.”), what does “trickle” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
     "options": [
-     "walking at a slow, easy pace",
-     "mixed up in a confused way",
-     "cause to be embarrassed; cause to feel self-conscious",
-     "to flow in drops"
+     "Metaphor",
+     "Characterization",
+     "Imagery",
+     "Allusion"
     ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
+    "answer": 2,
+    "element": "imagery",
+    "level": "analysis",
+    "dok": 3,
     "chapterIndex": 0,
-    "prompt": "As used in the story (“He crashed into the bordering canebrake.”), what does “bordering” mean?",
-    "options": [
-     "coming close (to)",
-     "a thicket of tall cane plants",
-     "to flow in drops",
-     "walking at a slow, easy pace"
-    ],
-    "answer": 0,
-    "element": "diction"
+    "n": 16
    }
   ],
   "answerKey": [
@@ -749,56 +703,4709 @@
    },
    {
     "n": 4,
-    "answer": "Tom cuts his throat in a fight",
-    "element": "plot"
-   },
-   {
-    "n": 5,
     "answer": "Sings to the moon, unaware",
     "element": "irony"
    },
    {
+    "n": 5,
+    "answer": "Love and rivalry destroyed by racial violence",
+    "element": "theme"
+   },
+   {
     "n": 6,
-    "answer": "a thicket of tall cane plants",
-    "element": "diction"
-   },
-   {
-    "n": 7,
-    "answer": "announcing that something is coming",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "a thicket of tall cane plants",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "announcing that something is coming",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "mixed up in a confused way",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "to flow in drops",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "coming close (to)",
-    "element": "diction"
+    "answer": "Imagery",
+    "element": "imagery"
    }
   ],
-  "shortAnswer": [
-   "Explain how racial violence in the South develops from the beginning of the story to the end. Use two passages.",
-   "Explain how love and rivalry develops from the beginning of the story to the end. Use two passages.",
-   "Explain how folk song and omen develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (racial violence in the South, love and rivalry, folk song and omen) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Tom Burwell and Bob Stone",
+       "Tom and Sam",
+       "Two brothers"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 55: “Blue flash, a steel blade _____ across Bob Stone's throat”",
+      "answer": "slashed",
+      "accept": [
+       "slashed",
+       "slashed"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "An old pre-war cotton factory",
+       "A church",
+       "A courthouse"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "heralding",
+       "embarrassed",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Louisa do at the end?",
+      "options": [
+       "Flees",
+       "Joins the mob",
+       "Calls for help",
+       "Sings to the moon, unaware"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Bob Stone die?",
+      "options": [
+       "Tom cuts his throat in a fight",
+       "He is shot",
+       "He falls",
+       "He drowns"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "heralding",
+       "canebrake",
+       "ambling",
+       "jumbled"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He passed the house with its huge open hearth which, in the days of slavery, was the plantation _____.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "cookery"
+      ],
+      "answer": "cookery",
+      "accept": [
+       "cookery"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the women read the full moon as?",
+      "options": [
+       "Nothing",
+       "A sign of rain",
+       "An omen",
+       "A blessing"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "bordering"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "Reason defeating a hidden crime",
+       "Love and rivalry destroyed by racial violence",
+       "Wishes that defy fate"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Alliteration",
+       "Structure",
+       "Setting",
+       "Refrain"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "slashed"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sings to the moon, unaware"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom cuts his throat in a fight"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cookery"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An omen"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Tom Burwell and Bob Stone",
+       "Tom and Sam",
+       "Two brothers"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Louisa do at the end?",
+      "options": [
+       "Flees",
+       "Joins the mob",
+       "Calls for help",
+       "Sings to the moon, unaware"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "heralding",
+       "embarrassed",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He passed the house with its huge open hearth which, in the days of slavery, was the plantation _____.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "cookery"
+      ],
+      "answer": "cookery",
+      "accept": [
+       "cookery"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Bob Stone die?",
+      "options": [
+       "Tom cuts his throat in a fight",
+       "He is shot",
+       "He falls",
+       "He drowns"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the women read the full moon as?",
+      "options": [
+       "Nothing",
+       "A sign of rain",
+       "An omen",
+       "A blessing"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 55: “Blue flash, a steel blade _____ across Bob Stone's throat”",
+      "answer": "slashed",
+      "accept": [
+       "slashed",
+       "slashed"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "bordering"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "heralding",
+       "canebrake",
+       "ambling",
+       "jumbled"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "An old pre-war cotton factory",
+       "A church",
+       "A courthouse"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "Reason defeating a hidden crime",
+       "Love and rivalry destroyed by racial violence",
+       "Wishes that defy fate"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Imagery",
+       "Allusion"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Alliteration",
+       "Structure",
+       "Setting",
+       "Refrain"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sings to the moon, unaware"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cookery"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom cuts his throat in a fight"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An omen"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "slashed"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He passed the house with its huge open hearth which, in the days of slavery, was the plantation _____.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "cookery"
+      ],
+      "answer": "cookery",
+      "accept": [
+       "cookery"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the women read the full moon as?",
+      "options": [
+       "Nothing",
+       "A sign of rain",
+       "An omen",
+       "A blessing"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 55: “Blue flash, a steel blade _____ across Bob Stone's throat”",
+      "answer": "slashed",
+      "accept": [
+       "slashed",
+       "slashed"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Tom Burwell and Bob Stone",
+       "Tom and Sam",
+       "Two brothers"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "An old pre-war cotton factory",
+       "A church",
+       "A courthouse"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "bordering"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "heralding",
+       "embarrassed",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "heralding",
+       "canebrake",
+       "ambling",
+       "jumbled"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Louisa do at the end?",
+      "options": [
+       "Flees",
+       "Joins the mob",
+       "Calls for help",
+       "Sings to the moon, unaware"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "Reason defeating a hidden crime",
+       "Love and rivalry destroyed by racial violence",
+       "Wishes that defy fate"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Imagery",
+       "Allusion"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cookery"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An omen"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "slashed"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sings to the moon, unaware"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 6,
+     "fill": 6,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Louisa do at the end?",
+      "options": [
+       "Flees",
+       "Joins the mob",
+       "Calls for help",
+       "Sings to the moon, unaware"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "heralding",
+       "canebrake",
+       "ambling",
+       "jumbled"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "heralding",
+       "embarrassed",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Tom Burwell and Bob Stone",
+       "Tom and Sam",
+       "Two brothers"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the women read the full moon as?",
+      "options": [
+       "Nothing",
+       "A sign of rain",
+       "An omen",
+       "A blessing"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He passed the house with its huge open hearth which, in the days of slavery, was the plantation _____.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "cookery"
+      ],
+      "answer": "cookery",
+      "accept": [
+       "cookery"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 55: “Blue flash, a steel blade _____ across Bob Stone's throat”",
+      "answer": "slashed",
+      "accept": [
+       "slashed",
+       "slashed"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "bordering"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "Reason defeating a hidden crime",
+       "Love and rivalry destroyed by racial violence",
+       "Wishes that defy fate"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Imagery",
+       "Allusion"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Alliteration",
+       "Structure",
+       "Setting",
+       "Refrain"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sings to the moon, unaware"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An omen"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cookery"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "slashed"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 6,
+     "fill": 6,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the women read the full moon as?",
+      "options": [
+       "Nothing",
+       "A sign of rain",
+       "An omen",
+       "A blessing"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "heralding",
+       "embarrassed",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "An old pre-war cotton factory",
+       "A church",
+       "A courthouse"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "heralding",
+       "canebrake",
+       "ambling",
+       "jumbled"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Tom Burwell and Bob Stone",
+       "Tom and Sam",
+       "Two brothers"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "heralding",
+       "jumbled",
+       "canebrake",
+       "bordering"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Bob Stone die?",
+      "options": [
+       "Tom cuts his throat in a fight",
+       "He is shot",
+       "He falls",
+       "He drowns"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "A story so convincing it becomes real",
+       "Reason defeating a hidden crime",
+       "Love and rivalry destroyed by racial violence",
+       "Wishes that defy fate"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Imagery",
+       "Allusion"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Alliteration",
+       "Structure",
+       "Setting",
+       "Refrain"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An omen"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom cuts his throat in a fight"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “Nails scratches let little lines of blood trickle down and mat into the hair.”, what does “trickle” most nearly mean?",
+      "options": [
+       "to flow in drops",
+       "announcing that something is coming",
+       "mixed up in a confused way",
+       "a thicket of tall cane plants"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "A courthouse",
+       "An old pre-war cotton factory",
+       "A church"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Two brothers",
+       "Tom and Sam",
+       "Tom Burwell and Bob Stone"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "ambling",
+       "jumbled",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Louisa do at the end?",
+      "options": [
+       "Sings to the moon, unaware",
+       "Joins the mob",
+       "Calls for help",
+       "Flees"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "bordering",
+       "canebrake",
+       "heralding",
+       "jumbled"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Science that poisons love",
+       "Love and rivalry destroyed by racial violence",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Theme",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Point of view",
+       "Refrain",
+       "Characterization",
+       "Diction / vocabulary"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to flow in drops"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sings to the moon, unaware"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How does Bob Stone die?",
+      "options": [
+       "He drowns",
+       "Tom cuts his throat in a fight",
+       "He is shot",
+       "He falls"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "ambling",
+       "jumbled",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Two brothers",
+       "Tom and Sam",
+       "Tom Burwell and Bob Stone"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the women read the full moon as?",
+      "options": [
+       "Nothing",
+       "A sign of rain",
+       "An omen",
+       "A blessing"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "bordering",
+       "canebrake",
+       "heralding",
+       "jumbled"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Intermittently, all over the countryside dogs barked and roosters crowed as if heralding a weird dawn or some ungodly awakening.”, what does “heralding” most nearly mean?",
+      "options": [
+       "announcing that something is coming",
+       "mixed up in a confused way",
+       "a thicket of tall cane plants",
+       "to flow in drops"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Science that poisons love",
+       "Love and rivalry destroyed by racial violence",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Theme",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Point of view",
+       "Refrain",
+       "Characterization",
+       "Diction / vocabulary"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom cuts his throat in a fight"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An omen"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "announcing that something is coming"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How does Bob Stone die?",
+      "options": [
+       "He drowns",
+       "Tom cuts his throat in a fight",
+       "He is shot",
+       "He falls"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "A courthouse",
+       "An old pre-war cotton factory",
+       "A church"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “To meet Bob in the canebrake, as she was going to do an hour or so later, was nothing new.”, what does “canebrake” most nearly mean?",
+      "options": [
+       "mixed up in a confused way",
+       "a thicket of tall cane plants",
+       "to flow in drops",
+       "announcing that something is coming"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Louisa do at the end?",
+      "options": [
+       "Sings to the moon, unaware",
+       "Joins the mob",
+       "Calls for help",
+       "Flees"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “But for some reason, they jumbled when her eyes gazed vacantly at the rising moon.”, what does “jumbled” most nearly mean?",
+      "options": [
+       "to flow in drops",
+       "announcing that something is coming",
+       "a thicket of tall cane plants",
+       "mixed up in a confused way"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "ambling",
+       "jumbled",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Science that poisons love",
+       "Love and rivalry destroyed by racial violence",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Theme",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Point of view",
+       "Refrain",
+       "Characterization",
+       "Diction / vocabulary"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom cuts his throat in a fight"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a thicket of tall cane plants"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sings to the moon, unaware"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "mixed up in a confused way"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "ambling",
+       "jumbled",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Nails scratches let little lines of blood trickle down and mat into the hair.”, what does “trickle” most nearly mean?",
+      "options": [
+       "to flow in drops",
+       "announcing that something is coming",
+       "mixed up in a confused way",
+       "a thicket of tall cane plants"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He passed the house with its huge open hearth which, in the days of slavery, was the plantation _____.”",
+      "wordBank": [
+       "cookery",
+       "jumbled",
+       "canebrake",
+       "heralding"
+      ],
+      "answer": "cookery",
+      "accept": [
+       "cookery"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He crashed into the _____ canebrake.”",
+      "wordBank": [
+       "bordering",
+       "canebrake",
+       "heralding",
+       "jumbled"
+      ],
+      "answer": "bordering",
+      "accept": [
+       "bordering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “But for some reason, they jumbled when her eyes gazed vacantly at the rising moon.”, what does “jumbled” most nearly mean?",
+      "options": [
+       "to flow in drops",
+       "announcing that something is coming",
+       "a thicket of tall cane plants",
+       "mixed up in a confused way"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "embarrassed",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Intermittently, all over the countryside dogs barked and roosters crowed as if heralding a weird dawn or some ungodly awakening.”, what does “heralding” most nearly mean?",
+      "options": [
+       "announcing that something is coming",
+       "mixed up in a confused way",
+       "a thicket of tall cane plants",
+       "to flow in drops"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Science that poisons love",
+       "Love and rivalry destroyed by racial violence",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Theme",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Point of view",
+       "Refrain",
+       "Characterization",
+       "Diction / vocabulary"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to flow in drops"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cookery"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bordering"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "mixed up in a confused way"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "announcing that something is coming"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “To meet Bob in the canebrake, as she was going to do an hour or so later, was nothing new.”, what does “canebrake” most nearly mean?",
+      "options": [
+       "mixed up in a confused way",
+       "a thicket of tall cane plants",
+       "to flow in drops",
+       "announcing that something is coming"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "A courthouse",
+       "An old pre-war cotton factory",
+       "A church"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Two brothers",
+       "Tom and Sam",
+       "Tom Burwell and Bob Stone"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the women read the full moon as?",
+      "options": [
+       "Nothing",
+       "A sign of rain",
+       "An omen",
+       "A blessing"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Blood-Burning Moon, paragraph 2: “Louisa sang as she came over the crest of the hill from the white folks' _____”",
+      "answer": "kitchen",
+      "accept": [
+       "kitchen",
+       "kitchen"
+      ],
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "embarrassed",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "ambling",
+       "jumbled",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Science that poisons love",
+       "Love and rivalry destroyed by racial violence",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Point of view",
+       "Refrain",
+       "Characterization",
+       "Diction / vocabulary"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Theme",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a thicket of tall cane plants"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An omen"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "kitchen"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “To meet Bob in the canebrake, as she was going to do an hour or so later, was nothing new.”, what does “canebrake” most nearly mean?",
+      "options": [
+       "mixed up in a confused way",
+       "a thicket of tall cane plants",
+       "to flow in drops",
+       "announcing that something is coming"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Nails scratches let little lines of blood trickle down and mat into the hair.”, what does “trickle” most nearly mean?",
+      "options": [
+       "to flow in drops",
+       "announcing that something is coming",
+       "mixed up in a confused way",
+       "a thicket of tall cane plants"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What building dominates the setting?",
+      "options": [
+       "A school",
+       "A courthouse",
+       "An old pre-war cotton factory",
+       "A church"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who are Louisa's two suitors?",
+      "options": [
+       "Bob and Jim",
+       "Two brothers",
+       "Tom and Sam",
+       "Tom Burwell and Bob Stone"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went towards her, _____, touched the brim of a marvelously shaped, spotted, felt hat, said he wanted to say something to her, and then found that he didnt know what he had to say, or if he did, that he couldnt say it.”",
+      "wordBank": [
+       "ambling",
+       "jumbled",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "ambling",
+      "accept": [
+       "ambling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Bob Stone die?",
+      "options": [
+       "He drowns",
+       "Tom cuts his throat in a fight",
+       "He is shot",
+       "He falls"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then, with their eyes still upon him, he began to feel _____.”",
+      "wordBank": [
+       "jumbled",
+       "embarrassed",
+       "heralding",
+       "canebrake"
+      ],
+      "answer": "embarrassed",
+      "accept": [
+       "embarrassed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) Answer in two or three sentences with one detail.",
+      "expected": "Her divided world.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "The omen.",
+      "element": "characterization",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Blood-Burning Moon”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Science that poisons love",
+       "Love and rivalry destroyed by racial violence",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? The song (\"Blood-burning moon. Sinner!\") recurs, like a chorus.",
+      "options": [
+       "Point of view",
+       "Refrain",
+       "Characterization",
+       "Diction / vocabulary"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55). Pick two words and explain what they suggest.",
+      "expected": "The violence.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Toomer's refrain makes the violence feel fated and communal. Explain how this evidence supports the claim: “Blue flash, a steel blade slashed across Bob Stone's throat” (Blood-Burning Moon, paragraph 55).",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "location": "Blood-Burning Moon, paragraph 55",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Blood-Burning Moon”? Red, fire and blood saturate the story, from the moon to the burning factory.",
+      "options": [
+       "Symbolism",
+       "Characterization",
+       "Theme",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Louisa sang as she came over the crest of the hill from the white folks' kitchen” (Blood-Burning Moon, paragraph 2) shape its meaning? Consider a second, competing reading.",
+      "expected": "Her divided world.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 2",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Blood-burning moon. Sinner” (Blood-Burning Moon, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "The omen.",
+      "element": "diction",
+      "location": "Blood-Burning Moon, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Toomer's refrain makes the violence feel fated and communal.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how racial violence and injustice develops from an earlier story to “Blood-Burning Moon”. Use one quotation from each.",
+      "expected": "the mob kills Tom, while Bob's actions go unjudged.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a thicket of tall cane plants"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to flow in drops"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An old pre-war cotton factory"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom Burwell and Bob Stone"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ambling"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Tom cuts his throat in a fight"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "embarrassed"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The omen."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Love and rivalry destroyed by racial violence"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Refrain"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The violence."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Her divided world."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The omen."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The song \"Blood-burning moon. Sinner!\" recurs as the conflict builds, so when \"a steel blade slashed across Bob Stone's throat,\" the reader feels the omen fulfilled."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the mob kills Tom, while Bob's actions go unjudged."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -822,7 +5429,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Blood-Burning Moon teaches about racial violence in the South. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Blood-Burning Moon teaches about racial violence in the South. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1043,7 +5650,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Blood-Burning Moon teaches about love and rivalry. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Blood-Burning Moon teaches about love and rivalry. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1264,7 +5871,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Blood-Burning Moon teaches about folk song and omen. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Blood-Burning Moon teaches about folk song and omen. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1464,5 +6071,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "Blood-Burning Moon: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Jean Toomer develops racial violence in the South across Blood-Burning Moon. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in Blood-Burning Moon and argue how its meaning changes over the story and why that change matters to love and rivalry."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in Blood-Burning Moon. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether Blood-Burning Moon finally endorses or criticizes its society's view of folk song and omen. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

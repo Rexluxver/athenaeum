@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "Rikki-Tikki-Tavi unit",
   "author": "Rudyard Kipling",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,35 +580,44 @@
   }
  ],
  "wholeBookTest": {
-  "title": "Rikki-Tikki-Tavi: whole-book test",
+  "title": "Rikki-Tikki-Tavi: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "How does Rikki-tikki come to the family?",
+    "type": "mc",
+    "prompt": "Whose life does Nagaina threaten?",
     "options": [
-     "He is a gift",
-     "He walks in from the jungle",
-     "He is bought at a market",
-     "A flood washes him to their garden"
-    ],
-    "answer": 3,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What are the cobras' names?",
-    "options": [
-     "Karait and Chua",
-     "Nag and Nagaina",
-     "Teddy and Rikki",
-     "Darzee and Chuchundra"
+     "Darzee's",
+     "Teddy's",
+     "The mother's only",
+     "The father's"
     ],
     "answer": 1,
-    "element": "characterization"
+    "element": "conflict",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
+    "type": "mc",
+    "prompt": "What are the cobras' names?",
+    "options": [
+     "Teddy and Rikki",
+     "Darzee and Chuchundra",
+     "Karait and Chua",
+     "Nag and Nagaina"
+    ],
+    "answer": 3,
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
     "chapterIndex": 0,
+    "n": 4
+   },
+   {
+    "type": "mc",
     "prompt": "Who is Darzee?",
     "options": [
      "A muskrat",
@@ -616,122 +626,98 @@
      "A snake"
     ],
     "answer": 1,
-    "element": "characterization"
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 6
    },
    {
-    "chapterIndex": 0,
-    "prompt": "Where does Rikki kill Nag?",
+    "type": "mc",
+    "prompt": "How does Rikki-tikki come to the family?",
     "options": [
-     "In the bathroom",
-     "In the melon bed",
-     "In the garden",
-     "In a tree"
-    ],
-    "answer": 0,
-    "element": "setting"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "Whose life does Nagaina threaten?",
-    "options": [
-     "Darzee's",
-     "The father's",
-     "Teddy's",
-     "The mother's only"
-    ],
-    "answer": 2,
-    "element": "conflict"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “THIS is the story of the great war that Rikki-tikki-tavi fought single-handed, through the bath-rooms of the big bungalow in Segowlee cantonment.”, what does “cantonment” most nearly mean?",
-    "options": [
-     "pulled back quickly from fear or pain",
-     "a one-story house, originally in India, with a wide veranda",
-     "a permanent military station in British India",
-     "ran with short quick steps"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “But just as Teddy was stooping, something flinched a little in the dust, and a tiny voice said: \"Be careful.”, what does “flinched” most nearly mean?",
-    "options": [
-     "ran with short quick steps",
-     "pulled back quickly from fear or pain",
-     "a permanent military station in British India",
-     "a one-story house, originally in India, with a wide veranda"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“THIS is the story of the great war that Rikki-tikki-tavi fought single-handed, through the bath-rooms of the big bungalow in Segowlee canton”), what does “cantonment” mean?",
-    "options": [
-     "a permanent military station in British India",
-     "crouch or curl up",
-     "drifting on water",
-     "ran with short quick steps"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“But just as Teddy was stooping, something flinched a little in the dust, and a tiny voice said: \"Be careful.”), what does “flinched” mean?",
-    "options": [
-     "cause fear in",
-     "pulled back quickly from fear or pain",
-     "to claim",
-     "a one-story house, originally in India, with a wide veranda"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Rikki-tikki licked his lips. \"This is a splendid hunting-ground,\" he said, and his tail grew bottle-brushy at the thought of it, and he scut”), what does “scuttled” mean?",
-    "options": [
-     "came back to life; returned",
-     "a permanent military station in British India",
-     "ran with short quick steps",
-     "crouch or curl up"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“THIS is the story of the great war that Rikki-tikki-tavi fought single-handed, through the bath-rooms of the big bungalow in Segowlee canton”), what does “bungalow” mean?",
-    "options": [
-     "drifting on water",
-     "pulled back quickly from fear or pain",
-     "cause fear in",
-     "a one-story house, originally in India, with a wide veranda"
+     "He walks in from the jungle",
+     "He is bought at a market",
+     "He is a gift",
+     "A flood washes him to their garden"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Darzee and his wife only cowered down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—”), what does “cowered” mean?",
+    "type": "mc",
+    "prompt": "Where does Rikki kill Nag?",
     "options": [
-     "crouch or curl up",
-     "to claim",
-     "ran with short quick steps",
-     "came back to life; returned"
+     "In the garden",
+     "In the melon bed",
+     "In a tree",
+     "In the bathroom"
+    ],
+    "answer": 3,
+    "element": "setting",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
+   },
+   {
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+    "options": [
+     "Courage and guilt in a small community",
+     "Courage in defense of home",
+     "Waking into a changed nation",
+     "Enemies reconciled too late"
+    ],
+    "answer": 1,
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 12
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+    "options": [
+     "Personification",
+     "Theme",
+     "Diction / vocabulary",
+     "Symbolism"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "personification",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+    "options": [
+     "Tone / mood",
+     "Symbolism",
+     "Conflict",
+     "Theme"
+    ],
+    "answer": 2,
+    "element": "conflict",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "A flood washes him to their garden",
-    "element": "plot"
+    "answer": "Teddy's",
+    "element": "conflict"
    },
    {
     "n": 2,
@@ -745,56 +731,4716 @@
    },
    {
     "n": 4,
+    "answer": "A flood washes him to their garden",
+    "element": "plot"
+   },
+   {
+    "n": 5,
     "answer": "In the bathroom",
     "element": "setting"
    },
    {
-    "n": 5,
-    "answer": "Teddy's",
-    "element": "conflict"
-   },
-   {
     "n": 6,
-    "answer": "a permanent military station in British India",
-    "element": "diction"
+    "answer": "Courage in defense of home",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "pulled back quickly from fear or pain",
-    "element": "diction"
+    "answer": "Personification",
+    "element": "personification"
    },
    {
     "n": 8,
-    "answer": "a permanent military station in British India",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "pulled back quickly from fear or pain",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "ran with short quick steps",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "a one-story house, originally in India, with a wide veranda",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "crouch or curl up",
-    "element": "diction"
+    "answer": "Conflict",
+    "element": "conflict"
    }
   ],
-  "shortAnswer": [
-   "Explain how courage develops from the beginning of the story to the end. Use two passages.",
-   "Explain how protecting home develops from the beginning of the story to the end. Use two passages.",
-   "Explain how nature and instinct develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (courage, protecting home, nature and instinct) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He found a little wisp of grass _____ there, and clung to it till he lost his senses.”",
+      "wordBank": [
+       "cantonment",
+       "floating",
+       "scuttled",
+       "flinched"
+      ],
+      "answer": "floating",
+      "accept": [
+       "floating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "Teddy's",
+       "The mother's only",
+       "The father's"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "flinched",
+       "cantonment",
+       "revived",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Darzee and his wife only _____ down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—a horrid cold sound that made Rikki-tikki jump back two clear feet.”",
+      "wordBank": [
+       "flinched",
+       "cowered",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "cowered",
+      "accept": [
+       "cowered"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Rikki-tikki come to the family?",
+      "options": [
+       "He walks in from the jungle",
+       "He is bought at a market",
+       "He is a gift",
+       "A flood washes him to their garden"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Teddy and Rikki",
+       "Darzee and Chuchundra",
+       "Karait and Chua",
+       "Nag and Nagaina"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "frighten",
+       "flinched",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Rikki kill Nag?",
+      "options": [
+       "In the garden",
+       "In the melon bed",
+       "In a tree",
+       "In the bathroom"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "A muskrat",
+       "A tailorbird",
+       "The gardener",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Courage in defense of home",
+       "Waking into a changed nation",
+       "Enemies reconciled too late"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Tone / mood",
+       "Symbolism",
+       "Conflict",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Personification",
+       "Theme",
+       "Diction / vocabulary",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "floating"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cowered"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A flood washes him to their garden"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In the bathroom"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He found a little wisp of grass _____ there, and clung to it till he lost his senses.”",
+      "wordBank": [
+       "cantonment",
+       "floating",
+       "scuttled",
+       "flinched"
+      ],
+      "answer": "floating",
+      "accept": [
+       "floating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Darzee and his wife only _____ down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—a horrid cold sound that made Rikki-tikki jump back two clear feet.”",
+      "wordBank": [
+       "flinched",
+       "cowered",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "cowered",
+      "accept": [
+       "cowered"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Teddy and Rikki",
+       "Darzee and Chuchundra",
+       "Karait and Chua",
+       "Nag and Nagaina"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Rikki kill Nag?",
+      "options": [
+       "In the garden",
+       "In the melon bed",
+       "In a tree",
+       "In the bathroom"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "flinched",
+       "cantonment",
+       "revived",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Rikki-tikki come to the family?",
+      "options": [
+       "He walks in from the jungle",
+       "He is bought at a market",
+       "He is a gift",
+       "A flood washes him to their garden"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "A muskrat",
+       "A tailorbird",
+       "The gardener",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "frighten",
+       "flinched",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "Teddy's",
+       "The mother's only",
+       "The father's"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Courage in defense of home",
+       "Waking into a changed nation",
+       "Enemies reconciled too late"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Personification",
+       "Theme",
+       "Diction / vocabulary",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Tone / mood",
+       "Symbolism",
+       "Conflict",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "floating"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cowered"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In the bathroom"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A flood washes him to their garden"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "Teddy's",
+       "The mother's only",
+       "The father's"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "frighten",
+       "flinched",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Teddy and Rikki",
+       "Darzee and Chuchundra",
+       "Karait and Chua",
+       "Nag and Nagaina"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Darzee and his wife only _____ down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—a horrid cold sound that made Rikki-tikki jump back two clear feet.”",
+      "wordBank": [
+       "flinched",
+       "cowered",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "cowered",
+      "accept": [
+       "cowered"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "A muskrat",
+       "A tailorbird",
+       "The gardener",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Rikki-tikki come to the family?",
+      "options": [
+       "He walks in from the jungle",
+       "He is bought at a market",
+       "He is a gift",
+       "A flood washes him to their garden"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Rikki kill Nag?",
+      "options": [
+       "In the garden",
+       "In the melon bed",
+       "In a tree",
+       "In the bathroom"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He found a little wisp of grass _____ there, and clung to it till he lost his senses.”",
+      "wordBank": [
+       "cantonment",
+       "floating",
+       "scuttled",
+       "flinched"
+      ],
+      "answer": "floating",
+      "accept": [
+       "floating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "flinched",
+       "cantonment",
+       "revived",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Courage in defense of home",
+       "Waking into a changed nation",
+       "Enemies reconciled too late"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Personification",
+       "Theme",
+       "Diction / vocabulary",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Tone / mood",
+       "Symbolism",
+       "Conflict",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Rikki's curiosity makes him a hero.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cowered"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A flood washes him to their garden"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In the bathroom"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "floating"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "A muskrat",
+       "A tailorbird",
+       "The gardener",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Rikki kill Nag?",
+      "options": [
+       "In the garden",
+       "In the melon bed",
+       "In a tree",
+       "In the bathroom"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Rikki-tikki come to the family?",
+      "options": [
+       "He walks in from the jungle",
+       "He is bought at a market",
+       "He is a gift",
+       "A flood washes him to their garden"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "flinched",
+       "cantonment",
+       "revived",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Darzee and his wife only _____ down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—a horrid cold sound that made Rikki-tikki jump back two clear feet.”",
+      "wordBank": [
+       "flinched",
+       "cowered",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "cowered",
+      "accept": [
+       "cowered"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "Teddy's",
+       "The mother's only",
+       "The father's"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "frighten",
+       "flinched",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He found a little wisp of grass _____ there, and clung to it till he lost his senses.”",
+      "wordBank": [
+       "cantonment",
+       "floating",
+       "scuttled",
+       "flinched"
+      ],
+      "answer": "floating",
+      "accept": [
+       "floating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Courage in defense of home",
+       "Waking into a changed nation",
+       "Enemies reconciled too late"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Tone / mood",
+       "Symbolism",
+       "Conflict",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Personification",
+       "Theme",
+       "Diction / vocabulary",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In the bathroom"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A flood washes him to their garden"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cowered"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "floating"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "A muskrat",
+       "A tailorbird",
+       "The gardener",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "Teddy's",
+       "The mother's only",
+       "The father's"
+      ],
+      "answer": 1,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He found a little wisp of grass _____ there, and clung to it till he lost his senses.”",
+      "wordBank": [
+       "cantonment",
+       "floating",
+       "scuttled",
+       "flinched"
+      ],
+      "answer": "floating",
+      "accept": [
+       "floating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Rikki-tikki come to the family?",
+      "options": [
+       "He walks in from the jungle",
+       "He is bought at a market",
+       "He is a gift",
+       "A flood washes him to their garden"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Rikki kill Nag?",
+      "options": [
+       "In the garden",
+       "In the melon bed",
+       "In a tree",
+       "In the bathroom"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "flinched",
+       "cantonment",
+       "revived",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "frighten",
+       "flinched",
+       "cantonment",
+       "scuttled"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Courage in defense of home",
+       "Waking into a changed nation",
+       "Enemies reconciled too late"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Tone / mood",
+       "Symbolism",
+       "Conflict",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Personification",
+       "Theme",
+       "Diction / vocabulary",
+       "Symbolism"
+      ],
+      "answer": 0,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "floating"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A flood washes him to their garden"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In the bathroom"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How does Rikki-tikki come to the family?",
+      "options": [
+       "A flood washes him to their garden",
+       "He is bought at a market",
+       "He is a gift",
+       "He walks in from the jungle"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “THIS is the story of the great war that Rikki-tikki-tavi fought single-handed, through the bath-rooms of the big bungalow in Segowlee cantonment.”, what does “bungalow” most nearly mean?",
+      "options": [
+       "ran with short quick steps",
+       "pulled back quickly from fear or pain",
+       "a one-story house, originally in India, with a wide veranda",
+       "a permanent military station in British India"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "The father's",
+       "The mother's only",
+       "Teddy's"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “But just as Teddy was stooping, something flinched a little in the dust, and a tiny voice said: \"Be careful.”, what does “flinched” most nearly mean?",
+      "options": [
+       "ran with short quick steps",
+       "a one-story house, originally in India, with a wide veranda",
+       "a permanent military station in British India",
+       "pulled back quickly from fear or pain"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "cantonment",
+       "flinched",
+       "scuttled",
+       "frighten"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "The gardener",
+       "A tailorbird",
+       "A muskrat",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "Accepting one's place in nature's cycle",
+       "Hope created by an act of sacrifice",
+       "Courage in defense of home"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Conflict",
+       "Characterization",
+       "Simile",
+       "Alliteration"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Imagery",
+       "Diction / vocabulary",
+       "Personification",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Rikki's curiosity makes him a hero.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A flood washes him to their garden"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a one-story house, originally in India, with a wide veranda"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pulled back quickly from fear or pain"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "revived",
+       "cantonment",
+       "flinched",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "cantonment",
+       "flinched",
+       "scuttled",
+       "frighten"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "The father's",
+       "The mother's only",
+       "Teddy's"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Darzee and his wife only _____ down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—a horrid cold sound that made Rikki-tikki jump back two clear feet.”",
+      "wordBank": [
+       "scuttled",
+       "cantonment",
+       "flinched",
+       "cowered"
+      ],
+      "answer": "cowered",
+      "accept": [
+       "cowered"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Nag and Nagaina",
+       "Teddy and Rikki",
+       "Karait and Chua",
+       "Darzee and Chuchundra"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "The gardener",
+       "A tailorbird",
+       "A muskrat",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "Accepting one's place in nature's cycle",
+       "Hope created by an act of sacrifice",
+       "Courage in defense of home"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Imagery",
+       "Diction / vocabulary",
+       "Personification",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Conflict",
+       "Characterization",
+       "Simile",
+       "Alliteration"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Rikki's curiosity makes him a hero.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cowered"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Nag and Nagaina",
+       "Teddy and Rikki",
+       "Karait and Chua",
+       "Darzee and Chuchundra"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "The gardener",
+       "A tailorbird",
+       "A muskrat",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “THIS is the story of the great war that Rikki-tikki-tavi fought single-handed, through the bath-rooms of the big bungalow in Segowlee cantonment.”, what does “cantonment” most nearly mean?",
+      "options": [
+       "pulled back quickly from fear or pain",
+       "ran with short quick steps",
+       "a permanent military station in British India",
+       "a one-story house, originally in India, with a wide veranda"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "revived",
+       "cantonment",
+       "flinched",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Darzee and his wife only _____ down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—a horrid cold sound that made Rikki-tikki jump back two clear feet.”",
+      "wordBank": [
+       "scuttled",
+       "cantonment",
+       "flinched",
+       "cowered"
+      ],
+      "answer": "cowered",
+      "accept": [
+       "cowered"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Rikki-tikki come to the family?",
+      "options": [
+       "A flood washes him to their garden",
+       "He is bought at a market",
+       "He is a gift",
+       "He walks in from the jungle"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "Accepting one's place in nature's cycle",
+       "Hope created by an act of sacrifice",
+       "Courage in defense of home"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Imagery",
+       "Diction / vocabulary",
+       "Personification",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Conflict",
+       "Characterization",
+       "Simile",
+       "Alliteration"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Rikki's curiosity makes him a hero.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a permanent military station in British India"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cowered"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A flood washes him to their garden"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Nag and Nagaina",
+       "Teddy and Rikki",
+       "Karait and Chua",
+       "Darzee and Chuchundra"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "The father's",
+       "The mother's only",
+       "Teddy's"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “\"Now,\" said the big man (he was an Englishman who had just moved into the bungalow); \"don't _____ him, and we'll see what he'll do.\"”",
+      "wordBank": [
+       "cantonment",
+       "flinched",
+       "scuttled",
+       "frighten"
+      ],
+      "answer": "frighten",
+      "accept": [
+       "frighten"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When he _____, he was lying in the hot sun on the middle of a garden path, very draggled indeed, and a small boy was saying: \"Here's a dead mongoose.”",
+      "wordBank": [
+       "revived",
+       "cantonment",
+       "flinched",
+       "scuttled"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “THIS is the story of the great war that Rikki-tikki-tavi fought single-handed, through the bath-rooms of the big bungalow in Segowlee cantonment.”, what does “bungalow” most nearly mean?",
+      "options": [
+       "ran with short quick steps",
+       "pulled back quickly from fear or pain",
+       "a one-story house, originally in India, with a wide veranda",
+       "a permanent military station in British India"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “But just as Teddy was stooping, something flinched a little in the dust, and a tiny voice said: \"Be careful.”, what does “flinched” most nearly mean?",
+      "options": [
+       "ran with short quick steps",
+       "a one-story house, originally in India, with a wide veranda",
+       "a permanent military station in British India",
+       "pulled back quickly from fear or pain"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "Accepting one's place in nature's cycle",
+       "Hope created by an act of sacrifice",
+       "Courage in defense of home"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Conflict",
+       "Characterization",
+       "Simile",
+       "Alliteration"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Imagery",
+       "Diction / vocabulary",
+       "Personification",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Rikki's curiosity makes him a hero.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "frighten"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a one-story house, originally in India, with a wide veranda"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pulled back quickly from fear or pain"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He found a little wisp of grass _____ there, and clung to it till he lost his senses.”",
+      "wordBank": [
+       "flinched",
+       "cantonment",
+       "scuttled",
+       "floating"
+      ],
+      "answer": "floating",
+      "accept": [
+       "floating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “THIS is the story of the great war that Rikki-tikki-tavi fought single-handed, through the bath-rooms of the big bungalow in Segowlee cantonment.”, what does “bungalow” most nearly mean?",
+      "options": [
+       "ran with short quick steps",
+       "pulled back quickly from fear or pain",
+       "a one-story house, originally in India, with a wide veranda",
+       "a permanent military station in British India"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Darzee and his wife only _____ down in the nest without answering, for from the thick grass at the foot of the bush there came a low hiss—a horrid cold sound that made Rikki-tikki jump back two clear feet.”",
+      "wordBank": [
+       "scuttled",
+       "cantonment",
+       "flinched",
+       "cowered"
+      ],
+      "answer": "cowered",
+      "accept": [
+       "cowered"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Rikki kill Nag?",
+      "options": [
+       "In the bathroom",
+       "In a tree",
+       "In the garden",
+       "In the melon bed"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "The father's",
+       "The mother's only",
+       "Teddy's"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Nag and Nagaina",
+       "Teddy and Rikki",
+       "Karait and Chua",
+       "Darzee and Chuchundra"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "Accepting one's place in nature's cycle",
+       "Hope created by an act of sacrifice",
+       "Courage in defense of home"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Imagery",
+       "Diction / vocabulary",
+       "Personification",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Conflict",
+       "Characterization",
+       "Simile",
+       "Alliteration"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Rikki's curiosity makes him a hero.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "floating"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a one-story house, originally in India, with a wide veranda"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cowered"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In the bathroom"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who is Darzee?",
+      "options": [
+       "The gardener",
+       "A tailorbird",
+       "A muskrat",
+       "A snake"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He found a little wisp of grass _____ there, and clung to it till he lost his senses.”",
+      "wordBank": [
+       "flinched",
+       "cantonment",
+       "scuttled",
+       "floating"
+      ],
+      "answer": "floating",
+      "accept": [
+       "floating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rikki-Tikki-Tavi, paragraph 21: “That's his way of making _____”",
+      "answer": "friends",
+      "accept": [
+       "friends",
+       "friends"
+      ],
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What are the cobras' names?",
+      "options": [
+       "Nag and Nagaina",
+       "Teddy and Rikki",
+       "Karait and Chua",
+       "Darzee and Chuchundra"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Rikki kill Nag?",
+      "options": [
+       "In the bathroom",
+       "In a tree",
+       "In the garden",
+       "In the melon bed"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Whose life does Nagaina threaten?",
+      "options": [
+       "Darzee's",
+       "The father's",
+       "The mother's only",
+       "Teddy's"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “But just as Teddy was stooping, something flinched a little in the dust, and a tiny voice said: \"Be careful.”, what does “flinched” most nearly mean?",
+      "options": [
+       "ran with short quick steps",
+       "a one-story house, originally in India, with a wide veranda",
+       "a permanent military station in British India",
+       "pulled back quickly from fear or pain"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "Battle.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rikki-Tikki-Tavi”?",
+      "options": [
+       "The mind's final escape at the moment of death",
+       "Accepting one's place in nature's cycle",
+       "Hope created by an act of sacrifice",
+       "Courage in defense of home"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "His nature.",
+      "element": "characterization",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? Rikki against the cobras; each battle (Karait, Nag, the eggs, Nagaina) raises the stakes.",
+      "options": [
+       "Conflict",
+       "Characterization",
+       "Simile",
+       "Alliteration"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Rikki's curiosity makes him a hero. Explain how this evidence supports the claim: “Run and find out” (Rikki-Tikki-Tavi, paragraph 20).",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “That's his way of making friends” (Rikki-Tikki-Tavi, paragraph 21). Pick two words and explain what they suggest.",
+      "expected": "The family's acceptance.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 21",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rikki-Tikki-Tavi”? The animals speak, scheme and grieve (Darzee the tailorbird sings victory songs; Nagaina plots revenge), so the garden becomes a battlefield with characters.",
+      "options": [
+       "Imagery",
+       "Diction / vocabulary",
+       "Personification",
+       "Setting"
+      ],
+      "answer": 2,
+      "element": "personification",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Rikki's curiosity makes him a hero.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Run and find out” (Rikki-Tikki-Tavi, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "His nature.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how courage develops from an earlier story to “Rikki-Tikki-Tavi”. Use one quotation from each.",
+      "expected": "he fights a much larger enemy.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nag, come up and dance with death” (Rikki-Tikki-Tavi, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "Battle.",
+      "element": "diction",
+      "location": "Rikki-Tikki-Tavi, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A tailorbird"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "floating"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "friends"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nag and Nagaina"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In the bathroom"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Teddy's"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pulled back quickly from fear or pain"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Battle."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Courage in defense of home"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His nature."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Conflict"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The family's acceptance."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Personification"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The mongoose motto is \"Run and find out,\" and that drive leads him to the cobras and victory."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His nature."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "he fights a much larger enemy."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Battle."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5464,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rikki-Tikki-Tavi teaches about courage. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rikki-Tikki-Tavi teaches about courage. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5685,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rikki-Tikki-Tavi teaches about protecting home. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rikki-Tikki-Tavi teaches about protecting home. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5906,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rikki-Tikki-Tavi teaches about nature and instinct. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rikki-Tikki-Tavi teaches about nature and instinct. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6106,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "Rikki-Tikki-Tavi: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Rudyard Kipling develops courage across Rikki-Tikki-Tavi. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in Rikki-Tikki-Tavi and argue how its meaning changes over the story and why that change matters to protecting home."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in Rikki-Tikki-Tavi. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether Rikki-Tikki-Tavi finally endorses or criticizes its society's view of nature and instinct. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

@@ -196,9 +196,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Celebrated Jumping Frog of Calaveras County unit",
   "author": "Mark Twain",
@@ -566,7 +567,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -577,59 +578,12 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Celebrated Jumping Frog of Calaveras County: whole-book test",
+  "title": "The Celebrated Jumping Frog of Calaveras County: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "Whom does the narrator ask Simon Wheeler about?",
-    "options": [
-     "Andrew Jackson",
-     "Dan'l Webster",
-     "Jim Smiley",
-     "Leonidas W. Smiley"
-    ],
-    "answer": 3,
-    "element": "structure"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What was Jim Smiley known for?",
-    "options": [
-     "Fighting",
-     "Preaching",
-     "Betting on anything",
-     "Gold mining"
-    ],
-    "answer": 2,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What is the frog's name?",
-    "options": [
-     "Andrew Jackson",
-     "Jumper",
-     "Old Hickory",
-     "Dan'l Webster"
-    ],
-    "answer": 3,
-    "element": "allusion"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "How does the stranger win the bet?",
-    "options": [
-     "He trains a faster frog",
-     "He bribes the judge",
-     "He scares the frog",
-     "He fills Smiley's frog with quail shot"
-    ],
-    "answer": 3,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "How does Wheeler tell the story?",
     "options": [
      "In a whisper",
@@ -638,98 +592,130 @@
      "As a poem"
     ],
     "answer": 2,
-    "element": "tone"
+    "element": "tone",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “And when it come to fair and square jumping on a dead level, he could get over more ground at one straddle than any animal of his breed you ever see.”, what does “straddle” most nearly mean?",
+    "type": "mc",
+    "prompt": "What was Jim Smiley known for?",
     "options": [
-     "friendly and fond of company",
-     "talking too much, especially about unimportant things",
-     "to sit or stand with one leg on each side",
-     "to remove a covering from; to reveal"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “In compliance with the request of a friend of mine, who wrote me from the East, I called on good-natured, garrulous old Simon Wheeler, and inquired after my friend's friend, Leonidas W.”, what does “garrulous” most nearly mean?",
-    "options": [
-     "to sit or stand with one leg on each side",
-     "to remove a covering from; to reveal",
-     "talking too much, especially about unimportant things",
-     "friendly and fond of company"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“And when it come to fair and square jumping on a dead level, he could get over more ground at one straddle than any animal of his breed you ”), what does “straddle” mean?",
-    "options": [
-     "to sit or stand with one leg on each side",
-     "be fond of; be attached to",
-     "the act of going on with something",
-     "friendly and fond of company"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“In compliance with the request of a friend of mine, who wrote me from the East, I called on good-natured, garrulous old Simon Wheeler, and i”), what does “garrulous” mean?",
-    "options": [
-     "full of energy and willing to try new things",
-     "talking too much, especially about unimportant things",
-     "to sit or stand with one leg on each side",
-     "be fond of; be attached to"
+     "Gold mining",
+     "Betting on anything",
+     "Fighting",
+     "Preaching"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“But as soon as money was up on him, he was a different dog; his underjaw'd begin to stick out like the fo'castle of a steamboat, and his tee”), what does “uncover” mean?",
+    "type": "mc",
+    "prompt": "Whom does the narrator ask Simon Wheeler about?",
     "options": [
-     "gave someone a task to carry out",
-     "talking too much, especially about unimportant things",
-     "to remove a covering from; to reveal",
-     "full of energy and willing to try new things"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“At the door I met the sociable Wheeler returning, and he button- holed me and recommenced:”), what does “sociable” mean?",
-    "options": [
-     "the act of going on with something",
-     "to remove a covering from; to reveal",
-     "gave someone a task to carry out",
-     "friendly and fond of company"
+     "Dan'l Webster",
+     "Andrew Jackson",
+     "Jim Smiley",
+     "Leonidas W. Smiley"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "structure",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“I told him a friend of mine had commissioned me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”), what does “cherished” mean?",
+    "type": "mc",
+    "prompt": "How does the stranger win the bet?",
     "options": [
-     "be fond of; be attached to",
-     "to sit or stand with one leg on each side",
-     "friendly and fond of company",
-     "the act of going on with something"
+     "He fills Smiley's frog with quail shot",
+     "He scares the frog",
+     "He trains a faster frog",
+     "He bribes the judge"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the frog's name?",
+    "options": [
+     "Andrew Jackson",
+     "Jumper",
+     "Old Hickory",
+     "Dan'l Webster"
+    ],
+    "answer": 3,
+    "element": "allusion",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 9
+   },
+   {
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+    "options": [
+     "The art of the deadpan tall tale",
+     "Friendship tested by duty",
+     "Endurance turning to justice",
+     "Wishes that defy fate"
+    ],
+    "answer": 0,
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 12
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+    "options": [
+     "Hyperbole",
+     "Conflict",
+     "Humour",
+     "Alliteration"
+    ],
+    "answer": 2,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+    "options": [
+     "Characterization",
+     "FrameNarrative",
+     "Imagery",
+     "Alliteration"
+    ],
+    "answer": 1,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "Leonidas W. Smiley",
-    "element": "structure"
+    "answer": "In a serious, monotonous, deadpan way",
+    "element": "tone"
    },
    {
     "n": 2,
@@ -738,8 +724,8 @@
    },
    {
     "n": 3,
-    "answer": "Dan'l Webster",
-    "element": "allusion"
+    "answer": "Leonidas W. Smiley",
+    "element": "structure"
    },
    {
     "n": 4,
@@ -748,51 +734,4710 @@
    },
    {
     "n": 5,
-    "answer": "In a serious, monotonous, deadpan way",
-    "element": "tone"
+    "answer": "Dan'l Webster",
+    "element": "allusion"
    },
    {
     "n": 6,
-    "answer": "to sit or stand with one leg on each side",
-    "element": "diction"
+    "answer": "The art of the deadpan tall tale",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "talking too much, especially about unimportant things",
-    "element": "diction"
+    "answer": "Humour",
+    "element": "structure"
    },
    {
     "n": 8,
-    "answer": "to sit or stand with one leg on each side",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "talking too much, especially about unimportant things",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "to remove a covering from; to reveal",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "friendly and fond of company",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "be fond of; be attached to",
-    "element": "diction"
+    "answer": "FrameNarrative",
+    "element": "structure"
    }
   ],
-  "shortAnswer": [
-   "Explain how tall tales and frontier humor develops from the beginning of the story to the end. Use two passages.",
-   "Explain how storytelling develops from the beginning of the story to the end. Use two passages.",
-   "Explain how trickery develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (tall tales and frontier humor, storytelling, trickery) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "continuation",
+       "straddle"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "With wild laughter",
+       "In a serious, monotonous, deadpan way",
+       "As a poem"
+      ],
+      "answer": 2,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had commissioned me to make some inquiries about a _____ companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "cherished",
+       "uncover",
+       "garrulous",
+       "straddle"
+      ],
+      "answer": "cherished",
+      "accept": [
+       "cherished"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Andrew Jackson",
+       "Jim Smiley",
+       "Leonidas W. Smiley"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 17: “_____ him full of quail shot”",
+      "answer": "filled",
+      "accept": [
+       "filled",
+       "filled"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 1: “I have a lurking _____ that Leonidas W. Smiley is a myth”",
+      "answer": "suspicion",
+      "accept": [
+       "suspicion",
+       "suspicion"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "commissioned",
+       "straddle"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the stranger win the bet?",
+      "options": [
+       "He fills Smiley's frog with quail shot",
+       "He scares the frog",
+       "He trains a faster frog",
+       "He bribes the judge"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "garrulous",
+       "straddle",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What was Jim Smiley known for?",
+      "options": [
+       "Gold mining",
+       "Betting on anything",
+       "Fighting",
+       "Preaching"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Jumper",
+       "Old Hickory",
+       "Dan'l Webster"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Friendship tested by duty",
+       "Endurance turning to justice",
+       "Wishes that defy fate"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Hyperbole",
+       "Conflict",
+       "Humour",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cherished"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "filled"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "suspicion"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He fills Smiley's frog with quail shot"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Betting on anything"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 17: “_____ him full of quail shot”",
+      "answer": "filled",
+      "accept": [
+       "filled",
+       "filled"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "commissioned",
+       "straddle"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "garrulous",
+       "straddle",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Jumper",
+       "Old Hickory",
+       "Dan'l Webster"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Andrew Jackson",
+       "Jim Smiley",
+       "Leonidas W. Smiley"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "continuation",
+       "straddle"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "With wild laughter",
+       "In a serious, monotonous, deadpan way",
+       "As a poem"
+      ],
+      "answer": 2,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 1: “I have a lurking _____ that Leonidas W. Smiley is a myth”",
+      "answer": "suspicion",
+      "accept": [
+       "suspicion",
+       "suspicion"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had commissioned me to make some inquiries about a _____ companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "cherished",
+       "uncover",
+       "garrulous",
+       "straddle"
+      ],
+      "answer": "cherished",
+      "accept": [
+       "cherished"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the stranger win the bet?",
+      "options": [
+       "He fills Smiley's frog with quail shot",
+       "He scares the frog",
+       "He trains a faster frog",
+       "He bribes the judge"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What was Jim Smiley known for?",
+      "options": [
+       "Gold mining",
+       "Betting on anything",
+       "Fighting",
+       "Preaching"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Friendship tested by duty",
+       "Endurance turning to justice",
+       "Wishes that defy fate"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "Characterization",
+       "FrameNarrative",
+       "Imagery",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Hyperbole",
+       "Conflict",
+       "Humour",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "filled"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "suspicion"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cherished"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He fills Smiley's frog with quail shot"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Betting on anything"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "With wild laughter",
+       "In a serious, monotonous, deadpan way",
+       "As a poem"
+      ],
+      "answer": 2,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had commissioned me to make some inquiries about a _____ companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "cherished",
+       "uncover",
+       "garrulous",
+       "straddle"
+      ],
+      "answer": "cherished",
+      "accept": [
+       "cherished"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "continuation",
+       "straddle"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What was Jim Smiley known for?",
+      "options": [
+       "Gold mining",
+       "Betting on anything",
+       "Fighting",
+       "Preaching"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "garrulous",
+       "straddle",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 17: “_____ him full of quail shot”",
+      "answer": "filled",
+      "accept": [
+       "filled",
+       "filled"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Andrew Jackson",
+       "Jim Smiley",
+       "Leonidas W. Smiley"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the stranger win the bet?",
+      "options": [
+       "He fills Smiley's frog with quail shot",
+       "He scares the frog",
+       "He trains a faster frog",
+       "He bribes the judge"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Jumper",
+       "Old Hickory",
+       "Dan'l Webster"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "commissioned",
+       "straddle"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Friendship tested by duty",
+       "Endurance turning to justice",
+       "Wishes that defy fate"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Hyperbole",
+       "Conflict",
+       "Humour",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "Characterization",
+       "FrameNarrative",
+       "Imagery",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cherished"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Betting on anything"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "filled"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He fills Smiley's frog with quail shot"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had commissioned me to make some inquiries about a _____ companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "cherished",
+       "uncover",
+       "garrulous",
+       "straddle"
+      ],
+      "answer": "cherished",
+      "accept": [
+       "cherished"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "continuation",
+       "straddle"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 17: “_____ him full of quail shot”",
+      "answer": "filled",
+      "accept": [
+       "filled",
+       "filled"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 1: “I have a lurking _____ that Leonidas W. Smiley is a myth”",
+      "answer": "suspicion",
+      "accept": [
+       "suspicion",
+       "suspicion"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "commissioned",
+       "straddle"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the stranger win the bet?",
+      "options": [
+       "He fills Smiley's frog with quail shot",
+       "He scares the frog",
+       "He trains a faster frog",
+       "He bribes the judge"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Jumper",
+       "Old Hickory",
+       "Dan'l Webster"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "With wild laughter",
+       "In a serious, monotonous, deadpan way",
+       "As a poem"
+      ],
+      "answer": 2,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Andrew Jackson",
+       "Jim Smiley",
+       "Leonidas W. Smiley"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Friendship tested by duty",
+       "Endurance turning to justice",
+       "Wishes that defy fate"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Hyperbole",
+       "Conflict",
+       "Humour",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "Characterization",
+       "FrameNarrative",
+       "Imagery",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cherished"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "filled"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "suspicion"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He fills Smiley's frog with quail shot"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "garrulous",
+       "straddle",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "continuation",
+       "straddle"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Jumper",
+       "Old Hickory",
+       "Dan'l Webster"
+      ],
+      "answer": 3,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 17: “_____ him full of quail shot”",
+      "answer": "filled",
+      "accept": [
+       "filled",
+       "filled"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 1: “I have a lurking _____ that Leonidas W. Smiley is a myth”",
+      "answer": "suspicion",
+      "accept": [
+       "suspicion",
+       "suspicion"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "With wild laughter",
+       "In a serious, monotonous, deadpan way",
+       "As a poem"
+      ],
+      "answer": 2,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "commissioned",
+       "straddle"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What was Jim Smiley known for?",
+      "options": [
+       "Gold mining",
+       "Betting on anything",
+       "Fighting",
+       "Preaching"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "The art of the deadpan tall tale",
+       "Friendship tested by duty",
+       "Endurance turning to justice",
+       "Wishes that defy fate"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "Characterization",
+       "FrameNarrative",
+       "Imagery",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Hyperbole",
+       "Conflict",
+       "Humour",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) shape its meaning? Consider a second, competing reading.",
+      "expected": "The trick.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "filled"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "suspicion"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Betting on anything"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The trick."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 6,
+     "fill": 5,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “In compliance with the request of a friend of mine, who wrote me from the East, I called on good-natured, garrulous old Simon Wheeler, and inquired after my friend's friend, Leonidas W.”, what does “garrulous” most nearly mean?",
+      "options": [
+       "to remove a covering from; to reveal",
+       "talking too much, especially about unimportant things",
+       "friendly and fond of company",
+       "to sit or stand with one leg on each side"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "straddle",
+       "continuation"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And when it come to fair and square jumping on a dead level, he could get over more ground at one straddle than any animal of his breed you ever see.”, what does “straddle” most nearly mean?",
+      "options": [
+       "talking too much, especially about unimportant things",
+       "to remove a covering from; to reveal",
+       "to sit or stand with one leg on each side",
+       "friendly and fond of company"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "In a serious, monotonous, deadpan way",
+       "With wild laughter",
+       "As a poem"
+      ],
+      "answer": 1,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What was Jim Smiley known for?",
+      "options": [
+       "Preaching",
+       "Fighting",
+       "Betting on anything",
+       "Gold mining"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 1: “I have a lurking _____ that Leonidas W. Smiley is a myth”",
+      "answer": "suspicion",
+      "accept": [
+       "suspicion",
+       "suspicion"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had commissioned me to make some inquiries about a _____ companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "garrulous",
+       "cherished",
+       "uncover",
+       "straddle"
+      ],
+      "answer": "cherished",
+      "accept": [
+       "cherished"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "Confinement driving a woman into madness",
+       "Accepting one's place in nature's cycle",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "FrameNarrative",
+       "Theme",
+       "Imagery",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Irony",
+       "Diction / vocabulary",
+       "Characterization",
+       "Humour"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) shape its meaning? Consider a second, competing reading.",
+      "expected": "The trick.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "talking too much, especially about unimportant things"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to sit or stand with one leg on each side"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Betting on anything"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "suspicion"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cherished"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The trick."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "straddle",
+       "garrulous",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In compliance with the request of a friend of mine, who wrote me from the East, I called on good-natured, garrulous old Simon Wheeler, and inquired after my friend's friend, Leonidas W.”, what does “garrulous” most nearly mean?",
+      "options": [
+       "to remove a covering from; to reveal",
+       "talking too much, especially about unimportant things",
+       "friendly and fond of company",
+       "to sit or stand with one leg on each side"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the stranger win the bet?",
+      "options": [
+       "He fills Smiley's frog with quail shot",
+       "He trains a faster frog",
+       "He scares the frog",
+       "He bribes the judge"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Dan'l Webster",
+       "Old Hickory",
+       "Jumper"
+      ],
+      "answer": 1,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "In a serious, monotonous, deadpan way",
+       "With wild laughter",
+       "As a poem"
+      ],
+      "answer": 1,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Leonidas W. Smiley",
+       "Andrew Jackson",
+       "Jim Smiley"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 1: “I have a lurking _____ that Leonidas W. Smiley is a myth”",
+      "answer": "suspicion",
+      "accept": [
+       "suspicion",
+       "suspicion"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "Confinement driving a woman into madness",
+       "Accepting one's place in nature's cycle",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "FrameNarrative",
+       "Theme",
+       "Imagery",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Irony",
+       "Diction / vocabulary",
+       "Characterization",
+       "Humour"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) shape its meaning? Consider a second, competing reading.",
+      "expected": "The trick.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "talking too much, especially about unimportant things"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He fills Smiley's frog with quail shot"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "suspicion"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The trick."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "straddle",
+       "garrulous",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Dan'l Webster",
+       "Old Hickory",
+       "Jumper"
+      ],
+      "answer": 1,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "In a serious, monotonous, deadpan way",
+       "With wild laughter",
+       "As a poem"
+      ],
+      "answer": 1,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had commissioned me to make some inquiries about a _____ companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "garrulous",
+       "cherished",
+       "uncover",
+       "straddle"
+      ],
+      "answer": "cherished",
+      "accept": [
+       "cherished"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Leonidas W. Smiley",
+       "Andrew Jackson",
+       "Jim Smiley"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "straddle",
+       "commissioned"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “And when it come to fair and square jumping on a dead level, he could get over more ground at one straddle than any animal of his breed you ever see.”, what does “straddle” most nearly mean?",
+      "options": [
+       "talking too much, especially about unimportant things",
+       "to remove a covering from; to reveal",
+       "to sit or stand with one leg on each side",
+       "friendly and fond of company"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "Confinement driving a woman into madness",
+       "Accepting one's place in nature's cycle",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Irony",
+       "Diction / vocabulary",
+       "Characterization",
+       "Humour"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "FrameNarrative",
+       "Theme",
+       "Imagery",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) shape its meaning? Consider a second, competing reading.",
+      "expected": "The trick.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cherished"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to sit or stand with one leg on each side"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The trick."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How does the stranger win the bet?",
+      "options": [
+       "He fills Smiley's frog with quail shot",
+       "He trains a faster frog",
+       "He scares the frog",
+       "He bribes the judge"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Dan'l Webster",
+       "Old Hickory",
+       "Jumper"
+      ],
+      "answer": 1,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Leonidas W. Smiley",
+       "Andrew Jackson",
+       "Jim Smiley"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "straddle",
+       "continuation"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "straddle",
+       "garrulous",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 1: “I have a lurking _____ that Leonidas W. Smiley is a myth”",
+      "answer": "suspicion",
+      "accept": [
+       "suspicion",
+       "suspicion"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “But as soon as money was up on him, he was a different dog; his underjaw'd begin to stick out like the fo'castle of a steamboat, and his teeth would uncover, and shine savage like the furnaces.”, what does “uncover” most nearly mean?",
+      "options": [
+       "to sit or stand with one leg on each side",
+       "talking too much, especially about unimportant things",
+       "to remove a covering from; to reveal",
+       "friendly and fond of company"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "Confinement driving a woman into madness",
+       "Accepting one's place in nature's cycle",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "FrameNarrative",
+       "Theme",
+       "Imagery",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Irony",
+       "Diction / vocabulary",
+       "Characterization",
+       "Humour"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) shape its meaning? Consider a second, competing reading.",
+      "expected": "The trick.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He fills Smiley's frog with quail shot"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "suspicion"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to remove a covering from; to reveal"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The trick."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Whom does the narrator ask Simon Wheeler about?",
+      "options": [
+       "Dan'l Webster",
+       "Leonidas W. Smiley",
+       "Andrew Jackson",
+       "Jim Smiley"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "straddle",
+       "continuation"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “At the door I met the sociable Wheeler returning, and he button- holed me and recommenced:”, what does “sociable” most nearly mean?",
+      "options": [
+       "to remove a covering from; to reveal",
+       "to sit or stand with one leg on each side",
+       "talking too much, especially about unimportant things",
+       "friendly and fond of company"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Celebrated Jumping Frog of Calaveras County, paragraph 17: “_____ him full of quail shot”",
+      "answer": "filled",
+      "accept": [
+       "filled",
+       "filled"
+      ],
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "straddle",
+       "commissioned"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “In compliance with the request of a friend of mine, who wrote me from the East, I called on good-natured, garrulous old Simon Wheeler, and inquired after my friend's friend, Leonidas W.”, what does “garrulous” most nearly mean?",
+      "options": [
+       "to remove a covering from; to reveal",
+       "talking too much, especially about unimportant things",
+       "friendly and fond of company",
+       "to sit or stand with one leg on each side"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "In a serious, monotonous, deadpan way",
+       "With wild laughter",
+       "As a poem"
+      ],
+      "answer": 1,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "Confinement driving a woman into madness",
+       "Accepting one's place in nature's cycle",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Irony",
+       "Diction / vocabulary",
+       "Characterization",
+       "Humour"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "FrameNarrative",
+       "Theme",
+       "Imagery",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) shape its meaning? Consider a second, competing reading.",
+      "expected": "The trick.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Leonidas W. Smiley"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "friendly and fond of company"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "filled"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "talking too much, especially about unimportant things"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The trick."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “And when it come to fair and square jumping on a dead level, he could get over more ground at one straddle than any animal of his breed you ever see.”, what does “straddle” most nearly mean?",
+      "options": [
+       "talking too much, especially about unimportant things",
+       "to remove a covering from; to reveal",
+       "to sit or stand with one leg on each side",
+       "friendly and fond of company"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “At the door I met the sociable Wheeler returning, and he button- holed me and recommenced:”, what does “sociable” most nearly mean?",
+      "options": [
+       "to remove a covering from; to reveal",
+       "to sit or stand with one leg on each side",
+       "talking too much, especially about unimportant things",
+       "friendly and fond of company"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I told him a friend of mine had _____ me to make some inquiries about a cherished companion of his boyhood named Leonidas W.”",
+      "wordBank": [
+       "uncover",
+       "garrulous",
+       "straddle",
+       "commissioned"
+      ],
+      "answer": "commissioned",
+      "accept": [
+       "commissioned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the frog's name?",
+      "options": [
+       "Andrew Jackson",
+       "Dan'l Webster",
+       "Old Hickory",
+       "Jumper"
+      ],
+      "answer": 1,
+      "element": "allusion",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a _____ of the history of the enterprising vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "garrulous",
+       "uncover",
+       "straddle",
+       "continuation"
+      ],
+      "answer": "continuation",
+      "accept": [
+       "continuation"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, by your leave, I did not think that a continuation of the history of the _____ vagabond Jim Smiley would be likely to afford me much information concerning the Rev.”",
+      "wordBank": [
+       "enterprising",
+       "straddle",
+       "garrulous",
+       "uncover"
+      ],
+      "answer": "enterprising",
+      "accept": [
+       "enterprising"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Wheeler tell the story?",
+      "options": [
+       "In a whisper",
+       "In a serious, monotonous, deadpan way",
+       "With wild laughter",
+       "As a poem"
+      ],
+      "answer": 1,
+      "element": "tone",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) Answer in two or three sentences with one detail.",
+      "expected": "The trick.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Celebrated Jumping Frog of Calaveras County”?",
+      "options": [
+       "Human limits in an indifferent nature",
+       "Confinement driving a woman into madness",
+       "Accepting one's place in nature's cycle",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "The narrator's suspicion.",
+      "element": "characterization",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? The formal narrator contrasts with Wheeler's vernacular.",
+      "options": [
+       "FrameNarrative",
+       "Theme",
+       "Imagery",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Celebrated Jumping Frog of Calaveras County”? Deadpan delivery.",
+      "options": [
+       "Irony",
+       "Diction / vocabulary",
+       "Characterization",
+       "Humour"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Flies, Dan'l, flies” (The Celebrated Jumping Frog of Calaveras County, paragraph 7). Pick two words and explain what they suggest.",
+      "expected": "The frog's training.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 7",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Twain makes the frame a joke on the narrator as much as on Smiley. Explain how this evidence supports the claim: “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1).",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “filled him full of quail shot” (The Celebrated Jumping Frog of Calaveras County, paragraph 17) shape its meaning? Consider a second, competing reading.",
+      "expected": "The trick.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 17",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Twain makes the frame a joke on the narrator as much as on Smiley.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I have a lurking suspicion that Leonidas W. Smiley is a myth” (The Celebrated Jumping Frog of Calaveras County, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "The narrator's suspicion.",
+      "element": "diction",
+      "location": "The Celebrated Jumping Frog of Calaveras County, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how trickery develops from an earlier story to “The Celebrated Jumping Frog of Calaveras County”. Use one quotation from each.",
+      "expected": "the trickster is tricked.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "to sit or stand with one leg on each side"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "friendly and fond of company"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "commissioned"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Dan'l Webster"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "continuation"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "enterprising"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "In a serious, monotonous, deadpan way"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The trick."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The art of the deadpan tall tale"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "FrameNarrative"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Humour"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The frog's training."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The trick."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator suspects \"Leonidas W. Smiley is a myth\" invented to trap him, and the tale itself ends with a stranger who \"filled him full of quail shot,\" tricking the trickster."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The narrator's suspicion."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the trickster is tricked."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -816,7 +5461,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Celebrated Jumping Frog of Calaveras County teaches about tall tales and frontier humor. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Celebrated Jumping Frog of Calaveras County teaches about tall tales and frontier humor. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1037,7 +5682,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Celebrated Jumping Frog of Calaveras County teaches about storytelling. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Celebrated Jumping Frog of Calaveras County teaches about storytelling. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1258,7 +5903,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Celebrated Jumping Frog of Calaveras County teaches about trickery. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Celebrated Jumping Frog of Calaveras County teaches about trickery. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1458,5 +6103,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Celebrated Jumping Frog of Calaveras County: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Mark Twain develops tall tales and frontier humor across The Celebrated Jumping Frog of Calaveras County. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Celebrated Jumping Frog of Calaveras County and argue how its meaning changes over the story and why that change matters to storytelling."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Celebrated Jumping Frog of Calaveras County. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Celebrated Jumping Frog of Calaveras County finally endorses or criticizes its society's view of trickery. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

@@ -200,9 +200,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "Young Goodman Brown unit",
   "author": "Nathaniel Hawthorne",
@@ -570,7 +571,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -581,169 +582,138 @@
   }
  ],
  "wholeBookTest": {
-  "title": "Young Goodman Brown: whole-book test",
+  "title": "Young Goodman Brown: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "What is the name of Brown's wife?",
-    "options": [
-     "Hope",
-     "Faith",
-     "Prudence",
-     "Charity"
-    ],
-    "answer": 1,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What does the traveler carry?",
-    "options": [
-     "A staff that looks like a twisting serpent",
-     "A lantern",
-     "A Bible",
-     "A sword"
-    ],
-    "answer": 0,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "Whom does Brown see in the forest?",
-    "options": [
-     "Pious townspeople and his minister",
-     "Only strangers",
-     "No one",
-     "Indians only"
-    ],
-    "answer": 0,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What does Brown find on a branch?",
-    "options": [
-     "A pink ribbon from Faith's cap",
-     "A feather",
-     "A letter",
-     "A cross"
-    ],
-    "answer": 0,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "How does Brown live after that night?",
     "options": [
      "As an exile",
-     "Stern, sad and distrustful until death",
      "As a minister",
+     "Stern, sad and distrustful until death",
      "Happily with Faith"
     ],
-    "answer": 1,
-    "element": "theme"
+    "answer": 2,
+    "element": "theme",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 2
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “considerably nettled, \"there is my wife, Faith.”, what does “nettled” most nearly mean?",
+    "type": "mc",
+    "prompt": "Whom does Brown see in the forest?",
     "options": [
-     "in a self-collected or self-possessed manner",
-     "irritated; annoyed",
-     "someone who listens attentively",
-     "seize on its way"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “Though their figures brushed the small boughs by the wayside, it could not be seen that they intercepted, even for a moment, the faint gleam from the strip of bright sky athwart which they must have passed.”, what does “intercepted” most nearly mean?",
-    "options": [
-     "seize on its way",
-     "someone who listens attentively",
-     "in a self-collected or self-possessed manner",
-     "irritated; annoyed"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“considerably nettled, \"there is my wife, Faith.”), what does “nettled” mean?",
-    "options": [
-     "irritated; annoyed",
-     "reflect deeply on a subject",
-     "feeling unsure",
-     "seize on its way"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Though their figures brushed the small boughs by the wayside, it could not be seen that they intercepted, even for a moment, the faint gleam”), what does “intercepted” mean?",
-    "options": [
-     "be persistent, refuse to stop",
-     "seize on its way",
-     "carry on a conversation",
-     "someone who listens attentively"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“They continued to walk onward, while the elder traveller exhorted his companion to make good speed and persevere in the path, discoursing so”), what does “auditor” mean?",
-    "options": [
-     "bend one's back forward from the waist on down",
-     "to a great extent or degree",
-     "someone who listens attentively",
-     "in a self-collected or self-possessed manner"
+     "Only strangers",
+     "Indians only",
+     "Pious townspeople and his minister",
+     "No one"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 5
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“composedly. \"Sit here and rest yourself a while; and when you”), what does “composedly” mean?",
+    "type": "mc",
+    "prompt": "What does the traveler carry?",
     "options": [
-     "feeling unsure",
-     "irritated; annoyed",
-     "reflect deeply on a subject",
-     "in a self-collected or self-possessed manner"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“The good old minister was taking a walk along the graveyard to get an appetite for breakfast and meditate his sermon, and bestowed a blessin”), what does “meditate” mean?",
-    "options": [
-     "reflect deeply on a subject",
-     "carry on a conversation",
-     "seize on its way",
-     "be persistent, refuse to stop"
+     "A staff that looks like a twisting serpent",
+     "A sword",
+     "A lantern",
+     "A Bible"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
+   },
+   {
+    "type": "mc",
+    "prompt": "What does Brown find on a branch?",
+    "options": [
+     "A pink ribbon from Faith's cap",
+     "A letter",
+     "A feather",
+     "A cross"
+    ],
+    "answer": 0,
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
+   },
+   {
+    "type": "mc",
+    "prompt": "What is the name of Brown's wife?",
+    "options": [
+     "Faith",
+     "Hope",
+     "Prudence",
+     "Charity"
+    ],
+    "answer": 0,
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
+   },
+   {
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+    "options": [
+     "Wishes that defy fate",
+     "Human limits in an indifferent nature",
+     "The loss of faith in human goodness",
+     "A girl's first encounter with death across the class line"
+    ],
+    "answer": 2,
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 13
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+    "options": [
+     "Plot",
+     "Diction / vocabulary",
+     "Allegory",
+     "Conflict"
+    ],
+    "answer": 2,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "Faith",
-    "element": "symbolism"
+    "answer": "Stern, sad and distrustful until death",
+    "element": "theme"
    },
    {
     "n": 2,
-    "answer": "A staff that looks like a twisting serpent",
-    "element": "symbolism"
+    "answer": "Pious townspeople and his minister",
+    "element": "plot"
    },
    {
     "n": 3,
-    "answer": "Pious townspeople and his minister",
-    "element": "plot"
+    "answer": "A staff that looks like a twisting serpent",
+    "element": "symbolism"
    },
    {
     "n": 4,
@@ -752,51 +722,4694 @@
    },
    {
     "n": 5,
-    "answer": "Stern, sad and distrustful until death",
-    "element": "theme"
+    "answer": "Faith",
+    "element": "symbolism"
    },
    {
     "n": 6,
-    "answer": "irritated; annoyed",
-    "element": "diction"
+    "answer": "The loss of faith in human goodness",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "seize on its way",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "irritated; annoyed",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "seize on its way",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "someone who listens attentively",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "in a self-collected or self-possessed manner",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "reflect deeply on a subject",
-    "element": "diction"
+    "answer": "Allegory",
+    "element": "structure"
    }
   ],
-  "shortAnswer": [
-   "Explain how faith and doubt develops from the beginning of the story to the end. Use two passages.",
-   "Explain how hypocrisy develops from the beginning of the story to the end. Use two passages.",
-   "Explain how the nature of evil develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (faith and doubt, hypocrisy, the nature of evil) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He looked up to the sky, _____ whether there really was a heaven above him.”",
+      "wordBank": [
+       "nettled",
+       "doubting",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "doubting",
+      "accept": [
+       "doubting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A staff that looks like a twisting serpent",
+       "A sword",
+       "A lantern",
+       "A Bible"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and _____ in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his auditor than to be suggested by himself.”",
+      "wordBank": [
+       "intercepted",
+       "persevere",
+       "auditor",
+       "nettled"
+      ],
+      "answer": "persevere",
+      "accept": [
+       "persevere"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The good old minister was taking a walk along the graveyard to get an appetite for breakfast and _____ his sermon, and bestowed a blessing, as he passed, on Goodman Brown.”",
+      "wordBank": [
+       "auditor",
+       "intercepted",
+       "meditate",
+       "nettled"
+      ],
+      "answer": "meditate",
+      "accept": [
+       "meditate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the name of Brown's wife?",
+      "options": [
+       "Faith",
+       "Hope",
+       "Prudence",
+       "Charity"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Brown live after that night?",
+      "options": [
+       "As an exile",
+       "As a minister",
+       "Stern, sad and distrustful until death",
+       "Happily with Faith"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Only strangers",
+       "Indians only",
+       "Pious townspeople and his minister",
+       "No one"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Brown find on a branch?",
+      "options": [
+       "A pink ribbon from Faith's cap",
+       "A letter",
+       "A feather",
+       "A cross"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Goodman Brown alternately _____ and stood on tiptoe, pulling aside the branches and thrusting forth his head as far as he durst without discerning so much as a shadow.”",
+      "wordBank": [
+       "intercepted",
+       "crouched",
+       "nettled",
+       "auditor"
+      ],
+      "answer": "crouched",
+      "accept": [
+       "crouched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "Wishes that defy fate",
+       "Human limits in an indifferent nature",
+       "The loss of faith in human goodness",
+       "A girl's first encounter with death across the class line"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Plot",
+       "Diction / vocabulary",
+       "Allegory",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubting"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "persevere"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "meditate"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Faith"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Stern, sad and distrustful until death"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A pink ribbon from Faith's cap"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "crouched"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A staff that looks like a twisting serpent",
+       "A sword",
+       "A lantern",
+       "A Bible"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Brown live after that night?",
+      "options": [
+       "As an exile",
+       "As a minister",
+       "Stern, sad and distrustful until death",
+       "Happily with Faith"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Brown find on a branch?",
+      "options": [
+       "A pink ribbon from Faith's cap",
+       "A letter",
+       "A feather",
+       "A cross"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Only strangers",
+       "Indians only",
+       "Pious townspeople and his minister",
+       "No one"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Goodman Brown alternately _____ and stood on tiptoe, pulling aside the branches and thrusting forth his head as far as he durst without discerning so much as a shadow.”",
+      "wordBank": [
+       "intercepted",
+       "crouched",
+       "nettled",
+       "auditor"
+      ],
+      "answer": "crouched",
+      "accept": [
+       "crouched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The good old minister was taking a walk along the graveyard to get an appetite for breakfast and _____ his sermon, and bestowed a blessing, as he passed, on Goodman Brown.”",
+      "wordBank": [
+       "auditor",
+       "intercepted",
+       "meditate",
+       "nettled"
+      ],
+      "answer": "meditate",
+      "accept": [
+       "meditate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and _____ in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his auditor than to be suggested by himself.”",
+      "wordBank": [
+       "intercepted",
+       "persevere",
+       "auditor",
+       "nettled"
+      ],
+      "answer": "persevere",
+      "accept": [
+       "persevere"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He looked up to the sky, _____ whether there really was a heaven above him.”",
+      "wordBank": [
+       "nettled",
+       "doubting",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "doubting",
+      "accept": [
+       "doubting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the name of Brown's wife?",
+      "options": [
+       "Faith",
+       "Hope",
+       "Prudence",
+       "Charity"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "Wishes that defy fate",
+       "Human limits in an indifferent nature",
+       "The loss of faith in human goodness",
+       "A girl's first encounter with death across the class line"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Plot",
+       "Diction / vocabulary",
+       "Allegory",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Stern, sad and distrustful until death"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A pink ribbon from Faith's cap"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "crouched"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "meditate"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "persevere"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubting"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Faith"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The good old minister was taking a walk along the graveyard to get an appetite for breakfast and _____ his sermon, and bestowed a blessing, as he passed, on Goodman Brown.”",
+      "wordBank": [
+       "auditor",
+       "intercepted",
+       "meditate",
+       "nettled"
+      ],
+      "answer": "meditate",
+      "accept": [
+       "meditate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Brown live after that night?",
+      "options": [
+       "As an exile",
+       "As a minister",
+       "Stern, sad and distrustful until death",
+       "Happily with Faith"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He looked up to the sky, _____ whether there really was a heaven above him.”",
+      "wordBank": [
+       "nettled",
+       "doubting",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "doubting",
+      "accept": [
+       "doubting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Only strangers",
+       "Indians only",
+       "Pious townspeople and his minister",
+       "No one"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A staff that looks like a twisting serpent",
+       "A sword",
+       "A lantern",
+       "A Bible"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Brown find on a branch?",
+      "options": [
+       "A pink ribbon from Faith's cap",
+       "A letter",
+       "A feather",
+       "A cross"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Goodman Brown alternately _____ and stood on tiptoe, pulling aside the branches and thrusting forth his head as far as he durst without discerning so much as a shadow.”",
+      "wordBank": [
+       "intercepted",
+       "crouched",
+       "nettled",
+       "auditor"
+      ],
+      "answer": "crouched",
+      "accept": [
+       "crouched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the name of Brown's wife?",
+      "options": [
+       "Faith",
+       "Hope",
+       "Prudence",
+       "Charity"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "Wishes that defy fate",
+       "Human limits in an indifferent nature",
+       "The loss of faith in human goodness",
+       "A girl's first encounter with death across the class line"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Plot",
+       "Diction / vocabulary",
+       "Allegory",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "meditate"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Stern, sad and distrustful until death"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubting"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A pink ribbon from Faith's cap"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "crouched"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Faith"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How does Brown live after that night?",
+      "options": [
+       "As an exile",
+       "As a minister",
+       "Stern, sad and distrustful until death",
+       "Happily with Faith"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A staff that looks like a twisting serpent",
+       "A sword",
+       "A lantern",
+       "A Bible"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He looked up to the sky, _____ whether there really was a heaven above him.”",
+      "wordBank": [
+       "nettled",
+       "doubting",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "doubting",
+      "accept": [
+       "doubting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Only strangers",
+       "Indians only",
+       "Pious townspeople and his minister",
+       "No one"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the name of Brown's wife?",
+      "options": [
+       "Faith",
+       "Hope",
+       "Prudence",
+       "Charity"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and _____ in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his auditor than to be suggested by himself.”",
+      "wordBank": [
+       "intercepted",
+       "persevere",
+       "auditor",
+       "nettled"
+      ],
+      "answer": "persevere",
+      "accept": [
+       "persevere"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Goodman Brown alternately _____ and stood on tiptoe, pulling aside the branches and thrusting forth his head as far as he durst without discerning so much as a shadow.”",
+      "wordBank": [
+       "intercepted",
+       "crouched",
+       "nettled",
+       "auditor"
+      ],
+      "answer": "crouched",
+      "accept": [
+       "crouched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Brown find on a branch?",
+      "options": [
+       "A pink ribbon from Faith's cap",
+       "A letter",
+       "A feather",
+       "A cross"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "Wishes that defy fate",
+       "Human limits in an indifferent nature",
+       "The loss of faith in human goodness",
+       "A girl's first encounter with death across the class line"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Plot",
+       "Diction / vocabulary",
+       "Allegory",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Personification",
+       "Symbolism",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Stern, sad and distrustful until death"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubting"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Faith"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "persevere"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "crouched"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A pink ribbon from Faith's cap"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is the name of Brown's wife?",
+      "options": [
+       "Faith",
+       "Hope",
+       "Prudence",
+       "Charity"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The good old minister was taking a walk along the graveyard to get an appetite for breakfast and _____ his sermon, and bestowed a blessing, as he passed, on Goodman Brown.”",
+      "wordBank": [
+       "auditor",
+       "intercepted",
+       "meditate",
+       "nettled"
+      ],
+      "answer": "meditate",
+      "accept": [
+       "meditate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A staff that looks like a twisting serpent",
+       "A sword",
+       "A lantern",
+       "A Bible"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Only strangers",
+       "Indians only",
+       "Pious townspeople and his minister",
+       "No one"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and _____ in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his auditor than to be suggested by himself.”",
+      "wordBank": [
+       "intercepted",
+       "persevere",
+       "auditor",
+       "nettled"
+      ],
+      "answer": "persevere",
+      "accept": [
+       "persevere"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He looked up to the sky, _____ whether there really was a heaven above him.”",
+      "wordBank": [
+       "nettled",
+       "doubting",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "doubting",
+      "accept": [
+       "doubting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "Wishes that defy fate",
+       "Human limits in an indifferent nature",
+       "The loss of faith in human goodness",
+       "A girl's first encounter with death across the class line"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Plot",
+       "Diction / vocabulary",
+       "Allegory",
+       "Conflict"
+      ],
+      "answer": 2,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Personification",
+       "Symbolism",
+       "Foreshadowing",
+       "Imagery"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Faith"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "meditate"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "persevere"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubting"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 6,
+     "fill": 5,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He looked up to the sky, _____ whether there really was a heaven above him.”",
+      "wordBank": [
+       "auditor",
+       "intercepted",
+       "nettled",
+       "doubting"
+      ],
+      "answer": "doubting",
+      "accept": [
+       "doubting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Brown find on a branch?",
+      "options": [
+       "A cross",
+       "A feather",
+       "A letter",
+       "A pink ribbon from Faith's cap"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “considerably nettled, \"there is my wife, Faith.”, what does “nettled” most nearly mean?",
+      "options": [
+       "irritated; annoyed",
+       "in a self-collected or self-possessed manner",
+       "seize on its way",
+       "someone who listens attentively"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Though their figures brushed the small boughs by the wayside, it could not be seen that they intercepted, even for a moment, the faint gleam from the strip of bright sky athwart which they must have passed.”, what does “intercepted” most nearly mean?",
+      "options": [
+       "seize on its way",
+       "someone who listens attentively",
+       "in a self-collected or self-possessed manner",
+       "irritated; annoyed"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A Bible",
+       "A sword",
+       "A lantern",
+       "A staff that looks like a twisting serpent"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Brown live after that night?",
+      "options": [
+       "Happily with Faith",
+       "As a minister",
+       "As an exile",
+       "Stern, sad and distrustful until death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "The loss of faith in human goodness",
+       "The art of the deadpan tall tale",
+       "Self-destruction and the urge to do wrong",
+       "Science that poisons love"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Symbolism",
+       "Simile",
+       "Irony",
+       "Metaphor"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Allegory",
+       "Foreshadowing",
+       "Hyperbole",
+       "Characterization"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubting"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A pink ribbon from Faith's cap"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "irritated; annoyed"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "seize on its way"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Stern, sad and distrustful until death"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He looked up to the sky, _____ whether there really was a heaven above him.”",
+      "wordBank": [
+       "auditor",
+       "intercepted",
+       "nettled",
+       "doubting"
+      ],
+      "answer": "doubting",
+      "accept": [
+       "doubting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “considerably nettled, \"there is my wife, Faith.”, what does “nettled” most nearly mean?",
+      "options": [
+       "irritated; annoyed",
+       "in a self-collected or self-possessed manner",
+       "seize on its way",
+       "someone who listens attentively"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The good old minister was taking a walk along the graveyard to get an appetite for breakfast and _____ his sermon, and bestowed a blessing, as he passed, on Goodman Brown.”",
+      "wordBank": [
+       "nettled",
+       "meditate",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "meditate",
+      "accept": [
+       "meditate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the name of Brown's wife?",
+      "options": [
+       "Charity",
+       "Hope",
+       "Faith",
+       "Prudence"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Goodman Brown alternately _____ and stood on tiptoe, pulling aside the branches and thrusting forth his head as far as he durst without discerning so much as a shadow.”",
+      "wordBank": [
+       "intercepted",
+       "crouched",
+       "auditor",
+       "nettled"
+      ],
+      "answer": "crouched",
+      "accept": [
+       "crouched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and _____ in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his auditor than to be suggested by himself.”",
+      "wordBank": [
+       "intercepted",
+       "nettled",
+       "persevere",
+       "auditor"
+      ],
+      "answer": "persevere",
+      "accept": [
+       "persevere"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "The loss of faith in human goodness",
+       "The art of the deadpan tall tale",
+       "Self-destruction and the urge to do wrong",
+       "Science that poisons love"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Symbolism",
+       "Simile",
+       "Irony",
+       "Metaphor"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Allegory",
+       "Foreshadowing",
+       "Hyperbole",
+       "Characterization"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "doubting"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "irritated; annoyed"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "meditate"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Faith"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "crouched"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "persevere"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 5,
+     "fill": 5,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The good old minister was taking a walk along the graveyard to get an appetite for breakfast and _____ his sermon, and bestowed a blessing, as he passed, on Goodman Brown.”",
+      "wordBank": [
+       "nettled",
+       "meditate",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "meditate",
+      "accept": [
+       "meditate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “composedly. \"Sit here and rest yourself a while; and when you”, what does “composedly” most nearly mean?",
+      "options": [
+       "in a self-collected or self-possessed manner",
+       "irritated; annoyed",
+       "someone who listens attentively",
+       "seize on its way"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and _____ in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his auditor than to be suggested by himself.”",
+      "wordBank": [
+       "intercepted",
+       "nettled",
+       "persevere",
+       "auditor"
+      ],
+      "answer": "persevere",
+      "accept": [
+       "persevere"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and persevere in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his…”, what does “auditor” most nearly mean?",
+      "options": [
+       "seize on its way",
+       "irritated; annoyed",
+       "in a self-collected or self-possessed manner",
+       "someone who listens attentively"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Though their figures brushed the small boughs by the wayside, it could not be seen that they intercepted, even for a moment, the faint gleam from the strip of bright sky athwart which they must have passed.”, what does “intercepted” most nearly mean?",
+      "options": [
+       "seize on its way",
+       "someone who listens attentively",
+       "in a self-collected or self-possessed manner",
+       "irritated; annoyed"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “considerably nettled, \"there is my wife, Faith.”, what does “nettled” most nearly mean?",
+      "options": [
+       "irritated; annoyed",
+       "in a self-collected or self-possessed manner",
+       "seize on its way",
+       "someone who listens attentively"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "The loss of faith in human goodness",
+       "The art of the deadpan tall tale",
+       "Self-destruction and the urge to do wrong",
+       "Science that poisons love"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Symbolism",
+       "Simile",
+       "Irony",
+       "Metaphor"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Allegory",
+       "Foreshadowing",
+       "Hyperbole",
+       "Characterization"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "meditate"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "in a self-collected or self-possessed manner"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "persevere"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "someone who listens attentively"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "seize on its way"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "irritated; annoyed"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Pious townspeople and his minister",
+       "Indians only",
+       "Only strangers",
+       "No one"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and _____ in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his auditor than to be suggested by himself.”",
+      "wordBank": [
+       "intercepted",
+       "nettled",
+       "persevere",
+       "auditor"
+      ],
+      "answer": "persevere",
+      "accept": [
+       "persevere"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A Bible",
+       "A sword",
+       "A lantern",
+       "A staff that looks like a twisting serpent"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Though their figures brushed the small boughs by the wayside, it could not be seen that they intercepted, even for a moment, the faint gleam from the strip of bright sky athwart which they must have passed.”, what does “intercepted” most nearly mean?",
+      "options": [
+       "seize on its way",
+       "someone who listens attentively",
+       "in a self-collected or self-possessed manner",
+       "irritated; annoyed"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Goodman Brown alternately _____ and stood on tiptoe, pulling aside the branches and thrusting forth his head as far as he durst without discerning so much as a shadow.”",
+      "wordBank": [
+       "intercepted",
+       "crouched",
+       "auditor",
+       "nettled"
+      ],
+      "answer": "crouched",
+      "accept": [
+       "crouched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "The loss of faith in human goodness",
+       "The art of the deadpan tall tale",
+       "Self-destruction and the urge to do wrong",
+       "Science that poisons love"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Symbolism",
+       "Simile",
+       "Irony",
+       "Metaphor"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Allegory",
+       "Foreshadowing",
+       "Hyperbole",
+       "Characterization"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "persevere"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "seize on its way"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "crouched"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Goodman Brown alternately _____ and stood on tiptoe, pulling aside the branches and thrusting forth his head as far as he durst without discerning so much as a shadow.”",
+      "wordBank": [
+       "intercepted",
+       "crouched",
+       "auditor",
+       "nettled"
+      ],
+      "answer": "crouched",
+      "accept": [
+       "crouched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the traveler carry?",
+      "options": [
+       "A Bible",
+       "A sword",
+       "A lantern",
+       "A staff that looks like a twisting serpent"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Pious townspeople and his minister",
+       "Indians only",
+       "Only strangers",
+       "No one"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the name of Brown's wife?",
+      "options": [
+       "Charity",
+       "Hope",
+       "Faith",
+       "Prudence"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “considerably nettled, \"there is my wife, Faith.”, what does “nettled” most nearly mean?",
+      "options": [
+       "irritated; annoyed",
+       "in a self-collected or self-possessed manner",
+       "seize on its way",
+       "someone who listens attentively"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “They continued to walk onward, while the elder traveller exhorted his companion to make good speed and persevere in the path, discoursing so aptly that his arguments seemed rather to spring up in the bosom of his…”, what does “auditor” most nearly mean?",
+      "options": [
+       "seize on its way",
+       "irritated; annoyed",
+       "in a self-collected or self-possessed manner",
+       "someone who listens attentively"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "The loss of faith in human goodness",
+       "The art of the deadpan tall tale",
+       "Self-destruction and the urge to do wrong",
+       "Science that poisons love"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Symbolism",
+       "Simile",
+       "Irony",
+       "Metaphor"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Allegory",
+       "Foreshadowing",
+       "Hyperbole",
+       "Characterization"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "crouched"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A staff that looks like a twisting serpent"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Faith"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "irritated; annoyed"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "someone who listens attentively"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 149: “Evil is the nature of _____”",
+      "answer": "mankind",
+      "accept": [
+       "mankind",
+       "mankind"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Though their figures brushed the small boughs by the wayside, it could not be seen that they intercepted, even for a moment, the faint gleam from the strip of bright sky athwart which they must have passed.”, what does “intercepted” most nearly mean?",
+      "options": [
+       "seize on its way",
+       "someone who listens attentively",
+       "in a self-collected or self-possessed manner",
+       "irritated; annoyed"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Brown find on a branch?",
+      "options": [
+       "A cross",
+       "A feather",
+       "A letter",
+       "A pink ribbon from Faith's cap"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Brown see in the forest?",
+      "options": [
+       "Pious townspeople and his minister",
+       "Indians only",
+       "Only strangers",
+       "No one"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The good old minister was taking a walk along the graveyard to get an appetite for breakfast and _____ his sermon, and bestowed a blessing, as he passed, on Goodman Brown.”",
+      "wordBank": [
+       "nettled",
+       "meditate",
+       "intercepted",
+       "auditor"
+      ],
+      "answer": "meditate",
+      "accept": [
+       "meditate"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Young Goodman Brown, paragraph 164: “A stern, a sad, a darkly meditative, a _____, if not a desperate man did he become”",
+      "answer": "distrustful",
+      "accept": [
+       "distrustful",
+       "distrustful"
+      ],
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How does Brown live after that night?",
+      "options": [
+       "Happily with Faith",
+       "As a minister",
+       "As an exile",
+       "Stern, sad and distrustful until death"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Young Goodman Brown”?",
+      "options": [
+       "The loss of faith in human goodness",
+       "The art of the deadpan tall tale",
+       "Self-destruction and the urge to do wrong",
+       "Science that poisons love"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “My Faith is gone” (Young Goodman Brown, paragraph 124) Answer in two or three sentences with one detail.",
+      "expected": "The pun.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) Answer in two or three sentences with one detail.",
+      "expected": "The devil's sermon.",
+      "element": "characterization",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164). Pick two words and explain what they suggest.",
+      "expected": "His fate.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? The pink ribbons tie Faith to innocence; when one floats down from the sky, Brown despairs.",
+      "options": [
+       "Symbolism",
+       "Simile",
+       "Irony",
+       "Metaphor"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Young Goodman Brown”? Names are meanings: Goodman Brown (an everyman) and Faith; the journey into the forest is a journey into doubt.",
+      "options": [
+       "Allegory",
+       "Foreshadowing",
+       "Hyperbole",
+       "Characterization"
+      ],
+      "answer": 0,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Brown's real loss is not the evil he sees but his inability to trust anyone afterward. Explain how this evidence supports the claim: “A stern, a sad, a darkly meditative, a distrustful, if not a desperate man did he become” (Young Goodman Brown, paragraph 164).",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "location": "Young Goodman Brown, paragraph 164",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Brown's real loss is not the evil he sees but his inability to trust anyone afterward.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how loss of faith and innocence develops from an earlier story to “Young Goodman Brown”. Use one quotation from each.",
+      "expected": "once Brown believes all are sinners, he cannot love anyone.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Evil is the nature of mankind” (Young Goodman Brown, paragraph 149) shape its meaning? Consider a second, competing reading.",
+      "expected": "The devil's sermon.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 149",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “My Faith is gone” (Young Goodman Brown, paragraph 124) shape its meaning? Consider a second, competing reading.",
+      "expected": "The pun.",
+      "element": "diction",
+      "location": "Young Goodman Brown, paragraph 124",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "mankind"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "seize on its way"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A pink ribbon from Faith's cap"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Pious townspeople and his minister"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "meditate"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "distrustful"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Stern, sad and distrustful until death"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The loss of faith in human goodness"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The pun."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "His fate."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Allegory"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Whether the meeting was real or a dream, he becomes \"a stern, a sad, a darkly meditative, a distrustful, if not a desperate man,\" turning from Faith herself; the vision teaches him that \"Evil is the nature of mankind,\" and he can never unlearn it."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "once Brown believes all are sinners, he cannot love anyone."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The devil's sermon."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The pun."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -820,7 +5433,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Young Goodman Brown teaches about faith and doubt. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Young Goodman Brown teaches about faith and doubt. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1041,7 +5654,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Young Goodman Brown teaches about hypocrisy. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Young Goodman Brown teaches about hypocrisy. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1262,7 +5875,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Young Goodman Brown teaches about the nature of evil. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Young Goodman Brown teaches about the nature of evil. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1462,5 +6075,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "Young Goodman Brown: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Nathaniel Hawthorne develops faith and doubt across Young Goodman Brown. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in Young Goodman Brown and argue how its meaning changes over the story and why that change matters to hypocrisy."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in Young Goodman Brown. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether Young Goodman Brown finally endorses or criticizes its society's view of the nature of evil. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

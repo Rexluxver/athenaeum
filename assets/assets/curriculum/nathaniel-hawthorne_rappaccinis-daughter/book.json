@@ -196,9 +196,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "Rappaccini's Daughter unit",
   "author": "Nathaniel Hawthorne",
@@ -566,7 +567,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -577,152 +578,105 @@
   }
  ],
  "wholeBookTest": {
-  "title": "Rappaccini's Daughter: whole-book test",
+  "title": "Rappaccini's Daughter: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Where does the story take place?",
     "options": [
-     "Padua, Italy",
+     "Rome",
      "Florence",
-     "Venice",
-     "Rome"
+     "Padua, Italy",
+     "Venice"
     ],
-    "answer": 0,
-    "element": "setting"
+    "answer": 2,
+    "element": "setting",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 3
    },
    {
-    "chapterIndex": 0,
-    "prompt": "What is unusual about Beatrice?",
-    "options": [
-     "She is poisonous to touch and breath",
-     "She cannot speak",
-     "She is a ghost",
-     "She is blind"
-    ],
-    "answer": 0,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Who gives Giovanni the antidote?",
     "options": [
-     "Professor Baglioni",
      "Beatrice",
      "Rappaccini",
+     "Professor Baglioni",
      "Lisabetta"
     ],
-    "answer": 0,
-    "element": "plot"
+    "answer": 2,
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 6
    },
    {
-    "chapterIndex": 0,
-    "prompt": "What happens to Giovanni over time?",
+    "type": "mc",
+    "prompt": "What is unusual about Beatrice?",
     "options": [
-     "He goes blind",
-     "He forgets Beatrice",
-     "He becomes immune",
-     "He also becomes poisonous"
-    ],
-    "answer": 3,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What happens when Beatrice drinks the antidote?",
-    "options": [
-     "She escapes",
-     "She is cured",
-     "She dies",
-     "She becomes more poisonous"
+     "She is blind",
+     "She is a ghost",
+     "She is poisonous to touch and breath",
+     "She cannot speak"
     ],
     "answer": 2,
-    "element": "irony"
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “As Beatrice came down the garden path, it was observable that she handled and inhaled the odor of several of the plants which her father had most sedulously avoided.”, what does “inhaled” most nearly mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
     "options": [
-     "breathed in",
-     "tempted; attracted",
-     "developed; grew and flourished",
-     "cause to be more favorably inclined; gain the good will of"
+     "Science that poisons love",
+     "Friendship tested by duty",
+     "Greed that grasps more than a person needs",
+     "The art of the deadpan tall tale"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 13
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “But I, dearest Giovanni,--I grew up and blossomed with the plant and was nourished with its breath.”, what does “blossomed” most nearly mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
     "options": [
-     "cause to be more favorably inclined; gain the good will of",
-     "developed; grew and flourished",
-     "tempted; attracted",
-     "breathed in"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“As Beatrice came down the garden path, it was observable that she handled and inhaled the odor of several of the plants which her father had”), what does “inhaled” mean?",
-    "options": [
-     "breathed in",
-     "to come to rest, settle",
-     "steadiness of mind under stress",
-     "developed; grew and flourished"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“But I, dearest Giovanni,--I grew up and blossomed with the plant and was nourished with its breath.”), what does “blossomed” mean?",
-    "options": [
-     "prickling or stinging slightly",
-     "developed; grew and flourished",
-     "make a more or less disguised reference to",
-     "tempted; attracted"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“from all the warmth of life and enticed me into thy region of”), what does “enticed” mean?",
-    "options": [
-     "foster the growth of",
-     "a person who prepared and sold medicines and gave medical advice",
-     "tempted; attracted",
-     "cause to be more favorably inclined; gain the good will of"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Sometimes he endeavored to assuage the fever of his spirit by a rapid walk through the streets of Padua or beyond its gates: his footsteps k”), what does “assuage” mean?",
-    "options": [
-     "steadiness of mind under stress",
-     "breathed in",
-     "to come to rest, settle",
-     "cause to be more favorably inclined; gain the good will of"
+     "Diction / vocabulary",
+     "Simile",
+     "Imagery",
+     "Setting"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "setting",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Without alighting on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her”), what does “alighting” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
     "options": [
-     "to come to rest, settle",
-     "make a more or less disguised reference to",
-     "developed; grew and flourished",
-     "prickling or stinging slightly"
+     "Point of view",
+     "Personification",
+     "Symbolism",
+     "Diction / vocabulary"
     ],
-    "answer": 0,
-    "element": "diction"
+    "answer": 2,
+    "element": "symbolism",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    }
   ],
   "answerKey": [
@@ -733,66 +687,4702 @@
    },
    {
     "n": 2,
-    "answer": "She is poisonous to touch and breath",
-    "element": "symbolism"
-   },
-   {
-    "n": 3,
     "answer": "Professor Baglioni",
     "element": "plot"
    },
    {
+    "n": 3,
+    "answer": "She is poisonous to touch and breath",
+    "element": "symbolism"
+   },
+   {
     "n": 4,
-    "answer": "He also becomes poisonous",
-    "element": "plot"
+    "answer": "Science that poisons love",
+    "element": "theme"
    },
    {
     "n": 5,
-    "answer": "She dies",
-    "element": "irony"
+    "answer": "Setting",
+    "element": "setting"
    },
    {
     "n": 6,
-    "answer": "breathed in",
-    "element": "diction"
-   },
-   {
-    "n": 7,
-    "answer": "developed; grew and flourished",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "breathed in",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "developed; grew and flourished",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "tempted; attracted",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "cause to be more favorably inclined; gain the good will of",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "to come to rest, settle",
-    "element": "diction"
+    "answer": "Symbolism",
+    "element": "symbolism"
    }
   ],
-  "shortAnswer": [
-   "Explain how science and nature develops from the beginning of the story to the end. Use two passages.",
-   "Explain how love and poison develops from the beginning of the story to the end. Use two passages.",
-   "Explain how innocence develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (science and nature, love and poison, innocence) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “was there not, from the first, more _____ in thy nature than in mine”",
+      "answer": "poison",
+      "accept": [
+       "poison",
+       "poison"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “I would fain have been loved, not _____”",
+      "answer": "feared",
+      "accept": [
+       "feared",
+       "feared"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does the story take place?",
+      "options": [
+       "Rome",
+       "Florence",
+       "Padua, Italy",
+       "Venice"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When thoroughly aroused, he became sensible of a burning and _____ agony in his hand--in his right hand--the very hand which Beatrice had grasped in her own when he was on the point of plucking one of the gemlike flowers.”",
+      "wordBank": [
+       "tingling",
+       "enticed",
+       "inhaled",
+       "blossomed"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Without _____ on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her head.”",
+      "wordBank": [
+       "inhaled",
+       "blossomed",
+       "alighting",
+       "enticed"
+      ],
+      "answer": "alighting",
+      "accept": [
+       "alighting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She is a ghost",
+       "She is poisonous to touch and breath",
+       "She cannot speak"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who gives Giovanni the antidote?",
+      "options": [
+       "Beatrice",
+       "Rappaccini",
+       "Professor Baglioni",
+       "Lisabetta"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Giovanni over time?",
+      "options": [
+       "He becomes immune",
+       "He goes blind",
+       "He forgets Beatrice",
+       "He also becomes poisonous"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Beatrice drinks the antidote?",
+      "options": [
+       "She escapes",
+       "She is cured",
+       "She becomes more poisonous",
+       "She dies"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was strangely frightful to the young man's imagination to see this air of insecurity in a person _____ a garden, that most simple and innocent of human toils, and which had been alike the joy and labor of the unfallen parents of the race.”",
+      "wordBank": [
+       "cultivating",
+       "enticed",
+       "blossomed",
+       "inhaled"
+      ],
+      "answer": "cultivating",
+      "accept": [
+       "cultivating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "blossomed",
+       "inhaled",
+       "enticed",
+       "equanimity"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Diction / vocabulary",
+       "Simile",
+       "Imagery",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "poison"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "feared"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Padua, Italy"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "alighting"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Professor Baglioni"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He also becomes poisonous"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She dies"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cultivating"
+     },
+     {
+      "n": 12,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     }
+    ],
+    "mix": {
+     "recall": 12,
+     "inference": 3,
+     "analysis": 2,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 7,
+     "short": 4
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Where does the story take place?",
+      "options": [
+       "Rome",
+       "Florence",
+       "Padua, Italy",
+       "Venice"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She is a ghost",
+       "She is poisonous to touch and breath",
+       "She cannot speak"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When thoroughly aroused, he became sensible of a burning and _____ agony in his hand--in his right hand--the very hand which Beatrice had grasped in her own when he was on the point of plucking one of the gemlike flowers.”",
+      "wordBank": [
+       "tingling",
+       "enticed",
+       "inhaled",
+       "blossomed"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "blossomed",
+       "inhaled",
+       "enticed",
+       "equanimity"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “was there not, from the first, more _____ in thy nature than in mine”",
+      "answer": "poison",
+      "accept": [
+       "poison",
+       "poison"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “I would fain have been loved, not _____”",
+      "answer": "feared",
+      "accept": [
+       "feared",
+       "feared"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Beatrice drinks the antidote?",
+      "options": [
+       "She escapes",
+       "She is cured",
+       "She becomes more poisonous",
+       "She dies"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who gives Giovanni the antidote?",
+      "options": [
+       "Beatrice",
+       "Rappaccini",
+       "Professor Baglioni",
+       "Lisabetta"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Without _____ on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her head.”",
+      "wordBank": [
+       "inhaled",
+       "blossomed",
+       "alighting",
+       "enticed"
+      ],
+      "answer": "alighting",
+      "accept": [
+       "alighting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was strangely frightful to the young man's imagination to see this air of insecurity in a person _____ a garden, that most simple and innocent of human toils, and which had been alike the joy and labor of the unfallen parents of the race.”",
+      "wordBank": [
+       "cultivating",
+       "enticed",
+       "blossomed",
+       "inhaled"
+      ],
+      "answer": "cultivating",
+      "accept": [
+       "cultivating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Diction / vocabulary",
+       "Simile",
+       "Imagery",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Point of view",
+       "Personification",
+       "Symbolism",
+       "Diction / vocabulary"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Padua, Italy"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "poison"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "feared"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She dies"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Professor Baglioni"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "alighting"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cultivating"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 7,
+     "short": 4
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “I would fain have been loved, not _____”",
+      "answer": "feared",
+      "accept": [
+       "feared",
+       "feared"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was strangely frightful to the young man's imagination to see this air of insecurity in a person _____ a garden, that most simple and innocent of human toils, and which had been alike the joy and labor of the unfallen parents of the race.”",
+      "wordBank": [
+       "cultivating",
+       "enticed",
+       "blossomed",
+       "inhaled"
+      ],
+      "answer": "cultivating",
+      "accept": [
+       "cultivating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does the story take place?",
+      "options": [
+       "Rome",
+       "Florence",
+       "Padua, Italy",
+       "Venice"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “was there not, from the first, more _____ in thy nature than in mine”",
+      "answer": "poison",
+      "accept": [
+       "poison",
+       "poison"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "blossomed",
+       "inhaled",
+       "enticed",
+       "equanimity"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who gives Giovanni the antidote?",
+      "options": [
+       "Beatrice",
+       "Rappaccini",
+       "Professor Baglioni",
+       "Lisabetta"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She is a ghost",
+       "She is poisonous to touch and breath",
+       "She cannot speak"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When thoroughly aroused, he became sensible of a burning and _____ agony in his hand--in his right hand--the very hand which Beatrice had grasped in her own when he was on the point of plucking one of the gemlike flowers.”",
+      "wordBank": [
+       "tingling",
+       "enticed",
+       "inhaled",
+       "blossomed"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Without _____ on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her head.”",
+      "wordBank": [
+       "inhaled",
+       "blossomed",
+       "alighting",
+       "enticed"
+      ],
+      "answer": "alighting",
+      "accept": [
+       "alighting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Diction / vocabulary",
+       "Simile",
+       "Imagery",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Point of view",
+       "Personification",
+       "Symbolism",
+       "Diction / vocabulary"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "feared"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cultivating"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Padua, Italy"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "poison"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Professor Baglioni"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "alighting"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 6,
+     "fill": 7,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was strangely frightful to the young man's imagination to see this air of insecurity in a person _____ a garden, that most simple and innocent of human toils, and which had been alike the joy and labor of the unfallen parents of the race.”",
+      "wordBank": [
+       "cultivating",
+       "enticed",
+       "blossomed",
+       "inhaled"
+      ],
+      "answer": "cultivating",
+      "accept": [
+       "cultivating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Beatrice drinks the antidote?",
+      "options": [
+       "She escapes",
+       "She is cured",
+       "She becomes more poisonous",
+       "She dies"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Without _____ on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her head.”",
+      "wordBank": [
+       "inhaled",
+       "blossomed",
+       "alighting",
+       "enticed"
+      ],
+      "answer": "alighting",
+      "accept": [
+       "alighting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Who gives Giovanni the antidote?",
+      "options": [
+       "Beatrice",
+       "Rappaccini",
+       "Professor Baglioni",
+       "Lisabetta"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does the story take place?",
+      "options": [
+       "Rome",
+       "Florence",
+       "Padua, Italy",
+       "Venice"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Giovanni over time?",
+      "options": [
+       "He becomes immune",
+       "He goes blind",
+       "He forgets Beatrice",
+       "He also becomes poisonous"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She is a ghost",
+       "She is poisonous to touch and breath",
+       "She cannot speak"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "blossomed",
+       "inhaled",
+       "enticed",
+       "equanimity"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Diction / vocabulary",
+       "Simile",
+       "Imagery",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Point of view",
+       "Personification",
+       "Symbolism",
+       "Diction / vocabulary"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cultivating"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She dies"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "alighting"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Professor Baglioni"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Padua, Italy"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He also becomes poisonous"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “I would fain have been loved, not _____”",
+      "answer": "feared",
+      "accept": [
+       "feared",
+       "feared"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Without _____ on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her head.”",
+      "wordBank": [
+       "inhaled",
+       "blossomed",
+       "alighting",
+       "enticed"
+      ],
+      "answer": "alighting",
+      "accept": [
+       "alighting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "blossomed",
+       "inhaled",
+       "enticed",
+       "equanimity"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was strangely frightful to the young man's imagination to see this air of insecurity in a person _____ a garden, that most simple and innocent of human toils, and which had been alike the joy and labor of the unfallen parents of the race.”",
+      "wordBank": [
+       "cultivating",
+       "enticed",
+       "blossomed",
+       "inhaled"
+      ],
+      "answer": "cultivating",
+      "accept": [
+       "cultivating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “was there not, from the first, more _____ in thy nature than in mine”",
+      "answer": "poison",
+      "accept": [
+       "poison",
+       "poison"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Beatrice drinks the antidote?",
+      "options": [
+       "She escapes",
+       "She is cured",
+       "She becomes more poisonous",
+       "She dies"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who gives Giovanni the antidote?",
+      "options": [
+       "Beatrice",
+       "Rappaccini",
+       "Professor Baglioni",
+       "Lisabetta"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "The art of the deadpan tall tale"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Point of view",
+       "Personification",
+       "Symbolism",
+       "Diction / vocabulary"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Diction / vocabulary",
+       "Simile",
+       "Imagery",
+       "Setting"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "feared"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "alighting"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cultivating"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "poison"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She dies"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Professor Baglioni"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 5,
+     "fill": 6,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What happens when Beatrice drinks the antidote?",
+      "options": [
+       "She escapes",
+       "She becomes more poisonous",
+       "She dies",
+       "She is cured"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “from all the warmth of life and enticed me into thy region of”, what does “enticed” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When thoroughly aroused, he became sensible of a burning and _____ agony in his hand--in his right hand--the very hand which Beatrice had grasped in her own when he was on the point of plucking one of the gemlike flowers.”",
+      "wordBank": [
+       "tingling",
+       "inhaled",
+       "blossomed",
+       "enticed"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She cannot speak",
+       "She is poisonous to touch and breath",
+       "She is a ghost"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Without _____ on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her head.”",
+      "wordBank": [
+       "inhaled",
+       "alighting",
+       "blossomed",
+       "enticed"
+      ],
+      "answer": "alighting",
+      "accept": [
+       "alighting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does the story take place?",
+      "options": [
+       "Rome",
+       "Florence",
+       "Padua, Italy",
+       "Venice"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “As Beatrice came down the garden path, it was observable that she handled and inhaled the odor of several of the plants which her father had most sedulously avoided.”, what does “inhaled” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Harlem as promised refuge and trap",
+       "The art of the deadpan tall tale",
+       "A choice the reader must make"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Setting",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Hyperbole"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Irony",
+       "Imagery",
+       "Symbolism",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She dies"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "tempted; attracted"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "alighting"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Padua, Italy"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "breathed in"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Where does the story take place?",
+      "options": [
+       "Rome",
+       "Florence",
+       "Padua, Italy",
+       "Venice"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "enticed",
+       "blossomed",
+       "equanimity",
+       "inhaled"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “from all the warmth of life and enticed me into thy region of”, what does “enticed” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Without _____ on the flowers, this winged brightness seemed to be attracted by Beatrice, and lingered in the air and fluttered about her head.”",
+      "wordBank": [
+       "inhaled",
+       "alighting",
+       "blossomed",
+       "enticed"
+      ],
+      "answer": "alighting",
+      "accept": [
+       "alighting"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When thoroughly aroused, he became sensible of a burning and _____ agony in his hand--in his right hand--the very hand which Beatrice had grasped in her own when he was on the point of plucking one of the gemlike flowers.”",
+      "wordBank": [
+       "tingling",
+       "inhaled",
+       "blossomed",
+       "enticed"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Sometimes he endeavored to assuage the fever of his spirit by a rapid walk through the streets of Padua or beyond its gates: his footsteps kept time with the throbbings of his brain, so that the walk was apt to…”, what does “assuage” most nearly mean?",
+      "options": [
+       "developed; grew and flourished",
+       "tempted; attracted",
+       "breathed in",
+       "cause to be more favorably inclined; gain the good will of"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Harlem as promised refuge and trap",
+       "The art of the deadpan tall tale",
+       "A choice the reader must make"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Irony",
+       "Imagery",
+       "Symbolism",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Setting",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Hyperbole"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Padua, Italy"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "tempted; attracted"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "alighting"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cause to be more favorably inclined; gain the good will of"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "enticed",
+       "blossomed",
+       "equanimity",
+       "inhaled"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Sometimes he endeavored to assuage the fever of his spirit by a rapid walk through the streets of Padua or beyond its gates: his footsteps kept time with the throbbings of his brain, so that the walk was apt to…”, what does “assuage” most nearly mean?",
+      "options": [
+       "developed; grew and flourished",
+       "tempted; attracted",
+       "breathed in",
+       "cause to be more favorably inclined; gain the good will of"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “from all the warmth of life and enticed me into thy region of”, what does “enticed” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Beatrice drinks the antidote?",
+      "options": [
+       "She escapes",
+       "She becomes more poisonous",
+       "She dies",
+       "She is cured"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She cannot speak",
+       "She is poisonous to touch and breath",
+       "She is a ghost"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “As Beatrice came down the garden path, it was observable that she handled and inhaled the odor of several of the plants which her father had most sedulously avoided.”, what does “inhaled” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Harlem as promised refuge and trap",
+       "The art of the deadpan tall tale",
+       "A choice the reader must make"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Irony",
+       "Imagery",
+       "Symbolism",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Setting",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Hyperbole"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cause to be more favorably inclined; gain the good will of"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "tempted; attracted"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She dies"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "breathed in"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “As Beatrice came down the garden path, it was observable that she handled and inhaled the odor of several of the plants which her father had most sedulously avoided.”, what does “inhaled” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She cannot speak",
+       "She is poisonous to touch and breath",
+       "She is a ghost"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was strangely frightful to the young man's imagination to see this air of insecurity in a person _____ a garden, that most simple and innocent of human toils, and which had been alike the joy and labor of the unfallen parents of the race.”",
+      "wordBank": [
+       "blossomed",
+       "enticed",
+       "cultivating",
+       "inhaled"
+      ],
+      "answer": "cultivating",
+      "accept": [
+       "cultivating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Sometimes he endeavored to assuage the fever of his spirit by a rapid walk through the streets of Padua or beyond its gates: his footsteps kept time with the throbbings of his brain, so that the walk was apt to…”, what does “assuage” most nearly mean?",
+      "options": [
+       "developed; grew and flourished",
+       "tempted; attracted",
+       "breathed in",
+       "cause to be more favorably inclined; gain the good will of"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “I would fain have been loved, not _____”",
+      "answer": "feared",
+      "accept": [
+       "feared",
+       "feared"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does the story take place?",
+      "options": [
+       "Rome",
+       "Florence",
+       "Padua, Italy",
+       "Venice"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “from all the warmth of life and enticed me into thy region of”, what does “enticed” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Harlem as promised refuge and trap",
+       "The art of the deadpan tall tale",
+       "A choice the reader must make"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Irony",
+       "Imagery",
+       "Symbolism",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Setting",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Hyperbole"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "breathed in"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cultivating"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cause to be more favorably inclined; gain the good will of"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "feared"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Padua, Italy"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "tempted; attracted"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who gives Giovanni the antidote?",
+      "options": [
+       "Rappaccini",
+       "Lisabetta",
+       "Beatrice",
+       "Professor Baglioni"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When thoroughly aroused, he became sensible of a burning and _____ agony in his hand--in his right hand--the very hand which Beatrice had grasped in her own when he was on the point of plucking one of the gemlike flowers.”",
+      "wordBank": [
+       "tingling",
+       "inhaled",
+       "blossomed",
+       "enticed"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It was strangely frightful to the young man's imagination to see this air of insecurity in a person _____ a garden, that most simple and innocent of human toils, and which had been alike the joy and labor of the unfallen parents of the race.”",
+      "wordBank": [
+       "blossomed",
+       "enticed",
+       "cultivating",
+       "inhaled"
+      ],
+      "answer": "cultivating",
+      "accept": [
+       "cultivating"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “was there not, from the first, more _____ in thy nature than in mine”",
+      "answer": "poison",
+      "accept": [
+       "poison",
+       "poison"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “As Beatrice came down the garden path, it was observable that she handled and inhaled the odor of several of the plants which her father had most sedulously avoided.”, what does “inhaled” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What is unusual about Beatrice?",
+      "options": [
+       "She is blind",
+       "She cannot speak",
+       "She is poisonous to touch and breath",
+       "She is a ghost"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Harlem as promised refuge and trap",
+       "The art of the deadpan tall tale",
+       "A choice the reader must make"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Setting",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Hyperbole"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Irony",
+       "Imagery",
+       "Symbolism",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Professor Baglioni"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "cultivating"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "poison"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "breathed in"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She is poisonous to touch and breath"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “As Beatrice came down the garden path, it was observable that she handled and inhaled the odor of several of the plants which her father had most sedulously avoided.”, what does “inhaled” most nearly mean?",
+      "options": [
+       "cause to be more favorably inclined; gain the good will of",
+       "tempted; attracted",
+       "breathed in",
+       "developed; grew and flourished"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who gives Giovanni the antidote?",
+      "options": [
+       "Rappaccini",
+       "Lisabetta",
+       "Beatrice",
+       "Professor Baglioni"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Sometimes he endeavored to assuage the fever of his spirit by a rapid walk through the streets of Padua or beyond its gates: his footsteps kept time with the throbbings of his brain, so that the walk was apt to…”, what does “assuage” most nearly mean?",
+      "options": [
+       "developed; grew and flourished",
+       "tempted; attracted",
+       "breathed in",
+       "cause to be more favorably inclined; gain the good will of"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 22: “Was this garden, then, the Eden of the _____ world”",
+      "answer": "present",
+      "accept": [
+       "present",
+       "present"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But now there was a singular and untimely _____ within his breast.”",
+      "wordBank": [
+       "enticed",
+       "blossomed",
+       "equanimity",
+       "inhaled"
+      ],
+      "answer": "equanimity",
+      "accept": [
+       "equanimity"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Rappaccini's Daughter, paragraph 311: “I would fain have been loved, not _____”",
+      "answer": "feared",
+      "accept": [
+       "feared",
+       "feared"
+      ],
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “When thoroughly aroused, he became sensible of a burning and _____ agony in his hand--in his right hand--the very hand which Beatrice had grasped in her own when he was on the point of plucking one of the gemlike flowers.”",
+      "wordBank": [
+       "tingling",
+       "inhaled",
+       "blossomed",
+       "enticed"
+      ],
+      "answer": "tingling",
+      "accept": [
+       "tingling"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) Answer in two or three sentences with one detail.",
+      "expected": "Giovanni's question.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Rappaccini's Daughter”?",
+      "options": [
+       "Science that poisons love",
+       "Harlem as promised refuge and trap",
+       "The art of the deadpan tall tale",
+       "A choice the reader must make"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) Answer in two or three sentences with one detail.",
+      "expected": "Beatrice's dying words.",
+      "element": "characterization",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The purple shrub is Beatrice's \"sister\"; both are beautiful and poisonous.",
+      "options": [
+       "Irony",
+       "Imagery",
+       "Symbolism",
+       "Alliteration"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311). Pick two words and explain what they suggest.",
+      "expected": "Her accusation.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Rappaccini's Daughter”? The garden is an artificial Eden: beautiful and deadly.",
+      "options": [
+       "Setting",
+       "Alliteration",
+       "Diction / vocabulary",
+       "Hyperbole"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison. Explain how this evidence supports the claim: “was there not, from the first, more poison in thy nature than in mine” (Rappaccini's Daughter, paragraph 311).",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “I would fain have been loved, not feared” (Rappaccini's Daughter, paragraph 311) shape its meaning? Consider a second, competing reading.",
+      "expected": "Beatrice's dying words.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 311",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how love and trust develops from an earlier story to “Rappaccini's Daughter”. Use one quotation from each.",
+      "expected": "Giovanni cannot trust what he cannot understand.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Was this garden, then, the Eden of the present world” (Rappaccini's Daughter, paragraph 22) shape its meaning? Consider a second, competing reading.",
+      "expected": "Giovanni's question.",
+      "element": "diction",
+      "location": "Rappaccini's Daughter, paragraph 22",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Beatrice's body is poisonous, but Hawthorne suggests that Giovanni's suspicion is the deadlier poison.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "breathed in"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Professor Baglioni"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cause to be more favorably inclined; gain the good will of"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "present"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "equanimity"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "feared"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tingling"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Science that poisons love"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her accusation."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Setting"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Beatrice's dying words."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni cannot trust what he cannot understand."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Giovanni's question."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She asks, \"was there not, from the first, more poison in thy nature than in mine,\" and says \"I would fain have been loved, not feared\"; it is Giovanni's fear, not her poison, that leads to her death."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -816,7 +5406,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rappaccini's Daughter teaches about science and nature. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rappaccini's Daughter teaches about science and nature. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1037,7 +5627,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rappaccini's Daughter teaches about love and poison. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rappaccini's Daughter teaches about love and poison. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1258,7 +5848,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what Rappaccini's Daughter teaches about innocence. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what Rappaccini's Daughter teaches about innocence. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1458,5 +6048,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "Rappaccini's Daughter: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Nathaniel Hawthorne develops science and nature across Rappaccini's Daughter. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in Rappaccini's Daughter and argue how its meaning changes over the story and why that change matters to love and poison."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in Rappaccini's Daughter. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether Rappaccini's Daughter finally endorses or criticizes its society's view of innocence. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

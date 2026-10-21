@@ -194,9 +194,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Necklace unit",
   "author": "Guy de Maupassant",
@@ -564,7 +565,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -575,152 +576,121 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Necklace: whole-book test",
+  "title": "The Necklace: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What is Mathilde's husband's job?",
     "options": [
+     "A banker",
      "A clerk in the Ministry of Public Instruction",
-     "A soldier",
      "A shopkeeper",
-     "A banker"
-    ],
-    "answer": 0,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "Why does Mathilde borrow the necklace?",
-    "options": [
-     "As a gift",
-     "To look rich at a ball",
-     "To copy it",
-     "To sell it"
+     "A soldier"
     ],
     "answer": 1,
-    "element": "plot"
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
-    "chapterIndex": 0,
-    "prompt": "How long do the Loisels work to repay the debt?",
+    "type": "mc",
+    "prompt": "What does Madame Forestier reveal?",
     "options": [
-     "Thirty years",
-     "Ten years",
-     "Six months",
-     "One year"
+     "She wants it back",
+     "The original necklace was fake",
+     "She knew all along",
+     "She found the necklace"
     ],
     "answer": 1,
-    "element": "plot"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 3
    },
    {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What happens to Mathilde's appearance?",
     "options": [
      "She becomes worn and coarse from hard work",
-     "She becomes more beautiful",
      "She becomes rich",
+     "She becomes more beautiful",
      "She stays the same"
     ],
     "answer": 0,
-    "element": "characterization"
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
-    "chapterIndex": 0,
-    "prompt": "What does Madame Forestier reveal?",
+    "type": "mc",
+    "prompt": "How long do the Loisels work to repay the debt?",
     "options": [
-     "The original necklace was fake",
-     "She knew all along",
-     "She found the necklace",
-     "She wants it back"
+     "Ten years",
+     "One year",
+     "Thirty years",
+     "Six months"
     ],
     "answer": 0,
-    "element": "irony"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 5
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “She saw first of all some bracelets, then a pearl necklace, then a Venetian cross, gold, and precious stones of admirable workmanship.”, what does “bracelets” most nearly mean?",
+    "type": "mc",
+    "prompt": "Why does Mathilde borrow the necklace?",
     "options": [
-     "an entrance hall",
-     "cause to feel shame; hurt the pride of",
-     "bands or chains worn around the wrist",
-     "put in opposition to show or emphasize differences"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “\"Yes, I felt it in the vestibule of the palace.\"”, what does “vestibule” most nearly mean?",
-    "options": [
-     "cause to feel shame; hurt the pride of",
-     "an entrance hall",
-     "put in opposition to show or emphasize differences",
-     "bands or chains worn around the wrist"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“She saw first of all some bracelets, then a pearl necklace, then a Venetian cross, gold, and precious stones of admirable workmanship.”), what does “bracelets” mean?",
-    "options": [
-     "bands or chains worn around the wrist",
-     "oriented toward home",
-     "sent away; released",
-     "cause to feel shame; hurt the pride of"
+     "To look rich at a ball",
+     "As a gift",
+     "To sell it",
+     "To copy it"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 6
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“\"Yes, I felt it in the vestibule of the palace.\"”), what does “vestibule” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Necklace”?",
     "options": [
-     "joyful and proud especially because of triumph or success",
-     "an entrance hall",
-     "bands or chains worn around the wrist",
-     "oriented toward home"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“He threw over her shoulders the wraps which he had brought, modest wraps of common life, whose poverty contrasted with the elegance of the b”), what does “contrasted” mean?",
-    "options": [
-     "a daily or weekly publication on folded sheets; contains news and articles and advertisements",
-     "an entrance hall",
-     "put in opposition to show or emphasize differences",
-     "joyful and proud especially because of triumph or success"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“\"No; there's nothing more humiliating than to look poor among other women who are rich.\"”), what does “humiliating” mean?",
-    "options": [
-     "sent away; released",
-     "put in opposition to show or emphasize differences",
-     "a daily or weekly publication on folded sheets; contains news and articles and advertisements",
-     "cause to feel shame; hurt the pride of"
+     "Revenge carried out with perfect control",
+     "Greed that grasps more than a person needs",
+     "Courage in defense of home",
+     "The cost of wanting to seem richer than you are"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 13
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up homeward.”), what does “homeward” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
     "options": [
-     "oriented toward home",
-     "bands or chains worn around the wrist",
-     "cause to feel shame; hurt the pride of",
-     "sent away; released"
+     "Characterization",
+     "Alliteration",
+     "Personification",
+     "Imagery"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "characterization",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
@@ -731,66 +701,4705 @@
    },
    {
     "n": 2,
-    "answer": "To look rich at a ball",
-    "element": "plot"
-   },
-   {
-    "n": 3,
-    "answer": "Ten years",
-    "element": "plot"
-   },
-   {
-    "n": 4,
-    "answer": "She becomes worn and coarse from hard work",
-    "element": "characterization"
-   },
-   {
-    "n": 5,
     "answer": "The original necklace was fake",
     "element": "irony"
    },
    {
+    "n": 3,
+    "answer": "She becomes worn and coarse from hard work",
+    "element": "characterization"
+   },
+   {
+    "n": 4,
+    "answer": "Ten years",
+    "element": "plot"
+   },
+   {
+    "n": 5,
+    "answer": "To look rich at a ball",
+    "element": "plot"
+   },
+   {
     "n": 6,
-    "answer": "bands or chains worn around the wrist",
-    "element": "diction"
+    "answer": "The cost of wanting to seem richer than you are",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "an entrance hall",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "bands or chains worn around the wrist",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "an entrance hall",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "put in opposition to show or emphasize differences",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "cause to feel shame; hurt the pride of",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "oriented toward home",
-    "element": "diction"
+    "answer": "Characterization",
+    "element": "characterization"
    }
   ],
-  "shortAnswer": [
-   "Explain how vanity and appearance develops from the beginning of the story to the end. Use two passages.",
-   "Explain how class develops from the beginning of the story to the end. Use two passages.",
-   "Explain how honesty develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (vanity and appearance, class, honesty) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went to Police Headquarters, to the _____ offices, to offer a reward; he went to the cab companies—everywhere, in fact, whither he was urged by the least suspicion of hope.”",
+      "wordBank": [
+       "vestibule",
+       "bracelets",
+       "contrasted",
+       "newspaper"
+      ],
+      "answer": "newspaper",
+      "accept": [
+       "newspaper"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Mathilde's husband's job?",
+      "options": [
+       "A banker",
+       "A clerk in the Ministry of Public Instruction",
+       "A shopkeeper",
+       "A soldier"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, one evening, her husband returned home with a _____ air, and holding a large envelope in his hand.”",
+      "wordBank": [
+       "bracelets",
+       "triumphant",
+       "vestibule",
+       "contrasted"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 108: “How _____ a thing is needed for us to be lost or to be saved”",
+      "answer": "little",
+      "accept": [
+       "little",
+       "little"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "The original necklace was fake",
+       "She knew all along",
+       "She found the necklace"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How long do the Loisels work to repay the debt?",
+      "options": [
+       "Ten years",
+       "One year",
+       "Thirty years",
+       "Six months"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They _____ their servant; they changed their lodgings; they rented a garret under the roof.”",
+      "wordBank": [
+       "dismissed",
+       "bracelets",
+       "contrasted",
+       "vestibule"
+      ],
+      "answer": "dismissed",
+      "accept": [
+       "dismissed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up _____.”",
+      "wordBank": [
+       "vestibule",
+       "homeward",
+       "bracelets",
+       "contrasted"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She becomes worn and coarse from hard work",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She stays the same"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Greed that grasps more than a person needs",
+       "Courage in defense of home",
+       "The cost of wanting to seem richer than you are"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Characterization",
+       "Alliteration",
+       "Personification",
+       "Imagery"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Theme",
+       "Diction / vocabulary",
+       "Structure",
+       "Irony"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "newspaper"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A clerk in the Ministry of Public Instruction"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "little"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ten years"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismissed"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is Mathilde's husband's job?",
+      "options": [
+       "A banker",
+       "A clerk in the Ministry of Public Instruction",
+       "A shopkeeper",
+       "A soldier"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 108: “How _____ a thing is needed for us to be lost or to be saved”",
+      "answer": "little",
+      "accept": [
+       "little",
+       "little"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She becomes worn and coarse from hard work",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She stays the same"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went to Police Headquarters, to the _____ offices, to offer a reward; he went to the cab companies—everywhere, in fact, whither he was urged by the least suspicion of hope.”",
+      "wordBank": [
+       "vestibule",
+       "bracelets",
+       "contrasted",
+       "newspaper"
+      ],
+      "answer": "newspaper",
+      "accept": [
+       "newspaper"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "How long do the Loisels work to repay the debt?",
+      "options": [
+       "Ten years",
+       "One year",
+       "Thirty years",
+       "Six months"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "The original necklace was fake",
+       "She knew all along",
+       "She found the necklace"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They _____ their servant; they changed their lodgings; they rented a garret under the roof.”",
+      "wordBank": [
+       "dismissed",
+       "bracelets",
+       "contrasted",
+       "vestibule"
+      ],
+      "answer": "dismissed",
+      "accept": [
+       "dismissed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, one evening, her husband returned home with a _____ air, and holding a large envelope in his hand.”",
+      "wordBank": [
+       "bracelets",
+       "triumphant",
+       "vestibule",
+       "contrasted"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up _____.”",
+      "wordBank": [
+       "vestibule",
+       "homeward",
+       "bracelets",
+       "contrasted"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Greed that grasps more than a person needs",
+       "Courage in defense of home",
+       "The cost of wanting to seem richer than you are"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Characterization",
+       "Alliteration",
+       "Personification",
+       "Imagery"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Theme",
+       "Diction / vocabulary",
+       "Structure",
+       "Irony"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A clerk in the Ministry of Public Instruction"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "little"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "newspaper"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ten years"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismissed"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is Mathilde's husband's job?",
+      "options": [
+       "A banker",
+       "A clerk in the Ministry of Public Instruction",
+       "A shopkeeper",
+       "A soldier"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, one evening, her husband returned home with a _____ air, and holding a large envelope in his hand.”",
+      "wordBank": [
+       "bracelets",
+       "triumphant",
+       "vestibule",
+       "contrasted"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "The original necklace was fake",
+       "She knew all along",
+       "She found the necklace"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She becomes worn and coarse from hard work",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She stays the same"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How long do the Loisels work to repay the debt?",
+      "options": [
+       "Ten years",
+       "One year",
+       "Thirty years",
+       "Six months"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up _____.”",
+      "wordBank": [
+       "vestibule",
+       "homeward",
+       "bracelets",
+       "contrasted"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went to Police Headquarters, to the _____ offices, to offer a reward; he went to the cab companies—everywhere, in fact, whither he was urged by the least suspicion of hope.”",
+      "wordBank": [
+       "vestibule",
+       "bracelets",
+       "contrasted",
+       "newspaper"
+      ],
+      "answer": "newspaper",
+      "accept": [
+       "newspaper"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 108: “How _____ a thing is needed for us to be lost or to be saved”",
+      "answer": "little",
+      "accept": [
+       "little",
+       "little"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Greed that grasps more than a person needs",
+       "Courage in defense of home",
+       "The cost of wanting to seem richer than you are"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Characterization",
+       "Alliteration",
+       "Personification",
+       "Imagery"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A clerk in the Ministry of Public Instruction"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ten years"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "newspaper"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "little"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "The original necklace was fake",
+       "She knew all along",
+       "She found the necklace"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 108: “How _____ a thing is needed for us to be lost or to be saved”",
+      "answer": "little",
+      "accept": [
+       "little",
+       "little"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Mathilde's husband's job?",
+      "options": [
+       "A banker",
+       "A clerk in the Ministry of Public Instruction",
+       "A shopkeeper",
+       "A soldier"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up _____.”",
+      "wordBank": [
+       "vestibule",
+       "homeward",
+       "bracelets",
+       "contrasted"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They _____ their servant; they changed their lodgings; they rented a garret under the roof.”",
+      "wordBank": [
+       "dismissed",
+       "bracelets",
+       "contrasted",
+       "vestibule"
+      ],
+      "answer": "dismissed",
+      "accept": [
+       "dismissed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She becomes worn and coarse from hard work",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She stays the same"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How long do the Loisels work to repay the debt?",
+      "options": [
+       "Ten years",
+       "One year",
+       "Thirty years",
+       "Six months"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Greed that grasps more than a person needs",
+       "Courage in defense of home",
+       "The cost of wanting to seem richer than you are"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Theme",
+       "Diction / vocabulary",
+       "Structure",
+       "Irony"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Characterization",
+       "Alliteration",
+       "Personification",
+       "Imagery"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how appearance versus reality develops from an earlier story to “The Necklace”. Use one quotation from each.",
+      "expected": "everyone is fooled by appearances.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "little"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A clerk in the Ministry of Public Instruction"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismissed"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ten years"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "everyone is fooled by appearances."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How long do the Loisels work to repay the debt?",
+      "options": [
+       "Ten years",
+       "One year",
+       "Thirty years",
+       "Six months"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They _____ their servant; they changed their lodgings; they rented a garret under the roof.”",
+      "wordBank": [
+       "dismissed",
+       "bracelets",
+       "contrasted",
+       "vestibule"
+      ],
+      "answer": "dismissed",
+      "accept": [
+       "dismissed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 108: “How _____ a thing is needed for us to be lost or to be saved”",
+      "answer": "little",
+      "accept": [
+       "little",
+       "little"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, one evening, her husband returned home with a _____ air, and holding a large envelope in his hand.”",
+      "wordBank": [
+       "bracelets",
+       "triumphant",
+       "vestibule",
+       "contrasted"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She becomes worn and coarse from hard work",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She stays the same"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went to Police Headquarters, to the _____ offices, to offer a reward; he went to the cab companies—everywhere, in fact, whither he was urged by the least suspicion of hope.”",
+      "wordBank": [
+       "vestibule",
+       "bracelets",
+       "contrasted",
+       "newspaper"
+      ],
+      "answer": "newspaper",
+      "accept": [
+       "newspaper"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "The original necklace was fake",
+       "She knew all along",
+       "She found the necklace"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "Revenge carried out with perfect control",
+       "Greed that grasps more than a person needs",
+       "Courage in defense of home",
+       "The cost of wanting to seem richer than you are"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Theme",
+       "Diction / vocabulary",
+       "Structure",
+       "Irony"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Characterization",
+       "Alliteration",
+       "Personification",
+       "Imagery"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ten years"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismissed"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "little"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "newspaper"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 108: “How _____ a thing is needed for us to be lost or to be saved”",
+      "answer": "little",
+      "accept": [
+       "little",
+       "little"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They _____ their servant; they changed their lodgings; they rented a garret under the roof.”",
+      "wordBank": [
+       "bracelets",
+       "contrasted",
+       "dismissed",
+       "vestibule"
+      ],
+      "answer": "dismissed",
+      "accept": [
+       "dismissed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "She knew all along",
+       "She found the necklace",
+       "The original necklace was fake"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He threw over her shoulders the wraps which he had brought, modest wraps of common life, whose poverty contrasted with the elegance of the ball dress.”, what does “contrasted” most nearly mean?",
+      "options": [
+       "cause to feel shame; hurt the pride of",
+       "an entrance hall",
+       "put in opposition to show or emphasize differences",
+       "bands or chains worn around the wrist"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How long do the Loisels work to repay the debt?",
+      "options": [
+       "Ten years",
+       "One year",
+       "Six months",
+       "Thirty years"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She stays the same",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She becomes worn and coarse from hard work"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "The cost of wanting to seem richer than you are",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Personification",
+       "Simile",
+       "Setting",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Point of view",
+       "Irony",
+       "Diction / vocabulary",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how appearance versus reality develops from an earlier story to “The Necklace”. Use one quotation from each.",
+      "expected": "everyone is fooled by appearances.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "little"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismissed"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "put in opposition to show or emphasize differences"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ten years"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "everyone is fooled by appearances."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, one evening, her husband returned home with a _____ air, and holding a large envelope in his hand.”",
+      "wordBank": [
+       "bracelets",
+       "contrasted",
+       "vestibule",
+       "triumphant"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He threw over her shoulders the wraps which he had brought, modest wraps of common life, whose poverty contrasted with the elegance of the ball dress.”, what does “contrasted” most nearly mean?",
+      "options": [
+       "cause to feel shame; hurt the pride of",
+       "an entrance hall",
+       "put in opposition to show or emphasize differences",
+       "bands or chains worn around the wrist"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “She saw first of all some bracelets, then a pearl necklace, then a Venetian cross, gold, and precious stones of admirable workmanship.”, what does “bracelets” most nearly mean?",
+      "options": [
+       "put in opposition to show or emphasize differences",
+       "bands or chains worn around the wrist",
+       "cause to feel shame; hurt the pride of",
+       "an entrance hall"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"Yes, I felt it in the vestibule of the palace.\"”, what does “vestibule” most nearly mean?",
+      "options": [
+       "bands or chains worn around the wrist",
+       "cause to feel shame; hurt the pride of",
+       "put in opposition to show or emphasize differences",
+       "an entrance hall"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “They _____ their servant; they changed their lodgings; they rented a garret under the roof.”",
+      "wordBank": [
+       "bracelets",
+       "contrasted",
+       "dismissed",
+       "vestibule"
+      ],
+      "answer": "dismissed",
+      "accept": [
+       "dismissed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "The cost of wanting to seem richer than you are",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Personification",
+       "Simile",
+       "Setting",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Point of view",
+       "Irony",
+       "Diction / vocabulary",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how appearance versus reality develops from an earlier story to “The Necklace”. Use one quotation from each.",
+      "expected": "everyone is fooled by appearances.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "put in opposition to show or emphasize differences"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "bands or chains worn around the wrist"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "an entrance hall"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "dismissed"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "everyone is fooled by appearances."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "She knew all along",
+       "She found the necklace",
+       "The original necklace was fake"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She stays the same",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She becomes worn and coarse from hard work"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Mathilde's husband's job?",
+      "options": [
+       "A shopkeeper",
+       "A soldier",
+       "A clerk in the Ministry of Public Instruction",
+       "A banker"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"No; there's nothing more humiliating than to look poor among other women who are rich.\"”, what does “humiliating” most nearly mean?",
+      "options": [
+       "an entrance hall",
+       "put in opposition to show or emphasize differences",
+       "cause to feel shame; hurt the pride of",
+       "bands or chains worn around the wrist"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, one evening, her husband returned home with a _____ air, and holding a large envelope in his hand.”",
+      "wordBank": [
+       "bracelets",
+       "contrasted",
+       "vestibule",
+       "triumphant"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "The cost of wanting to seem richer than you are",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Point of view",
+       "Irony",
+       "Diction / vocabulary",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Personification",
+       "Simile",
+       "Setting",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how appearance versus reality develops from an earlier story to “The Necklace”. Use one quotation from each.",
+      "expected": "everyone is fooled by appearances.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A clerk in the Ministry of Public Instruction"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cause to feel shame; hurt the pride of"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "everyone is fooled by appearances."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went to Police Headquarters, to the _____ offices, to offer a reward; he went to the cab companies—everywhere, in fact, whither he was urged by the least suspicion of hope.”",
+      "wordBank": [
+       "contrasted",
+       "bracelets",
+       "newspaper",
+       "vestibule"
+      ],
+      "answer": "newspaper",
+      "accept": [
+       "newspaper"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "She knew all along",
+       "She found the necklace",
+       "The original necklace was fake"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up _____.”",
+      "wordBank": [
+       "homeward",
+       "contrasted",
+       "bracelets",
+       "vestibule"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He threw over her shoulders the wraps which he had brought, modest wraps of common life, whose poverty contrasted with the elegance of the ball dress.”, what does “contrasted” most nearly mean?",
+      "options": [
+       "cause to feel shame; hurt the pride of",
+       "an entrance hall",
+       "put in opposition to show or emphasize differences",
+       "bands or chains worn around the wrist"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Mathilde's husband's job?",
+      "options": [
+       "A shopkeeper",
+       "A soldier",
+       "A clerk in the Ministry of Public Instruction",
+       "A banker"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "The cost of wanting to seem richer than you are",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Point of view",
+       "Irony",
+       "Diction / vocabulary",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Personification",
+       "Simile",
+       "Setting",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how appearance versus reality develops from an earlier story to “The Necklace”. Use one quotation from each.",
+      "expected": "everyone is fooled by appearances.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "newspaper"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "put in opposition to show or emphasize differences"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A clerk in the Ministry of Public Instruction"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "everyone is fooled by appearances."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “But, one evening, her husband returned home with a _____ air, and holding a large envelope in his hand.”",
+      "wordBank": [
+       "bracelets",
+       "contrasted",
+       "vestibule",
+       "triumphant"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Necklace, paragraph 5: “She suffered _____, feeling herself born for all the delicacies and all the luxuries”",
+      "answer": "ceaselessly",
+      "accept": [
+       "ceaselessly",
+       "ceaselessly"
+      ],
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up _____.”",
+      "wordBank": [
+       "homeward",
+       "contrasted",
+       "bracelets",
+       "vestibule"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"No; there's nothing more humiliating than to look poor among other women who are rich.\"”, what does “humiliating” most nearly mean?",
+      "options": [
+       "an entrance hall",
+       "put in opposition to show or emphasize differences",
+       "cause to feel shame; hurt the pride of",
+       "bands or chains worn around the wrist"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "She knew all along",
+       "She found the necklace",
+       "The original necklace was fake"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “She saw first of all some bracelets, then a pearl necklace, then a Venetian cross, gold, and precious stones of admirable workmanship.”, what does “bracelets” most nearly mean?",
+      "options": [
+       "put in opposition to show or emphasize differences",
+       "bands or chains worn around the wrist",
+       "cause to feel shame; hurt the pride of",
+       "an entrance hall"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why does Mathilde borrow the necklace?",
+      "options": [
+       "To look rich at a ball",
+       "As a gift",
+       "To sell it",
+       "To copy it"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "The cost of wanting to seem richer than you are",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Point of view",
+       "Irony",
+       "Diction / vocabulary",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Personification",
+       "Simile",
+       "Setting",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how appearance versus reality develops from an earlier story to “The Necklace”. Use one quotation from each.",
+      "expected": "everyone is fooled by appearances.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "ceaselessly"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cause to feel shame; hurt the pride of"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "bands or chains worn around the wrist"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "To look rich at a ball"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "everyone is fooled by appearances."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How long do the Loisels work to repay the debt?",
+      "options": [
+       "Ten years",
+       "One year",
+       "Six months",
+       "Thirty years"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It took them to their door in the Rue des Martyrs, and once more, sadly, they climbed up _____.”",
+      "wordBank": [
+       "homeward",
+       "contrasted",
+       "bracelets",
+       "vestibule"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “He threw over her shoulders the wraps which he had brought, modest wraps of common life, whose poverty contrasted with the elegance of the ball dress.”, what does “contrasted” most nearly mean?",
+      "options": [
+       "cause to feel shame; hurt the pride of",
+       "an entrance hall",
+       "put in opposition to show or emphasize differences",
+       "bands or chains worn around the wrist"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Madame Forestier reveal?",
+      "options": [
+       "She wants it back",
+       "She knew all along",
+       "She found the necklace",
+       "The original necklace was fake"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He went to Police Headquarters, to the _____ offices, to offer a reward; he went to the cab companies—everywhere, in fact, whither he was urged by the least suspicion of hope.”",
+      "wordBank": [
+       "contrasted",
+       "bracelets",
+       "newspaper",
+       "vestibule"
+      ],
+      "answer": "newspaper",
+      "accept": [
+       "newspaper"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “She saw first of all some bracelets, then a pearl necklace, then a Venetian cross, gold, and precious stones of admirable workmanship.”, what does “bracelets” most nearly mean?",
+      "options": [
+       "put in opposition to show or emphasize differences",
+       "bands or chains worn around the wrist",
+       "cause to feel shame; hurt the pride of",
+       "an entrance hall"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens to Mathilde's appearance?",
+      "options": [
+       "She stays the same",
+       "She becomes rich",
+       "She becomes more beautiful",
+       "She becomes worn and coarse from hard work"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Necklace”?",
+      "options": [
+       "The cost of wanting to seem richer than you are",
+       "Friendship tested by duty",
+       "Greed that grasps more than a person needs",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Why, my necklace was paste” (The Necklace, paragraph 130) Answer in two or three sentences with one detail.",
+      "expected": "The reveal.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 130",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Character.",
+      "element": "characterization",
+      "location": "The Necklace, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? Mathilde changes from vain to hard-working; Loisel is loyal.",
+      "options": [
+       "Personification",
+       "Simile",
+       "Setting",
+       "Characterization"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Necklace”? The fake necklace costs ten real years.",
+      "options": [
+       "Point of view",
+       "Irony",
+       "Diction / vocabulary",
+       "Tone / mood"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Mathilde's pride, not bad luck, ruins her. Explain how this evidence supports the claim: “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108).",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “How little a thing is needed for us to be lost or to be saved” (The Necklace, paragraph 108). Pick two words and explain what they suggest.",
+      "expected": "The narrator's reflection.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 108",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how appearance versus reality develops from an earlier story to “The Necklace”. Use one quotation from each.",
+      "expected": "everyone is fooled by appearances.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Why, my necklace was paste” (The Necklace, paragraph 130) shape its meaning? Consider a second, competing reading.",
+      "expected": "The reveal.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 130",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Mathilde's pride, not bad luck, ruins her.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “She suffered ceaselessly, feeling herself born for all the delicacies and all the luxuries” (The Necklace, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Character.",
+      "element": "diction",
+      "location": "The Necklace, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Ten years"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "put in opposition to show or emphasize differences"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The original necklace was fake"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "newspaper"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "bands or chains worn around the wrist"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "She becomes worn and coarse from hard work"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "The cost of wanting to seem richer than you are"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The reveal."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Character."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Characterization"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The narrator's reflection."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "everyone is fooled by appearances."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The reveal."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She hides the loss instead of confessing, and only later learns \"my necklace was paste\"; the narrator reflects \"How little a thing is needed for us to be lost or to be saved.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Character."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -814,7 +5423,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Necklace teaches about vanity and appearance. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Necklace teaches about vanity and appearance. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1035,7 +5644,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Necklace teaches about class. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Necklace teaches about class. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1256,7 +5865,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Necklace teaches about honesty. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Necklace teaches about honesty. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1456,5 +6065,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Necklace: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Guy de Maupassant develops vanity and appearance across The Necklace. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Necklace and argue how its meaning changes over the story and why that change matters to class."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Necklace. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Necklace finally endorses or criticizes its society's view of honesty. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

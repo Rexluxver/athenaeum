@@ -198,9 +198,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Law of Life unit",
   "author": "Jack London",
@@ -568,7 +569,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -579,222 +580,4898 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Law of Life: whole-book test",
+  "title": "The Law of Life: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "Why is Koskoosh left behind?",
-    "options": [
-     "He is being punished",
-     "He is too old and weak to travel with the tribe",
-     "He chooses to hunt",
-     "He is sick with plague"
-    ],
-    "answer": 1,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What is left with him?",
-    "options": [
-     "A rifle",
-     "A sled",
-     "A small fire and a pile of sticks",
-     "Food for a month"
-    ],
-    "answer": 2,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "Who leads the tribe now?",
-    "options": [
-     "His son, the chief",
-     "A trader",
-     "His granddaughter",
-     "A shaman"
-    ],
-    "answer": 0,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What memory does Koskoosh recall?",
     "options": [
      "His wedding",
-     "Wolves bringing down an old moose",
      "His first trade",
+     "Wolves bringing down an old moose",
      "A great flood"
     ],
-    "answer": 1,
-    "element": "imagery"
+    "answer": 2,
+    "element": "imagery",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 3
    },
    {
+    "type": "mc",
+    "prompt": "Who leads the tribe now?",
+    "options": [
+     "His granddaughter",
+     "A shaman",
+     "His son, the chief",
+     "A trader"
+    ],
+    "answer": 2,
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
     "chapterIndex": 0,
+    "n": 4
+   },
+   {
+    "type": "mc",
     "prompt": "What does 'the law of life' mean in the story?",
     "options": [
-     "Always obey the chief",
      "Nature cares for the race, not the individual",
+     "Fire protects life",
      "Never be alone",
-     "Fire protects life"
+     "Always obey the chief"
     ],
-    "answer": 1,
-    "element": "theme"
+    "answer": 0,
+    "element": "theme",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 5
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “First his feet would yield, then his hands; and the numbness would travel, slowly, from the extremities to the body.”, what does “numbness” most nearly mean?",
+    "type": "mc",
+    "prompt": "What is left with him?",
     "options": [
-     "bend one's back forward from the waist on down",
-     "pull back or move away or backward",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "the terms of a relationship; one's position"
+     "Food for a month",
+     "A rifle",
+     "A small fire and a pile of sticks",
+     "A sled"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “There was the time of the Great Famine, when the old men crouched empty-bellied to the fire, and let fall from their lips dim traditions of the ancient day when the Yukon ran wide open for three winters, and then lay frozen for three summers.”, what does “crouched” most nearly mean?",
+    "type": "mc",
+    "prompt": "Why is Koskoosh left behind?",
     "options": [
-     "bend one's back forward from the waist on down",
-     "pull back or move away or backward",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "the terms of a relationship; one's position"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“First his feet would yield, then his hands; and the numbness would travel, slowly, from the extremities to the body.”), what does “numbness” mean?",
-    "options": [
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "dutifully complying with the commands or instructions of those in authority",
-     "worry and sympathy",
-     "the terms of a relationship; one's position"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“There was the time of the Great Famine, when the old men crouched empty-bellied to the fire, and let fall from their lips dim traditions of ”), what does “crouched” mean?",
-    "options": [
-     "came back to life; returned",
-     "bend one's back forward from the waist on down",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "dutifully complying with the commands or instructions of those in authority"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Overcome for the nonce by his hereditary fear of man, the brute retreated, raising a prolonged call to his brothers; and greedily they answe”), what does “retreated” mean?",
-    "options": [
-     "the feeling aroused by something strange and surprising",
-     "bend one's back forward from the waist on down",
-     "pull back or move away or backward",
-     "came back to life; returned"
+     "He chooses to hunt",
+     "He is sick with plague",
+     "He is too old and weak to travel with the tribe",
+     "He is being punished"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Twice had he been dragged down, as the snow attested, and twice had he shaken his assailants clear and gained footing once more.”), what does “footing” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Law of Life”?",
     "options": [
-     "worry and sympathy",
-     "pull back or move away or backward",
-     "the feeling aroused by something strange and surprising",
-     "the terms of a relationship; one's position"
+     "The foolishness of wishing to be young again",
+     "Accepting one's place in nature's cycle",
+     "Harlem as promised refuge and trap",
+     "The futile attempt to shut out death"
     ],
-    "answer": 3,
-    "element": "diction"
+    "answer": 1,
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Nature did not care; there were plenty who were obedient, and it was only the obedience in this matter, not the obedient, which lived and li”), what does “obedient” mean?",
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
     "options": [
-     "dutifully complying with the commands or instructions of those in authority",
-     "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-     "the terms of a relationship; one's position",
-     "worry and sympathy"
+     "Hyperbole",
+     "Flashback",
+     "Allusion",
+     "Alliteration"
     ],
-    "answer": 0,
-    "element": "diction"
+    "answer": 1,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 13
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+    "options": [
+     "Alliteration",
+     "Point of view",
+     "Diction / vocabulary",
+     "Theme"
+    ],
+    "answer": 1,
+    "element": "pointOfView",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "He is too old and weak to travel with the tribe",
-    "element": "plot"
-   },
-   {
-    "n": 2,
-    "answer": "A small fire and a pile of sticks",
-    "element": "symbolism"
-   },
-   {
-    "n": 3,
-    "answer": "His son, the chief",
-    "element": "characterization"
-   },
-   {
-    "n": 4,
     "answer": "Wolves bringing down an old moose",
     "element": "imagery"
    },
    {
-    "n": 5,
+    "n": 2,
+    "answer": "His son, the chief",
+    "element": "characterization"
+   },
+   {
+    "n": 3,
     "answer": "Nature cares for the race, not the individual",
     "element": "theme"
    },
    {
+    "n": 4,
+    "answer": "A small fire and a pile of sticks",
+    "element": "symbolism"
+   },
+   {
+    "n": 5,
+    "answer": "He is too old and weak to travel with the tribe",
+    "element": "plot"
+   },
+   {
     "n": 6,
-    "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-    "element": "diction"
+    "answer": "Accepting one's place in nature's cycle",
+    "element": "theme"
    },
    {
     "n": 7,
-    "answer": "bend one's back forward from the waist on down",
-    "element": "diction"
+    "answer": "Flashback",
+    "element": "structure"
    },
    {
     "n": 8,
-    "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "bend one's back forward from the waist on down",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "pull back or move away or backward",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "the terms of a relationship; one's position",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "dutifully complying with the commands or instructions of those in authority",
-    "element": "diction"
+    "answer": "Point of view",
+    "element": "pointOfView"
    }
   ],
-  "shortAnswer": [
-   "Explain how the cycle of life and death develops from the beginning of the story to the end. Use two passages.",
-   "Explain how age and community develops from the beginning of the story to the end. Use two passages.",
-   "Explain how acceptance develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (the cycle of life and death, age and community, acceptance) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "retreated",
+       "obedient",
+       "crouched",
+       "numbness"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does 'the law of life' mean in the story?",
+      "options": [
+       "Nature cares for the race, not the individual",
+       "Fire protects life",
+       "Never be alone",
+       "Always obey the chief"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He chooses to hunt",
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He is being punished"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Who leads the tribe now?",
+      "options": [
+       "His granddaughter",
+       "A shaman",
+       "His son, the chief",
+       "A trader"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "revived",
+       "retreated",
+       "crouched"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "Food for a month",
+       "A rifle",
+       "A small fire and a pile of sticks",
+       "A sled"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "concern",
+       "crouched"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle",
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Alliteration",
+       "Point of view",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Hyperbole",
+       "Flashback",
+       "Allusion",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nature cares for the race, not the individual"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His son, the chief"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What does 'the law of life' mean in the story?",
+      "options": [
+       "Nature cares for the race, not the individual",
+       "Fire protects life",
+       "Never be alone",
+       "Always obey the chief"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who leads the tribe now?",
+      "options": [
+       "His granddaughter",
+       "A shaman",
+       "His son, the chief",
+       "A trader"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "concern",
+       "crouched"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "Food for a month",
+       "A rifle",
+       "A small fire and a pile of sticks",
+       "A sled"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He chooses to hunt",
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He is being punished"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "retreated",
+       "obedient",
+       "crouched",
+       "numbness"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "revived",
+       "retreated",
+       "crouched"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle",
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Alliteration",
+       "Point of view",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Hyperbole",
+       "Flashback",
+       "Allusion",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nature cares for the race, not the individual"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His son, the chief"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "revived",
+       "retreated",
+       "crouched"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "retreated",
+       "obedient",
+       "crouched",
+       "numbness"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who leads the tribe now?",
+      "options": [
+       "His granddaughter",
+       "A shaman",
+       "His son, the chief",
+       "A trader"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does 'the law of life' mean in the story?",
+      "options": [
+       "Nature cares for the race, not the individual",
+       "Fire protects life",
+       "Never be alone",
+       "Always obey the chief"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "Food for a month",
+       "A rifle",
+       "A small fire and a pile of sticks",
+       "A sled"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He chooses to hunt",
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He is being punished"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "concern",
+       "crouched"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle",
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Hyperbole",
+       "Flashback",
+       "Allusion",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Alliteration",
+       "Point of view",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His son, the chief"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nature cares for the race, not the individual"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "Food for a month",
+       "A rifle",
+       "A small fire and a pile of sticks",
+       "A sled"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He chooses to hunt",
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He is being punished"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "retreated",
+       "obedient",
+       "crouched",
+       "numbness"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who leads the tribe now?",
+      "options": [
+       "His granddaughter",
+       "A shaman",
+       "His son, the chief",
+       "A trader"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "revived",
+       "retreated",
+       "crouched"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "concern",
+       "crouched"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What does 'the law of life' mean in the story?",
+      "options": [
+       "Nature cares for the race, not the individual",
+       "Fire protects life",
+       "Never be alone",
+       "Always obey the chief"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle",
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Hyperbole",
+       "Flashback",
+       "Allusion",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Alliteration",
+       "Point of view",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Sound.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His son, the chief"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nature cares for the race, not the individual"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sound."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "revived",
+       "retreated",
+       "crouched"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who leads the tribe now?",
+      "options": [
+       "His granddaughter",
+       "A shaman",
+       "His son, the chief",
+       "A trader"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does 'the law of life' mean in the story?",
+      "options": [
+       "Nature cares for the race, not the individual",
+       "Fire protects life",
+       "Never be alone",
+       "Always obey the chief"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "retreated",
+       "obedient",
+       "crouched",
+       "numbness"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He chooses to hunt",
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He is being punished"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "retreated",
+       "concern",
+       "crouched"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle",
+       "Harlem as promised refuge and trap",
+       "The futile attempt to shut out death"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Hyperbole",
+       "Flashback",
+       "Allusion",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Alliteration",
+       "Point of view",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His son, the chief"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nature cares for the race, not the individual"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "crouched",
+       "numbness",
+       "retreated",
+       "obedient"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "revived",
+       "retreated"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Twice had he been dragged down, as the snow attested, and twice had he shaken his assailants clear and gained footing once more.”, what does “footing” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "the terms of a relationship; one's position",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "A rifle",
+       "A sled",
+       "Food for a month",
+       "A small fire and a pile of sticks"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He chooses to hunt",
+       "He is being punished"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “There was the time of the Great Famine, when the old men crouched empty-bellied to the fire, and let fall from their lips dim traditions of the ancient day when the Yukon ran wide open for three winters, and then lay…”, what does “crouched” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "the terms of a relationship; one's position",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "Love and rivalry destroyed by racial violence",
+       "A woman's brief taste of freedom",
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Personification",
+       "Flashback",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Symbolism",
+       "Allusion",
+       "Imagery",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Sound.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "the terms of a relationship; one's position"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "bend one's back forward from the waist on down"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sound."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "concern",
+       "retreated"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "A rifle",
+       "A sled",
+       "Food for a month",
+       "A small fire and a pile of sticks"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Overcome for the nonce by his hereditary fear of man, the brute retreated, raising a prolonged call to his brothers; and greedily they answered, till a ring of crouching, jaw-slobbered gray was stretched round about.”, what does “retreated” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "the terms of a relationship; one's position"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "revived",
+       "retreated"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "crouched",
+       "numbness",
+       "retreated",
+       "obedient"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “First his feet would yield, then his hands; and the numbness would travel, slowly, from the extremities to the body.”, what does “numbness” most nearly mean?",
+      "options": [
+       "the terms of a relationship; one's position",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "bend one's back forward from the waist on down"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He chooses to hunt",
+       "He is being punished"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "Love and rivalry destroyed by racial violence",
+       "A woman's brief taste of freedom",
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Personification",
+       "Flashback",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Symbolism",
+       "Allusion",
+       "Imagery",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Sound.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pull back or move away or backward"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sound."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who leads the tribe now?",
+      "options": [
+       "His granddaughter",
+       "A shaman",
+       "A trader",
+       "His son, the chief"
+      ],
+      "answer": 3,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "A rifle",
+       "A sled",
+       "Food for a month",
+       "A small fire and a pile of sticks"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He chooses to hunt",
+       "He is being punished"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "concern",
+       "retreated"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Overcome for the nonce by his hereditary fear of man, the brute retreated, raising a prolonged call to his brothers; and greedily they answered, till a ring of crouching, jaw-slobbered gray was stretched round about.”, what does “retreated” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "the terms of a relationship; one's position"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "revived",
+       "retreated"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "crouched",
+       "numbness",
+       "retreated",
+       "obedient"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "Love and rivalry destroyed by racial violence",
+       "A woman's brief taste of freedom",
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Symbolism",
+       "Allusion",
+       "Imagery",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Personification",
+       "Flashback",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Sound.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His son, the chief"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pull back or move away or backward"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sound."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He chooses to hunt",
+       "He is being punished"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "retreated",
+       "numbness",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "concern",
+       "retreated"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Overcome for the nonce by his hereditary fear of man, the brute retreated, raising a prolonged call to his brothers; and greedily they answered, till a ring of crouching, jaw-slobbered gray was stretched round about.”, what does “retreated” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "the terms of a relationship; one's position"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is left with him?",
+      "options": [
+       "A rifle",
+       "A sled",
+       "Food for a month",
+       "A small fire and a pile of sticks"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Nature did not care; there were plenty who were _____, and it was only the obedience in this matter, not the obedient, which lived and lived always.”",
+      "wordBank": [
+       "crouched",
+       "numbness",
+       "retreated",
+       "obedient"
+      ],
+      "answer": "obedient",
+      "accept": [
+       "obedient"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "Love and rivalry destroyed by racial violence",
+       "A woman's brief taste of freedom",
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Personification",
+       "Flashback",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Symbolism",
+       "Allusion",
+       "Imagery",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Sound.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pull back or move away or backward"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A small fire and a pile of sticks"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "obedient"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sound."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “There was the time of the Great Famine, when the old men crouched empty-bellied to the fire, and let fall from their lips dim traditions of the ancient day when the Yukon ran wide open for three winters, and then lay…”, what does “crouched” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "the terms of a relationship; one's position",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "retreated",
+       "numbness",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does 'the law of life' mean in the story?",
+      "options": [
+       "Always obey the chief",
+       "Fire protects life",
+       "Nature cares for the race, not the individual",
+       "Never be alone"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Why is Koskoosh left behind?",
+      "options": [
+       "He is sick with plague",
+       "He is too old and weak to travel with the tribe",
+       "He chooses to hunt",
+       "He is being punished"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "revived",
+       "retreated"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What memory does Koskoosh recall?",
+      "options": [
+       "His wedding",
+       "His first trade",
+       "Wolves bringing down an old moose",
+       "A great flood"
+      ],
+      "answer": 2,
+      "element": "imagery",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Overcome for the nonce by his hereditary fear of man, the brute retreated, raising a prolonged call to his brothers; and greedily they answered, till a ring of crouching, jaw-slobbered gray was stretched round about.”, what does “retreated” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "the terms of a relationship; one's position"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "Love and rivalry destroyed by racial violence",
+       "A woman's brief taste of freedom",
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Personification",
+       "Flashback",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Symbolism",
+       "Allusion",
+       "Imagery",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Sound.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "bend one's back forward from the waist on down"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nature cares for the race, not the individual"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is too old and weak to travel with the tribe"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Wolves bringing down an old moose"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pull back or move away or backward"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sound."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “First his feet would yield, then his hands; and the numbness would travel, slowly, from the extremities to the body.”, what does “numbness” most nearly mean?",
+      "options": [
+       "the terms of a relationship; one's position",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction",
+       "bend one's back forward from the waist on down"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Then it was the men became high-stomached, and _____ ancient quarrels, and crossed the divides to the south to kill the Pellys, and to the west that they might sit by the dead fires of the Tananas.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "revived",
+       "retreated"
+      ],
+      "answer": "revived",
+      "accept": [
+       "revived"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She had no _____ for that concrete thing called the individual.”",
+      "wordBank": [
+       "numbness",
+       "crouched",
+       "concern",
+       "retreated"
+      ],
+      "answer": "concern",
+      "accept": [
+       "concern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does 'the law of life' mean in the story?",
+      "options": [
+       "Always obey the chief",
+       "Fire protects life",
+       "Nature cares for the race, not the individual",
+       "Never be alone"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Twice had he been dragged down, as the snow attested, and twice had he shaken his assailants clear and gained footing once more.”, what does “footing” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "the terms of a relationship; one's position",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “There was the time of the Great Famine, when the old men crouched empty-bellied to the fire, and let fall from their lips dim traditions of the ancient day when the Yukon ran wide open for three winters, and then lay…”, what does “crouched” most nearly mean?",
+      "options": [
+       "bend one's back forward from the waist on down",
+       "the terms of a relationship; one's position",
+       "pull back or move away or backward",
+       "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The shaman would see signs and _____ in this when they told him.”",
+      "wordBank": [
+       "retreated",
+       "numbness",
+       "wonders",
+       "crouched"
+      ],
+      "answer": "wonders",
+      "accept": [
+       "wonders"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Nature did not care” (The Law of Life, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Sound.",
+      "element": "characterization",
+      "location": "The Law of Life, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Law of Life”?",
+      "options": [
+       "Love and rivalry destroyed by racial violence",
+       "A woman's brief taste of freedom",
+       "The foolishness of wishing to be young again",
+       "Accepting one's place in nature's cycle"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was the law of all flesh” (The Law of Life, paragraph 18). Pick two words and explain what they suggest.",
+      "expected": "Acceptance.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Koskoosh accepts death because he sees it as nature's law. Explain how this evidence supports the claim: “Nature did not care” (The Law of Life, paragraph 18).",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "location": "The Law of Life, paragraph 18",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? The moose hunt.",
+      "options": [
+       "Personification",
+       "Flashback",
+       "Diction / vocabulary",
+       "Plot"
+      ],
+      "answer": 1,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Law of Life”? Limited to Koskoosh; we hear what he hears, since he is blind.",
+      "options": [
+       "Symbolism",
+       "Allusion",
+       "Imagery",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how the cycle of life and death develops from an earlier story to “The Law of Life”. Use one quotation from each.",
+      "expected": "the individual is nothing to nature.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Old Koskoosh listened greedily” (The Law of Life, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Sound.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Koskoosh accepts death because he sees it as nature's law.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Nature did not care” (The Law of Life, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Law of Life, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "partial or total lack of sensation in a part of the body; a symptom of nerve damage or dysfunction"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "revived"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "concern"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Nature cares for the race, not the individual"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "the terms of a relationship; one's position"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "bend one's back forward from the waist on down"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "wonders"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Sound."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Accepting one's place in nature's cycle"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Acceptance."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Flashback"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the individual is nothing to nature."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sound."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "He reflects that \"Nature did not care\" for the individual and that \"It was the law of all flesh,\" so he does not fight the wolves."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -818,7 +5495,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Law of Life teaches about the cycle of life and death. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Law of Life teaches about the cycle of life and death. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1039,7 +5716,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Law of Life teaches about age and community. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Law of Life teaches about age and community. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1260,7 +5937,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Law of Life teaches about acceptance. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Law of Life teaches about acceptance. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1460,5 +6137,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Law of Life: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Jack London develops the cycle of life and death across The Law of Life. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Law of Life and argue how its meaning changes over the story and why that change matters to age and community."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Law of Life. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Law of Life finally endorses or criticizes its society's view of acceptance. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

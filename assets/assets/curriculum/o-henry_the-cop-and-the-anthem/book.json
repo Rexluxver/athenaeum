@@ -200,9 +200,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Cop and the Anthem unit",
   "author": "O. Henry",
@@ -570,7 +571,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -581,159 +582,112 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Cop and the Anthem: whole-book test",
+  "title": "The Cop and the Anthem: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "What does Soapy want for the winter?",
-    "options": [
-     "A job",
-     "A room at a hotel",
-     "Three months in jail on the Island",
-     "A train ticket south"
-    ],
-    "answer": 2,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What happens when Soapy breaks a store window?",
-    "options": [
-     "He is arrested",
-     "The owner thanks him",
-     "He runs away",
-     "The policeman chases another man"
-    ],
-    "answer": 3,
-    "element": "irony"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What makes Soapy decide to change his life?",
-    "options": [
-     "A sermon",
-     "A letter",
-     "Church organ music, an anthem",
-     "A friend's advice"
-    ],
-    "answer": 2,
-    "element": "symbolism"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What does Soapy resolve to do?",
-    "options": [
-     "Leave New York",
-     "Return home",
-     "Steal a coat",
-     "Find work and reform"
-    ],
-    "answer": 3,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "What finally happens?",
     "options": [
+     "He gets a job",
      "He is given a coat",
-     "He goes south",
      "He is arrested and sentenced to three months",
-     "He gets a job"
+     "He goes south"
     ],
     "answer": 2,
-    "element": "irony"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “Through one violet-stained window a soft light glowed, where, no doubt, the organist loitered over the keys, making sure of his mastery of the coming Sabbath anthem.”, what does “loitered” most nearly mean?",
+    "type": "mc",
+    "prompt": "What happens when Soapy breaks a store window?",
     "options": [
-     "lingered; hung about",
-     "cook with dry heat, usually in an oven",
-     "pleasant and well suited",
-     "printed cards used in a game"
+     "The policeman chases another man",
+     "He is arrested",
+     "He runs away",
+     "The owner thanks him"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 8
    },
    {
-    "chapterIndex": 0,
-    "prompt": "In the line “Three months of assured board and bed and congenial company, safe from Boreas and bluecoats, seemed to Soapy the essence of things desirable.”, what does “congenial” most nearly mean?",
+    "type": "mc",
+    "prompt": "What makes Soapy decide to change his life?",
     "options": [
-     "lingered; hung about",
-     "cook with dry heat, usually in an oven",
-     "printed cards used in a game",
-     "pleasant and well suited"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Through one violet-stained window a soft light glowed, where, no doubt, the organist loitered over the keys, making sure of his mastery of t”), what does “loitered” mean?",
-    "options": [
-     "lingered; hung about",
-     "look down on with disdain",
-     "marked by casual disrespect",
-     "pleasant and well suited"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Three months of assured board and bed and congenial company, safe from Boreas and bluecoats, seemed to Soapy the essence of things desirable”), what does “congenial” mean?",
-    "options": [
-     "partnership; combination",
-     "pleasant and well suited",
-     "state emphatically and authoritatively",
-     "cook with dry heat, usually in an oven"
-    ],
-    "answer": 1,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“A roasted mallard duck, thought Soapy, would be about the thing—with a bottle of Chablis, and then Camembert, a demi-tasse and a cigar.”), what does “roasted” mean?",
-    "options": [
-     "settled on; chose",
-     "reasons for doing something",
-     "cook with dry heat, usually in an oven",
-     "printed cards used in a game"
+     "A friend's advice",
+     "A letter",
+     "Church organ music, an anthem",
+     "A sermon"
     ],
     "answer": 2,
-    "element": "diction"
+    "element": "symbolism",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Just as his more fortunate fellow New Yorkers had bought their tickets to Palm Beach and the Riviera each winter, so Soapy had made his humb”), what does “tickets” mean?",
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
     "options": [
-     "marked by casual disrespect",
-     "lingered; hung about",
-     "look down on with disdain",
-     "printed cards used in a game"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“He scorned the provisions made in the name of charity for the city’s dependents.”), what does “scorned” mean?",
-    "options": [
-     "look down on with disdain",
-     "state emphatically and authoritatively",
-     "pleasant and well suited",
-     "partnership; combination"
+     "A reversal that punishes a change of heart",
+     "Love measured by sacrifice",
+     "A wife's quiet rebellion for a decent home",
+     "Hope created by an act of sacrifice"
     ],
     "answer": 0,
-    "element": "diction"
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 12
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+    "options": [
+     "Conflict",
+     "Personification",
+     "Diction / vocabulary",
+     "Theme"
+    ],
+    "answer": 2,
+    "element": "diction",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 14
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+    "options": [
+     "Metaphor",
+     "Characterization",
+     "Irony",
+     "Imagery"
+    ],
+    "answer": 2,
+    "element": "irony",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "Three months in jail on the Island",
-    "element": "plot"
+    "answer": "He is arrested and sentenced to three months",
+    "element": "irony"
    },
    {
     "n": 2,
@@ -747,56 +701,4681 @@
    },
    {
     "n": 4,
-    "answer": "Find work and reform",
-    "element": "characterization"
+    "answer": "A reversal that punishes a change of heart",
+    "element": "theme"
    },
    {
     "n": 5,
-    "answer": "He is arrested and sentenced to three months",
-    "element": "irony"
+    "answer": "Diction / vocabulary",
+    "element": "diction"
    },
    {
     "n": 6,
-    "answer": "lingered; hung about",
-    "element": "diction"
-   },
-   {
-    "n": 7,
-    "answer": "pleasant and well suited",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "lingered; hung about",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "pleasant and well suited",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "cook with dry heat, usually in an oven",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "printed cards used in a game",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "look down on with disdain",
-    "element": "diction"
+    "answer": "Irony",
+    "element": "irony"
    }
   ],
-  "shortAnswer": [
-   "Explain how homelessness and society develops from the beginning of the story to the end. Use two passages.",
-   "Explain how fate and irony develops from the beginning of the story to the end. Use two passages.",
-   "Explain how redemption develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (homelessness and society, fate and irony, redemption) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What finally happens?",
+      "options": [
+       "He gets a job",
+       "He is given a coat",
+       "He is arrested and sentenced to three months",
+       "He goes south"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 4: “Three _____ on the Island was what his soul craved”",
+      "answer": "months",
+      "accept": [
+       "months",
+       "months"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 48: “Three months on the Island,” said the _____”",
+      "answer": "Magistrate",
+      "accept": [
+       "Magistrate",
+       "magistrate"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy want for the winter?",
+      "options": [
+       "A room at a hotel",
+       "A train ticket south",
+       "A job",
+       "Three months in jail on the Island"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy resolve to do?",
+      "options": [
+       "Leave New York",
+       "Steal a coat",
+       "Find work and reform",
+       "Return home"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He _____ the provisions made in the name of charity for the city’s dependents.”",
+      "wordBank": [
+       "roasted",
+       "scorned",
+       "congenial",
+       "loitered"
+      ],
+      "answer": "scorned",
+      "accept": [
+       "scorned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Soapy breaks a store window?",
+      "options": [
+       "The policeman chases another man",
+       "He is arrested",
+       "He runs away",
+       "The owner thanks him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He made eyes at her, was taken with sudden coughs and “hems,” smiled, smirked and went brazenly through the _____ and contemptible litany of the “masher.””",
+      "wordBank": [
+       "roasted",
+       "impudent",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "impudent",
+      "accept": [
+       "impudent"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Soapy decide to change his life?",
+      "options": [
+       "A friend's advice",
+       "A letter",
+       "Church organ music, an anthem",
+       "A sermon"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neatly upon his left ear on the callous pavement two waiters _____ Soapy.”",
+      "wordBank": [
+       "pitched",
+       "roasted",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "pitched",
+      "accept": [
+       "pitched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ of Soapy’s receptive state of mind and the influences about the old church wrought a sudden and wonderful change in his soul.”",
+      "wordBank": [
+       "roasted",
+       "conjunction",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "conjunction",
+      "accept": [
+       "conjunction"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "A reversal that punishes a change of heart",
+       "Love measured by sacrifice",
+       "A wife's quiet rebellion for a decent home",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Irony",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is arrested and sentenced to three months"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "months"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Magistrate"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Three months in jail on the Island"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Find work and reform"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "scorned"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The policeman chases another man"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impudent"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Church organ music, an anthem"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "pitched"
+     },
+     {
+      "n": 12,
+      "type": "fill",
+      "level": "recall",
+      "answer": "conjunction"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     }
+    ],
+    "mix": {
+     "recall": 12,
+     "inference": 3,
+     "analysis": 2,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 7,
+     "short": 4
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Soapy resolve to do?",
+      "options": [
+       "Leave New York",
+       "Steal a coat",
+       "Find work and reform",
+       "Return home"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 48: “Three months on the Island,” said the _____”",
+      "answer": "Magistrate",
+      "accept": [
+       "Magistrate",
+       "magistrate"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ of Soapy’s receptive state of mind and the influences about the old church wrought a sudden and wonderful change in his soul.”",
+      "wordBank": [
+       "roasted",
+       "conjunction",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "conjunction",
+      "accept": [
+       "conjunction"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Soapy decide to change his life?",
+      "options": [
+       "A friend's advice",
+       "A letter",
+       "Church organ music, an anthem",
+       "A sermon"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He made eyes at her, was taken with sudden coughs and “hems,” smiled, smirked and went brazenly through the _____ and contemptible litany of the “masher.””",
+      "wordBank": [
+       "roasted",
+       "impudent",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "impudent",
+      "accept": [
+       "impudent"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Soapy breaks a store window?",
+      "options": [
+       "The policeman chases another man",
+       "He is arrested",
+       "He runs away",
+       "The owner thanks him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 4: “Three _____ on the Island was what his soul craved”",
+      "answer": "months",
+      "accept": [
+       "months",
+       "months"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neatly upon his left ear on the callous pavement two waiters _____ Soapy.”",
+      "wordBank": [
+       "pitched",
+       "roasted",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "pitched",
+      "accept": [
+       "pitched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What finally happens?",
+      "options": [
+       "He gets a job",
+       "He is given a coat",
+       "He is arrested and sentenced to three months",
+       "He goes south"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He _____ the provisions made in the name of charity for the city’s dependents.”",
+      "wordBank": [
+       "roasted",
+       "scorned",
+       "congenial",
+       "loitered"
+      ],
+      "answer": "scorned",
+      "accept": [
+       "scorned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy want for the winter?",
+      "options": [
+       "A room at a hotel",
+       "A train ticket south",
+       "A job",
+       "Three months in jail on the Island"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "A reversal that punishes a change of heart",
+       "Love measured by sacrifice",
+       "A wife's quiet rebellion for a decent home",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Conflict",
+       "Personification",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how redemption develops from an earlier story to “The Cop and the Anthem”. Use one quotation from each.",
+      "expected": "the anthem awakens his conscience.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Find work and reform"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Magistrate"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "conjunction"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Church organ music, an anthem"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impudent"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The policeman chases another man"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "months"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "pitched"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is arrested and sentenced to three months"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "scorned"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Three months in jail on the Island"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the anthem awakens his conscience."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What finally happens?",
+      "options": [
+       "He gets a job",
+       "He is given a coat",
+       "He is arrested and sentenced to three months",
+       "He goes south"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neatly upon his left ear on the callous pavement two waiters _____ Soapy.”",
+      "wordBank": [
+       "pitched",
+       "roasted",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "pitched",
+      "accept": [
+       "pitched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He _____ the provisions made in the name of charity for the city’s dependents.”",
+      "wordBank": [
+       "roasted",
+       "scorned",
+       "congenial",
+       "loitered"
+      ],
+      "answer": "scorned",
+      "accept": [
+       "scorned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ of Soapy’s receptive state of mind and the influences about the old church wrought a sudden and wonderful change in his soul.”",
+      "wordBank": [
+       "roasted",
+       "conjunction",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "conjunction",
+      "accept": [
+       "conjunction"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He made eyes at her, was taken with sudden coughs and “hems,” smiled, smirked and went brazenly through the _____ and contemptible litany of the “masher.””",
+      "wordBank": [
+       "roasted",
+       "impudent",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "impudent",
+      "accept": [
+       "impudent"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 48: “Three months on the Island,” said the _____”",
+      "answer": "Magistrate",
+      "accept": [
+       "Magistrate",
+       "magistrate"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 4: “Three _____ on the Island was what his soul craved”",
+      "answer": "months",
+      "accept": [
+       "months",
+       "months"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Soapy breaks a store window?",
+      "options": [
+       "The policeman chases another man",
+       "He is arrested",
+       "He runs away",
+       "The owner thanks him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Soapy decide to change his life?",
+      "options": [
+       "A friend's advice",
+       "A letter",
+       "Church organ music, an anthem",
+       "A sermon"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "A reversal that punishes a change of heart",
+       "Love measured by sacrifice",
+       "A wife's quiet rebellion for a decent home",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Conflict",
+       "Personification",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Irony",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is arrested and sentenced to three months"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "pitched"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "scorned"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "conjunction"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impudent"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Magistrate"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "months"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The policeman chases another man"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Church organ music, an anthem"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 6,
+     "fill": 7,
+     "short": 5
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What happens when Soapy breaks a store window?",
+      "options": [
+       "The policeman chases another man",
+       "He is arrested",
+       "He runs away",
+       "The owner thanks him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 48: “Three months on the Island,” said the _____”",
+      "answer": "Magistrate",
+      "accept": [
+       "Magistrate",
+       "magistrate"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What finally happens?",
+      "options": [
+       "He gets a job",
+       "He is given a coat",
+       "He is arrested and sentenced to three months",
+       "He goes south"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He made eyes at her, was taken with sudden coughs and “hems,” smiled, smirked and went brazenly through the _____ and contemptible litany of the “masher.””",
+      "wordBank": [
+       "roasted",
+       "impudent",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "impudent",
+      "accept": [
+       "impudent"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neatly upon his left ear on the callous pavement two waiters _____ Soapy.”",
+      "wordBank": [
+       "pitched",
+       "roasted",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "pitched",
+      "accept": [
+       "pitched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy want for the winter?",
+      "options": [
+       "A room at a hotel",
+       "A train ticket south",
+       "A job",
+       "Three months in jail on the Island"
+      ],
+      "answer": 3,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy resolve to do?",
+      "options": [
+       "Leave New York",
+       "Steal a coat",
+       "Find work and reform",
+       "Return home"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He _____ the provisions made in the name of charity for the city’s dependents.”",
+      "wordBank": [
+       "roasted",
+       "scorned",
+       "congenial",
+       "loitered"
+      ],
+      "answer": "scorned",
+      "accept": [
+       "scorned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "A reversal that punishes a change of heart",
+       "Love measured by sacrifice",
+       "A wife's quiet rebellion for a decent home",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Irony",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Conflict",
+       "Personification",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The policeman chases another man"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Magistrate"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is arrested and sentenced to three months"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impudent"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "pitched"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Three months in jail on the Island"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Find work and reform"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "scorned"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 7,
+     "fill": 5,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What finally happens?",
+      "options": [
+       "He gets a job",
+       "He is given a coat",
+       "He is arrested and sentenced to three months",
+       "He goes south"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He made eyes at her, was taken with sudden coughs and “hems,” smiled, smirked and went brazenly through the _____ and contemptible litany of the “masher.””",
+      "wordBank": [
+       "roasted",
+       "impudent",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "impudent",
+      "accept": [
+       "impudent"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neatly upon his left ear on the callous pavement two waiters _____ Soapy.”",
+      "wordBank": [
+       "pitched",
+       "roasted",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "pitched",
+      "accept": [
+       "pitched"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Soapy decide to change his life?",
+      "options": [
+       "A friend's advice",
+       "A letter",
+       "Church organ music, an anthem",
+       "A sermon"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 4: “Three _____ on the Island was what his soul craved”",
+      "answer": "months",
+      "accept": [
+       "months",
+       "months"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ of Soapy’s receptive state of mind and the influences about the old church wrought a sudden and wonderful change in his soul.”",
+      "wordBank": [
+       "roasted",
+       "conjunction",
+       "loitered",
+       "congenial"
+      ],
+      "answer": "conjunction",
+      "accept": [
+       "conjunction"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 48: “Three months on the Island,” said the _____”",
+      "answer": "Magistrate",
+      "accept": [
+       "Magistrate",
+       "magistrate"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "A reversal that punishes a change of heart",
+       "Love measured by sacrifice",
+       "A wife's quiet rebellion for a decent home",
+       "Hope created by an act of sacrifice"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Conflict",
+       "Personification",
+       "Diction / vocabulary",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Metaphor",
+       "Characterization",
+       "Irony",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is arrested and sentenced to three months"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impudent"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "pitched"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Church organ music, an anthem"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "months"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "conjunction"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Magistrate"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 5,
+     "fill": 6,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He _____ the provisions made in the name of charity for the city’s dependents.”",
+      "wordBank": [
+       "roasted",
+       "scorned",
+       "congenial",
+       "loitered"
+      ],
+      "answer": "scorned",
+      "accept": [
+       "scorned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ of Soapy’s receptive state of mind and the influences about the old church wrought a sudden and wonderful change in his soul.”",
+      "wordBank": [
+       "congenial",
+       "roasted",
+       "loitered",
+       "conjunction"
+      ],
+      "answer": "conjunction",
+      "accept": [
+       "conjunction"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Soapy breaks a store window?",
+      "options": [
+       "The policeman chases another man",
+       "He is arrested",
+       "He runs away",
+       "The owner thanks him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy want for the winter?",
+      "options": [
+       "Three months in jail on the Island",
+       "A train ticket south",
+       "A job",
+       "A room at a hotel"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 48: “Three months on the Island,” said the _____”",
+      "answer": "Magistrate",
+      "accept": [
+       "Magistrate",
+       "magistrate"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Just as his more fortunate fellow New Yorkers had bought their tickets to Palm Beach and the Riviera each winter, so Soapy had made his humbler arrangements for his annual hegira to the Island.”, what does “tickets” most nearly mean?",
+      "options": [
+       "lingered; hung about",
+       "printed cards used in a game",
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Through one violet-stained window a soft light glowed, where, no doubt, the organist loitered over the keys, making sure of his mastery of the coming Sabbath anthem.”, what does “loitered” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "printed cards used in a game",
+       "lingered; hung about"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Reason defeating a hidden crime",
+       "A reversal that punishes a change of heart",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Irony",
+       "Tone / mood",
+       "Point of view",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Hyperbole",
+       "Diction / vocabulary",
+       "Theme",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how redemption develops from an earlier story to “The Cop and the Anthem”. Use one quotation from each.",
+      "expected": "the anthem awakens his conscience.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "scorned"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "conjunction"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The policeman chases another man"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Three months in jail on the Island"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Magistrate"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "printed cards used in a game"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "lingered; hung about"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the anthem awakens his conscience."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “Three months of assured board and bed and congenial company, safe from Boreas and bluecoats, seemed to Soapy the essence of things desirable.”, what does “congenial” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "lingered; hung about",
+       "printed cards used in a game"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Soapy breaks a store window?",
+      "options": [
+       "The policeman chases another man",
+       "He is arrested",
+       "He runs away",
+       "The owner thanks him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A roasted mallard duck, thought Soapy, would be about the thing—with a bottle of Chablis, and then Camembert, a demi-tasse and a cigar.”, what does “roasted” most nearly mean?",
+      "options": [
+       "printed cards used in a game",
+       "pleasant and well suited",
+       "cook with dry heat, usually in an oven",
+       "lingered; hung about"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Through one violet-stained window a soft light glowed, where, no doubt, the organist loitered over the keys, making sure of his mastery of the coming Sabbath anthem.”, what does “loitered” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "printed cards used in a game",
+       "lingered; hung about"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He _____ the provisions made in the name of charity for the city’s dependents.”",
+      "wordBank": [
+       "roasted",
+       "scorned",
+       "congenial",
+       "loitered"
+      ],
+      "answer": "scorned",
+      "accept": [
+       "scorned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy want for the winter?",
+      "options": [
+       "Three months in jail on the Island",
+       "A train ticket south",
+       "A job",
+       "A room at a hotel"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ of Soapy’s receptive state of mind and the influences about the old church wrought a sudden and wonderful change in his soul.”",
+      "wordBank": [
+       "congenial",
+       "roasted",
+       "loitered",
+       "conjunction"
+      ],
+      "answer": "conjunction",
+      "accept": [
+       "conjunction"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Reason defeating a hidden crime",
+       "A reversal that punishes a change of heart",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Hyperbole",
+       "Diction / vocabulary",
+       "Theme",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Irony",
+       "Tone / mood",
+       "Point of view",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how redemption develops from an earlier story to “The Cop and the Anthem”. Use one quotation from each.",
+      "expected": "the anthem awakens his conscience.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pleasant and well suited"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The policeman chases another man"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cook with dry heat, usually in an oven"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "lingered; hung about"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "scorned"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Three months in jail on the Island"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "conjunction"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the anthem awakens his conscience."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “A roasted mallard duck, thought Soapy, would be about the thing—with a bottle of Chablis, and then Camembert, a demi-tasse and a cigar.”, what does “roasted” most nearly mean?",
+      "options": [
+       "printed cards used in a game",
+       "pleasant and well suited",
+       "cook with dry heat, usually in an oven",
+       "lingered; hung about"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Soapy decide to change his life?",
+      "options": [
+       "A letter",
+       "A friend's advice",
+       "Church organ music, an anthem",
+       "A sermon"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 4: “Three _____ on the Island was what his soul craved”",
+      "answer": "months",
+      "accept": [
+       "months",
+       "months"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Just as his more fortunate fellow New Yorkers had bought their tickets to Palm Beach and the Riviera each winter, so Soapy had made his humbler arrangements for his annual hegira to the Island.”, what does “tickets” most nearly mean?",
+      "options": [
+       "lingered; hung about",
+       "printed cards used in a game",
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What finally happens?",
+      "options": [
+       "He goes south",
+       "He is given a coat",
+       "He gets a job",
+       "He is arrested and sentenced to three months"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Three months of assured board and bed and congenial company, safe from Boreas and bluecoats, seemed to Soapy the essence of things desirable.”, what does “congenial” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "lingered; hung about",
+       "printed cards used in a game"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Reason defeating a hidden crime",
+       "A reversal that punishes a change of heart",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Hyperbole",
+       "Diction / vocabulary",
+       "Theme",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Irony",
+       "Tone / mood",
+       "Point of view",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how redemption develops from an earlier story to “The Cop and the Anthem”. Use one quotation from each.",
+      "expected": "the anthem awakens his conscience.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cook with dry heat, usually in an oven"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Church organ music, an anthem"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "months"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "printed cards used in a game"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is arrested and sentenced to three months"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pleasant and well suited"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the anthem awakens his conscience."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The _____ of Soapy’s receptive state of mind and the influences about the old church wrought a sudden and wonderful change in his soul.”",
+      "wordBank": [
+       "congenial",
+       "roasted",
+       "loitered",
+       "conjunction"
+      ],
+      "answer": "conjunction",
+      "accept": [
+       "conjunction"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A roasted mallard duck, thought Soapy, would be about the thing—with a bottle of Chablis, and then Camembert, a demi-tasse and a cigar.”, what does “roasted” most nearly mean?",
+      "options": [
+       "printed cards used in a game",
+       "pleasant and well suited",
+       "cook with dry heat, usually in an oven",
+       "lingered; hung about"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy resolve to do?",
+      "options": [
+       "Find work and reform",
+       "Return home",
+       "Steal a coat",
+       "Leave New York"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What happens when Soapy breaks a store window?",
+      "options": [
+       "The policeman chases another man",
+       "He is arrested",
+       "He runs away",
+       "The owner thanks him"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Three months of assured board and bed and congenial company, safe from Boreas and bluecoats, seemed to Soapy the essence of things desirable.”, what does “congenial” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "lingered; hung about",
+       "printed cards used in a game"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Through one violet-stained window a soft light glowed, where, no doubt, the organist loitered over the keys, making sure of his mastery of the coming Sabbath anthem.”, what does “loitered” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "printed cards used in a game",
+       "lingered; hung about"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Reason defeating a hidden crime",
+       "A reversal that punishes a change of heart",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Irony",
+       "Tone / mood",
+       "Point of view",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Hyperbole",
+       "Diction / vocabulary",
+       "Theme",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how redemption develops from an earlier story to “The Cop and the Anthem”. Use one quotation from each.",
+      "expected": "the anthem awakens his conscience.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "conjunction"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "cook with dry heat, usually in an oven"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Find work and reform"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The policeman chases another man"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pleasant and well suited"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "lingered; hung about"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the anthem awakens his conscience."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does Soapy want for the winter?",
+      "options": [
+       "Three months in jail on the Island",
+       "A train ticket south",
+       "A job",
+       "A room at a hotel"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What finally happens?",
+      "options": [
+       "He goes south",
+       "He is given a coat",
+       "He gets a job",
+       "He is arrested and sentenced to three months"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 4: “Three _____ on the Island was what his soul craved”",
+      "answer": "months",
+      "accept": [
+       "months",
+       "months"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Three months of assured board and bed and congenial company, safe from Boreas and bluecoats, seemed to Soapy the essence of things desirable.”, what does “congenial” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "lingered; hung about",
+       "printed cards used in a game"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Just as his more fortunate fellow New Yorkers had bought their tickets to Palm Beach and the Riviera each winter, so Soapy had made his humbler arrangements for his annual hegira to the Island.”, what does “tickets” most nearly mean?",
+      "options": [
+       "lingered; hung about",
+       "printed cards used in a game",
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What makes Soapy decide to change his life?",
+      "options": [
+       "A letter",
+       "A friend's advice",
+       "Church organ music, an anthem",
+       "A sermon"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Reason defeating a hidden crime",
+       "A reversal that punishes a change of heart",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Irony",
+       "Tone / mood",
+       "Point of view",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Hyperbole",
+       "Diction / vocabulary",
+       "Theme",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how redemption develops from an earlier story to “The Cop and the Anthem”. Use one quotation from each.",
+      "expected": "the anthem awakens his conscience.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Three months in jail on the Island"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He is arrested and sentenced to three months"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "months"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pleasant and well suited"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "printed cards used in a game"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Church organ music, an anthem"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the anthem awakens his conscience."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He _____ the provisions made in the name of charity for the city’s dependents.”",
+      "wordBank": [
+       "roasted",
+       "scorned",
+       "congenial",
+       "loitered"
+      ],
+      "answer": "scorned",
+      "accept": [
+       "scorned"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 30: “In his fancy the Island seemed an _____ Arcadia”",
+      "answer": "unattainable",
+      "accept": [
+       "unattainable",
+       "unattainable"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Soapy resolve to do?",
+      "options": [
+       "Find work and reform",
+       "Return home",
+       "Steal a coat",
+       "Leave New York"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Three months of assured board and bed and congenial company, safe from Boreas and bluecoats, seemed to Soapy the essence of things desirable.”, what does “congenial” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "lingered; hung about",
+       "printed cards used in a game"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “He made eyes at her, was taken with sudden coughs and “hems,” smiled, smirked and went brazenly through the _____ and contemptible litany of the “masher.””",
+      "wordBank": [
+       "roasted",
+       "loitered",
+       "congenial",
+       "impudent"
+      ],
+      "answer": "impudent",
+      "accept": [
+       "impudent"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Cop and the Anthem, paragraph 48: “Three months on the Island,” said the _____”",
+      "answer": "Magistrate",
+      "accept": [
+       "Magistrate",
+       "magistrate"
+      ],
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Through one violet-stained window a soft light glowed, where, no doubt, the organist loitered over the keys, making sure of his mastery of the coming Sabbath anthem.”, what does “loitered” most nearly mean?",
+      "options": [
+       "cook with dry heat, usually in an oven",
+       "pleasant and well suited",
+       "printed cards used in a game",
+       "lingered; hung about"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) Answer in two or three sentences with one detail.",
+      "expected": "Ironic grandeur.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Cop and the Anthem”?",
+      "options": [
+       "The foolishness of wishing to be young again",
+       "Reason defeating a hidden crime",
+       "A reversal that punishes a change of heart",
+       "Self-destruction and the urge to do wrong"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) Answer in two or three sentences with one detail.",
+      "expected": "His goal.",
+      "element": "characterization",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Ornate vocabulary (\"hegira,\" \"Arcadia\") gives a comic grandeur to Soapy's plans.",
+      "options": [
+       "Hyperbole",
+       "Diction / vocabulary",
+       "Theme",
+       "Irony"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “Three months on the Island,” said the Magistrate” (The Cop and the Anthem, paragraph 48). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 48",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: O. Henry uses irony to show that society punishes the poor regardless of what they choose. Explain how this evidence supports the claim: “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4).",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Cop and the Anthem”? Every crime fails; innocence is punished.",
+      "options": [
+       "Irony",
+       "Tone / mood",
+       "Point of view",
+       "Structure"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “In his fancy the Island seemed an unattainable Arcadia” (The Cop and the Anthem, paragraph 30) shape its meaning? Consider a second, competing reading.",
+      "expected": "Ironic grandeur.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 30",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “O. Henry uses irony to show that society punishes the poor regardless of what they choose.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how redemption develops from an earlier story to “The Cop and the Anthem”. Use one quotation from each.",
+      "expected": "the anthem awakens his conscience.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Three months on the Island was what his soul craved” (The Cop and the Anthem, paragraph 4) shape its meaning? Consider a second, competing reading.",
+      "expected": "His goal.",
+      "element": "diction",
+      "location": "The Cop and the Anthem, paragraph 4",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "scorned"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unattainable"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Find work and reform"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pleasant and well suited"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "impudent"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Magistrate"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "lingered; hung about"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "A reversal that punishes a change of heart"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "His goal."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Diction / vocabulary"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Ironic grandeur."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Soapy's soul \"craved\" \"Three months on the Island,\" and he fails to get it by crime, but once he resolves to reform, \"the Magistrate\" gives him exactly that."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "the anthem awakens his conscience."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His goal."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -820,7 +5399,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Cop and the Anthem teaches about homelessness and society. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Cop and the Anthem teaches about homelessness and society. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1041,7 +5620,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Cop and the Anthem teaches about fate and irony. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Cop and the Anthem teaches about fate and irony. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1262,7 +5841,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Cop and the Anthem teaches about redemption. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Cop and the Anthem teaches about redemption. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1462,5 +6041,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Cop and the Anthem: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how O. Henry develops homelessness and society across The Cop and the Anthem. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Cop and the Anthem and argue how its meaning changes over the story and why that change matters to fate and irony."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Cop and the Anthem. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Cop and the Anthem finally endorses or criticizes its society's view of redemption. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }

@@ -200,9 +200,10 @@
      }
     }
    ]
-  }
+  },
+  "criticalVoices": []
  },
- "formatVersion": 4,
+ "formatVersion": 5,
  "lessonPlan": {
   "title": "The Open Boat unit",
   "author": "Stephen Crane",
@@ -570,7 +571,7 @@
    ],
    "lessons": 2,
    "minutes": 180,
-   "readingLoad": "1 parts of the story in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
+   "readingLoad": "1 sections in 1 90-minute lessons, plus 1 unit day(s) (180 minutes)",
    "activities": [
     "Daily 90-minute lesson: bell-ringer, vocabulary and word histories, background, I do / We do / You do, discussion, exit ticket, closure",
     "Story quizzes in the app",
@@ -581,164 +582,117 @@
   }
  ],
  "wholeBookTest": {
-  "title": "The Open Boat: whole-book test",
+  "title": "The Open Boat: end test",
   "minutes": 90,
+  "questionCount": 18,
   "items": [
    {
-    "chapterIndex": 0,
-    "prompt": "How many men are in the dinghy?",
-    "options": [
-     "Two",
-     "Six",
-     "Ten",
-     "Four"
-    ],
-    "answer": 3,
-    "element": "plot"
-   },
-   {
-    "chapterIndex": 0,
+    "type": "mc",
     "prompt": "Who is injured?",
     "options": [
-     "The cook",
      "The correspondent",
      "The captain",
-     "The oiler"
-    ],
-    "answer": 2,
-    "element": "characterization"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What do the men see on shore that raises false hope?",
-    "options": [
-     "A ship",
-     "A lighthouse keeper rowing out",
-     "A man waving and a bus or omnibus",
-     "A fire"
-    ],
-    "answer": 2,
-    "element": "irony"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "Who drowns in the surf?",
-    "options": [
-     "The correspondent",
-     "The cook",
-     "The oiler, Billie",
-     "The captain"
-    ],
-    "answer": 2,
-    "element": "irony"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "What does the ending suggest the survivors can now be?",
-    "options": [
-     "Sailors again",
-     "Heroes",
-     "Interpreters of the sea",
-     "Rich men"
-    ],
-    "answer": 2,
-    "element": "theme"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “The correspondent did not know all that transpired afterward.”, what does “transpired” most nearly mean?",
-    "options": [
-     "propel with a paddle",
-     "someone who rows a boat",
-     "a defamatory or abusive word or phrase",
-     "became known"
-    ],
-    "answer": 3,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "In the line “\"All right, sir!\" The cook turned on his back, and, paddling with an oar, went ahead as if he were a canoe.”, what does “paddling” most nearly mean?",
-    "options": [
-     "became known",
-     "a defamatory or abusive word or phrase",
-     "propel with a paddle",
-     "someone who rows a boat"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“The correspondent did not know all that transpired afterward.”), what does “transpired” mean?",
-    "options": [
-     "became known",
-     "lack of worry or interest",
-     "very strong; impossible to resist",
-     "propel with a paddle"
-    ],
-    "answer": 0,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“\"All right, sir!\" The cook turned on his back, and, paddling with an oar, went ahead as if he were a canoe.”), what does “paddling” mean?",
-    "options": [
-     "leave or give by will after one's death",
-     "propel with a paddle",
-     "a state of melancholy depression",
-     "someone who rows a boat"
+     "The oiler",
+     "The cook"
     ],
     "answer": 1,
-    "element": "diction"
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 1
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Whereupon the little boat turned her nose once more down the wind, and all but the oarsman watched the shore grow.”), what does “oarsman” mean?",
+    "type": "mc",
+    "prompt": "Who drowns in the surf?",
     "options": [
-     "floor covering consisting of a piece of thick heavy fabric (usually with nap or pile)",
-     "a private talk",
-     "someone who rows a boat",
-     "a defamatory or abusive word or phrase"
-    ],
-    "answer": 2,
-    "element": "diction"
-   },
-   {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“Four scowling men sat in the dingey and surpassed records in the invention of epithets.”), what does “epithets” mean?",
-    "options": [
-     "very strong; impossible to resist",
-     "became known",
-     "lack of worry or interest",
-     "a defamatory or abusive word or phrase"
+     "The captain",
+     "The cook",
+     "The correspondent",
+     "The oiler, Billie"
     ],
     "answer": 3,
-    "element": "diction"
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 6
    },
    {
-    "chapterIndex": 0,
-    "prompt": "As used in the story (“It is, perhaps, plausible that a man in this situation, impressed with the unconcern of the universe, should see the innumerable flaws of hi”), what does “unconcern” mean?",
+    "type": "mc",
+    "prompt": "What do the men see on shore that raises false hope?",
     "options": [
-     "lack of worry or interest",
-     "a state of melancholy depression",
-     "propel with a paddle",
-     "leave or give by will after one's death"
+     "A fire",
+     "A man waving and a bus or omnibus",
+     "A lighthouse keeper rowing out",
+     "A ship"
     ],
-    "answer": 0,
-    "element": "diction"
+    "answer": 1,
+    "element": "irony",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 7
+   },
+   {
+    "type": "mc",
+    "prompt": "How many men are in the dinghy?",
+    "options": [
+     "Six",
+     "Two",
+     "Four",
+     "Ten"
+    ],
+    "answer": 2,
+    "element": "plot",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 10
+   },
+   {
+    "type": "mc",
+    "prompt": "Which choice best states a central concern of “The Open Boat”?",
+    "options": [
+     "Science that poisons love",
+     "Hope created by an act of sacrifice",
+     "The foolishness of wishing to be young again",
+     "Brotherhood against an indifferent sea"
+    ],
+    "answer": 3,
+    "element": "theme",
+    "level": "inference",
+    "dok": 2,
+    "chapterIndex": 0,
+    "n": 11
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+    "options": [
+     "Setting",
+     "Plot",
+     "Metaphor",
+     "Imagery"
+    ],
+    "answer": 3,
+    "element": "imagery",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 16
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "Four",
-    "element": "plot"
+    "answer": "The captain",
+    "element": "characterization"
    },
    {
     "n": 2,
-    "answer": "The captain",
-    "element": "characterization"
+    "answer": "The oiler, Billie",
+    "element": "irony"
    },
    {
     "n": 3,
@@ -747,56 +701,4700 @@
    },
    {
     "n": 4,
-    "answer": "The oiler, Billie",
-    "element": "irony"
+    "answer": "Four",
+    "element": "plot"
    },
    {
     "n": 5,
-    "answer": "Interpreters of the sea",
+    "answer": "Brotherhood against an indifferent sea",
     "element": "theme"
    },
    {
     "n": 6,
-    "answer": "became known",
-    "element": "diction"
-   },
-   {
-    "n": 7,
-    "answer": "propel with a paddle",
-    "element": "diction"
-   },
-   {
-    "n": 8,
-    "answer": "became known",
-    "element": "diction"
-   },
-   {
-    "n": 9,
-    "answer": "propel with a paddle",
-    "element": "diction"
-   },
-   {
-    "n": 10,
-    "answer": "someone who rows a boat",
-    "element": "diction"
-   },
-   {
-    "n": 11,
-    "answer": "a defamatory or abusive word or phrase",
-    "element": "diction"
-   },
-   {
-    "n": 12,
-    "answer": "lack of worry or interest",
-    "element": "diction"
+    "answer": "Imagery",
+    "element": "imagery"
    }
   ],
-  "shortAnswer": [
-   "Explain how nature's indifference develops from the beginning of the story to the end. Use two passages.",
-   "Explain how brotherhood develops from the beginning of the story to the end. Use two passages.",
-   "Explain how survival develops from the beginning of the story to the end. Use two passages."
-  ],
-  "essay": "Choose one of the story's central concerns (nature's indifference, brotherhood, survival) and argue how the ending reframes it."
+  "versions": {
+   "middleSchool": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "carpets",
+       "oarsman",
+       "paddling",
+       "transpired"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 207: “But she was _____, flatly indifferent”",
+      "answer": "indifferent",
+      "accept": [
+       "indifferent",
+       "indifferent"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "transpired",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who drowns in the surf?",
+      "options": [
+       "The captain",
+       "The cook",
+       "The correspondent",
+       "The oiler, Billie"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is injured?",
+      "options": [
+       "The correspondent",
+       "The captain",
+       "The oiler",
+       "The cook"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How many men are in the dinghy?",
+      "options": [
+       "Six",
+       "Two",
+       "Four",
+       "Ten"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the ending suggest the survivors can now be?",
+      "options": [
+       "Interpreters of the sea",
+       "Heroes",
+       "Sailors again",
+       "Rich men"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the men see on shore that raises false hope?",
+      "options": [
+       "A fire",
+       "A man waving and a bus or omnibus",
+       "A lighthouse keeper rowing out",
+       "A ship"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It is, perhaps, plausible that a man in this situation, impressed with the _____ of the universe, should see the innumerable flaws of his life and have them taste wickedly in his mind and wish for another chance.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "unconcern"
+      ],
+      "answer": "unconcern",
+      "accept": [
+       "unconcern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neither knew they had _____ to the cook the company of another shark, or perhaps the same shark.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "transpired",
+       "bequeathed"
+      ],
+      "answer": "bequeathed",
+      "accept": [
+       "bequeathed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "Science that poisons love",
+       "Hope created by an act of sacrifice",
+       "The foolishness of wishing to be young again",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Setting",
+       "Plot",
+       "Metaphor",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Irony",
+       "Metaphor",
+       "Point of view",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "indifferent"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The oiler, Billie"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The captain"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Four"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Interpreters of the sea"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A man waving and a bus or omnibus"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unconcern"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bequeathed"
+     },
+     {
+      "n": 11,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 6,
+     "short": 4
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neither knew they had _____ to the cook the company of another shark, or perhaps the same shark.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "transpired",
+       "bequeathed"
+      ],
+      "answer": "bequeathed",
+      "accept": [
+       "bequeathed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 207: “But she was _____, flatly indifferent”",
+      "answer": "indifferent",
+      "accept": [
+       "indifferent",
+       "indifferent"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the men see on shore that raises false hope?",
+      "options": [
+       "A fire",
+       "A man waving and a bus or omnibus",
+       "A lighthouse keeper rowing out",
+       "A ship"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "carpets",
+       "oarsman",
+       "paddling",
+       "transpired"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the ending suggest the survivors can now be?",
+      "options": [
+       "Interpreters of the sea",
+       "Heroes",
+       "Sailors again",
+       "Rich men"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is injured?",
+      "options": [
+       "The correspondent",
+       "The captain",
+       "The oiler",
+       "The cook"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It is, perhaps, plausible that a man in this situation, impressed with the _____ of the universe, should see the innumerable flaws of his life and have them taste wickedly in his mind and wish for another chance.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "unconcern"
+      ],
+      "answer": "unconcern",
+      "accept": [
+       "unconcern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Who drowns in the surf?",
+      "options": [
+       "The captain",
+       "The cook",
+       "The correspondent",
+       "The oiler, Billie"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "transpired",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "How many men are in the dinghy?",
+      "options": [
+       "Six",
+       "Two",
+       "Four",
+       "Ten"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "Science that poisons love",
+       "Hope created by an act of sacrifice",
+       "The foolishness of wishing to be young again",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Irony",
+       "Metaphor",
+       "Point of view",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bequeathed"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "indifferent"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A man waving and a bus or omnibus"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Interpreters of the sea"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The captain"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unconcern"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The oiler, Billie"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Four"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 17,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 11,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 7,
+     "fill": 6,
+     "short": 5
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who is injured?",
+      "options": [
+       "The correspondent",
+       "The captain",
+       "The oiler",
+       "The cook"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neither knew they had _____ to the cook the company of another shark, or perhaps the same shark.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "transpired",
+       "bequeathed"
+      ],
+      "answer": "bequeathed",
+      "accept": [
+       "bequeathed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "carpets",
+       "oarsman",
+       "paddling",
+       "transpired"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It is, perhaps, plausible that a man in this situation, impressed with the _____ of the universe, should see the innumerable flaws of his life and have them taste wickedly in his mind and wish for another chance.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "unconcern"
+      ],
+      "answer": "unconcern",
+      "accept": [
+       "unconcern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who drowns in the surf?",
+      "options": [
+       "The captain",
+       "The cook",
+       "The correspondent",
+       "The oiler, Billie"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the men see on shore that raises false hope?",
+      "options": [
+       "A fire",
+       "A man waving and a bus or omnibus",
+       "A lighthouse keeper rowing out",
+       "A ship"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "transpired",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 207: “But she was _____, flatly indifferent”",
+      "answer": "indifferent",
+      "accept": [
+       "indifferent",
+       "indifferent"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "How many men are in the dinghy?",
+      "options": [
+       "Six",
+       "Two",
+       "Four",
+       "Ten"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "Science that poisons love",
+       "Hope created by an act of sacrifice",
+       "The foolishness of wishing to be young again",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Setting",
+       "Plot",
+       "Metaphor",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The captain"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bequeathed"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unconcern"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The oiler, Billie"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A man waving and a bus or omnibus"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "indifferent"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Four"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 3,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 6,
+     "fill": 6,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "transpired",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "carpets",
+       "oarsman",
+       "paddling",
+       "transpired"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is injured?",
+      "options": [
+       "The correspondent",
+       "The captain",
+       "The oiler",
+       "The cook"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the men see on shore that raises false hope?",
+      "options": [
+       "A fire",
+       "A man waving and a bus or omnibus",
+       "A lighthouse keeper rowing out",
+       "A ship"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the ending suggest the survivors can now be?",
+      "options": [
+       "Interpreters of the sea",
+       "Heroes",
+       "Sailors again",
+       "Rich men"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It is, perhaps, plausible that a man in this situation, impressed with the _____ of the universe, should see the innumerable flaws of his life and have them taste wickedly in his mind and wish for another chance.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "unconcern"
+      ],
+      "answer": "unconcern",
+      "accept": [
+       "unconcern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 207: “But she was _____, flatly indifferent”",
+      "answer": "indifferent",
+      "accept": [
+       "indifferent",
+       "indifferent"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "How many men are in the dinghy?",
+      "options": [
+       "Six",
+       "Two",
+       "Four",
+       "Ten"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Who drowns in the surf?",
+      "options": [
+       "The captain",
+       "The cook",
+       "The correspondent",
+       "The oiler, Billie"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "Science that poisons love",
+       "Hope created by an act of sacrifice",
+       "The foolishness of wishing to be young again",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Setting",
+       "Plot",
+       "Metaphor",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Irony",
+       "Metaphor",
+       "Point of view",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The captain"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A man waving and a bus or omnibus"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Interpreters of the sea"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unconcern"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "indifferent"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Four"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The oiler, Billie"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What do the men see on shore that raises false hope?",
+      "options": [
+       "A fire",
+       "A man waving and a bus or omnibus",
+       "A lighthouse keeper rowing out",
+       "A ship"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "carpets",
+       "oarsman",
+       "paddling",
+       "transpired"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is injured?",
+      "options": [
+       "The correspondent",
+       "The captain",
+       "The oiler",
+       "The cook"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It is, perhaps, plausible that a man in this situation, impressed with the _____ of the universe, should see the innumerable flaws of his life and have them taste wickedly in his mind and wish for another chance.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "unconcern"
+      ],
+      "answer": "unconcern",
+      "accept": [
+       "unconcern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 207: “But she was _____, flatly indifferent”",
+      "answer": "indifferent",
+      "accept": [
+       "indifferent",
+       "indifferent"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the ending suggest the survivors can now be?",
+      "options": [
+       "Interpreters of the sea",
+       "Heroes",
+       "Sailors again",
+       "Rich men"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Who drowns in the surf?",
+      "options": [
+       "The captain",
+       "The cook",
+       "The correspondent",
+       "The oiler, Billie"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "Science that poisons love",
+       "Hope created by an act of sacrifice",
+       "The foolishness of wishing to be young again",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Irony",
+       "Metaphor",
+       "Point of view",
+       "Theme"
+      ],
+      "answer": 2,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Setting",
+       "Plot",
+       "Metaphor",
+       "Imagery"
+      ],
+      "answer": 3,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A man waving and a bus or omnibus"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The captain"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unconcern"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "indifferent"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Interpreters of the sea"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The oiler, Billie"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 7,
+     "fill": 4,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “The correspondent did not know all that transpired afterward.”, what does “transpired” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "someone who rows a boat",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "transpired",
+       "oarsman",
+       "carpets",
+       "paddling"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It is, perhaps, plausible that a man in this situation, impressed with the _____ of the universe, should see the innumerable flaws of his life and have them taste wickedly in his mind and wish for another chance.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "unconcern",
+       "transpired"
+      ],
+      "answer": "unconcern",
+      "accept": [
+       "unconcern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"All right, sir!\" The cook turned on his back, and, paddling with an oar, went ahead as if he were a canoe.”, what does “paddling” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "a defamatory or abusive word or phrase",
+       "someone who rows a boat"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who drowns in the surf?",
+      "options": [
+       "The oiler, Billie",
+       "The cook",
+       "The captain",
+       "The correspondent"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neither knew they had _____ to the cook the company of another shark, or perhaps the same shark.”",
+      "wordBank": [
+       "bequeathed",
+       "transpired",
+       "oarsman",
+       "paddling"
+      ],
+      "answer": "bequeathed",
+      "accept": [
+       "bequeathed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "The arrogance and loneliness of seeing differently",
+       "Hope created by an act of sacrifice",
+       "A symbol of hidden sin that isolates its wearer",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Plot",
+       "Point of view",
+       "Imagery",
+       "Foreshadowing"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Imagery",
+       "Characterization",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how nature's indifference develops from an earlier story to “The Open Boat”. Use one quotation from each.",
+      "expected": "nature is \"flatly indifferent.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "became known"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unconcern"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "propel with a paddle"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The oiler, Billie"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bequeathed"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "nature is \"flatly indifferent.\""
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 6,
+     "fill": 4,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neither knew they had _____ to the cook the company of another shark, or perhaps the same shark.”",
+      "wordBank": [
+       "bequeathed",
+       "transpired",
+       "oarsman",
+       "paddling"
+      ],
+      "answer": "bequeathed",
+      "accept": [
+       "bequeathed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "transpired",
+       "oarsman",
+       "carpets",
+       "paddling"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the men see on shore that raises false hope?",
+      "options": [
+       "A ship",
+       "A fire",
+       "A man waving and a bus or omnibus",
+       "A lighthouse keeper rowing out"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Whereupon the little boat turned her nose once more down the wind, and all but the oarsman watched the shore grow.”, what does “oarsman” most nearly mean?",
+      "options": [
+       "someone who rows a boat",
+       "propel with a paddle",
+       "became known",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How many men are in the dinghy?",
+      "options": [
+       "Six",
+       "Ten",
+       "Four",
+       "Two"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What does the ending suggest the survivors can now be?",
+      "options": [
+       "Rich men",
+       "Sailors again",
+       "Heroes",
+       "Interpreters of the sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "The arrogance and loneliness of seeing differently",
+       "Hope created by an act of sacrifice",
+       "A symbol of hidden sin that isolates its wearer",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Plot",
+       "Point of view",
+       "Imagery",
+       "Foreshadowing"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Imagery",
+       "Characterization",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how nature's indifference develops from an earlier story to “The Open Boat”. Use one quotation from each.",
+      "expected": "nature is \"flatly indifferent.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bequeathed"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A man waving and a bus or omnibus"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "someone who rows a boat"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Four"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Interpreters of the sea"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "nature is \"flatly indifferent.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “It is, perhaps, plausible that a man in this situation, impressed with the _____ of the universe, should see the innumerable flaws of his life and have them taste wickedly in his mind and wish for another chance.”",
+      "wordBank": [
+       "paddling",
+       "oarsman",
+       "unconcern",
+       "transpired"
+      ],
+      "answer": "unconcern",
+      "accept": [
+       "unconcern"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"All right, sir!\" The cook turned on his back, and, paddling with an oar, went ahead as if he were a canoe.”, what does “paddling” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "a defamatory or abusive word or phrase",
+       "someone who rows a boat"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Whereupon the little boat turned her nose once more down the wind, and all but the oarsman watched the shore grow.”, what does “oarsman” most nearly mean?",
+      "options": [
+       "someone who rows a boat",
+       "propel with a paddle",
+       "became known",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What do the men see on shore that raises false hope?",
+      "options": [
+       "A ship",
+       "A fire",
+       "A man waving and a bus or omnibus",
+       "A lighthouse keeper rowing out"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The correspondent did not know all that transpired afterward.”, what does “transpired” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "someone who rows a boat",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is injured?",
+      "options": [
+       "The cook",
+       "The captain",
+       "The oiler",
+       "The correspondent"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "The arrogance and loneliness of seeing differently",
+       "Hope created by an act of sacrifice",
+       "A symbol of hidden sin that isolates its wearer",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Imagery",
+       "Characterization",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Plot",
+       "Point of view",
+       "Imagery",
+       "Foreshadowing"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how nature's indifference develops from an earlier story to “The Open Boat”. Use one quotation from each.",
+      "expected": "nature is \"flatly indifferent.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "unconcern"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "propel with a paddle"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "someone who rows a boat"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A man waving and a bus or omnibus"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "became known"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The captain"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "nature is \"flatly indifferent.\""
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who drowns in the surf?",
+      "options": [
+       "The oiler, Billie",
+       "The cook",
+       "The captain",
+       "The correspondent"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Neither knew they had _____ to the cook the company of another shark, or perhaps the same shark.”",
+      "wordBank": [
+       "bequeathed",
+       "transpired",
+       "oarsman",
+       "paddling"
+      ],
+      "answer": "bequeathed",
+      "accept": [
+       "bequeathed"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Sometimes they sat down on the sea, near patches of brown sea-weed that rolled over the waves with a movement like _____ on line in a gale.”",
+      "wordBank": [
+       "transpired",
+       "oarsman",
+       "carpets",
+       "paddling"
+      ],
+      "answer": "carpets",
+      "accept": [
+       "carpets"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The correspondent did not know all that transpired afterward.”, what does “transpired” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "someone who rows a boat",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"All right, sir!\" The cook turned on his back, and, paddling with an oar, went ahead as if he were a canoe.”, what does “paddling” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "a defamatory or abusive word or phrase",
+       "someone who rows a boat"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Whereupon the little boat turned her nose once more down the wind, and all but the oarsman watched the shore grow.”, what does “oarsman” most nearly mean?",
+      "options": [
+       "someone who rows a boat",
+       "propel with a paddle",
+       "became known",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "The arrogance and loneliness of seeing differently",
+       "Hope created by an act of sacrifice",
+       "A symbol of hidden sin that isolates its wearer",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Imagery",
+       "Characterization",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Plot",
+       "Point of view",
+       "Imagery",
+       "Foreshadowing"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how nature's indifference develops from an earlier story to “The Open Boat”. Use one quotation from each.",
+      "expected": "nature is \"flatly indifferent.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The oiler, Billie"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "bequeathed"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "carpets"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "became known"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "propel with a paddle"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "someone who rows a boat"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "nature is \"flatly indifferent.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "collegeSenior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "How many men are in the dinghy?",
+      "options": [
+       "Six",
+       "Ten",
+       "Four",
+       "Two"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"All right, sir!\" The cook turned on his back, and, paddling with an oar, went ahead as if he were a canoe.”, what does “paddling” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "a defamatory or abusive word or phrase",
+       "someone who rows a boat"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Whereupon the little boat turned her nose once more down the wind, and all but the oarsman watched the shore grow.”, what does “oarsman” most nearly mean?",
+      "options": [
+       "someone who rows a boat",
+       "propel with a paddle",
+       "became known",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 207: “But she was _____, flatly indifferent”",
+      "answer": "indifferent",
+      "accept": [
+       "indifferent",
+       "indifferent"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is injured?",
+      "options": [
+       "The cook",
+       "The captain",
+       "The oiler",
+       "The correspondent"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "The arrogance and loneliness of seeing differently",
+       "Hope created by an act of sacrifice",
+       "A symbol of hidden sin that isolates its wearer",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Plot",
+       "Point of view",
+       "Imagery",
+       "Foreshadowing"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Imagery",
+       "Characterization",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how nature's indifference develops from an earlier story to “The Open Boat”. Use one quotation from each.",
+      "expected": "nature is \"flatly indifferent.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Four"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "propel with a paddle"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "someone who rows a boat"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "indifferent"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "The captain"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "nature is \"flatly indifferent.\""
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "How many men are in the dinghy?",
+      "options": [
+       "Six",
+       "Ten",
+       "Four",
+       "Two"
+      ],
+      "answer": 2,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 243: “they felt that they could then be _____”",
+      "answer": "interpreters",
+      "accept": [
+       "interpreters",
+       "interpreters"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Whereupon the little boat turned her nose once more down the wind, and all but the oarsman watched the shore grow.”, what does “oarsman” most nearly mean?",
+      "options": [
+       "someone who rows a boat",
+       "propel with a paddle",
+       "became known",
+       "a defamatory or abusive word or phrase"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “The oiler plied the oars until his head drooped forward, and the _____ sleep blinded him.”",
+      "wordBank": [
+       "paddling",
+       "transpired",
+       "oarsman",
+       "overpowering"
+      ],
+      "answer": "overpowering",
+      "accept": [
+       "overpowering"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Four scowling men sat in the dingey and surpassed records in the invention of epithets.”, what does “epithets” most nearly mean?",
+      "options": [
+       "a defamatory or abusive word or phrase",
+       "propel with a paddle",
+       "became known",
+       "someone who rows a boat"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “\"All right, sir!\" The cook turned on his back, and, paddling with an oar, went ahead as if he were a canoe.”, what does “paddling” most nearly mean?",
+      "options": [
+       "became known",
+       "propel with a paddle",
+       "a defamatory or abusive word or phrase",
+       "someone who rows a boat"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Open Boat, paragraph 207: “But she was _____, flatly indifferent”",
+      "answer": "indifferent",
+      "accept": [
+       "indifferent",
+       "indifferent"
+      ],
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Open Boat”?",
+      "options": [
+       "The arrogance and loneliness of seeing differently",
+       "Hope created by an act of sacrifice",
+       "A symbol of hidden sin that isolates its wearer",
+       "Brotherhood against an indifferent sea"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) Answer in two or three sentences with one detail.",
+      "expected": "Focus on survival.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 1",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) Answer in two or three sentences with one detail.",
+      "expected": "Theme.",
+      "element": "characterization",
+      "location": "The Open Boat, paragraph 207",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Crane shows nature is indifferent, leaving humans only each other. Explain how this evidence supports the claim: “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207).",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "location": "The Open Boat, paragraph 207",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “they felt that they could then be interpreters” (The Open Boat, paragraph 243). Pick two words and explain what they suggest.",
+      "expected": "The ending.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 243",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Waves described as walls and \"slate\" threaten constantly.",
+      "options": [
+       "Imagery",
+       "Characterization",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "imagery",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Open Boat”? Moves among the men, settling on the correspondent's mind.",
+      "options": [
+       "Plot",
+       "Point of view",
+       "Imagery",
+       "Foreshadowing"
+      ],
+      "answer": 1,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “But she was indifferent, flatly indifferent” (The Open Boat, paragraph 207) shape its meaning? Consider a second, competing reading.",
+      "expected": "Theme.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 207",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Crane shows nature is indifferent, leaving humans only each other.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how nature's indifference develops from an earlier story to “The Open Boat”. Use one quotation from each.",
+      "expected": "nature is \"flatly indifferent.\"",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “NONE of them knew the color of the sky” (The Open Boat, paragraph 1) shape its meaning? Consider a second, competing reading.",
+      "expected": "Focus on survival.",
+      "element": "diction",
+      "location": "The Open Boat, paragraph 1",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Four"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "interpreters"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "someone who rows a boat"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "overpowering"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a defamatory or abusive word or phrase"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "propel with a paddle"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "indifferent"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Brotherhood against an indifferent sea"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Focus on survival."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Theme."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The ending."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Imagery"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Theme."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The correspondent sees nature as \"flatly indifferent,\" and the oiler dies anyway, but the survivors \"felt that they could then be interpreters.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "nature is \"flatly indifferent.\""
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Focus on survival."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 7,
+     "fill": 3,
+     "short": 8
+    }
+   }
+  },
+  "defaultRigor": "hsSophomore",
+  "note": "One version per rigor level; the teacher's class level picks the version and student auto-adjust applies (student override, then class standard, then automatic). items/answerKey hold the multiple-choice part of the HS Sophomore version for older clients."
  },
  "essayAssignments": [
   {
@@ -820,7 +5418,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Open Boat teaches about nature's indifference. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Open Boat teaches about nature's indifference. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1041,7 +5639,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Open Boat teaches about brotherhood. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Open Boat teaches about brotherhood. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1262,7 +5860,7 @@
        "7.RC.2"
       ]
      },
-     "text": "Excerpt-based (Middle School support track): write a five-paragraph essay explaining what The Open Boat teaches about survival. Use at least three quotations from passages your teacher selects from different parts of the book.",
+     "text": "Supported track: write a five-paragraph essay explaining what The Open Boat teaches about survival. Use at least three quotations from passages your teacher selects from different parts of the book.",
      "wordTarget": 600
     },
     "hsFreshman": {
@@ -1462,5 +6060,83 @@
     "Conventions"
    ]
   }
- ]
+ ],
+ "finalPaper": {
+  "title": "The Open Boat: final paper (formal literary analysis)",
+  "type": "literaryAnalysisEssay",
+  "prompts": [
+   {
+    "n": 1,
+    "text": "Analyze how Stephen Crane develops nature's indifference across The Open Boat. Trace the idea through at least three moments (beginning, middle and end) and argue what the ending finally suggests."
+   },
+   {
+    "n": 2,
+    "text": "Choose one recurring symbol, image or motif in The Open Boat and argue how its meaning changes over the story and why that change matters to brotherhood."
+   },
+   {
+    "n": 3,
+    "text": "Analyze a central character's choices in The Open Boat. Argue whether the story judges that character, and how its structure or point of view shapes your answer."
+   },
+   {
+    "n": 4,
+    "text": "Two readers disagree about whether The Open Boat finally endorses or criticizes its society's view of survival. Weigh both readings and argue for one, answering the strongest objection."
+   }
+  ],
+  "choose": "Choose one prompt.",
+  "length": {
+   "middleSchool": "500-700 words",
+   "hsFreshman": "700-900 words",
+   "hsSophomore": "900-1,100 words",
+   "hsJunior": "1,000-1,300 words",
+   "hsSenior": "1,200-1,500 words",
+   "ap": "1,300-1,600 words",
+   "collegeFreshman": "1,500-2,000 words",
+   "collegeSophomore": "2,000-2,500 words",
+   "collegeJunior": "2,500-3,000 words",
+   "collegeSenior": "3,000-4,000 words",
+   "graduate": "4,000-6,000 words"
+  },
+  "evidence": {
+   "minimumQuotations": 4,
+   "sections": "at least two parts of the story",
+   "citation": "Quote the reading text exactly and cite the paragraph (MLA style).",
+   "outsideSources": "HS Senior and above: one scholarly or historical source; College Sophomore and above: two, cited in MLA."
+  },
+  "rubric": [
+   {
+    "criterion": "Thesis",
+    "points": 20,
+    "descriptor": "A specific, arguable claim that answers the prompt and organizes the paper."
+   },
+   {
+    "criterion": "Evidence",
+    "points": 25,
+    "descriptor": "Well-chosen, accurately quoted and cited passages from across the work, meeting the evidence requirement."
+   },
+   {
+    "criterion": "Analysis",
+    "points": 30,
+    "descriptor": "Explains how language, structure and literary elements create meaning; goes beyond summary."
+   },
+   {
+    "criterion": "Organization",
+    "points": 15,
+    "descriptor": "Logical progression, clear topic sentences and transitions; introduction and conclusion frame the argument."
+   },
+   {
+    "criterion": "Style and conventions",
+    "points": 10,
+    "descriptor": "Formal academic voice, present tense for literature, correct grammar and MLA format."
+   }
+  ],
+  "totalPoints": 100,
+  "process": [
+   "Prompt choice and working thesis",
+   "Evidence log (quotations with locations)",
+   "Outline",
+   "Draft and peer review",
+   "Final paper"
+  ],
+  "criticalVoices": []
+ }
 }
