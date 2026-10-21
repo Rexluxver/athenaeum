@@ -6,6 +6,7 @@
  "gradeBand": "Grades 10–12 (scales to graduate via rigor levels)",
  "coreCatalog": true,
  "edition": "First published: The Atlantic Monthly, Feb 1925",
+ "defsVersion": "2026-10-21.1",
  "chapterCount": 1,
  "chapterFiles": [
   "chapters/000.json"
@@ -162,10 +163,10 @@
      "start": 55,
      "kind": "youDo",
      "activity": "Set up a reading journal: one page per theme, with a prediction and a question (example given).",
-     "script": "Set up a reading journal: one page per theme with a prediction and a question. Example page. Theme: migration and hope. Prediction: I expect this idea to be tested when a character has to choose between what they want and what others expect. Question: what will The City of Refuge suggest about migration and hope by the end?",
+     "script": "Set up a reading journal: one page per theme with a prediction and a question. Page: the Great Migration. Prediction: King Solomon Gillis, newly arrived in Harlem from North Carolina, sees the city as a refuge. Question: will Harlem keep that promise, or will someone exploit his hope?",
      "content": {
       "task": "Set up a reading journal for The City of Refuge: one page per theme, each with a prediction and a question.",
-      "exemplar": "Example page. Theme: migration and hope. Prediction: I expect this idea to be tested when a character has to choose between what they want and what others expect. Question: what will The City of Refuge suggest about migration and hope by the end?"
+      "exemplar": "Page: the Great Migration. Prediction: King Solomon Gillis, newly arrived in Harlem from North Carolina, sees the city as a refuge. Question: will Harlem keep that promise, or will someone exploit his hope?"
      }
     },
     {
@@ -230,6 +231,7 @@
   "year": 1925,
   "edition": "First published: The Atlantic Monthly, Feb 1925",
   "editionNote": "Reading text: https://en.wikisource.org/wiki/The_New_Negro/The_City_of_Refuge (revision 15183088), cleaned for Liber et Libri.",
+  "defsVersion": "2026-10-21.1",
   "gradeBand": "Grades 10–12 (scales to graduate via rigor levels)",
   "form": "story",
   "questioning": {
@@ -638,22 +640,6 @@
   "items": [
    {
     "type": "mc",
-    "prompt": "Who befriends and exploits him?",
-    "options": [
-     "A preacher",
-     "Uncle Ezra",
-     "Mouse Uggam",
-     "Tony Gabrielli"
-    ],
-    "answer": 2,
-    "element": "characterization",
-    "level": "recall",
-    "dok": 1,
-    "chapterIndex": 0,
-    "n": 1
-   },
-   {
-    "type": "mc",
     "prompt": "What does Gillis do at the end?",
     "options": [
      "Surrenders when he sees the Black officer",
@@ -666,7 +652,23 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 5
+    "n": 1
+   },
+   {
+    "type": "mc",
+    "prompt": "Who befriends and exploits him?",
+    "options": [
+     "A preacher",
+     "Uncle Ezra",
+     "Mouse Uggam",
+     "Tony Gabrielli"
+    ],
+    "answer": 2,
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 3
    },
    {
     "type": "mc",
@@ -682,7 +684,7 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 6
+    "n": 4
    },
    {
     "type": "mc",
@@ -698,7 +700,7 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 7
+    "n": 5
    },
    {
     "type": "mc",
@@ -714,18 +716,18 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 8
+    "n": 6
    },
    {
     "type": "mc",
     "prompt": "Which choice best states a central concern of “The City of Refuge”?",
     "options": [
-     "Self-destruction and the urge to do wrong",
+     "Moral worth found among those society rejects",
+     "The cost of wanting to seem richer than you are",
      "Harlem as promised refuge and trap",
-     "A family and a house collapsing together",
-     "Confinement driving a woman into madness"
+     "A story so convincing it becomes real"
     ],
-    "answer": 1,
+    "answer": 2,
     "element": "theme",
     "level": "inference",
     "dok": 2,
@@ -734,47 +736,47 @@
    },
    {
     "type": "mc",
-    "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
+    "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
     "options": [
-     "Point of view",
+     "Imagery",
+     "Metaphor",
      "Alliteration",
-     "Conflict",
-     "Irony"
+     "Dialect"
     ],
     "answer": 3,
+    "element": "structure",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 11
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
+    "options": [
+     "Setting",
+     "Plot",
+     "Irony",
+     "Imagery"
+    ],
+    "answer": 2,
     "element": "irony",
     "level": "analysis",
     "dok": 3,
     "chapterIndex": 0,
     "n": 13
-   },
-   {
-    "type": "mc",
-    "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-    "options": [
-     "Irony",
-     "Imagery",
-     "Dialect",
-     "Alliteration"
-    ],
-    "answer": 2,
-    "element": "structure",
-    "level": "analysis",
-    "dok": 3,
-    "chapterIndex": 0,
-    "n": 15
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "Mouse Uggam",
-    "element": "characterization"
+    "answer": "Surrenders when he sees the Black officer",
+    "element": "irony"
    },
    {
     "n": 2,
-    "answer": "Surrenders when he sees the Black officer",
-    "element": "irony"
+    "answer": "Mouse Uggam",
+    "element": "characterization"
    },
    {
     "n": 3,
@@ -798,13 +800,13 @@
    },
    {
     "n": 7,
-    "answer": "Irony",
-    "element": "irony"
+    "answer": "Dialect",
+    "element": "structure"
    },
    {
     "n": 8,
-    "answer": "Dialect",
-    "element": "structure"
+    "answer": "Irony",
+    "element": "irony"
    }
   ],
   "versions": {
@@ -909,25 +911,6 @@
       "n": 6
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "singsong",
-       "spokesman",
-       "valuable",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
       "type": "mc",
       "prompt": "Why did Gillis leave North Carolina?",
       "options": [
@@ -941,7 +924,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 8
+      "n": 7
      },
      {
       "type": "short",
@@ -952,7 +935,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 9,
+      "n": 8,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -969,7 +952,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 10,
+      "n": 9,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -981,33 +964,33 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The City of Refuge”?",
       "options": [
-       "Self-destruction and the urge to do wrong",
+       "Moral worth found among those society rejects",
+       "The cost of wanting to seem richer than you are",
        "Harlem as promised refuge and trap",
-       "A family and a house collapsing together",
-       "Confinement driving a woman into madness"
+       "A story so convincing it becomes real"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11
+      "n": 10
      },
      {
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
       "options": [
-       "Point of view",
-       "Alliteration",
-       "Conflict",
-       "Irony"
+       "Setting",
+       "Plot",
+       "Irony",
+       "Imagery"
       ],
-      "answer": 3,
+      "answer": 2,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 12
+      "n": 11
      },
      {
       "type": "short",
@@ -1018,7 +1001,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 13,
+      "n": 12,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -1035,7 +1018,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 13,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -1047,419 +1030,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
       "options": [
-       "Irony",
        "Imagery",
-       "Dialect",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
-      "expected": "The dream.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
-      "expected": "His wonder.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Harlem"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Drugs"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Surrenders when he sees the Black officer"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "repeatedly"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A Black policeman directing white drivers"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Mouse Uggam"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "valuable"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "recall",
-      "answer": "He shot a white man"
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "His wonder."
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "The dream."
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Harlem as promised refuge and trap"
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Arrival."
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
-     },
-     {
-      "n": 15,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Dialect"
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The dream."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "His wonder."
-     }
-    ],
-    "mix": {
-     "recall": 8,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 3
-    },
-    "types": {
-     "mc": 8,
-     "fill": 3,
-     "short": 7
-    }
-   },
-   "hsFreshman": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "What does Gillis do at the end?",
-      "options": [
-       "Surrenders when he sees the Black officer",
-       "Kills Mouse",
-       "Escapes",
-       "Returns south"
-      ],
-      "answer": 0,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "What amazes Gillis in Harlem?",
-      "options": [
-       "A Black policeman directing white drivers",
-       "Tall buildings only",
-       "The river",
-       "The subway"
-      ],
-      "answer": 0,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
-      "answer": "Harlem",
-      "accept": [
-       "Harlem",
-       "harlem"
-      ],
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "Who befriends and exploits him?",
-      "options": [
-       "A preacher",
-       "Uncle Ezra",
-       "Mouse Uggam",
-       "Tony Gabrielli"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "singsong",
-       "spokesman",
-       "valuable",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Gillis unknowingly selling?",
-      "options": [
-       "Lottery tickets",
-       "Stolen jewelry",
-       "Drugs",
-       "Liquor"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
-      "wordBank": [
-       "spokesman",
-       "repeatedly",
-       "singsong",
-       "meditating"
-      ],
-      "answer": "repeatedly",
-      "accept": [
-       "repeatedly"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "Why did Gillis leave North Carolina?",
-      "options": [
-       "He shot a white man",
-       "He wanted college",
-       "He was drafted",
-       "His family moved"
-      ],
-      "answer": 0,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
-      "options": [
-       "Self-destruction and the urge to do wrong",
-       "Harlem as promised refuge and trap",
-       "A family and a house collapsing together",
-       "Confinement driving a woman into madness"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
-      "expected": "The dream.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
-      "expected": "Arrival.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 8",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
-      "options": [
-       "Point of view",
+       "Metaphor",
        "Alliteration",
-       "Conflict",
-       "Irony"
+       "Dialect"
       ],
       "answer": 3,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Irony",
-       "Imagery",
-       "Dialect",
-       "Alliteration"
-      ],
-      "answer": 2,
       "element": "structure",
       "level": "analysis",
       "dok": 3,
@@ -1468,6 +1044,410 @@
      },
      {
       "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
+      "expected": "His wonder.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 28",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
+      "expected": "Mouse betrays him.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Harlem"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Drugs"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Surrenders when he sees the Black officer"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "repeatedly"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Black policeman directing white drivers"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Mouse Uggam"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shot a white man"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "His wonder."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The dream."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Harlem as promised refuge and trap"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Arrival."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Dialect"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The dream."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His wonder."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Mouse betrays him."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "Who befriends and exploits him?",
+      "options": [
+       "A preacher",
+       "Uncle Ezra",
+       "Mouse Uggam",
+       "Tony Gabrielli"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
+      "answer": "Harlem",
+      "accept": [
+       "Harlem",
+       "harlem"
+      ],
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What amazes Gillis in Harlem?",
+      "options": [
+       "A Black policeman directing white drivers",
+       "Tall buildings only",
+       "The river",
+       "The subway"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Gillis do at the end?",
+      "options": [
+       "Surrenders when he sees the Black officer",
+       "Kills Mouse",
+       "Escapes",
+       "Returns south"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Gillis unknowingly selling?",
+      "options": [
+       "Lottery tickets",
+       "Stolen jewelry",
+       "Drugs",
+       "Liquor"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
+      "wordBank": [
+       "spokesman",
+       "repeatedly",
+       "singsong",
+       "meditating"
+      ],
+      "answer": "repeatedly",
+      "accept": [
+       "repeatedly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Why did Gillis leave North Carolina?",
+      "options": [
+       "He shot a white man",
+       "He wanted college",
+       "He was drafted",
+       "His family moved"
+      ],
+      "answer": 0,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
+      "options": [
+       "Moral worth found among those society rejects",
+       "The cost of wanting to seem richer than you are",
+       "Harlem as promised refuge and trap",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
+      "expected": "The dream.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 28",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
+      "expected": "Arrival.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 8",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
+      "options": [
+       "Setting",
+       "Plot",
+       "Irony",
+       "Imagery"
+      ],
+      "answer": 2,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Imagery",
+       "Metaphor",
+       "Alliteration",
+       "Dialect"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
       "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
       "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
       "element": "theme",
@@ -1475,7 +1455,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 14,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -1492,7 +1472,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 16,
+      "n": 15,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -1508,7 +1488,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 17,
+      "n": 16,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -1522,6 +1502,22 @@
       "expected": "His wonder.",
       "element": "diction",
       "location": "The City of Refuge, paragraph 28",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -1539,55 +1535,55 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "Surrenders when he sees the Black officer"
+      "answer": "Mouse Uggam"
      },
      {
       "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A Black policeman directing white drivers"
-     },
-     {
-      "n": 3,
       "type": "fill",
       "level": "recall",
       "answer": "Harlem"
      },
      {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Black policeman directing white drivers"
+     },
+     {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "Mouse Uggam"
+      "answer": "Surrenders when he sees the Black officer"
      },
      {
       "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "valuable"
-     },
-     {
-      "n": 6,
       "type": "mc",
       "level": "recall",
       "answer": "Drugs"
      },
      {
-      "n": 7,
+      "n": 6,
       "type": "fill",
       "level": "recall",
       "answer": "repeatedly"
      },
      {
-      "n": 8,
+      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "He shot a white man"
      },
      {
-      "n": 9,
+      "n": 8,
       "type": "mc",
       "level": "inference",
       "answer": "Harlem as promised refuge and trap"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "The dream."
      },
      {
       "n": 10,
@@ -1598,77 +1594,77 @@
      {
       "n": 11,
       "type": "short",
-      "level": "inference",
-      "answer": "The dream."
-     },
-     {
-      "n": 12,
-      "type": "short",
       "level": "analysis",
       "answer": "Arrival."
      },
      {
-      "n": 13,
+      "n": 12,
       "type": "mc",
       "level": "analysis",
       "answer": "Irony"
      },
      {
-      "n": 14,
+      "n": 13,
       "type": "mc",
       "level": "analysis",
       "answer": "Dialect"
      },
      {
-      "n": 15,
+      "n": 14,
       "type": "short",
       "level": "analysis",
       "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
-      "n": 16,
+      "n": 15,
       "type": "short",
       "level": "synthesis",
       "answer": "The dream."
      },
      {
-      "n": 17,
+      "n": 16,
       "type": "short",
       "level": "synthesis",
       "answer": "Mouse betrays him."
      },
      {
-      "n": 18,
+      "n": 17,
       "type": "short",
       "level": "synthesis",
       "answer": "His wonder."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      }
     ],
     "mix": {
-     "recall": 8,
+     "recall": 7,
      "inference": 3,
      "analysis": 4,
-     "synthesis": 3
+     "synthesis": 4
     },
     "types": {
      "mc": 8,
-     "fill": 3,
-     "short": 7
+     "fill": 2,
+     "short": 8
     }
    },
    "hsSophomore": {
     "items": [
      {
       "type": "mc",
-      "prompt": "Who befriends and exploits him?",
+      "prompt": "What does Gillis do at the end?",
       "options": [
-       "A preacher",
-       "Uncle Ezra",
-       "Mouse Uggam",
-       "Tony Gabrielli"
+       "Surrenders when he sees the Black officer",
+       "Kills Mouse",
+       "Escapes",
+       "Returns south"
       ],
-      "answer": 2,
-      "element": "characterization",
+      "answer": 0,
+      "element": "irony",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -1694,54 +1690,20 @@
       "n": 2
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
-      "answer": "Harlem",
-      "accept": [
-       "Harlem",
-       "harlem"
+      "type": "mc",
+      "prompt": "Who befriends and exploits him?",
+      "options": [
+       "A preacher",
+       "Uncle Ezra",
+       "Mouse Uggam",
+       "Tony Gabrielli"
       ],
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
+      "answer": 2,
+      "element": "characterization",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "singsong",
-       "spokesman",
-       "valuable",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "What does Gillis do at the end?",
-      "options": [
-       "Surrenders when he sees the Black officer",
-       "Kills Mouse",
-       "Escapes",
-       "Returns south"
-      ],
-      "answer": 0,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
      },
      {
       "type": "mc",
@@ -1757,7 +1719,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
+      "n": 4
      },
      {
       "type": "mc",
@@ -1773,7 +1735,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 5
      },
      {
       "type": "mc",
@@ -1789,7 +1751,22 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 8
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
+      "answer": "Harlem",
+      "accept": [
+       "Harlem",
+       "harlem"
+      ],
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
      },
      {
       "type": "short",
@@ -1797,6 +1774,23 @@
       "expected": "The dream.",
       "element": "characterization",
       "location": "The City of Refuge, paragraph 255",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 28",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -1812,12 +1806,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The City of Refuge”?",
       "options": [
-       "Self-destruction and the urge to do wrong",
+       "Moral worth found among those society rejects",
+       "The cost of wanting to seem richer than you are",
        "Harlem as promised refuge and trap",
-       "A family and a house collapsing together",
-       "Confinement driving a woman into madness"
+       "A story so convincing it becomes real"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -1825,28 +1819,27 @@
       "n": 10
      },
      {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "inference",
-      "dok": 2,
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Imagery",
+       "Metaphor",
+       "Alliteration",
+       "Dialect"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
       "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
+      "n": 11
      },
      {
       "type": "short",
-      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
-      "expected": "Arrival.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 8",
+      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "location": "The City of Refuge, paragraph 255",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -1862,12 +1855,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
       "options": [
-       "Point of view",
-       "Alliteration",
-       "Conflict",
-       "Irony"
+       "Setting",
+       "Plot",
+       "Irony",
+       "Imagery"
       ],
-      "answer": 3,
+      "answer": 2,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -1876,10 +1869,10 @@
      },
      {
       "type": "short",
-      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "location": "The City of Refuge, paragraph 255",
+      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
+      "expected": "Arrival.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 8",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -1892,26 +1885,27 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Irony",
-       "Imagery",
-       "Dialect",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
       "chapterIndex": 0,
-      "n": 15
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
-      "expected": "Mouse betrays him.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -1942,8 +1936,8 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
+      "expected": "Mouse betrays him.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -1962,7 +1956,7 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "Mouse Uggam"
+      "answer": "Surrenders when he sees the Black officer"
      },
      {
       "n": 2,
@@ -1972,45 +1966,45 @@
      },
      {
       "n": 3,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "Harlem"
+      "answer": "Mouse Uggam"
      },
      {
       "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "valuable"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Surrenders when he sees the Black officer"
-     },
-     {
-      "n": 6,
       "type": "mc",
       "level": "recall",
       "answer": "Drugs"
      },
      {
-      "n": 7,
+      "n": 5,
       "type": "mc",
       "level": "recall",
       "answer": "A Black policeman directing white drivers"
      },
      {
-      "n": 8,
+      "n": 6,
       "type": "mc",
       "level": "recall",
       "answer": "He shot a white man"
      },
      {
-      "n": 9,
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Harlem"
+     },
+     {
+      "n": 8,
       "type": "short",
       "level": "inference",
       "answer": "The dream."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His wonder."
      },
      {
       "n": 10,
@@ -2020,15 +2014,15 @@
      },
      {
       "n": 11,
-      "type": "short",
-      "level": "inference",
-      "answer": "His wonder."
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Dialect"
      },
      {
       "n": 12,
       "type": "short",
       "level": "analysis",
-      "answer": "Arrival."
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
       "n": 13,
@@ -2040,19 +2034,19 @@
       "n": 14,
       "type": "short",
       "level": "analysis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "Arrival."
      },
      {
       "n": 15,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Dialect"
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Mouse betrays him."
+      "answer": "The dream."
      },
      {
       "n": 17,
@@ -2064,19 +2058,19 @@
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "Mouse betrays him."
      }
     ],
     "mix": {
-     "recall": 8,
+     "recall": 7,
      "inference": 3,
      "analysis": 4,
-     "synthesis": 3
+     "synthesis": 4
     },
     "types": {
      "mc": 8,
-     "fill": 3,
-     "short": 7
+     "fill": 2,
+     "short": 8
     }
    },
    "hsJunior": {
@@ -2098,15 +2092,16 @@
       "n": 1
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
-      "answer": "Harlem",
-      "accept": [
-       "Harlem",
-       "harlem"
+      "type": "mc",
+      "prompt": "Why did Gillis leave North Carolina?",
+      "options": [
+       "He shot a white man",
+       "He wanted college",
+       "He was drafted",
+       "His family moved"
       ],
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
+      "answer": 0,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2129,73 +2124,6 @@
       "n": 3
      },
      {
-      "type": "mc",
-      "prompt": "Why did Gillis leave North Carolina?",
-      "options": [
-       "He shot a white man",
-       "He wanted college",
-       "He was drafted",
-       "His family moved"
-      ],
-      "answer": 0,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "singsong",
-       "spokesman",
-       "valuable",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "Who befriends and exploits him?",
-      "options": [
-       "A preacher",
-       "Uncle Ezra",
-       "Mouse Uggam",
-       "Tony Gabrielli"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "What amazes Gillis in Harlem?",
-      "options": [
-       "A Black policeman directing white drivers",
-       "Tall buildings only",
-       "The river",
-       "The subway"
-      ],
-      "answer": 0,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
@@ -2212,23 +2140,70 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 8
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
+      "answer": "Harlem",
+      "accept": [
+       "Harlem",
+       "harlem"
+      ],
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What amazes Gillis in Harlem?",
+      "options": [
+       "A Black policeman directing white drivers",
+       "Tall buildings only",
+       "The river",
+       "The subway"
+      ],
+      "answer": 0,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who befriends and exploits him?",
+      "options": [
+       "A preacher",
+       "Uncle Ezra",
+       "Mouse Uggam",
+       "Tony Gabrielli"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
      },
      {
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The City of Refuge”?",
       "options": [
-       "Self-destruction and the urge to do wrong",
+       "Moral worth found among those society rejects",
+       "The cost of wanting to seem richer than you are",
        "Harlem as promised refuge and trap",
-       "A family and a house collapsing together",
-       "Confinement driving a woman into madness"
+       "A story so convincing it becomes real"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 9
+      "n": 8
      },
      {
       "type": "short",
@@ -2239,7 +2214,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 10,
+      "n": 9,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2256,40 +2231,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Irony",
-       "Imagery",
-       "Dialect",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
-      "expected": "Arrival.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 8",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13,
+      "n": 10,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2306,7 +2248,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 11,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2318,27 +2260,44 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
       "options": [
-       "Point of view",
-       "Alliteration",
-       "Conflict",
-       "Irony"
+       "Setting",
+       "Plot",
+       "Irony",
+       "Imagery"
       ],
-      "answer": 3,
+      "answer": 2,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 15
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Imagery",
+       "Metaphor",
+       "Alliteration",
+       "Dialect"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
-      "expected": "Mouse betrays him.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
+      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
+      "expected": "Arrival.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 8",
+      "level": "analysis",
+      "dok": 3,
       "chapterIndex": 0,
-      "n": 16,
+      "n": 14,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2354,7 +2313,24 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 17,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2368,6 +2344,22 @@
       "expected": "His wonder.",
       "element": "diction",
       "location": "The City of Refuge, paragraph 28",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
+      "expected": "Mouse betrays him.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2389,9 +2381,9 @@
      },
      {
       "n": 2,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "Harlem"
+      "answer": "He shot a white man"
      },
      {
       "n": 3,
@@ -2401,105 +2393,105 @@
      },
      {
       "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "He shot a white man"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "valuable"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Mouse Uggam"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A Black policeman directing white drivers"
-     },
-     {
-      "n": 8,
       "type": "fill",
       "level": "recall",
       "answer": "repeatedly"
      },
      {
-      "n": 9,
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Harlem"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Black policeman directing white drivers"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Mouse Uggam"
+     },
+     {
+      "n": 8,
       "type": "mc",
       "level": "inference",
       "answer": "Harlem as promised refuge and trap"
      },
      {
-      "n": 10,
+      "n": 9,
       "type": "short",
       "level": "inference",
       "answer": "The dream."
      },
      {
-      "n": 11,
+      "n": 10,
       "type": "short",
       "level": "inference",
       "answer": "His wonder."
      },
      {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Dialect"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Arrival."
-     },
-     {
-      "n": 14,
+      "n": 11,
       "type": "short",
       "level": "analysis",
       "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
-      "n": 15,
+      "n": 12,
       "type": "mc",
       "level": "analysis",
       "answer": "Irony"
      },
      {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Mouse betrays him."
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Dialect"
      },
      {
-      "n": 17,
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Arrival."
+     },
+     {
+      "n": 15,
       "type": "short",
       "level": "synthesis",
       "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
-      "n": 18,
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The dream."
+     },
+     {
+      "n": 17,
       "type": "short",
       "level": "synthesis",
       "answer": "His wonder."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Mouse betrays him."
      }
     ],
     "mix": {
-     "recall": 8,
+     "recall": 7,
      "inference": 3,
      "analysis": 4,
-     "synthesis": 3
+     "synthesis": 4
     },
     "types": {
      "mc": 8,
-     "fill": 3,
-     "short": 7
+     "fill": 2,
+     "short": 8
     }
    },
    "hsSenior": {
@@ -2555,39 +2547,20 @@
       "n": 3
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "singsong",
-       "spokesman",
-       "valuable",
-       "meditating"
+      "type": "mc",
+      "prompt": "What amazes Gillis in Harlem?",
+      "options": [
+       "A Black policeman directing white drivers",
+       "Tall buildings only",
+       "The river",
+       "The subway"
       ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
+      "answer": 0,
+      "element": "setting",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Gillis unknowingly selling?",
-      "options": [
-       "Lottery tickets",
-       "Stolen jewelry",
-       "Drugs",
-       "Liquor"
-      ],
-      "answer": 2,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
      },
      {
       "type": "mc",
@@ -2603,23 +2576,23 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
+      "n": 5
      },
      {
       "type": "mc",
-      "prompt": "What amazes Gillis in Harlem?",
+      "prompt": "What is Gillis unknowingly selling?",
       "options": [
-       "A Black policeman directing white drivers",
-       "Tall buildings only",
-       "The river",
-       "The subway"
+       "Lottery tickets",
+       "Stolen jewelry",
+       "Drugs",
+       "Liquor"
       ],
-      "answer": 0,
-      "element": "setting",
+      "answer": 2,
+      "element": "irony",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 6
      },
      {
       "type": "mc",
@@ -2635,40 +2608,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
-      "options": [
-       "Self-destruction and the urge to do wrong",
-       "Harlem as promised refuge and trap",
-       "A family and a house collapsing together",
-       "Confinement driving a woman into madness"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
+      "n": 7
      },
      {
       "type": "short",
@@ -2679,7 +2619,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11,
+      "n": 8,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2689,14 +2629,14 @@
      },
      {
       "type": "short",
-      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "analysis",
-      "dok": 3,
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 28",
+      "level": "inference",
+      "dok": 2,
       "chapterIndex": 0,
-      "n": 12,
+      "n": 9,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2706,14 +2646,63 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
+      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
       "options": [
-       "Point of view",
+       "Moral worth found among those society rejects",
+       "The cost of wanting to seem richer than you are",
+       "Harlem as promised refuge and trap",
+       "A story so convincing it becomes real"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
+      "expected": "Arrival.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 8",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Imagery",
+       "Metaphor",
        "Alliteration",
-       "Conflict",
-       "Irony"
+       "Dialect"
       ],
       "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
+      "options": [
+       "Setting",
+       "Plot",
+       "Irony",
+       "Imagery"
+      ],
+      "answer": 2,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -2722,10 +2711,10 @@
      },
      {
       "type": "short",
-      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
-      "expected": "Arrival.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 8",
+      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "location": "The City of Refuge, paragraph 255",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -2738,20 +2727,20 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Irony",
-       "Imagery",
-       "Dialect",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
       "chapterIndex": 0,
-      "n": 15
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
      },
      {
       "type": "short",
@@ -2772,10 +2761,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
-      "expected": "His wonder.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 28",
+      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
+      "expected": "Mouse betrays him.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2789,9 +2777,10 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
+      "expected": "His wonder.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 28",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2825,57 +2814,57 @@
      },
      {
       "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "valuable"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Drugs"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Mouse Uggam"
-     },
-     {
-      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "A Black policeman directing white drivers"
      },
      {
-      "n": 8,
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Mouse Uggam"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Drugs"
+     },
+     {
+      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "Surrenders when he sees the Black officer"
      },
      {
-      "n": 9,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Harlem as promised refuge and trap"
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "His wonder."
-     },
-     {
-      "n": 11,
+      "n": 8,
       "type": "short",
       "level": "inference",
       "answer": "The dream."
      },
      {
-      "n": 12,
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His wonder."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Harlem as promised refuge and trap"
+     },
+     {
+      "n": 11,
       "type": "short",
       "level": "analysis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "Arrival."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Dialect"
      },
      {
       "n": 13,
@@ -2887,13 +2876,13 @@
       "n": 14,
       "type": "short",
       "level": "analysis",
-      "answer": "Arrival."
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
       "n": 15,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Dialect"
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
       "n": 16,
@@ -2905,25 +2894,25 @@
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "His wonder."
+      "answer": "Mouse betrays him."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "His wonder."
      }
     ],
     "mix": {
-     "recall": 8,
+     "recall": 7,
      "inference": 3,
      "analysis": 4,
-     "synthesis": 3
+     "synthesis": 4
     },
     "types": {
      "mc": 8,
-     "fill": 3,
-     "short": 7
+     "fill": 2,
+     "short": 8
     }
    },
    "ap": {
@@ -2944,70 +2933,6 @@
       "n": 1
      },
      {
-      "type": "mc",
-      "prompt": "What does Gillis do at the end?",
-      "options": [
-       "Escapes",
-       "Returns south",
-       "Kills Mouse",
-       "Surrenders when he sees the Black officer"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "What amazes Gillis in Harlem?",
-      "options": [
-       "Tall buildings only",
-       "The subway",
-       "A Black policeman directing white drivers",
-       "The river"
-      ],
-      "answer": 2,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
-      "options": [
-       "with appreciation; in a grateful manner",
-       "reflect deeply on a subject",
-       "the person who did most of the talking",
-       "a regular and monotonous rising and falling intonation"
-      ],
-      "answer": 2,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
-      "options": [
-       "reflect deeply on a subject",
-       "with appreciation; in a grateful manner",
-       "the person who did most of the talking",
-       "a regular and monotonous rising and falling intonation"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
       "wordBank": [
@@ -3024,21 +2949,82 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
+      "options": [
+       "with appreciation; in a grateful manner",
+       "reflect deeply on a subject",
+       "the person who did most of the talking",
+       "a regular and monotonous rising and falling intonation"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
+      "options": [
+       "reflect deeply on a subject",
+       "with appreciation; in a grateful manner",
+       "the person who did most of the talking",
+       "a regular and monotonous rising and falling intonation"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Why did Gillis leave North Carolina?",
+      "options": [
+       "He wanted college",
+       "He shot a white man",
+       "He was drafted",
+       "His family moved"
+      ],
+      "answer": 1,
+      "element": "plot",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What amazes Gillis in Harlem?",
+      "options": [
+       "Tall buildings only",
+       "The subway",
+       "A Black policeman directing white drivers",
+       "The river"
+      ],
+      "answer": 2,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 6
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "spokesman",
-       "valuable",
-       "singsong",
-       "meditating"
+      "type": "mc",
+      "prompt": "In the line “King Solomon Gillis sat meditating in a room half the size of his hencoop back home, with a single window opening into an airshaft.”, what does “meditating” most nearly mean?",
+      "options": [
+       "the person who did most of the talking",
+       "with appreciation; in a grateful manner",
+       "a regular and monotonous rising and falling intonation",
+       "reflect deeply on a subject"
       ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
+      "answer": 3,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -3046,15 +3032,31 @@
       "n": 7
      },
      {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Reason struggling against terror",
+       "Self-destruction and the urge to do wrong",
+       "Harlem as promised refuge and trap"
+      ],
+      "answer": 3,
+      "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 8,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
+      "expected": "The dream.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3063,27 +3065,11 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
-      "options": [
-       "The cost of wanting to seem richer than you are",
-       "Harlem as promised refuge and trap",
-       "The mind's final escape at the moment of death",
-       "A girl choosing nature over a stranger's approval"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
       "type": "short",
-      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
-      "expected": "The dream.",
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
       "element": "characterization",
-      "location": "The City of Refuge, paragraph 255",
+      "location": "The City of Refuge, paragraph 28",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -3096,21 +3082,20 @@
       }
      },
      {
-      "type": "short",
-      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "location": "The City of Refuge, paragraph 255",
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Tone / mood",
+       "Allusion",
+       "Foreshadowing",
+       "Dialect"
+      ],
+      "answer": 3,
+      "element": "structure",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
+      "n": 11
      },
      {
       "type": "short",
@@ -3130,36 +3115,54 @@
       }
      },
      {
+      "type": "short",
+      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
       "options": [
-       "Alliteration",
+       "Structure",
        "Irony",
-       "Metaphor",
-       "Theme"
+       "Personification",
+       "Alliteration"
       ],
       "answer": 1,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 13
+      "n": 14
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Dialect",
-       "Metaphor",
-       "Theme",
-       "Tone / mood"
-      ],
-      "answer": 0,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "synthesis",
+      "dok": 4,
       "chapterIndex": 0,
-      "n": 14
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
      },
      {
       "type": "short",
@@ -3169,7 +3172,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 16,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3185,7 +3188,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 16,
+      "n": 17,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3199,23 +3202,6 @@
       "expected": "His wonder.",
       "element": "diction",
       "location": "The City of Refuge, paragraph 28",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
-      "expected": "The dream.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3237,63 +3223,63 @@
      },
      {
       "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Surrenders when he sees the Black officer"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A Black policeman directing white drivers"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "the person who did most of the talking"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "with appreciation; in a grateful manner"
-     },
-     {
-      "n": 6,
       "type": "fill",
       "level": "recall",
       "answer": "repeatedly"
      },
      {
-      "n": 7,
-      "type": "fill",
+      "n": 3,
+      "type": "mc",
       "level": "recall",
-      "answer": "valuable"
+      "answer": "the person who did most of the talking"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "with appreciation; in a grateful manner"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shot a white man"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Black policeman directing white drivers"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "reflect deeply on a subject"
      },
      {
       "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "His wonder."
-     },
-     {
-      "n": 9,
       "type": "mc",
       "level": "inference",
       "answer": "Harlem as promised refuge and trap"
      },
      {
-      "n": 10,
+      "n": 9,
       "type": "short",
       "level": "inference",
       "answer": "The dream."
      },
      {
-      "n": 11,
+      "n": 10,
       "type": "short",
+      "level": "inference",
+      "answer": "His wonder."
+     },
+     {
+      "n": 11,
+      "type": "mc",
       "level": "analysis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "Dialect"
      },
      {
       "n": 12,
@@ -3303,39 +3289,39 @@
      },
      {
       "n": 13,
-      "type": "mc",
+      "type": "short",
       "level": "analysis",
-      "answer": "Irony"
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
       "n": 14,
       "type": "mc",
       "level": "analysis",
-      "answer": "Dialect"
+      "answer": "Irony"
      },
      {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "The dream."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Mouse betrays him."
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "His wonder."
+      "answer": "Mouse betrays him."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "The dream."
+      "answer": "His wonder."
      }
     ],
     "mix": {
@@ -3345,60 +3331,31 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 7,
-     "fill": 3,
+     "mc": 8,
+     "fill": 2,
      "short": 8
     }
    },
    "collegeFreshman": {
     "items": [
      {
-      "type": "mc",
-      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
-      "options": [
-       "reflect deeply on a subject",
-       "with appreciation; in a grateful manner",
-       "the person who did most of the talking",
-       "a regular and monotonous rising and falling intonation"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
+      "wordBank": [
+       "repeatedly",
+       "spokesman",
+       "meditating",
+       "singsong"
       ],
-      "answer": 1,
+      "answer": "repeatedly",
+      "accept": [
+       "repeatedly"
+      ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "What amazes Gillis in Harlem?",
-      "options": [
-       "Tall buildings only",
-       "The subway",
-       "A Black policeman directing white drivers",
-       "The river"
-      ],
-      "answer": 2,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “King Solomon Gillis sat meditating in a room half the size of his hencoop back home, with a single window opening into an airshaft.”, what does “meditating” most nearly mean?",
-      "options": [
-       "the person who did most of the talking",
-       "with appreciation; in a grateful manner",
-       "a regular and monotonous rising and falling intonation",
-       "reflect deeply on a subject"
-      ],
-      "answer": 3,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
      },
      {
       "type": "mc",
@@ -3414,42 +3371,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "spokesman",
-       "valuable",
-       "singsong",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "Why did Gillis leave North Carolina?",
-      "options": [
-       "He wanted college",
-       "He shot a white man",
-       "He was drafted",
-       "His family moved"
-      ],
-      "answer": 1,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
+      "n": 2
      },
      {
       "type": "fill",
@@ -3461,6 +3383,70 @@
       ],
       "element": "diction",
       "location": "The City of Refuge, paragraph 255",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
+      "options": [
+       "reflect deeply on a subject",
+       "with appreciation; in a grateful manner",
+       "the person who did most of the talking",
+       "a regular and monotonous rising and falling intonation"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Gillis do at the end?",
+      "options": [
+       "Escapes",
+       "Returns south",
+       "Kills Mouse",
+       "Surrenders when he sees the Black officer"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Who befriends and exploits him?",
+      "options": [
+       "Tony Gabrielli",
+       "A preacher",
+       "Mouse Uggam",
+       "Uncle Ezra"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “King Solomon Gillis sat meditating in a room half the size of his hencoop back home, with a single window opening into an airshaft.”, what does “meditating” most nearly mean?",
+      "options": [
+       "the person who did most of the talking",
+       "with appreciation; in a grateful manner",
+       "a regular and monotonous rising and falling intonation",
+       "reflect deeply on a subject"
+      ],
+      "answer": 3,
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3504,12 +3490,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The City of Refuge”?",
       "options": [
-       "The cost of wanting to seem richer than you are",
-       "Harlem as promised refuge and trap",
-       "The mind's final escape at the moment of death",
-       "A girl choosing nature over a stranger's approval"
+       "Courage and guilt in a small community",
+       "Reason struggling against terror",
+       "Self-destruction and the urge to do wrong",
+       "Harlem as promised refuge and trap"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3537,12 +3523,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
       "options": [
-       "Dialect",
-       "Metaphor",
-       "Theme",
-       "Tone / mood"
+       "Tone / mood",
+       "Allusion",
+       "Foreshadowing",
+       "Dialect"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "structure",
       "level": "analysis",
       "dok": 3,
@@ -3553,10 +3539,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
       "options": [
-       "Alliteration",
+       "Structure",
        "Irony",
-       "Metaphor",
-       "Theme"
+       "Personification",
+       "Alliteration"
       ],
       "answer": 1,
       "element": "irony",
@@ -3601,9 +3587,10 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
+      "expected": "His wonder.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 28",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3617,10 +3604,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
-      "expected": "His wonder.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 28",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3652,45 +3638,45 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "with appreciation; in a grateful manner"
+      "answer": "repeatedly"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "A Black policeman directing white drivers"
+      "answer": "Drugs"
      },
      {
       "n": 3,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "reflect deeply on a subject"
+      "answer": "Harlem"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "Drugs"
+      "answer": "with appreciation; in a grateful manner"
      },
      {
       "n": 5,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "valuable"
+      "answer": "Surrenders when he sees the Black officer"
      },
      {
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "He shot a white man"
+      "answer": "Mouse Uggam"
      },
      {
       "n": 7,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "Harlem"
+      "answer": "reflect deeply on a subject"
      },
      {
       "n": 8,
@@ -3744,13 +3730,13 @@
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "His wonder."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "His wonder."
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      },
      {
       "n": 18,
@@ -3774,6 +3760,40 @@
    "collegeSophomore": {
     "items": [
      {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
+      "wordBank": [
+       "repeatedly",
+       "spokesman",
+       "meditating",
+       "singsong"
+      ],
+      "answer": "repeatedly",
+      "accept": [
+       "repeatedly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
+      "answer": "Harlem",
+      "accept": [
+       "Harlem",
+       "harlem"
+      ],
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
       "type": "mc",
       "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
       "options": [
@@ -3787,7 +3807,55 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 1
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
+      "options": [
+       "reflect deeply on a subject",
+       "with appreciation; in a grateful manner",
+       "the person who did most of the talking",
+       "a regular and monotonous rising and falling intonation"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Gillis unknowingly selling?",
+      "options": [
+       "Drugs",
+       "Lottery tickets",
+       "Liquor",
+       "Stolen jewelry"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “King Solomon Gillis sat meditating in a room half the size of his hencoop back home, with a single window opening into an airshaft.”, what does “meditating” most nearly mean?",
+      "options": [
+       "the person who did most of the talking",
+       "with appreciation; in a grateful manner",
+       "a regular and monotonous rising and falling intonation",
+       "reflect deeply on a subject"
+      ],
+      "answer": 3,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
      },
      {
       "type": "mc",
@@ -3800,6 +3868,344 @@
       ],
       "answer": 2,
       "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Reason struggling against terror",
+       "Self-destruction and the urge to do wrong",
+       "Harlem as promised refuge and trap"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 28",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
+      "expected": "The dream.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
+      "expected": "Arrival.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 8",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Tone / mood",
+       "Allusion",
+       "Foreshadowing",
+       "Dialect"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
+      "options": [
+       "Structure",
+       "Irony",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
+      "expected": "His wonder.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 28",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
+      "expected": "Mouse betrays him.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "repeatedly"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Harlem"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "the person who did most of the talking"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "with appreciation; in a grateful manner"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Drugs"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "reflect deeply on a subject"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A Black policeman directing white drivers"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Harlem as promised refuge and trap"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His wonder."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The dream."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Arrival."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Dialect"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The dream."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His wonder."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Mouse betrays him."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeJunior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
+      "options": [
+       "reflect deeply on a subject",
+       "with appreciation; in a grateful manner",
+       "the person who did most of the talking",
+       "a regular and monotonous rising and falling intonation"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
+      "answer": "Harlem",
+      "accept": [
+       "Harlem",
+       "harlem"
+      ],
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3841,379 +4247,6 @@
       "n": 4
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
-      "answer": "Harlem",
-      "accept": [
-       "Harlem",
-       "harlem"
-      ],
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "spokesman",
-       "valuable",
-       "singsong",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “A high, strongly accented Jamaican voice, with its characteristic singsong intonation, interrupted King Solomon's sigh of relief.”, what does “singsong” most nearly mean?",
-      "options": [
-       "with appreciation; in a grateful manner",
-       "a regular and monotonous rising and falling intonation",
-       "reflect deeply on a subject",
-       "the person who did most of the talking"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
-      "expected": "The dream.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
-      "options": [
-       "The cost of wanting to seem richer than you are",
-       "Harlem as promised refuge and trap",
-       "The mind's final escape at the moment of death",
-       "A girl choosing nature over a stranger's approval"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
-      "options": [
-       "Alliteration",
-       "Irony",
-       "Metaphor",
-       "Theme"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Dialect",
-       "Metaphor",
-       "Theme",
-       "Tone / mood"
-      ],
-      "answer": 0,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
-      "expected": "Arrival.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 8",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
-      "expected": "The dream.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
-      "expected": "His wonder.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
-      "expected": "Mouse betrays him.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "the person who did most of the talking"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A Black policeman directing white drivers"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "repeatedly"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Mouse Uggam"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Harlem"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "valuable"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "a regular and monotonous rising and falling intonation"
-     },
-     {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The dream."
-     },
-     {
-      "n": 9,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Harlem as promised refuge and trap"
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "His wonder."
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Dialect"
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Arrival."
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The dream."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "His wonder."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Mouse betrays him."
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 7,
-     "fill": 3,
-     "short": 8
-    }
-   },
-   "collegeJunior": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "Why did Gillis leave North Carolina?",
-      "options": [
-       "He wanted college",
-       "He shot a white man",
-       "He was drafted",
-       "His family moved"
-      ],
-      "answer": 1,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
       "type": "mc",
       "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
       "options": [
@@ -4227,73 +4260,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
-      "answer": "Harlem",
-      "accept": [
-       "Harlem",
-       "harlem"
-      ],
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "Who befriends and exploits him?",
-      "options": [
-       "Tony Gabrielli",
-       "A preacher",
-       "Mouse Uggam",
-       "Uncle Ezra"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "What amazes Gillis in Harlem?",
-      "options": [
-       "Tall buildings only",
-       "The subway",
-       "A Black policeman directing white drivers",
-       "The river"
-      ],
-      "answer": 2,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "spokesman",
-       "valuable",
-       "singsong",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
      },
      {
       "type": "mc",
@@ -4309,14 +4276,30 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Gillis do at the end?",
+      "options": [
+       "Escapes",
+       "Returns south",
+       "Kills Mouse",
+       "Surrenders when he sees the Black officer"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 7
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
-      "expected": "The dream.",
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
       "element": "characterization",
-      "location": "The City of Refuge, paragraph 255",
+      "location": "The City of Refuge, paragraph 28",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -4332,12 +4315,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The City of Refuge”?",
       "options": [
-       "The cost of wanting to seem richer than you are",
-       "Harlem as promised refuge and trap",
-       "The mind's final escape at the moment of death",
-       "A girl choosing nature over a stranger's approval"
+       "Courage and guilt in a small community",
+       "Reason struggling against terror",
+       "Self-destruction and the urge to do wrong",
+       "Harlem as promised refuge and trap"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -4346,10 +4329,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
+      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
+      "expected": "The dream.",
       "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
+      "location": "The City of Refuge, paragraph 255",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -4362,33 +4345,32 @@
       }
      },
      {
-      "type": "short",
-      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
       "options": [
-       "Alliteration",
+       "Structure",
        "Irony",
-       "Metaphor",
-       "Theme"
+       "Personification",
+       "Alliteration"
       ],
       "answer": 1,
       "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Tone / mood",
+       "Allusion",
+       "Foreshadowing",
+       "Dialect"
+      ],
+      "answer": 3,
+      "element": "structure",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -4412,377 +4394,6 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Dialect",
-       "Metaphor",
-       "Theme",
-       "Tone / mood"
-      ],
-      "answer": 0,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
-      "expected": "Mouse betrays him.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
-      "expected": "His wonder.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
-      "expected": "The dream.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "He shot a white man"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "the person who did most of the talking"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Harlem"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Mouse Uggam"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A Black policeman directing white drivers"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "valuable"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Drugs"
-     },
-     {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "The dream."
-     },
-     {
-      "n": 9,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Harlem as promised refuge and trap"
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "His wonder."
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Arrival."
-     },
-     {
-      "n": 14,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Dialect"
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Mouse betrays him."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "His wonder."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "The dream."
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 8,
-     "fill": 2,
-     "short": 8
-    }
-   },
-   "collegeSenior": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
-      "options": [
-       "reflect deeply on a subject",
-       "with appreciation; in a grateful manner",
-       "the person who did most of the talking",
-       "a regular and monotonous rising and falling intonation"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
-      "answer": "Harlem",
-      "accept": [
-       "Harlem",
-       "harlem"
-      ],
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "Who befriends and exploits him?",
-      "options": [
-       "Tony Gabrielli",
-       "A preacher",
-       "Mouse Uggam",
-       "Uncle Ezra"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “King Solomon Gillis sat meditating in a room half the size of his hencoop back home, with a single window opening into an airshaft.”, what does “meditating” most nearly mean?",
-      "options": [
-       "the person who did most of the talking",
-       "with appreciation; in a grateful manner",
-       "a regular and monotonous rising and falling intonation",
-       "reflect deeply on a subject"
-      ],
-      "answer": 3,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Gillis unknowingly selling?",
-      "options": [
-       "Drugs",
-       "Lottery tickets",
-       "Liquor",
-       "Stolen jewelry"
-      ],
-      "answer": 0,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "spokesman",
-       "valuable",
-       "singsong",
-       "meditating"
-      ],
-      "answer": "valuable",
-      "accept": [
-       "valuable"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "Why did Gillis leave North Carolina?",
-      "options": [
-       "He wanted college",
-       "He shot a white man",
-       "He was drafted",
-       "His family moved"
-      ],
-      "answer": 1,
-      "element": "plot",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
-      "expected": "The dream.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 255",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
-      "options": [
-       "The cost of wanting to seem richer than you are",
-       "Harlem as promised refuge and trap",
-       "The mind's final escape at the moment of death",
-       "A girl choosing nature over a stranger's approval"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
-      "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
       "type": "short",
       "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
       "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
@@ -4791,7 +4402,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 11,
+      "n": 14,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4801,79 +4412,14 @@
      },
      {
       "type": "short",
-      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
-      "expected": "Arrival.",
+      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
+      "expected": "His wonder.",
       "element": "diction",
-      "location": "The City of Refuge, paragraph 8",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
-      "options": [
-       "Dialect",
-       "Metaphor",
-       "Theme",
-       "Tone / mood"
-      ],
-      "answer": 0,
-      "element": "structure",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
-      "options": [
-       "Alliteration",
-       "Irony",
-       "Metaphor",
-       "Theme"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
-      "expected": "The dream.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
+      "location": "The City of Refuge, paragraph 28",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
       "n": 15,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4889,6 +4435,23 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
       "n": 17,
       "scoringGuide": {
        "points": 5,
@@ -4899,10 +4462,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
-      "expected": "His wonder.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 28",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -4930,39 +4492,39 @@
      },
      {
       "n": 3,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Mouse Uggam"
+      "answer": "repeatedly"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "reflect deeply on a subject"
+      "answer": "Mouse Uggam"
      },
      {
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "Drugs"
+      "answer": "the person who did most of the talking"
      },
      {
       "n": 6,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "valuable"
+      "answer": "Drugs"
      },
      {
       "n": 7,
       "type": "mc",
       "level": "recall",
-      "answer": "He shot a white man"
+      "answer": "Surrenders when he sees the Black officer"
      },
      {
       "n": 8,
       "type": "short",
       "level": "inference",
-      "answer": "The dream."
+      "answer": "His wonder."
      },
      {
       "n": 9,
@@ -4974,55 +4536,55 @@
       "n": 10,
       "type": "short",
       "level": "inference",
-      "answer": "His wonder."
+      "answer": "The dream."
      },
      {
       "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Arrival."
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Dialect"
-     },
-     {
-      "n": 14,
       "type": "mc",
       "level": "analysis",
       "answer": "Irony"
      },
      {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Dialect"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Arrival."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+     },
+     {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "The dream."
+      "answer": "His wonder."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+      "answer": "Mouse betrays him."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Mouse betrays him."
+      "answer": "The dream."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "His wonder."
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
      }
     ],
     "mix": {
@@ -5037,22 +4599,18 @@
      "short": 8
     }
    },
-   "graduate": {
+   "collegeSenior": {
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Fact was, in France he'd learned about some _____ French medicine.”",
-      "wordBank": [
-       "spokesman",
-       "valuable",
-       "singsong",
-       "meditating"
-      ],
-      "answer": "valuable",
+      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
+      "answer": "Harlem",
       "accept": [
-       "valuable"
+       "Harlem",
+       "harlem"
       ],
       "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5060,15 +4618,15 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “King Solomon Gillis sat meditating in a room half the size of his hencoop back home, with a single window opening into an airshaft.”, what does “meditating” most nearly mean?",
+      "prompt": "Why did Gillis leave North Carolina?",
       "options": [
-       "the person who did most of the talking",
-       "with appreciation; in a grateful manner",
-       "a regular and monotonous rising and falling intonation",
-       "reflect deeply on a subject"
+       "He wanted college",
+       "He shot a white man",
+       "He was drafted",
+       "His family moved"
       ],
-      "answer": 3,
-      "element": "diction",
+      "answer": 1,
+      "element": "plot",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5076,15 +4634,15 @@
      },
      {
       "type": "mc",
-      "prompt": "What amazes Gillis in Harlem?",
+      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
       "options": [
-       "Tall buildings only",
-       "The subway",
-       "A Black policeman directing white drivers",
-       "The river"
+       "reflect deeply on a subject",
+       "with appreciation; in a grateful manner",
+       "the person who did most of the talking",
+       "a regular and monotonous rising and falling intonation"
       ],
-      "answer": 2,
-      "element": "setting",
+      "answer": 1,
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5111,6 +4669,376 @@
      },
      {
       "type": "mc",
+      "prompt": "Who befriends and exploits him?",
+      "options": [
+       "Tony Gabrielli",
+       "A preacher",
+       "Mouse Uggam",
+       "Uncle Ezra"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A high, strongly accented Jamaican voice, with its characteristic singsong intonation, interrupted King Solomon's sigh of relief.”, what does “singsong” most nearly mean?",
+      "options": [
+       "with appreciation; in a grateful manner",
+       "a regular and monotonous rising and falling intonation",
+       "reflect deeply on a subject",
+       "the person who did most of the talking"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Inside, the spokesman snuffled, gave his shoulders a queer little hunch, and asked, “Can you fix us up, buddy?””, what does “spokesman” most nearly mean?",
+      "options": [
+       "with appreciation; in a grateful manner",
+       "reflect deeply on a subject",
+       "the person who did most of the talking",
+       "a regular and monotonous rising and falling intonation"
+      ],
+      "answer": 2,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The City of Refuge”?",
+      "options": [
+       "Courage and guilt in a small community",
+       "Reason struggling against terror",
+       "Self-destruction and the urge to do wrong",
+       "Harlem as promised refuge and trap"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 28",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
+      "expected": "The dream.",
+      "element": "characterization",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “This was Negro Harlem” (The City of Refuge, paragraph 8). Pick two words and explain what they suggest.",
+      "expected": "Arrival.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 8",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
+      "options": [
+       "Tone / mood",
+       "Allusion",
+       "Foreshadowing",
+       "Dialect"
+      ],
+      "answer": 3,
+      "element": "structure",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
+      "options": [
+       "Structure",
+       "Irony",
+       "Personification",
+       "Alliteration"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Fisher shows Harlem as both refuge and trap. Explain how this evidence supports the claim: “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255).",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Fisher shows Harlem as both refuge and trap.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
+      "expected": "His wonder.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 28",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
+      "expected": "Mouse betrays him.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Harlem"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "He shot a white man"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "with appreciation; in a grateful manner"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "repeatedly"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Mouse Uggam"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "a regular and monotonous rising and falling intonation"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "the person who did most of the talking"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Harlem as promised refuge and trap"
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "His wonder."
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "The dream."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Arrival."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Dialect"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Gillis dreams of \"Harlem. Land of plenty. City of refuge,\" but his friend exploits him; yet even arrested he marvels \"Cullud policemans,\" seeing the dignity he hoped for."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "His wonder."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "The dream."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Mouse betrays him."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "graduate": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The City of Refuge, paragraph 255: “_____. Land of plenty. City of refuge-city of refuge”",
+      "answer": "Harlem",
+      "accept": [
+       "Harlem",
+       "harlem"
+      ],
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 255",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
       "prompt": "What does Gillis do at the end?",
       "options": [
        "Escapes",
@@ -5123,19 +5051,70 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Gillis unknowingly selling?",
+      "options": [
+       "Drugs",
+       "Lottery tickets",
+       "Liquor",
+       "Stolen jewelry"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who befriends and exploits him?",
+      "options": [
+       "Tony Gabrielli",
+       "A preacher",
+       "Mouse Uggam",
+       "Uncle Ezra"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “Why should strangers leave their own neighborhoods and _____ come to him for a yeast cake or a loaf of bread?”",
+      "wordBank": [
+       "repeatedly",
+       "spokesman",
+       "meditating",
+       "singsong"
+      ],
+      "answer": "repeatedly",
+      "accept": [
+       "repeatedly"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 5
      },
      {
       "type": "mc",
-      "prompt": "In the line “King Solomon located and gratefully extended a slip of paper.”, what does “gratefully” most nearly mean?",
+      "prompt": "What amazes Gillis in Harlem?",
       "options": [
-       "reflect deeply on a subject",
-       "with appreciation; in a grateful manner",
-       "the person who did most of the talking",
-       "a regular and monotonous rising and falling intonation"
+       "Tall buildings only",
+       "The subway",
+       "A Black policeman directing white drivers",
+       "The river"
       ],
-      "answer": 1,
-      "element": "diction",
+      "answer": 2,
+      "element": "setting",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5159,10 +5138,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
-      "expected": "The dream.",
+      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
+      "expected": "His wonder.",
       "element": "characterization",
-      "location": "The City of Refuge, paragraph 255",
+      "location": "The City of Refuge, paragraph 28",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -5176,10 +5155,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Cullud policemans” (The City of Refuge, paragraph 28) Answer in two or three sentences with one detail.",
-      "expected": "His wonder.",
+      "prompt": "What can you infer from this line? “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) Answer in two or three sentences with one detail.",
+      "expected": "The dream.",
       "element": "characterization",
-      "location": "The City of Refuge, paragraph 28",
+      "location": "The City of Refuge, paragraph 255",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -5195,12 +5174,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The City of Refuge”?",
       "options": [
-       "The cost of wanting to seem richer than you are",
-       "Harlem as promised refuge and trap",
-       "The mind's final escape at the moment of death",
-       "A girl choosing nature over a stranger's approval"
+       "Courage and guilt in a small community",
+       "Reason struggling against terror",
+       "Self-destruction and the urge to do wrong",
+       "Harlem as promised refuge and trap"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -5211,12 +5190,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? Gillis's speech marks his Southern roots.",
       "options": [
-       "Dialect",
-       "Metaphor",
-       "Theme",
-       "Tone / mood"
+       "Tone / mood",
+       "Allusion",
+       "Foreshadowing",
+       "Dialect"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "structure",
       "level": "analysis",
       "dok": 3,
@@ -5244,10 +5223,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The City of Refuge”? The \"land of plenty\" exploits him.",
       "options": [
-       "Alliteration",
+       "Structure",
        "Irony",
-       "Metaphor",
-       "Theme"
+       "Personification",
+       "Alliteration"
       ],
       "answer": 1,
       "element": "irony",
@@ -5275,10 +5254,10 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
-      "expected": "His wonder.",
+      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
+      "expected": "The dream.",
       "element": "diction",
-      "location": "The City of Refuge, paragraph 28",
+      "location": "The City of Refuge, paragraph 255",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -5308,9 +5287,10 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
-      "expected": "Mouse betrays him.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Cullud policemans” (The City of Refuge, paragraph 28) shape its meaning? Consider a second, competing reading.",
+      "expected": "His wonder.",
+      "element": "diction",
+      "location": "The City of Refuge, paragraph 28",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -5324,10 +5304,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Harlem. Land of plenty. City of refuge-city of refuge” (The City of Refuge, paragraph 255) shape its meaning? Consider a second, competing reading.",
-      "expected": "The dream.",
-      "element": "diction",
-      "location": "The City of Refuge, paragraph 255",
+      "prompt": "Synthesis: trace how exploitation develops from an earlier story to “The City of Refuge”. Use one quotation from each.",
+      "expected": "Mouse betrays him.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -5345,37 +5324,37 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "valuable"
+      "answer": "Harlem"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "reflect deeply on a subject"
+      "answer": "Surrenders when he sees the Black officer"
      },
      {
       "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "A Black policeman directing white drivers"
+      "answer": "Drugs"
      },
      {
       "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Mouse Uggam"
+     },
+     {
+      "n": 5,
       "type": "fill",
       "level": "recall",
       "answer": "repeatedly"
      },
      {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Surrenders when he sees the Black officer"
-     },
-     {
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "with appreciation; in a grateful manner"
+      "answer": "A Black policeman directing white drivers"
      },
      {
       "n": 7,
@@ -5387,13 +5366,13 @@
       "n": 8,
       "type": "short",
       "level": "inference",
-      "answer": "The dream."
+      "answer": "His wonder."
      },
      {
       "n": 9,
       "type": "short",
       "level": "inference",
-      "answer": "His wonder."
+      "answer": "The dream."
      },
      {
       "n": 10,
@@ -5429,7 +5408,7 @@
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "His wonder."
+      "answer": "The dream."
      },
      {
       "n": 16,
@@ -5441,13 +5420,13 @@
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Mouse betrays him."
+      "answer": "His wonder."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "The dream."
+      "answer": "Mouse betrays him."
      }
     ],
     "mix": {
