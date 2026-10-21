@@ -381,7 +381,7 @@
    },
    "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
   },
-  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Scaffolded-support prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
+  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). The scaffolded-support track works from the full text with scaffolds.",
   "weeks": 1,
   "lessons": 1,
   "unitDays": 2,
@@ -456,12 +456,10 @@
    "RL.11-12.2",
    "RL.11-12.5",
    "W.9-10.1",
-   "W.11-12.1",
-   "RL.7.2"
+   "W.11-12.1"
   ],
   "standardsByFramework": {
    "ccss": [
-    "RL.7.2",
     "RL.9-10.1",
     "RL.9-10.2",
     "RL.9-10.3",
@@ -471,16 +469,12 @@
     "RL.11-12.2",
     "RL.11-12.4",
     "RL.11-12.5",
-    "W.7.1",
     "W.9-10.1",
     "W.11-12.1",
     "L.9-10.4",
     "L.11-12.4"
    ],
    "IN": [
-    "7.RC.2",
-    "7.RC.3",
-    "7.W.1",
     "9-10.RC.1",
     "9-10.RC.2",
     "9-10.RC.3",
@@ -586,22 +580,6 @@
   "items": [
    {
     "type": "mc",
-    "prompt": "What is Delia's work?",
-    "options": [
-     "Farming",
-     "Teaching",
-     "Washing white people's clothes",
-     "Cooking in a hotel"
-    ],
-    "answer": 2,
-    "element": "characterization",
-    "level": "recall",
-    "dok": 1,
-    "chapterIndex": 0,
-    "n": 1
-   },
-   {
-    "type": "mc",
     "prompt": "Who is bitten by the snake?",
     "options": [
      "Sykes",
@@ -614,7 +592,7 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 2
+    "n": 1
    },
    {
     "type": "mc",
@@ -630,7 +608,23 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 5
+    "n": 2
+   },
+   {
+    "type": "mc",
+    "prompt": "Whom does Sykes want in the house instead?",
+    "options": [
+     "His mother",
+     "His brother",
+     "No one",
+     "His mistress, Bertha"
+    ],
+    "answer": 3,
+    "element": "conflict",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
+    "n": 4
    },
    {
     "type": "mc",
@@ -646,34 +640,50 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
+    "n": 7
+   },
+   {
+    "type": "mc",
+    "prompt": "What is Delia's work?",
+    "options": [
+     "Farming",
+     "Teaching",
+     "Washing white people's clothes",
+     "Cooking in a hotel"
+    ],
+    "answer": 2,
+    "element": "characterization",
+    "level": "recall",
+    "dok": 1,
+    "chapterIndex": 0,
     "n": 10
    },
    {
     "type": "mc",
     "prompt": "Which choice best states a central concern of “Sweat”?",
     "options": [
-     "Superstition used against a credulous man",
+     "Endurance turning to justice",
      "Courage in defense of home",
-     "Racial pride destroying love",
-     "Endurance turning to justice"
+     "Reason struggling against terror",
+     "A boy's romantic quest ending in disillusion"
     ],
-    "answer": 3,
+    "answer": 0,
     "element": "theme",
     "level": "inference",
     "dok": 2,
     "chapterIndex": 0,
-    "n": 12
+    "n": 11
    },
    {
     "type": "mc",
     "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
     "options": [
-     "Irony",
+     "Structure",
      "Conflict",
-     "Hyperbole",
-     "Foreshadowing"
+     "Imagery",
+     "Irony"
     ],
-    "answer": 0,
+    "answer": 3,
     "element": "irony",
     "level": "analysis",
     "dok": 3,
@@ -684,34 +694,34 @@
     "type": "mc",
     "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
     "options": [
-     "Personification",
-     "Conflict",
+     "Setting",
      "Symbolism",
-     "Hyperbole"
+     "Irony",
+     "Conflict"
     ],
-    "answer": 2,
+    "answer": 1,
     "element": "symbolism",
     "level": "analysis",
     "dok": 3,
     "chapterIndex": 0,
-    "n": 16
+    "n": 15
    }
   ],
   "answerKey": [
    {
     "n": 1,
-    "answer": "Washing white people's clothes",
-    "element": "characterization"
-   },
-   {
-    "n": 2,
     "answer": "Sykes",
     "element": "irony"
    },
    {
-    "n": 3,
+    "n": 2,
     "answer": "Under the Chinaberry tree",
     "element": "setting"
+   },
+   {
+    "n": 3,
+    "answer": "His mistress, Bertha",
+    "element": "conflict"
    },
    {
     "n": 4,
@@ -720,16 +730,21 @@
    },
    {
     "n": 5,
+    "answer": "Washing white people's clothes",
+    "element": "characterization"
+   },
+   {
+    "n": 6,
     "answer": "Endurance turning to justice",
     "element": "theme"
    },
    {
-    "n": 6,
+    "n": 7,
     "answer": "Irony",
     "element": "irony"
    },
    {
-    "n": 7,
+    "n": 8,
     "answer": "Symbolism",
     "element": "symbolism"
    }
@@ -737,56 +752,6 @@
   "versions": {
    "middleSchool": {
     "items": [
-     {
-      "type": "mc",
-      "prompt": "What is Delia's work?",
-      "options": [
-       "Farming",
-       "Teaching",
-       "Washing white people's clothes",
-       "Cooking in a hotel"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
-      "accept": [
-       "vittles",
-       "vittles"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
-      "wordBank": [
-       "chewing",
-       "penniless",
-       "struggles",
-       "retrospection"
-      ],
-      "answer": "struggles",
-      "accept": [
-       "struggles"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
      {
       "type": "fill",
       "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
@@ -800,55 +765,26 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
+      "n": 1
      },
      {
-      "type": "mc",
-      "prompt": "Who is bitten by the snake?",
-      "options": [
-       "Sykes",
-       "A neighbor",
-       "Bertha",
-       "Delia"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "subsided",
+       "penniless",
+       "triumphant",
+       "retrospection"
       ],
-      "answer": 0,
-      "element": "irony",
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "Where does Delia wait at the end?",
-      "options": [
-       "In the barn",
-       "Under the Chinaberry tree",
-       "In the church",
-       "At a neighbor's"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "Whom does Sykes want in the house instead?",
-      "options": [
-       "His mother",
-       "His brother",
-       "No one",
-       "His mistress, Bertha"
-      ],
-      "answer": 3,
-      "element": "conflict",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
+      "n": 2
      },
      {
       "type": "mc",
@@ -864,54 +800,99 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is bitten by the snake?",
+      "options": [
+       "Sykes",
+       "A neighbor",
+       "Bertha",
+       "Delia"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Delia wait at the end?",
+      "options": [
+       "In the barn",
+       "Under the Chinaberry tree",
+       "In the church",
+       "At a neighbor's"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Sykes want in the house instead?",
+      "options": [
+       "His mother",
+       "His brother",
+       "No one",
+       "His mistress, Bertha"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Delia's work?",
+      "options": [
+       "Farming",
+       "Teaching",
+       "Washing white people's clothes",
+       "Cooking in a hotel"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
+      "wordBank": [
+       "subsided",
+       "retrospection",
+       "penniless",
+       "struggles"
+      ],
+      "answer": "struggles",
+      "accept": [
+       "struggles"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 8
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "chewing",
-       "retrospection",
-       "penniless",
-       "subsided"
-      ],
-      "answer": "subsided",
-      "accept": [
-       "subsided"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
-      "wordBank": [
-       "retrospection",
-       "penniless",
-       "chooses",
-       "chewing"
-      ],
-      "answer": "chooses",
-      "accept": [
-       "chooses"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 10
      },
      {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
       "wordBank": [
-       "chewing",
-       "homeward",
        "retrospection",
-       "penniless"
+       "penniless",
+       "homeward",
+       "subsided"
       ],
       "answer": "homeward",
       "accept": [
@@ -921,23 +902,38 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 11
+      "n": 9
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
+      "answer": "vittles",
+      "accept": [
+       "vittles",
+       "vittles"
+      ],
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
      },
      {
       "type": "mc",
       "prompt": "Which choice best states a central concern of “Sweat”?",
       "options": [
-       "Superstition used against a credulous man",
+       "Endurance turning to justice",
        "Courage in defense of home",
-       "Racial pride destroying love",
-       "Endurance turning to justice"
+       "Reason struggling against terror",
+       "A boy's romantic quest ending in disillusion"
       ],
-      "answer": 3,
+      "answer": 0,
       "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 12
+      "n": 11
      },
      {
       "type": "short",
@@ -948,7 +944,7 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 13,
+      "n": 12,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
@@ -965,6 +961,23 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
+      "expected": "The opening.",
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
       "n": 14,
       "scoringGuide": {
        "points": 2,
@@ -975,15 +988,438 @@
      },
      {
       "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
+      "options": [
+       "Structure",
+       "Conflict",
+       "Imagery",
+       "Irony"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
       "options": [
-       "Personification",
-       "Conflict",
+       "Setting",
        "Symbolism",
-       "Hyperbole"
+       "Irony",
+       "Conflict"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "location": "Sweat, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Florida"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A rattlesnake"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sykes"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Under the Chinaberry tree"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His mistress, Bertha"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Washing white people's clothes"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "struggles"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 10,
+      "type": "fill",
+      "level": "recall",
+      "answer": "vittles"
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Endurance turning to justice"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia's claim."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia."
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The opening."
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 16,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+     }
+    ],
+    "mix": {
+     "recall": 10,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 1
+    },
+    "types": {
+     "mc": 8,
+     "fill": 5,
+     "short": 5
+    }
+   },
+   "hsFreshman": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
+      "answer": "vittles",
+      "accept": [
+       "vittles",
+       "vittles"
+      ],
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is bitten by the snake?",
+      "options": [
+       "Sykes",
+       "A neighbor",
+       "Bertha",
+       "Delia"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Sykes use to frighten Delia?",
+      "options": [
+       "A whip",
+       "A gun",
+       "A dog",
+       "A rattlesnake"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Sykes want in the house instead?",
+      "options": [
+       "His mother",
+       "His brother",
+       "No one",
+       "His mistress, Bertha"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Delia's work?",
+      "options": [
+       "Farming",
+       "Teaching",
+       "Washing white people's clothes",
+       "Cooking in a hotel"
       ],
       "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
+      "wordBank": [
+       "subsided",
+       "retrospection",
+       "penniless",
+       "struggles"
+      ],
+      "answer": "struggles",
+      "accept": [
+       "struggles"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
+      "wordBank": [
+       "retrospection",
+       "penniless",
+       "homeward",
+       "subsided"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
+      "answer": "Florida",
+      "accept": [
+       "Florida",
+       "florida"
+      ],
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "subsided",
+       "penniless",
+       "triumphant",
+       "retrospection"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Delia wait at the end?",
+      "options": [
+       "In the barn",
+       "Under the Chinaberry tree",
+       "In the church",
+       "At a neighbor's"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Delia.",
+      "element": "characterization",
+      "location": "Sweat, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "Delia's claim.",
+      "element": "characterization",
+      "location": "Sweat, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Sweat”?",
+      "options": [
+       "Endurance turning to justice",
+       "Courage in defense of home",
+       "Reason struggling against terror",
+       "A boy's romantic quest ending in disillusion"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
+      "options": [
+       "Setting",
+       "Symbolism",
+       "Irony",
+       "Conflict"
+      ],
+      "answer": 1,
       "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
+      "options": [
+       "Structure",
+       "Conflict",
+       "Imagery",
+       "Irony"
+      ],
+      "answer": 3,
+      "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -1007,399 +1443,6 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
-      "options": [
-       "Irony",
-       "Conflict",
-       "Hyperbole",
-       "Foreshadowing"
-      ],
-      "answer": 0,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 17
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
-      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Washing white people's clothes"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "vittles"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "struggles"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Florida"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Sykes"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Under the Chinaberry tree"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "His mistress, Bertha"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A rattlesnake"
-     },
-     {
-      "n": 9,
-      "type": "fill",
-      "level": "recall",
-      "answer": "subsided"
-     },
-     {
-      "n": 10,
-      "type": "fill",
-      "level": "recall",
-      "answer": "chooses"
-     },
-     {
-      "n": 11,
-      "type": "fill",
-      "level": "recall",
-      "answer": "homeward"
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Endurance turning to justice"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia's claim."
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia."
-     },
-     {
-      "n": 15,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "analysis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
-     },
-     {
-      "n": 17,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
-     }
-    ],
-    "mix": {
-     "recall": 11,
-     "inference": 3,
-     "analysis": 3,
-     "synthesis": 1
-    },
-    "types": {
-     "mc": 8,
-     "fill": 6,
-     "short": 4
-    }
-   },
-   "hsFreshman": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "What does Sykes use to frighten Delia?",
-      "options": [
-       "A whip",
-       "A gun",
-       "A dog",
-       "A rattlesnake"
-      ],
-      "answer": 3,
-      "element": "symbolism",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "Who is bitten by the snake?",
-      "options": [
-       "Sykes",
-       "A neighbor",
-       "Bertha",
-       "Delia"
-      ],
-      "answer": 0,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
-      "wordBank": [
-       "chewing",
-       "homeward",
-       "retrospection",
-       "penniless"
-      ],
-      "answer": "homeward",
-      "accept": [
-       "homeward"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
-      "answer": "Florida",
-      "accept": [
-       "Florida",
-       "florida"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
-      "accept": [
-       "vittles",
-       "vittles"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "Whom does Sykes want in the house instead?",
-      "options": [
-       "His mother",
-       "His brother",
-       "No one",
-       "His mistress, Bertha"
-      ],
-      "answer": 3,
-      "element": "conflict",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
-      "wordBank": [
-       "retrospection",
-       "penniless",
-       "chooses",
-       "chewing"
-      ],
-      "answer": "chooses",
-      "accept": [
-       "chooses"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "chewing",
-       "retrospection",
-       "penniless",
-       "subsided"
-      ],
-      "answer": "subsided",
-      "accept": [
-       "subsided"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Delia's work?",
-      "options": [
-       "Farming",
-       "Teaching",
-       "Washing white people's clothes",
-       "Cooking in a hotel"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "mc",
-      "prompt": "Where does Delia wait at the end?",
-      "options": [
-       "In the barn",
-       "Under the Chinaberry tree",
-       "In the church",
-       "At a neighbor's"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
-      "wordBank": [
-       "chewing",
-       "penniless",
-       "struggles",
-       "retrospection"
-      ],
-      "answer": "struggles",
-      "accept": [
-       "struggles"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
-      "expected": "Delia's claim.",
-      "element": "characterization",
-      "location": "Sweat, paragraph 20",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “Sweat”?",
-      "options": [
-       "Superstition used against a credulous man",
-       "Courage in defense of home",
-       "Racial pride destroying love",
-       "Endurance turning to justice"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
-      "expected": "Delia.",
-      "element": "characterization",
-      "location": "Sweat, paragraph 18",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
       "type": "short",
       "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
       "expected": "The opening.",
@@ -1408,45 +1451,13 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 17,
       "scoringGuide": {
        "points": 2,
        "full": "Correct answer in a complete sentence, using a detail from the text.",
        "partial": "1 point: partly correct or no supporting detail.",
        "zero": "0: incorrect or blank."
       }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
-      "options": [
-       "Irony",
-       "Conflict",
-       "Hyperbole",
-       "Foreshadowing"
-      ],
-      "answer": 0,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
-      "options": [
-       "Personification",
-       "Conflict",
-       "Symbolism",
-       "Hyperbole"
-      ],
-      "answer": 2,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 17
      },
      {
       "type": "short",
@@ -1468,9 +1479,9 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "A rattlesnake"
+      "answer": "vittles"
      },
      {
       "n": 2,
@@ -1480,45 +1491,45 @@
      },
      {
       "n": 3,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "homeward"
+      "answer": "A rattlesnake"
      },
      {
       "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Florida"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "vittles"
-     },
-     {
-      "n": 6,
       "type": "mc",
       "level": "recall",
       "answer": "His mistress, Bertha"
      },
      {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Washing white people's clothes"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "struggles"
+     },
+     {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "chooses"
+      "answer": "homeward"
      },
      {
       "n": 8,
       "type": "fill",
       "level": "recall",
-      "answer": "subsided"
+      "answer": "Florida"
      },
      {
       "n": 9,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Washing white people's clothes"
+      "answer": "triumphant"
      },
      {
       "n": 10,
@@ -1528,9 +1539,9 @@
      },
      {
       "n": 11,
-      "type": "fill",
-      "level": "recall",
-      "answer": "struggles"
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia."
      },
      {
       "n": 12,
@@ -1546,27 +1557,27 @@
      },
      {
       "n": 14,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia."
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
      },
      {
       "n": 15,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The opening."
-     },
-     {
-      "n": 16,
       "type": "mc",
       "level": "analysis",
       "answer": "Irony"
      },
      {
-      "n": 17,
-      "type": "mc",
+      "n": 16,
+      "type": "short",
       "level": "analysis",
-      "answer": "Symbolism"
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The opening."
      },
      {
       "n": 18,
@@ -1576,35 +1587,19 @@
      }
     ],
     "mix": {
-     "recall": 11,
+     "recall": 10,
      "inference": 3,
-     "analysis": 3,
+     "analysis": 4,
      "synthesis": 1
     },
     "types": {
      "mc": 8,
-     "fill": 6,
-     "short": 4
+     "fill": 5,
+     "short": 5
     }
    },
    "hsSophomore": {
     "items": [
-     {
-      "type": "mc",
-      "prompt": "What is Delia's work?",
-      "options": [
-       "Farming",
-       "Teaching",
-       "Washing white people's clothes",
-       "Cooking in a hotel"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
      {
       "type": "mc",
       "prompt": "Who is bitten by the snake?",
@@ -1619,45 +1614,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
-      "wordBank": [
-       "retrospection",
-       "penniless",
-       "chooses",
-       "chewing"
-      ],
-      "answer": "chooses",
-      "accept": [
-       "chooses"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
-      "wordBank": [
-       "chewing",
-       "penniless",
-       "struggles",
-       "retrospection"
-      ],
-      "answer": "struggles",
-      "accept": [
-       "struggles"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
+      "n": 1
      },
      {
       "type": "mc",
@@ -1673,16 +1630,51 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 5
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "subsided",
+       "penniless",
+       "triumphant",
+       "retrospection"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Sykes want in the house instead?",
+      "options": [
+       "His mother",
+       "His brother",
+       "No one",
+       "His mistress, Bertha"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
      },
      {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
       "wordBank": [
-       "chewing",
-       "homeward",
        "retrospection",
-       "penniless"
+       "penniless",
+       "homeward",
+       "subsided"
       ],
       "answer": "homeward",
       "accept": [
@@ -1692,41 +1684,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
-      "accept": [
-       "vittles",
-       "vittles"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "chewing",
-       "retrospection",
-       "penniless",
-       "subsided"
-      ],
-      "answer": "subsided",
-      "accept": [
-       "subsided"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
+      "n": 5
      },
      {
       "type": "fill",
@@ -1741,7 +1699,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
+      "n": 6
      },
      {
       "type": "mc",
@@ -1757,18 +1715,84 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
+      "answer": "vittles",
+      "accept": [
+       "vittles",
+       "vittles"
+      ],
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
+      "wordBank": [
+       "subsided",
+       "retrospection",
+       "penniless",
+       "struggles"
+      ],
+      "answer": "struggles",
+      "accept": [
+       "struggles"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Delia's work?",
+      "options": [
+       "Farming",
+       "Teaching",
+       "Washing white people's clothes",
+       "Cooking in a hotel"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 10
      },
      {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
-      "expected": "Delia's claim.",
-      "element": "characterization",
-      "location": "Sweat, paragraph 20",
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Sweat”?",
+      "options": [
+       "Endurance turning to justice",
+       "Courage in defense of home",
+       "Reason struggling against terror",
+       "A boy's romantic quest ending in disillusion"
+      ],
+      "answer": 0,
+      "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Delia.",
+      "element": "characterization",
+      "location": "Sweat, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -1777,27 +1801,11 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “Sweat”?",
-      "options": [
-       "Superstition used against a credulous man",
-       "Courage in defense of home",
-       "Racial pride destroying love",
-       "Endurance turning to justice"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
       "type": "short",
-      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
-      "expected": "Delia.",
+      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "Delia's claim.",
       "element": "characterization",
-      "location": "Sweat, paragraph 18",
+      "location": "Sweat, paragraph 20",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -1813,12 +1821,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
       "options": [
-       "Irony",
+       "Structure",
        "Conflict",
-       "Hyperbole",
-       "Foreshadowing"
+       "Imagery",
+       "Irony"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -1826,37 +1834,37 @@
       "n": 14
      },
      {
-      "type": "short",
-      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
-      "expected": "The opening.",
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
+      "options": [
+       "Setting",
+       "Symbolism",
+       "Irony",
+       "Conflict"
+      ],
+      "answer": 1,
+      "element": "symbolism",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "location": "Sweat, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
        "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
        "zero": "0: incorrect, off-text or blank."
       }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
-      "options": [
-       "Personification",
-       "Conflict",
-       "Symbolism",
-       "Hyperbole"
-      ],
-      "answer": 2,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
      },
      {
       "type": "short",
@@ -1897,79 +1905,79 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "Washing white people's clothes"
+      "answer": "Sykes"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "Sykes"
+      "answer": "Under the Chinaberry tree"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "chooses"
+      "answer": "triumphant"
      },
      {
       "n": 4,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "struggles"
+      "answer": "His mistress, Bertha"
      },
      {
       "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Under the Chinaberry tree"
-     },
-     {
-      "n": 6,
       "type": "fill",
       "level": "recall",
       "answer": "homeward"
      },
      {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "vittles"
-     },
-     {
-      "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "subsided"
-     },
-     {
-      "n": 9,
+      "n": 6,
       "type": "fill",
       "level": "recall",
       "answer": "Florida"
      },
      {
-      "n": 10,
+      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "A rattlesnake"
      },
      {
-      "n": 11,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia's claim."
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "vittles"
      },
      {
-      "n": 12,
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "struggles"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Washing white people's clothes"
+     },
+     {
+      "n": 11,
       "type": "mc",
       "level": "inference",
       "answer": "Endurance turning to justice"
      },
      {
-      "n": 13,
+      "n": 12,
       "type": "short",
       "level": "inference",
       "answer": "Delia."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia's claim."
      },
      {
       "n": 14,
@@ -1979,15 +1987,15 @@
      },
      {
       "n": 15,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The opening."
-     },
-     {
-      "n": 16,
       "type": "mc",
       "level": "analysis",
       "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 17,
@@ -2009,44 +2017,27 @@
      "synthesis": 2
     },
     "types": {
-     "mc": 7,
-     "fill": 6,
+     "mc": 8,
+     "fill": 5,
      "short": 5
     }
    },
    "hsJunior": {
     "items": [
      {
-      "type": "mc",
-      "prompt": "Who is bitten by the snake?",
-      "options": [
-       "Sykes",
-       "A neighbor",
-       "Bertha",
-       "Delia"
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
+      "answer": "vittles",
+      "accept": [
+       "vittles",
+       "vittles"
       ],
-      "answer": 0,
-      "element": "irony",
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "Where does Delia wait at the end?",
-      "options": [
-       "In the barn",
-       "Under the Chinaberry tree",
-       "In the church",
-       "At a neighbor's"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
      },
      {
       "type": "mc",
@@ -2062,7 +2053,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 3
+      "n": 2
      },
      {
       "type": "mc",
@@ -2078,64 +2069,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
-      "wordBank": [
-       "chewing",
-       "homeward",
-       "retrospection",
-       "penniless"
-      ],
-      "answer": "homeward",
-      "accept": [
-       "homeward"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
-      "wordBank": [
-       "retrospection",
-       "penniless",
-       "chooses",
-       "chewing"
-      ],
-      "answer": "chooses",
-      "accept": [
-       "chooses"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
-      "wordBank": [
-       "chewing",
-       "penniless",
-       "struggles",
-       "retrospection"
-      ],
-      "answer": "struggles",
-      "accept": [
-       "struggles"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
+      "n": 3
      },
      {
       "type": "fill",
@@ -2150,38 +2084,96 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Delia's work?",
+      "options": [
+       "Farming",
+       "Teaching",
+       "Washing white people's clothes",
+       "Cooking in a hotel"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
+      "wordBank": [
+       "subsided",
+       "retrospection",
+       "penniless",
+       "struggles"
+      ],
+      "answer": "struggles",
+      "accept": [
+       "struggles"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is bitten by the snake?",
+      "options": [
+       "Sykes",
+       "A neighbor",
+       "Bertha",
+       "Delia"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
+      "wordBank": [
+       "retrospection",
+       "penniless",
+       "homeward",
+       "subsided"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 8
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "subsided",
+       "penniless",
+       "triumphant",
+       "retrospection"
+      ],
+      "answer": "triumphant",
       "accept": [
-       "vittles",
-       "vittles"
+       "triumphant"
       ],
       "element": "diction",
-      "location": "Sweat, paragraph 20",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 9
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “Sweat”?",
-      "options": [
-       "Superstition used against a credulous man",
-       "Courage in defense of home",
-       "Racial pride destroying love",
-       "Endurance turning to justice"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10
      },
      {
       "type": "short",
@@ -2192,13 +2184,29 @@
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 11,
+      "n": 10,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
        "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
        "zero": "0: incorrect, off-text or blank."
       }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Sweat”?",
+      "options": [
+       "Endurance turning to justice",
+       "Courage in defense of home",
+       "Reason struggling against terror",
+       "A boy's romantic quest ending in disillusion"
+      ],
+      "answer": 0,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
      },
      {
       "type": "short",
@@ -2221,12 +2229,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
       "options": [
-       "Personification",
-       "Conflict",
+       "Setting",
        "Symbolism",
-       "Hyperbole"
+       "Irony",
+       "Conflict"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -2271,12 +2279,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
       "options": [
-       "Irony",
+       "Structure",
        "Conflict",
-       "Hyperbole",
-       "Foreshadowing"
+       "Imagery",
+       "Irony"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -2285,10 +2293,9 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia's claim.",
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
+      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2320,69 +2327,69 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Sykes"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Under the Chinaberry tree"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A rattlesnake"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "His mistress, Bertha"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "homeward"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "chooses"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "struggles"
-     },
-     {
-      "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Florida"
-     },
-     {
-      "n": 9,
       "type": "fill",
       "level": "recall",
       "answer": "vittles"
      },
      {
-      "n": 10,
+      "n": 2,
       "type": "mc",
-      "level": "inference",
-      "answer": "Endurance turning to justice"
+      "level": "recall",
+      "answer": "A rattlesnake"
      },
      {
-      "n": 11,
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His mistress, Bertha"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Florida"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Washing white people's clothes"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "struggles"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sykes"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 10,
       "type": "short",
       "level": "inference",
       "answer": "Delia's claim."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Endurance turning to justice"
      },
      {
       "n": 12,
@@ -2418,7 +2425,7 @@
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia's claim."
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 18,
@@ -2443,6 +2450,25 @@
     "items": [
      {
       "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
+      "wordBank": [
+       "retrospection",
+       "penniless",
+       "homeward",
+       "subsided"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
       "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
       "answer": "Florida",
       "accept": [
@@ -2454,99 +2480,22 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Delia's work?",
-      "options": [
-       "Farming",
-       "Teaching",
-       "Washing white people's clothes",
-       "Cooking in a hotel"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 2
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "chewing",
-       "retrospection",
-       "penniless",
-       "subsided"
-      ],
-      "answer": "subsided",
+      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
+      "answer": "vittles",
       "accept": [
-       "subsided"
+       "vittles",
+       "vittles"
       ],
       "element": "diction",
+      "location": "Sweat, paragraph 20",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
-      "wordBank": [
-       "retrospection",
-       "penniless",
-       "chooses",
-       "chewing"
-      ],
-      "answer": "chooses",
-      "accept": [
-       "chooses"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
-      "wordBank": [
-       "chewing",
-       "penniless",
-       "struggles",
-       "retrospection"
-      ],
-      "answer": "struggles",
-      "accept": [
-       "struggles"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
-      "wordBank": [
-       "chewing",
-       "homeward",
-       "retrospection",
-       "penniless"
-      ],
-      "answer": "homeward",
-      "accept": [
-       "homeward"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
      },
      {
       "type": "mc",
@@ -2562,7 +2511,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 4
      },
      {
       "type": "mc",
@@ -2578,18 +2527,85 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Delia's work?",
+      "options": [
+       "Farming",
+       "Teaching",
+       "Washing white people's clothes",
+       "Cooking in a hotel"
+      ],
+      "answer": 2,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "subsided",
+       "penniless",
+       "triumphant",
+       "retrospection"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Sykes use to frighten Delia?",
+      "options": [
+       "A whip",
+       "A gun",
+       "A dog",
+       "A rattlesnake"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 8
      },
      {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
-      "expected": "Delia's claim.",
-      "element": "characterization",
-      "location": "Sweat, paragraph 20",
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Sweat”?",
+      "options": [
+       "Endurance turning to justice",
+       "Courage in defense of home",
+       "Reason struggling against terror",
+       "A boy's romantic quest ending in disillusion"
+      ],
+      "answer": 0,
+      "element": "theme",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 9,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Delia.",
+      "element": "characterization",
+      "location": "Sweat, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
       "scoringGuide": {
        "points": 3,
        "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
@@ -2598,27 +2614,11 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “Sweat”?",
-      "options": [
-       "Superstition used against a credulous man",
-       "Courage in defense of home",
-       "Racial pride destroying love",
-       "Endurance turning to justice"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
       "type": "short",
-      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
-      "expected": "Delia.",
+      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "Delia's claim.",
       "element": "characterization",
-      "location": "Sweat, paragraph 18",
+      "location": "Sweat, paragraph 20",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -2634,12 +2634,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
       "options": [
-       "Personification",
-       "Conflict",
+       "Setting",
        "Symbolism",
-       "Hyperbole"
+       "Irony",
+       "Conflict"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -2684,12 +2684,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
       "options": [
-       "Irony",
+       "Structure",
        "Conflict",
-       "Hyperbole",
-       "Foreshadowing"
+       "Imagery",
+       "Irony"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -2698,8 +2698,8 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
-      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
+      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -2714,10 +2714,10 @@
      },
      {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia's claim.",
+      "prompt": "Close reading: how do the diction and syntax of “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Delia.",
       "element": "diction",
-      "location": "Sweat, paragraph 20",
+      "location": "Sweat, paragraph 18",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -2731,8 +2731,8 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
+      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -2751,67 +2751,67 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "Florida"
+      "answer": "homeward"
      },
      {
       "n": 2,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Washing white people's clothes"
+      "answer": "Florida"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "subsided"
+      "answer": "vittles"
      },
      {
       "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "chooses"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "struggles"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "homeward"
-     },
-     {
-      "n": 7,
       "type": "mc",
       "level": "recall",
       "answer": "His mistress, Bertha"
      },
      {
-      "n": 8,
+      "n": 5,
       "type": "mc",
       "level": "recall",
       "answer": "Sykes"
      },
      {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia's claim."
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Washing white people's clothes"
      },
      {
-      "n": 10,
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A rattlesnake"
+     },
+     {
+      "n": 9,
       "type": "mc",
       "level": "inference",
       "answer": "Endurance turning to justice"
      },
      {
-      "n": 11,
+      "n": 10,
       "type": "short",
       "level": "inference",
       "answer": "Delia."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia's claim."
      },
      {
       "n": 12,
@@ -2841,19 +2841,19 @@
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia's claim."
+      "answer": "Delia."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
      }
     ],
     "mix": {
@@ -2863,50 +2863,63 @@
      "synthesis": 3
     },
     "types": {
-     "mc": 6,
-     "fill": 5,
+     "mc": 7,
+     "fill": 4,
      "short": 7
     }
    },
    "ap": {
     "items": [
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "subsided",
-       "chewing",
-       "penniless",
-       "retrospection"
+      "type": "mc",
+      "prompt": "Who is bitten by the snake?",
+      "options": [
+       "Bertha",
+       "A neighbor",
+       "Delia",
+       "Sykes"
       ],
-      "answer": "subsided",
-      "accept": [
-       "subsided"
-      ],
-      "element": "diction",
+      "answer": 3,
+      "element": "irony",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 1
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
-      "wordBank": [
-       "penniless",
-       "struggles",
-       "chewing",
-       "retrospection"
+      "type": "mc",
+      "prompt": "In the line “She had the memory of his numerous trips to Orlando with all of his wages when he had returned to her penniless, even before the first year had passed.”, what does “penniless” most nearly mean?",
+      "options": [
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down",
+       "looking back on the past",
+       "not having enough money to pay for necessities"
       ],
-      "answer": "struggles",
-      "accept": [
-       "struggles"
-      ],
+      "answer": 3,
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "penniless",
+       "triumphant",
+       "subsided",
+       "retrospection"
+      ],
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
      },
      {
       "type": "mc",
@@ -2922,37 +2935,18 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
-      "wordBank": [
-       "homeward",
-       "retrospection",
-       "chewing",
-       "penniless"
-      ],
-      "answer": "homeward",
-      "accept": [
-       "homeward"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 4
      },
      {
       "type": "mc",
-      "prompt": "In the line “She had the memory of his numerous trips to Orlando with all of his wages when he had returned to her penniless, even before the first year had passed.”, what does “penniless” most nearly mean?",
+      "prompt": "In the line “Ah chooses dat long, bowlegged Floridy favorite.\"”, what does “chooses” most nearly mean?",
       "options": [
-       "bent down low with the knees bent",
-       "chew (food); to bite and grind with the teeth",
+       "not having enough money to pay for necessities",
+       "pick out, select, or choose from a number of alternatives",
        "looking back on the past",
-       "not having enough money to pay for necessities"
+       "wear off or die down"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -2960,15 +2954,18 @@
       "n": 5
      },
      {
-      "type": "mc",
-      "prompt": "In the line “A period of introspection, a space of retrospection, then a mixture of both.”, what does “retrospection” most nearly mean?",
-      "options": [
-       "not having enough money to pay for necessities",
-       "looking back on the past",
-       "bent down low with the knees bent",
-       "chew (food); to bite and grind with the teeth"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
+      "wordBank": [
+       "struggles",
+       "subsided",
+       "penniless",
+       "retrospection"
       ],
-      "answer": 1,
+      "answer": "struggles",
+      "accept": [
+       "struggles"
+      ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -2976,16 +2973,15 @@
       "n": 6
      },
      {
-      "type": "mc",
-      "prompt": "In the line “Sykes almost let the huge wad of corn bread and collard greens he was chewing fall out of his mouth in amazement.”, what does “chewing” most nearly mean?",
-      "options": [
-       "bent down low with the knees bent",
-       "chew (food); to bite and grind with the teeth",
-       "not having enough money to pay for necessities",
-       "looking back on the past"
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
+      "answer": "vittles",
+      "accept": [
+       "vittles",
+       "vittles"
       ],
-      "answer": 1,
       "element": "diction",
+      "location": "Sweat, paragraph 20",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2993,10 +2989,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
-      "expected": "Delia's claim.",
+      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Delia.",
       "element": "characterization",
-      "location": "Sweat, paragraph 20",
+      "location": "Sweat, paragraph 18",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -3010,10 +3006,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
-      "expected": "Delia.",
+      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "Delia's claim.",
       "element": "characterization",
-      "location": "Sweat, paragraph 18",
+      "location": "Sweat, paragraph 20",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -3029,12 +3025,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “Sweat”?",
       "options": [
-       "Human limits in an indifferent nature",
+       "What fifteen years of solitude teach",
        "Racial pride destroying love",
-       "Endurance turning to justice",
-       "A girl choosing nature over a stranger's approval"
+       "Human limits in an indifferent nature",
+       "Endurance turning to justice"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3043,10 +3039,10 @@
      },
      {
       "type": "short",
-      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
-      "expected": "The opening.",
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
+      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "location": "Sweat, paragraph 20",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -3060,15 +3056,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
+      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
       "options": [
-       "Setting",
-       "Irony",
-       "Plot",
-       "Tone / mood"
+       "Hyperbole",
+       "Alliteration",
+       "Symbolism",
+       "Personification"
       ],
-      "answer": 1,
-      "element": "irony",
+      "answer": 2,
+      "element": "symbolism",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -3076,10 +3072,10 @@
      },
      {
       "type": "short",
-      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
-      "element": "theme",
-      "location": "Sweat, paragraph 20",
+      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
+      "expected": "The opening.",
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -3093,15 +3089,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
+      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
       "options": [
-       "Symbolism",
        "Irony",
-       "Alliteration",
-       "Hyperbole"
+       "Setting",
+       "Symbolism",
+       "Plot"
       ],
       "answer": 0,
-      "element": "symbolism",
+      "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -3109,30 +3105,13 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
+      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
       "n": 15,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia's claim.",
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3149,6 +3128,22 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
       "n": 17,
       "scoringGuide": {
        "points": 4,
@@ -3159,9 +3154,10 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
-      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "Delia's claim.",
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -3177,57 +3173,57 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "subsided"
+      "answer": "Sykes"
      },
      {
       "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "struggles"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "His mistress, Bertha"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "homeward"
-     },
-     {
-      "n": 5,
       "type": "mc",
       "level": "recall",
       "answer": "not having enough money to pay for necessities"
      },
      {
-      "n": 6,
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "triumphant"
+     },
+     {
+      "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "looking back on the past"
+      "answer": "His mistress, Bertha"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pick out, select, or choose from a number of alternatives"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "struggles"
      },
      {
       "n": 7,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "chew (food); to bite and grind with the teeth"
+      "answer": "vittles"
      },
      {
       "n": 8,
       "type": "short",
       "level": "inference",
-      "answer": "Delia's claim."
+      "answer": "Delia."
      },
      {
       "n": 9,
       "type": "short",
       "level": "inference",
-      "answer": "Delia."
+      "answer": "Delia's claim."
      },
      {
       "n": 10,
@@ -3239,49 +3235,49 @@
       "n": 11,
       "type": "short",
       "level": "analysis",
-      "answer": "The opening."
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 12,
       "type": "mc",
       "level": "analysis",
-      "answer": "Irony"
+      "answer": "Symbolism"
      },
      {
       "n": 13,
       "type": "short",
       "level": "analysis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+      "answer": "The opening."
      },
      {
       "n": 14,
       "type": "mc",
       "level": "analysis",
-      "answer": "Symbolism"
+      "answer": "Irony"
      },
      {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia's claim."
+      "answer": "Delia."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia."
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
+      "answer": "Delia's claim."
      }
     ],
     "mix": {
@@ -3300,76 +3296,11 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
-      "wordBank": [
-       "chewing",
-       "retrospection",
-       "chooses",
-       "penniless"
-      ],
-      "answer": "chooses",
-      "accept": [
-       "chooses"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
-      "answer": "Florida",
-      "accept": [
-       "Florida",
-       "florida"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "Where does Delia wait at the end?",
-      "options": [
-       "In the barn",
-       "Under the Chinaberry tree",
-       "In the church",
-       "At a neighbor's"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
-      "accept": [
-       "vittles",
-       "vittles"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
       "wordBank": [
-       "homeward",
+       "subsided",
        "retrospection",
-       "chewing",
+       "homeward",
        "penniless"
       ],
       "answer": "homeward",
@@ -3380,33 +3311,14 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "subsided",
-       "chewing",
-       "penniless",
-       "retrospection"
-      ],
-      "answer": "subsided",
-      "accept": [
-       "subsided"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
+      "n": 1
      },
      {
       "type": "mc",
-      "prompt": "In the line “Sykes almost let the huge wad of corn bread and collard greens he was chewing fall out of his mouth in amazement.”, what does “chewing” most nearly mean?",
+      "prompt": "In the line “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the…”, what does “subsided” most nearly mean?",
       "options": [
-       "bent down low with the knees bent",
-       "chew (food); to bite and grind with the teeth",
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down",
        "not having enough money to pay for necessities",
        "looking back on the past"
       ],
@@ -3415,330 +3327,23 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 7
+      "n": 2
      },
      {
       "type": "mc",
-      "prompt": "Which choice best states a central concern of “Sweat”?",
+      "prompt": "In the line “A period of introspection, a space of retrospection, then a mixture of both.”, what does “retrospection” most nearly mean?",
       "options": [
-       "Human limits in an indifferent nature",
-       "Racial pride destroying love",
-       "Endurance turning to justice",
-       "A girl choosing nature over a stranger's approval"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
-      "expected": "Delia.",
-      "element": "characterization",
-      "location": "Sweat, paragraph 18",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
-      "expected": "Delia's claim.",
-      "element": "characterization",
-      "location": "Sweat, paragraph 20",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
-      "element": "theme",
-      "location": "Sweat, paragraph 20",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
-      "options": [
-       "Symbolism",
-       "Irony",
-       "Alliteration",
-       "Hyperbole"
-      ],
-      "answer": 0,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
-      "options": [
-       "Setting",
-       "Irony",
-       "Plot",
-       "Tone / mood"
+       "not having enough money to pay for necessities",
+       "looking back on the past",
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down"
       ],
       "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
-      "expected": "The opening.",
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia's claim.",
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia.",
-      "element": "diction",
-      "location": "Sweat, paragraph 18",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
-      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "chooses"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "Florida"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Under the Chinaberry tree"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "vittles"
-     },
-     {
-      "n": 5,
-      "type": "fill",
-      "level": "recall",
-      "answer": "homeward"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "subsided"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "chew (food); to bite and grind with the teeth"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Endurance turning to justice"
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia."
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia's claim."
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The opening."
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Delia's claim."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Delia."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 5,
-     "fill": 5,
-     "short": 8
-    }
-   },
-   "collegeSophomore": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "In the line “She had the memory of his numerous trips to Orlando with all of his wages when he had returned to her penniless, even before the first year had passed.”, what does “penniless” most nearly mean?",
-      "options": [
-       "bent down low with the knees bent",
-       "chew (food); to bite and grind with the teeth",
-       "looking back on the past",
-       "not having enough money to pay for necessities"
-      ],
-      "answer": 3,
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 1
+      "n": 3
      },
      {
       "type": "mc",
@@ -3754,7 +3359,23 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 2
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What does Sykes use to frighten Delia?",
+      "options": [
+       "A whip",
+       "A dog",
+       "A rattlesnake",
+       "A gun"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
      },
      {
       "type": "mc",
@@ -3770,70 +3391,20 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "subsided",
-       "chewing",
-       "penniless",
-       "retrospection"
-      ],
-      "answer": "subsided",
-      "accept": [
-       "subsided"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
-      "accept": [
-       "vittles",
-       "vittles"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "Who is bitten by the snake?",
-      "options": [
-       "Bertha",
-       "A neighbor",
-       "Delia",
-       "Sykes"
-      ],
-      "answer": 3,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 6
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
       "wordBank": [
-       "homeward",
-       "retrospection",
-       "chewing",
-       "penniless"
+       "struggles",
+       "subsided",
+       "penniless",
+       "retrospection"
       ],
-      "answer": "homeward",
+      "answer": "struggles",
       "accept": [
-       "homeward"
+       "struggles"
       ],
       "element": "diction",
       "level": "recall",
@@ -3862,12 +3433,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “Sweat”?",
       "options": [
-       "Human limits in an indifferent nature",
+       "What fifteen years of solitude teach",
        "Racial pride destroying love",
-       "Endurance turning to justice",
-       "A girl choosing nature over a stranger's approval"
+       "Human limits in an indifferent nature",
+       "Endurance turning to justice"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3892,53 +3463,20 @@
       }
      },
      {
-      "type": "short",
-      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
-      "expected": "The opening.",
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
       "options": [
-       "Symbolism",
-       "Irony",
+       "Hyperbole",
        "Alliteration",
-       "Hyperbole"
+       "Symbolism",
+       "Personification"
       ],
-      "answer": 0,
+      "answer": 2,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
-      "options": [
-       "Setting",
-       "Irony",
-       "Plot",
-       "Tone / mood"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
+      "n": 11
      },
      {
       "type": "short",
@@ -3949,7 +3487,57 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
+      "options": [
+       "Irony",
+       "Setting",
+       "Symbolism",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
+      "expected": "The opening.",
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
       "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Delia.",
+      "element": "diction",
+      "location": "Sweat, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3965,7 +3553,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 16,
       "scoringGuide": {
        "points": 4,
        "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
@@ -3979,23 +3567,6 @@
       "expected": "Delia's claim.",
       "element": "diction",
       "location": "Sweat, paragraph 20",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia.",
-      "element": "diction",
-      "location": "Sweat, paragraph 18",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -4027,45 +3598,45 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "not having enough money to pay for necessities"
+      "answer": "homeward"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "Washing white people's clothes"
+      "answer": "wear off or die down"
      },
      {
       "n": 3,
       "type": "mc",
       "level": "recall",
-      "answer": "Under the Chinaberry tree"
+      "answer": "looking back on the past"
      },
      {
       "n": 4,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "subsided"
+      "answer": "Washing white people's clothes"
      },
      {
       "n": 5,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "vittles"
+      "answer": "A rattlesnake"
      },
      {
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "Sykes"
+      "answer": "Under the Chinaberry tree"
      },
      {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "homeward"
+      "answer": "struggles"
      },
      {
       "n": 8,
@@ -4087,15 +3658,15 @@
      },
      {
       "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The opening."
-     },
-     {
-      "n": 12,
       "type": "mc",
       "level": "analysis",
       "answer": "Symbolism"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 13,
@@ -4107,31 +3678,455 @@
       "n": 14,
       "type": "short",
       "level": "analysis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+      "answer": "The opening."
      },
      {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+      "answer": "Delia."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia's claim."
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia."
+      "answer": "Delia's claim."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
       "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is Delia's work?",
+      "options": [
+       "Washing white people's clothes",
+       "Teaching",
+       "Farming",
+       "Cooking in a hotel"
+      ],
+      "answer": 0,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Sykes want in the house instead?",
+      "options": [
+       "His mistress, Bertha",
+       "His brother",
+       "No one",
+       "His mother"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “A period of introspection, a space of retrospection, then a mixture of both.”, what does “retrospection” most nearly mean?",
+      "options": [
+       "not having enough money to pay for necessities",
+       "looking back on the past",
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
+      "wordBank": [
+       "struggles",
+       "subsided",
+       "penniless",
+       "retrospection"
+      ],
+      "answer": "struggles",
+      "accept": [
+       "struggles"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "Who is bitten by the snake?",
+      "options": [
+       "Bertha",
+       "A neighbor",
+       "Delia",
+       "Sykes"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
+      "answer": "Florida",
+      "accept": [
+       "Florida",
+       "florida"
+      ],
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
+      "wordBank": [
+       "subsided",
+       "retrospection",
+       "homeward",
+       "penniless"
+      ],
+      "answer": "homeward",
+      "accept": [
+       "homeward"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "Delia's claim.",
+      "element": "characterization",
+      "location": "Sweat, paragraph 20",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Delia.",
+      "element": "characterization",
+      "location": "Sweat, paragraph 18",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Sweat”?",
+      "options": [
+       "What fifteen years of solitude teach",
+       "Racial pride destroying love",
+       "Human limits in an indifferent nature",
+       "Endurance turning to justice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "location": "Sweat, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
+      "expected": "The opening.",
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
+      "options": [
+       "Irony",
+       "Setting",
+       "Symbolism",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
+      "options": [
+       "Hyperbole",
+       "Alliteration",
+       "Symbolism",
+       "Personification"
+      ],
+      "answer": 2,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "Delia's claim.",
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) shape its meaning? Consider a second, competing reading.",
+      "expected": "Delia.",
+      "element": "diction",
+      "location": "Sweat, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
+      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Washing white people's clothes"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "His mistress, Bertha"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "looking back on the past"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "struggles"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Sykes"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "Florida"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "homeward"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia's claim."
+     },
+     {
+      "n": 9,
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia."
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Endurance turning to justice"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The opening."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Delia's claim."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Delia."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      }
     ],
     "mix": {
@@ -4149,6 +4144,54 @@
    "collegeJunior": {
     "items": [
      {
+      "type": "mc",
+      "prompt": "In the line “Ah chooses dat long, bowlegged Floridy favorite.\"”, what does “chooses” most nearly mean?",
+      "options": [
+       "not having enough money to pay for necessities",
+       "pick out, select, or choose from a number of alternatives",
+       "looking back on the past",
+       "wear off or die down"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "Where does Delia wait at the end?",
+      "options": [
+       "In the barn",
+       "Under the Chinaberry tree",
+       "In the church",
+       "At a neighbor's"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the…”, what does “subsided” most nearly mean?",
+      "options": [
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down",
+       "not having enough money to pay for necessities",
+       "looking back on the past"
+      ],
+      "answer": 1,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
       "type": "fill",
       "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
       "answer": "Florida",
@@ -4161,45 +4204,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
-      "wordBank": [
-       "homeward",
-       "retrospection",
-       "chewing",
-       "penniless"
-      ],
-      "answer": "homeward",
-      "accept": [
-       "homeward"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
-      "wordBank": [
-       "subsided",
-       "chewing",
-       "penniless",
-       "retrospection"
-      ],
-      "answer": "subsided",
-      "accept": [
-       "subsided"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
+      "n": 4
      },
      {
       "type": "mc",
@@ -4215,38 +4220,19 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “She had the memory of his numerous trips to Orlando with all of his wages when he had returned to her penniless, even before the first year had passed.”, what does “penniless” most nearly mean?",
-      "options": [
-       "bent down low with the knees bent",
-       "chew (food); to bite and grind with the teeth",
-       "looking back on the past",
-       "not having enough money to pay for necessities"
-      ],
-      "answer": 3,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 5
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
-      "wordBank": [
-       "penniless",
-       "struggles",
-       "chewing",
-       "retrospection"
+      "type": "mc",
+      "prompt": "What does Sykes use to frighten Delia?",
+      "options": [
+       "A whip",
+       "A dog",
+       "A rattlesnake",
+       "A gun"
       ],
-      "answer": "struggles",
-      "accept": [
-       "struggles"
-      ],
-      "element": "diction",
+      "answer": 2,
+      "element": "symbolism",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -4254,14 +4240,18 @@
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
+      "wordBank": [
+       "struggles",
+       "subsided",
+       "penniless",
+       "retrospection"
+      ],
+      "answer": "struggles",
       "accept": [
-       "vittles",
-       "vittles"
+       "struggles"
       ],
       "element": "diction",
-      "location": "Sweat, paragraph 20",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -4288,12 +4278,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “Sweat”?",
       "options": [
-       "Human limits in an indifferent nature",
+       "What fifteen years of solitude teach",
        "Racial pride destroying love",
-       "Endurance turning to justice",
-       "A girl choosing nature over a stranger's approval"
+       "Human limits in an indifferent nature",
+       "Endurance turning to justice"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -4318,31 +4308,15 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
-      "options": [
-       "Setting",
-       "Irony",
-       "Plot",
-       "Tone / mood"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
       "type": "short",
-      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
-      "expected": "The opening.",
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
+      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "element": "theme",
+      "location": "Sweat, paragraph 20",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 12,
+      "n": 11,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4354,28 +4328,28 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
       "options": [
-       "Symbolism",
-       "Irony",
+       "Hyperbole",
        "Alliteration",
-       "Hyperbole"
+       "Symbolism",
+       "Personification"
       ],
-      "answer": 0,
+      "answer": 2,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 13
+      "n": 12
      },
      {
       "type": "short",
-      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
-      "element": "theme",
-      "location": "Sweat, paragraph 20",
+      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
+      "expected": "The opening.",
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 13,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4384,11 +4358,26 @@
       }
      },
      {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
+      "options": [
+       "Irony",
+       "Setting",
+       "Symbolism",
+       "Plot"
+      ],
+      "answer": 0,
+      "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
       "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia's claim.",
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
+      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
+      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
+      "element": "theme",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -4402,9 +4391,10 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
-      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
-      "element": "theme",
+      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "Delia's claim.",
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -4453,45 +4443,45 @@
     "answerKey": [
      {
       "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pick out, select, or choose from a number of alternatives"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Under the Chinaberry tree"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "wear off or die down"
+     },
+     {
+      "n": 4,
       "type": "fill",
       "level": "recall",
       "answer": "Florida"
      },
      {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "homeward"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "subsided"
-     },
-     {
-      "n": 4,
+      "n": 5,
       "type": "mc",
       "level": "recall",
       "answer": "His mistress, Bertha"
      },
      {
-      "n": 5,
+      "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "not having enough money to pay for necessities"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "struggles"
+      "answer": "A rattlesnake"
      },
      {
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "vittles"
+      "answer": "struggles"
      },
      {
       "n": 8,
@@ -4513,39 +4503,39 @@
      },
      {
       "n": 11,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Irony"
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The opening."
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 14,
       "type": "short",
       "level": "analysis",
       "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "The opening."
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Irony"
+     },
+     {
       "n": 15,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia's claim."
+      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
      },
      {
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
+      "answer": "Delia's claim."
      },
      {
       "n": 17,
@@ -4567,8 +4557,8 @@
      "synthesis": 4
     },
     "types": {
-     "mc": 5,
-     "fill": 5,
+     "mc": 8,
+     "fill": 2,
      "short": 8
     }
    },
@@ -4576,15 +4566,15 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "Who is bitten by the snake?",
+      "prompt": "In the line “She had the memory of his numerous trips to Orlando with all of his wages when he had returned to her penniless, even before the first year had passed.”, what does “penniless” most nearly mean?",
       "options": [
-       "Bertha",
-       "A neighbor",
-       "Delia",
-       "Sykes"
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down",
+       "looking back on the past",
+       "not having enough money to pay for necessities"
       ],
       "answer": 3,
-      "element": "irony",
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -4592,16 +4582,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the snake had abruptly _____.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
       "wordBank": [
        "subsided",
-       "chewing",
-       "penniless",
-       "retrospection"
+       "retrospection",
+       "homeward",
+       "penniless"
       ],
-      "answer": "subsided",
+      "answer": "homeward",
       "accept": [
-       "subsided"
+       "homeward"
       ],
       "element": "diction",
       "level": "recall",
@@ -4611,38 +4601,18 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
-      "wordBank": [
-       "chewing",
-       "retrospection",
-       "chooses",
-       "penniless"
-      ],
-      "answer": "chooses",
+      "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
+      "answer": "Florida",
       "accept": [
-       "chooses"
+       "Florida",
+       "florida"
       ],
       "element": "diction",
+      "location": "Sweat, paragraph 1",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "What is Delia's work?",
-      "options": [
-       "Washing white people's clothes",
-       "Teaching",
-       "Farming",
-       "Cooking in a hotel"
-      ],
-      "answer": 0,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
      },
      {
       "type": "mc",
@@ -4658,30 +4628,34 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 5
+      "n": 4
      },
      {
       "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
-      "answer": "Florida",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "penniless",
+       "triumphant",
+       "subsided",
+       "retrospection"
+      ],
+      "answer": "triumphant",
       "accept": [
-       "Florida",
-       "florida"
+       "triumphant"
       ],
       "element": "diction",
-      "location": "Sweat, paragraph 1",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 6
+      "n": 5
      },
      {
       "type": "fill",
       "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
       "wordBank": [
-       "penniless",
        "struggles",
-       "chewing",
+       "subsided",
+       "penniless",
        "retrospection"
       ],
       "answer": "struggles",
@@ -4692,14 +4666,30 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "Whom does Sykes want in the house instead?",
+      "options": [
+       "His mistress, Bertha",
+       "His brother",
+       "No one",
+       "His mother"
+      ],
+      "answer": 0,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 7
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
-      "expected": "Delia.",
+      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "Delia's claim.",
       "element": "characterization",
-      "location": "Sweat, paragraph 18",
+      "location": "Sweat, paragraph 20",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -4715,12 +4705,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “Sweat”?",
       "options": [
-       "Human limits in an indifferent nature",
+       "What fifteen years of solitude teach",
        "Racial pride destroying love",
-       "Endurance turning to justice",
-       "A girl choosing nature over a stranger's approval"
+       "Human limits in an indifferent nature",
+       "Endurance turning to justice"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -4729,10 +4719,10 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
-      "expected": "Delia's claim.",
+      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Delia.",
       "element": "characterization",
-      "location": "Sweat, paragraph 20",
+      "location": "Sweat, paragraph 18",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -4745,22 +4735,6 @@
       }
      },
      {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
-      "options": [
-       "Symbolism",
-       "Irony",
-       "Alliteration",
-       "Hyperbole"
-      ],
-      "answer": 0,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
       "type": "short",
       "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
       "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
@@ -4769,7 +4743,7 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 12,
+      "n": 11,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -4781,13 +4755,29 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
       "options": [
-       "Setting",
        "Irony",
-       "Plot",
-       "Tone / mood"
+       "Setting",
+       "Symbolism",
+       "Plot"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "irony",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
+      "options": [
+       "Hyperbole",
+       "Alliteration",
+       "Symbolism",
+       "Personification"
+      ],
+      "answer": 2,
+      "element": "symbolism",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -4829,8 +4819,8 @@
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
-      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
+      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -4845,8 +4835,8 @@
      },
      {
       "type": "short",
-      "prompt": "Evaluate this claim about the story: “Delia's labor gives her a moral claim to the home that Sykes tries to take.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
+      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
+      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
       "element": "theme",
       "level": "synthesis",
       "dok": 4,
@@ -4882,49 +4872,49 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "Sykes"
+      "answer": "not having enough money to pay for necessities"
      },
      {
       "n": 2,
       "type": "fill",
       "level": "recall",
-      "answer": "subsided"
+      "answer": "homeward"
      },
      {
       "n": 3,
       "type": "fill",
       "level": "recall",
-      "answer": "chooses"
+      "answer": "Florida"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "Washing white people's clothes"
+      "answer": "Under the Chinaberry tree"
      },
      {
       "n": 5,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Under the Chinaberry tree"
+      "answer": "triumphant"
      },
      {
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "Florida"
+      "answer": "struggles"
      },
      {
       "n": 7,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "struggles"
+      "answer": "His mistress, Bertha"
      },
      {
       "n": 8,
       "type": "short",
       "level": "inference",
-      "answer": "Delia."
+      "answer": "Delia's claim."
      },
      {
       "n": 9,
@@ -4936,25 +4926,25 @@
       "n": 10,
       "type": "short",
       "level": "inference",
-      "answer": "Delia's claim."
+      "answer": "Delia."
      },
      {
       "n": 11,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 12,
       "type": "short",
       "level": "analysis",
       "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
-      "n": 13,
+      "n": 12,
       "type": "mc",
       "level": "analysis",
       "answer": "Irony"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
      },
      {
       "n": 14,
@@ -4972,13 +4962,13 @@
       "n": 16,
       "type": "short",
       "level": "synthesis",
-      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
      },
      {
       "n": 18,
@@ -5003,33 +4993,30 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "Who is bitten by the snake?",
+      "prompt": "Where does Delia wait at the end?",
       "options": [
-       "Bertha",
-       "A neighbor",
-       "Delia",
-       "Sykes"
+       "In the barn",
+       "Under the Chinaberry tree",
+       "In the church",
+       "At a neighbor's"
       ],
-      "answer": 3,
-      "element": "irony",
+      "answer": 1,
+      "element": "setting",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 1
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the emotional winds her domestic trials were borne far and wide so that she sang as she drove _____,”",
-      "wordBank": [
-       "homeward",
-       "retrospection",
-       "chewing",
-       "penniless"
+      "type": "mc",
+      "prompt": "In the line “A period of introspection, a space of retrospection, then a mixture of both.”, what does “retrospection” most nearly mean?",
+      "options": [
+       "not having enough money to pay for necessities",
+       "looking back on the past",
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down"
       ],
-      "answer": "homeward",
-      "accept": [
-       "homeward"
-      ],
+      "answer": 1,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -5037,26 +5024,11 @@
       "n": 2
      },
      {
-      "type": "fill",
-      "prompt": "Complete the quotation from Sweat, paragraph 20: “Mah tub of suds is filled yo' belly with _____ more times than yo' hands is filled it”",
-      "answer": "vittles",
-      "accept": [
-       "vittles",
-       "vittles"
-      ],
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
       "type": "mc",
-      "prompt": "In the line “Sykes almost let the huge wad of corn bread and collard greens he was chewing fall out of his mouth in amazement.”, what does “chewing” most nearly mean?",
+      "prompt": "In the line “The shade torn violently down from the window, letting in the red dawn, a huge brown hand seizing the window stick, great dull blows upon the wooden floor punctuating the gibberish of sound long after the rattle of the…”, what does “subsided” most nearly mean?",
       "options": [
-       "bent down low with the knees bent",
-       "chew (food); to bite and grind with the teeth",
+       "pick out, select, or choose from a number of alternatives",
+       "wear off or die down",
        "not having enough money to pay for necessities",
        "looking back on the past"
       ],
@@ -5065,85 +5037,87 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 4
+      "n": 3
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “Ah _____ dat long, bowlegged Floridy favorite.\"”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “She went on into the house with a new hope in its birth _____.”",
       "wordBank": [
-       "chewing",
-       "retrospection",
-       "chooses",
-       "penniless"
+       "struggles",
+       "subsided",
+       "penniless",
+       "retrospection"
       ],
-      "answer": "chooses",
+      "answer": "struggles",
       "accept": [
-       "chooses"
+       "struggles"
       ],
       "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is Delia's work?",
+      "options": [
+       "Washing white people's clothes",
+       "Teaching",
+       "Farming",
+       "Cooking in a hotel"
+      ],
+      "answer": 0,
+      "element": "characterization",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 5
      },
      {
-      "type": "mc",
-      "prompt": "In the line “Delia descended without fear now, and crouched beneath the low bedroom window.”, what does “crouched” most nearly mean?",
-      "options": [
-       "not having enough money to pay for necessities",
-       "bent down low with the knees bent",
-       "looking back on the past",
-       "chew (food); to bite and grind with the teeth"
+      "type": "fill",
+      "prompt": "Complete the quotation from Sweat, paragraph 1: “It was eleven o'clock of a Spring night in _____”",
+      "answer": "Florida",
+      "accept": [
+       "Florida",
+       "florida"
       ],
-      "answer": 1,
       "element": "diction",
+      "location": "Sweat, paragraph 1",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 6
      },
      {
-      "type": "mc",
-      "prompt": "What does Sykes use to frighten Delia?",
-      "options": [
-       "A whip",
-       "A dog",
-       "A rattlesnake",
-       "A gun"
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “A _____ indifference to all that he was or did.”",
+      "wordBank": [
+       "penniless",
+       "triumphant",
+       "subsided",
+       "retrospection"
       ],
-      "answer": 2,
-      "element": "symbolism",
+      "answer": "triumphant",
+      "accept": [
+       "triumphant"
+      ],
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 7
      },
      {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “Sweat”?",
-      "options": [
-       "Human limits in an indifferent nature",
-       "Racial pride destroying love",
-       "Endurance turning to justice",
-       "A girl choosing nature over a stranger's approval"
-      ],
-      "answer": 2,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
       "type": "short",
-      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
-      "expected": "Delia's claim.",
+      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
+      "expected": "Delia.",
       "element": "characterization",
-      "location": "Sweat, paragraph 20",
+      "location": "Sweat, paragraph 18",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
-      "n": 9,
+      "n": 8,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -5152,11 +5126,27 @@
       }
      },
      {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “Sweat”?",
+      "options": [
+       "What fifteen years of solitude teach",
+       "Racial pride destroying love",
+       "Human limits in an indifferent nature",
+       "Endurance turning to justice"
+      ],
+      "answer": 3,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
       "type": "short",
-      "prompt": "What can you infer from this line? “Sweat, sweat, sweat! Work and sweat, cry and sweat, pray and sweat” (Sweat, paragraph 18) Answer in two or three sentences with one detail.",
-      "expected": "Delia.",
+      "prompt": "What can you infer from this line? “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) Answer in two or three sentences with one detail.",
+      "expected": "Delia's claim.",
       "element": "characterization",
-      "location": "Sweat, paragraph 18",
+      "location": "Sweat, paragraph 20",
       "level": "inference",
       "dok": 2,
       "chapterIndex": 0,
@@ -5170,10 +5160,10 @@
      },
      {
       "type": "short",
-      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
-      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
-      "element": "theme",
-      "location": "Sweat, paragraph 20",
+      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
+      "expected": "The opening.",
+      "element": "diction",
+      "location": "Sweat, paragraph 1",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -5189,12 +5179,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? The snake (and the bullwhip Sykes throws on her, which \"looks just like a snake\") stands for Sykes's cruelty and, biblically, for evil in the home.",
       "options": [
-       "Symbolism",
-       "Irony",
+       "Hyperbole",
        "Alliteration",
-       "Hyperbole"
+       "Symbolism",
+       "Personification"
       ],
-      "answer": 0,
+      "answer": 2,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -5202,47 +5192,31 @@
       "n": 12
      },
      {
-      "type": "short",
-      "prompt": "Analyze the word choice in “It was eleven o'clock of a Spring night in Florida” (Sweat, paragraph 1). Pick two words and explain what they suggest.",
-      "expected": "The opening.",
-      "element": "diction",
-      "location": "Sweat, paragraph 1",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
       "type": "mc",
       "prompt": "Which literary element does this describe in “Sweat”? Sykes brings the rattlesnake to kill Delia, who fears snakes, and it kills him instead; his weapon recoils on him.",
       "options": [
-       "Setting",
        "Irony",
-       "Plot",
-       "Tone / mood"
+       "Setting",
+       "Symbolism",
+       "Plot"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14
+      "n": 13
      },
      {
       "type": "short",
-      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
-      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
+      "prompt": "Claim: Delia's labor gives her a moral claim to the home that Sykes tries to take. Explain how this evidence supports the claim: “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20).",
+      "expected": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned.",
       "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
+      "location": "Sweat, paragraph 20",
+      "level": "analysis",
+      "dok": 3,
       "chapterIndex": 0,
-      "n": 15,
+      "n": 14,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -5258,24 +5232,7 @@
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
-      "expected": "Delia's claim.",
-      "element": "diction",
-      "location": "Sweat, paragraph 20",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
+      "n": 15,
       "scoringGuide": {
        "points": 5,
        "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
@@ -5289,6 +5246,39 @@
       "expected": "Delia.",
       "element": "diction",
       "location": "Sweat, paragraph 18",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how justice develops from an earlier story to “Sweat”. Use one quotation from each.",
+      "expected": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 5,
+       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
+       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it” (Sweat, paragraph 20) shape its meaning? Consider a second, competing reading.",
+      "expected": "Delia's claim.",
+      "element": "diction",
+      "location": "Sweat, paragraph 20",
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
@@ -5306,67 +5296,67 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "Sykes"
+      "answer": "Under the Chinaberry tree"
      },
      {
       "n": 2,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "homeward"
+      "answer": "looking back on the past"
      },
      {
       "n": 3,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "vittles"
+      "answer": "wear off or die down"
      },
      {
       "n": 4,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "chew (food); to bite and grind with the teeth"
+      "answer": "struggles"
      },
      {
       "n": 5,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "chooses"
+      "answer": "Washing white people's clothes"
      },
      {
       "n": 6,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "bent down low with the knees bent"
+      "answer": "Florida"
      },
      {
       "n": 7,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "A rattlesnake"
+      "answer": "triumphant"
      },
      {
       "n": 8,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Endurance turning to justice"
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "Delia's claim."
-     },
-     {
-      "n": 10,
       "type": "short",
       "level": "inference",
       "answer": "Delia."
      },
      {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Endurance turning to justice"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Delia's claim."
+     },
+     {
       "n": 11,
       "type": "short",
       "level": "analysis",
-      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
+      "answer": "The opening."
      },
      {
       "n": 12,
@@ -5376,39 +5366,39 @@
      },
      {
       "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "The opening."
-     },
-     {
-      "n": 14,
       "type": "mc",
       "level": "analysis",
       "answer": "Irony"
      },
      {
-      "n": 15,
+      "n": 14,
       "type": "short",
-      "level": "synthesis",
-      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
+      "level": "analysis",
+      "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
-      "n": 16,
+      "n": 15,
       "type": "short",
       "level": "synthesis",
       "answer": "She tells him \"Mah tub of suds is filled yo' belly with vittles more times than yo' hands is filled it,\" and sums up fifteen years as \"Sweat, sweat, sweat!\"; when Sykes's own snake kills him, the story lets her keep what she earned."
      },
      {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Delia."
+     },
+     {
       "n": 17,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia's claim."
+      "answer": "Sykes reaps what he sows; the story asks whether Delia's choice not to help is justice, revenge or survival."
      },
      {
       "n": 18,
       "type": "short",
       "level": "synthesis",
-      "answer": "Delia."
+      "answer": "Delia's claim."
      }
     ],
     "mix": {
@@ -5436,17 +5426,17 @@
     "middleSchool": {
      "label": "Scaffolded support",
      "standards": [
-      "W.7.1",
-      "RL.7.2"
+      "W.9-10.1",
+      "RL.9-10.2"
      ],
      "alignment": {
       "ccss": [
-       "W.7.1",
-       "RL.7.2"
+       "W.9-10.1",
+       "RL.9-10.2"
       ],
       "IN": [
-       "7.W.1",
-       "7.RC.2"
+       "9-10.W.1",
+       "9-10.RC.2"
       ]
      },
      "text": "Supported track: write a five-paragraph essay explaining what Sweat teaches about endurance and justice. Use at least three quotations from passages your teacher selects from different parts of the book.",
@@ -5657,17 +5647,17 @@
     "middleSchool": {
      "label": "Scaffolded support",
      "standards": [
-      "W.7.1",
-      "RL.7.2"
+      "W.9-10.1",
+      "RL.9-10.2"
      ],
      "alignment": {
       "ccss": [
-       "W.7.1",
-       "RL.7.2"
+       "W.9-10.1",
+       "RL.9-10.2"
       ],
       "IN": [
-       "7.W.1",
-       "7.RC.2"
+       "9-10.W.1",
+       "9-10.RC.2"
       ]
      },
      "text": "Supported track: write a five-paragraph essay explaining what Sweat teaches about domestic abuse. Use at least three quotations from passages your teacher selects from different parts of the book.",
@@ -5878,17 +5868,17 @@
     "middleSchool": {
      "label": "Scaffolded support",
      "standards": [
-      "W.7.1",
-      "RL.7.2"
+      "W.9-10.1",
+      "RL.9-10.2"
      ],
      "alignment": {
       "ccss": [
-       "W.7.1",
-       "RL.7.2"
+       "W.9-10.1",
+       "RL.9-10.2"
       ],
       "IN": [
-       "7.W.1",
-       "7.RC.2"
+       "9-10.W.1",
+       "9-10.RC.2"
       ]
      },
      "text": "Supported track: write a five-paragraph essay explaining what Sweat teaches about faith. Use at least three quotations from passages your teacher selects from different parts of the book.",

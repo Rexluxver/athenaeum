@@ -385,7 +385,7 @@
    },
    "alignment": "Questioning design (our description; see docs/questioning-alignment.md): every lesson offers questions at three cognitive levels with DOK tags, built-in wait time, follow-up probes after each answer, think-pair-share for higher-order items and a student-generated question routine, with a level-specific focus set for each of the eleven rigor levels. It is designed to support classroom observation frameworks such as the NIET Teaching Standards Rubric (Questioning indicator); it is not NIET material and is not endorsed by NIET."
   },
-  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). Scaffolded-support prompts use the full text when the grade tags include 6–8; otherwise teacher-selected passages.",
+  "middleSchoolTrack": "Short story: read whole in one 90-minute lesson (assign longer stories as pre-reading). The scaffolded-support track works from the full text with scaffolds.",
   "weeks": 1,
   "lessons": 1,
   "unitDays": 2,
@@ -460,12 +460,10 @@
    "RL.11-12.2",
    "RL.11-12.5",
    "W.9-10.1",
-   "W.11-12.1",
-   "RL.7.2"
+   "W.11-12.1"
   ],
   "standardsByFramework": {
    "ccss": [
-    "RL.7.2",
     "RL.9-10.1",
     "RL.9-10.2",
     "RL.9-10.3",
@@ -475,16 +473,12 @@
     "RL.11-12.2",
     "RL.11-12.4",
     "RL.11-12.5",
-    "W.7.1",
     "W.9-10.1",
     "W.11-12.1",
     "L.9-10.4",
     "L.11-12.4"
    ],
    "IN": [
-    "7.RC.2",
-    "7.RC.3",
-    "7.W.1",
     "9-10.RC.1",
     "9-10.RC.2",
     "9-10.RC.3",
@@ -606,15 +600,15 @@
    },
    {
     "type": "mc",
-    "prompt": "What does she see behind the wallpaper's pattern?",
+    "prompt": "What is the narrator forbidden to do?",
     "options": [
-     "A woman creeping and trapped",
-     "A map",
-     "Words",
-     "A face of her mother"
+     "Leave the country",
+     "See her baby at all",
+     "Eat meat",
+     "Work and write"
     ],
-    "answer": 0,
-    "element": "symbolism",
+    "answer": 3,
+    "element": "conflict",
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
@@ -634,23 +628,23 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 3
+    "n": 4
    },
    {
     "type": "mc",
-    "prompt": "What is the narrator forbidden to do?",
+    "prompt": "What does she see behind the wallpaper's pattern?",
     "options": [
-     "Leave the country",
-     "See her baby at all",
-     "Eat meat",
-     "Work and write"
+     "A woman creeping and trapped",
+     "A map",
+     "Words",
+     "A face of her mother"
     ],
-    "answer": 3,
-    "element": "conflict",
+    "answer": 0,
+    "element": "symbolism",
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 4
+    "n": 7
    },
    {
     "type": "mc",
@@ -666,55 +660,55 @@
     "level": "recall",
     "dok": 1,
     "chapterIndex": 0,
-    "n": 5
+    "n": 9
    },
    {
     "type": "mc",
     "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
     "options": [
-     "Science that poisons love",
      "Reason struggling against terror",
-     "Human limits in an indifferent nature",
-     "Confinement driving a woman into madness"
+     "Confinement driving a woman into madness",
+     "Revenge carried out with perfect control",
+     "A woman's brief taste of freedom"
     ],
-    "answer": 3,
+    "answer": 1,
     "element": "theme",
     "level": "inference",
     "dok": 2,
     "chapterIndex": 0,
-    "n": 13
-   },
-   {
-    "type": "mc",
-    "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
-    "options": [
-     "Structure",
-     "Point of view",
-     "Imagery",
-     "Foreshadowing"
-    ],
-    "answer": 1,
-    "element": "pointOfView",
-    "level": "analysis",
-    "dok": 3,
-    "chapterIndex": 0,
-    "n": 15
+    "n": 11
    },
    {
     "type": "mc",
     "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
     "options": [
-     "Imagery",
+     "Setting",
+     "Symbolism",
      "Point of view",
-     "Theme",
-     "Symbolism"
+     "Hyperbole"
     ],
-    "answer": 3,
+    "answer": 1,
     "element": "symbolism",
     "level": "analysis",
     "dok": 3,
     "chapterIndex": 0,
-    "n": 16
+    "n": 14
+   },
+   {
+    "type": "mc",
+    "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
+    "options": [
+     "Hyperbole",
+     "Imagery",
+     "Simile",
+     "Point of view"
+    ],
+    "answer": 3,
+    "element": "pointOfView",
+    "level": "analysis",
+    "dok": 3,
+    "chapterIndex": 0,
+    "n": 15
    }
   ],
   "answerKey": [
@@ -725,8 +719,8 @@
    },
    {
     "n": 2,
-    "answer": "A woman creeping and trapped",
-    "element": "symbolism"
+    "answer": "Work and write",
+    "element": "conflict"
    },
    {
     "n": 3,
@@ -735,8 +729,8 @@
    },
    {
     "n": 4,
-    "answer": "Work and write",
-    "element": "conflict"
+    "answer": "A woman creeping and trapped",
+    "element": "symbolism"
    },
    {
     "n": 5,
@@ -750,13 +744,13 @@
    },
    {
     "n": 7,
-    "answer": "Point of view",
-    "element": "pointOfView"
+    "answer": "Symbolism",
+    "element": "symbolism"
    },
    {
     "n": 8,
-    "answer": "Symbolism",
-    "element": "symbolism"
+    "answer": "Point of view",
+    "element": "pointOfView"
    }
   ],
   "versions": {
@@ -793,42 +787,20 @@
       "n": 2
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
-      "wordBank": [
-       "congenial",
-       "entertainment",
-       "splintered",
-       "journeys"
+      "type": "mc",
+      "prompt": "In which room is the narrator kept?",
+      "options": [
+       "The library",
+       "An upstairs nursery with barred windows",
+       "The parlor",
+       "The cellar"
       ],
-      "answer": "entertainment",
-      "accept": [
-       "entertainment"
-      ],
-      "element": "diction",
+      "answer": 1,
+      "element": "setting",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
-      "wordBank": [
-       "splintered",
-       "journeys",
-       "tiresome",
-       "congenial"
-      ],
-      "answer": "tiresome",
-      "accept": [
-       "tiresome"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
      },
      {
       "type": "mc",
@@ -841,6 +813,25 @@
       ],
       "answer": 1,
       "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
+      "wordBank": [
+       "splintered",
+       "provoking",
+       "entertainment",
+       "congenial"
+      ],
+      "answer": "entertainment",
+      "accept": [
+       "entertainment"
+      ],
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -864,38 +855,22 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
       "wordBank": [
-       "humiliating",
-       "journeys",
+       "tiresome",
+       "provoking",
        "splintered",
        "congenial"
       ],
-      "answer": "humiliating",
+      "answer": "tiresome",
       "accept": [
-       "humiliating"
+       "tiresome"
       ],
       "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
       "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "In which room is the narrator kept?",
-      "options": [
-       "The library",
-       "An upstairs nursery with barred windows",
-       "The parlor",
-       "The cellar"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
      },
      {
       "type": "mc",
@@ -911,7 +886,7 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 9
+      "n": 8
      },
      {
       "type": "mc",
@@ -927,853 +902,21 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 10
+      "n": 9
      },
      {
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
       "options": [
-       "Science that poisons love",
        "Reason struggling against terror",
-       "Human limits in an indifferent nature",
-       "Confinement driving a woman into madness"
+       "Confinement driving a woman into madness",
+       "Revenge carried out with perfect control",
+       "A woman's brief taste of freedom"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "theme",
       "level": "inference",
       "dok": 2,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
-      "expected": "Obsession begins.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
-      "expected": "Irony.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
-      "options": [
-       "Structure",
-       "Point of view",
-       "Imagery",
-       "Foreshadowing"
-      ],
-      "answer": 1,
-      "element": "pointOfView",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
-      "options": [
-       "Imagery",
-       "Point of view",
-       "Theme",
-       "Symbolism"
-      ],
-      "answer": 3,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
-      "expected": "Her \"freedom.\"",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 257",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how oppression of women develops from an earlier story to “The Yellow Wallpaper”. Use one quotation from each.",
-      "expected": "she is infantilized in a nursery.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "marriage"
-     },
-     {
-      "n": 2,
-      "type": "fill",
-      "level": "recall",
-      "answer": "things"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "entertainment"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "tiresome"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "John faints and she creeps over him"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Work and write"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "humiliating"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "recall",
-      "answer": "An upstairs nursery with barred windows"
-     },
-     {
-      "n": 9,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A woman creeping and trapped"
-     },
-     {
-      "n": 10,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Physician"
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Confinement driving a woman into madness"
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "inference",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "inference",
-      "answer": "Irony."
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     },
-     {
-      "n": 15,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Point of view"
-     },
-     {
-      "n": 16,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Her \"freedom.\""
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "she is infantilized in a nursery."
-     }
-    ],
-    "mix": {
-     "recall": 10,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 1
-    },
-    "types": {
-     "mc": 8,
-     "fill": 5,
-     "short": 5
-    }
-   },
-   "hsFreshman": {
-    "items": [
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
-      "wordBank": [
-       "humiliating",
-       "journeys",
-       "splintered",
-       "congenial"
-      ],
-      "answer": "humiliating",
-      "accept": [
-       "humiliating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "How does the story end?",
-      "options": [
-       "She escapes",
-       "John faints and she creeps over him",
-       "She burns the house",
-       "She is cured"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the narrator's husband's job?",
-      "options": [
-       "Minister",
-       "Physician",
-       "Banker",
-       "Lawyer"
-      ],
-      "answer": 1,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
-      "wordBank": [
-       "congenial",
-       "entertainment",
-       "splintered",
-       "journeys"
-      ],
-      "answer": "entertainment",
-      "accept": [
-       "entertainment"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "What does she see behind the wallpaper's pattern?",
-      "options": [
-       "A woman creeping and trapped",
-       "A map",
-       "Words",
-       "A face of her mother"
-      ],
-      "answer": 0,
-      "element": "symbolism",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "In which room is the narrator kept?",
-      "options": [
-       "The library",
-       "An upstairs nursery with barred windows",
-       "The parlor",
-       "The cellar"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the narrator forbidden to do?",
-      "options": [
-       "Leave the country",
-       "See her baby at all",
-       "Eat meat",
-       "Work and write"
-      ],
-      "answer": 3,
-      "element": "conflict",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
-      "answer": "things",
-      "accept": [
-       "things",
-       "things"
-      ],
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
-      "wordBank": [
-       "splintered",
-       "journeys",
-       "tiresome",
-       "congenial"
-      ],
-      "answer": "tiresome",
-      "accept": [
-       "tiresome"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 5: “John laughs at me, of course, but one expects that in _____”",
-      "answer": "marriage",
-      "accept": [
-       "marriage",
-       "marriage"
-      ],
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
-      "options": [
-       "Science that poisons love",
-       "Reason struggling against terror",
-       "Human limits in an indifferent nature",
-       "Confinement driving a woman into madness"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
-      "expected": "Irony.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
-      "expected": "Obsession begins.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
-      "expected": "Her \"freedom.\"",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 257",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
-      "options": [
-       "Imagery",
-       "Point of view",
-       "Theme",
-       "Symbolism"
-      ],
-      "answer": 3,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
-      "options": [
-       "Structure",
-       "Point of view",
-       "Imagery",
-       "Foreshadowing"
-      ],
-      "answer": 1,
-      "element": "pointOfView",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 17
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how oppression of women develops from an earlier story to “The Yellow Wallpaper”. Use one quotation from each.",
-      "expected": "she is infantilized in a nursery.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "humiliating"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "John faints and she creeps over him"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Physician"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "entertainment"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A woman creeping and trapped"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "An upstairs nursery with barred windows"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Work and write"
-     },
-     {
-      "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "things"
-     },
-     {
-      "n": 9,
-      "type": "fill",
-      "level": "recall",
-      "answer": "tiresome"
-     },
-     {
-      "n": 10,
-      "type": "fill",
-      "level": "recall",
-      "answer": "marriage"
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Confinement driving a woman into madness"
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "inference",
-      "answer": "Irony."
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "inference",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Her \"freedom.\""
-     },
-     {
-      "n": 16,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 17,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Point of view"
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "she is infantilized in a nursery."
-     }
-    ],
-    "mix": {
-     "recall": 10,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 1
-    },
-    "types": {
-     "mc": 8,
-     "fill": 5,
-     "short": 5
-    }
-   },
-   "hsSophomore": {
-    "items": [
-     {
-      "type": "mc",
-      "prompt": "What is the narrator's husband's job?",
-      "options": [
-       "Minister",
-       "Physician",
-       "Banker",
-       "Lawyer"
-      ],
-      "answer": 1,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "What does she see behind the wallpaper's pattern?",
-      "options": [
-       "A woman creeping and trapped",
-       "A map",
-       "Words",
-       "A face of her mother"
-      ],
-      "answer": 0,
-      "element": "symbolism",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "In which room is the narrator kept?",
-      "options": [
-       "The library",
-       "An upstairs nursery with barred windows",
-       "The parlor",
-       "The cellar"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the narrator forbidden to do?",
-      "options": [
-       "Leave the country",
-       "See her baby at all",
-       "Eat meat",
-       "Work and write"
-      ],
-      "answer": 3,
-      "element": "conflict",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "How does the story end?",
-      "options": [
-       "She escapes",
-       "John faints and she creeps over him",
-       "She burns the house",
-       "She is cured"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
-      "answer": "things",
-      "accept": [
-       "things",
-       "things"
-      ],
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
-      "wordBank": [
-       "splintered",
-       "journeys",
-       "tiresome",
-       "congenial"
-      ],
-      "answer": "tiresome",
-      "accept": [
-       "tiresome"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 5: “John laughs at me, of course, but one expects that in _____”",
-      "answer": "marriage",
-      "accept": [
-       "marriage",
-       "marriage"
-      ],
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
-      "wordBank": [
-       "humiliating",
-       "journeys",
-       "splintered",
-       "congenial"
-      ],
-      "answer": "humiliating",
-      "accept": [
-       "humiliating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
-      "wordBank": [
-       "congenial",
-       "entertainment",
-       "splintered",
-       "journeys"
-      ],
-      "answer": "entertainment",
-      "accept": [
-       "entertainment"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
       "chapterIndex": 0,
       "n": 10
      },
@@ -1788,10 +931,10 @@
       "chapterIndex": 0,
       "n": 11,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
       }
      },
      {
@@ -1805,27 +948,11 @@
       "chapterIndex": 0,
       "n": 12,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
       }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
-      "options": [
-       "Science that poisons love",
-       "Reason struggling against terror",
-       "Human limits in an indifferent nature",
-       "Confinement driving a woman into madness"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 13
      },
      {
       "type": "short",
@@ -1836,434 +963,25 @@
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
-      "n": 14,
+      "n": 13,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
       }
      },
      {
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
       "options": [
-       "Structure",
-       "Point of view",
+       "Hyperbole",
        "Imagery",
-       "Foreshadowing"
+       "Simile",
+       "Point of view"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "pointOfView",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
-      "options": [
-       "Imagery",
-       "Point of view",
-       "Theme",
-       "Symbolism"
-      ],
-      "answer": 3,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 16
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) shape its meaning? Consider a second, competing reading.",
-      "expected": "Obsession begins.",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The narrator's madness is a response to her confinement.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Physician"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A woman creeping and trapped"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "An upstairs nursery with barred windows"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Work and write"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "John faints and she creeps over him"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "things"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "tiresome"
-     },
-     {
-      "n": 8,
-      "type": "fill",
-      "level": "recall",
-      "answer": "marriage"
-     },
-     {
-      "n": 9,
-      "type": "fill",
-      "level": "recall",
-      "answer": "humiliating"
-     },
-     {
-      "n": 10,
-      "type": "fill",
-      "level": "recall",
-      "answer": "entertainment"
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "inference",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 12,
-      "type": "short",
-      "level": "inference",
-      "answer": "Irony."
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Confinement driving a woman into madness"
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     },
-     {
-      "n": 15,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Point of view"
-     },
-     {
-      "n": 16,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     }
-    ],
-    "mix": {
-     "recall": 10,
-     "inference": 3,
-     "analysis": 3,
-     "synthesis": 2
-    },
-    "types": {
-     "mc": 8,
-     "fill": 5,
-     "short": 5
-    }
-   },
-   "hsJunior": {
-    "items": [
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
-      "wordBank": [
-       "splintered",
-       "journeys",
-       "tiresome",
-       "congenial"
-      ],
-      "answer": "tiresome",
-      "accept": [
-       "tiresome"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
-      "answer": "things",
-      "accept": [
-       "things",
-       "things"
-      ],
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
-      "wordBank": [
-       "congenial",
-       "entertainment",
-       "splintered",
-       "journeys"
-      ],
-      "answer": "entertainment",
-      "accept": [
-       "entertainment"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "What does she see behind the wallpaper's pattern?",
-      "options": [
-       "A woman creeping and trapped",
-       "A map",
-       "Words",
-       "A face of her mother"
-      ],
-      "answer": 0,
-      "element": "symbolism",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In which room is the narrator kept?",
-      "options": [
-       "The library",
-       "An upstairs nursery with barred windows",
-       "The parlor",
-       "The cellar"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the narrator forbidden to do?",
-      "options": [
-       "Leave the country",
-       "See her baby at all",
-       "Eat meat",
-       "Work and write"
-      ],
-      "answer": 3,
-      "element": "conflict",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the narrator's husband's job?",
-      "options": [
-       "Minister",
-       "Physician",
-       "Banker",
-       "Lawyer"
-      ],
-      "answer": 1,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
-      "wordBank": [
-       "humiliating",
-       "journeys",
-       "splintered",
-       "congenial"
-      ],
-      "answer": "humiliating",
-      "accept": [
-       "humiliating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "mc",
-      "prompt": "How does the story end?",
-      "options": [
-       "She escapes",
-       "John faints and she creeps over him",
-       "She burns the house",
-       "She is cured"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 9
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
-      "expected": "Irony.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
-      "options": [
-       "Science that poisons love",
-       "Reason struggling against terror",
-       "Human limits in an indifferent nature",
-       "Confinement driving a woman into madness"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
-      "expected": "Obsession begins.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 12,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
-      "options": [
-       "Imagery",
-       "Point of view",
-       "Theme",
-       "Symbolism"
-      ],
-      "answer": 3,
-      "element": "symbolism",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -2271,15 +989,15 @@
      },
      {
       "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
       "options": [
-       "Structure",
+       "Setting",
+       "Symbolism",
        "Point of view",
-       "Imagery",
-       "Foreshadowing"
+       "Hyperbole"
       ],
       "answer": 1,
-      "element": "pointOfView",
+      "element": "symbolism",
       "level": "analysis",
       "dok": 3,
       "chapterIndex": 0,
@@ -2296,10 +1014,10 @@
       "chapterIndex": 0,
       "n": 16,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
       }
      },
      {
@@ -2312,10 +1030,10 @@
       "chapterIndex": 0,
       "n": 17,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
       }
      },
      {
@@ -2329,10 +1047,10 @@
       "chapterIndex": 0,
       "n": 18,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
       }
      }
     ],
@@ -2341,7 +1059,7 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "tiresome"
+      "answer": "marriage"
      },
      {
       "n": 2,
@@ -2351,21 +1069,21 @@
      },
      {
       "n": 3,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "entertainment"
+      "answer": "An upstairs nursery with barred windows"
      },
      {
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "A woman creeping and trapped"
+      "answer": "John faints and she creeps over him"
      },
      {
       "n": 5,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "An upstairs nursery with barred windows"
+      "answer": "entertainment"
      },
      {
       "n": 6,
@@ -2375,39 +1093,39 @@
      },
      {
       "n": 7,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "Physician"
+      "answer": "tiresome"
      },
      {
       "n": 8,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "humiliating"
+      "answer": "A woman creeping and trapped"
      },
      {
       "n": 9,
       "type": "mc",
       "level": "recall",
-      "answer": "John faints and she creeps over him"
+      "answer": "Physician"
      },
      {
       "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "Irony."
-     },
-     {
-      "n": 11,
       "type": "mc",
       "level": "inference",
       "answer": "Confinement driving a woman into madness"
      },
      {
-      "n": 12,
+      "n": 11,
       "type": "short",
       "level": "inference",
       "answer": "Obsession begins."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Irony."
      },
      {
       "n": 13,
@@ -2419,13 +1137,13 @@
       "n": 14,
       "type": "mc",
       "level": "analysis",
-      "answer": "Symbolism"
+      "answer": "Point of view"
      },
      {
       "n": 15,
       "type": "mc",
       "level": "analysis",
-      "answer": "Point of view"
+      "answer": "Symbolism"
      },
      {
       "n": 16,
@@ -2458,8 +1176,87 @@
      "short": 6
     }
    },
-   "hsSenior": {
+   "hsFreshman": {
     "items": [
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's husband's job?",
+      "options": [
+       "Minister",
+       "Physician",
+       "Banker",
+       "Lawyer"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the story end?",
+      "options": [
+       "She escapes",
+       "John faints and she creeps over him",
+       "She burns the house",
+       "She is cured"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 5: “John laughs at me, of course, but one expects that in _____”",
+      "answer": "marriage",
+      "accept": [
+       "marriage",
+       "marriage"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In which room is the narrator kept?",
+      "options": [
+       "The library",
+       "An upstairs nursery with barred windows",
+       "The parlor",
+       "The cellar"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator forbidden to do?",
+      "options": [
+       "Leave the country",
+       "See her baby at all",
+       "Eat meat",
+       "Work and write"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
      {
       "type": "mc",
       "prompt": "What does she see behind the wallpaper's pattern?",
@@ -2474,7 +1271,786 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
+      "wordBank": [
+       "tiresome",
+       "provoking",
+       "splintered",
+       "congenial"
+      ],
+      "answer": "tiresome",
+      "accept": [
+       "tiresome"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
+      "wordBank": [
+       "splintered",
+       "provoking",
+       "entertainment",
+       "congenial"
+      ],
+      "answer": "entertainment",
+      "accept": [
+       "entertainment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
+      "answer": "things",
+      "accept": [
+       "things",
+       "things"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Irony.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
+      "expected": "Obsession begins.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
+      "options": [
+       "Reason struggling against terror",
+       "Confinement driving a woman into madness",
+       "Revenge carried out with perfect control",
+       "A woman's brief taste of freedom"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
+      "options": [
+       "Hyperbole",
+       "Imagery",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
+      "options": [
+       "Setting",
+       "Symbolism",
+       "Point of view",
+       "Hyperbole"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
+      "expected": "Her \"freedom.\"",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 257",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) shape its meaning? Consider a second, competing reading.",
+      "expected": "Obsession begins.",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The narrator's madness is a response to her confinement.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 2,
+       "full": "Correct answer in a complete sentence, using a detail from the text.",
+       "partial": "1 point: partly correct or no supporting detail.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Physician"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "John faints and she creeps over him"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "marriage"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An upstairs nursery with barred windows"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Work and write"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A woman creeping and trapped"
+     },
+     {
+      "n": 7,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tiresome"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "entertainment"
+     },
+     {
+      "n": 9,
+      "type": "fill",
+      "level": "recall",
+      "answer": "things"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Irony."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Confinement driving a woman into madness"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her \"freedom.\""
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSophomore": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's husband's job?",
+      "options": [
+       "Minister",
+       "Physician",
+       "Banker",
+       "Lawyer"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
       "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator forbidden to do?",
+      "options": [
+       "Leave the country",
+       "See her baby at all",
+       "Eat meat",
+       "Work and write"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 5: “John laughs at me, of course, but one expects that in _____”",
+      "answer": "marriage",
+      "accept": [
+       "marriage",
+       "marriage"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "mc",
+      "prompt": "In which room is the narrator kept?",
+      "options": [
+       "The library",
+       "An upstairs nursery with barred windows",
+       "The parlor",
+       "The cellar"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
+      "answer": "things",
+      "accept": [
+       "things",
+       "things"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
+      "wordBank": [
+       "splintered",
+       "provoking",
+       "entertainment",
+       "congenial"
+      ],
+      "answer": "entertainment",
+      "accept": [
+       "entertainment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does she see behind the wallpaper's pattern?",
+      "options": [
+       "A woman creeping and trapped",
+       "A map",
+       "Words",
+       "A face of her mother"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
+      "wordBank": [
+       "tiresome",
+       "provoking",
+       "splintered",
+       "congenial"
+      ],
+      "answer": "tiresome",
+      "accept": [
+       "tiresome"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the story end?",
+      "options": [
+       "She escapes",
+       "John faints and she creeps over him",
+       "She burns the house",
+       "She is cured"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Irony.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
+      "options": [
+       "Reason struggling against terror",
+       "Confinement driving a woman into madness",
+       "Revenge carried out with perfect control",
+       "A woman's brief taste of freedom"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
+      "expected": "Obsession begins.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
+      "expected": "Her \"freedom.\"",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 257",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
+      "options": [
+       "Setting",
+       "Symbolism",
+       "Point of view",
+       "Hyperbole"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
+      "options": [
+       "Hyperbole",
+       "Imagery",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) shape its meaning? Consider a second, competing reading.",
+      "expected": "Obsession begins.",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how oppression of women develops from an earlier story to “The Yellow Wallpaper”. Use one quotation from each.",
+      "expected": "she is infantilized in a nursery.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Physician"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Work and write"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "marriage"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An upstairs nursery with barred windows"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "things"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "entertainment"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A woman creeping and trapped"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tiresome"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "John faints and she creeps over him"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Irony."
+     },
+     {
+      "n": 11,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Confinement driving a woman into madness"
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her \"freedom.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "she is infantilized in a nursery."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsJunior": {
+    "items": [
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 5: “John laughs at me, of course, but one expects that in _____”",
+      "answer": "marriage",
+      "accept": [
+       "marriage",
+       "marriage"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
+      "answer": "things",
+      "accept": [
+       "things",
+       "things"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
      },
      {
       "type": "mc",
@@ -2487,6 +2063,833 @@
       ],
       "answer": 1,
       "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
+      "wordBank": [
+       "tiresome",
+       "provoking",
+       "splintered",
+       "congenial"
+      ],
+      "answer": "tiresome",
+      "accept": [
+       "tiresome"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
+      "wordBank": [
+       "splintered",
+       "provoking",
+       "entertainment",
+       "congenial"
+      ],
+      "answer": "entertainment",
+      "accept": [
+       "entertainment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the story end?",
+      "options": [
+       "She escapes",
+       "John faints and she creeps over him",
+       "She burns the house",
+       "She is cured"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In which room is the narrator kept?",
+      "options": [
+       "The library",
+       "An upstairs nursery with barred windows",
+       "The parlor",
+       "The cellar"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator forbidden to do?",
+      "options": [
+       "Leave the country",
+       "See her baby at all",
+       "Eat meat",
+       "Work and write"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "What does she see behind the wallpaper's pattern?",
+      "options": [
+       "A woman creeping and trapped",
+       "A map",
+       "Words",
+       "A face of her mother"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
+      "options": [
+       "Reason struggling against terror",
+       "Confinement driving a woman into madness",
+       "Revenge carried out with perfect control",
+       "A woman's brief taste of freedom"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
+      "expected": "Obsession begins.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Irony.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
+      "options": [
+       "Hyperbole",
+       "Imagery",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
+      "options": [
+       "Setting",
+       "Symbolism",
+       "Point of view",
+       "Hyperbole"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
+      "expected": "Her \"freedom.\"",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 257",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) shape its meaning? Consider a second, competing reading.",
+      "expected": "Obsession begins.",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how oppression of women develops from an earlier story to “The Yellow Wallpaper”. Use one quotation from each.",
+      "expected": "she is infantilized in a nursery.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "fill",
+      "level": "recall",
+      "answer": "marriage"
+     },
+     {
+      "n": 2,
+      "type": "fill",
+      "level": "recall",
+      "answer": "things"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Physician"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "tiresome"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "entertainment"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "John faints and she creeps over him"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An upstairs nursery with barred windows"
+     },
+     {
+      "n": 8,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Work and write"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A woman creeping and trapped"
+     },
+     {
+      "n": 10,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Confinement driving a woman into madness"
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "inference",
+      "answer": "Irony."
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her \"freedom.\""
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "she is infantilized in a nursery."
+     }
+    ],
+    "mix": {
+     "recall": 9,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 2
+    },
+    "types": {
+     "mc": 8,
+     "fill": 4,
+     "short": 6
+    }
+   },
+   "hsSenior": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In which room is the narrator kept?",
+      "options": [
+       "The library",
+       "An upstairs nursery with barred windows",
+       "The parlor",
+       "The cellar"
+      ],
+      "answer": 1,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator forbidden to do?",
+      "options": [
+       "Leave the country",
+       "See her baby at all",
+       "Eat meat",
+       "Work and write"
+      ],
+      "answer": 3,
+      "element": "conflict",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator's husband's job?",
+      "options": [
+       "Minister",
+       "Physician",
+       "Banker",
+       "Lawyer"
+      ],
+      "answer": 1,
+      "element": "characterization",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
+      "answer": "things",
+      "accept": [
+       "things",
+       "things"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the story end?",
+      "options": [
+       "She escapes",
+       "John faints and she creeps over him",
+       "She burns the house",
+       "She is cured"
+      ],
+      "answer": 1,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
+      "wordBank": [
+       "splintered",
+       "provoking",
+       "entertainment",
+       "congenial"
+      ],
+      "answer": "entertainment",
+      "accept": [
+       "entertainment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "What does she see behind the wallpaper's pattern?",
+      "options": [
+       "A woman creeping and trapped",
+       "A map",
+       "Words",
+       "A face of her mother"
+      ],
+      "answer": 0,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 5: “John laughs at me, of course, but one expects that in _____”",
+      "answer": "marriage",
+      "accept": [
+       "marriage",
+       "marriage"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 8
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
+      "options": [
+       "Reason struggling against terror",
+       "Confinement driving a woman into madness",
+       "Revenge carried out with perfect control",
+       "A woman's brief taste of freedom"
+      ],
+      "answer": 1,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
+      "expected": "Obsession begins.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Irony.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
+      "expected": "Her \"freedom.\"",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 257",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
+      "options": [
+       "Hyperbole",
+       "Imagery",
+       "Simile",
+       "Point of view"
+      ],
+      "answer": 3,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
+      "options": [
+       "Setting",
+       "Symbolism",
+       "Point of view",
+       "Hyperbole"
+      ],
+      "answer": 1,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 15
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how oppression of women develops from an earlier story to “The Yellow Wallpaper”. Use one quotation from each.",
+      "expected": "she is infantilized in a nursery.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Irony.",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The narrator's madness is a response to her confinement.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 3,
+       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
+       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
+       "zero": "0: incorrect, off-text or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An upstairs nursery with barred windows"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Work and write"
+     },
+     {
+      "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Physician"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "things"
+     },
+     {
+      "n": 5,
+      "type": "mc",
+      "level": "recall",
+      "answer": "John faints and she creeps over him"
+     },
+     {
+      "n": 6,
+      "type": "fill",
+      "level": "recall",
+      "answer": "entertainment"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A woman creeping and trapped"
+     },
+     {
+      "n": 8,
+      "type": "fill",
+      "level": "recall",
+      "answer": "marriage"
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Confinement driving a woman into madness"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "inference",
+      "answer": "Irony."
+     },
+     {
+      "n": 12,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     },
+     {
+      "n": 13,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her \"freedom.\""
+     },
+     {
+      "n": 14,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 15,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "she is infantilized in a nursery."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Irony."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     }
+    ],
+    "mix": {
+     "recall": 8,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 3
+    },
+    "types": {
+     "mc": 8,
+     "fill": 3,
+     "short": 7
+    }
+   },
+   "ap": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "In which room is the narrator kept?",
+      "options": [
+       "The parlor",
+       "The cellar",
+       "The library",
+       "An upstairs nursery with barred windows"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "What is the narrator forbidden to do?",
+      "options": [
+       "Work and write",
+       "Leave the country",
+       "Eat meat",
+       "See her baby at all"
+      ],
+      "answer": 0,
+      "element": "conflict",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2511,418 +2914,6 @@
       "type": "mc",
       "prompt": "How does the story end?",
       "options": [
-       "She escapes",
-       "John faints and she creeps over him",
-       "She burns the house",
-       "She is cured"
-      ],
-      "answer": 1,
-      "element": "irony",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In which room is the narrator kept?",
-      "options": [
-       "The library",
-       "An upstairs nursery with barred windows",
-       "The parlor",
-       "The cellar"
-      ],
-      "answer": 1,
-      "element": "setting",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
-      "wordBank": [
-       "humiliating",
-       "journeys",
-       "splintered",
-       "congenial"
-      ],
-      "answer": "humiliating",
-      "accept": [
-       "humiliating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
-      "wordBank": [
-       "splintered",
-       "journeys",
-       "tiresome",
-       "congenial"
-      ],
-      "answer": "tiresome",
-      "accept": [
-       "tiresome"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the narrator forbidden to do?",
-      "options": [
-       "Leave the country",
-       "See her baby at all",
-       "Eat meat",
-       "Work and write"
-      ],
-      "answer": 3,
-      "element": "conflict",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 8
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
-      "expected": "Obsession begins.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
-      "expected": "Irony.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
-      "options": [
-       "Science that poisons love",
-       "Reason struggling against terror",
-       "Human limits in an indifferent nature",
-       "Confinement driving a woman into madness"
-      ],
-      "answer": 3,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 11
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
-      "options": [
-       "Structure",
-       "Point of view",
-       "Imagery",
-       "Foreshadowing"
-      ],
-      "answer": 1,
-      "element": "pointOfView",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
-      "options": [
-       "Imagery",
-       "Point of view",
-       "Theme",
-       "Symbolism"
-      ],
-      "answer": 3,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
-      "expected": "Her \"freedom.\"",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 257",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The narrator's madness is a response to her confinement.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) shape its meaning? Consider a second, competing reading.",
-      "expected": "Obsession begins.",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) shape its meaning? Consider a second, competing reading.",
-      "expected": "Irony.",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A woman creeping and trapped"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Physician"
-     },
-     {
-      "n": 3,
-      "type": "fill",
-      "level": "recall",
-      "answer": "marriage"
-     },
-     {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "John faints and she creeps over him"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "An upstairs nursery with barred windows"
-     },
-     {
-      "n": 6,
-      "type": "fill",
-      "level": "recall",
-      "answer": "humiliating"
-     },
-     {
-      "n": 7,
-      "type": "fill",
-      "level": "recall",
-      "answer": "tiresome"
-     },
-     {
-      "n": 8,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Work and write"
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 10,
-      "type": "short",
-      "level": "inference",
-      "answer": "Irony."
-     },
-     {
-      "n": 11,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Confinement driving a woman into madness"
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Point of view"
-     },
-     {
-      "n": 13,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 14,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Her \"freedom.\""
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Irony."
-     }
-    ],
-    "mix": {
-     "recall": 8,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 3
-    },
-    "types": {
-     "mc": 8,
-     "fill": 3,
-     "short": 7
-    }
-   },
-   "ap": {
-    "items": [
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
-      "wordBank": [
-       "splintered",
-       "congenial",
-       "journeys",
-       "tiresome"
-      ],
-      "answer": "tiresome",
-      "accept": [
-       "tiresome"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “So I take phosphates or phosphites,—whichever it is,—and tonics, and journeys, and air, and exercise, and am absolutely forbidden to \"work\" until I am well again.”, what does “journeys” most nearly mean?",
-      "options": [
-       "the act of traveling from one place to another",
-       "broken into sharp pieces",
-       "pleasant and well suited",
-       "call forth (emotions, feelings, and responses)"
-      ],
-      "answer": 0,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "mc",
-      "prompt": "How does the story end?",
-      "options": [
        "She is cured",
        "She escapes",
        "She burns the house",
@@ -2933,38 +2924,18 @@
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
-      "wordBank": [
-       "splintered",
-       "congenial",
-       "journeys",
-       "humiliating"
-      ],
-      "answer": "humiliating",
-      "accept": [
-       "humiliating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
       "n": 4
      },
      {
-      "type": "mc",
-      "prompt": "In which room is the narrator kept?",
-      "options": [
-       "The parlor",
-       "The cellar",
-       "The library",
-       "An upstairs nursery with barred windows"
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
+      "answer": "things",
+      "accept": [
+       "things",
+       "things"
       ],
-      "answer": 3,
-      "element": "setting",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -2972,15 +2943,15 @@
      },
      {
       "type": "mc",
-      "prompt": "What is the narrator forbidden to do?",
+      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
       "options": [
-       "Work and write",
-       "Leave the country",
-       "Eat meat",
-       "See her baby at all"
+       "annoying, irritating",
+       "broken into sharp pieces",
+       "pleasant and well suited",
+       "cause to feel shame; hurt the pride of"
       ],
       "answer": 0,
-      "element": "conflict",
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3004,427 +2975,6 @@
      },
      {
       "type": "short",
-      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
-      "expected": "Obsession begins.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 8,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
-      "expected": "Irony.",
-      "element": "characterization",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 9,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
-      "options": [
-       "Courage and guilt in a small community",
-       "Confinement driving a woman into madness",
-       "Racial pride destroying love",
-       "Refusal as a mystery the narrator cannot solve"
-      ],
-      "answer": 1,
-      "element": "theme",
-      "level": "inference",
-      "dok": 2,
-      "chapterIndex": 0,
-      "n": 10
-     },
-     {
-      "type": "short",
-      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 11,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
-      "options": [
-       "Setting",
-       "Hyperbole",
-       "Symbolism",
-       "Imagery"
-      ],
-      "answer": 2,
-      "element": "symbolism",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 12
-     },
-     {
-      "type": "short",
-      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
-      "expected": "Her \"freedom.\"",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 257",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 13,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "mc",
-      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
-      "options": [
-       "Symbolism",
-       "Characterization",
-       "Point of view",
-       "Alliteration"
-      ],
-      "answer": 2,
-      "element": "pointOfView",
-      "level": "analysis",
-      "dok": 3,
-      "chapterIndex": 0,
-      "n": 14
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) shape its meaning? Consider a second, competing reading.",
-      "expected": "Obsession begins.",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 15,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Evaluate this claim about the story: “The narrator's madness is a response to her confinement.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 16,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Close reading: how do the diction and syntax of “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) shape its meaning? Consider a second, competing reading.",
-      "expected": "Irony.",
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 5",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 17,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     },
-     {
-      "type": "short",
-      "prompt": "Synthesis: trace how oppression of women develops from an earlier story to “The Yellow Wallpaper”. Use one quotation from each.",
-      "expected": "she is infantilized in a nursery.",
-      "element": "theme",
-      "level": "synthesis",
-      "dok": 4,
-      "chapterIndex": 0,
-      "n": 18,
-      "scoringGuide": {
-       "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank."
-      }
-     }
-    ],
-    "answerKey": [
-     {
-      "n": 1,
-      "type": "fill",
-      "level": "recall",
-      "answer": "tiresome"
-     },
-     {
-      "n": 2,
-      "type": "mc",
-      "level": "recall",
-      "answer": "the act of traveling from one place to another"
-     },
-     {
-      "n": 3,
-      "type": "mc",
-      "level": "recall",
-      "answer": "John faints and she creeps over him"
-     },
-     {
-      "n": 4,
-      "type": "fill",
-      "level": "recall",
-      "answer": "humiliating"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "An upstairs nursery with barred windows"
-     },
-     {
-      "n": 6,
-      "type": "mc",
-      "level": "recall",
-      "answer": "Work and write"
-     },
-     {
-      "n": 7,
-      "type": "mc",
-      "level": "recall",
-      "answer": "A woman creeping and trapped"
-     },
-     {
-      "n": 8,
-      "type": "short",
-      "level": "inference",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 9,
-      "type": "short",
-      "level": "inference",
-      "answer": "Irony."
-     },
-     {
-      "n": 10,
-      "type": "mc",
-      "level": "inference",
-      "answer": "Confinement driving a woman into madness"
-     },
-     {
-      "n": 11,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     },
-     {
-      "n": 12,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Symbolism"
-     },
-     {
-      "n": 13,
-      "type": "short",
-      "level": "analysis",
-      "answer": "Her \"freedom.\""
-     },
-     {
-      "n": 14,
-      "type": "mc",
-      "level": "analysis",
-      "answer": "Point of view"
-     },
-     {
-      "n": 15,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Obsession begins."
-     },
-     {
-      "n": 16,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
-     },
-     {
-      "n": 17,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "Irony."
-     },
-     {
-      "n": 18,
-      "type": "short",
-      "level": "synthesis",
-      "answer": "she is infantilized in a nursery."
-     }
-    ],
-    "mix": {
-     "recall": 7,
-     "inference": 3,
-     "analysis": 4,
-     "synthesis": 4
-    },
-    "types": {
-     "mc": 8,
-     "fill": 2,
-     "short": 8
-    }
-   },
-   "collegeFreshman": {
-    "items": [
-     {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
-      "wordBank": [
-       "splintered",
-       "congenial",
-       "journeys",
-       "humiliating"
-      ],
-      "answer": "humiliating",
-      "accept": [
-       "humiliating"
-      ],
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 1
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “Personally I believe that congenial work, with excitement and change, would do me good.”, what does “congenial” most nearly mean?",
-      "options": [
-       "pleasant and well suited",
-       "the act of traveling from one place to another",
-       "broken into sharp pieces",
-       "call forth (emotions, feelings, and responses)"
-      ],
-      "answer": 0,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 2
-     },
-     {
-      "type": "fill",
-      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
-      "answer": "things",
-      "accept": [
-       "things",
-       "things"
-      ],
-      "element": "diction",
-      "location": "The Yellow Wallpaper, paragraph 120",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 3
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
-      "options": [
-       "broken into sharp pieces",
-       "call forth (emotions, feelings, and responses)",
-       "pleasant and well suited",
-       "the act of traveling from one place to another"
-      ],
-      "answer": 1,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 4
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “Then the floor is scratched and gouged and splintered, the plaster itself is dug out here and there, and this great heavy bed, which is all we found in the room, looks as if it had been through the wars.”, what does “splintered” most nearly mean?",
-      "options": [
-       "the act of traveling from one place to another",
-       "pleasant and well suited",
-       "call forth (emotions, feelings, and responses)",
-       "broken into sharp pieces"
-      ],
-      "answer": 3,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 5
-     },
-     {
-      "type": "mc",
-      "prompt": "In the line “So I take phosphates or phosphites,—whichever it is,—and tonics, and journeys, and air, and exercise, and am absolutely forbidden to \"work\" until I am well again.”, what does “journeys” most nearly mean?",
-      "options": [
-       "the act of traveling from one place to another",
-       "broken into sharp pieces",
-       "pleasant and well suited",
-       "call forth (emotions, feelings, and responses)"
-      ],
-      "answer": 0,
-      "element": "diction",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 6
-     },
-     {
-      "type": "mc",
-      "prompt": "What is the narrator's husband's job?",
-      "options": [
-       "Lawyer",
-       "Banker",
-       "Physician",
-       "Minister"
-      ],
-      "answer": 2,
-      "element": "characterization",
-      "level": "recall",
-      "dok": 1,
-      "chapterIndex": 0,
-      "n": 7
-     },
-     {
-      "type": "short",
       "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
       "expected": "Irony.",
       "element": "characterization",
@@ -3444,12 +2994,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
       "options": [
-       "Courage and guilt in a small community",
+       "The arrogance and loneliness of seeing differently",
+       "The foolishness of wishing to be young again",
        "Confinement driving a woman into madness",
-       "Racial pride destroying love",
-       "Refusal as a mystery the narrator cannot solve"
+       "A family and a house collapsing together"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3494,12 +3044,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
       "options": [
-       "Setting",
-       "Hyperbole",
-       "Symbolism",
-       "Imagery"
+       "Alliteration",
+       "Tone / mood",
+       "Irony",
+       "Symbolism"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -3510,12 +3060,433 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
       "options": [
-       "Symbolism",
-       "Characterization",
        "Point of view",
-       "Alliteration"
+       "Symbolism",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
+      "element": "pointOfView",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 13
+     },
+     {
+      "type": "short",
+      "prompt": "Analyze the word choice in “I've got out at last” (The Yellow Wallpaper, paragraph 257). Pick two words and explain what they suggest.",
+      "expected": "Her \"freedom.\"",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 257",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 14,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) shape its meaning? Consider a second, competing reading.",
+      "expected": "Obsession begins.",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 15,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Close reading: how do the diction and syntax of “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) shape its meaning? Consider a second, competing reading.",
+      "expected": "Irony.",
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 16,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Evaluate this claim about the story: “The narrator's madness is a response to her confinement.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 17,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Synthesis: trace how oppression of women develops from an earlier story to “The Yellow Wallpaper”. Use one quotation from each.",
+      "expected": "she is infantilized in a nursery.",
+      "element": "theme",
+      "level": "synthesis",
+      "dok": 4,
+      "chapterIndex": 0,
+      "n": 18,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     }
+    ],
+    "answerKey": [
+     {
+      "n": 1,
+      "type": "mc",
+      "level": "recall",
+      "answer": "An upstairs nursery with barred windows"
+     },
+     {
+      "n": 2,
+      "type": "mc",
+      "level": "recall",
+      "answer": "Work and write"
+     },
+     {
+      "n": 3,
+      "type": "fill",
+      "level": "recall",
+      "answer": "marriage"
+     },
+     {
+      "n": 4,
+      "type": "mc",
+      "level": "recall",
+      "answer": "John faints and she creeps over him"
+     },
+     {
+      "n": 5,
+      "type": "fill",
+      "level": "recall",
+      "answer": "things"
+     },
+     {
+      "n": 6,
+      "type": "mc",
+      "level": "recall",
+      "answer": "annoying, irritating"
+     },
+     {
+      "n": 7,
+      "type": "mc",
+      "level": "recall",
+      "answer": "A woman creeping and trapped"
+     },
+     {
+      "n": 8,
+      "type": "short",
+      "level": "inference",
+      "answer": "Irony."
+     },
+     {
+      "n": 9,
+      "type": "mc",
+      "level": "inference",
+      "answer": "Confinement driving a woman into madness"
+     },
+     {
+      "n": 10,
+      "type": "short",
+      "level": "inference",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 11,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     },
+     {
+      "n": 12,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Symbolism"
+     },
+     {
+      "n": 13,
+      "type": "mc",
+      "level": "analysis",
+      "answer": "Point of view"
+     },
+     {
+      "n": 14,
+      "type": "short",
+      "level": "analysis",
+      "answer": "Her \"freedom.\""
+     },
+     {
+      "n": 15,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Obsession begins."
+     },
+     {
+      "n": 16,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Irony."
+     },
+     {
+      "n": 17,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness."
+     },
+     {
+      "n": 18,
+      "type": "short",
+      "level": "synthesis",
+      "answer": "she is infantilized in a nursery."
+     }
+    ],
+    "mix": {
+     "recall": 7,
+     "inference": 3,
+     "analysis": 4,
+     "synthesis": 4
+    },
+    "types": {
+     "mc": 8,
+     "fill": 2,
+     "short": 8
+    }
+   },
+   "collegeFreshman": {
+    "items": [
+     {
+      "type": "mc",
+      "prompt": "What does she see behind the wallpaper's pattern?",
+      "options": [
+       "A face of her mother",
+       "A map",
+       "A woman creeping and trapped",
+       "Words"
       ],
       "answer": 2,
+      "element": "symbolism",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 1
+     },
+     {
+      "type": "mc",
+      "prompt": "How does the story end?",
+      "options": [
+       "She is cured",
+       "She escapes",
+       "She burns the house",
+       "John faints and she creeps over him"
+      ],
+      "answer": 3,
+      "element": "irony",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 2
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “Personally I believe that congenial work, with excitement and change, would do me good.”, what does “congenial” most nearly mean?",
+      "options": [
+       "pleasant and well suited",
+       "annoying, irritating",
+       "broken into sharp pieces",
+       "cause to feel shame; hurt the pride of"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 3
+     },
+     {
+      "type": "fill",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
+      "wordBank": [
+       "splintered",
+       "congenial",
+       "provoking",
+       "entertainment"
+      ],
+      "answer": "entertainment",
+      "accept": [
+       "entertainment"
+      ],
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 4
+     },
+     {
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 120: “There are _____ in that paper that nobody knows but me”",
+      "answer": "things",
+      "accept": [
+       "things",
+       "things"
+      ],
+      "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 5
+     },
+     {
+      "type": "mc",
+      "prompt": "In which room is the narrator kept?",
+      "options": [
+       "The parlor",
+       "The cellar",
+       "The library",
+       "An upstairs nursery with barred windows"
+      ],
+      "answer": 3,
+      "element": "setting",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 6
+     },
+     {
+      "type": "mc",
+      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
+      "options": [
+       "annoying, irritating",
+       "broken into sharp pieces",
+       "pleasant and well suited",
+       "cause to feel shame; hurt the pride of"
+      ],
+      "answer": 0,
+      "element": "diction",
+      "level": "recall",
+      "dok": 1,
+      "chapterIndex": 0,
+      "n": 7
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “John laughs at me, of course, but one expects that in marriage” (The Yellow Wallpaper, paragraph 5) Answer in two or three sentences with one detail.",
+      "expected": "Irony.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 5",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 8,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
+      "options": [
+       "The arrogance and loneliness of seeing differently",
+       "The foolishness of wishing to be young again",
+       "Confinement driving a woman into madness",
+       "A family and a house collapsing together"
+      ],
+      "answer": 2,
+      "element": "theme",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 9
+     },
+     {
+      "type": "short",
+      "prompt": "What can you infer from this line? “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120) Answer in two or three sentences with one detail.",
+      "expected": "Obsession begins.",
+      "element": "characterization",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "inference",
+      "dok": 2,
+      "chapterIndex": 0,
+      "n": 10,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "short",
+      "prompt": "Claim: The narrator's madness is a response to her confinement. Explain how this evidence supports the claim: “There are things in that paper that nobody knows but me” (The Yellow Wallpaper, paragraph 120).",
+      "expected": "Early, she remarks that \"John laughs at me, of course, but one expects that in marriage\"; forbidden to work, she fixes on the paper (\"There are things in that paper that nobody knows but me\") and finally claims \"I’ve got out at last,\" freedom found only in madness.",
+      "element": "theme",
+      "location": "The Yellow Wallpaper, paragraph 120",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 11,
+      "scoringGuide": {
+       "points": 4,
+       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
+       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
+       "zero": "0: incorrect or blank."
+      }
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
+      "options": [
+       "Alliteration",
+       "Tone / mood",
+       "Irony",
+       "Symbolism"
+      ],
+      "answer": 3,
+      "element": "symbolism",
+      "level": "analysis",
+      "dok": 3,
+      "chapterIndex": 0,
+      "n": 12
+     },
+     {
+      "type": "mc",
+      "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
+      "options": [
+       "Point of view",
+       "Symbolism",
+       "Metaphor",
+       "Theme"
+      ],
+      "answer": 0,
       "element": "pointOfView",
       "level": "analysis",
       "dok": 3,
@@ -3609,45 +3580,45 @@
     "answerKey": [
      {
       "n": 1,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "humiliating"
+      "answer": "A woman creeping and trapped"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "pleasant and well suited"
+      "answer": "John faints and she creeps over him"
      },
      {
       "n": 3,
+      "type": "mc",
+      "level": "recall",
+      "answer": "pleasant and well suited"
+     },
+     {
+      "n": 4,
+      "type": "fill",
+      "level": "recall",
+      "answer": "entertainment"
+     },
+     {
+      "n": 5,
       "type": "fill",
       "level": "recall",
       "answer": "things"
      },
      {
-      "n": 4,
-      "type": "mc",
-      "level": "recall",
-      "answer": "call forth (emotions, feelings, and responses)"
-     },
-     {
-      "n": 5,
-      "type": "mc",
-      "level": "recall",
-      "answer": "broken into sharp pieces"
-     },
-     {
       "n": 6,
       "type": "mc",
       "level": "recall",
-      "answer": "the act of traveling from one place to another"
+      "answer": "An upstairs nursery with barred windows"
      },
      {
       "n": 7,
       "type": "mc",
       "level": "recall",
-      "answer": "Physician"
+      "answer": "annoying, irritating"
      },
      {
       "n": 8,
@@ -3732,16 +3703,16 @@
     "items": [
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
       "wordBank": [
        "splintered",
        "congenial",
-       "journeys",
-       "humiliating"
+       "provoking",
+       "entertainment"
       ],
-      "answer": "humiliating",
+      "answer": "entertainment",
       "accept": [
-       "humiliating"
+       "entertainment"
       ],
       "element": "diction",
       "level": "recall",
@@ -3751,15 +3722,15 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
+      "prompt": "How does the story end?",
       "options": [
-       "broken into sharp pieces",
-       "call forth (emotions, feelings, and responses)",
-       "pleasant and well suited",
-       "the act of traveling from one place to another"
+       "She is cured",
+       "She escapes",
+       "She burns the house",
+       "John faints and she creeps over him"
       ],
-      "answer": 1,
-      "element": "diction",
+      "answer": 3,
+      "element": "irony",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3799,15 +3770,15 @@
      },
      {
       "type": "mc",
-      "prompt": "How does the story end?",
+      "prompt": "In the line “Then the floor is scratched and gouged and splintered, the plaster itself is dug out here and there, and this great heavy bed, which is all we found in the room, looks as if it had been through the wars.”, what does “splintered” most nearly mean?",
       "options": [
-       "She is cured",
-       "She escapes",
-       "She burns the house",
-       "John faints and she creeps over him"
+       "annoying, irritating",
+       "pleasant and well suited",
+       "cause to feel shame; hurt the pride of",
+       "broken into sharp pieces"
       ],
       "answer": 3,
-      "element": "irony",
+      "element": "diction",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -3818,9 +3789,9 @@
       "prompt": "In the line “Personally I believe that congenial work, with excitement and change, would do me good.”, what does “congenial” most nearly mean?",
       "options": [
        "pleasant and well suited",
-       "the act of traveling from one place to another",
+       "annoying, irritating",
        "broken into sharp pieces",
-       "call forth (emotions, feelings, and responses)"
+       "cause to feel shame; hurt the pride of"
       ],
       "answer": 0,
       "element": "diction",
@@ -3831,16 +3802,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
       "wordBank": [
        "splintered",
-       "journeys",
        "congenial",
-       "entertainment"
+       "provoking",
+       "tiresome"
       ],
-      "answer": "entertainment",
+      "answer": "tiresome",
       "accept": [
-       "entertainment"
+       "tiresome"
       ],
       "element": "diction",
       "level": "recall",
@@ -3852,12 +3823,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
       "options": [
-       "Courage and guilt in a small community",
+       "The arrogance and loneliness of seeing differently",
+       "The foolishness of wishing to be young again",
        "Confinement driving a woman into madness",
-       "Racial pride destroying love",
-       "Refusal as a mystery the narrator cannot solve"
+       "A family and a house collapsing together"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -3902,12 +3873,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
       "options": [
-       "Setting",
-       "Hyperbole",
-       "Symbolism",
-       "Imagery"
+       "Alliteration",
+       "Tone / mood",
+       "Irony",
+       "Symbolism"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -3918,12 +3889,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
       "options": [
-       "Symbolism",
-       "Characterization",
        "Point of view",
-       "Alliteration"
+       "Symbolism",
+       "Metaphor",
+       "Theme"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "pointOfView",
       "level": "analysis",
       "dok": 3,
@@ -4036,13 +4007,13 @@
       "n": 1,
       "type": "fill",
       "level": "recall",
-      "answer": "humiliating"
+      "answer": "entertainment"
      },
      {
       "n": 2,
       "type": "mc",
       "level": "recall",
-      "answer": "call forth (emotions, feelings, and responses)"
+      "answer": "John faints and she creeps over him"
      },
      {
       "n": 3,
@@ -4060,7 +4031,7 @@
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "John faints and she creeps over him"
+      "answer": "broken into sharp pieces"
      },
      {
       "n": 6,
@@ -4072,7 +4043,7 @@
       "n": 7,
       "type": "fill",
       "level": "recall",
-      "answer": "entertainment"
+      "answer": "tiresome"
      },
      {
       "n": 8,
@@ -4191,8 +4162,8 @@
       "prompt": "Fill in the blank with the vocabulary word that fits: “I used to lie awake as a child and get more _____ and terror out of blank walls and plain furniture than most children could find in a toy-store.”",
       "wordBank": [
        "splintered",
-       "journeys",
        "congenial",
+       "provoking",
        "entertainment"
       ],
       "answer": "entertainment",
@@ -4222,12 +4193,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
+      "prompt": "In the line “It must be very humiliating to be caught creeping by daylight!”, what does “humiliating” most nearly mean?",
       "options": [
        "broken into sharp pieces",
-       "call forth (emotions, feelings, and responses)",
+       "cause to feel shame; hurt the pride of",
        "pleasant and well suited",
-       "the act of traveling from one place to another"
+       "annoying, irritating"
       ],
       "answer": 1,
       "element": "diction",
@@ -4238,16 +4209,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
       "wordBank": [
        "splintered",
        "congenial",
-       "journeys",
-       "humiliating"
+       "provoking",
+       "tiresome"
       ],
-      "answer": "humiliating",
+      "answer": "tiresome",
       "accept": [
-       "humiliating"
+       "tiresome"
       ],
       "element": "diction",
       "level": "recall",
@@ -4259,9 +4230,9 @@
       "type": "mc",
       "prompt": "In the line “Then the floor is scratched and gouged and splintered, the plaster itself is dug out here and there, and this great heavy bed, which is all we found in the room, looks as if it had been through the wars.”, what does “splintered” most nearly mean?",
       "options": [
-       "the act of traveling from one place to another",
+       "annoying, irritating",
        "pleasant and well suited",
-       "call forth (emotions, feelings, and responses)",
+       "cause to feel shame; hurt the pride of",
        "broken into sharp pieces"
       ],
       "answer": 3,
@@ -4275,12 +4246,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
       "options": [
-       "Courage and guilt in a small community",
+       "The arrogance and loneliness of seeing differently",
+       "The foolishness of wishing to be young again",
        "Confinement driving a woman into madness",
-       "Racial pride destroying love",
-       "Refusal as a mystery the narrator cannot solve"
+       "A family and a house collapsing together"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -4342,12 +4313,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
       "options": [
-       "Symbolism",
-       "Characterization",
        "Point of view",
-       "Alliteration"
+       "Symbolism",
+       "Metaphor",
+       "Theme"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "pointOfView",
       "level": "analysis",
       "dok": 3,
@@ -4375,12 +4346,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
       "options": [
-       "Setting",
-       "Hyperbole",
-       "Symbolism",
-       "Imagery"
+       "Alliteration",
+       "Tone / mood",
+       "Irony",
+       "Symbolism"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -4483,13 +4454,13 @@
       "n": 5,
       "type": "mc",
       "level": "recall",
-      "answer": "call forth (emotions, feelings, and responses)"
+      "answer": "cause to feel shame; hurt the pride of"
      },
      {
       "n": 6,
       "type": "fill",
       "level": "recall",
-      "answer": "humiliating"
+      "answer": "tiresome"
      },
      {
       "n": 7,
@@ -4580,12 +4551,12 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "In the line “So I take phosphates or phosphites,—whichever it is,—and tonics, and journeys, and air, and exercise, and am absolutely forbidden to \"work\" until I am well again.”, what does “journeys” most nearly mean?",
+      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
       "options": [
-       "the act of traveling from one place to another",
+       "annoying, irritating",
        "broken into sharp pieces",
        "pleasant and well suited",
-       "call forth (emotions, feelings, and responses)"
+       "cause to feel shame; hurt the pride of"
       ],
       "answer": 0,
       "element": "diction",
@@ -4598,9 +4569,9 @@
       "type": "mc",
       "prompt": "In the line “Then the floor is scratched and gouged and splintered, the plaster itself is dug out here and there, and this great heavy bed, which is all we found in the room, looks as if it had been through the wars.”, what does “splintered” most nearly mean?",
       "options": [
-       "the act of traveling from one place to another",
+       "annoying, irritating",
        "pleasant and well suited",
-       "call forth (emotions, feelings, and responses)",
+       "cause to feel shame; hurt the pride of",
        "broken into sharp pieces"
       ],
       "answer": 3,
@@ -4628,12 +4599,12 @@
      },
      {
       "type": "mc",
-      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
+      "prompt": "In the line “It must be very humiliating to be caught creeping by daylight!”, what does “humiliating” most nearly mean?",
       "options": [
        "broken into sharp pieces",
-       "call forth (emotions, feelings, and responses)",
+       "cause to feel shame; hurt the pride of",
        "pleasant and well suited",
-       "the act of traveling from one place to another"
+       "annoying, irritating"
       ],
       "answer": 1,
       "element": "diction",
@@ -4644,16 +4615,16 @@
      },
      {
       "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “It must be very _____ to be caught creeping by daylight!”",
+      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
       "wordBank": [
        "splintered",
        "congenial",
-       "journeys",
-       "humiliating"
+       "provoking",
+       "tiresome"
       ],
-      "answer": "humiliating",
+      "answer": "tiresome",
       "accept": [
-       "humiliating"
+       "tiresome"
       ],
       "element": "diction",
       "level": "recall",
@@ -4713,12 +4684,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
       "options": [
-       "Courage and guilt in a small community",
+       "The arrogance and loneliness of seeing differently",
+       "The foolishness of wishing to be young again",
        "Confinement driving a woman into madness",
-       "Racial pride destroying love",
-       "Refusal as a mystery the narrator cannot solve"
+       "A family and a house collapsing together"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -4746,12 +4717,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
       "options": [
-       "Setting",
-       "Hyperbole",
-       "Symbolism",
-       "Imagery"
+       "Alliteration",
+       "Tone / mood",
+       "Irony",
+       "Symbolism"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -4796,12 +4767,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
       "options": [
-       "Symbolism",
-       "Characterization",
        "Point of view",
-       "Alliteration"
+       "Symbolism",
+       "Metaphor",
+       "Theme"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "pointOfView",
       "level": "analysis",
       "dok": 3,
@@ -4880,7 +4851,7 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "the act of traveling from one place to another"
+      "answer": "annoying, irritating"
      },
      {
       "n": 2,
@@ -4898,13 +4869,13 @@
       "n": 4,
       "type": "mc",
       "level": "recall",
-      "answer": "call forth (emotions, feelings, and responses)"
+      "answer": "cause to feel shame; hurt the pride of"
      },
      {
       "n": 5,
       "type": "fill",
       "level": "recall",
-      "answer": "humiliating"
+      "answer": "tiresome"
      },
      {
       "n": 6,
@@ -5001,12 +4972,12 @@
     "items": [
      {
       "type": "mc",
-      "prompt": "In the line “So I take phosphates or phosphites,—whichever it is,—and tonics, and journeys, and air, and exercise, and am absolutely forbidden to \"work\" until I am well again.”, what does “journeys” most nearly mean?",
+      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
       "options": [
-       "the act of traveling from one place to another",
+       "annoying, irritating",
        "broken into sharp pieces",
        "pleasant and well suited",
-       "call forth (emotions, feelings, and responses)"
+       "cause to feel shame; hurt the pride of"
       ],
       "answer": 0,
       "element": "diction",
@@ -5047,18 +5018,15 @@
       "n": 3
      },
      {
-      "type": "fill",
-      "prompt": "Fill in the blank with the vocabulary word that fits: “In the daytime it is _____ and perplexing.”",
-      "wordBank": [
-       "splintered",
-       "congenial",
-       "journeys",
-       "tiresome"
+      "type": "mc",
+      "prompt": "In the line “It must be very humiliating to be caught creeping by daylight!”, what does “humiliating” most nearly mean?",
+      "options": [
+       "broken into sharp pieces",
+       "cause to feel shame; hurt the pride of",
+       "pleasant and well suited",
+       "annoying, irritating"
       ],
-      "answer": "tiresome",
-      "accept": [
-       "tiresome"
-      ],
+      "answer": 1,
       "element": "diction",
       "level": "recall",
       "dok": 1,
@@ -5098,16 +5066,15 @@
       "n": 6
      },
      {
-      "type": "mc",
-      "prompt": "In the line “But in the places where it isn't faded, and where the sun is just so, I can see a strange, provoking, formless sort of figure, that seems to sulk about behind that silly and conspicuous front design.”, what does “provoking” most nearly mean?",
-      "options": [
-       "broken into sharp pieces",
-       "call forth (emotions, feelings, and responses)",
-       "pleasant and well suited",
-       "the act of traveling from one place to another"
+      "type": "fill",
+      "prompt": "Complete the quotation from The Yellow Wallpaper, paragraph 5: “John laughs at me, of course, but one expects that in _____”",
+      "answer": "marriage",
+      "accept": [
+       "marriage",
+       "marriage"
       ],
-      "answer": 1,
       "element": "diction",
+      "location": "The Yellow Wallpaper, paragraph 5",
       "level": "recall",
       "dok": 1,
       "chapterIndex": 0,
@@ -5134,12 +5101,12 @@
       "type": "mc",
       "prompt": "Which choice best states a central concern of “The Yellow Wallpaper”?",
       "options": [
-       "Courage and guilt in a small community",
+       "The arrogance and loneliness of seeing differently",
+       "The foolishness of wishing to be young again",
        "Confinement driving a woman into madness",
-       "Racial pride destroying love",
-       "Refusal as a mystery the narrator cannot solve"
+       "A family and a house collapsing together"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "theme",
       "level": "inference",
       "dok": 2,
@@ -5184,12 +5151,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? Secret journal entries: the reader sees the narrator's mind deteriorate in real time.",
       "options": [
-       "Symbolism",
-       "Characterization",
        "Point of view",
-       "Alliteration"
+       "Symbolism",
+       "Metaphor",
+       "Theme"
       ],
-      "answer": 2,
+      "answer": 0,
       "element": "pointOfView",
       "level": "analysis",
       "dok": 3,
@@ -5217,12 +5184,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “The Yellow Wallpaper”? The wallpaper's pattern becomes bars; the woman behind it is the narrator herself and all women confined.",
       "options": [
-       "Setting",
-       "Hyperbole",
-       "Symbolism",
-       "Imagery"
+       "Alliteration",
+       "Tone / mood",
+       "Irony",
+       "Symbolism"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -5301,7 +5268,7 @@
       "n": 1,
       "type": "mc",
       "level": "recall",
-      "answer": "the act of traveling from one place to another"
+      "answer": "annoying, irritating"
      },
      {
       "n": 2,
@@ -5317,9 +5284,9 @@
      },
      {
       "n": 4,
-      "type": "fill",
+      "type": "mc",
       "level": "recall",
-      "answer": "tiresome"
+      "answer": "cause to feel shame; hurt the pride of"
      },
      {
       "n": 5,
@@ -5335,9 +5302,9 @@
      },
      {
       "n": 7,
-      "type": "mc",
+      "type": "fill",
       "level": "recall",
-      "answer": "call forth (emotions, feelings, and responses)"
+      "answer": "marriage"
      },
      {
       "n": 8,
@@ -5431,17 +5398,17 @@
     "middleSchool": {
      "label": "Scaffolded support",
      "standards": [
-      "W.7.1",
-      "RL.7.2"
+      "W.9-10.1",
+      "RL.9-10.2"
      ],
      "alignment": {
       "ccss": [
-       "W.7.1",
-       "RL.7.2"
+       "W.9-10.1",
+       "RL.9-10.2"
       ],
       "IN": [
-       "7.W.1",
-       "7.RC.2"
+       "9-10.W.1",
+       "9-10.RC.2"
       ]
      },
      "text": "Supported track: write a five-paragraph essay explaining what The Yellow Wallpaper teaches about women and medical authority. Use at least three quotations from passages your teacher selects from different parts of the book.",
@@ -5652,17 +5619,17 @@
     "middleSchool": {
      "label": "Scaffolded support",
      "standards": [
-      "W.7.1",
-      "RL.7.2"
+      "W.9-10.1",
+      "RL.9-10.2"
      ],
      "alignment": {
       "ccss": [
-       "W.7.1",
-       "RL.7.2"
+       "W.9-10.1",
+       "RL.9-10.2"
       ],
       "IN": [
-       "7.W.1",
-       "7.RC.2"
+       "9-10.W.1",
+       "9-10.RC.2"
       ]
      },
      "text": "Supported track: write a five-paragraph essay explaining what The Yellow Wallpaper teaches about confinement and madness. Use at least three quotations from passages your teacher selects from different parts of the book.",
@@ -5873,17 +5840,17 @@
     "middleSchool": {
      "label": "Scaffolded support",
      "standards": [
-      "W.7.1",
-      "RL.7.2"
+      "W.9-10.1",
+      "RL.9-10.2"
      ],
      "alignment": {
       "ccss": [
-       "W.7.1",
-       "RL.7.2"
+       "W.9-10.1",
+       "RL.9-10.2"
       ],
       "IN": [
-       "7.W.1",
-       "7.RC.2"
+       "9-10.W.1",
+       "9-10.RC.2"
       ]
      },
      "text": "Supported track: write a five-paragraph essay explaining what The Yellow Wallpaper teaches about voice and silence. Use at least three quotations from passages your teacher selects from different parts of the book.",
