@@ -1488,12 +1488,12 @@
     "type": "mc",
     "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is dressed in crimson and gold, \"the scarlet letter in another form.\"",
     "options": [
-     "Conflict",
+     "Alliteration",
+     "Plot",
      "Symbolism",
-     "Tone / mood",
-     "Metaphor"
+     "Simile"
     ],
-    "answer": 1,
+    "answer": 2,
     "element": "symbolism",
     "level": "analysis",
     "dok": 3,
@@ -2693,10 +2693,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Preface to the Second Edition”? Hawthorne answers Salem's anger with mock surprise and amusement, refusing to apologize.",
       "options": [
-       "Theme",
+       "Allusion",
        "Personification",
        "Tone / mood",
-       "Metaphor"
+       "Simile"
       ],
       "answer": 2,
       "element": "tone",
@@ -2865,22 +2865,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The forest offers freedom, but Hester carries the letter's darkness into it.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 17,
+      "complication": {
+       "quote": "Once in my life I met the Black Man … This scarlet letter is his mark",
+       "location": "XVI: A Forest Walk, paragraph 22"
+      },
       "n": 49,
       "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -3595,7 +3600,7 @@
       "n": 49,
       "type": "short",
       "level": "synthesis",
-      "answer": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -4711,7 +4716,7 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XVII: The Pastor and His Parishioner”? Dimmesdale's despair; Hester's strength: \"Thou shalt not go alone!\"",
       "options": [
-       "Structure",
+       "Symbolism",
        "Simile",
        "Personification",
        "Characterization"
@@ -6461,12 +6466,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is dressed in crimson and gold, \"the scarlet letter in another form.\"",
       "options": [
-       "Conflict",
+       "Alliteration",
+       "Plot",
        "Symbolism",
-       "Tone / mood",
-       "Metaphor"
+       "Simile"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -6656,22 +6661,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The preface shows Hawthorne treating his community's judgment with ironic defiance.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "The author is constrained, therefore, to republish his introductory sketch without the change of a word",
+       "location": "Preface to the Second Edition, paragraph 2"
+      },
       "n": 45,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -6734,22 +6744,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The forest offers freedom, but Hester carries the letter's darkness into it.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 17,
+      "complication": {
+       "quote": "Once in my life I met the Black Man … This scarlet letter is his mark",
+       "location": "XVI: A Forest Walk, paragraph 22"
+      },
       "n": 48,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -6788,22 +6803,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 24,
+      "complication": {
+       "quote": "Is not this better … than what we dreamed of in the forest",
+       "location": "XXIII: The Revelation of the Scarlet Letter, paragraph 21"
+      },
       "n": 50,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -7437,7 +7457,7 @@
       "n": 45,
       "type": "short",
       "level": "synthesis",
-      "answer": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -7479,7 +7499,7 @@
       "n": 48,
       "type": "short",
       "level": "synthesis",
-      "answer": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -7507,7 +7527,7 @@
       "n": 50,
       "type": "short",
       "level": "synthesis",
-      "answer": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -8275,12 +8295,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “III: The Recognition”? Dimmesdale, urged to make Hester name her partner, pleads with her to do it.",
       "options": [
+       "Diction / vocabulary",
        "Plot",
-       "Symbolism",
-       "Point of view",
-       "Irony"
+       "Irony",
+       "Hyperbole"
       ],
-      "answer": 3,
+      "answer": 2,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -8321,9 +8341,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is beautiful, wild, intelligent and ungovernable; Hester fears what she has passed on to her.",
       "options": [
+       "Simile",
+       "Metaphor",
        "Irony",
-       "Personification",
-       "Point of view",
        "Characterization"
       ],
       "answer": 3,
@@ -8345,12 +8365,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is dressed in crimson and gold, \"the scarlet letter in another form.\"",
       "options": [
-       "Conflict",
+       "Alliteration",
+       "Plot",
        "Symbolism",
-       "Tone / mood",
-       "Metaphor"
+       "Simile"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -8413,9 +8433,9 @@
       "prompt": "Which literary element does this describe in “XI: The Interior of a Heart”? He tells his congregation he is vile, and they hear humility.",
       "options": [
        "Characterization",
-       "Foreshadowing",
-       "Conflict",
-       "Diction / vocabulary"
+       "Tone / mood",
+       "Personification",
+       "Symbolism"
       ],
       "answer": 0,
       "element": "characterization",
@@ -8436,12 +8456,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XIV: Hester and the Physician”? Chillingworth has transformed himself into a devil by undertaking a devil's office.",
       "options": [
-       "Foreshadowing",
+       "Symbolism",
+       "Hyperbole",
        "Characterization",
-       "Setting",
-       "Tone / mood"
+       "Irony"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -8460,10 +8480,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XVII: The Pastor and His Parishioner”? Hester tells Dimmesdale that Chillingworth is her husband; he is horrified, then forgives her.",
       "options": [
-       "Point of view",
+       "Irony",
        "Conflict",
-       "Allusion",
-       "Plot"
+       "Setting",
+       "Tone / mood"
       ],
       "answer": 1,
       "element": "conflict",
@@ -8613,22 +8633,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The forest offers freedom, but Hester carries the letter's darkness into it.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 17,
+      "complication": {
+       "quote": "Once in my life I met the Black Man … This scarlet letter is his mark",
+       "location": "XVI: A Forest Walk, paragraph 22"
+      },
       "n": 48,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -8640,22 +8665,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 24,
+      "complication": {
+       "quote": "Is not this better … than what we dreamed of in the forest",
+       "location": "XXIII: The Revelation of the Scarlet Letter, paragraph 21"
+      },
       "n": 49,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -9274,7 +9304,7 @@
       "n": 48,
       "type": "short",
       "level": "synthesis",
-      "answer": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -9285,7 +9315,7 @@
       "n": 49,
       "type": "short",
       "level": "synthesis",
-      "answer": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -10041,9 +10071,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is beautiful, wild, intelligent and ungovernable; Hester fears what she has passed on to her.",
       "options": [
+       "Simile",
+       "Metaphor",
        "Irony",
-       "Personification",
-       "Point of view",
        "Characterization"
       ],
       "answer": 3,
@@ -10151,9 +10181,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XV: Hester and Pearl”? Pearl makes a green \"A\" of seaweed on her own breast.",
       "options": [
-       "Allusion",
-       "Theme",
-       "Metaphor",
+       "Personification",
+       "Foreshadowing",
+       "Point of view",
        "Symbolism"
       ],
       "answer": 3,
@@ -10219,7 +10249,7 @@
       "prompt": "Which literary element does this describe in “XX: The Minister in a Maze”? He feels a new energy and writes the Election Sermon with fervor.",
       "options": [
        "Structure",
-       "Point of view",
+       "Plot",
        "Hyperbole",
        "Irony"
       ],
@@ -10284,22 +10314,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The preface shows Hawthorne treating his community's judgment with ironic defiance.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "The author is constrained, therefore, to republish his introductory sketch without the change of a word",
+       "location": "Preface to the Second Edition, paragraph 2"
+      },
       "n": 43,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -10332,22 +10367,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The forest offers freedom, but Hester carries the letter's darkness into it.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 17,
+      "complication": {
+       "quote": "Once in my life I met the Black Man … This scarlet letter is his mark",
+       "location": "XVI: A Forest Walk, paragraph 22"
+      },
       "n": 45,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -10423,22 +10463,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 24,
+      "complication": {
+       "quote": "Is not this better … than what we dreamed of in the forest",
+       "location": "XXIII: The Revelation of the Scarlet Letter, paragraph 21"
+      },
       "n": 49,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -10993,7 +11038,7 @@
       "n": 43,
       "type": "short",
       "level": "synthesis",
-      "answer": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -11015,7 +11060,7 @@
       "n": 45,
       "type": "short",
       "level": "synthesis",
-      "answer": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -11059,7 +11104,7 @@
       "n": 49,
       "type": "short",
       "level": "synthesis",
-      "answer": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -11651,9 +11696,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is beautiful, wild, intelligent and ungovernable; Hester fears what she has passed on to her.",
       "options": [
-       "Imagery",
+       "Theme",
        "Characterization",
-       "Foreshadowing",
+       "Imagery",
        "Personification"
       ],
       "answer": 1,
@@ -11699,8 +11744,8 @@
       "options": [
        "Symbolism",
        "Personification",
-       "Structure",
-       "Alliteration"
+       "Allusion",
+       "Hyperbole"
       ],
       "answer": 0,
       "element": "symbolism",
@@ -11764,12 +11809,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XVI: A Forest Walk”? The forest path, dark and wild, with sunshine that flees from Hester.",
       "options": [
-       "Simile",
-       "Structure",
-       "Setting",
-       "Personification"
+       "Characterization",
+       "Personification",
+       "Theme",
+       "Setting"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -11853,9 +11898,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XX: The Minister in a Maze”? He feels a new energy and writes the Election Sermon with fervor.",
       "options": [
-       "Allusion",
-       "Alliteration",
        "Setting",
+       "Alliteration",
+       "Point of view",
        "Irony"
       ],
       "answer": 3,
@@ -11877,12 +11922,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XXIII: The Revelation of the Scarlet Letter”? Chillingworth tries to stop him: \"Thou hast escaped me!\"",
       "options": [
-       "Characterization",
-       "Conflict",
-       "Setting",
-       "Simile"
+       "Irony",
+       "Alliteration",
+       "Hyperbole",
+       "Characterization"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -11966,22 +12011,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The preface shows Hawthorne treating his community's judgment with ironic defiance.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "The author is constrained, therefore, to republish his introductory sketch without the change of a word",
+       "location": "Preface to the Second Edition, paragraph 2"
+      },
       "n": 39,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -12058,22 +12108,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Chillingworth tortures Dimmesdale by making him argue about his own secret.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He describes weeds springing \"out of a buried heart, to make manifest an unspoken crime\" and insists \"These men deceive themselves,\" and when he finally sees the minister's breast his joy differs from Satan's only by \"the trait of wonder in it!\". The words “Chillingworth tortures Dimmesdale by making him argue about his own secret.” (X: The Leech and His Patient, paragraph 10) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: Dimmesdale defends men who keep silent for the sake of their good works; Chillingworth calls it self-deception. A passage that complicates the claim: “these black weeds have sprung up out of a buried heart, to make manifest an unspoken crime” (X: The Leech and His Patient, paragraph 10) points to chillingworth's probing image, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “these black weeds have sprung up out of a buried heart, to make manifest an unspoken crime” (X: The Leech and His Patient, paragraph 10) bears it out: He describes weeds springing \"out of a buried heart, to make manifest an unspoken crime\" and insists \"These men deceive themselves,\" and when he finally sees the minister's breast his joy differs from Satan's only by \"the trait of wonder in it!\". But “None, save the freedom of a broken law” (X: The Leech and His Patient, paragraph 21) complicates it, because this detail (dimmesdale on Pearl's nature) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 11,
+      "complication": {
+       "quote": "None, save the freedom of a broken law",
+       "location": "X: The Leech and His Patient, paragraph 21"
+      },
       "n": 43,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -12705,7 +12760,7 @@
       "n": 39,
       "type": "short",
       "level": "synthesis",
-      "answer": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -12749,7 +12804,7 @@
       "n": 43,
       "type": "short",
       "level": "synthesis",
-      "answer": "He describes weeds springing \"out of a buried heart, to make manifest an unspoken crime\" and insists \"These men deceive themselves,\" and when he finally sees the minister's breast his joy differs from Satan's only by \"the trait of wonder in it!\". The words “Chillingworth tortures Dimmesdale by making him argue about his own secret.” (X: The Leech and His Patient, paragraph 10) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: Dimmesdale defends men who keep silent for the sake of their good works; Chillingworth calls it self-deception. A passage that complicates the claim: “these black weeds have sprung up out of a buried heart, to make manifest an unspoken crime” (X: The Leech and His Patient, paragraph 10) points to chillingworth's probing image, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “these black weeds have sprung up out of a buried heart, to make manifest an unspoken crime” (X: The Leech and His Patient, paragraph 10) bears it out: He describes weeds springing \"out of a buried heart, to make manifest an unspoken crime\" and insists \"These men deceive themselves,\" and when he finally sees the minister's breast his joy differs from Satan's only by \"the trait of wonder in it!\". But “None, save the freedom of a broken law” (X: The Leech and His Patient, paragraph 21) complicates it, because this detail (dimmesdale on Pearl's nature) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -13381,12 +13436,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “III: The Recognition”? A deformed, learned stranger in the crowd recognizes Hester and signals her to be silent.",
       "options": [
-       "Diction / vocabulary",
-       "Setting",
-       "Characterization",
-       "Theme"
+       "Personification",
+       "Symbolism",
+       "Theme",
+       "Characterization"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -13406,8 +13461,8 @@
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is dressed in crimson and gold, \"the scarlet letter in another form.\"",
       "options": [
        "Symbolism",
-       "Foreshadowing",
-       "Conflict",
+       "Structure",
+       "Allusion",
        "Metaphor"
       ],
       "answer": 0,
@@ -13450,9 +13505,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is beautiful, wild, intelligent and ungovernable; Hester fears what she has passed on to her.",
       "options": [
-       "Imagery",
+       "Theme",
        "Characterization",
-       "Foreshadowing",
+       "Imagery",
        "Personification"
       ],
       "answer": 1,
@@ -13474,12 +13529,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “X: The Leech and His Patient”? Black weeds that \"have sprung up out of a buried heart, to make manifest an unspoken crime.\"",
       "options": [
-       "Irony",
+       "Personification",
+       "Allusion",
        "Symbolism",
-       "Alliteration",
        "Plot"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -13520,12 +13575,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XIII: Another View of Hester”? Seven years on, Hester is a sister of mercy; many say the A means \"Able.\"",
       "options": [
-       "Plot",
-       "Characterization",
-       "Point of view",
-       "Allusion"
+       "Hyperbole",
+       "Tone / mood",
+       "Symbolism",
+       "Characterization"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -13609,12 +13664,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XVII: The Pastor and His Parishioner”? Hester tells Dimmesdale that Chillingworth is her husband; he is horrified, then forgives her.",
       "options": [
-       "Point of view",
-       "Hyperbole",
+       "Diction / vocabulary",
        "Conflict",
-       "Plot"
+       "Alliteration",
+       "Personification"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "conflict",
       "level": "analysis",
       "dok": 3,
@@ -13634,8 +13689,8 @@
       "prompt": "Which literary element does this describe in “XX: The Minister in a Maze”? Returning to town, Dimmesdale is tempted to blasphemy, to corrupt a young maiden and to curse.",
       "options": [
        "Characterization",
-       "Point of view",
-       "Allusion",
+       "Hyperbole",
+       "Tone / mood",
        "Personification"
       ],
       "answer": 0,
@@ -13679,12 +13734,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XXIII: The Revelation of the Scarlet Letter”? The climax: after the sermon Dimmesdale mounts the scaffold with Hester and Pearl, confesses, bares his breast and dies.",
       "options": [
-       "Plot",
-       "Simile",
-       "Personification",
-       "Theme"
+       "Theme",
+       "Diction / vocabulary",
+       "Irony",
+       "Plot"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
       "level": "analysis",
       "dok": 3,
@@ -13830,22 +13885,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The forest offers freedom, but Hester carries the letter's darkness into it.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 17,
+      "complication": {
+       "quote": "Once in my life I met the Black Man … This scarlet letter is his mark",
+       "location": "XVI: A Forest Walk, paragraph 22"
+      },
       "n": 44,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -13900,22 +13960,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Dimmesdale's plan to flee loosens all his moral restraints.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. The words “Dimmesdale's plan to flee loosens all his moral restraints.” (XX: The Minister in a Maze, paragraph 3) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the double face. A passage that complicates the claim: “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) points to dimmesdale after meeting Mistress Hibbins, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Did I make a contract with him in the forest” (XX: The Minister in a Maze, paragraph 10) bears it out: He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. But “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) complicates it, because here the text shows dimmesdale after meeting Mistress Hibbins. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 21,
+      "complication": {
+       "quote": "Have I then sold myself … to the fiend",
+       "location": "XX: The Minister in a Maze, paragraph 16"
+      },
       "n": 47,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -13971,22 +14036,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 24,
+      "complication": {
+       "quote": "Is not this better … than what we dreamed of in the forest",
+       "location": "XXIII: The Revelation of the Scarlet Letter, paragraph 21"
+      },
       "n": 50,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -14528,7 +14598,7 @@
       "n": 44,
       "type": "short",
       "level": "synthesis",
-      "answer": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -14561,7 +14631,7 @@
       "n": 47,
       "type": "short",
       "level": "synthesis",
-      "answer": "He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. The words “Dimmesdale's plan to flee loosens all his moral restraints.” (XX: The Minister in a Maze, paragraph 3) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the double face. A passage that complicates the claim: “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) points to dimmesdale after meeting Mistress Hibbins, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Did I make a contract with him in the forest” (XX: The Minister in a Maze, paragraph 10) bears it out: He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. But “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) complicates it, because here the text shows dimmesdale after meeting Mistress Hibbins. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -14594,7 +14664,7 @@
       "n": 50,
       "type": "short",
       "level": "synthesis",
-      "answer": "Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". The words “Public confession frees Dimmesdale and Pearl and defeats Chillingworth.” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the public confession the novel has waited for. A passage that complicates the claim: “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) points to chillingworth's defeat, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Hadst thou sought the whole earth over … there was no one place so secret … where thou couldst have escaped me—save on this very scaffold” (XXIII: The Revelation of the Scarlet Letter, paragraph 18) bears it out: Chillingworth admits the scaffold was the one place the minister \"couldst have escaped me,\" and when \"Pearl kissed his lips. A spell was broken.\". But “Is not this better … than what we dreamed of in the forest” (XXIII: The Revelation of the Scarlet Letter, paragraph 21) complicates it, because this detail (dimmesdale to Hester) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -15105,10 +15175,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Preface to the Second Edition”? Hawthorne answers Salem's anger with mock surprise and amusement, refusing to apologize.",
       "options": [
-       "Characterization",
-       "Plot",
+       "Theme",
+       "Allusion",
        "Tone / mood",
-       "Foreshadowing"
+       "Alliteration"
       ],
       "answer": 2,
       "element": "tone",
@@ -15126,10 +15196,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “III: The Recognition”? Dimmesdale, urged to make Hester name her partner, pleads with her to do it.",
       "options": [
-       "Personification",
+       "Point of view",
        "Irony",
-       "Imagery",
-       "Allusion"
+       "Metaphor",
+       "Plot"
       ],
       "answer": 1,
       "element": "irony",
@@ -15150,9 +15220,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is beautiful, wild, intelligent and ungovernable; Hester fears what she has passed on to her.",
       "options": [
-       "Imagery",
+       "Theme",
        "Characterization",
-       "Foreshadowing",
+       "Imagery",
        "Personification"
       ],
       "answer": 1,
@@ -15176,7 +15246,7 @@
       "options": [
        "Point of view",
        "Simile",
-       "Plot",
+       "Theme",
        "Structure"
       ],
       "answer": 3,
@@ -15264,9 +15334,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XVI: A Forest Walk”? Sunlight plays around Pearl but vanishes as Hester reaches for it.",
       "options": [
-       "Conflict",
-       "Point of view",
-       "Irony",
+       "Allusion",
+       "Alliteration",
+       "Diction / vocabulary",
        "Symbolism"
       ],
       "answer": 3,
@@ -15331,8 +15401,8 @@
       "prompt": "Which literary element does this describe in “XX: The Minister in a Maze”? Returning to town, Dimmesdale is tempted to blasphemy, to corrupt a young maiden and to curse.",
       "options": [
        "Characterization",
-       "Point of view",
-       "Allusion",
+       "Hyperbole",
+       "Tone / mood",
        "Personification"
       ],
       "answer": 0,
@@ -15397,22 +15467,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The preface shows Hawthorne treating his community's judgment with ironic defiance.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "The author is constrained, therefore, to republish his introductory sketch without the change of a word",
+       "location": "Preface to the Second Edition, paragraph 2"
+      },
       "n": 35,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -15467,22 +15542,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Pearl is both Hester's treasure and the visible sign of her sin.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Hester names her Pearl \"as being of great price,—purchased with all she had,\" yet asks in fear \"Child, what art thou?\", and Pearl insists \"I have no Heavenly Father!\". The words “Pearl is both Hester's treasure and the visible sign of her sin.” (VI: Pearl, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops sin and guilt: Hester wonders whether her child is a blessing or a living punishment. A passage that complicates the claim: “But she named the infant “Pearl,” as being of great price—purchased with all she had—her mother’s only treasure” (VI: Pearl, paragraph 1) points to why Hester names her Pearl, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “But she named the infant “Pearl,” as being of great price—purchased with all she had—her mother’s only treasure” (VI: Pearl, paragraph 1) bears it out: Hester names her Pearl \"as being of great price,—purchased with all she had,\" yet asks in fear \"Child, what art thou?\", and Pearl insists \"I have no Heavenly Father!\". But “Thy Heavenly Father sent thee” (VI: Pearl, paragraph 21) complicates it, because here the text shows hester's answer, which Pearl rejects. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 7,
+      "complication": {
+       "quote": "Thy Heavenly Father sent thee",
+       "location": "VI: Pearl, paragraph 21"
+      },
       "n": 38,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -15624,22 +15704,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The forest offers freedom, but Hester carries the letter's darkness into it.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 17,
+      "complication": {
+       "quote": "Once in my life I met the Black Man … This scarlet letter is his mark",
+       "location": "XVI: A Forest Walk, paragraph 22"
+      },
       "n": 45,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -15651,22 +15736,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “In the forest, Hester and Dimmesdale redefine their sin.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Dimmesdale calls Chillingworth's revenge \"blacker than my sin\" because it \"violated ... the sanctity of a human heart,\" and Hester insists \"What we did had a consecration of its own.\". The words “In the forest, Hester and Dimmesdale redefine their sin.” (XVII: The Pastor and His Parishioner, paragraph 31) are the evidence: their wording makes this point in the text itself. This develops sin and guilt: a hierarchy of sins. A passage that complicates the claim: “What we did had a consecration of its own. We felt it so! We said so to each other” (XVII: The Pastor and His Parishioner, paragraph 32) points to hester's defense, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “That old man’s revenge has been blacker than my sin. He has violated, in cold blood, the sanctity of a human heart” (XVII: The Pastor and His Parishioner, paragraph 31) bears it out: Dimmesdale calls Chillingworth's revenge \"blacker than my sin\" because it \"violated ... the sanctity of a human heart,\" and Hester insists \"What we did had a consecration of its own.\". But “Thou shalt not go alone” (XVII: The Pastor and His Parishioner, paragraph 56) complicates it, because this detail (hester's promise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 18,
+      "complication": {
+       "quote": "Thou shalt not go alone",
+       "location": "XVII: The Pastor and His Parishioner, paragraph 56"
+      },
       "n": 46,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -15700,22 +15790,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “Dimmesdale's plan to flee loosens all his moral restraints.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. The words “Dimmesdale's plan to flee loosens all his moral restraints.” (XX: The Minister in a Maze, paragraph 3) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the double face. A passage that complicates the claim: “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) points to dimmesdale after meeting Mistress Hibbins, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Did I make a contract with him in the forest” (XX: The Minister in a Maze, paragraph 10) bears it out: He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. But “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) complicates it, because here the text shows dimmesdale after meeting Mistress Hibbins. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 21,
+      "complication": {
+       "quote": "Have I then sold myself … to the fiend",
+       "location": "XX: The Minister in a Maze, paragraph 16"
+      },
       "n": 48,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -16190,7 +16285,7 @@
       "n": 35,
       "type": "short",
       "level": "synthesis",
-      "answer": "He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". The words “The preface shows Hawthorne treating his community's judgment with ironic defiance.” (Preface to the Second Edition, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne himself has been judged by his \"respectable community,\" a small echo of Hester's position. A passage that complicates the claim: “he finds that his sketch of official life, introductory to The Scarlet Letter, has created an unprecedented excitement in the respectable…” (Preface to the Second Edition, paragraph 1) points to the author describes the local outrage at \"The Customhouse.\", so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “It could hardly have been more violent, indeed, had he burned down the Customhouse” (Preface to the Second Edition, paragraph 1) bears it out: He says the reaction \"could hardly have been more violent\" if he had burned down the Customhouse, then announces he will republish \"without the change of a word.\". But “The author is constrained, therefore, to republish his introductory sketch without the change of a word” (Preface to the Second Edition, paragraph 2) complicates it, because this detail (hawthorne refuses to revise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -16223,7 +16318,7 @@
       "n": 38,
       "type": "short",
       "level": "synthesis",
-      "answer": "Hester names her Pearl \"as being of great price,—purchased with all she had,\" yet asks in fear \"Child, what art thou?\", and Pearl insists \"I have no Heavenly Father!\". The words “Pearl is both Hester's treasure and the visible sign of her sin.” (VI: Pearl, paragraph 1) are the evidence: their wording makes this point in the text itself. This develops sin and guilt: Hester wonders whether her child is a blessing or a living punishment. A passage that complicates the claim: “But she named the infant “Pearl,” as being of great price—purchased with all she had—her mother’s only treasure” (VI: Pearl, paragraph 1) points to why Hester names her Pearl, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “But she named the infant “Pearl,” as being of great price—purchased with all she had—her mother’s only treasure” (VI: Pearl, paragraph 1) bears it out: Hester names her Pearl \"as being of great price,—purchased with all she had,\" yet asks in fear \"Child, what art thou?\", and Pearl insists \"I have no Heavenly Father!\". But “Thy Heavenly Father sent thee” (VI: Pearl, paragraph 21) complicates it, because here the text shows hester's answer, which Pearl rejects. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -16300,7 +16395,7 @@
       "n": 45,
       "type": "short",
       "level": "synthesis",
-      "answer": "Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". The words “The forest offers freedom, but Hester carries the letter's darkness into it.” (XVI: A Forest Walk, paragraph 22) are the evidence: their wording makes this point in the text itself. This develops nature and the individual against society: the forest as a world outside Puritan law. A passage that complicates the claim: “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) points to pearl's observation, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Mother … the sunshine does not love you” (XVI: A Forest Walk, paragraph 4) bears it out: Pearl says \"the sunshine does not love you,\" and Hester tells her \"This scarlet letter is his mark!\". But “Once in my life I met the Black Man … This scarlet letter is his mark” (XVI: A Forest Walk, paragraph 22) complicates it, because this detail (hester's answer) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -16311,7 +16406,7 @@
       "n": 46,
       "type": "short",
       "level": "synthesis",
-      "answer": "Dimmesdale calls Chillingworth's revenge \"blacker than my sin\" because it \"violated ... the sanctity of a human heart,\" and Hester insists \"What we did had a consecration of its own.\". The words “In the forest, Hester and Dimmesdale redefine their sin.” (XVII: The Pastor and His Parishioner, paragraph 31) are the evidence: their wording makes this point in the text itself. This develops sin and guilt: a hierarchy of sins. A passage that complicates the claim: “What we did had a consecration of its own. We felt it so! We said so to each other” (XVII: The Pastor and His Parishioner, paragraph 32) points to hester's defense, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “That old man’s revenge has been blacker than my sin. He has violated, in cold blood, the sanctity of a human heart” (XVII: The Pastor and His Parishioner, paragraph 31) bears it out: Dimmesdale calls Chillingworth's revenge \"blacker than my sin\" because it \"violated ... the sanctity of a human heart,\" and Hester insists \"What we did had a consecration of its own.\". But “Thou shalt not go alone” (XVII: The Pastor and His Parishioner, paragraph 56) complicates it, because this detail (hester's promise) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -16333,7 +16428,7 @@
       "n": 48,
       "type": "short",
       "level": "synthesis",
-      "answer": "He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. The words “Dimmesdale's plan to flee loosens all his moral restraints.” (XX: The Minister in a Maze, paragraph 3) are the evidence: their wording makes this point in the text itself. This develops hypocrisy and truth: the double face. A passage that complicates the claim: “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) points to dimmesdale after meeting Mistress Hibbins, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Did I make a contract with him in the forest” (XX: The Minister in a Maze, paragraph 10) bears it out: He wonders whether he made \"a contract with him in the forest,\" and the narrator warns that no man can \"wear one face to himself and another to the multitude\" without losing the true one. But “Have I then sold myself … to the fiend” (XX: The Minister in a Maze, paragraph 16) complicates it, because here the text shows dimmesdale after meeting Mistress Hibbins. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -16761,12 +16856,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Preface to the Second Edition”? He calls his satirical sketch harmless and the outrage \"unprecedented excitement,\" exaggerating to mock his critics.",
       "options": [
-       "Allusion",
-       "Alliteration",
+       "Theme",
+       "Irony",
        "Imagery",
-       "Irony"
+       "Point of view"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -16850,9 +16945,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VI: Pearl”? Pearl is beautiful, wild, intelligent and ungovernable; Hester fears what she has passed on to her.",
       "options": [
-       "Imagery",
+       "Theme",
        "Characterization",
-       "Foreshadowing",
+       "Imagery",
        "Personification"
       ],
       "answer": 1,
@@ -16874,9 +16969,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VIII: The Elf-Child and the Minister”? The magistrates propose to take Pearl from Hester; Hester appeals to Dimmesdale.",
       "options": [
-       "Alliteration",
+       "Personification",
        "Foreshadowing",
-       "Setting",
+       "Plot",
        "Conflict"
       ],
       "answer": 3,
@@ -16920,12 +17015,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “X: The Leech and His Patient”? Black weeds that \"have sprung up out of a buried heart, to make manifest an unspoken crime.\"",
       "options": [
-       "Irony",
+       "Personification",
+       "Allusion",
        "Symbolism",
-       "Alliteration",
        "Plot"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "symbolism",
       "level": "analysis",
       "dok": 3,
@@ -16944,12 +17039,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XIV: Hester and the Physician”? Hester tells him she will reveal his identity to Dimmesdale.",
       "options": [
-       "Point of view",
-       "Conflict",
-       "Personification",
-       "Simile"
+       "Plot",
+       "Diction / vocabulary",
+       "Setting",
+       "Conflict"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "conflict",
       "level": "analysis",
       "dok": 3,
@@ -17035,8 +17130,8 @@
       "prompt": "Which literary element does this describe in “XX: The Minister in a Maze”? Returning to town, Dimmesdale is tempted to blasphemy, to corrupt a young maiden and to curse.",
       "options": [
        "Characterization",
-       "Point of view",
-       "Allusion",
+       "Hyperbole",
+       "Tone / mood",
        "Personification"
       ],
       "answer": 0,
@@ -17080,12 +17175,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XXIII: The Revelation of the Scarlet Letter”? Chillingworth tries to stop him: \"Thou hast escaped me!\"",
       "options": [
-       "Characterization",
-       "Conflict",
-       "Setting",
-       "Simile"
+       "Irony",
+       "Alliteration",
+       "Hyperbole",
+       "Characterization"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -17125,22 +17220,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “\"The Customhouse\" frames the novel as a romance that joins history and imagination.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The narrator presents a real document and a real rag yet says the letter gave \"a sensation not altogether physical,\" and defines his art as \"a neutral territory\" where \"the Actual and the Imaginary may meet.\". The words “\"The Customhouse\" frames the novel as a romance that joins history and imagination.” (The Customhouse, paragraph 44) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne feels his Puritan ancestors would scorn him as \"a writer of storybooks.\". A passage that complicates the claim: “A writer of storybooks! What kind of a business in life … may that be” (The Customhouse, paragraph 9) points to his imagined ancestors' contempt for him, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “a neutral territory, somewhere between the real world and fairyland, where the Actual and the Imaginary may meet” (The Customhouse, paragraph 44) bears it out: The narrator presents a real document and a real rag yet says the letter gave \"a sensation not altogether physical,\" and defines his art as \"a neutral territory\" where \"the Actual and the Imaginary may meet.\". But “A writer of storybooks! What kind of a business in life … may that be” (The Customhouse, paragraph 9) complicates it, because here the text shows his imagined ancestors' contempt for him. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 1,
+      "complication": {
+       "quote": "A writer of storybooks! What kind of a business in life … may that be",
+       "location": "The Customhouse, paragraph 9"
+      },
       "n": 33,
       "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -17196,22 +17296,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the chapter: “The first chapter sets nature's mercy against society's punishment.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "The prison is \"the black flower of civilized society,\" but beside it grows a rose-bush that may \"symbolize some sweet moral blossom.\". The words “The first chapter sets nature's mercy against society's punishment.” (I: The Prison-Door, paragraph 3) are the evidence: their wording makes this point in the text itself. This develops sin and guilt: the colony's first practical needs are a burial ground and a jail. A passage that complicates the claim: “the black flower of civilized society, a prison” (I: The Prison-Door, paragraph 2) points to the prison as an image, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “the black flower of civilized society, a prison” (I: The Prison-Door, paragraph 2) bears it out: The prison is \"the black flower of civilized society,\" but beside it grows a rose-bush that may \"symbolize some sweet moral blossom.\". But “The founders of a new colony, whatever Utopia of human virtue and happiness they might originally project, have invariably recognized it among their earliest…” (I: The Prison-Door, paragraph 2) complicates it, because here the text shows the opening irony about utopias. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 2,
+      "complication": {
+       "quote": "The founders of a new colony, whatever Utopia of human virtue and happiness they might originally project, have invariably recognized it among their earliest…",
+       "location": "I: The Prison-Door, paragraph 2"
+      },
       "n": 36,
       "scoringGuide": {
-       "points": 5,
-       "full": "A nuanced thesis; close reading of diction, syntax or form in two or more passages; synthesis across sections; acknowledges a competing reading and answers it.",
-       "partial": "4: strong analysis without a competing reading; 3: analysis of one passage; 2: summary with some analysis; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -17931,7 +18036,7 @@
       "n": 33,
       "type": "short",
       "level": "synthesis",
-      "answer": "The narrator presents a real document and a real rag yet says the letter gave \"a sensation not altogether physical,\" and defines his art as \"a neutral territory\" where \"the Actual and the Imaginary may meet.\". The words “\"The Customhouse\" frames the novel as a romance that joins history and imagination.” (The Customhouse, paragraph 44) are the evidence: their wording makes this point in the text itself. This develops public shame and private identity: Hawthorne feels his Puritan ancestors would scorn him as \"a writer of storybooks.\". A passage that complicates the claim: “A writer of storybooks! What kind of a business in life … may that be” (The Customhouse, paragraph 9) points to his imagined ancestors' contempt for him, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “a neutral territory, somewhere between the real world and fairyland, where the Actual and the Imaginary may meet” (The Customhouse, paragraph 44) bears it out: The narrator presents a real document and a real rag yet says the letter gave \"a sensation not altogether physical,\" and defines his art as \"a neutral territory\" where \"the Actual and the Imaginary may meet.\". But “A writer of storybooks! What kind of a business in life … may that be” (The Customhouse, paragraph 9) complicates it, because here the text shows his imagined ancestors' contempt for him. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -17964,7 +18069,7 @@
       "n": 36,
       "type": "short",
       "level": "synthesis",
-      "answer": "The prison is \"the black flower of civilized society,\" but beside it grows a rose-bush that may \"symbolize some sweet moral blossom.\". The words “The first chapter sets nature's mercy against society's punishment.” (I: The Prison-Door, paragraph 3) are the evidence: their wording makes this point in the text itself. This develops sin and guilt: the colony's first practical needs are a burial ground and a jail. A passage that complicates the claim: “the black flower of civilized society, a prison” (I: The Prison-Door, paragraph 2) points to the prison as an image, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “the black flower of civilized society, a prison” (I: The Prison-Door, paragraph 2) bears it out: The prison is \"the black flower of civilized society,\" but beside it grows a rose-bush that may \"symbolize some sweet moral blossom.\". But “The founders of a new colony, whatever Utopia of human virtue and happiness they might originally project, have invariably recognized it among their earliest…” (I: The Prison-Door, paragraph 2) complicates it, because here the text shows the opening irony about utopias. So the claim holds only once it is qualified: it explains much of the chapter, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -18425,10 +18530,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Preface to the Second Edition”? Hawthorne answers Salem's anger with mock surprise and amusement, refusing to apologize.",
       "options": [
-       "Characterization",
-       "Plot",
+       "Theme",
+       "Allusion",
        "Tone / mood",
-       "Foreshadowing"
+       "Alliteration"
       ],
       "answer": 2,
       "element": "tone",
@@ -18667,9 +18772,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XX: The Minister in a Maze”? He feels a new energy and writes the Election Sermon with fervor.",
       "options": [
-       "Allusion",
-       "Alliteration",
        "Setting",
+       "Alliteration",
+       "Point of view",
        "Irony"
       ],
       "answer": 3,
@@ -18692,11 +18797,11 @@
       "prompt": "Which literary element does this describe in “XXI: The New England Holiday”? Election Day: a holiday crowd, sailors, Indians and townspeople in the marketplace.",
       "options": [
        "Foreshadowing",
-       "Alliteration",
-       "Point of view",
-       "Setting"
+       "Diction / vocabulary",
+       "Setting",
+       "Hyperbole"
       ],
-      "answer": 3,
+      "answer": 2,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -18715,12 +18820,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XXIII: The Revelation of the Scarlet Letter”? The climax: after the sermon Dimmesdale mounts the scaffold with Hester and Pearl, confesses, bares his breast and dies.",
       "options": [
-       "Plot",
-       "Simile",
-       "Personification",
-       "Theme"
+       "Theme",
+       "Diction / vocabulary",
+       "Irony",
+       "Plot"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
       "level": "analysis",
       "dok": 3,
@@ -18761,12 +18866,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XXIV: Conclusion”? Chillingworth withers and dies within the year, leaving his property to Pearl; Hester returns and wears the letter freely.",
       "options": [
-       "Point of view",
+       "Metaphor",
+       "Allusion",
        "Characterization",
-       "Imagery",
-       "Irony"
+       "Hyperbole"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -20127,10 +20232,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “III: The Recognition”? Dimmesdale, urged to make Hester name her partner, pleads with her to do it.",
       "options": [
-       "Personification",
+       "Point of view",
        "Irony",
-       "Imagery",
-       "Allusion"
+       "Metaphor",
+       "Plot"
       ],
       "answer": 1,
       "element": "irony",
@@ -20217,12 +20322,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “VIII: The Elf-Child and the Minister”? Dimmesdale, the secret father, argues successfully that the child is a blessing and a reminder for her mother.",
       "options": [
-       "Allusion",
        "Irony",
-       "Foreshadowing",
-       "Structure"
+       "Structure",
+       "Theme",
+       "Alliteration"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "irony",
       "level": "analysis",
       "dok": 3,
@@ -20263,10 +20368,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XI: The Interior of a Heart”? He tells his congregation he is vile, and they hear humility.",
       "options": [
-       "Point of view",
-       "Conflict",
+       "Theme",
+       "Personification",
        "Characterization",
-       "Foreshadowing"
+       "Setting"
       ],
       "answer": 2,
       "element": "characterization",
@@ -20331,12 +20436,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XIII: Another View of Hester”? Seven years on, Hester is a sister of mercy; many say the A means \"Able.\"",
       "options": [
-       "Plot",
-       "Characterization",
-       "Point of view",
-       "Allusion"
+       "Hyperbole",
+       "Tone / mood",
+       "Symbolism",
+       "Characterization"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -20377,12 +20482,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XVI: A Forest Walk”? The forest path, dark and wild, with sunshine that flees from Hester.",
       "options": [
-       "Simile",
-       "Structure",
-       "Setting",
-       "Personification"
+       "Characterization",
+       "Personification",
+       "Theme",
+       "Setting"
       ],
-      "answer": 2,
+      "answer": 3,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -20401,12 +20506,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XVII: The Pastor and His Parishioner”? Dimmesdale's despair; Hester's strength: \"Thou shalt not go alone!\"",
       "options": [
+       "Personification",
+       "Tone / mood",
        "Metaphor",
-       "Characterization",
-       "Allusion",
-       "Imagery"
+       "Characterization"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -20426,8 +20531,8 @@
       "prompt": "Which literary element does this describe in “XX: The Minister in a Maze”? Returning to town, Dimmesdale is tempted to blasphemy, to corrupt a young maiden and to curse.",
       "options": [
        "Characterization",
-       "Point of view",
-       "Allusion",
+       "Hyperbole",
+       "Tone / mood",
        "Personification"
       ],
       "answer": 0,
@@ -20450,11 +20555,11 @@
       "prompt": "Which literary element does this describe in “XXI: The New England Holiday”? Election Day: a holiday crowd, sailors, Indians and townspeople in the marketplace.",
       "options": [
        "Foreshadowing",
-       "Alliteration",
-       "Point of view",
-       "Setting"
+       "Diction / vocabulary",
+       "Setting",
+       "Hyperbole"
       ],
-      "answer": 3,
+      "answer": 2,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -20516,12 +20621,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XXIII: The Revelation of the Scarlet Letter”? The climax: after the sermon Dimmesdale mounts the scaffold with Hester and Pearl, confesses, bares his breast and dies.",
       "options": [
-       "Plot",
-       "Simile",
-       "Personification",
-       "Theme"
+       "Theme",
+       "Diction / vocabulary",
+       "Irony",
+       "Plot"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
       "level": "analysis",
       "dok": 3,
@@ -20562,10 +20667,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “XXIV: Conclusion”? The conclusion offers several accounts of what was seen and withholds certainty.",
       "options": [
-       "Foreshadowing",
+       "Point of view",
        "Structure",
-       "Setting",
-       "Metaphor"
+       "Theme",
+       "Simile"
       ],
       "answer": 1,
       "element": "structure",

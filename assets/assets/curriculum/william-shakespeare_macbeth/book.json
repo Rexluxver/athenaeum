@@ -1323,12 +1323,12 @@
     "type": "mc",
     "prompt": "Which literary element does this describe in “Dramatis Personae”? \"Scotland; England\": a divided map. England will be where the rightful heir and the forces of order gather.",
     "options": [
-     "Point of view",
      "Setting",
-     "Simile",
-     "Plot"
+     "Irony",
+     "Hyperbole",
+     "Simile"
     ],
-    "answer": 1,
+    "answer": 0,
     "element": "setting",
     "level": "analysis",
     "dok": 3,
@@ -2456,12 +2456,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Dramatis Personae”? \"Scotland; England\": a divided map. England will be where the rightful heir and the forces of order gather.",
       "options": [
-       "Point of view",
        "Setting",
-       "Simile",
-       "Plot"
+       "Irony",
+       "Hyperbole",
+       "Simile"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -4610,22 +4610,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The ending restores order but leaves a complex view of Macbeth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 28,
+      "complication": {
+       "quote": "this dead butcher and his fiend-like queen",
+       "location": "Act V, Scene VIII, Malcolm"
+      },
       "n": 50,
       "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -5326,7 +5331,7 @@
       "n": 50,
       "type": "short",
       "level": "synthesis",
-      "answer": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -6253,12 +6258,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Dramatis Personae”? \"Scotland; England\": a divided map. England will be where the rightful heir and the forces of order gather.",
       "options": [
-       "Point of view",
        "Setting",
-       "Simile",
-       "Plot"
+       "Irony",
+       "Hyperbole",
+       "Simile"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -6450,22 +6455,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The scene contrasts Macbeth's overwhelming guilt with Lady Macbeth's practical denial, a contrast the play will reverse.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. The words “The scene contrasts Macbeth's overwhelming guilt with Lady Macbeth's practical denial, a contrast the play will reverse.” (Act II, Scene II, Lady Macbeth) are the evidence: their wording makes this point in the text itself. This develops guilt and conscience: Macbeth cannot say \"Amen\"; he will \"sleep no more.\". A passage that complicates the claim: “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) points to sleep as innocence destroyed, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “A little water clears us of this deed” (Act II, Scene II, Lady Macbeth) bears it out: He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. But “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) complicates it, because this detail (sleep as innocence destroyed) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 9,
+      "complication": {
+       "quote": "Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep",
+       "location": "Act II, Scene II, Macbeth"
+      },
       "n": 45,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -6554,22 +6564,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The ending restores order but leaves a complex view of Macbeth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 28,
+      "complication": {
+       "quote": "this dead butcher and his fiend-like queen",
+       "location": "Act V, Scene VIII, Malcolm"
+      },
       "n": 49,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -7227,7 +7242,7 @@
       "n": 45,
       "type": "short",
       "level": "synthesis",
-      "answer": "He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. The words “The scene contrasts Macbeth's overwhelming guilt with Lady Macbeth's practical denial, a contrast the play will reverse.” (Act II, Scene II, Lady Macbeth) are the evidence: their wording makes this point in the text itself. This develops guilt and conscience: Macbeth cannot say \"Amen\"; he will \"sleep no more.\". A passage that complicates the claim: “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) points to sleep as innocence destroyed, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “A little water clears us of this deed” (Act II, Scene II, Lady Macbeth) bears it out: He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. But “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) complicates it, because this detail (sleep as innocence destroyed) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -7283,7 +7298,7 @@
       "n": 49,
       "type": "short",
       "level": "synthesis",
-      "answer": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -8110,12 +8125,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Dramatis Personae”? \"Scotland; England\": a divided map. England will be where the rightful heir and the forces of order gather.",
       "options": [
-       "Point of view",
        "Setting",
-       "Simile",
-       "Plot"
+       "Irony",
+       "Hyperbole",
+       "Simile"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -8331,22 +8346,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The scene contrasts Macbeth's overwhelming guilt with Lady Macbeth's practical denial, a contrast the play will reverse.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. The words “The scene contrasts Macbeth's overwhelming guilt with Lady Macbeth's practical denial, a contrast the play will reverse.” (Act II, Scene II, Lady Macbeth) are the evidence: their wording makes this point in the text itself. This develops guilt and conscience: Macbeth cannot say \"Amen\"; he will \"sleep no more.\". A passage that complicates the claim: “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) points to sleep as innocence destroyed, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “A little water clears us of this deed” (Act II, Scene II, Lady Macbeth) bears it out: He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. But “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) complicates it, because this detail (sleep as innocence destroyed) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 9,
+      "complication": {
+       "quote": "Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep",
+       "location": "Act II, Scene II, Macbeth"
+      },
       "n": 45,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -8422,22 +8442,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The ending restores order but leaves a complex view of Macbeth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 28,
+      "complication": {
+       "quote": "this dead butcher and his fiend-like queen",
+       "location": "Act V, Scene VIII, Malcolm"
+      },
       "n": 49,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -9006,7 +9031,7 @@
       "n": 45,
       "type": "short",
       "level": "synthesis",
-      "answer": "He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. The words “The scene contrasts Macbeth's overwhelming guilt with Lady Macbeth's practical denial, a contrast the play will reverse.” (Act II, Scene II, Lady Macbeth) are the evidence: their wording makes this point in the text itself. This develops guilt and conscience: Macbeth cannot say \"Amen\"; he will \"sleep no more.\". A passage that complicates the claim: “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) points to sleep as innocence destroyed, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “A little water clears us of this deed” (Act II, Scene II, Lady Macbeth) bears it out: He asks whether \"all great Neptune's ocean\" can wash his hands clean, while she says \"A little water clears us of this deed,\" which she will disprove in her sleepwalking. But “Methought I heard a voice cry “Sleep no more! / Macbeth does murder sleep” (Act II, Scene II, Macbeth) complicates it, because this detail (sleep as innocence destroyed) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -9050,7 +9075,7 @@
       "n": 49,
       "type": "short",
       "level": "synthesis",
-      "answer": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -9767,12 +9792,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Dramatis Personae”? The cast list already divides the world: a king and his sons, generals, thanes, the English allies, and at the bottom the women and the supernatural. Macbeth and Banquo share one title, \"general of the king's army\": they begin as equals,…",
       "options": [
-       "Foreshadowing",
+       "Alliteration",
+       "Allusion",
        "Characterization",
-       "Plot",
-       "Conflict"
+       "Symbolism"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -10162,22 +10187,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The ending restores order but leaves a complex view of Macbeth.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 28,
+      "complication": {
+       "quote": "this dead butcher and his fiend-like queen",
+       "location": "Act V, Scene VIII, Malcolm"
+      },
       "n": 48,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -10806,7 +10836,7 @@
       "n": 48,
       "type": "short",
       "level": "synthesis",
-      "answer": "Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. The words “The ending restores order but leaves a complex view of Macbeth.” (Act V, Scene VIII, Macbeth) are the evidence: their wording makes this point in the text itself. This develops fate and free will: the equivocal prophecy completed. A passage that complicates the claim: “Macduff was from his mother’s womb / Untimely ripp’d” (Act V, Scene VIII, Macduff) points to caesarean birth, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Lay on, Macduff, / And damn’d be him that first cries, “Hold, enough” (Act V, Scene VIII, Macbeth) bears it out: Malcolm calls him \"this dead butcher,\" but his last words, \"Lay on, Macduff,\" show courage. But “this dead butcher and his fiend-like queen” (Act V, Scene VIII, Malcolm) complicates it, because this detail (malcolm's verdict) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -11370,12 +11400,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act I, Scene IV”? Duncan names Malcolm Prince of Cumberland (heir); Macbeth's aside calls it a step he must \"o'erleap.\"",
       "options": [
+       "Hyperbole",
        "Characterization",
-       "Symbolism",
-       "Tone / mood",
-       "Allusion"
+       "Diction / vocabulary",
+       "Setting"
       ],
-      "answer": 0,
+      "answer": 1,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -11530,8 +11560,8 @@
       "prompt": "Which literary element does this describe in “Act III, Scene IV”? Macbeth's public breakdown; Lady Macbeth tries to cover for him.",
       "options": [
        "Personification",
-       "Alliteration",
-       "Allusion",
+       "Metaphor",
+       "Hyperbole",
        "Characterization"
       ],
       "answer": 3,
@@ -11619,12 +11649,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act V, Scene IV”? Malcolm orders soldiers to cut boughs from Birnam Wood to hide their numbers.",
       "options": [
-       "Plot",
+       "Tone / mood",
        "Allusion",
-       "Simile",
-       "Setting"
+       "Alliteration",
+       "Plot"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
       "level": "analysis",
       "dok": 3,
@@ -11793,22 +11823,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The dagger speech shows that Macbeth's conscience is already tormenting him before he kills.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He calls it \"a dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain,\" knowing his imagination is creating the weapon, yet he follows it: \"I go, and it is done.\". The words “The dagger speech shows that Macbeth's conscience is already tormenting him before he kills.” (Act II, Scene I, Macbeth) are the evidence: their wording makes this point in the text itself. This develops guilt and conscience: guilt begins before the deed; his mind projects the act. A passage that complicates the claim: “I go, and it is done; the bell invites me” (Act II, Scene I, Macbeth) points to decision, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “A dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain” (Act II, Scene I, Macbeth) bears it out: He calls it \"a dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain,\" knowing his imagination is creating the weapon, yet he follows it: \"I go, and it is done.\". But “I go, and it is done; the bell invites me” (Act II, Scene I, Macbeth) complicates it, because this detail (decision) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 8,
+      "complication": {
+       "quote": "I go, and it is done; the bell invites me",
+       "location": "Act II, Scene I, Macbeth"
+      },
       "n": 42,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -12500,7 +12535,7 @@
       "n": 42,
       "type": "short",
       "level": "synthesis",
-      "answer": "He calls it \"a dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain,\" knowing his imagination is creating the weapon, yet he follows it: \"I go, and it is done.\". The words “The dagger speech shows that Macbeth's conscience is already tormenting him before he kills.” (Act II, Scene I, Macbeth) are the evidence: their wording makes this point in the text itself. This develops guilt and conscience: guilt begins before the deed; his mind projects the act. A passage that complicates the claim: “I go, and it is done; the bell invites me” (Act II, Scene I, Macbeth) points to decision, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “A dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain” (Act II, Scene I, Macbeth) bears it out: He calls it \"a dagger of the mind, a false creation, / Proceeding from the heat-oppressed brain,\" knowing his imagination is creating the weapon, yet he follows it: \"I go, and it is done.\". But “I go, and it is done; the bell invites me” (Act II, Scene I, Macbeth) complicates it, because this detail (decision) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -13141,8 +13176,8 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Dramatis Personae”? \"Scotland; England\": a divided map. England will be where the rightful heir and the forces of order gather.",
       "options": [
-       "Diction / vocabulary",
-       "Plot",
+       "Personification",
+       "Theme",
        "Setting",
        "Metaphor"
       ],
@@ -13209,12 +13244,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act I, Scene VII”? Lady Macbeth attacks his manhood and says she would have dashed her baby's brains out rather than break such an oath.",
       "options": [
+       "Setting",
        "Alliteration",
-       "Characterization",
-       "Simile",
-       "Foreshadowing"
+       "Diction / vocabulary",
+       "Characterization"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -13299,9 +13334,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene V”? Hecate scolds the witches and plans Macbeth's ruin through \"security\" (overconfidence).",
       "options": [
-       "Tone / mood",
-       "Personification",
+       "Metaphor",
        "Allusion",
+       "Theme",
        "Characterization"
       ],
       "answer": 3,
@@ -13345,12 +13380,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene I”? Three apparitions (an armed head, a bloody child, a crowned child with a tree) and a show of eight kings: each prophecy is a riddle.",
       "options": [
-       "Structure",
+       "Alliteration",
        "Simile",
-       "Foreshadowing",
-       "Diction / vocabulary"
+       "Tone / mood",
+       "Structure"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "structure",
       "level": "analysis",
       "dok": 3,
@@ -13369,12 +13404,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act V, Scene IV”? Malcolm orders soldiers to cut boughs from Birnam Wood to hide their numbers.",
       "options": [
-       "Plot",
+       "Tone / mood",
        "Allusion",
-       "Simile",
-       "Setting"
+       "Alliteration",
+       "Plot"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
       "level": "analysis",
       "dok": 3,
@@ -13613,22 +13648,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “Fleance's escape shows that Macbeth cannot control the future the witches foretold.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Banquo's dying cry \"Fly, good Fleance, fly\" saves his son, and the murderers admit they \"have lost / Best half of our affair.\". The words “Fleance's escape shows that Macbeth cannot control the future the witches foretold.” (Act III, Scene III, Second Murderer) are the evidence: their wording makes this point in the text itself. This develops fate and free will: Macbeth's attempt to defeat prophecy fails. A passage that complicates the claim: “The west yet glimmers with some streaks of day” (Act III, Scene III, First Murderer) points to twilight setting, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “O, treachery! Fly, good Fleance, fly, fly, fly” (Act III, Scene III, Banquo) bears it out: Banquo's dying cry \"Fly, good Fleance, fly\" saves his son, and the murderers admit they \"have lost / Best half of our affair.\". But “The west yet glimmers with some streaks of day” (Act III, Scene III, First Murderer) complicates it, because this detail (twilight setting) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 14,
+      "complication": {
+       "quote": "The west yet glimmers with some streaks of day",
+       "location": "Act III, Scene III, First Murderer"
+      },
       "n": 44,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -14307,7 +14347,7 @@
       "n": 44,
       "type": "short",
       "level": "synthesis",
-      "answer": "Banquo's dying cry \"Fly, good Fleance, fly\" saves his son, and the murderers admit they \"have lost / Best half of our affair.\". The words “Fleance's escape shows that Macbeth cannot control the future the witches foretold.” (Act III, Scene III, Second Murderer) are the evidence: their wording makes this point in the text itself. This develops fate and free will: Macbeth's attempt to defeat prophecy fails. A passage that complicates the claim: “The west yet glimmers with some streaks of day” (Act III, Scene III, First Murderer) points to twilight setting, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “O, treachery! Fly, good Fleance, fly, fly, fly” (Act III, Scene III, Banquo) bears it out: Banquo's dying cry \"Fly, good Fleance, fly\" saves his son, and the murderers admit they \"have lost / Best half of our affair.\". But “The west yet glimmers with some streaks of day” (Act III, Scene III, First Murderer) complicates it, because this detail (twilight setting) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -14904,12 +14944,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act II, Scene II”? Blood on hands; \"Macbeth does murder sleep\"; \"all great Neptune's ocean.\"",
       "options": [
-       "Tone / mood",
+       "Point of view",
+       "Irony",
        "Imagery",
-       "Setting",
-       "Hyperbole"
+       "Allusion"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "imagery",
       "level": "analysis",
       "dok": 3,
@@ -14991,9 +15031,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene V”? Hecate scolds the witches and plans Macbeth's ruin through \"security\" (overconfidence).",
       "options": [
-       "Tone / mood",
-       "Personification",
+       "Metaphor",
        "Allusion",
+       "Theme",
        "Characterization"
       ],
       "answer": 3,
@@ -15063,9 +15103,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene III”? Ross brings news of the slaughter; Macduff's grief: \"He has no children.\"",
       "options": [
-       "Hyperbole",
-       "Tone / mood",
        "Personification",
+       "Hyperbole",
+       "Diction / vocabulary",
        "Characterization"
       ],
       "answer": 3,
@@ -15109,9 +15149,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act V, Scene II”? Clothing this device: Macbeth's title hangs \"loose about him, like a giant's robe / Upon a dwarfish thief.\"",
       "options": [
-       "Plot",
-       "Diction / vocabulary",
        "Point of view",
+       "Theme",
+       "Structure",
        "Imagery"
       ],
       "answer": 3,
@@ -16653,9 +16693,9 @@
       "prompt": "Which literary element does this describe in “Act III, Scene III”? Dusk, a torch put out.",
       "options": [
        "Imagery",
-       "Setting",
-       "Tone / mood",
-       "Foreshadowing"
+       "Conflict",
+       "Characterization",
+       "Point of view"
       ],
       "answer": 0,
       "element": "imagery",
@@ -16719,10 +16759,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene VI”? Macduff has gone to England to seek help.",
       "options": [
-       "Point of view",
-       "Alliteration",
+       "Personification",
+       "Theme",
        "Characterization",
-       "Foreshadowing"
+       "Imagery"
       ],
       "answer": 2,
       "element": "characterization",
@@ -16743,12 +16783,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene I”? Three apparitions (an armed head, a bloody child, a crowned child with a tree) and a show of eight kings: each prophecy is a riddle.",
       "options": [
-       "Structure",
+       "Alliteration",
        "Simile",
-       "Foreshadowing",
-       "Diction / vocabulary"
+       "Tone / mood",
+       "Structure"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "structure",
       "level": "analysis",
       "dok": 3,
@@ -16813,12 +16853,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act V, Scene IV”? Malcolm orders soldiers to cut boughs from Birnam Wood to hide their numbers.",
       "options": [
-       "Plot",
+       "Tone / mood",
        "Allusion",
-       "Simile",
-       "Setting"
+       "Alliteration",
+       "Plot"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
       "level": "analysis",
       "dok": 3,
@@ -18218,12 +18258,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act I, Scene V”? Lady Macbeth reads Macbeth's letter, fears his nature is \"too full o' the milk of human kindness,\" and calls on spirits to \"unsex me here.\"",
       "options": [
+       "Theme",
        "Irony",
-       "Setting",
-       "Hyperbole",
-       "Characterization"
+       "Characterization",
+       "Personification"
       ],
-      "answer": 3,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -18466,9 +18506,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene V”? Hecate scolds the witches and plans Macbeth's ruin through \"security\" (overconfidence).",
       "options": [
-       "Tone / mood",
-       "Personification",
+       "Metaphor",
        "Allusion",
+       "Theme",
        "Characterization"
       ],
       "answer": 3,
@@ -18556,12 +18596,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene II”? A messenger warns them too late; murderers arrive.",
       "options": [
-       "Plot",
-       "Allusion",
-       "Alliteration",
-       "Dramatic irony"
+       "Foreshadowing",
+       "Dramatic irony",
+       "Setting",
+       "Conflict"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "structure",
       "level": "analysis",
       "dok": 3,
@@ -18690,12 +18730,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act V, Scene IV”? Malcolm orders soldiers to cut boughs from Birnam Wood to hide their numbers.",
       "options": [
-       "Plot",
+       "Tone / mood",
        "Allusion",
-       "Simile",
-       "Setting"
+       "Alliteration",
+       "Plot"
       ],
-      "answer": 0,
+      "answer": 3,
       "element": "plot",
       "level": "analysis",
       "dok": 3,
@@ -19883,8 +19923,8 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Dramatis Personae”? \"Scotland; England\": a divided map. England will be where the rightful heir and the forces of order gather.",
       "options": [
-       "Diction / vocabulary",
-       "Plot",
+       "Personification",
+       "Theme",
        "Setting",
        "Metaphor"
       ],
@@ -20111,12 +20151,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene II”? A messenger warns them too late; murderers arrive.",
       "options": [
-       "Plot",
-       "Allusion",
-       "Alliteration",
-       "Dramatic irony"
+       "Foreshadowing",
+       "Dramatic irony",
+       "Setting",
+       "Conflict"
       ],
-      "answer": 3,
+      "answer": 1,
       "element": "structure",
       "level": "analysis",
       "dok": 3,

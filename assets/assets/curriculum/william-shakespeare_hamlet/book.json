@@ -1320,9 +1320,9 @@
     "type": "mc",
     "prompt": "Which literary element does this describe in “Act I, Scene V”? \"Remember me.\"",
     "options": [
-     "Simile",
-     "Point of view",
-     "Structure",
+     "Theme",
+     "Setting",
+     "Alliteration",
      "Diction / vocabulary"
     ],
     "answer": 3,
@@ -1344,12 +1344,12 @@
     "type": "mc",
     "prompt": "Which literary element does this describe in “Act IV, Scene II”? \"The body is with the king, but the king is not with the body.\"",
     "options": [
-     "Conflict",
-     "Diction / vocabulary",
-     "Allusion",
-     "Metaphor"
+     "Hyperbole",
+     "Symbolism",
+     "Point of view",
+     "Diction / vocabulary"
     ],
-    "answer": 1,
+    "answer": 3,
     "element": "diction",
     "level": "analysis",
     "dok": 3,
@@ -2634,22 +2634,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The cast list announces Hamlet's problem: he belongs to two kings.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "Fortinbras, prince of Norway",
+       "location": "Dramatis Personae"
+      },
       "n": 48,
       "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -3371,7 +3376,7 @@
       "n": 48,
       "type": "short",
       "level": "synthesis",
-      "answer": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -4586,22 +4591,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The cast list announces Hamlet's problem: he belongs to two kings.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "Fortinbras, prince of Norway",
+       "location": "Dramatis Personae"
+      },
       "n": 48,
       "scoringGuide": {
-       "points": 2,
-       "full": "Correct answer in a complete sentence, using a detail from the text.",
-       "partial": "1 point: partly correct or no supporting detail.",
-       "zero": "0: incorrect or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -5320,7 +5330,7 @@
       "n": 48,
       "type": "short",
       "level": "synthesis",
-      "answer": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -6260,9 +6270,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act I, Scene V”? \"Remember me.\"",
       "options": [
-       "Simile",
-       "Point of view",
-       "Structure",
+       "Theme",
+       "Setting",
+       "Alliteration",
        "Diction / vocabulary"
       ],
       "answer": 3,
@@ -6359,12 +6369,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene II”? \"The body is with the king, but the king is not with the body.\"",
       "options": [
-       "Conflict",
-       "Diction / vocabulary",
-       "Allusion",
-       "Metaphor"
+       "Hyperbole",
+       "Symbolism",
+       "Point of view",
+       "Diction / vocabulary"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "diction",
       "level": "analysis",
       "dok": 3,
@@ -6456,22 +6466,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The cast list announces Hamlet's problem: he belongs to two kings.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "Fortinbras, prince of Norway",
+       "location": "Dramatis Personae"
+      },
       "n": 45,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -6486,22 +6501,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “Polonius believes he can uncover truth through deception.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He tells Reynaldo to \"By indirections find directions out,\" and after Ophelia's report decides \"This is the very ecstasy of love.\". The words “Polonius believes he can uncover truth through deception.” (Act II, Scene I, Polonius) are the evidence: their wording makes this point in the text itself. This develops appearance and reality: indirection. A passage that complicates the claim: “O, my lord, my lord, I have been so affrighted” (Act II, Scene I, Ophelia) points to ophelia's fear, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “By indirections find directions out” (Act II, Scene I, Polonius) bears it out: He tells Reynaldo to \"By indirections find directions out,\" and after Ophelia's report decides \"This is the very ecstasy of love.\". But “O, my lord, my lord, I have been so affrighted” (Act II, Scene I, Ophelia) complicates it, because this detail (ophelia's fear) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 6,
+      "complication": {
+       "quote": "O, my lord, my lord, I have been so affrighted",
+       "location": "Act II, Scene I, Ophelia"
+      },
       "n": 46,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -6565,22 +6585,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “In the final scene Hamlet acts not by planning but by accepting providence, and the revenge comes at the cost of nearly everyone.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". The words “In the final scene Hamlet acts not by planning but by accepting providence, and the revenge comes at the cost of nearly everyone.” (Act V, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops death and mortality: Hamlet dies asking Horatio to tell his story. A passage that complicates the claim: “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) points to horatio's farewell, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “the readiness is all” (Act V, Scene II, Hamlet) bears it out: He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". But “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) complicates it, because this detail (horatio's farewell) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 20,
+      "complication": {
+       "quote": "Good night, sweet prince; / And flights of angels sing thee to thy rest",
+       "location": "Act V, Scene II, Horatio"
+      },
       "n": 49,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -7235,7 +7260,7 @@
       "n": 45,
       "type": "short",
       "level": "synthesis",
-      "answer": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -7249,7 +7274,7 @@
       "n": 46,
       "type": "short",
       "level": "synthesis",
-      "answer": "He tells Reynaldo to \"By indirections find directions out,\" and after Ophelia's report decides \"This is the very ecstasy of love.\". The words “Polonius believes he can uncover truth through deception.” (Act II, Scene I, Polonius) are the evidence: their wording makes this point in the text itself. This develops appearance and reality: indirection. A passage that complicates the claim: “O, my lord, my lord, I have been so affrighted” (Act II, Scene I, Ophelia) points to ophelia's fear, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “By indirections find directions out” (Act II, Scene I, Polonius) bears it out: He tells Reynaldo to \"By indirections find directions out,\" and after Ophelia's report decides \"This is the very ecstasy of love.\". But “O, my lord, my lord, I have been so affrighted” (Act II, Scene I, Ophelia) complicates it, because this detail (ophelia's fear) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -7291,7 +7316,7 @@
       "n": 49,
       "type": "short",
       "level": "synthesis",
-      "answer": "He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". The words “In the final scene Hamlet acts not by planning but by accepting providence, and the revenge comes at the cost of nearly everyone.” (Act V, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops death and mortality: Hamlet dies asking Horatio to tell his story. A passage that complicates the claim: “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) points to horatio's farewell, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “the readiness is all” (Act V, Scene II, Hamlet) bears it out: He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". But “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) complicates it, because this detail (horatio's farewell) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.9-10.2"
@@ -8408,22 +8433,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “Hamlet exposes Rosencrantz as a tool.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He calls him a sponge \"that soaks up the king's countenance\" and riddles \"The body is with the king, but the king is not with the body.\". The words “Hamlet exposes Rosencrantz as a tool.” (Act IV, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the courtiers serve the king. A passage that complicates the claim: “Hide fox, and all after” (Act IV, Scene II, Hamlet) points to hamlet runs, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “The body is with the king, but the king is not with the body” (Act IV, Scene II, Hamlet) bears it out: He calls him a sponge \"that soaks up the king's countenance\" and riddles \"The body is with the king, but the king is not with the body.\". But “Hide fox, and all after” (Act IV, Scene II, Hamlet) complicates it, because this detail (hamlet runs) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 13,
+      "complication": {
+       "quote": "Hide fox, and all after",
+       "location": "Act IV, Scene II, Hamlet"
+      },
       "n": 48,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -8435,22 +8465,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “In the final scene Hamlet acts not by planning but by accepting providence, and the revenge comes at the cost of nearly everyone.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". The words “In the final scene Hamlet acts not by planning but by accepting providence, and the revenge comes at the cost of nearly everyone.” (Act V, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops death and mortality: Hamlet dies asking Horatio to tell his story. A passage that complicates the claim: “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) points to horatio's farewell, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “the readiness is all” (Act V, Scene II, Hamlet) bears it out: He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". But “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) complicates it, because this detail (horatio's farewell) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 20,
+      "complication": {
+       "quote": "Good night, sweet prince; / And flights of angels sing thee to thy rest",
+       "location": "Act V, Scene II, Horatio"
+      },
       "n": 49,
       "scoringGuide": {
-       "points": 3,
-       "full": "A clear claim, one accurate quotation or close paraphrase, and a sentence explaining how it supports the claim.",
-       "partial": "2 points: claim and evidence without explanation; 1 point: claim only.",
-       "zero": "0: incorrect, off-text or blank.",
+       "points": 4,
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -9061,7 +9096,7 @@
       "n": 48,
       "type": "short",
       "level": "synthesis",
-      "answer": "He calls him a sponge \"that soaks up the king's countenance\" and riddles \"The body is with the king, but the king is not with the body.\". The words “Hamlet exposes Rosencrantz as a tool.” (Act IV, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the courtiers serve the king. A passage that complicates the claim: “Hide fox, and all after” (Act IV, Scene II, Hamlet) points to hamlet runs, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “The body is with the king, but the king is not with the body” (Act IV, Scene II, Hamlet) bears it out: He calls him a sponge \"that soaks up the king's countenance\" and riddles \"The body is with the king, but the king is not with the body.\". But “Hide fox, and all after” (Act IV, Scene II, Hamlet) complicates it, because this detail (hamlet runs) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -9072,7 +9107,7 @@
       "n": 49,
       "type": "short",
       "level": "synthesis",
-      "answer": "He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". The words “In the final scene Hamlet acts not by planning but by accepting providence, and the revenge comes at the cost of nearly everyone.” (Act V, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops death and mortality: Hamlet dies asking Horatio to tell his story. A passage that complicates the claim: “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) points to horatio's farewell, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “the readiness is all” (Act V, Scene II, Hamlet) bears it out: He tells Horatio \"There's a divinity that shapes our ends,\" says \"the readiness is all,\" kills Claudius only after the poison is revealed, and dies with \"The rest is silence.\". But “Good night, sweet prince; / And flights of angels sing thee to thy rest” (Act V, Scene II, Horatio) complicates it, because this detail (horatio's farewell) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -9862,9 +9897,9 @@
       "prompt": "Which literary element does this describe in “Act I, Scene IV”? The battlements at midnight; Claudius drinks below.",
       "options": [
        "Setting",
-       "Irony",
-       "Hyperbole",
-       "Plot"
+       "Theme",
+       "Personification",
+       "Allusion"
       ],
       "answer": 0,
       "element": "setting",
@@ -11376,8 +11411,8 @@
       "options": [
        "Characterization",
        "Theme",
-       "Tone / mood",
-       "Personification"
+       "Personification",
+       "Diction / vocabulary"
       ],
       "answer": 0,
       "element": "characterization",
@@ -11464,10 +11499,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act I, Scene V”? The Ghost reveals the murder: poison poured in the ear.",
       "options": [
-       "Symbolism",
+       "Allusion",
        "Alliteration",
        "Characterization",
-       "Personification"
+       "Metaphor"
       ],
       "answer": 2,
       "element": "characterization",
@@ -11488,9 +11523,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act II, Scene I”? Polonius uses lies to find truth.",
       "options": [
-       "Diction / vocabulary",
        "Allusion",
-       "Point of view",
+       "Tone / mood",
+       "Theme",
        "Irony"
       ],
       "answer": 3,
@@ -11513,9 +11548,9 @@
       "prompt": "Which literary element does this describe in “Act III, Scene III”? Claudius's confession and prayer.",
       "options": [
        "Characterization",
-       "Plot",
-       "Hyperbole",
-       "Setting"
+       "Personification",
+       "Theme",
+       "Hyperbole"
       ],
       "answer": 0,
       "element": "characterization",
@@ -11760,22 +11795,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The cast list announces Hamlet's problem: he belongs to two kings.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "Fortinbras, prince of Norway",
+       "location": "Dramatis Personae"
+      },
       "n": 39,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -11939,22 +11979,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The graveyard scene makes death physical and universal, and changes Hamlet's tone.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "Holding Yorick's skull (\"Alas, poor Yorick! I knew him, Horatio\"), Hamlet traces \"Imperious Caesar, dead and turn'd to clay,\" then at the grave insists \"I loved Ophelia: forty thousand brothers / Could not... Make up my sum.\". The words “The graveyard scene makes death physical and universal, and changes Hamlet's tone.” (Act V, Scene I, Hamlet) are the evidence: their wording makes this point in the text itself. This develops death and mortality: every body comes to dust, from jester to emperor. A passage that complicates the claim: “Imperious Caesar, dead and turn’d to clay” (Act V, Scene I, Hamlet) points to death levels the mighty, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Alas, poor Yorick! I knew him, Horatio” (Act V, Scene I, Hamlet) bears it out: Holding Yorick's skull (\"Alas, poor Yorick! I knew him, Horatio\"), Hamlet traces \"Imperious Caesar, dead and turn'd to clay,\" then at the grave insists \"I loved Ophelia: forty thousand brothers / Could not... Make up my sum.\". But “Imperious Caesar, dead and turn’d to clay” (Act V, Scene I, Hamlet) complicates it, because this detail (death levels the mighty) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 19,
+      "complication": {
+       "quote": "Imperious Caesar, dead and turn’d to clay",
+       "location": "Act V, Scene I, Hamlet"
+      },
       "n": 47,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -12502,7 +12547,7 @@
       "n": 39,
       "type": "short",
       "level": "synthesis",
-      "answer": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -12590,7 +12635,7 @@
       "n": 47,
       "type": "short",
       "level": "synthesis",
-      "answer": "Holding Yorick's skull (\"Alas, poor Yorick! I knew him, Horatio\"), Hamlet traces \"Imperious Caesar, dead and turn'd to clay,\" then at the grave insists \"I loved Ophelia: forty thousand brothers / Could not... Make up my sum.\". The words “The graveyard scene makes death physical and universal, and changes Hamlet's tone.” (Act V, Scene I, Hamlet) are the evidence: their wording makes this point in the text itself. This develops death and mortality: every body comes to dust, from jester to emperor. A passage that complicates the claim: “Imperious Caesar, dead and turn’d to clay” (Act V, Scene I, Hamlet) points to death levels the mighty, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Alas, poor Yorick! I knew him, Horatio” (Act V, Scene I, Hamlet) bears it out: Holding Yorick's skull (\"Alas, poor Yorick! I knew him, Horatio\"), Hamlet traces \"Imperious Caesar, dead and turn'd to clay,\" then at the grave insists \"I loved Ophelia: forty thousand brothers / Could not... Make up my sum.\". But “Imperious Caesar, dead and turn’d to clay” (Act V, Scene I, Hamlet) complicates it, because this detail (death levels the mighty) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -13147,12 +13192,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Dramatis Personae”? \"Scene: Denmark\": a single kingdom, a court, a castle.",
       "options": [
-       "Symbolism",
-       "Setting",
-       "Conflict",
-       "Simile"
+       "Irony",
+       "Diction / vocabulary",
+       "Simile",
+       "Setting"
       ],
-      "answer": 1,
+      "answer": 3,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -13502,22 +13547,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “The cast list announces Hamlet's problem: he belongs to two kings.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 0,
+      "complication": {
+       "quote": "Fortinbras, prince of Norway",
+       "location": "Dramatis Personae"
+      },
       "n": 38,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -14253,7 +14303,7 @@
       "n": 38,
       "type": "short",
       "level": "synthesis",
-      "answer": "He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. The words “The cast list announces Hamlet's problem: he belongs to two kings.” (Dramatis Personae) are the evidence: their wording makes this point in the text itself. This develops corruption and the state: the court is full of courtiers, officers and spies. A passage that complicates the claim: “Hamlet, son to the late, and nephew to the present king” (Dramatis Personae) points to hamlet's divided position, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “Gertrude, queen of Denmark, and mother to Hamlet” (Dramatis Personae) bears it out: He is \"son to the late, and nephew to the present king,\" and Gertrude is \"queen of Denmark, and mother to Hamlet,\" so loyalty to his father and to the court are already in conflict. But “Fortinbras, prince of Norway” (Dramatis Personae) complicates it, because here the text shows another prince who has lost a father. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -14933,10 +14983,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act I, Scene V”? The Ghost reveals the murder: poison poured in the ear.",
       "options": [
-       "Symbolism",
+       "Allusion",
        "Alliteration",
        "Characterization",
-       "Personification"
+       "Metaphor"
       ],
       "answer": 2,
       "element": "characterization",
@@ -15003,9 +15053,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene IV”? Hamlet confronts Gertrude.",
       "options": [
-       "Irony",
-       "Point of view",
        "Imagery",
+       "Diction / vocabulary",
+       "Metaphor",
        "Characterization"
       ],
       "answer": 3,
@@ -15074,7 +15124,7 @@
        "Characterization",
        "Simile",
        "Hyperbole",
-       "Irony"
+       "Imagery"
       ],
       "answer": 0,
       "element": "characterization",
@@ -15117,9 +15167,9 @@
       "prompt": "Which literary element does this describe in “Act V, Scene I”? Prose wit among the graves: the clowns debate whether Ophelia deserves Christian burial.",
       "options": [
        "Diction / vocabulary",
-       "Irony",
-       "Theme",
-       "Conflict"
+       "Point of view",
+       "Setting",
+       "Irony"
       ],
       "answer": 0,
       "element": "diction",
@@ -15225,22 +15275,27 @@
      {
       "type": "short",
       "prompt": "Evaluate this claim about the scene: “Hamlet's first speeches show that his grief is also disgust at a court that performs.” Is it fully persuasive? Argue with evidence, including a passage that complicates it.",
-      "expected": "He tells his mother \"I know not 'seems,'\" and alone wishes \"this too too solid flesh would melt,\" condemning her: \"Frailty, thy name is woman!\". The words “Hamlet's first speeches show that his grief is also disgust at a court that performs.” (Act I, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops appearance and reality: \"Seems, madam! nay it is; I know not 'seems.'\". A passage that complicates the claim: “Seems, madam! nay, it is; I know not “seems” (Act I, Scene II, Hamlet) points to appearance versus reality, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "expected": "The claim is persuasive only in part. In support, “O, that this too too solid flesh would melt” (Act I, Scene II, Hamlet) bears it out: He tells his mother \"I know not 'seems,'\" and alone wishes \"this too too solid flesh would melt,\" condemning her: \"Frailty, thy name is woman!\". But “Seems, madam! nay, it is; I know not “seems” (Act I, Scene II, Hamlet) complicates it, because this detail (appearance versus reality) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "element": "theme",
       "evaluate": true,
       "level": "synthesis",
       "dok": 4,
       "chapterIndex": 2,
+      "complication": {
+       "quote": "Seems, madam! nay, it is; I know not “seems",
+       "location": "Act I, Scene II, Hamlet"
+      },
       "n": 36,
       "scoringGuide": {
        "points": 4,
-       "full": "A precise, arguable claim; two pieces of embedded evidence; commentary on specific word choices or structure; an accurate connection to theme.",
-       "partial": "3: one piece of evidence well analyzed; 2: evidence summarized rather than analyzed; 1: claim only.",
-       "zero": "0: incorrect or blank.",
+       "full": "4 points: all four criteria met.",
+       "partial": "3: one criterion missing; 2: two missing; 1: a judgment with no usable evidence.",
+       "zero": "0: off-text, restates the claim, or blank.",
        "criteria": [
         "Judgment: states how far the claim is persuasive (fully, partly, not), not just agreement (1 point).",
         "Support: one accurate, located quotation that supports the claim, with explanation (1 point).",
-        "Complication: one accurate, located quotation that complicates the claim, and a qualified conclusion that answers it (1 point)."
+        "Complication: one accurate, located quotation that cuts against the claim (ideally the passage named in the key), explained (1 point).",
+        "Qualified conclusion: weighs the support against the complication and says how the claim must be limited (1 point)."
        ]
       },
       "standards": {
@@ -15994,7 +16049,7 @@
       "n": 36,
       "type": "short",
       "level": "synthesis",
-      "answer": "He tells his mother \"I know not 'seems,'\" and alone wishes \"this too too solid flesh would melt,\" condemning her: \"Frailty, thy name is woman!\". The words “Hamlet's first speeches show that his grief is also disgust at a court that performs.” (Act I, Scene II, Hamlet) are the evidence: their wording makes this point in the text itself. This develops appearance and reality: \"Seems, madam! nay it is; I know not 'seems.'\". A passage that complicates the claim: “Seems, madam! nay, it is; I know not “seems” (Act I, Scene II, Hamlet) points to appearance versus reality, so a strong answer qualifies the claim (it holds, but not without that tension) rather than simply agreeing.",
+      "answer": "The claim is persuasive only in part. In support, “O, that this too too solid flesh would melt” (Act I, Scene II, Hamlet) bears it out: He tells his mother \"I know not 'seems,'\" and alone wishes \"this too too solid flesh would melt,\" condemning her: \"Frailty, thy name is woman!\". But “Seems, madam! nay, it is; I know not “seems” (Act I, Scene II, Hamlet) complicates it, because this detail (appearance versus reality) gives the reader a second explanation to weigh against the claim's reading. So the claim holds only once it is qualified: it explains much of the scene, but it has to account for that passage too, which it does not do on its own.",
       "standards": {
        "ccss": [
         "RL.11-12.2"
@@ -16624,9 +16679,9 @@
       "prompt": "Which literary element does this describe in “Act I, Scene V”? \"Remember me.\"",
       "options": [
        "Diction / vocabulary",
-       "Tone / mood",
-       "Theme",
-       "Personification"
+       "Allusion",
+       "Setting",
+       "Irony"
       ],
       "answer": 0,
       "element": "diction",
@@ -16731,10 +16786,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene II”? Hamlet's instructions to the players; Claudius's reaction.",
       "options": [
-       "Theme",
+       "Diction / vocabulary",
        "Symbolism",
        "Characterization",
-       "Point of view"
+       "Allusion"
       ],
       "answer": 2,
       "element": "characterization",
@@ -16826,7 +16881,7 @@
        "Characterization",
        "Simile",
        "Hyperbole",
-       "Irony"
+       "Imagery"
       ],
       "answer": 0,
       "element": "characterization",
@@ -16936,9 +16991,9 @@
       "prompt": "Which literary element does this describe in “Act IV, Scene VI”? Hamlet's letter to Horatio reports that pirates attacked his ship to England and brought him back to Denmark alone.",
       "options": [
        "Plot",
-       "Conflict",
+       "Symbolism",
        "Personification",
-       "Tone / mood"
+       "Setting"
       ],
       "answer": 0,
       "element": "plot",
@@ -18428,12 +18483,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act I, Scene IV”? The battlements at midnight; Claudius drinks below.",
       "options": [
-       "Theme",
-       "Imagery",
+       "Alliteration",
        "Setting",
-       "Allusion"
+       "Personification",
+       "Hyperbole"
       ],
-      "answer": 2,
+      "answer": 1,
       "element": "setting",
       "level": "analysis",
       "dok": 3,
@@ -18474,12 +18529,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act II, Scene II”? Soliloquy: \"O, what a rogue and peasant slave am I.\"",
       "options": [
-       "Imagery",
        "Structure",
-       "Diction / vocabulary",
-       "Simile"
+       "Simile",
+       "Metaphor",
+       "Tone / mood"
       ],
-      "answer": 1,
+      "answer": 0,
       "element": "structure",
       "level": "analysis",
       "dok": 3,
@@ -18542,9 +18597,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene IV”? Hamlet confronts Gertrude.",
       "options": [
-       "Irony",
-       "Point of view",
        "Imagery",
+       "Diction / vocabulary",
+       "Metaphor",
        "Characterization"
       ],
       "answer": 3,
@@ -18588,9 +18643,9 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene III”? Worms and kings.",
       "options": [
-       "Metaphor",
        "Structure",
-       "Foreshadowing",
+       "Alliteration",
+       "Point of view",
        "Diction / vocabulary"
       ],
       "answer": 3,
@@ -18653,12 +18708,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene IV”? Fortinbras as foil.",
       "options": [
-       "Irony",
+       "Personification",
+       "Alliteration",
        "Characterization",
-       "Setting",
-       "Symbolism"
+       "Irony"
       ],
-      "answer": 1,
+      "answer": 2,
       "element": "characterization",
       "level": "analysis",
       "dok": 3,
@@ -18743,8 +18798,8 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act V, Scene II”? Hamlet accepts whatever comes: \"the readiness is all.\"",
       "options": [
-       "Diction / vocabulary",
-       "Theme",
+       "Tone / mood",
+       "Symbolism",
        "Metaphor",
        "Characterization"
       ],
@@ -20164,10 +20219,10 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act III, Scene II”? Hamlet's instructions to the players; Claudius's reaction.",
       "options": [
-       "Theme",
+       "Diction / vocabulary",
        "Symbolism",
        "Characterization",
-       "Point of view"
+       "Allusion"
       ],
       "answer": 2,
       "element": "characterization",
@@ -20299,12 +20354,12 @@
       "type": "mc",
       "prompt": "Which literary element does this describe in “Act IV, Scene II”? \"The body is with the king, but the king is not with the body.\"",
       "options": [
+       "Foreshadowing",
        "Diction / vocabulary",
-       "Theme",
        "Setting",
-       "Imagery"
+       "Structure"
       ],
-      "answer": 0,
+      "answer": 1,
       "element": "diction",
       "level": "analysis",
       "dok": 3,
