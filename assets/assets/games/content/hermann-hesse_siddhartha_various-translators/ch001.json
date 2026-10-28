@@ -1,0 +1,5712 @@
+{
+ "meta": {
+  "bookId": "hermann-hesse_siddhartha_various-translators",
+  "chapterIndex": 1,
+  "chapterNumber": 2,
+  "title": "With the Samanas",
+  "roundName": "A Round of Five",
+  "roundStructure": "5 cards at every tier; at Pegasus, Griffin, Sphinx and Phoenix an optional, skippable sixth bonus card (optionalBonus: true, roundSlot 6).",
+  "tiers": [
+   "Sprite",
+   "Faun",
+   "Centaur",
+   "Pegasus",
+   "Griffin",
+   "Sphinx",
+   "Phoenix"
+  ],
+  "paraNumbering": "1-based (paras index + 1)",
+  "citation": "Hesse, H. (2015). *Siddhartha* (G. Olesch, A. Dreher, A. Coulter, S. Langer, & S. Chaichenets, Trans.; Standard Ebooks ed.). Standard Ebooks. https://standardebooks.org/ebooks/hermann-hesse/siddhartha/various-translators (Original work published 1922)",
+  "quoteReuse": "A few text lines are deliberately reused as evidence across different tiers and formats (never twice within one tier); readers see only their own tier.",
+  "dateEvidence": "2015 confirmed: Standard Ebooks colophon (live page and bundled epub) says \"The first edition of this ebook was released on May 16, 2015\"; epub dc:date 2015-05-16T21:19:06Z. The bundled epub is a later revision of that edition (released August 4, 2026, revision 33aff1c; dcterms:modified 2026-08-04); the reference cites the edition year 2015.",
+  "editionNote": "Bundled text = Standard Ebooks 2015 edition (CC0) of the Olesch, Dreher, Coulter, Langer & Chaichenets translation; wording matches Project Gutenberg #2500. Edition spellings kept as printed (e.g. unsown, worser).",
+  "chapterLevelOpen": "M1 (Athena): HOUSE-GUIDE L39 vs L109/L110 on 988 for self-harm needs the guide owner to reconcile at curriculum level; no 988 is added to game items.",
+  "answerRule": "Exactly one defensible answer per item at every tier; distractors plausible but clearly wrong from the text.",
+  "standardsNote": "PLACEHOLDER: standards are a provisional tier-to-band mapping (Sprite-Faun -> 9-10, Centaur+ -> 11-12; CCSS/IN codes unverified). Teacher-facing only; not final.",
+  "excludeSentences": "Populated from Hephaestus's games-only filter siddhartha-ch02-gameExclude.json (make_game_exclude.py) via populate_exclude.py: sha1(norm(s)) of each unique normalized sentence in its excludeNormalized list (game item texts, the full chapter sentences containing our quotes, and overlapping lesson-quiz lines). The chapter-end quiz skips any sentence whose sha1(norm()) is listed. The 1,968-entry audit list siddhartha-ch02-excludeSentences.json is NOT used (it holds the whole chapter-end pool). Chapter numbering: his files count chapters from 1 (chapter 2); the app code and chapters/NNN.json count from 0 (chapterIndex 1). Re-run make_game_exclude.py, then rebuild, whenever items change.",
+  "intentionalOverlaps": [],
+  "inTextCitation": "(Hesse, 1922/2015, With the Samanas, para. N)",
+  "addedFields": {
+   "intentionalOverlap": "waiver flag; currently false on every item (policy: lesson materials and games use different passages; no waivers). meta.intentionalOverlaps is empty",
+   "intentionalOverlapReason": "short reason string or null",
+   "roundSlot": "1-5 default round card, 6 = optional bonus, null = pool item",
+   "optionalBonus": "true for the skippable sixth card",
+   "contentFlag": "object {topics, context, teacherNote, optionalSkip, alternativeId} or null",
+   "order": "{cards:[{text,para}] in display order, answer:[display indices in story order]}",
+   "verdict": "{claim, faithful}",
+   "quote (wordSense)": "**word** marks the target word; strip ** for display/verification"
+  },
+  "excludeSource": {
+   "file": "siddhartha-ch02-gameExclude.json",
+   "generatedBy": "make_game_exclude.py (Hephaestus QA, 2026-10-27)",
+   "count": 240,
+   "chapter1Based": 2,
+   "chapterIndex0": 1
+  }
+ },
+ "games": {
+  "excludeSentences": [
+   "0221a59608f76ec7479b9bf93e243f95094003b7",
+   "03a1b8bcf4f8e3f47e5d26648adb554d6287c8ed",
+   "051cde9ce761e7f8d0127d1fd62a3e84a377e3ee",
+   "063cf3746acbe0d55debcefa033651605935bfae",
+   "06c58feb7e7af4a773ce7a254dfaf658b44b0563",
+   "07e630d9630f1fe037f53d9b450e3a4939ba51c7",
+   "07f7aa97c7df51b09ef4656d7425457c426be911",
+   "092095ae1d056d7c94a62b137d3fa844e81049cd",
+   "092ac503871e94e5fbfc74525e3daf2bf9ff80b4",
+   "09b14f39cb5c5188b9d9b461521989223506e8ba",
+   "0d50fac68c51c02d9a49e76125e12ac8b09bca1e",
+   "0dd3bb323fc89718e6c3654b495d9b1af4afee62",
+   "0df5b570c35bf0cf64a9f3a8821796871154daff",
+   "0e26b8a74c345eff0ec70989b19d9af25d93baa2",
+   "0e2b0ed74a5fabda4f7ad71749c8f0d184c6e1a1",
+   "0ea30d45c2d80e812cbc89c2577d39036fe44ac9",
+   "0f7fb164273431b89442efad9e64715fef28c619",
+   "0ff3389d0c3455cede676560feca36b2085f18d8",
+   "10692546c6cbe6c2c6f5a261d5bbe651a4e26621",
+   "106af581039712d36e9d702d4a622d331c55cfc2",
+   "10d4380d74003deff35ed7d448750a04342dbac2",
+   "10d4c6ebbcb015c5964e12cb64afb47ff0038dc3",
+   "1172d1527ecb58b8a3ec930e7548dce06438b5a4",
+   "148d83ffb1527879ef2b1ca41a849d50244a05dc",
+   "180172602005ee56f69a2a9c3925b64573f1c387",
+   "182c6e18ffd7ac2d4b9991c2459f95a399253700",
+   "18d528c8d12beaf79c9feab6eed8a79d4292e3e8",
+   "1c19b0b79617ab930b9577fd06033894e206e735",
+   "1ca4b01b32b1dff7eaca363010d6d5f10e134164",
+   "1d7f875ce5beb9ffa04e9a194e93e21787b89571",
+   "1db2f249549a56f8ac8519003d75493a73f8e22b",
+   "1ef26fd65bd0ad2ad4795318888ea892b8e12f58",
+   "1f1e877c57407cbb2f1f19041a3acc3486cd77d4",
+   "1f6ac9d17e6404bb0effdc46b3a3afc65dcbda46",
+   "21663a40eaea3156497215a00c5e875bfb8f5397",
+   "2547a2c31ed9f17b9d6305ec1fe8ec274fd1ec5c",
+   "2652e273554b4250b4252656d238988b688faf98",
+   "2792689d1247cf674256d251b7784d9a3b4acaae",
+   "2826ddbab0f1b03db9400dfce39c3d1bbfcb995e",
+   "2892f159b61bd542e4356bc282ac7e3bb2e99827",
+   "28b375fe97d04942a139bb9d752d4809a1aa6b65",
+   "29f278c4a47e56f2e640d95924c5e4e0dfe2f27c",
+   "2a38a6831df69932edd211e4dc4ff310c24a84fb",
+   "2b9b3e10ef20605a2ee3e3bfe568eff464204ec4",
+   "2bef616017d0ca462952535cc81ea2e1c5fc4977",
+   "2c4a283bedf00bb8ba0fdd2562336006f6612532",
+   "2c79d8b1cf3a20e60b58097fde9122a5ef3d77be",
+   "2cbfbb11d34b09e848b5f3663ec1ddd366ab48c1",
+   "2d2401aa15f306d28854024f91836e8c42afd86b",
+   "3008ecc9cdc7ebc99df256b8afe921fcdbf86d43",
+   "30a0436c2cd1b1b2198e808da20053dd90e81529",
+   "3114c014d2427e62ff71b918e2a49e8310f7d8f8",
+   "319c4351e43ff562863cc5c8ec23ba7f26fda127",
+   "31b71bd6e2002186e0d2d23910d4a23f50c8ff93",
+   "3432b40a87b5dcd6df590c346ab0ffc700da1699",
+   "360a8b23f6d51f8166f62b4369f5f39b3dc56314",
+   "37fd1189a3460b8f52ea877d06582a9eeff8a809",
+   "389c1932992426ce3f7407ae7e65265687387db7",
+   "38c3c9e88c5397b75c517289d87f26f470b1928f",
+   "39f66bc47ad4347482c1bdb47bd1a100f1992c84",
+   "3b3486d66bae774f1eae408348bbe624cebe9971",
+   "3bd1999f078f8b93fce04f75e42b269263ce0250",
+   "3d7518397df24a5e22cdb0c891ce9caaa1fc12cb",
+   "3e63ce34eea84e3622f5a95d266d4d6b4cee6219",
+   "4087717ee40513a14b234f2e8986d767577fb44f",
+   "42e4e7d23b4ab330aadb81729df59cbbcebe6e64",
+   "42eaabfaf2fa640e19c31abe51db980bbc87dfdc",
+   "44519f83d0b8783595357cd0fe3dce9540049d4e",
+   "475a194c6cf4ce08e99fd061942999adfedf5b1e",
+   "4844f95a62471b0cefa96bf2698708a4e491ddde",
+   "488a4a39fc739bf26e0fce257573ccef53a110f6",
+   "490f5c1b0225f34e7955b8ba6b038afa5f43667a",
+   "49b71cd3c290712110502adfb666a2c2e937223e",
+   "4a0cbf3adb79b09b918867eef15d374d6c8ed7b7",
+   "4b48b32cfdb66e87018055cc3676364774054c80",
+   "4f55becbb6f9d26a81cd14b24338dccda82ce730",
+   "509e28117c72586c92bb692a299c0d3eada7109e",
+   "53a44ed1f5b8b444445fabe79f61c7007d69e666",
+   "53d9a8104b3837c9384ac2b5354bd483d329a4f2",
+   "55e2c65b8383951208c37c2c0dc435a40900c70d",
+   "577e5f04713969e2e95f80d366f2654d493b9917",
+   "58f70840c5b2464c07d4f49f083396feb0313306",
+   "5d5f5781bef686e55b90624b47eb664ed31b012e",
+   "5fafd1cb56bc2c5ed3c5473e828b17392ee303c4",
+   "5fdc5dc4f9c73b78bee60bfe650883ba63e7e976",
+   "606edbe233ba7ca690b3bef6551cae16d2d5bb76",
+   "63af2e85b672113c7a10aa748cef283086de5d07",
+   "63fc0cbf85f8db7b3d9f40cd9075f9e00386069e",
+   "65baf172b04e55834ccb4c07888ce6b16e9e67cf",
+   "677e3fba2103d379a04211beb4e570637b832112",
+   "6920cc1542fd3ad8e7a6c7d79f3d0e78ff9aff36",
+   "69775960ebe12ce65d052dc6340daaa6460b0d6a",
+   "69fdfeb4f63729fdf5f6a59b8216dd5ff7d8338f",
+   "6a0a65e34726bd8609a63a9dc1615c90b24d8bf3",
+   "6a5f73288d862bc8b512c024029470fd2dc0396d",
+   "6a919ef70f4c3aa5f80b29cb59ae31da5376c6f6",
+   "6b55362987be53a03fd6ffda2a7709ee3d8bcb68",
+   "6b7b391091170aa42985f4ac7363498ad72c2cdd",
+   "6c73e9ba29046ea1c4966b2539e6988bede971ca",
+   "6d690bdd0f3d8ac49071af80505af0df3dae18b0",
+   "6e2ed4c5b486ac01c3f028403b6ad0cb5cde2927",
+   "6eaedf1f7b9be014a2b1aa9e4585f1fbc1de4764",
+   "6eb337f393b76102d1e754d7c55de8bb63bfdea8",
+   "6fafc537191a754234d64324053fed36c0ac0fc1",
+   "706c038c55e91bf8a8558f101f70f3aba77c4d91",
+   "727225521c75855feeb703d74ff77c36dff04090",
+   "729cd61daa16f2cae928ecd0570bd429446c4265",
+   "73f220d4f984f612966ae3b71ccc985237db4f21",
+   "75e47024bae07f99c19720dd0eeebfa9c1a90e7d",
+   "7622c9c8c4f38ba149556157cb646b8d661d110a",
+   "767f80bc711ffdbbea81ee2273677bfd57dccd69",
+   "76bdc9a97611c8dad15a4ce28aea0ada560ee799",
+   "7756c82d1ec81ab3e452c1fb9741e7df6f93af92",
+   "77c9bf51725624ad937bd561dca83bea7bbbf4fa",
+   "78ca08b5d08ac5c8c112f9265305922dc3d4e7ce",
+   "7ae11d7108b5ed6336f9d6d4961fc86b0ac50079",
+   "7b8ab614b0c2604ca72ecb1fba535543074a0b1e",
+   "7c5929b8342d3f02c81fde130eced3afe51d8d6a",
+   "7d1a622b037d786cdf4e0e32e0825af50b5efa90",
+   "7e47b4e8e71c291b638f11d6ca0f3a38b63559d8",
+   "8021eb53c82872e29443fc1dbbaf88248d1f7cd7",
+   "8182af674cc329955177059dbd1011473146c495",
+   "8533038f523e0122a334b66a4f38ab18e9d47e92",
+   "8595f85421bf1a6016cc4ffd28939ad880591253",
+   "861081a4ab3ad9b2b6362c32b5f880bdb2f173cc",
+   "89364c8f5cf0b6c453981e91e3d940b239244633",
+   "89a27a64c45ec7c07b014f11ef022bb5c0c8feb5",
+   "8be9d68cd3d0e397fbae0a7aa57ab4126731613f",
+   "8d15b236dc248c8344766c1095efb436d12ec26c",
+   "8d425df8f598e9e6e6e0c53a1fd80f78a66a54f3",
+   "8e4eab9b344c1d48d3f4961aa533cb34878243c2",
+   "8e765e19f387172b53afdaba8301cdace5e966b9",
+   "8e7fdb6f574c9e85a5db0ec9bc6c16015cd4e10d",
+   "8ed67f055a93c5c07db8668c3f3c3d2e605cf00f",
+   "90329128118d86bc144902626504dec72c510a1c",
+   "90db32ba00e6350fd729c0fdcfc01e8b2df41133",
+   "94b5c0d9b6ed65754ab0dae861f3a07f7d7fa2e5",
+   "94ebde0dd6ed60f6b88639c484dd789fb6a7b589",
+   "95a58222461fdad7aea3d2a144430440154857f5",
+   "963ff946884bcc2fc9a4d8bc5d91b13adf01a91f",
+   "97178c382c2cb0d34c317a7559f2e9ecb69538fb",
+   "972e9db76c96e0b3574b1fd8bf3792bd7cafefdb",
+   "97fe72b15ce30863374949329635914ca8a58aef",
+   "9b5bdb50ff41aa350f7e5960e5b1885c9533d3d9",
+   "9b6c4f1c5c61642d10571898bcd31197950b68c3",
+   "9b8a9cfe6ea1a030f4599de3cb8854ffec7a16a9",
+   "9c5e161d197b56882ec7f2188988567db1d88012",
+   "9eb72778688b6323c7476c164c474783fc277b41",
+   "9f31449059245ac89a68c9326f021ef1872d16dc",
+   "9fdc8adf7aa31700c06a0cf15e18560cede24faa",
+   "a0d18257b482d0f7f9597bf048b3b4e0838087a6",
+   "a0e697aa06a6e1adcc33df3e8fddce3da5b07a59",
+   "a11f903ca8fb15118fd8659889cd641d38852d0b",
+   "a235c253cfbee7fb05e83ed6046c557c61332e48",
+   "a24c07ae23f8b87a1ab9ae06d6df8f8667e5bd20",
+   "a2c047f96fd503854d56d8bde7ceae69aa682c51",
+   "a5117358d3c8556167b815bcb14fcdc9a0a4c081",
+   "a660a3e40b499c62492ebd76496eac31522cc74e",
+   "a7a3f3cd62b89b5570917b9af1e527b3aabfc899",
+   "a8d35af96a4fcacd436f4991310d14834aef4a61",
+   "a9538dea7b3cda8dbf9d40e26d2ea3800cb7f621",
+   "ab6e83c5237637f5fd1c2efd90c21610c1656c2b",
+   "acf290bc763c4ed01a332af43a8e65a959580456",
+   "adcdbea0d4baf4ee5fe70918ddb38b6242afce1d",
+   "af2a99e4e8c8dec83b92bf26a19fa89f96c05ccc",
+   "b130d711334341eca61416f0e73b1d58dc222565",
+   "b14e3c4cf947a09f4bbdaba1fd4b9c7afc6823ed",
+   "b1d5d5be29c5ee2e0b96ec8401f93a8394c8ab7f",
+   "b325ff3e45c32ff923ece104298e49fd7345d96a",
+   "b38787c974c3b88cc539ac736bd0542525dd6b70",
+   "b6466e434ebdf342f5aafedffe3282d3cfccccee",
+   "b852c51662344699ccd23637b16445f63e6317e8",
+   "b97f8602aad0cc262d08cdc8f1277167e239cbf7",
+   "c017bb2e4a05efbce6e1015ee58c83d7d1cba282",
+   "c04abc69f63a29a37fc05a9d226f5f7e5679dee5",
+   "c1529a5ff4f175981cfbee178c6b5907cc0ee869",
+   "c19121c0127198b1594f7ba69a3762579114dc33",
+   "c52483922b33fa3b50ebeac30a5b110b40f6bf3a",
+   "c6177d478e0552dab071155c92035a76bd831a87",
+   "c772e1b706ac987e44bd767715ba89fd466aa61b",
+   "c7c967bdc92d5d95e6e502efc5cc271cc58fc4de",
+   "c87446f08581346ffe8e075b0e8dbd5af5359fea",
+   "c92ef27db827df7a9c1e3703753244947db4368d",
+   "c93c7db62bb9f2e2896bc10b7b294246f1ba52aa",
+   "c94f3b0eb47fdfb4864283e668ffbf9ddad6977c",
+   "cb7e348e9a09e4a8fe247e1e1fca1dc3ba1ad14e",
+   "cb8f888c1798cd8755de267e32e1bedae613074d",
+   "ce9e186d5856c000188f32ab101d66b5a0171150",
+   "cef28d22197e29cdc106723f7fbe9ee55efdb596",
+   "cef5535c07f741cccb2d1067d3ba95fc1e285c30",
+   "cf2e58bdb1317cceb437889221c0fbf9e7c39b71",
+   "cf53f0220988ea65791635987b146f81c83cc151",
+   "cfeb4146f5e4b4f4e14295ecf8fdb2ef99a0262f",
+   "cffc6597f99055058afeb095b3a679fb83ec1ee6",
+   "d0984d57730fc6b4dec9dc30c474da696a3b5c14",
+   "d5d448d981a78f67b0ccaed75089381ab057725f",
+   "d5d853fe46bebad1ebfae0af015a3f791d0ffc82",
+   "d68f077d9e714d5efa8857eb230e2c7a8351e3b6",
+   "d7670bc6d99ec9b789b0bee381cffce00789305f",
+   "d8604af3ad63e1038316df7aeafc2a72c2d4b991",
+   "d8c6a6c158b87cb4e950bca8dfb46c4a1d21084f",
+   "d902ea8d704afb4a4975abc6d472c143a140d6e8",
+   "d9ce7766a14a3da73b4230e8250b2dc408914411",
+   "dab00b5bdc52a805962e05a3153a80d7c88147bb",
+   "db001433eedc1983dd606786625727e40dcb02ed",
+   "dbe3f4be6265f60034d41767715a151e0bf8a248",
+   "dbf4df7732300bda47303680d770bee7d5b198ac",
+   "dbfa84c5311e064453d1afdd6b2c2a96e01a83ca",
+   "dc52ec33c8cf09a0f784b535f37d1390cd546818",
+   "dc57f05afc65a8b71e18192a02b2f713d33e9586",
+   "deca1d46808d7a2ddca40b3be9a5cefc8586412b",
+   "e049da5951743cdf4645a5f8619c2b54d76a9a1b",
+   "e182ad382cb1412ddc1249c175ed806ec31da9aa",
+   "e1eb0d91e119dbcd5b69db9773454e0b8e3485e9",
+   "e3b9dd1cf4e849fd351aa5d0da6fc9747d8b050f",
+   "e43cd8ef0eb73577570d22898d5005ba05ff802b",
+   "e506b649793cb4e03391aa3fff8f9bd331c51bf1",
+   "e5e383a49ec378c6072ee057b18cd652af8644ec",
+   "e6843238d675dc1b5dd6dd28d81d67a064b6587e",
+   "e7242965ac897889e56c1c558f665fdffa503db0",
+   "e85bae0bd39269b9fd464f100d2bebb095a7b16f",
+   "e880991e18552280946cf240411708dd87619e26",
+   "e8cd1896a37426b2e5016485c6b2526a44fc24d7",
+   "ea147e53a8cbb6ac80f0df8def9dcecc64f11aca",
+   "ea1f9ace421187a76cf0e45e77f8936eed422363",
+   "ed4c6c622d3148eb07f5b32f1484dccb652997d0",
+   "eddb85f7934453d87f92ffe65d5dc172f158005e",
+   "eebafe61ff9fadb2dbc375b554975d6268ded0bf",
+   "ef6f37acf0cc87a0cac629f5832fd3918e93bbde",
+   "ef8c6ca01fe6b9828d4578c3cf5de04d32bdd7fe",
+   "f197fd3f320d05b6f0dc951026fd85da80185185",
+   "f3cadcf46459811596efbc9a446dc95ecc7464fd",
+   "f58adcc0215fdf8d6d28e6c4c58cb59f8755fca0",
+   "f5ec6196e5f08d37f4de81f2ffe24355fffbcf18",
+   "f626eba941a76343a63547de6a2c37da7c8c0781",
+   "f69e0675a6e93ff2b7fe7a2ace136276cd6014cb",
+   "f6e79241227d491aa268e567c3759e69e538c948",
+   "f94d467c5e318fb7363c181d0b1b3b6e2790df31",
+   "fe182ac779d773657824f8612304ee191ffc8870",
+   "fe43e32cb1ed87ccbae7212ee8e3c775dea9948a"
+  ],
+  "items": [
+   {
+    "id": "sid-02-mw-sp-01",
+    "format": "missingWord",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 8,
+    "quote": "By his side lived Govinda, his ____, walked the same paths, undertook the same efforts.",
+    "options": [
+     "shadow",
+     "teacher",
+     "father",
+     "master"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 8,
+    "explain": "Govinda as Siddhartha's 'shadow' sets up the friendship that the whole novel will test.",
+    "contentFlag": null,
+    "roundSlot": 1,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-sp-02",
+    "format": "missingWord",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 2,
+    "quote": "long nails grew slowly on his parched fingers and a dry, shaggy ____ grew on his chin.",
+    "options": [
+     "beard",
+     "hat",
+     "scarf",
+     "flower"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "His wild beard shows how completely he has given up caring for his body.",
+    "contentFlag": null,
+    "roundSlot": 2,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-sp-03",
+    "format": "missingWord",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 27,
+    "quote": "And he shook his ____.",
+    "options": [
+     "head",
+     "bowl",
+     "stick",
+     "cart"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 27,
+    "explain": "A silent head-shake is Siddhartha's answer to Govinda's verse: doubt without words.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-sp-01",
+    "format": "whoSpoke",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 18,
+    "quote": "How old, would you think, is our oldest Samana, our venerable teacher?",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 18,
+    "explain": "Siddhartha's simple question about age is the start of his proof that the Samana path fails.",
+    "contentFlag": null,
+    "roundSlot": 3,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-sp-02",
+    "format": "whoSpoke",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 37,
+    "quote": "Your willingness delights my heart.",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Govinda",
+     "Siddhartha",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 37,
+    "explain": "Govinda is glad his friend will come to hear the Buddha with him.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-sp-03",
+    "format": "whoSpoke",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 10,
+    "quote": "Quickly, you’ve learned every exercise",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Govinda",
+     "Siddhartha",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 10,
+    "explain": "Govinda praises his friend's speed; Siddhartha will soon say speed proves nothing.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-sp-01",
+    "format": "inOrder",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 2,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "News of Gotama, the Buddha, reaches the friends",
+       "para": 28
+      },
+      {
+       "text": "Siddhartha gives his clothes to a poor Brahmin",
+       "para": 2
+      },
+      {
+       "text": "Siddhartha casts a spell on the old Samana",
+       "para": 41
+      }
+     ],
+     "answer": [
+      1,
+      0,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "The chapter moves from giving everything up, to hearing of the Buddha, to leaving.",
+    "contentFlag": null,
+    "roundSlot": 4,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-sp-02",
+    "format": "inOrder",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 1,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Siddhartha agrees to go and hear the Buddha",
+       "para": 36
+      },
+      {
+       "text": "Govinda asks to go and hear the Buddha",
+       "para": 33
+      },
+      {
+       "text": "The Samanas accept the two young men",
+       "para": 1
+      }
+     ],
+     "answer": [
+      2,
+      1,
+      0
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 1,
+    "explain": "Joining, hearing news, deciding to go: three years among the Samanas in three steps.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-sp-03",
+    "format": "inOrder",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 6,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Govinda guesses the oldest Samana is about sixty",
+       "para": 19
+      },
+      {
+       "text": "The oldest Samana becomes angry",
+       "para": 39
+      },
+      {
+       "text": "Siddhartha's soul flies as a heron",
+       "para": 6
+      }
+     ],
+     "answer": [
+      2,
+      0,
+      1
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "Practice comes first, then questions, then the break with the teacher.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-sp-01",
+    "format": "wordSense",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 41,
+    "quote": "The old man became **mute**, his eyes became motionless",
+    "options": [
+     "unable to speak",
+     "very angry",
+     "fast asleep",
+     "deeply sad"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 41,
+    "explain": "Siddhartha's spell silences the teacher who had just been shouting at him.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.9-10.4"
+     ],
+     "IN": [
+      "9-10.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-sp-02",
+    "format": "wordSense",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 16,
+    "quote": "Might we get closer to **salvation**?",
+    "options": [
+     "being set free",
+     "a large meal",
+     "a long walk",
+     "a new teacher"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 16,
+    "explain": "Siddhartha wants to be set free from suffering, not just to learn more exercises.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.9-10.4"
+     ],
+     "IN": [
+      "9-10.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-sp-03",
+    "format": "wordSense",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 40,
+    "quote": "Govinda was **startled** and became embarrassed.",
+    "options": [
+     "suddenly alarmed",
+     "bored",
+     "pleased",
+     "sleepy"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 40,
+    "explain": "Govinda's alarm shows how unexpected Siddhartha's daring is.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.9-10.4"
+     ],
+     "IN": [
+      "9-10.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-sp-01",
+    "format": "oddOneOut",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 6,
+    "quote": "was an animal, was carrion, was stone, was wood, was water",
+    "options": [
+     "heron",
+     "jackal",
+     "stone",
+     "tiger"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "Forms Siddhartha's soul took: a heron, a dead jackal, 'stone' (¶6). No tiger appears.",
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "Siddhartha's soul takes many forms in meditation.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.2"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-sp-02",
+    "format": "oddOneOut",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 2,
+    "quote": "He fasted for fifteen days.",
+    "options": [
+     "fasted",
+     "gave away garments",
+     "ate once a day",
+     "feasted"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "Siddhartha's self-denial: fasting, giving away his garments, eating once a day (¶2). He never feasted.",
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "Each true choice is a way Siddhartha gave up comfort.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.2"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-sp-03",
+    "format": "oddOneOut",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 28,
+    "quote": "surrounded by disciples, without possession, without home",
+    "options": [
+     "disciples",
+     "no home",
+     "yellow cloak",
+     "golden crown"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "How the rumour pictures Gotama: disciples, no home, a yellow cloak (¶28). No crown.",
+    "verdict": null,
+    "evidencePara": 28,
+    "explain": "The rumoured Buddha lives simply, yet cheerfully.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.2"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-sp-01",
+    "format": "verdict",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 1,
+    "quote": "They were accepted.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The Samanas accepted Siddhartha and Govinda.",
+     "faithful": true
+    },
+    "evidencePara": 1,
+    "explain": "The friends' journey begins with the Samanas saying yes.",
+    "contentFlag": null,
+    "roundSlot": 5,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-sp-02",
+    "format": "verdict",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 26,
+    "quote": "But Siddhartha remained silent.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Siddhartha argued loudly after Govinda's verse.",
+     "faithful": false
+    },
+    "evidencePara": 26,
+    "explain": "His silence is thinking, not shouting; he weighs Govinda's words before he answers.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-sp-03",
+    "format": "verdict",
+    "tier": 0,
+    "tierMin": 0,
+    "tierMax": 0,
+    "para": 39,
+    "quote": "He informed the oldest one with all the courtesy and modesty becoming to a younger one and a student.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Siddhartha told the oldest Samana politely that he was leaving.",
+     "faithful": true
+    },
+    "evidencePara": 39,
+    "explain": "Siddhartha leaves politely; the anger in this scene is the teacher's, not the student's.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-fa-01",
+    "format": "missingWord",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 4,
+    "quote": "until nothing ____ any more",
+    "options": [
+     "burned",
+     "sang",
+     "shone",
+     "rained"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 4,
+    "explain": "He endures until the pain goes silent: the Samanas try to quiet the body itself.",
+    "contentFlag": {
+     "topics": [
+      "ascetic self-punishment (described)"
+     ],
+     "context": "Siddhartha endures sun, cold and thorns as a religious austerity; the chapter itself judges these practices a dead end (paras 7, 13).",
+     "teacherNote": "Teacher note: some schools' guidelines may treat this passage differently.",
+     "optionalSkip": false,
+     "alternativeId": null
+    },
+    "roundSlot": 1,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-fa-02",
+    "format": "missingWord",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 42,
+    "quote": "It is hard, it is very hard to cast a ____ on an old Samana.",
+    "options": [
+     "spell",
+     "net",
+     "stone",
+     "vote"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 42,
+    "explain": "Govinda is amazed by a power that Siddhartha has stopped caring about.",
+    "contentFlag": null,
+    "roundSlot": 2,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-fa-03",
+    "format": "missingWord",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 22,
+    "quote": "and I have asked the holy ____, year after year",
+    "options": [
+     "Vedas",
+     "rivers",
+     "kings",
+     "stars"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 22,
+    "explain": "He has questioned scripture itself for years, and his thirst remains.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-fa-01",
+    "format": "whoSpoke",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 12,
+    "quote": "How could you have learned meditation, holding your breath",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Govinda",
+     "Siddhartha",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 12,
+    "explain": "Govinda cannot imagine Samana skills learned anywhere but with the Samanas.",
+    "contentFlag": null,
+    "roundSlot": 3,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-fa-02",
+    "format": "whoSpoke",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 38,
+    "quote": "Whether he has also other and better things to give us, O friend, let us await with calm hearts.",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 38,
+    "explain": "Siddhartha goes to the Buddha calmly, without expecting too much.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-fa-03",
+    "format": "whoSpoke",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 37,
+    "quote": "Your willingness delights my heart.",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Govinda",
+     "Siddhartha",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 37,
+    "explain": "Govinda is glad his friend will come to hear the Buddha.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-fa-01",
+    "format": "inOrder",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 5,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Govinda says the circle is a spiral",
+       "para": 17
+      },
+      {
+       "text": "Siddhartha learns to slow his heartbeat",
+       "para": 5
+      },
+      {
+       "text": "Govinda mumbles a verse from an Upanishad",
+       "para": 24
+      }
+     ],
+     "answer": [
+      1,
+      0,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 5,
+    "explain": "Training, then debate, then Govinda turning to scripture for comfort.",
+    "contentFlag": null,
+    "roundSlot": 4,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-fa-02",
+    "format": "inOrder",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 10,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "A rumour of Gotama reaches them",
+       "para": 28
+      },
+      {
+       "text": "Siddhartha compares meditation to rice wine",
+       "para": 13
+      },
+      {
+       "text": "Govinda predicts Siddhartha will be a holy man",
+       "para": 10
+      }
+     ],
+     "answer": [
+      2,
+      1,
+      0
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 10,
+    "explain": "Govinda's hope, Siddhartha's doubt, then news of a new path.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-fa-03",
+    "format": "inOrder",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 18,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Govinda hears of the Buddha in a village",
+       "para": 33
+      },
+      {
+       "text": "Siddhartha asks how old their teacher is",
+       "para": 18
+      },
+      {
+       "text": "Govinda says Siddhartha learned more than he knew",
+       "para": 42
+      }
+     ],
+     "answer": [
+      1,
+      0,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 18,
+    "explain": "A question about age leads, in the end, to a new journey.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.3"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-fa-01",
+    "format": "wordSense",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 18,
+    "quote": "our oldest Samana, our **venerable** teacher?",
+    "options": [
+     "deeply respected",
+     "young",
+     "unkind",
+     "forgetful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 18,
+    "explain": "Siddhartha honours his teacher even while doubting what he teaches.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.9-10.4"
+     ],
+     "IN": [
+      "9-10.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-fa-02",
+    "format": "wordSense",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 21,
+    "quote": "among so many **austere** and venerable Samanas",
+    "options": [
+     "strict and self-denying",
+     "wealthy",
+     "cheerful",
+     "lazy"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 21,
+    "explain": "Govinda points to the Samanas' strictness as proof they must be right.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.9-10.4"
+     ],
+     "IN": [
+      "9-10.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-fa-03",
+    "format": "wordSense",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 31,
+    "quote": "Everywhere where the **rumour** of Buddha was heard",
+    "options": [
+     "unconfirmed talk",
+     "a written law",
+     "a secret plan",
+     "a quiet prayer"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 31,
+    "explain": "The Buddha first spreads through the land as talk passed on, not as fact.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.9-10.4"
+     ],
+     "IN": [
+      "9-10.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-fa-01",
+    "format": "oddOneOut",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 13,
+    "quote": "And Siddhartha said quietly, as if he was talking to himself: “What is meditation?",
+    "options": [
+     "meditation",
+     "fasting",
+     "holding breath",
+     "begging"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "The practices Siddhartha calls 'fleeing from the self': meditation, fasting, holding one's breath (¶13). Begging is not on his list.",
+    "verdict": null,
+    "evidencePara": 13,
+    "explain": "Siddhartha lists the Samanas' practices to question them.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.2"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-fa-02",
+    "format": "oddOneOut",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 7,
+    "quote": "He went the way of self-denial by means of pain, through voluntarily suffering and overcoming pain, hunger, thirst, tiredness.",
+    "options": [
+     "hunger",
+     "thirst",
+     "tiredness",
+     "riches"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "The way of self-denial by means of pain goes through 'pain, hunger, thirst, tiredness' (¶7). Riches are not on the list.",
+    "verdict": null,
+    "evidencePara": 7,
+    "explain": "The Samana way of self-denial works through hardship, not wealth.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.2"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-fa-03",
+    "format": "oddOneOut",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 30,
+    "quote": "he had performed miracles, had overcome the devil",
+    "options": [
+     "remembered past lives",
+     "performed miracles",
+     "overcame the devil",
+     "lived in luxury"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "What believers said of Gotama (¶30): remembered past lives, miracles, overcame the devil. 'Luxury' is what his enemies said.",
+    "verdict": null,
+    "evidencePara": 30,
+    "explain": "Believers and enemies tell different stories about Gotama.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.2"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-fa-01",
+    "format": "verdict",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 10,
+    "quote": "often the old Samanas have admired you",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Govinda says the old Samanas have often admired Siddhartha.",
+     "faithful": true
+    },
+    "evidencePara": 10,
+    "explain": "Govinda's praise shows how well Siddhartha succeeds on a path he is about to leave.",
+    "contentFlag": null,
+    "roundSlot": 5,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-fa-02",
+    "format": "verdict",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 32,
+    "quote": "he had no high opinion of this Gotama",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The oldest Samana thought highly of Gotama.",
+     "faithful": false
+    },
+    "evidencePara": 32,
+    "explain": "The old teacher distrusts the rival whose fame will take his students.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-fa-03",
+    "format": "verdict",
+    "tier": 1,
+    "tierMin": 1,
+    "tierMax": 1,
+    "para": 31,
+    "quote": "the young men listened up, felt a longing, felt hope",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "News of the Buddha made young men in India feel hope.",
+     "faithful": true
+    },
+    "evidencePara": 31,
+    "explain": "The rumour answers a hunger many young seekers share.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.9-10.1"
+     ],
+     "IN": [
+      "9-10.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-ce-01",
+    "format": "missingWord",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 20,
+    "quote": "But the most important thing, the path of paths, we will not ____.",
+    "options": [
+     "find",
+     "sell",
+     "eat",
+     "paint"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 20,
+    "explain": "All their feats and comfort miss the one thing that matters: the path of paths stays unfound.",
+    "contentFlag": null,
+    "roundSlot": 1,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-ce-02",
+    "format": "missingWord",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 30,
+    "quote": "But his enemies and disbelievers said, this Gotama was a vain ____",
+    "options": [
+     "seducer",
+     "saint",
+     "healer",
+     "hero"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 30,
+    "explain": "Only the enemies speak here; the rumour about Gotama carries blame as well as praise.",
+    "contentFlag": null,
+    "roundSlot": 2,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-ce-03",
+    "format": "missingWord",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 28,
+    "quote": "in the yellow ____ of an ascetic",
+    "options": [
+     "cloak",
+     "crown",
+     "palace",
+     "chariot"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 28,
+    "explain": "A simple yellow cloak marks Gotama as an ascetic who owns nothing.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-ce-01",
+    "format": "whoSpoke",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 35,
+    "quote": "You’re mocking me. Mock me if you like",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Govinda",
+     "Siddhartha",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 35,
+    "explain": "Govinda knows his friend's teasing, and stands up to it.",
+    "contentFlag": null,
+    "roundSlot": 3,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-ce-02",
+    "format": "whoSpoke",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 38,
+    "quote": "Let us eat this fruit and wait for the rest",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 38,
+    "explain": "Siddhartha values the Buddha's news mostly because it gets them moving.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-ws-ce-03",
+    "format": "whoSpoke",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 35,
+    "quote": "But have you not also developed a desire, an eagerness, to hear these teachings?",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Govinda",
+     "Siddhartha",
+     "the oldest Samana"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 35,
+    "explain": "Govinda sees that his doubting friend wants to hear the Buddha too.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-ce-01",
+    "format": "inOrder",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 10,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Govinda says they will keep learning",
+       "para": 10
+      },
+      {
+       "text": "Siddhartha predicts no Samana will reach nirvana",
+       "para": 20
+      },
+      {
+       "text": "Govinda fears for the holiness of prayer",
+       "para": 23
+      },
+      {
+       "text": "Siddhartha says he has never been a drunkard",
+       "para": 15
+      }
+     ],
+     "answer": [
+      0,
+      3,
+      1,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 10,
+    "explain": "The friends' talks grow sharper each time, until Govinda is afraid.",
+    "contentFlag": null,
+    "roundSlot": 4,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-ce-02",
+    "format": "inOrder",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 24,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Govinda recites an Upanishad verse",
+       "para": 24
+      },
+      {
+       "text": "Siddhartha tells the oldest Samana he is leaving",
+       "para": 39
+      },
+      {
+       "text": "Gotama's name is heard with praise and defamation",
+       "para": 29
+      },
+      {
+       "text": "Siddhartha says he did not know Govinda's heart",
+       "para": 34
+      }
+     ],
+     "answer": [
+      0,
+      2,
+      3,
+      1
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 24,
+    "explain": "Scripture, rumour, friendship, departure: the chapter's turn in four steps.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-io-ce-03",
+    "format": "inOrder",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 3,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Siddhartha asks if they live in a circle",
+       "para": 16
+      },
+      {
+       "text": "Every way out of the self leads back to it",
+       "para": 7
+      },
+      {
+       "text": "Siddhartha agrees to hear the Buddha's teachings",
+       "para": 36
+      },
+      {
+       "text": "Siddhartha's goal is to become empty",
+       "para": 3
+      }
+     ],
+     "answer": [
+      3,
+      1,
+      0,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 3,
+    "explain": "From a goal of emptiness to the doubt that sends him on.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-ce-01",
+    "format": "wordSense",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 12,
+    "quote": "there among these **wretched** people?",
+    "options": [
+     "miserable",
+     "wealthy",
+     "clever",
+     "holy"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 12,
+    "explain": "Govinda looks down on tavern people; Siddhartha sees they seek the same escape.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-ce-02",
+    "format": "wordSense",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 41,
+    "quote": "his will was **paralysed**",
+    "options": [
+     "unable to act",
+     "strengthened",
+     "hidden",
+     "mistaken"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 41,
+    "explain": "The teacher who taught control is himself controlled.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-wd-ce-03",
+    "format": "wordSense",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 7,
+    "quote": "through imagining the mind to be **void** of all conceptions",
+    "options": [
+     "completely empty",
+     "full",
+     "tired",
+     "bright"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 7,
+    "explain": "An empty mind is the Samana goal; the chapter shows it never lasts.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-ce-01",
+    "format": "oddOneOut",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 31,
+    "quote": "The myth of Buddha sounded sweet.",
+    "options": [
+     "fragrant",
+     "sweet",
+     "scented",
+     "bitter"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "The Buddha rumour is a 'fragrant myth' (¶30) that 'sounded sweet' with 'the scent of magic' (¶31); 'bitter' is how the world tasted to Siddhartha (¶2).",
+    "verdict": null,
+    "evidencePara": 31,
+    "explain": "The rumour is pictured with pleasant senses; the world itself tastes sour.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-ce-02",
+    "format": "oddOneOut",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 28,
+    "quote": "without possession, without home, without a wife",
+    "options": [
+     "no possessions",
+     "no home",
+     "no wife",
+     "no disciples"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "The rumour says Gotama lives 'without possession, without home, without a wife', yet 'surrounded by disciples' (¶28).",
+    "verdict": null,
+    "evidencePara": 28,
+    "explain": "The Buddha is rumoured to own nothing, yet many follow him.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-oo-ce-03",
+    "format": "oddOneOut",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 41,
+    "quote": "But Siddhartha’s thoughts brought the Samana under their control, he had to carry out what they commanded.",
+    "options": [
+     "became angry",
+     "swore",
+     "bowed and blessed",
+     "walked on water"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "The oldest Samana grows angry and swears (¶39), then bows and blesses (¶41). Walking on water is only Govinda's guess (¶42).",
+    "verdict": null,
+    "evidencePara": 41,
+    "explain": "The old Samana's angry and then spellbound acts frame the farewell.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-ce-01",
+    "format": "verdict",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 9,
+    "quote": "how do you think did we progress? Did we reach any goals?",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "On a begging walk, Siddhartha claims they have already reached their goals.",
+     "faithful": false
+    },
+    "evidencePara": 9,
+    "explain": "Siddhartha asks, he does not boast; his doubt about progress starts the friends' long debate.",
+    "contentFlag": null,
+    "roundSlot": 5,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-ce-02",
+    "format": "verdict",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 36,
+    "quote": "I am willing to listen to these teachings",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Siddhartha agrees to hear Gotama, though he distrusts teachings.",
+     "faithful": true
+    },
+    "evidencePara": 36,
+    "explain": "Siddhartha goes to Gotama while doubting all teachers, which foreshadows the next chapter.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-v-ce-03",
+    "format": "verdict",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 41,
+    "quote": "And the young men returned the bows with thanks, returned the wish, went on their way with salutations.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The friends left the old Samana without a word of farewell.",
+     "faithful": false
+    },
+    "evidencePara": 41,
+    "explain": "The friends leave courteously, even after the spell; good manners frame the break.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-ce-11alt",
+    "format": "missingWord",
+    "tier": 2,
+    "tierMin": 2,
+    "tierMax": 2,
+    "para": 11,
+    "quote": "I can’t help but feel that it is not like this, my ____.",
+    "options": [
+     "friend",
+     "master",
+     "father",
+     "king"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 11,
+    "explain": "Siddhartha opens his hardest doubt gently, as a friend, before his sharpest words to Govinda.",
+    "contentFlag": {
+     "topics": [
+      "prostitution (mentioned)",
+      "alcohol (mentioned)"
+     ],
+     "context": "Later in this paragraph (¶11) Siddhartha names a red-light district of taverns; the word he uses for brothels is crude and dated (today: brothel). He uses it to show contempt for city life and to provoke Govinda.",
+     "teacherNote": "Teacher note: some schools' guidelines may treat this passage differently.",
+     "optionalSkip": true,
+     "alternativeId": "sid-02-mw-ce-01"
+    },
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed",
+    "intentionalOverlap": false,
+    "intentionalOverlapReason": null
+   },
+   {
+    "id": "sid-02-mw-pe-01",
+    "format": "missingWord",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 3,
+    "quote": "once every desire and every urge was ____ in the heart",
+    "options": [
+     "silent",
+     "burning",
+     "growing",
+     "welcome"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 3,
+    "explain": "Silence of desire is the Samana hope that Siddhartha will test and reject.",
+    "contentFlag": null,
+    "roundSlot": 1,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-pe-02",
+    "format": "missingWord",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 26,
+    "quote": "He thought about the words which Govinda had said to him and thought the words through to their ____.",
+    "options": [
+     "end",
+     "start",
+     "sound",
+     "page"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 26,
+    "explain": "Siddhartha follows Govinda's words to their end and finds that they do not hold.",
+    "contentFlag": null,
+    "roundSlot": 2,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-pe-03",
+    "format": "missingWord",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 31,
+    "quote": "The scent of ____ flowed from these reports.",
+    "options": [
+     "magic",
+     "iron",
+     "ink",
+     "dust"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 31,
+    "explain": "The rumour enchants before it informs; 'magic' warns us to weigh it.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-pe-01",
+    "format": "whoSpoke",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 21,
+    "quote": "no one will find the path of paths?",
+    "options": null,
+    "answer": 1,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 21,
+    "explain": "Govinda repeats Siddhartha's phrase as a horrified question; the friends' echo shows their split.",
+    "contentFlag": null,
+    "roundSlot": 3,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-pe-02",
+    "format": "whoSpoke",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 42,
+    "quote": "It is hard, it is very hard to cast a spell on an old Samana.",
+    "options": null,
+    "answer": 1,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 42,
+    "explain": "Govinda admires the feat; Siddhartha dismisses it in the next breath.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-pe-03",
+    "format": "whoSpoke",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 31,
+    "quote": "The myth of Buddha sounded sweet.",
+    "options": null,
+    "answer": 3,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 31,
+    "explain": "The narrator, not a character, lets us feel the rumour's pull.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-pe-01",
+    "format": "inOrder",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 9,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "He doubts that learning is possible at all",
+       "para": 22
+      },
+      {
+       "text": "He asks if they live in a circle",
+       "para": 16
+      },
+      {
+       "text": "Siddhartha asks if they have reached any goals",
+       "para": 9
+      },
+      {
+       "text": "He says Gotama's first gift is calling them away",
+       "para": 38
+      }
+     ],
+     "answer": [
+      2,
+      1,
+      0,
+      3
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 9,
+    "explain": "Siddhartha's questions harden into conclusions, and conclusions into action.",
+    "contentFlag": null,
+    "roundSlot": 4,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-pe-02",
+    "format": "inOrder",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 30,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "The Buddha rumour is compared to news in a plague",
+       "para": 30
+      },
+      {
+       "text": "Govinda reminds Siddhartha he planned to leave",
+       "para": 35
+      },
+      {
+       "text": "Siddhartha's spell holds the old Samana",
+       "para": 41
+      },
+      {
+       "text": "The oldest Samana dislikes the rumour",
+       "para": 32
+      }
+     ],
+     "answer": [
+      0,
+      3,
+      1,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 30,
+    "explain": "The rumour spreads, meets resistance, then pulls the friends away.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-pe-03",
+    "format": "inOrder",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 2,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "His soul enters a heron",
+       "para": 6
+      },
+      {
+       "text": "He stands in the sun until he feels no pain",
+       "para": 4
+      },
+      {
+       "text": "The world tastes bitter to Siddhartha",
+       "para": 2
+      },
+      {
+       "text": "He and Govinda beg in the villages",
+       "para": 8
+      }
+     ],
+     "answer": [
+      2,
+      1,
+      0,
+      3
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "Disgust, endurance, meditation, routine: the shape of Samana life.",
+    "contentFlag": {
+     "topics": [
+      "ascetic self-punishment (described)"
+     ],
+     "context": "Siddhartha endures sun, cold and thorns as a religious austerity; the chapter itself judges these practices a dead end (paras 7, 13).",
+     "teacherNote": "Teacher note: some schools' guidelines may treat this passage differently.",
+     "optionalSkip": false,
+     "alternativeId": null
+    },
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-pe-01",
+    "format": "wordSense",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 30,
+    "quote": "this Gotama was a **vain** seducer",
+    "options": [
+     "overly proud",
+     "without any result",
+     "deeply religious",
+     "poor and humble"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 30,
+    "explain": "Here 'vain' means conceited, not 'in vain': the enemies attack Gotama's character, not his success.",
+    "contentFlag": null,
+    "roundSlot": 6,
+    "optionalBonus": true,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-pe-02",
+    "format": "wordSense",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 39,
+    "quote": "with all the courtesy and modesty **becoming** to a younger one",
+    "options": [
+     "fitting, proper",
+     "turning into",
+     "flattering in looks",
+     "arriving soon"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 39,
+    "explain": "Siddhartha leaves politely; the teacher, not the student, loses his temper.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-pe-03",
+    "format": "wordSense",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 31,
+    "quote": "when he brought news of him, the **exalted** one, the Sakyamuni",
+    "options": [
+     "highly honoured",
+     "overjoyed",
+     "physically raised",
+     "boastful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 31,
+    "explain": "'Exalted' marks how followers revere Gotama before we ever meet him.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-pe-01",
+    "format": "oddOneOut",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 36,
+    "quote": "At this, Siddhartha laughed in his very own manner, in which his voice assumed a touch of sadness and a touch of mockery",
+    "options": [
+     "laughter",
+     "sadness",
+     "mockery",
+     "fury"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "Siddhartha 'laughed', his voice with 'a touch of sadness and a touch of mockery' (¶36). No fury.",
+    "verdict": null,
+    "evidencePara": 36,
+    "explain": "Siddhartha's reply blends laughter, grief and irony, but no rage.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-pe-02",
+    "format": "oddOneOut",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 7,
+    "quote": "pain, hunger, thirst, tiredness",
+    "options": [
+     "pain",
+     "hunger",
+     "tiredness",
+     "prayer"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "The way of self-denial 'by means of pain': 'pain, hunger, thirst, tiredness' (¶7). Prayer is not listed.",
+    "verdict": null,
+    "evidencePara": 7,
+    "explain": "The Samana way of self-denial works through bodily suffering.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-pe-03",
+    "format": "oddOneOut",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 23,
+    "quote": "what is holy, what is precious, what is venerable on earth",
+    "options": [
+     "sanctity of prayer",
+     "Brahmins' venerability",
+     "Samanas' holiness",
+     "Gotama's teachings"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "Govinda fears for prayer, the Brahmins' venerability and the Samanas' holiness (¶23). Gotama is not in his list.",
+    "verdict": null,
+    "evidencePara": 23,
+    "explain": "Govinda fears losing the old holy order, not a new teacher.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-pe-01",
+    "format": "verdict",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 34,
+    "quote": "Always, O Govinda, I had thought, Govinda would stay with the Samanas",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Siddhartha had expected Govinda to stay with the Samanas.",
+     "faithful": true
+    },
+    "evidencePara": 34,
+    "explain": "Siddhartha, so sure about ideas, misread his closest friend.",
+    "contentFlag": null,
+    "roundSlot": 5,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-pe-02",
+    "format": "verdict",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 32,
+    "quote": "They rarely talked about it, because the oldest one of the Samanas did not like this myth.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The friends avoided the topic partly because their teacher disliked the myth.",
+     "faithful": true
+    },
+    "evidencePara": 32,
+    "explain": "Hope about the Buddha stays half-hidden under their teacher's disapproval.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-pe-03",
+    "format": "verdict",
+    "tier": 3,
+    "tierMin": 3,
+    "tierMax": 3,
+    "para": 26,
+    "quote": "But Siddhartha remained silent.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Siddhartha answered Govinda's verse with a long speech.",
+     "faithful": false
+    },
+    "evidencePara": 26,
+    "explain": "His silence is thinking, not agreement.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-gr-01",
+    "format": "missingWord",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 3,
+    "quote": "to find tranquility with an ____ heart",
+    "options": [
+     "emptied",
+     "burdened",
+     "wounded",
+     "hardened"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 3,
+    "explain": "Peace through an 'emptied' heart is the Samana goal Siddhartha later rejects.",
+    "contentFlag": null,
+    "roundSlot": 1,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-gr-02",
+    "format": "missingWord",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 38,
+    "quote": "let us await with ____ hearts.",
+    "options": [
+     "calm",
+     "heavy",
+     "broken",
+     "bitter"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 38,
+    "explain": "Calm waiting, not eager faith: Siddhartha already holds teachers at a distance.",
+    "contentFlag": null,
+    "roundSlot": 2,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-gr-03",
+    "format": "missingWord",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 41,
+    "quote": "without power, he had fallen victim to Siddhartha’s ____.",
+    "options": [
+     "spell",
+     "anger",
+     "wisdom",
+     "kindness"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 41,
+    "explain": "Siddhartha masters the Samana arts at the moment he walks away from them.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-gr-01",
+    "format": "whoSpoke",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 34,
+    "quote": "So now you, my faithful friend, want to take a new path",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 34,
+    "explain": "Siddhartha is surprised that the follower is leading the way.",
+    "contentFlag": null,
+    "roundSlot": 3,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-gr-02",
+    "format": "whoSpoke",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 23,
+    "quote": "your words stir up fear in my heart.",
+    "options": null,
+    "answer": 1,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 23,
+    "explain": "For Govinda, doubt threatens everything holy.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-gr-03",
+    "format": "whoSpoke",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 37,
+    "quote": "But tell me, how should this be possible?",
+    "options": null,
+    "answer": 1,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 37,
+    "explain": "Govinda wants reasons; Siddhartha answers with a riddle about fruit.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-gr-01",
+    "format": "inOrder",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 20,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "He will turn seventy and eighty",
+       "para": 20
+      },
+      {
+       "text": "Perhaps not a single Samana will reach nirvana",
+       "para": 20
+      },
+      {
+       "text": "Govinda and I will grow just as old",
+       "para": 20
+      },
+      {
+       "text": "He says their feats only fool other people",
+       "para": 20
+      },
+      {
+       "text": "Their teacher has lived sixty years without nirvana",
+       "para": 20
+      }
+     ],
+     "answer": [
+      4,
+      0,
+      2,
+      1,
+      3
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 20,
+    "explain": "Siddhartha builds from one old man to a verdict on every Samana.",
+    "contentFlag": null,
+    "roundSlot": 4,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-gr-02",
+    "format": "inOrder",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 22,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "His thirst has stayed as strong as ever",
+       "para": 22
+      },
+      {
+       "text": "He might as well have asked a hornbill-bird",
+       "para": 22
+      },
+      {
+       "text": "Siddhartha says he will soon leave the Samanas",
+       "para": 22
+      },
+      {
+       "text": "He has asked Brahmins, Vedas and Samanas",
+       "para": 22
+      },
+      {
+       "text": "He denies that 'learning' exists",
+       "para": 22
+      }
+     ],
+     "answer": [
+      2,
+      0,
+      3,
+      1,
+      4
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 22,
+    "explain": "From a personal confession to a sweeping paradox about learning.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-gr-03",
+    "format": "inOrder",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 30,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Believers say Gotama reached nirvana",
+       "para": 30
+      },
+      {
+       "text": "Many set out to seek the healer",
+       "para": 30
+      },
+      {
+       "text": "News spreads of a man whose word can heal",
+       "para": 30
+      },
+      {
+       "text": "Enemies call Gotama a vain seducer",
+       "para": 30
+      },
+      {
+       "text": "A plague breaks out in a land",
+       "para": 30
+      }
+     ],
+     "answer": [
+      4,
+      2,
+      1,
+      0,
+      3
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 30,
+    "explain": "The simile first builds hope, then the narrator lets doubt speak too.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-gr-01",
+    "format": "wordSense",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 6,
+    "quote": "was an animal, was **carrion**, was stone",
+    "options": [
+     "dead, rotting flesh",
+     "a wild bird",
+     "a pack animal",
+     "a hunter"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "Becoming carrion pushes self-escape to its grim limit.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-gr-02",
+    "format": "wordSense",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 2,
+    "quote": "his mouth twitched with **contempt**",
+    "options": [
+     "scorn",
+     "fear",
+     "pity",
+     "hunger"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "His scorn for city life shows the bitterness of his ascetic years.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-gr-03",
+    "format": "wordSense",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 32,
+    "quote": "this **alleged** Buddha used to be an ascetic before",
+    "options": [
+     "claimed but unproven",
+     "famous",
+     "beloved",
+     "ancient"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 32,
+    "explain": "The old Samana's word 'alleged' shows his doubt about Gotama.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-gr-01",
+    "format": "oddOneOut",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 41,
+    "quote": "The old man became mute, his eyes became motionless, his will was paralysed",
+    "options": [
+     "his speech",
+     "his gaze",
+     "his will",
+     "his memory"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "He 'became mute', 'his eyes became motionless', 'his will was paralysed' (¶41). Memory is not mentioned.",
+    "verdict": null,
+    "evidencePara": 41,
+    "explain": "The spell stills the teacher's voice, eyes and will.",
+    "contentFlag": null,
+    "roundSlot": 6,
+    "optionalBonus": true,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-gr-02",
+    "format": "oddOneOut",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 31,
+    "quote": "The scent of magic flowed from these reports.",
+    "options": [
+     "rumour",
+     "myth",
+     "reports",
+     "prophecy"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "¶31 calls the news 'The myth of Buddha', 'these reports' and 'the rumour of Buddha'; never a prophecy.",
+    "verdict": null,
+    "evidencePara": 31,
+    "explain": "The narrator's words for Gotama's story all mean unproven tales.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-gr-03",
+    "format": "oddOneOut",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 6,
+    "quote": "he slipped out of his self into thousands of other forms",
+    "options": [
+     "animal",
+     "carrion",
+     "stone",
+     "fire"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "He 'was an animal, was carrion, was stone, was wood, was water' (¶6). Never fire.",
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "The forms he takes in meditation span living, dead and lifeless things.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-gr-01",
+    "format": "verdict",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 33,
+    "quote": "the son of a Brahmin from Magadha, who has seen the Buddha with his own eyes",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Govinda's news comes from a Brahmin's son who had seen the Buddha himself.",
+     "faithful": true
+    },
+    "evidencePara": 33,
+    "explain": "Second-hand witness turns rumour into a call to go and see for themselves.",
+    "contentFlag": null,
+    "roundSlot": 5,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-gr-02",
+    "format": "verdict",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 21,
+    "quote": "among so many learned men, among so many Brahmins",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Govinda's objection rests on how many holy men are searching.",
+     "faithful": true
+    },
+    "evidencePara": 21,
+    "explain": "Govinda argues from numbers and reverence; Siddhartha argues from results.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-gr-03",
+    "format": "verdict",
+    "tier": 4,
+    "tierMin": 4,
+    "tierMax": 4,
+    "para": 32,
+    "quote": "They rarely talked about it",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The friends often discussed the Buddha rumour openly.",
+     "faithful": false
+    },
+    "evidencePara": 32,
+    "explain": "Hope about the Buddha stays half-hidden under their teacher's disapproval.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-sx-01",
+    "format": "missingWord",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 2,
+    "quote": "the earth-coloured, ____ cloak",
+    "options": [
+     "unsown",
+     "silken",
+     "jewelled",
+     "golden"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "A plain, unsewn cloak marks his rejection of every comfort (the edition spells it 'unsown'; today: unsewn).",
+    "contentFlag": null,
+    "roundSlot": 1,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-sx-02",
+    "format": "missingWord",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 3,
+    "quote": "to be open to ____ in unselfish thoughts",
+    "options": [
+     "miracles",
+     "riches",
+     "pleasures",
+     "honours"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 3,
+    "explain": "He hopes emptiness will open him to wonders; the chapter tests that hope.",
+    "contentFlag": null,
+    "roundSlot": 2,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-sx-03",
+    "format": "missingWord",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 6,
+    "quote": "Siddhartha practised self-denial, practised ____, according to the Samana rules.",
+    "options": [
+     "meditation",
+     "magic",
+     "medicine",
+     "music"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "Self-denial and meditation are the two Samana paths that the chapter tests.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-sx-01",
+    "format": "whoSpoke",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 9,
+    "quote": "how do you think did we progress?",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 9,
+    "explain": "Siddhartha's first doubting question opens the friends' long debate.",
+    "contentFlag": null,
+    "roundSlot": 3,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-sx-02",
+    "format": "whoSpoke",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 12,
+    "quote": "insensitivity against hunger and pain",
+    "options": null,
+    "answer": 1,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 12,
+    "explain": "Govinda counts the Samanas' achievements; Siddhartha questions their worth.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-sx-03",
+    "format": "whoSpoke",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 25,
+    "quote": "Unexpressable by words is his blissfulness of his heart.",
+    "options": null,
+    "answer": 1,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 25,
+    "explain": "Govinda answers doubt by reciting an Upanishad, scripture rather than argument.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-sx-01",
+    "format": "inOrder",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 6,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "His soul becomes a heron",
+       "para": 6
+      },
+      {
+       "text": "He wakes to find his old self again",
+       "para": 6
+      },
+      {
+       "text": "His soul returns, having died and decayed",
+       "para": 6
+      },
+      {
+       "text": "His soul enters a dead jackal",
+       "para": 6
+      },
+      {
+       "text": "He kills his senses and memory",
+       "para": 6
+      }
+     ],
+     "answer": [
+      0,
+      3,
+      2,
+      4,
+      1
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "Each escape ends where it began, in the self.",
+    "contentFlag": null,
+    "roundSlot": 4,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-sx-02",
+    "format": "inOrder",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 4,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "He learns to breathe sparingly",
+       "para": 5
+      },
+      {
+       "text": "He stands under the burning sun",
+       "para": 4
+      },
+      {
+       "text": "His soul enters a heron",
+       "para": 6
+      },
+      {
+       "text": "He cowers in thorny bushes",
+       "para": 4
+      },
+      {
+       "text": "He stands in the rainy season",
+       "para": 4
+      }
+     ],
+     "answer": [
+      1,
+      4,
+      3,
+      0,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 4,
+    "explain": "The trials move from enduring the world to leaving the body.",
+    "contentFlag": {
+     "topics": [
+      "ascetic self-punishment (described)"
+     ],
+     "context": "Siddhartha endures sun, cold and thorns as a religious austerity; the chapter itself judges these practices a dead end (paras 7, 13).",
+     "teacherNote": "Teacher note: some schools' guidelines may treat this passage differently.",
+     "optionalSkip": false,
+     "alternativeId": null
+    },
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-sx-03",
+    "format": "inOrder",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 39,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "The old man bows and blesses them",
+       "para": 41
+      },
+      {
+       "text": "Siddhartha whispers to Govinda",
+       "para": 40
+      },
+      {
+       "text": "The Samana swears loudly",
+       "para": 39
+      },
+      {
+       "text": "Govinda mentions walking on water",
+       "para": 42
+      },
+      {
+       "text": "Siddhartha tells the oldest Samana politely",
+       "para": 39
+      }
+     ],
+     "answer": [
+      4,
+      2,
+      1,
+      0,
+      3
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 39,
+    "explain": "Courtesy, anger, a whisper, a spell: a farewell full of irony.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-sx-01",
+    "format": "wordSense",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 41,
+    "quote": "went on their way with **salutations**",
+    "options": [
+     "farewell greetings",
+     "insults",
+     "gifts",
+     "complaints"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 41,
+    "explain": "From Latin salutare, 'to greet': the friends leave with courtesy despite everything.",
+    "contentFlag": null,
+    "roundSlot": 6,
+    "optionalBonus": true,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-sx-02",
+    "format": "wordSense",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 35,
+    "quote": "developed a desire, an **eagerness**, to hear these teachings",
+    "options": [
+     "keen wish",
+     "fear",
+     "boredom",
+     "grief"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 35,
+    "explain": "Govinda names the longing Siddhartha will not admit.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-sx-03",
+    "format": "wordSense",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 36,
+    "quote": "a touch of sadness and a touch of **mockery**",
+    "options": [
+     "scornful teasing",
+     "deep sorrow",
+     "loud anger",
+     "gentle praise"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 36,
+    "explain": "Mockery mixed with sadness is the signature of Siddhartha's voice in this chapter.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-sx-01",
+    "format": "oddOneOut",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 21,
+    "quote": "so many who are searching, so many who are eagerly trying, so many holy men",
+    "options": [
+     "learned men",
+     "Brahmins",
+     "holy men",
+     "kings"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "Govinda's 'so many': learned men, Brahmins, holy men (¶21). No kings.",
+    "verdict": null,
+    "evidencePara": 21,
+    "explain": "Govinda's crowd of witnesses are all seekers.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-sx-02",
+    "format": "oddOneOut",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 16,
+    "quote": "Might we get closer to enlightenment? Might we get closer to salvation?",
+    "options": [
+     "the right path",
+     "enlightenment",
+     "salvation",
+     "Gotama"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "'might we be on the right path? … closer to enlightenment? … closer to salvation?' (¶16). Gotama is not yet named.",
+    "verdict": null,
+    "evidencePara": 16,
+    "explain": "Siddhartha's questions name spiritual goals, not a person.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-sx-03",
+    "format": "oddOneOut",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 2,
+    "quote": "long nails grew slowly on his parched fingers and a dry, shaggy beard grew on his chin",
+    "options": [
+     "long nails",
+     "shaggy beard",
+     "enlarged eyes",
+     "shaved head"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "¶2: 'enlarged eyes', 'long nails', 'a dry, shaggy beard'. No shaved head.",
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "His body shows neglect, not grooming.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-sx-01",
+    "format": "verdict",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 41,
+    "quote": "But Siddhartha’s thoughts brought the Samana under their control",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The old Samana's blessing is given of his own free will.",
+     "faithful": false
+    },
+    "evidencePara": 41,
+    "explain": "The blessing is forced, an irony about what Samana power is worth.",
+    "contentFlag": null,
+    "roundSlot": 5,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-sx-02",
+    "format": "verdict",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 31,
+    "quote": "After all, the world was sick",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The narrator calls the world sick as the Buddha rumour spreads.",
+     "faithful": true
+    },
+    "evidencePara": 31,
+    "explain": "The narrator frames the rumour as medicine for a sick world.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-sx-03",
+    "format": "verdict",
+    "tier": 5,
+    "tierMin": 5,
+    "tierMax": 5,
+    "para": 27,
+    "quote": "Yes, he thought, standing there with his head low, what would remain of all that which seemed to us to be holy?",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "After Govinda's verse, Siddhartha's private thoughts restore his faith in all that is holy.",
+     "faithful": false
+    },
+    "evidencePara": 27,
+    "explain": "Govinda's verse deepens Siddhartha's doubt instead of ending it.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-ph-01",
+    "format": "missingWord",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 7,
+    "quote": "for hours and days he remained in the ____",
+    "options": [
+     "non-self",
+     "silence",
+     "marketplace",
+     "palace",
+     "city"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 7,
+    "explain": "Hours in the 'non-self' always end in a return: the escape is real but temporary.",
+    "contentFlag": null,
+    "roundSlot": 1,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-ph-02",
+    "format": "missingWord",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 6,
+    "quote": "had tasted the gloomy ____ of the cycle",
+    "options": [
+     "intoxication",
+     "sobriety",
+     "brightness",
+     "sweetness",
+     "symmetry"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "'Intoxication' links meditation to the drinker's numbing in ¶13.",
+    "contentFlag": null,
+    "roundSlot": 2,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-mw-ph-03",
+    "format": "missingWord",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 6,
+    "quote": "he slipped out of his self into thousands of other ____",
+    "options": [
+     "forms",
+     "cities",
+     "garments",
+     "rivers",
+     "temples"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "'Thousands of other forms' shows how far he flees the self, and still returns.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-ph-01",
+    "format": "whoSpoke",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 22,
+    "quote": "There is indeed no such thing, so I believe, as what we refer to as ‘learning.’",
+    "options": null,
+    "answer": 0,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 22,
+    "explain": "Siddhartha denies 'learning' itself, the paradox that will carry him past every teacher.",
+    "contentFlag": null,
+    "roundSlot": 3,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-ph-02",
+    "format": "whoSpoke",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 31,
+    "quote": "comforting, mild, full of noble promises",
+    "options": null,
+    "answer": 3,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 31,
+    "explain": "The narrator voices the rumour's sweetness while hinting it is only a 'seeming'.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-ws-ph-03",
+    "format": "whoSpoke",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 37,
+    "quote": "How should the Gotama’s teachings, even before we have heard them, have already revealed their best fruit to us?",
+    "options": null,
+    "answer": 1,
+    "speakers": [
+     "Siddhartha",
+     "Govinda",
+     "the oldest Samana",
+     "the narrator"
+    ],
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 37,
+    "explain": "Govinda takes Siddhartha's riddle literally; the 'fruit' is leaving itself.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-ph-01",
+    "format": "inOrder",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 13,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "Siddhartha says he is as far from wisdom as an unborn child",
+       "para": 15
+      },
+      {
+       "text": "Govinda says the drinker has not become wiser",
+       "para": 14
+      },
+      {
+       "text": "He likens it to the oxcart driver's rice wine",
+       "para": 13
+      },
+      {
+       "text": "Govinda says a Samana is no drunkard",
+       "para": 14
+      },
+      {
+       "text": "Siddhartha asks, 'What is meditation?'",
+       "para": 13
+      }
+     ],
+     "answer": [
+      4,
+      2,
+      3,
+      1,
+      0
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 13,
+    "explain": "The argument's order shows Siddhartha winning the debate but not peace.",
+    "contentFlag": null,
+    "roundSlot": 4,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-ph-02",
+    "format": "inOrder",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 3,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "The innermost being would awake",
+       "para": 3
+      },
+      {
+       "text": "Once every desire is silent",
+       "para": 3
+      },
+      {
+       "text": "His goal is to become empty",
+       "para": 3
+      },
+      {
+       "text": "To be open to miracles",
+       "para": 3
+      },
+      {
+       "text": "To be dead to himself",
+       "para": 3
+      }
+     ],
+     "answer": [
+      2,
+      4,
+      3,
+      1,
+      0
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 3,
+    "explain": "The sentence climbs from emptiness to a hoped-for awakening.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-io-ph-03",
+    "format": "inOrder",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 23,
+    "quote": null,
+    "options": null,
+    "answer": null,
+    "speakers": null,
+    "order": {
+     "cards": [
+      {
+       "text": "He asks not to be bothered with such talk",
+       "para": 23
+      },
+      {
+       "text": "He asks about the sanctity of prayer",
+       "para": 23
+      },
+      {
+       "text": "He asks what would become of all that is holy",
+       "para": 23
+      },
+      {
+       "text": "Govinda stops and raises his hands",
+       "para": 23
+      },
+      {
+       "text": "He says the words stir fear in his heart",
+       "para": 23
+      }
+     ],
+     "answer": [
+      3,
+      0,
+      4,
+      1,
+      2
+     ]
+    },
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 23,
+    "explain": "Govinda's protest moves from gesture to feeling to a defense of the sacred.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.3"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-ph-01",
+    "format": "wordSense",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 25,
+    "quote": "loses himself in the meditation of **Atman**",
+    "options": [
+     "the true self",
+     "a holy book",
+     "a Samana teacher",
+     "a form of fasting"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 25,
+    "explain": "Atman is the true self within every being; Govinda's verse promises bliss in losing oneself in it.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-ph-02",
+    "format": "wordSense",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 30,
+    "quote": "knew neither exercises nor **self-castigation**",
+    "options": [
+     "punishing oneself",
+     "praising oneself",
+     "relying on oneself",
+     "forgetting oneself"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 30,
+    "explain": "From Latin castigare, 'to chastise': enemies fault Gotama for skipping what the Samanas prize.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-wd-ph-03",
+    "format": "wordSense",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 2,
+    "quote": "Feverish dreams **flickered** from his enlarged eyes",
+    "options": [
+     "shone unsteadily",
+     "went out",
+     "flowed smoothly",
+     "were recorded"
+    ],
+    "answer": 0,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": null,
+    "evidencePara": 2,
+    "explain": "The unsteady light in his eyes shows the cost of his fasting.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "L.11-12.4"
+     ],
+     "IN": [
+      "11-12.RC.11"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-ph-01",
+    "format": "oddOneOut",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 21,
+    "quote": "no one will find the path of paths?",
+    "options": [
+     "meditation",
+     "fasting",
+     "rice wine",
+     "the path of paths"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "Meditation, fasting and rice wine are named in ¶13 as brief escapes from the self; the path of paths is what 'we will not find' (¶20), as Govinda fearfully repeats (¶21).",
+    "verdict": null,
+    "evidencePara": 21,
+    "explain": "Three are escapes; the fourth is what they all fail to reach.",
+    "contentFlag": null,
+    "roundSlot": 6,
+    "optionalBonus": true,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-ph-02",
+    "format": "oddOneOut",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 22,
+    "quote": "I have asked the Brahmins, year after year",
+    "options": [
+     "the Brahmins",
+     "the holy Vedas",
+     "the Samanas",
+     "Atman"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "He 'asked' the Brahmins, the holy Vedas and the devoted Samanas (¶22); Atman is the one knowledge within everything, not a source he asked.",
+    "verdict": null,
+    "evidencePara": 22,
+    "explain": "He questioned teachers; the answer was within.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-oo-ph-03",
+    "format": "oddOneOut",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 6,
+    "quote": "where he could escape from the cycle, where the end of the causes",
+    "options": [
+     "escape from the cycle",
+     "end of the causes",
+     "eternity without suffering",
+     "a heron's death"
+    ],
+    "answer": 3,
+    "speakers": null,
+    "order": null,
+    "odd": 3,
+    "link": "He waits for the place 'where he could escape from the cycle, where the end of the causes, where an eternity without suffering began' (¶6). A heron's death is part of the cycle.",
+    "verdict": null,
+    "evidencePara": 6,
+    "explain": "Three phrases name the release he hunts for; one is a trap of the cycle itself.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.2"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-ph-01",
+    "format": "verdict",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 42,
+    "quote": "It is hard, it is very hard to cast a spell on an old Samana.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Govinda treats Siddhartha's spell as an easy trick any Samana could do.",
+     "faithful": false
+    },
+    "evidencePara": 42,
+    "explain": "Govinda is awed by the feat; Siddhartha, in the next line, dismisses it.",
+    "contentFlag": null,
+    "roundSlot": 5,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-ph-02",
+    "format": "verdict",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 25,
+    "quote": "Unexpressable by words is his blissfulness of his heart.",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "Govinda's verse says the bliss of Atman can be fully put into words.",
+     "faithful": false
+    },
+    "evidencePara": 25,
+    "explain": "Govinda's own verse admits that the deepest bliss lies beyond words, which supports Siddhartha's doubt about teaching.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   },
+   {
+    "id": "sid-02-v-ph-03",
+    "format": "verdict",
+    "tier": 6,
+    "tierMin": 6,
+    "tierMax": 6,
+    "para": 36,
+    "quote": "a touch of sadness and a touch of mockery",
+    "options": [
+     "Faithful",
+     "Unfaithful"
+    ],
+    "answer": 1,
+    "speakers": null,
+    "order": null,
+    "odd": null,
+    "link": null,
+    "verdict": {
+     "claim": "The narrator describes Siddhartha's laugh as purely joyful.",
+     "faithful": false
+    },
+    "evidencePara": 36,
+    "explain": "The narrator's mixed laugh keeps Siddhartha both wise and wounded.",
+    "contentFlag": null,
+    "roundSlot": null,
+    "optionalBonus": false,
+    "textEdition": "se-en-various-2015",
+    "lang": "en",
+    "standards": {
+     "ccss": [
+      "RL.11-12.1"
+     ],
+     "IN": [
+      "11-12.RC.1"
+     ]
+    },
+    "reviewedBy": "Penelope",
+    "senseCheck": "passed"
+   }
+  ]
+ }
+}

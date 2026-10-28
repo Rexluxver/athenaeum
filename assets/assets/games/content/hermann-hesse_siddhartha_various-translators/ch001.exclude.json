@@ -1,0 +1,2602 @@
+{
+ "bookId": "hermann-hesse_siddhartha_various-translators",
+ "chapter": 2,
+ "chapterIndex0": 1,
+ "chapterConvention": "'chapter' is 1-based (as in the content file, chapterNumber 2). The Dart code (BookContent.chapters[i], chapter_quiz.dart buildChapterQuiz(chapter: i)) is 0-based. File chapter N == code index N-1, so this file applies to code chapter index 1 (chapterIndex0).",
+ "role": "FILTER for the chapter-end quiz (buildChapterQuiz / buildSatStyleQuiz): drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup). NOT the audit list; see siddhartha-ch02-excludeSentences.json for that.",
+ "normalization": "Build siddhartha-ch02-excludeSentences.json (Hephaestus, read-only QA).\n\nNormalization (norm):\n  1. Unicode NFKC (folds compatibility forms, e.g. ligatures, full-width).\n  2. Map typographic quotes/apostrophes (‘ ’ ‚ ‛ “ ” „ ‟ ′ ″ « ») to straight ones, and\n     every dash (‐ ‑ ‒ – — ― −) to a SPACE (so \"self—and\" == \"self - and\" == \"self and\").\n  3. Blank markers (two or more underscores) -> the token \"_\".\n  4. Lowercase (casefold).\n  5. REPLACE every remaining char that is not a letter, digit, space or \"_\" with a SPACE\n     (quotes, apostrophes, commas, periods, ellipses, ** markdown become spaces, so\n     \"Siddhartha's\" -> \"siddhartha s\"; a standalone \"_\" blank token is kept).\n  6. Collapse whitespace, trim.\n  key = sha1(norm(s)).  Both the key and the normalized string are stored: the hash\n  gives exact sentence-level lookups for the app; the string allows substring /\n  fragment matching (game quotes are often sentence fragments).\nWhy: curly vs straight quotes, em dashes, case, markdown and spacing are the only\ndifferences seen between the book asset, quiz JSON and game JSON; removing them\nleaves the word sequence, which is what \"reuse\" means for a reader.",
+ "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+ "generatedBy": "make_game_exclude.py (Hephaestus QA, 2026-10-27)",
+ "counts": {
+  "entries": 292,
+  "excludeNormalized": 240,
+  "gameItems": 127,
+  "lessonOverlapItems": 1,
+  "waivedItems": [],
+  "chapterEndPool": 111,
+  "poolRemovedByExactLookup": 49,
+  "poolRemainingExact": 62,
+  "poolRemovedIfSubstringMatch": 49,
+  "poolRemainingIfSubstringMatch": 62
+ },
+ "excludeNormalized": [
+  "a plague breaks out in a land",
+  "a rumour of gotama reaches them",
+  "a touch of sadness and a touch of mockery",
+  "after all the world was sick",
+  "after all the world was sick life was hard to bear and behold here a source seemed to spring forth here a messenger seemed to call out comforting mild full of noble promises",
+  "after govinda s verse siddhartha s private thoughts restore his faith in all that is holy",
+  "always o govinda i had thought govinda would stay with the samanas",
+  "among so many austere and venerable samanas",
+  "among so many learned men among so many brahmins",
+  "and he shook his head",
+  "and i have asked the holy vedas year after year",
+  "and siddhartha s soul returned had died had decayed was scattered as dust had tasted the gloomy intoxication of the cycle awaited in new thirst like a hunter in the gap where he could escape from the cycle where the end of the causes where an eternity without suffering began",
+  "and siddhartha said quietly as if he was talking to himself what is meditation",
+  "and the young men returned the bows with thanks returned the wish went on their way with salutations",
+  "at this siddhartha laughed in his very own manner in which his voice assumed a touch of sadness and a touch of mockery",
+  "at this siddhartha laughed in his very own manner in which his voice assumed a touch of sadness and a touch of mockery and said well govinda you ve spoken well you ve remembered correctly",
+  "believers say gotama reached nirvana",
+  "but have you not also developed a desire an eagerness to hear these teachings",
+  "but his enemies and disbelievers said this gotama was a vain seducer",
+  "but his enemies and disbelievers said this gotama was a vain seducer he would spent his days in luxury scorned the offerings was without learning and knew neither exercises nor self castigation",
+  "but let s do it my dear i am willing to listen to these teachings though in my heart i believe that we ve already tasted the best fruit of these teachings",
+  "but siddhartha remained silent",
+  "but siddhartha s thoughts brought the samana under their control",
+  "but siddhartha s thoughts brought the samana under their control he had to carry out what they commanded",
+  "but tell me how should this be possible",
+  "but the most important thing the path of paths we will not find",
+  "by his side lived govinda his shadow walked the same paths undertook the same efforts",
+  "comforting mild full of noble promises",
+  "dead to himself not to be a self any more to find tranquility with an emptied heart to be open to miracles in unselfish thoughts that was his goal",
+  "developed a desire an eagerness to hear these teachings",
+  "did we reach any goals",
+  "enemies call gotama a vain seducer",
+  "every way out of the self leads back to it",
+  "everywhere where the rumour of buddha was heard",
+  "everywhere where the rumour of buddha was heard everywhere in the lands of india the young men listened up felt a longing felt hope and among the brahmins sons of the towns and villages every pilgrim and stranger was welcome when he brought news of him the exalted one the sakyamuni",
+  "feverish dreams flickered from his enlarged eyes",
+  "feverish dreams flickered from his enlarged eyes long nails grew slowly on his parched fingers and a dry shaggy beard grew on his chin",
+  "for hours and days he remained in the non self",
+  "gotama s name is heard with praise and defamation",
+  "govinda and i will grow just as old",
+  "govinda asks to go and hear the buddha",
+  "govinda fears for the holiness of prayer",
+  "govinda guesses the oldest samana is about sixty",
+  "govinda hears of the buddha in a village",
+  "govinda mentions walking on water",
+  "govinda mumbles a verse from an upanishad",
+  "govinda predicts siddhartha will be a holy man",
+  "govinda recites an upanishad verse",
+  "govinda reminds siddhartha he planned to leave",
+  "govinda s news comes from a brahmin s son who had seen the buddha himself",
+  "govinda s objection rests on how many holy men are searching",
+  "govinda s verse says the bliss of atman can be fully put into words",
+  "govinda says a samana is no drunkard",
+  "govinda says siddhartha learned more than he knew",
+  "govinda says the circle is a spiral",
+  "govinda says the drinker has not become wiser",
+  "govinda says the old samanas have often admired siddhartha",
+  "govinda says they will keep learning",
+  "govinda stops and raises his hands",
+  "govinda treats siddhartha s spell as an easy trick any samana could do",
+  "govinda was startled and became embarrassed",
+  "had tasted the gloomy intoxication of the cycle",
+  "he and govinda beg in the villages",
+  "he asks about the sanctity of prayer",
+  "he asks if they live in a circle",
+  "he asks not to be bothered with such talk",
+  "he asks what would become of all that is holy",
+  "he cowers in thorny bushes",
+  "he denies that learning exists",
+  "he doubts that learning is possible at all",
+  "he fasted for fifteen days",
+  "he had heard that this alleged buddha used to be an ascetic before and had lived in the forest but had then turned back to luxury and worldly pleasures and he had no high opinion of this gotama",
+  "he had no high opinion of this gotama",
+  "he had performed miracles had overcome the devil",
+  "he has asked brahmins vedas and samanas",
+  "he informed the oldest one with all the courtesy and modesty becoming to a younger one and a student",
+  "he killed his senses he killed his memory he slipped out of his self into thousands of other forms was an animal was carrion was stone was wood was water and awoke every time to find his old self again sun or moon shone was his self again turned round in the cycle felt thirst overcame the thirst felt new thirst",
+  "he kills his senses and memory",
+  "he learns to breathe sparingly",
+  "he likens it to the oxcart driver s rice wine",
+  "he might as well have asked a hornbill bird",
+  "he says gotama s first gift is calling them away",
+  "he says the words stir fear in his heart",
+  "he says their feats only fool other people",
+  "he slipped out of his self into thousands of other forms",
+  "he stands in the rainy season",
+  "he stands in the sun until he feels no pain",
+  "he stands under the burning sun",
+  "he thought about the words which govinda had said to him and thought the words through to their end",
+  "he wakes to find his old self again",
+  "he was said to wander through the land teaching surrounded by disciples without possession without home without a wife in the yellow cloak of an ascetic but with a cheerful brow a man of bliss and brahmins and princes would bow down before him and would become his students",
+  "he went the way of self denial by means of meditation through imagining the mind to be void of all conceptions",
+  "he went the way of self denial by means of pain through voluntarily suffering and overcoming pain hunger thirst tiredness",
+  "he who ponderingly of a purified spirit loses himself in the meditation of atman unexpressable by words is his blissfulness of his heart",
+  "he will turn seventy and eighty",
+  "he wore nothing more than the loincloth and the earth coloured unsown cloak",
+  "his glance turned to ice when he encountered women his mouth twitched with contempt when he walked through a city of nicely dressed people",
+  "his goal is to become empty",
+  "his mouth twitched with contempt",
+  "his soul becomes a heron",
+  "his soul enters a dead jackal",
+  "his soul enters a heron",
+  "his soul returns having died and decayed",
+  "his thirst has stayed as strong as ever",
+  "his will was paralysed",
+  "how could it be that among so many learned men among so many brahmins among so many austere and venerable samanas among so many who are searching so many who are eagerly trying so many holy men no one will find the path of paths",
+  "how could you have learned meditation holding your breath",
+  "how could you have learned meditation holding your breath insensitivity against hunger and pain there among these wretched people",
+  "how do you think did we progress",
+  "how do you think did we progress did we reach any goals",
+  "how do you think govinda siddhartha spoke one day while begging this way how do you think did we progress",
+  "how old would you think is our oldest samana our venerable teacher",
+  "how should the gotama s teachings even before we have heard them have already revealed their best fruit to us",
+  "i am willing to listen to these teachings",
+  "i can t help but feel that it is not like this my friend",
+  "i have asked the brahmins year after year",
+  "i have asked the brahmins year after year and i have asked the holy vedas year after year and i have asked the devoted samanas year after year",
+  "in the yellow cloak of an ascetic",
+  "insensitivity against hunger and pain",
+  "instructed by the oldest of the samanas siddhartha practised self denial practised meditation according to the samana rules",
+  "it is hard it is very hard to cast a spell on an old samana",
+  "knew neither exercises nor self castigation",
+  "let us await with calm hearts",
+  "let us eat this fruit and wait for the rest",
+  "long nails grew slowly on his parched fingers and a dry shaggy beard grew on his chin",
+  "loses himself in the meditation of atman",
+  "many set out to seek the healer",
+  "many wonderful and unbelievable things were reported of him he had performed miracles had overcome the devil had spoken to the gods",
+  "might we get closer to enlightenment",
+  "might we get closer to enlightenment might we get closer to salvation",
+  "might we get closer to salvation",
+  "news of gotama the buddha reaches the friends",
+  "news of the buddha made young men in india feel hope",
+  "news spreads of a man whose word can heal",
+  "no one will find the path of paths",
+  "often the old samanas have admired you",
+  "on a begging walk siddhartha claims they have already reached their goals",
+  "once all of my self was overcome and had died once every desire and every urge was silent in the heart then the ultimate part of me had to awake the innermost of my being which is no longer my self the great secret",
+  "once every desire and every urge was silent in the heart",
+  "once every desire is silent",
+  "our oldest samana our venerable teacher",
+  "pain hunger thirst tiredness",
+  "perhaps not a single samana will reach nirvana",
+  "quickly you ve learned every exercise",
+  "quickly you ve learned every exercise often the old samanas have admired you",
+  "quoth govinda your willingness delights my heart",
+  "quoth siddhartha always o govinda i had thought govinda would stay with the samanas always i had believed his goal was to live to be sixty and seventy years of age and to keep on practising those feats and exercises which are becoming a samana",
+  "quoth siddhartha i can t help but feel that it is not like this my friend",
+  "quoth siddhartha let us eat this fruit and wait for the rest o govinda",
+  "siddhartha agrees to go and hear the buddha",
+  "siddhartha agrees to hear gotama though he distrusts teachings",
+  "siddhartha agrees to hear the buddha s teachings",
+  "siddhartha answered govinda s verse with a long speech",
+  "siddhartha answered how old would you think is our oldest samana our venerable teacher",
+  "siddhartha argued loudly after govinda s verse",
+  "siddhartha asks how old their teacher is",
+  "siddhartha asks if they have reached any goals",
+  "siddhartha asks if they live in a circle",
+  "siddhartha asks what is meditation",
+  "siddhartha casts a spell on the old samana",
+  "siddhartha compares meditation to rice wine",
+  "siddhartha gives his clothes to a poor brahmin",
+  "siddhartha had expected govinda to stay with the samanas",
+  "siddhartha learns to slow his heartbeat",
+  "siddhartha practised self denial practised meditation according to the samana rules",
+  "siddhartha predicts no samana will reach nirvana",
+  "siddhartha s goal is to become empty",
+  "siddhartha s soul flies as a heron",
+  "siddhartha s spell holds the old samana",
+  "siddhartha says he did not know govinda s heart",
+  "siddhartha says he has never been a drunkard",
+  "siddhartha says he is as far from wisdom as an unborn child",
+  "siddhartha says he will soon leave the samanas",
+  "siddhartha tells the oldest samana he is leaving",
+  "siddhartha tells the oldest samana politely",
+  "siddhartha told the oldest samana politely that he was leaving",
+  "siddhartha whispers to govinda",
+  "silently he cowered in the thorny bushes blood dripped from the burning skin from festering wounds dripped pus and siddhartha stayed rigidly stayed motionless until no blood flowed any more until nothing stung any more until nothing burned any more",
+  "so many who are searching so many who are eagerly trying so many holy men",
+  "so now you my faithful friend want to take a new path",
+  "so now you my faithful friend want to take a new path and go there where the buddha spreads his teachings",
+  "surrounded by disciples without possession without home",
+  "the buddha rumour is compared to news in a plague",
+  "the earth coloured unsown cloak",
+  "the friends avoided the topic partly because their teacher disliked the myth",
+  "the friends left the old samana without a word of farewell",
+  "the friends often discussed the buddha rumour openly",
+  "the innermost being would awake",
+  "the myth of buddha sounded sweet",
+  "the narrator calls the world sick as the buddha rumour spreads",
+  "the narrator describes siddhartha s laugh as purely joyful",
+  "the old man became mute his eyes became motionless",
+  "the old man became mute his eyes became motionless his will was paralysed",
+  "the old man became mute his eyes became motionless his will was paralysed his arms were hanging down without power he had fallen victim to siddhartha s spell",
+  "the old man bows and blesses them",
+  "the old samana s blessing is given of his own free will",
+  "the oldest samana becomes angry",
+  "the oldest samana dislikes the rumour",
+  "the oldest samana thought highly of gotama",
+  "the samana swears loudly",
+  "the samanas accept the two young men",
+  "the samanas accepted siddhartha and govinda",
+  "the scent of magic flowed from these reports",
+  "the son of a brahmin from magadha who has seen the buddha with his own eyes",
+  "the world tastes bitter to siddhartha",
+  "the young men listened up felt a longing felt hope",
+  "their teacher has lived sixty years without nirvana",
+  "there among these wretched people",
+  "there is indeed no such thing so i believe as what we refer to as learning",
+  "these and other ways he learned to go a thousand times he left his self for hours and days he remained in the non self",
+  "they rarely talked about it",
+  "they rarely talked about it because the oldest one of the samanas did not like this myth",
+  "they were accepted",
+  "this alleged buddha used to be an ascetic before",
+  "this gotama was a vain seducer",
+  "through imagining the mind to be void of all conceptions",
+  "to be dead to himself",
+  "to be open to miracles",
+  "to be open to miracles in unselfish thoughts",
+  "to find his old self again",
+  "to find tranquility with an emptied heart",
+  "today i was in the village and a brahmin invited me into his house and in his house there was the son of a brahmin from magadha who has seen the buddha with his own eyes and has heard him teach",
+  "truly your words stir up fear in my heart",
+  "unexpressable by words is his blissfulness of his heart",
+  "until nothing burned any more",
+  "was an animal was carrion was stone",
+  "was an animal was carrion was stone was wood was water",
+  "went on their way with salutations",
+  "what is holy what is precious what is venerable on earth",
+  "what o siddhartha what would then become of all of this what is holy what is precious what is venerable on earth",
+  "when he brought news of him the exalted one the sakyamuni",
+  "where he could escape from the cycle where the end of the causes",
+  "whether he has also other and better things to give us o friend let us await with calm hearts",
+  "with all the courtesy and modesty becoming to a younger one",
+  "without possession without home without a wife",
+  "without power he had fallen victim to siddhartha s spell",
+  "yes he thought standing there with his head low what would remain of all that which seemed to us to be holy",
+  "you re mocking me mock me if you like",
+  "your willingness delights my heart",
+  "your words stir up fear in my heart"
+ ],
+ "entries": [
+  {
+   "norm": "by his side lived govinda his shadow walked the same paths undertook the same efforts",
+   "sha1": "6b7b391091170aa42985f4ac7363498ad72c2cdd",
+   "text": "By his side lived Govinda, his shadow, walked the same paths, undertook the same efforts.",
+   "itemId": "sid-02-mw-sp-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "long nails grew slowly on his parched fingers and a dry shaggy beard grew on his chin",
+   "sha1": "94ebde0dd6ed60f6b88639c484dd789fb6a7b589",
+   "text": "long nails grew slowly on his parched fingers and a dry, shaggy beard grew on his chin.",
+   "itemId": "sid-02-mw-sp-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "feverish dreams flickered from his enlarged eyes long nails grew slowly on his parched fingers and a dry shaggy beard grew on his chin",
+   "sha1": "63fc0cbf85f8db7b3d9f40cd9075f9e00386069e",
+   "text": "Feverish dreams flickered from his enlarged eyes, long nails grew slowly on his parched fingers and a dry, shaggy beard grew on his chin.",
+   "itemId": "sid-02-mw-sp-02",
+   "source": "gameItem.quote.containingSentence(para 2)",
+   "waived": false
+  },
+  {
+   "norm": "and he shook his head",
+   "sha1": "606edbe233ba7ca690b3bef6551cae16d2d5bb76",
+   "text": "And he shook his head.",
+   "itemId": "sid-02-mw-sp-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how old would you think is our oldest samana our venerable teacher",
+   "sha1": "8533038f523e0122a334b66a4f38ab18e9d47e92",
+   "text": "How old, would you think, is our oldest Samana, our venerable teacher?",
+   "itemId": "sid-02-ws-sp-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha answered how old would you think is our oldest samana our venerable teacher",
+   "sha1": "4087717ee40513a14b234f2e8986d767577fb44f",
+   "text": "Siddhartha answered: “How old, would you think, is our oldest Samana, our venerable teacher?”",
+   "itemId": "sid-02-ws-sp-01",
+   "source": "gameItem.quote.containingSentence(para 18)",
+   "waived": false
+  },
+  {
+   "norm": "your willingness delights my heart",
+   "sha1": "3d7518397df24a5e22cdb0c891ce9caaa1fc12cb",
+   "text": "Your willingness delights my heart.",
+   "itemId": "sid-02-ws-sp-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "quoth govinda your willingness delights my heart",
+   "sha1": "03a1b8bcf4f8e3f47e5d26648adb554d6287c8ed",
+   "text": "Quoth Govinda: “Your willingness delights my heart.",
+   "itemId": "sid-02-ws-sp-02",
+   "source": "gameItem.quote.containingSentence(para 37)",
+   "waived": false
+  },
+  {
+   "norm": "quickly you ve learned every exercise",
+   "sha1": "e7242965ac897889e56c1c558f665fdffa503db0",
+   "text": "Quickly, you’ve learned every exercise",
+   "itemId": "sid-02-ws-sp-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "quickly you ve learned every exercise often the old samanas have admired you",
+   "sha1": "e049da5951743cdf4645a5f8619c2b54d76a9a1b",
+   "text": "Quickly, you’ve learned every exercise, often the old Samanas have admired you.",
+   "itemId": "sid-02-ws-sp-03",
+   "source": "gameItem.quote.containingSentence(para 10)",
+   "waived": false
+  },
+  {
+   "norm": "news of gotama the buddha reaches the friends",
+   "sha1": "d5d448d981a78f67b0ccaed75089381ab057725f",
+   "text": "News of Gotama, the Buddha, reaches the friends",
+   "itemId": "sid-02-io-sp-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha gives his clothes to a poor brahmin",
+   "sha1": "cef5535c07f741cccb2d1067d3ba95fc1e285c30",
+   "text": "Siddhartha gives his clothes to a poor Brahmin",
+   "itemId": "sid-02-io-sp-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha casts a spell on the old samana",
+   "sha1": "e3b9dd1cf4e849fd351aa5d0da6fc9747d8b050f",
+   "text": "Siddhartha casts a spell on the old Samana",
+   "itemId": "sid-02-io-sp-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha agrees to go and hear the buddha",
+   "sha1": "a0e697aa06a6e1adcc33df3e8fddce3da5b07a59",
+   "text": "Siddhartha agrees to go and hear the Buddha",
+   "itemId": "sid-02-io-sp-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda asks to go and hear the buddha",
+   "sha1": "3bd1999f078f8b93fce04f75e42b269263ce0250",
+   "text": "Govinda asks to go and hear the Buddha",
+   "itemId": "sid-02-io-sp-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the samanas accept the two young men",
+   "sha1": "7d1a622b037d786cdf4e0e32e0825af50b5efa90",
+   "text": "The Samanas accept the two young men",
+   "itemId": "sid-02-io-sp-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda guesses the oldest samana is about sixty",
+   "sha1": "75e47024bae07f99c19720dd0eeebfa9c1a90e7d",
+   "text": "Govinda guesses the oldest Samana is about sixty",
+   "itemId": "sid-02-io-sp-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the oldest samana becomes angry",
+   "sha1": "2c79d8b1cf3a20e60b58097fde9122a5ef3d77be",
+   "text": "The oldest Samana becomes angry",
+   "itemId": "sid-02-io-sp-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha s soul flies as a heron",
+   "sha1": "cffc6597f99055058afeb095b3a679fb83ec1ee6",
+   "text": "Siddhartha's soul flies as a heron",
+   "itemId": "sid-02-io-sp-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the old man became mute his eyes became motionless",
+   "sha1": "ed4c6c622d3148eb07f5b32f1484dccb652997d0",
+   "text": "The old man became mute, his eyes became motionless",
+   "itemId": "sid-02-wd-sp-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the old man became mute his eyes became motionless his will was paralysed his arms were hanging down without power he had fallen victim to siddhartha s spell",
+   "sha1": "e1eb0d91e119dbcd5b69db9773454e0b8e3485e9",
+   "text": "The old man became mute, his eyes became motionless, his will was paralysed, his arms were hanging down; without power, he had fallen victim to Siddhartha’s spell.",
+   "itemId": "sid-02-wd-sp-01",
+   "source": "gameItem.quote.containingSentence(para 41)",
+   "waived": false
+  },
+  {
+   "norm": "might we get closer to salvation",
+   "sha1": "e880991e18552280946cf240411708dd87619e26",
+   "text": "Might we get closer to salvation?",
+   "itemId": "sid-02-wd-sp-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "govinda was startled and became embarrassed",
+   "sha1": "c7c967bdc92d5d95e6e502efc5cc271cc58fc4de",
+   "text": "Govinda was startled and became embarrassed.",
+   "itemId": "sid-02-wd-sp-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "was an animal was carrion was stone was wood was water",
+   "sha1": "182c6e18ffd7ac2d4b9991c2459f95a399253700",
+   "text": "was an animal, was carrion, was stone, was wood, was water",
+   "itemId": "sid-02-oo-sp-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he killed his senses he killed his memory he slipped out of his self into thousands of other forms was an animal was carrion was stone was wood was water and awoke every time to find his old self again sun or moon shone was his self again turned round in the cycle felt thirst overcame the thirst felt new thirst",
+   "sha1": "148d83ffb1527879ef2b1ca41a849d50244a05dc",
+   "text": "He killed his senses, he killed his memory, he slipped out of his self into thousands of other forms, was an animal, was carrion, was stone, was wood, was water, and awoke every time to find his old self again, sun or moon shone, was his self again, turned round in the cycle, felt thirst, overcame the thirst, felt new thirst.",
+   "itemId": "sid-02-oo-sp-01",
+   "source": "gameItem.quote.containingSentence(para 6)",
+   "waived": false
+  },
+  {
+   "norm": "he fasted for fifteen days",
+   "sha1": "ea147e53a8cbb6ac80f0df8def9dcecc64f11aca",
+   "text": "He fasted for fifteen days.",
+   "itemId": "sid-02-oo-sp-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "surrounded by disciples without possession without home",
+   "sha1": "475a194c6cf4ce08e99fd061942999adfedf5b1e",
+   "text": "surrounded by disciples, without possession, without home",
+   "itemId": "sid-02-oo-sp-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he was said to wander through the land teaching surrounded by disciples without possession without home without a wife in the yellow cloak of an ascetic but with a cheerful brow a man of bliss and brahmins and princes would bow down before him and would become his students",
+   "sha1": "c19121c0127198b1594f7ba69a3762579114dc33",
+   "text": "He was said to wander through the land, teaching, surrounded by disciples, without possession, without home, without a wife, in the yellow cloak of an ascetic, but with a cheerful brow, a man of bliss, and Brahmins and princes would bow down before him and would become his students.",
+   "itemId": "sid-02-oo-sp-03",
+   "source": "gameItem.quote.containingSentence(para 28)",
+   "waived": false
+  },
+  {
+   "norm": "they were accepted",
+   "sha1": "727225521c75855feeb703d74ff77c36dff04090",
+   "text": "They were accepted.",
+   "itemId": "sid-02-v-sp-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the samanas accepted siddhartha and govinda",
+   "sha1": "95a58222461fdad7aea3d2a144430440154857f5",
+   "text": "The Samanas accepted Siddhartha and Govinda.",
+   "itemId": "sid-02-v-sp-01",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "but siddhartha remained silent",
+   "sha1": "f3cadcf46459811596efbc9a446dc95ecc7464fd",
+   "text": "But Siddhartha remained silent.",
+   "itemId": "sid-02-v-sp-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha argued loudly after govinda s verse",
+   "sha1": "8d425df8f598e9e6e6e0c53a1fd80f78a66a54f3",
+   "text": "Siddhartha argued loudly after Govinda's verse.",
+   "itemId": "sid-02-v-sp-02",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "he informed the oldest one with all the courtesy and modesty becoming to a younger one and a student",
+   "sha1": "b6466e434ebdf342f5aafedffe3282d3cfccccee",
+   "text": "He informed the oldest one with all the courtesy and modesty becoming to a younger one and a student.",
+   "itemId": "sid-02-v-sp-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha told the oldest samana politely that he was leaving",
+   "sha1": "8021eb53c82872e29443fc1dbbaf88248d1f7cd7",
+   "text": "Siddhartha told the oldest Samana politely that he was leaving.",
+   "itemId": "sid-02-v-sp-03",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "until nothing burned any more",
+   "sha1": "0f7fb164273431b89442efad9e64715fef28c619",
+   "text": "until nothing burned any more",
+   "itemId": "sid-02-mw-fa-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "silently he cowered in the thorny bushes blood dripped from the burning skin from festering wounds dripped pus and siddhartha stayed rigidly stayed motionless until no blood flowed any more until nothing stung any more until nothing burned any more",
+   "sha1": "051cde9ce761e7f8d0127d1fd62a3e84a377e3ee",
+   "text": "Silently, he cowered in the thorny bushes, blood dripped from the burning skin, from festering wounds dripped pus, and Siddhartha stayed rigidly, stayed motionless, until no blood flowed any more, until nothing stung any more, until nothing burned any more.",
+   "itemId": "sid-02-mw-fa-01",
+   "source": "gameItem.quote.containingSentence(para 4)",
+   "waived": false
+  },
+  {
+   "norm": "it is hard it is very hard to cast a spell on an old samana",
+   "sha1": "53d9a8104b3837c9384ac2b5354bd483d329a4f2",
+   "text": "It is hard, it is very hard to cast a spell on an old Samana.",
+   "itemId": "sid-02-mw-fa-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "and i have asked the holy vedas year after year",
+   "sha1": "6a5f73288d862bc8b512c024029470fd2dc0396d",
+   "text": "and I have asked the holy Vedas, year after year",
+   "itemId": "sid-02-mw-fa-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "i have asked the brahmins year after year and i have asked the holy vedas year after year and i have asked the devoted samanas year after year",
+   "sha1": "706c038c55e91bf8a8558f101f70f3aba77c4d91",
+   "text": "I have asked the Brahmins, year after year, and I have asked the holy Vedas, year after year, and I have asked the devoted Samanas, year after year.",
+   "itemId": "sid-02-mw-fa-03",
+   "source": "gameItem.quote.containingSentence(para 22)",
+   "waived": false
+  },
+  {
+   "norm": "how could you have learned meditation holding your breath",
+   "sha1": "8182af674cc329955177059dbd1011473146c495",
+   "text": "How could you have learned meditation, holding your breath",
+   "itemId": "sid-02-ws-fa-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could you have learned meditation holding your breath insensitivity against hunger and pain there among these wretched people",
+   "sha1": "55e2c65b8383951208c37c2c0dc435a40900c70d",
+   "text": "How could you have learned meditation, holding your breath, insensitivity against hunger and pain there among these wretched people?”",
+   "itemId": "sid-02-ws-fa-01",
+   "source": "gameItem.quote.containingSentence(para 12)",
+   "waived": false
+  },
+  {
+   "norm": "whether he has also other and better things to give us o friend let us await with calm hearts",
+   "sha1": "07f7aa97c7df51b09ef4656d7425457c426be911",
+   "text": "Whether he has also other and better things to give us, O friend, let us await with calm hearts.",
+   "itemId": "sid-02-ws-fa-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "your willingness delights my heart",
+   "sha1": "3d7518397df24a5e22cdb0c891ce9caaa1fc12cb",
+   "text": "Your willingness delights my heart.",
+   "itemId": "sid-02-ws-fa-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "quoth govinda your willingness delights my heart",
+   "sha1": "03a1b8bcf4f8e3f47e5d26648adb554d6287c8ed",
+   "text": "Quoth Govinda: “Your willingness delights my heart.",
+   "itemId": "sid-02-ws-fa-03",
+   "source": "gameItem.quote.containingSentence(para 37)",
+   "waived": false
+  },
+  {
+   "norm": "govinda says the circle is a spiral",
+   "sha1": "ef8c6ca01fe6b9828d4578c3cf5de04d32bdd7fe",
+   "text": "Govinda says the circle is a spiral",
+   "itemId": "sid-02-io-fa-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha learns to slow his heartbeat",
+   "sha1": "06c58feb7e7af4a773ce7a254dfaf658b44b0563",
+   "text": "Siddhartha learns to slow his heartbeat",
+   "itemId": "sid-02-io-fa-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda mumbles a verse from an upanishad",
+   "sha1": "3114c014d2427e62ff71b918e2a49e8310f7d8f8",
+   "text": "Govinda mumbles a verse from an Upanishad",
+   "itemId": "sid-02-io-fa-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "a rumour of gotama reaches them",
+   "sha1": "3432b40a87b5dcd6df590c346ab0ffc700da1699",
+   "text": "A rumour of Gotama reaches them",
+   "itemId": "sid-02-io-fa-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha compares meditation to rice wine",
+   "sha1": "f6e79241227d491aa268e567c3759e69e538c948",
+   "text": "Siddhartha compares meditation to rice wine",
+   "itemId": "sid-02-io-fa-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda predicts siddhartha will be a holy man",
+   "sha1": "89a27a64c45ec7c07b014f11ef022bb5c0c8feb5",
+   "text": "Govinda predicts Siddhartha will be a holy man",
+   "itemId": "sid-02-io-fa-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda hears of the buddha in a village",
+   "sha1": "a235c253cfbee7fb05e83ed6046c557c61332e48",
+   "text": "Govinda hears of the Buddha in a village",
+   "itemId": "sid-02-io-fa-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha asks how old their teacher is",
+   "sha1": "c52483922b33fa3b50ebeac30a5b110b40f6bf3a",
+   "text": "Siddhartha asks how old their teacher is",
+   "itemId": "sid-02-io-fa-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda says siddhartha learned more than he knew",
+   "sha1": "90db32ba00e6350fd729c0fdcfc01e8b2df41133",
+   "text": "Govinda says Siddhartha learned more than he knew",
+   "itemId": "sid-02-io-fa-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "our oldest samana our venerable teacher",
+   "sha1": "eebafe61ff9fadb2dbc375b554975d6268ded0bf",
+   "text": "our oldest Samana, our venerable teacher?",
+   "itemId": "sid-02-wd-fa-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha answered how old would you think is our oldest samana our venerable teacher",
+   "sha1": "4087717ee40513a14b234f2e8986d767577fb44f",
+   "text": "Siddhartha answered: “How old, would you think, is our oldest Samana, our venerable teacher?”",
+   "itemId": "sid-02-wd-fa-01",
+   "source": "gameItem.quote.containingSentence(para 18)",
+   "waived": false
+  },
+  {
+   "norm": "among so many austere and venerable samanas",
+   "sha1": "a5117358d3c8556167b815bcb14fcdc9a0a4c081",
+   "text": "among so many austere and venerable Samanas",
+   "itemId": "sid-02-wd-fa-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could it be that among so many learned men among so many brahmins among so many austere and venerable samanas among so many who are searching so many who are eagerly trying so many holy men no one will find the path of paths",
+   "sha1": "8595f85421bf1a6016cc4ffd28939ad880591253",
+   "text": "How could it be that among so many learned men, among so many Brahmins, among so many austere and venerable Samanas, among so many who are searching, so many who are eagerly trying, so many holy men, no one will find the path of paths?”",
+   "itemId": "sid-02-wd-fa-02",
+   "source": "gameItem.quote.containingSentence(para 21)",
+   "waived": false
+  },
+  {
+   "norm": "everywhere where the rumour of buddha was heard",
+   "sha1": "0ea30d45c2d80e812cbc89c2577d39036fe44ac9",
+   "text": "Everywhere where the rumour of Buddha was heard",
+   "itemId": "sid-02-wd-fa-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "everywhere where the rumour of buddha was heard everywhere in the lands of india the young men listened up felt a longing felt hope and among the brahmins sons of the towns and villages every pilgrim and stranger was welcome when he brought news of him the exalted one the sakyamuni",
+   "sha1": "a8d35af96a4fcacd436f4991310d14834aef4a61",
+   "text": "Everywhere where the rumour of Buddha was heard, everywhere in the lands of India, the young men listened up, felt a longing, felt hope, and among the Brahmins’ sons of the towns and villages every pilgrim and stranger was welcome, when he brought news of him, the exalted one, the Sakyamuni.",
+   "itemId": "sid-02-wd-fa-03",
+   "source": "gameItem.quote.containingSentence(para 31)",
+   "waived": false
+  },
+  {
+   "norm": "and siddhartha said quietly as if he was talking to himself what is meditation",
+   "sha1": "577e5f04713969e2e95f80d366f2654d493b9917",
+   "text": "And Siddhartha said quietly, as if he was talking to himself: “What is meditation?",
+   "itemId": "sid-02-oo-fa-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he went the way of self denial by means of pain through voluntarily suffering and overcoming pain hunger thirst tiredness",
+   "sha1": "1172d1527ecb58b8a3ec930e7548dce06438b5a4",
+   "text": "He went the way of self-denial by means of pain, through voluntarily suffering and overcoming pain, hunger, thirst, tiredness.",
+   "itemId": "sid-02-oo-fa-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he had performed miracles had overcome the devil",
+   "sha1": "c94f3b0eb47fdfb4864283e668ffbf9ddad6977c",
+   "text": "he had performed miracles, had overcome the devil",
+   "itemId": "sid-02-oo-fa-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "many wonderful and unbelievable things were reported of him he had performed miracles had overcome the devil had spoken to the gods",
+   "sha1": "f197fd3f320d05b6f0dc951026fd85da80185185",
+   "text": "Many wonderful and unbelievable things were reported of him, he had performed miracles, had overcome the devil, had spoken to the gods.",
+   "itemId": "sid-02-oo-fa-03",
+   "source": "gameItem.quote.containingSentence(para 30)",
+   "waived": false
+  },
+  {
+   "norm": "often the old samanas have admired you",
+   "sha1": "65baf172b04e55834ccb4c07888ce6b16e9e67cf",
+   "text": "often the old Samanas have admired you",
+   "itemId": "sid-02-v-fa-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "quickly you ve learned every exercise often the old samanas have admired you",
+   "sha1": "e049da5951743cdf4645a5f8619c2b54d76a9a1b",
+   "text": "Quickly, you’ve learned every exercise, often the old Samanas have admired you.",
+   "itemId": "sid-02-v-fa-01",
+   "source": "gameItem.quote.containingSentence(para 10)",
+   "waived": false
+  },
+  {
+   "norm": "govinda says the old samanas have often admired siddhartha",
+   "sha1": "0ff3389d0c3455cede676560feca36b2085f18d8",
+   "text": "Govinda says the old Samanas have often admired Siddhartha.",
+   "itemId": "sid-02-v-fa-01",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "he had no high opinion of this gotama",
+   "sha1": "861081a4ab3ad9b2b6362c32b5f880bdb2f173cc",
+   "text": "he had no high opinion of this Gotama",
+   "itemId": "sid-02-v-fa-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he had heard that this alleged buddha used to be an ascetic before and had lived in the forest but had then turned back to luxury and worldly pleasures and he had no high opinion of this gotama",
+   "sha1": "ce9e186d5856c000188f32ab101d66b5a0171150",
+   "text": "He had heard that this alleged Buddha used to be an ascetic before and had lived in the forest, but had then turned back to luxury and worldly pleasures, and he had no high opinion of this Gotama.",
+   "itemId": "sid-02-v-fa-02",
+   "source": "gameItem.quote.containingSentence(para 32)",
+   "waived": false
+  },
+  {
+   "norm": "the oldest samana thought highly of gotama",
+   "sha1": "e5e383a49ec378c6072ee057b18cd652af8644ec",
+   "text": "The oldest Samana thought highly of Gotama.",
+   "itemId": "sid-02-v-fa-02",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "the young men listened up felt a longing felt hope",
+   "sha1": "3b3486d66bae774f1eae408348bbe624cebe9971",
+   "text": "the young men listened up, felt a longing, felt hope",
+   "itemId": "sid-02-v-fa-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "everywhere where the rumour of buddha was heard everywhere in the lands of india the young men listened up felt a longing felt hope and among the brahmins sons of the towns and villages every pilgrim and stranger was welcome when he brought news of him the exalted one the sakyamuni",
+   "sha1": "a8d35af96a4fcacd436f4991310d14834aef4a61",
+   "text": "Everywhere where the rumour of Buddha was heard, everywhere in the lands of India, the young men listened up, felt a longing, felt hope, and among the Brahmins’ sons of the towns and villages every pilgrim and stranger was welcome, when he brought news of him, the exalted one, the Sakyamuni.",
+   "itemId": "sid-02-v-fa-03",
+   "source": "gameItem.quote.containingSentence(para 31)",
+   "waived": false
+  },
+  {
+   "norm": "news of the buddha made young men in india feel hope",
+   "sha1": "4a0cbf3adb79b09b918867eef15d374d6c8ed7b7",
+   "text": "News of the Buddha made young men in India feel hope.",
+   "itemId": "sid-02-v-fa-03",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "but the most important thing the path of paths we will not find",
+   "sha1": "4f55becbb6f9d26a81cd14b24338dccda82ce730",
+   "text": "But the most important thing, the path of paths, we will not find.",
+   "itemId": "sid-02-mw-ce-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "but his enemies and disbelievers said this gotama was a vain seducer",
+   "sha1": "d7670bc6d99ec9b789b0bee381cffce00789305f",
+   "text": "But his enemies and disbelievers said, this Gotama was a vain seducer",
+   "itemId": "sid-02-mw-ce-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "but his enemies and disbelievers said this gotama was a vain seducer he would spent his days in luxury scorned the offerings was without learning and knew neither exercises nor self castigation",
+   "sha1": "e182ad382cb1412ddc1249c175ed806ec31da9aa",
+   "text": "But his enemies and disbelievers said, this Gotama was a vain seducer, he would spent his days in luxury, scorned the offerings, was without learning, and knew neither exercises nor self-castigation.",
+   "itemId": "sid-02-mw-ce-02",
+   "source": "gameItem.quote.containingSentence(para 30)",
+   "waived": false
+  },
+  {
+   "norm": "in the yellow cloak of an ascetic",
+   "sha1": "6a0a65e34726bd8609a63a9dc1615c90b24d8bf3",
+   "text": "in the yellow cloak of an ascetic",
+   "itemId": "sid-02-mw-ce-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he was said to wander through the land teaching surrounded by disciples without possession without home without a wife in the yellow cloak of an ascetic but with a cheerful brow a man of bliss and brahmins and princes would bow down before him and would become his students",
+   "sha1": "c19121c0127198b1594f7ba69a3762579114dc33",
+   "text": "He was said to wander through the land, teaching, surrounded by disciples, without possession, without home, without a wife, in the yellow cloak of an ascetic, but with a cheerful brow, a man of bliss, and Brahmins and princes would bow down before him and would become his students.",
+   "itemId": "sid-02-mw-ce-03",
+   "source": "gameItem.quote.containingSentence(para 28)",
+   "waived": false
+  },
+  {
+   "norm": "you re mocking me mock me if you like",
+   "sha1": "963ff946884bcc2fc9a4d8bc5d91b13adf01a91f",
+   "text": "You’re mocking me. Mock me if you like",
+   "itemId": "sid-02-ws-ce-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "let us eat this fruit and wait for the rest",
+   "sha1": "0221a59608f76ec7479b9bf93e243f95094003b7",
+   "text": "Let us eat this fruit and wait for the rest",
+   "itemId": "sid-02-ws-ce-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "quoth siddhartha let us eat this fruit and wait for the rest o govinda",
+   "sha1": "a11f903ca8fb15118fd8659889cd641d38852d0b",
+   "text": "Quoth Siddhartha: “Let us eat this fruit and wait for the rest, O Govinda!",
+   "itemId": "sid-02-ws-ce-02",
+   "source": "gameItem.quote.containingSentence(para 38)",
+   "waived": false
+  },
+  {
+   "norm": "but have you not also developed a desire an eagerness to hear these teachings",
+   "sha1": "18d528c8d12beaf79c9feab6eed8a79d4292e3e8",
+   "text": "But have you not also developed a desire, an eagerness, to hear these teachings?",
+   "itemId": "sid-02-ws-ce-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "govinda says they will keep learning",
+   "sha1": "29f278c4a47e56f2e640d95924c5e4e0dfe2f27c",
+   "text": "Govinda says they will keep learning",
+   "itemId": "sid-02-io-ce-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha predicts no samana will reach nirvana",
+   "sha1": "8e765e19f387172b53afdaba8301cdace5e966b9",
+   "text": "Siddhartha predicts no Samana will reach nirvana",
+   "itemId": "sid-02-io-ce-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda fears for the holiness of prayer",
+   "sha1": "509e28117c72586c92bb692a299c0d3eada7109e",
+   "text": "Govinda fears for the holiness of prayer",
+   "itemId": "sid-02-io-ce-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha says he has never been a drunkard",
+   "sha1": "f69e0675a6e93ff2b7fe7a2ace136276cd6014cb",
+   "text": "Siddhartha says he has never been a drunkard",
+   "itemId": "sid-02-io-ce-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda recites an upanishad verse",
+   "sha1": "8ed67f055a93c5c07db8668c3f3c3d2e605cf00f",
+   "text": "Govinda recites an Upanishad verse",
+   "itemId": "sid-02-io-ce-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha tells the oldest samana he is leaving",
+   "sha1": "39f66bc47ad4347482c1bdb47bd1a100f1992c84",
+   "text": "Siddhartha tells the oldest Samana he is leaving",
+   "itemId": "sid-02-io-ce-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "gotama s name is heard with praise and defamation",
+   "sha1": "7622c9c8c4f38ba149556157cb646b8d661d110a",
+   "text": "Gotama's name is heard with praise and defamation",
+   "itemId": "sid-02-io-ce-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha says he did not know govinda s heart",
+   "sha1": "6b55362987be53a03fd6ffda2a7709ee3d8bcb68",
+   "text": "Siddhartha says he did not know Govinda's heart",
+   "itemId": "sid-02-io-ce-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha asks if they live in a circle",
+   "sha1": "2826ddbab0f1b03db9400dfce39c3d1bbfcb995e",
+   "text": "Siddhartha asks if they live in a circle",
+   "itemId": "sid-02-io-ce-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "every way out of the self leads back to it",
+   "sha1": "6c73e9ba29046ea1c4966b2539e6988bede971ca",
+   "text": "Every way out of the self leads back to it",
+   "itemId": "sid-02-io-ce-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha agrees to hear the buddha s teachings",
+   "sha1": "092ac503871e94e5fbfc74525e3daf2bf9ff80b4",
+   "text": "Siddhartha agrees to hear the Buddha's teachings",
+   "itemId": "sid-02-io-ce-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha s goal is to become empty",
+   "sha1": "dbf4df7732300bda47303680d770bee7d5b198ac",
+   "text": "Siddhartha's goal is to become empty",
+   "itemId": "sid-02-io-ce-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "there among these wretched people",
+   "sha1": "2792689d1247cf674256d251b7784d9a3b4acaae",
+   "text": "there among these wretched people?",
+   "itemId": "sid-02-wd-ce-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could you have learned meditation holding your breath insensitivity against hunger and pain there among these wretched people",
+   "sha1": "55e2c65b8383951208c37c2c0dc435a40900c70d",
+   "text": "How could you have learned meditation, holding your breath, insensitivity against hunger and pain there among these wretched people?”",
+   "itemId": "sid-02-wd-ce-01",
+   "source": "gameItem.quote.containingSentence(para 12)",
+   "waived": false
+  },
+  {
+   "norm": "his will was paralysed",
+   "sha1": "af2a99e4e8c8dec83b92bf26a19fa89f96c05ccc",
+   "text": "his will was paralysed",
+   "itemId": "sid-02-wd-ce-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the old man became mute his eyes became motionless his will was paralysed his arms were hanging down without power he had fallen victim to siddhartha s spell",
+   "sha1": "e1eb0d91e119dbcd5b69db9773454e0b8e3485e9",
+   "text": "The old man became mute, his eyes became motionless, his will was paralysed, his arms were hanging down; without power, he had fallen victim to Siddhartha’s spell.",
+   "itemId": "sid-02-wd-ce-02",
+   "source": "gameItem.quote.containingSentence(para 41)",
+   "waived": false
+  },
+  {
+   "norm": "through imagining the mind to be void of all conceptions",
+   "sha1": "b14e3c4cf947a09f4bbdaba1fd4b9c7afc6823ed",
+   "text": "through imagining the mind to be void of all conceptions",
+   "itemId": "sid-02-wd-ce-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he went the way of self denial by means of meditation through imagining the mind to be void of all conceptions",
+   "sha1": "c772e1b706ac987e44bd767715ba89fd466aa61b",
+   "text": "He went the way of self-denial by means of meditation, through imagining the mind to be void of all conceptions.",
+   "itemId": "sid-02-wd-ce-03",
+   "source": "gameItem.quote.containingSentence(para 7)",
+   "waived": false
+  },
+  {
+   "norm": "the myth of buddha sounded sweet",
+   "sha1": "fe182ac779d773657824f8612304ee191ffc8870",
+   "text": "The myth of Buddha sounded sweet.",
+   "itemId": "sid-02-oo-ce-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "without possession without home without a wife",
+   "sha1": "729cd61daa16f2cae928ecd0570bd429446c4265",
+   "text": "without possession, without home, without a wife",
+   "itemId": "sid-02-oo-ce-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he was said to wander through the land teaching surrounded by disciples without possession without home without a wife in the yellow cloak of an ascetic but with a cheerful brow a man of bliss and brahmins and princes would bow down before him and would become his students",
+   "sha1": "c19121c0127198b1594f7ba69a3762579114dc33",
+   "text": "He was said to wander through the land, teaching, surrounded by disciples, without possession, without home, without a wife, in the yellow cloak of an ascetic, but with a cheerful brow, a man of bliss, and Brahmins and princes would bow down before him and would become his students.",
+   "itemId": "sid-02-oo-ce-02",
+   "source": "gameItem.quote.containingSentence(para 28)",
+   "waived": false
+  },
+  {
+   "norm": "but siddhartha s thoughts brought the samana under their control he had to carry out what they commanded",
+   "sha1": "fe43e32cb1ed87ccbae7212ee8e3c775dea9948a",
+   "text": "But Siddhartha’s thoughts brought the Samana under their control, he had to carry out what they commanded.",
+   "itemId": "sid-02-oo-ce-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how do you think did we progress did we reach any goals",
+   "sha1": "677e3fba2103d379a04211beb4e570637b832112",
+   "text": "how do you think did we progress? Did we reach any goals?",
+   "itemId": "sid-02-v-ce-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "did we reach any goals",
+   "sha1": "389c1932992426ce3f7407ae7e65265687387db7",
+   "text": "Did we reach any goals?”",
+   "itemId": "sid-02-v-ce-01",
+   "source": "gameItem.quote.containingSentence(para 9)",
+   "waived": false
+  },
+  {
+   "norm": "on a begging walk siddhartha claims they have already reached their goals",
+   "sha1": "1f1e877c57407cbb2f1f19041a3acc3486cd77d4",
+   "text": "On a begging walk, Siddhartha claims they have already reached their goals.",
+   "itemId": "sid-02-v-ce-01",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "i am willing to listen to these teachings",
+   "sha1": "42eaabfaf2fa640e19c31abe51db980bbc87dfdc",
+   "text": "I am willing to listen to these teachings",
+   "itemId": "sid-02-v-ce-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "but let s do it my dear i am willing to listen to these teachings though in my heart i believe that we ve already tasted the best fruit of these teachings",
+   "sha1": "eddb85f7934453d87f92ffe65d5dc172f158005e",
+   "text": "But let’s do it, my dear, I am willing to listen to these teachings—though in my heart I believe that we’ve already tasted the best fruit of these teachings.”",
+   "itemId": "sid-02-v-ce-02",
+   "source": "gameItem.quote.containingSentence(para 36)",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha agrees to hear gotama though he distrusts teachings",
+   "sha1": "10d4c6ebbcb015c5964e12cb64afb47ff0038dc3",
+   "text": "Siddhartha agrees to hear Gotama, though he distrusts teachings.",
+   "itemId": "sid-02-v-ce-02",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "and the young men returned the bows with thanks returned the wish went on their way with salutations",
+   "sha1": "90329128118d86bc144902626504dec72c510a1c",
+   "text": "And the young men returned the bows with thanks, returned the wish, went on their way with salutations.",
+   "itemId": "sid-02-v-ce-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the friends left the old samana without a word of farewell",
+   "sha1": "1ef26fd65bd0ad2ad4795318888ea892b8e12f58",
+   "text": "The friends left the old Samana without a word of farewell.",
+   "itemId": "sid-02-v-ce-03",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "i can t help but feel that it is not like this my friend",
+   "sha1": "767f80bc711ffdbbea81ee2273677bfd57dccd69",
+   "text": "I can’t help but feel that it is not like this, my friend.",
+   "itemId": "sid-02-mw-ce-11alt",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "quoth siddhartha i can t help but feel that it is not like this my friend",
+   "sha1": "ea1f9ace421187a76cf0e45e77f8936eed422363",
+   "text": "Quoth Siddhartha: “I can’t help but feel that it is not like this, my friend.",
+   "itemId": "sid-02-mw-ce-11alt",
+   "source": "gameItem.quote.containingSentence(para 11)",
+   "waived": false
+  },
+  {
+   "norm": "once every desire and every urge was silent in the heart",
+   "sha1": "69fdfeb4f63729fdf5f6a59b8216dd5ff7d8338f",
+   "text": "once every desire and every urge was silent in the heart",
+   "itemId": "sid-02-mw-pe-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "once all of my self was overcome and had died once every desire and every urge was silent in the heart then the ultimate part of me had to awake the innermost of my being which is no longer my self the great secret",
+   "sha1": "d8604af3ad63e1038316df7aeafc2a72c2d4b991",
+   "text": "Once all of my self was overcome and had died, once every desire and every urge was silent in the heart, then the ultimate part of me had to awake, the innermost of my being, which is no longer my self, the great secret.",
+   "itemId": "sid-02-mw-pe-01",
+   "source": "gameItem.quote.containingSentence(para 3)",
+   "waived": false
+  },
+  {
+   "norm": "he thought about the words which govinda had said to him and thought the words through to their end",
+   "sha1": "cf2e58bdb1317cceb437889221c0fbf9e7c39b71",
+   "text": "He thought about the words which Govinda had said to him and thought the words through to their end.",
+   "itemId": "sid-02-mw-pe-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the scent of magic flowed from these reports",
+   "sha1": "488a4a39fc739bf26e0fce257573ccef53a110f6",
+   "text": "The scent of magic flowed from these reports.",
+   "itemId": "sid-02-mw-pe-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "no one will find the path of paths",
+   "sha1": "2cbfbb11d34b09e848b5f3663ec1ddd366ab48c1",
+   "text": "no one will find the path of paths?",
+   "itemId": "sid-02-ws-pe-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could it be that among so many learned men among so many brahmins among so many austere and venerable samanas among so many who are searching so many who are eagerly trying so many holy men no one will find the path of paths",
+   "sha1": "8595f85421bf1a6016cc4ffd28939ad880591253",
+   "text": "How could it be that among so many learned men, among so many Brahmins, among so many austere and venerable Samanas, among so many who are searching, so many who are eagerly trying, so many holy men, no one will find the path of paths?”",
+   "itemId": "sid-02-ws-pe-01",
+   "source": "gameItem.quote.containingSentence(para 21)",
+   "waived": false
+  },
+  {
+   "norm": "it is hard it is very hard to cast a spell on an old samana",
+   "sha1": "53d9a8104b3837c9384ac2b5354bd483d329a4f2",
+   "text": "It is hard, it is very hard to cast a spell on an old Samana.",
+   "itemId": "sid-02-ws-pe-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the myth of buddha sounded sweet",
+   "sha1": "fe182ac779d773657824f8612304ee191ffc8870",
+   "text": "The myth of Buddha sounded sweet.",
+   "itemId": "sid-02-ws-pe-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he doubts that learning is possible at all",
+   "sha1": "a9538dea7b3cda8dbf9d40e26d2ea3800cb7f621",
+   "text": "He doubts that learning is possible at all",
+   "itemId": "sid-02-io-pe-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he asks if they live in a circle",
+   "sha1": "0dd3bb323fc89718e6c3654b495d9b1af4afee62",
+   "text": "He asks if they live in a circle",
+   "itemId": "sid-02-io-pe-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha asks if they have reached any goals",
+   "sha1": "8e4eab9b344c1d48d3f4961aa533cb34878243c2",
+   "text": "Siddhartha asks if they have reached any goals",
+   "itemId": "sid-02-io-pe-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he says gotama s first gift is calling them away",
+   "sha1": "30a0436c2cd1b1b2198e808da20053dd90e81529",
+   "text": "He says Gotama's first gift is calling them away",
+   "itemId": "sid-02-io-pe-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the buddha rumour is compared to news in a plague",
+   "sha1": "7b8ab614b0c2604ca72ecb1fba535543074a0b1e",
+   "text": "The Buddha rumour is compared to news in a plague",
+   "itemId": "sid-02-io-pe-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda reminds siddhartha he planned to leave",
+   "sha1": "972e9db76c96e0b3574b1fd8bf3792bd7cafefdb",
+   "text": "Govinda reminds Siddhartha he planned to leave",
+   "itemId": "sid-02-io-pe-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha s spell holds the old samana",
+   "sha1": "e8cd1896a37426b2e5016485c6b2526a44fc24d7",
+   "text": "Siddhartha's spell holds the old Samana",
+   "itemId": "sid-02-io-pe-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the oldest samana dislikes the rumour",
+   "sha1": "2547a2c31ed9f17b9d6305ec1fe8ec274fd1ec5c",
+   "text": "The oldest Samana dislikes the rumour",
+   "itemId": "sid-02-io-pe-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "his soul enters a heron",
+   "sha1": "dab00b5bdc52a805962e05a3153a80d7c88147bb",
+   "text": "His soul enters a heron",
+   "itemId": "sid-02-io-pe-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he stands in the sun until he feels no pain",
+   "sha1": "6eb337f393b76102d1e754d7c55de8bb63bfdea8",
+   "text": "He stands in the sun until he feels no pain",
+   "itemId": "sid-02-io-pe-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the world tastes bitter to siddhartha",
+   "sha1": "2a38a6831df69932edd211e4dc4ff310c24a84fb",
+   "text": "The world tastes bitter to Siddhartha",
+   "itemId": "sid-02-io-pe-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he and govinda beg in the villages",
+   "sha1": "deca1d46808d7a2ddca40b3be9a5cefc8586412b",
+   "text": "He and Govinda beg in the villages",
+   "itemId": "sid-02-io-pe-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "this gotama was a vain seducer",
+   "sha1": "09b14f39cb5c5188b9d9b461521989223506e8ba",
+   "text": "this Gotama was a vain seducer",
+   "itemId": "sid-02-wd-pe-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "but his enemies and disbelievers said this gotama was a vain seducer he would spent his days in luxury scorned the offerings was without learning and knew neither exercises nor self castigation",
+   "sha1": "e182ad382cb1412ddc1249c175ed806ec31da9aa",
+   "text": "But his enemies and disbelievers said, this Gotama was a vain seducer, he would spent his days in luxury, scorned the offerings, was without learning, and knew neither exercises nor self-castigation.",
+   "itemId": "sid-02-wd-pe-01",
+   "source": "gameItem.quote.containingSentence(para 30)",
+   "waived": false
+  },
+  {
+   "norm": "with all the courtesy and modesty becoming to a younger one",
+   "sha1": "490f5c1b0225f34e7955b8ba6b038afa5f43667a",
+   "text": "with all the courtesy and modesty becoming to a younger one",
+   "itemId": "sid-02-wd-pe-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he informed the oldest one with all the courtesy and modesty becoming to a younger one and a student",
+   "sha1": "b6466e434ebdf342f5aafedffe3282d3cfccccee",
+   "text": "He informed the oldest one with all the courtesy and modesty becoming to a younger one and a student.",
+   "itemId": "sid-02-wd-pe-02",
+   "source": "gameItem.quote.containingSentence(para 39)",
+   "waived": false
+  },
+  {
+   "norm": "when he brought news of him the exalted one the sakyamuni",
+   "sha1": "63af2e85b672113c7a10aa748cef283086de5d07",
+   "text": "when he brought news of him, the exalted one, the Sakyamuni",
+   "itemId": "sid-02-wd-pe-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "everywhere where the rumour of buddha was heard everywhere in the lands of india the young men listened up felt a longing felt hope and among the brahmins sons of the towns and villages every pilgrim and stranger was welcome when he brought news of him the exalted one the sakyamuni",
+   "sha1": "a8d35af96a4fcacd436f4991310d14834aef4a61",
+   "text": "Everywhere where the rumour of Buddha was heard, everywhere in the lands of India, the young men listened up, felt a longing, felt hope, and among the Brahmins’ sons of the towns and villages every pilgrim and stranger was welcome, when he brought news of him, the exalted one, the Sakyamuni.",
+   "itemId": "sid-02-wd-pe-03",
+   "source": "gameItem.quote.containingSentence(para 31)",
+   "waived": false
+  },
+  {
+   "norm": "at this siddhartha laughed in his very own manner in which his voice assumed a touch of sadness and a touch of mockery",
+   "sha1": "106af581039712d36e9d702d4a622d331c55cfc2",
+   "text": "At this, Siddhartha laughed in his very own manner, in which his voice assumed a touch of sadness and a touch of mockery",
+   "itemId": "sid-02-oo-pe-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "at this siddhartha laughed in his very own manner in which his voice assumed a touch of sadness and a touch of mockery and said well govinda you ve spoken well you ve remembered correctly",
+   "sha1": "5d5f5781bef686e55b90624b47eb664ed31b012e",
+   "text": "At this, Siddhartha laughed in his very own manner, in which his voice assumed a touch of sadness and a touch of mockery, and said: “Well, Govinda, you’ve spoken well, you’ve remembered correctly.",
+   "itemId": "sid-02-oo-pe-01",
+   "source": "gameItem.quote.containingSentence(para 36)",
+   "waived": false
+  },
+  {
+   "norm": "pain hunger thirst tiredness",
+   "sha1": "db001433eedc1983dd606786625727e40dcb02ed",
+   "text": "pain, hunger, thirst, tiredness",
+   "itemId": "sid-02-oo-pe-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he went the way of self denial by means of pain through voluntarily suffering and overcoming pain hunger thirst tiredness",
+   "sha1": "1172d1527ecb58b8a3ec930e7548dce06438b5a4",
+   "text": "He went the way of self-denial by means of pain, through voluntarily suffering and overcoming pain, hunger, thirst, tiredness.",
+   "itemId": "sid-02-oo-pe-02",
+   "source": "gameItem.quote.containingSentence(para 7)",
+   "waived": false
+  },
+  {
+   "norm": "what is holy what is precious what is venerable on earth",
+   "sha1": "28b375fe97d04942a139bb9d752d4809a1aa6b65",
+   "text": "what is holy, what is precious, what is venerable on earth",
+   "itemId": "sid-02-oo-pe-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "what o siddhartha what would then become of all of this what is holy what is precious what is venerable on earth",
+   "sha1": "b97f8602aad0cc262d08cdc8f1277167e239cbf7",
+   "text": "What, O Siddhartha, what would then become of all of this what is holy, what is precious, what is venerable on earth?”",
+   "itemId": "sid-02-oo-pe-03",
+   "source": "gameItem.quote.containingSentence(para 23)",
+   "waived": false
+  },
+  {
+   "norm": "always o govinda i had thought govinda would stay with the samanas",
+   "sha1": "d0984d57730fc6b4dec9dc30c474da696a3b5c14",
+   "text": "Always, O Govinda, I had thought, Govinda would stay with the Samanas",
+   "itemId": "sid-02-v-pe-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "quoth siddhartha always o govinda i had thought govinda would stay with the samanas always i had believed his goal was to live to be sixty and seventy years of age and to keep on practising those feats and exercises which are becoming a samana",
+   "sha1": "10692546c6cbe6c2c6f5a261d5bbe651a4e26621",
+   "text": "Quoth Siddhartha: “Always, O Govinda, I had thought, Govinda would stay with the Samanas, always I had believed his goal was to live to be sixty and seventy years of age and to keep on practising those feats and exercises, which are becoming a Samana.",
+   "itemId": "sid-02-v-pe-01",
+   "source": "gameItem.quote.containingSentence(para 34)",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha had expected govinda to stay with the samanas",
+   "sha1": "9eb72778688b6323c7476c164c474783fc277b41",
+   "text": "Siddhartha had expected Govinda to stay with the Samanas.",
+   "itemId": "sid-02-v-pe-01",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "they rarely talked about it because the oldest one of the samanas did not like this myth",
+   "sha1": "c92ef27db827df7a9c1e3703753244947db4368d",
+   "text": "They rarely talked about it, because the oldest one of the Samanas did not like this myth.",
+   "itemId": "sid-02-v-pe-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the friends avoided the topic partly because their teacher disliked the myth",
+   "sha1": "0e2b0ed74a5fabda4f7ad71749c8f0d184c6e1a1",
+   "text": "The friends avoided the topic partly because their teacher disliked the myth.",
+   "itemId": "sid-02-v-pe-02",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "but siddhartha remained silent",
+   "sha1": "f3cadcf46459811596efbc9a446dc95ecc7464fd",
+   "text": "But Siddhartha remained silent.",
+   "itemId": "sid-02-v-pe-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha answered govinda s verse with a long speech",
+   "sha1": "c87446f08581346ffe8e075b0e8dbd5af5359fea",
+   "text": "Siddhartha answered Govinda's verse with a long speech.",
+   "itemId": "sid-02-v-pe-03",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "to find tranquility with an emptied heart",
+   "sha1": "e506b649793cb4e03391aa3fff8f9bd331c51bf1",
+   "text": "to find tranquility with an emptied heart",
+   "itemId": "sid-02-mw-gr-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "dead to himself not to be a self any more to find tranquility with an emptied heart to be open to miracles in unselfish thoughts that was his goal",
+   "sha1": "9c5e161d197b56882ec7f2188988567db1d88012",
+   "text": "Dead to himself, not to be a self any more, to find tranquility with an emptied heart, to be open to miracles in unselfish thoughts, that was his goal.",
+   "itemId": "sid-02-mw-gr-01",
+   "source": "gameItem.quote.containingSentence(para 3)",
+   "waived": false
+  },
+  {
+   "norm": "let us await with calm hearts",
+   "sha1": "10d4380d74003deff35ed7d448750a04342dbac2",
+   "text": "let us await with calm hearts.",
+   "itemId": "sid-02-mw-gr-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "whether he has also other and better things to give us o friend let us await with calm hearts",
+   "sha1": "07f7aa97c7df51b09ef4656d7425457c426be911",
+   "text": "Whether he has also other and better things to give us, O friend, let us await with calm hearts.”",
+   "itemId": "sid-02-mw-gr-02",
+   "source": "gameItem.quote.containingSentence(para 38)",
+   "waived": false
+  },
+  {
+   "norm": "without power he had fallen victim to siddhartha s spell",
+   "sha1": "ef6f37acf0cc87a0cac629f5832fd3918e93bbde",
+   "text": "without power, he had fallen victim to Siddhartha’s spell.",
+   "itemId": "sid-02-mw-gr-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the old man became mute his eyes became motionless his will was paralysed his arms were hanging down without power he had fallen victim to siddhartha s spell",
+   "sha1": "e1eb0d91e119dbcd5b69db9773454e0b8e3485e9",
+   "text": "The old man became mute, his eyes became motionless, his will was paralysed, his arms were hanging down; without power, he had fallen victim to Siddhartha’s spell.",
+   "itemId": "sid-02-mw-gr-03",
+   "source": "gameItem.quote.containingSentence(para 41)",
+   "waived": false
+  },
+  {
+   "norm": "so now you my faithful friend want to take a new path",
+   "sha1": "b852c51662344699ccd23637b16445f63e6317e8",
+   "text": "So now you, my faithful friend, want to take a new path",
+   "itemId": "sid-02-ws-gr-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "so now you my faithful friend want to take a new path and go there where the buddha spreads his teachings",
+   "sha1": "0d50fac68c51c02d9a49e76125e12ac8b09bca1e",
+   "text": "So now you, my faithful friend, want to take a new path and go there, where the Buddha spreads his teachings.”",
+   "itemId": "sid-02-ws-gr-01",
+   "source": "gameItem.quote.containingSentence(para 34)",
+   "waived": false
+  },
+  {
+   "norm": "your words stir up fear in my heart",
+   "sha1": "f626eba941a76343a63547de6a2c37da7c8c0781",
+   "text": "your words stir up fear in my heart.",
+   "itemId": "sid-02-ws-gr-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "truly your words stir up fear in my heart",
+   "sha1": "cf53f0220988ea65791635987b146f81c83cc151",
+   "text": "Truly, your words stir up fear in my heart.",
+   "itemId": "sid-02-ws-gr-02",
+   "source": "gameItem.quote.containingSentence(para 23)",
+   "waived": false
+  },
+  {
+   "norm": "but tell me how should this be possible",
+   "sha1": "1c19b0b79617ab930b9577fd06033894e206e735",
+   "text": "But tell me, how should this be possible?",
+   "itemId": "sid-02-ws-gr-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he will turn seventy and eighty",
+   "sha1": "a2c047f96fd503854d56d8bde7ceae69aa682c51",
+   "text": "He will turn seventy and eighty",
+   "itemId": "sid-02-io-gr-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "perhaps not a single samana will reach nirvana",
+   "sha1": "6d690bdd0f3d8ac49071af80505af0df3dae18b0",
+   "text": "Perhaps not a single Samana will reach nirvana",
+   "itemId": "sid-02-io-gr-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda and i will grow just as old",
+   "sha1": "c6177d478e0552dab071155c92035a76bd831a87",
+   "text": "Govinda and I will grow just as old",
+   "itemId": "sid-02-io-gr-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he says their feats only fool other people",
+   "sha1": "97178c382c2cb0d34c317a7559f2e9ecb69538fb",
+   "text": "He says their feats only fool other people",
+   "itemId": "sid-02-io-gr-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "their teacher has lived sixty years without nirvana",
+   "sha1": "2d2401aa15f306d28854024f91836e8c42afd86b",
+   "text": "Their teacher has lived sixty years without nirvana",
+   "itemId": "sid-02-io-gr-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "his thirst has stayed as strong as ever",
+   "sha1": "a7a3f3cd62b89b5570917b9af1e527b3aabfc899",
+   "text": "His thirst has stayed as strong as ever",
+   "itemId": "sid-02-io-gr-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he might as well have asked a hornbill bird",
+   "sha1": "7e47b4e8e71c291b638f11d6ca0f3a38b63559d8",
+   "text": "He might as well have asked a hornbill-bird",
+   "itemId": "sid-02-io-gr-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha says he will soon leave the samanas",
+   "sha1": "0df5b570c35bf0cf64a9f3a8821796871154daff",
+   "text": "Siddhartha says he will soon leave the Samanas",
+   "itemId": "sid-02-io-gr-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he has asked brahmins vedas and samanas",
+   "sha1": "2652e273554b4250b4252656d238988b688faf98",
+   "text": "He has asked Brahmins, Vedas and Samanas",
+   "itemId": "sid-02-io-gr-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he denies that learning exists",
+   "sha1": "a0d18257b482d0f7f9597bf048b3b4e0838087a6",
+   "text": "He denies that 'learning' exists",
+   "itemId": "sid-02-io-gr-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "believers say gotama reached nirvana",
+   "sha1": "4844f95a62471b0cefa96bf2698708a4e491ddde",
+   "text": "Believers say Gotama reached nirvana",
+   "itemId": "sid-02-io-gr-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "many set out to seek the healer",
+   "sha1": "58f70840c5b2464c07d4f49f083396feb0313306",
+   "text": "Many set out to seek the healer",
+   "itemId": "sid-02-io-gr-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "news spreads of a man whose word can heal",
+   "sha1": "dc52ec33c8cf09a0f784b535f37d1390cd546818",
+   "text": "News spreads of a man whose word can heal",
+   "itemId": "sid-02-io-gr-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "enemies call gotama a vain seducer",
+   "sha1": "f5ec6196e5f08d37f4de81f2ffe24355fffbcf18",
+   "text": "Enemies call Gotama a vain seducer",
+   "itemId": "sid-02-io-gr-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "a plague breaks out in a land",
+   "sha1": "2892f159b61bd542e4356bc282ac7e3bb2e99827",
+   "text": "A plague breaks out in a land",
+   "itemId": "sid-02-io-gr-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "was an animal was carrion was stone",
+   "sha1": "a660a3e40b499c62492ebd76496eac31522cc74e",
+   "text": "was an animal, was carrion, was stone",
+   "itemId": "sid-02-wd-gr-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he killed his senses he killed his memory he slipped out of his self into thousands of other forms was an animal was carrion was stone was wood was water and awoke every time to find his old self again sun or moon shone was his self again turned round in the cycle felt thirst overcame the thirst felt new thirst",
+   "sha1": "148d83ffb1527879ef2b1ca41a849d50244a05dc",
+   "text": "He killed his senses, he killed his memory, he slipped out of his self into thousands of other forms, was an animal, was carrion, was stone, was wood, was water, and awoke every time to find his old self again, sun or moon shone, was his self again, turned round in the cycle, felt thirst, overcame the thirst, felt new thirst.",
+   "itemId": "sid-02-wd-gr-01",
+   "source": "gameItem.quote.containingSentence(para 6)",
+   "waived": false
+  },
+  {
+   "norm": "his mouth twitched with contempt",
+   "sha1": "1d7f875ce5beb9ffa04e9a194e93e21787b89571",
+   "text": "his mouth twitched with contempt",
+   "itemId": "sid-02-wd-gr-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "his glance turned to ice when he encountered women his mouth twitched with contempt when he walked through a city of nicely dressed people",
+   "sha1": "76bdc9a97611c8dad15a4ce28aea0ada560ee799",
+   "text": "His glance turned to ice when he encountered women; his mouth twitched with contempt when he walked through a city of nicely dressed people.",
+   "itemId": "sid-02-wd-gr-02",
+   "source": "gameItem.quote.containingSentence(para 2)",
+   "waived": false
+  },
+  {
+   "norm": "this alleged buddha used to be an ascetic before",
+   "sha1": "37fd1189a3460b8f52ea877d06582a9eeff8a809",
+   "text": "this alleged Buddha used to be an ascetic before",
+   "itemId": "sid-02-wd-gr-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he had heard that this alleged buddha used to be an ascetic before and had lived in the forest but had then turned back to luxury and worldly pleasures and he had no high opinion of this gotama",
+   "sha1": "ce9e186d5856c000188f32ab101d66b5a0171150",
+   "text": "He had heard that this alleged Buddha used to be an ascetic before and had lived in the forest, but had then turned back to luxury and worldly pleasures, and he had no high opinion of this Gotama.",
+   "itemId": "sid-02-wd-gr-03",
+   "source": "gameItem.quote.containingSentence(para 32)",
+   "waived": false
+  },
+  {
+   "norm": "the old man became mute his eyes became motionless his will was paralysed",
+   "sha1": "1f6ac9d17e6404bb0effdc46b3a3afc65dcbda46",
+   "text": "The old man became mute, his eyes became motionless, his will was paralysed",
+   "itemId": "sid-02-oo-gr-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "the old man became mute his eyes became motionless his will was paralysed his arms were hanging down without power he had fallen victim to siddhartha s spell",
+   "sha1": "e1eb0d91e119dbcd5b69db9773454e0b8e3485e9",
+   "text": "The old man became mute, his eyes became motionless, his will was paralysed, his arms were hanging down; without power, he had fallen victim to Siddhartha’s spell.",
+   "itemId": "sid-02-oo-gr-01",
+   "source": "gameItem.quote.containingSentence(para 41)",
+   "waived": false
+  },
+  {
+   "norm": "the scent of magic flowed from these reports",
+   "sha1": "488a4a39fc739bf26e0fce257573ccef53a110f6",
+   "text": "The scent of magic flowed from these reports.",
+   "itemId": "sid-02-oo-gr-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he slipped out of his self into thousands of other forms",
+   "sha1": "42e4e7d23b4ab330aadb81729df59cbbcebe6e64",
+   "text": "he slipped out of his self into thousands of other forms",
+   "itemId": "sid-02-oo-gr-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he killed his senses he killed his memory he slipped out of his self into thousands of other forms was an animal was carrion was stone was wood was water and awoke every time to find his old self again sun or moon shone was his self again turned round in the cycle felt thirst overcame the thirst felt new thirst",
+   "sha1": "148d83ffb1527879ef2b1ca41a849d50244a05dc",
+   "text": "He killed his senses, he killed his memory, he slipped out of his self into thousands of other forms, was an animal, was carrion, was stone, was wood, was water, and awoke every time to find his old self again, sun or moon shone, was his self again, turned round in the cycle, felt thirst, overcame the thirst, felt new thirst.",
+   "itemId": "sid-02-oo-gr-03",
+   "source": "gameItem.quote.containingSentence(para 6)",
+   "waived": false
+  },
+  {
+   "norm": "the son of a brahmin from magadha who has seen the buddha with his own eyes",
+   "sha1": "21663a40eaea3156497215a00c5e875bfb8f5397",
+   "text": "the son of a Brahmin from Magadha, who has seen the Buddha with his own eyes",
+   "itemId": "sid-02-v-gr-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "today i was in the village and a brahmin invited me into his house and in his house there was the son of a brahmin from magadha who has seen the buddha with his own eyes and has heard him teach",
+   "sha1": "31b71bd6e2002186e0d2d23910d4a23f50c8ff93",
+   "text": "“Today, I was in the village, and a Brahmin invited me into his house, and in his house, there was the son of a Brahmin from Magadha, who has seen the Buddha with his own eyes and has heard him teach.",
+   "itemId": "sid-02-v-gr-01",
+   "source": "gameItem.quote.containingSentence(para 33)",
+   "waived": false
+  },
+  {
+   "norm": "govinda s news comes from a brahmin s son who had seen the buddha himself",
+   "sha1": "cfeb4146f5e4b4f4e14295ecf8fdb2ef99a0262f",
+   "text": "Govinda's news comes from a Brahmin's son who had seen the Buddha himself.",
+   "itemId": "sid-02-v-gr-01",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "among so many learned men among so many brahmins",
+   "sha1": "38c3c9e88c5397b75c517289d87f26f470b1928f",
+   "text": "among so many learned men, among so many Brahmins",
+   "itemId": "sid-02-v-gr-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could it be that among so many learned men among so many brahmins among so many austere and venerable samanas among so many who are searching so many who are eagerly trying so many holy men no one will find the path of paths",
+   "sha1": "8595f85421bf1a6016cc4ffd28939ad880591253",
+   "text": "How could it be that among so many learned men, among so many Brahmins, among so many austere and venerable Samanas, among so many who are searching, so many who are eagerly trying, so many holy men, no one will find the path of paths?”",
+   "itemId": "sid-02-v-gr-02",
+   "source": "gameItem.quote.containingSentence(para 21)",
+   "waived": false
+  },
+  {
+   "norm": "govinda s objection rests on how many holy men are searching",
+   "sha1": "acf290bc763c4ed01a332af43a8e65a959580456",
+   "text": "Govinda's objection rests on how many holy men are searching.",
+   "itemId": "sid-02-v-gr-02",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "they rarely talked about it",
+   "sha1": "7756c82d1ec81ab3e452c1fb9741e7df6f93af92",
+   "text": "They rarely talked about it",
+   "itemId": "sid-02-v-gr-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "they rarely talked about it because the oldest one of the samanas did not like this myth",
+   "sha1": "c92ef27db827df7a9c1e3703753244947db4368d",
+   "text": "They rarely talked about it, because the oldest one of the Samanas did not like this myth.",
+   "itemId": "sid-02-v-gr-03",
+   "source": "gameItem.quote.containingSentence(para 32)",
+   "waived": false
+  },
+  {
+   "norm": "the friends often discussed the buddha rumour openly",
+   "sha1": "180172602005ee56f69a2a9c3925b64573f1c387",
+   "text": "The friends often discussed the Buddha rumour openly.",
+   "itemId": "sid-02-v-gr-03",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "the earth coloured unsown cloak",
+   "sha1": "063cf3746acbe0d55debcefa033651605935bfae",
+   "text": "the earth-coloured, unsown cloak",
+   "itemId": "sid-02-mw-sx-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he wore nothing more than the loincloth and the earth coloured unsown cloak",
+   "sha1": "360a8b23f6d51f8166f62b4369f5f39b3dc56314",
+   "text": "He wore nothing more than the loincloth and the earth-coloured, unsown cloak.",
+   "itemId": "sid-02-mw-sx-01",
+   "source": "gameItem.quote.containingSentence(para 2)",
+   "waived": false
+  },
+  {
+   "norm": "to be open to miracles in unselfish thoughts",
+   "sha1": "2b9b3e10ef20605a2ee3e3bfe568eff464204ec4",
+   "text": "to be open to miracles in unselfish thoughts",
+   "itemId": "sid-02-mw-sx-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "dead to himself not to be a self any more to find tranquility with an emptied heart to be open to miracles in unselfish thoughts that was his goal",
+   "sha1": "9c5e161d197b56882ec7f2188988567db1d88012",
+   "text": "Dead to himself, not to be a self any more, to find tranquility with an emptied heart, to be open to miracles in unselfish thoughts, that was his goal.",
+   "itemId": "sid-02-mw-sx-02",
+   "source": "gameItem.quote.containingSentence(para 3)",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha practised self denial practised meditation according to the samana rules",
+   "sha1": "78ca08b5d08ac5c8c112f9265305922dc3d4e7ce",
+   "text": "Siddhartha practised self-denial, practised meditation, according to the Samana rules.",
+   "itemId": "sid-02-mw-sx-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "instructed by the oldest of the samanas siddhartha practised self denial practised meditation according to the samana rules",
+   "sha1": "6eaedf1f7b9be014a2b1aa9e4585f1fbc1de4764",
+   "text": "Instructed by the oldest of the Samanas, Siddhartha practised self-denial, practised meditation, according to the Samana rules.",
+   "itemId": "sid-02-mw-sx-03",
+   "source": "gameItem.quote.containingSentence(para 6)",
+   "waived": false
+  },
+  {
+   "norm": "how do you think did we progress",
+   "sha1": "7c5929b8342d3f02c81fde130eced3afe51d8d6a",
+   "text": "how do you think did we progress?",
+   "itemId": "sid-02-ws-sx-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how do you think govinda siddhartha spoke one day while begging this way how do you think did we progress",
+   "sha1": "07e630d9630f1fe037f53d9b450e3a4939ba51c7",
+   "text": "“How do you think, Govinda,” Siddhartha spoke one day while begging this way, “how do you think did we progress?",
+   "itemId": "sid-02-ws-sx-01",
+   "source": "gameItem.quote.containingSentence(para 9)",
+   "waived": false
+  },
+  {
+   "norm": "insensitivity against hunger and pain",
+   "sha1": "1ca4b01b32b1dff7eaca363010d6d5f10e134164",
+   "text": "insensitivity against hunger and pain",
+   "itemId": "sid-02-ws-sx-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could you have learned meditation holding your breath insensitivity against hunger and pain there among these wretched people",
+   "sha1": "55e2c65b8383951208c37c2c0dc435a40900c70d",
+   "text": "How could you have learned meditation, holding your breath, insensitivity against hunger and pain there among these wretched people?”",
+   "itemId": "sid-02-ws-sx-02",
+   "source": "gameItem.quote.containingSentence(para 12)",
+   "waived": false
+  },
+  {
+   "norm": "unexpressable by words is his blissfulness of his heart",
+   "sha1": "94b5c0d9b6ed65754ab0dae861f3a07f7d7fa2e5",
+   "text": "Unexpressable by words is his blissfulness of his heart.",
+   "itemId": "sid-02-ws-sx-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he who ponderingly of a purified spirit loses himself in the meditation of atman unexpressable by words is his blissfulness of his heart",
+   "sha1": "4b48b32cfdb66e87018055cc3676364774054c80",
+   "text": "He who ponderingly, of a purified spirit, loses himself in the meditation of Atman— Unexpressable by words is his blissfulness of his heart.",
+   "itemId": "sid-02-ws-sx-03",
+   "source": "gameItem.quote.containingSentence(para 25)",
+   "waived": false
+  },
+  {
+   "norm": "his soul becomes a heron",
+   "sha1": "b130d711334341eca61416f0e73b1d58dc222565",
+   "text": "His soul becomes a heron",
+   "itemId": "sid-02-io-sx-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he wakes to find his old self again",
+   "sha1": "9b5bdb50ff41aa350f7e5960e5b1885c9533d3d9",
+   "text": "He wakes to find his old self again",
+   "itemId": "sid-02-io-sx-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "his soul returns having died and decayed",
+   "sha1": "e43cd8ef0eb73577570d22898d5005ba05ff802b",
+   "text": "His soul returns, having died and decayed",
+   "itemId": "sid-02-io-sx-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "his soul enters a dead jackal",
+   "sha1": "092095ae1d056d7c94a62b137d3fa844e81049cd",
+   "text": "His soul enters a dead jackal",
+   "itemId": "sid-02-io-sx-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he kills his senses and memory",
+   "sha1": "49b71cd3c290712110502adfb666a2c2e937223e",
+   "text": "He kills his senses and memory",
+   "itemId": "sid-02-io-sx-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he learns to breathe sparingly",
+   "sha1": "319c4351e43ff562863cc5c8ec23ba7f26fda127",
+   "text": "He learns to breathe sparingly",
+   "itemId": "sid-02-io-sx-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he stands under the burning sun",
+   "sha1": "dbe3f4be6265f60034d41767715a151e0bf8a248",
+   "text": "He stands under the burning sun",
+   "itemId": "sid-02-io-sx-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "his soul enters a heron",
+   "sha1": "dab00b5bdc52a805962e05a3153a80d7c88147bb",
+   "text": "His soul enters a heron",
+   "itemId": "sid-02-io-sx-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he cowers in thorny bushes",
+   "sha1": "6a919ef70f4c3aa5f80b29cb59ae31da5376c6f6",
+   "text": "He cowers in thorny bushes",
+   "itemId": "sid-02-io-sx-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he stands in the rainy season",
+   "sha1": "2c4a283bedf00bb8ba0fdd2562336006f6612532",
+   "text": "He stands in the rainy season",
+   "itemId": "sid-02-io-sx-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the old man bows and blesses them",
+   "sha1": "d8c6a6c158b87cb4e950bca8dfb46c4a1d21084f",
+   "text": "The old man bows and blesses them",
+   "itemId": "sid-02-io-sx-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha whispers to govinda",
+   "sha1": "6e2ed4c5b486ac01c3f028403b6ad0cb5cde2927",
+   "text": "Siddhartha whispers to Govinda",
+   "itemId": "sid-02-io-sx-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the samana swears loudly",
+   "sha1": "5fdc5dc4f9c73b78bee60bfe650883ba63e7e976",
+   "text": "The Samana swears loudly",
+   "itemId": "sid-02-io-sx-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda mentions walking on water",
+   "sha1": "53a44ed1f5b8b444445fabe79f61c7007d69e666",
+   "text": "Govinda mentions walking on water",
+   "itemId": "sid-02-io-sx-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha tells the oldest samana politely",
+   "sha1": "dbfa84c5311e064453d1afdd6b2c2a96e01a83ca",
+   "text": "Siddhartha tells the oldest Samana politely",
+   "itemId": "sid-02-io-sx-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "went on their way with salutations",
+   "sha1": "9f31449059245ac89a68c9326f021ef1872d16dc",
+   "text": "went on their way with salutations",
+   "itemId": "sid-02-wd-sx-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "and the young men returned the bows with thanks returned the wish went on their way with salutations",
+   "sha1": "90329128118d86bc144902626504dec72c510a1c",
+   "text": "And the young men returned the bows with thanks, returned the wish, went on their way with salutations.",
+   "itemId": "sid-02-wd-sx-01",
+   "source": "gameItem.quote.containingSentence(para 41)",
+   "waived": false
+  },
+  {
+   "norm": "developed a desire an eagerness to hear these teachings",
+   "sha1": "73f220d4f984f612966ae3b71ccc985237db4f21",
+   "text": "developed a desire, an eagerness, to hear these teachings",
+   "itemId": "sid-02-wd-sx-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "but have you not also developed a desire an eagerness to hear these teachings",
+   "sha1": "18d528c8d12beaf79c9feab6eed8a79d4292e3e8",
+   "text": "But have you not also developed a desire, an eagerness, to hear these teachings?",
+   "itemId": "sid-02-wd-sx-02",
+   "source": "gameItem.quote.containingSentence(para 35)",
+   "waived": false
+  },
+  {
+   "norm": "a touch of sadness and a touch of mockery",
+   "sha1": "e6843238d675dc1b5dd6dd28d81d67a064b6587e",
+   "text": "a touch of sadness and a touch of mockery",
+   "itemId": "sid-02-wd-sx-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "at this siddhartha laughed in his very own manner in which his voice assumed a touch of sadness and a touch of mockery and said well govinda you ve spoken well you ve remembered correctly",
+   "sha1": "5d5f5781bef686e55b90624b47eb664ed31b012e",
+   "text": "At this, Siddhartha laughed in his very own manner, in which his voice assumed a touch of sadness and a touch of mockery, and said: “Well, Govinda, you’ve spoken well, you’ve remembered correctly.",
+   "itemId": "sid-02-wd-sx-03",
+   "source": "gameItem.quote.containingSentence(para 36)",
+   "waived": false
+  },
+  {
+   "norm": "so many who are searching so many who are eagerly trying so many holy men",
+   "sha1": "69775960ebe12ce65d052dc6340daaa6460b0d6a",
+   "text": "so many who are searching, so many who are eagerly trying, so many holy men",
+   "itemId": "sid-02-oo-sx-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could it be that among so many learned men among so many brahmins among so many austere and venerable samanas among so many who are searching so many who are eagerly trying so many holy men no one will find the path of paths",
+   "sha1": "8595f85421bf1a6016cc4ffd28939ad880591253",
+   "text": "How could it be that among so many learned men, among so many Brahmins, among so many austere and venerable Samanas, among so many who are searching, so many who are eagerly trying, so many holy men, no one will find the path of paths?”",
+   "itemId": "sid-02-oo-sx-01",
+   "source": "gameItem.quote.containingSentence(para 21)",
+   "waived": false
+  },
+  {
+   "norm": "might we get closer to enlightenment might we get closer to salvation",
+   "sha1": "c04abc69f63a29a37fc05a9d226f5f7e5679dee5",
+   "text": "Might we get closer to enlightenment? Might we get closer to salvation?",
+   "itemId": "sid-02-oo-sx-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "might we get closer to enlightenment",
+   "sha1": "d9ce7766a14a3da73b4230e8250b2dc408914411",
+   "text": "Might we get closer to enlightenment?",
+   "itemId": "sid-02-oo-sx-02",
+   "source": "gameItem.quote.containingSentence(para 16)",
+   "waived": false
+  },
+  {
+   "norm": "might we get closer to salvation",
+   "sha1": "e880991e18552280946cf240411708dd87619e26",
+   "text": "Might we get closer to salvation?",
+   "itemId": "sid-02-oo-sx-02",
+   "source": "gameItem.quote.containingSentence(para 16)",
+   "waived": false
+  },
+  {
+   "norm": "long nails grew slowly on his parched fingers and a dry shaggy beard grew on his chin",
+   "sha1": "94ebde0dd6ed60f6b88639c484dd789fb6a7b589",
+   "text": "long nails grew slowly on his parched fingers and a dry, shaggy beard grew on his chin",
+   "itemId": "sid-02-oo-sx-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "feverish dreams flickered from his enlarged eyes long nails grew slowly on his parched fingers and a dry shaggy beard grew on his chin",
+   "sha1": "63fc0cbf85f8db7b3d9f40cd9075f9e00386069e",
+   "text": "Feverish dreams flickered from his enlarged eyes, long nails grew slowly on his parched fingers and a dry, shaggy beard grew on his chin.",
+   "itemId": "sid-02-oo-sx-03",
+   "source": "gameItem.quote.containingSentence(para 2)",
+   "waived": false
+  },
+  {
+   "norm": "but siddhartha s thoughts brought the samana under their control",
+   "sha1": "8be9d68cd3d0e397fbae0a7aa57ab4126731613f",
+   "text": "But Siddhartha’s thoughts brought the Samana under their control",
+   "itemId": "sid-02-v-sx-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "but siddhartha s thoughts brought the samana under their control he had to carry out what they commanded",
+   "sha1": "fe43e32cb1ed87ccbae7212ee8e3c775dea9948a",
+   "text": "But Siddhartha’s thoughts brought the Samana under their control, he had to carry out what they commanded.",
+   "itemId": "sid-02-v-sx-01",
+   "source": "gameItem.quote.containingSentence(para 41)",
+   "waived": false
+  },
+  {
+   "norm": "the old samana s blessing is given of his own free will",
+   "sha1": "cb7e348e9a09e4a8fe247e1e1fca1dc3ba1ad14e",
+   "text": "The old Samana's blessing is given of his own free will.",
+   "itemId": "sid-02-v-sx-01",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "after all the world was sick",
+   "sha1": "2bef616017d0ca462952535cc81ea2e1c5fc4977",
+   "text": "After all, the world was sick",
+   "itemId": "sid-02-v-sx-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "after all the world was sick life was hard to bear and behold here a source seemed to spring forth here a messenger seemed to call out comforting mild full of noble promises",
+   "sha1": "d5d853fe46bebad1ebfae0af015a3f791d0ffc82",
+   "text": "After all, the world was sick, life was hard to bear—and behold, here a source seemed to spring forth, here a messenger seemed to call out, comforting, mild, full of noble promises.",
+   "itemId": "sid-02-v-sx-02",
+   "source": "gameItem.quote.containingSentence(para 31)",
+   "waived": false
+  },
+  {
+   "norm": "the narrator calls the world sick as the buddha rumour spreads",
+   "sha1": "9b6c4f1c5c61642d10571898bcd31197950b68c3",
+   "text": "The narrator calls the world sick as the Buddha rumour spreads.",
+   "itemId": "sid-02-v-sx-02",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "yes he thought standing there with his head low what would remain of all that which seemed to us to be holy",
+   "sha1": "9b8a9cfe6ea1a030f4599de3cb8854ffec7a16a9",
+   "text": "Yes, he thought, standing there with his head low, what would remain of all that which seemed to us to be holy?",
+   "itemId": "sid-02-v-sx-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "after govinda s verse siddhartha s private thoughts restore his faith in all that is holy",
+   "sha1": "6920cc1542fd3ad8e7a6c7d79f3d0e78ff9aff36",
+   "text": "After Govinda's verse, Siddhartha's private thoughts restore his faith in all that is holy.",
+   "itemId": "sid-02-v-sx-03",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "for hours and days he remained in the non self",
+   "sha1": "8d15b236dc248c8344766c1095efb436d12ec26c",
+   "text": "for hours and days he remained in the non-self",
+   "itemId": "sid-02-mw-ph-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "these and other ways he learned to go a thousand times he left his self for hours and days he remained in the non self",
+   "sha1": "b325ff3e45c32ff923ece104298e49fd7345d96a",
+   "text": "These and other ways he learned to go, a thousand times he left his self, for hours and days he remained in the non-self.",
+   "itemId": "sid-02-mw-ph-01",
+   "source": "gameItem.quote.containingSentence(para 7)",
+   "waived": false
+  },
+  {
+   "norm": "had tasted the gloomy intoxication of the cycle",
+   "sha1": "dc57f05afc65a8b71e18192a02b2f713d33e9586",
+   "text": "had tasted the gloomy intoxication of the cycle",
+   "itemId": "sid-02-mw-ph-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "and siddhartha s soul returned had died had decayed was scattered as dust had tasted the gloomy intoxication of the cycle awaited in new thirst like a hunter in the gap where he could escape from the cycle where the end of the causes where an eternity without suffering began",
+   "sha1": "9fdc8adf7aa31700c06a0cf15e18560cede24faa",
+   "text": "And Siddhartha’s soul returned, had died, had decayed, was scattered as dust, had tasted the gloomy intoxication of the cycle, awaited in new thirst like a hunter in the gap, where he could escape from the cycle, where the end of the causes, where an eternity without suffering began.",
+   "itemId": "sid-02-mw-ph-02",
+   "source": "gameItem.quote.containingSentence(para 6)",
+   "waived": false
+  },
+  {
+   "norm": "he slipped out of his self into thousands of other forms",
+   "sha1": "42e4e7d23b4ab330aadb81729df59cbbcebe6e64",
+   "text": "he slipped out of his self into thousands of other forms",
+   "itemId": "sid-02-mw-ph-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he killed his senses he killed his memory he slipped out of his self into thousands of other forms was an animal was carrion was stone was wood was water and awoke every time to find his old self again sun or moon shone was his self again turned round in the cycle felt thirst overcame the thirst felt new thirst",
+   "sha1": "148d83ffb1527879ef2b1ca41a849d50244a05dc",
+   "text": "He killed his senses, he killed his memory, he slipped out of his self into thousands of other forms, was an animal, was carrion, was stone, was wood, was water, and awoke every time to find his old self again, sun or moon shone, was his self again, turned round in the cycle, felt thirst, overcame the thirst, felt new thirst.",
+   "itemId": "sid-02-mw-ph-03",
+   "source": "gameItem.quote.containingSentence(para 6)",
+   "waived": false
+  },
+  {
+   "norm": "there is indeed no such thing so i believe as what we refer to as learning",
+   "sha1": "c1529a5ff4f175981cfbee178c6b5907cc0ee869",
+   "text": "There is indeed no such thing, so I believe, as what we refer to as ‘learning.’",
+   "itemId": "sid-02-ws-ph-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "comforting mild full of noble promises",
+   "sha1": "6fafc537191a754234d64324053fed36c0ac0fc1",
+   "text": "comforting, mild, full of noble promises",
+   "itemId": "sid-02-ws-ph-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "after all the world was sick life was hard to bear and behold here a source seemed to spring forth here a messenger seemed to call out comforting mild full of noble promises",
+   "sha1": "d5d853fe46bebad1ebfae0af015a3f791d0ffc82",
+   "text": "After all, the world was sick, life was hard to bear—and behold, here a source seemed to spring forth, here a messenger seemed to call out, comforting, mild, full of noble promises.",
+   "itemId": "sid-02-ws-ph-02",
+   "source": "gameItem.quote.containingSentence(para 31)",
+   "waived": false
+  },
+  {
+   "norm": "how should the gotama s teachings even before we have heard them have already revealed their best fruit to us",
+   "sha1": "d68f077d9e714d5efa8857eb230e2c7a8351e3b6",
+   "text": "How should the Gotama’s teachings, even before we have heard them, have already revealed their best fruit to us?",
+   "itemId": "sid-02-ws-ph-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha says he is as far from wisdom as an unborn child",
+   "sha1": "77c9bf51725624ad937bd561dca83bea7bbbf4fa",
+   "text": "Siddhartha says he is as far from wisdom as an unborn child",
+   "itemId": "sid-02-io-ph-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda says the drinker has not become wiser",
+   "sha1": "c017bb2e4a05efbce6e1015ee58c83d7d1cba282",
+   "text": "Govinda says the drinker has not become wiser",
+   "itemId": "sid-02-io-ph-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he likens it to the oxcart driver s rice wine",
+   "sha1": "cef28d22197e29cdc106723f7fbe9ee55efdb596",
+   "text": "He likens it to the oxcart driver's rice wine",
+   "itemId": "sid-02-io-ph-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda says a samana is no drunkard",
+   "sha1": "b38787c974c3b88cc539ac736bd0542525dd6b70",
+   "text": "Govinda says a Samana is no drunkard",
+   "itemId": "sid-02-io-ph-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "siddhartha asks what is meditation",
+   "sha1": "f94d467c5e318fb7363c181d0b1b3b6e2790df31",
+   "text": "Siddhartha asks, 'What is meditation?'",
+   "itemId": "sid-02-io-ph-01",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "the innermost being would awake",
+   "sha1": "8e7fdb6f574c9e85a5db0ec9bc6c16015cd4e10d",
+   "text": "The innermost being would awake",
+   "itemId": "sid-02-io-ph-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "once every desire is silent",
+   "sha1": "1db2f249549a56f8ac8519003d75493a73f8e22b",
+   "text": "Once every desire is silent",
+   "itemId": "sid-02-io-ph-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "his goal is to become empty",
+   "sha1": "97fe72b15ce30863374949329635914ca8a58aef",
+   "text": "His goal is to become empty",
+   "itemId": "sid-02-io-ph-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "to be open to miracles",
+   "sha1": "a24c07ae23f8b87a1ab9ae06d6df8f8667e5bd20",
+   "text": "To be open to miracles",
+   "itemId": "sid-02-io-ph-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "to be dead to himself",
+   "sha1": "5fafd1cb56bc2c5ed3c5473e828b17392ee303c4",
+   "text": "To be dead to himself",
+   "itemId": "sid-02-io-ph-02",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he asks not to be bothered with such talk",
+   "sha1": "e85bae0bd39269b9fd464f100d2bebb095a7b16f",
+   "text": "He asks not to be bothered with such talk",
+   "itemId": "sid-02-io-ph-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he asks about the sanctity of prayer",
+   "sha1": "b1d5d5be29c5ee2e0b96ec8401f93a8394c8ab7f",
+   "text": "He asks about the sanctity of prayer",
+   "itemId": "sid-02-io-ph-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he asks what would become of all that is holy",
+   "sha1": "d902ea8d704afb4a4975abc6d472c143a140d6e8",
+   "text": "He asks what would become of all that is holy",
+   "itemId": "sid-02-io-ph-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "govinda stops and raises his hands",
+   "sha1": "f58adcc0215fdf8d6d28e6c4c58cb59f8755fca0",
+   "text": "Govinda stops and raises his hands",
+   "itemId": "sid-02-io-ph-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "he says the words stir fear in his heart",
+   "sha1": "89364c8f5cf0b6c453981e91e3d940b239244633",
+   "text": "He says the words stir fear in his heart",
+   "itemId": "sid-02-io-ph-03",
+   "source": "gameItem.orderCard",
+   "waived": false
+  },
+  {
+   "norm": "loses himself in the meditation of atman",
+   "sha1": "ab6e83c5237637f5fd1c2efd90c21610c1656c2b",
+   "text": "loses himself in the meditation of Atman",
+   "itemId": "sid-02-wd-ph-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he who ponderingly of a purified spirit loses himself in the meditation of atman unexpressable by words is his blissfulness of his heart",
+   "sha1": "4b48b32cfdb66e87018055cc3676364774054c80",
+   "text": "He who ponderingly, of a purified spirit, loses himself in the meditation of Atman— Unexpressable by words is his blissfulness of his heart.",
+   "itemId": "sid-02-wd-ph-01",
+   "source": "gameItem.quote.containingSentence(para 25)",
+   "waived": false
+  },
+  {
+   "norm": "knew neither exercises nor self castigation",
+   "sha1": "3e63ce34eea84e3622f5a95d266d4d6b4cee6219",
+   "text": "knew neither exercises nor self-castigation",
+   "itemId": "sid-02-wd-ph-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "but his enemies and disbelievers said this gotama was a vain seducer he would spent his days in luxury scorned the offerings was without learning and knew neither exercises nor self castigation",
+   "sha1": "e182ad382cb1412ddc1249c175ed806ec31da9aa",
+   "text": "But his enemies and disbelievers said, this Gotama was a vain seducer, he would spent his days in luxury, scorned the offerings, was without learning, and knew neither exercises nor self-castigation.",
+   "itemId": "sid-02-wd-ph-02",
+   "source": "gameItem.quote.containingSentence(para 30)",
+   "waived": false
+  },
+  {
+   "norm": "feverish dreams flickered from his enlarged eyes",
+   "sha1": "7ae11d7108b5ed6336f9d6d4961fc86b0ac50079",
+   "text": "Feverish dreams flickered from his enlarged eyes",
+   "itemId": "sid-02-wd-ph-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "feverish dreams flickered from his enlarged eyes long nails grew slowly on his parched fingers and a dry shaggy beard grew on his chin",
+   "sha1": "63fc0cbf85f8db7b3d9f40cd9075f9e00386069e",
+   "text": "Feverish dreams flickered from his enlarged eyes, long nails grew slowly on his parched fingers and a dry, shaggy beard grew on his chin.",
+   "itemId": "sid-02-wd-ph-03",
+   "source": "gameItem.quote.containingSentence(para 2)",
+   "waived": false
+  },
+  {
+   "norm": "no one will find the path of paths",
+   "sha1": "2cbfbb11d34b09e848b5f3663ec1ddd366ab48c1",
+   "text": "no one will find the path of paths?",
+   "itemId": "sid-02-oo-ph-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "how could it be that among so many learned men among so many brahmins among so many austere and venerable samanas among so many who are searching so many who are eagerly trying so many holy men no one will find the path of paths",
+   "sha1": "8595f85421bf1a6016cc4ffd28939ad880591253",
+   "text": "How could it be that among so many learned men, among so many Brahmins, among so many austere and venerable Samanas, among so many who are searching, so many who are eagerly trying, so many holy men, no one will find the path of paths?”",
+   "itemId": "sid-02-oo-ph-01",
+   "source": "gameItem.quote.containingSentence(para 21)",
+   "waived": false
+  },
+  {
+   "norm": "i have asked the brahmins year after year",
+   "sha1": "cb8f888c1798cd8755de267e32e1bedae613074d",
+   "text": "I have asked the Brahmins, year after year",
+   "itemId": "sid-02-oo-ph-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "i have asked the brahmins year after year and i have asked the holy vedas year after year and i have asked the devoted samanas year after year",
+   "sha1": "706c038c55e91bf8a8558f101f70f3aba77c4d91",
+   "text": "I have asked the Brahmins, year after year, and I have asked the holy Vedas, year after year, and I have asked the devoted Samanas, year after year.",
+   "itemId": "sid-02-oo-ph-02",
+   "source": "gameItem.quote.containingSentence(para 22)",
+   "waived": false
+  },
+  {
+   "norm": "where he could escape from the cycle where the end of the causes",
+   "sha1": "c93c7db62bb9f2e2896bc10b7b294246f1ba52aa",
+   "text": "where he could escape from the cycle, where the end of the causes",
+   "itemId": "sid-02-oo-ph-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "and siddhartha s soul returned had died had decayed was scattered as dust had tasted the gloomy intoxication of the cycle awaited in new thirst like a hunter in the gap where he could escape from the cycle where the end of the causes where an eternity without suffering began",
+   "sha1": "9fdc8adf7aa31700c06a0cf15e18560cede24faa",
+   "text": "And Siddhartha’s soul returned, had died, had decayed, was scattered as dust, had tasted the gloomy intoxication of the cycle, awaited in new thirst like a hunter in the gap, where he could escape from the cycle, where the end of the causes, where an eternity without suffering began.",
+   "itemId": "sid-02-oo-ph-03",
+   "source": "gameItem.quote.containingSentence(para 6)",
+   "waived": false
+  },
+  {
+   "norm": "it is hard it is very hard to cast a spell on an old samana",
+   "sha1": "53d9a8104b3837c9384ac2b5354bd483d329a4f2",
+   "text": "It is hard, it is very hard to cast a spell on an old Samana.",
+   "itemId": "sid-02-v-ph-01",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "govinda treats siddhartha s spell as an easy trick any samana could do",
+   "sha1": "3008ecc9cdc7ebc99df256b8afe921fcdbf86d43",
+   "text": "Govinda treats Siddhartha's spell as an easy trick any Samana could do.",
+   "itemId": "sid-02-v-ph-01",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "unexpressable by words is his blissfulness of his heart",
+   "sha1": "94b5c0d9b6ed65754ab0dae861f3a07f7d7fa2e5",
+   "text": "Unexpressable by words is his blissfulness of his heart.",
+   "itemId": "sid-02-v-ph-02",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "he who ponderingly of a purified spirit loses himself in the meditation of atman unexpressable by words is his blissfulness of his heart",
+   "sha1": "4b48b32cfdb66e87018055cc3676364774054c80",
+   "text": "He who ponderingly, of a purified spirit, loses himself in the meditation of Atman— Unexpressable by words is his blissfulness of his heart.",
+   "itemId": "sid-02-v-ph-02",
+   "source": "gameItem.quote.containingSentence(para 25)",
+   "waived": false
+  },
+  {
+   "norm": "govinda s verse says the bliss of atman can be fully put into words",
+   "sha1": "44519f83d0b8783595357cd0fe3dce9540049d4e",
+   "text": "Govinda's verse says the bliss of Atman can be fully put into words.",
+   "itemId": "sid-02-v-ph-02",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "a touch of sadness and a touch of mockery",
+   "sha1": "e6843238d675dc1b5dd6dd28d81d67a064b6587e",
+   "text": "a touch of sadness and a touch of mockery",
+   "itemId": "sid-02-v-ph-03",
+   "source": "gameItem.quote",
+   "waived": false
+  },
+  {
+   "norm": "at this siddhartha laughed in his very own manner in which his voice assumed a touch of sadness and a touch of mockery and said well govinda you ve spoken well you ve remembered correctly",
+   "sha1": "5d5f5781bef686e55b90624b47eb664ed31b012e",
+   "text": "At this, Siddhartha laughed in his very own manner, in which his voice assumed a touch of sadness and a touch of mockery, and said: “Well, Govinda, you’ve spoken well, you’ve remembered correctly.",
+   "itemId": "sid-02-v-ph-03",
+   "source": "gameItem.quote.containingSentence(para 36)",
+   "waived": false
+  },
+  {
+   "norm": "the narrator describes siddhartha s laugh as purely joyful",
+   "sha1": "adcdbea0d4baf4ee5fe70918ddb38b6242afce1d",
+   "text": "The narrator describes Siddhartha's laugh as purely joyful.",
+   "itemId": "sid-02-v-ph-03",
+   "source": "gameItem.verdictClaim",
+   "waived": false
+  },
+  {
+   "norm": "to find his old self again",
+   "sha1": "0e26b8a74c345eff0ec70989b19d9af25d93baa2",
+   "text": "to find his old self again,",
+   "itemId": "sid-02-io-sx-01",
+   "source": "lessonQuizOverlap:lessonQuiz:001.quiz.versions.collegeJunior[7].expected",
+   "waived": false
+  }
+ ]
+}
