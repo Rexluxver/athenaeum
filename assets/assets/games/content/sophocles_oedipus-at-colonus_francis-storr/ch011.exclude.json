@@ -1,0 +1,485 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 12,
+  "chapterIndex0": 11,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 44,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a voice summons oedipus oedipus why tarry we",
+    "antigone resolves to go back if she may and stay the brothers doom",
+    "antigone yields to the hidden tomb and says they must go back to thebes if yet they may to stay the brothers doom",
+    "back to thebes if yet we may",
+    "back to thebes if yet we may heal this mortal feud and stay the self wrought doom that drives our brothers to their tomb",
+    "but by what doom the stranger met his end no man save theseus knoweth for there fell",
+    "by dark powers beneficent",
+    "charged me straitly that no mortal should approach the sacred portal or greet with funeral litanies the hidden tomb wherein he lies",
+    "earth rooted threshold with its brazen stairs",
+    "for without wailing or disease or pain he passed away an end most marvellous",
+    "friends countrymen my tidings are in sum",
+    "go in peace nor will i spare aught of toil and zealous care but on all your needs attend gladdening in his grave my friend",
+    "he passed away an end most marvellous",
+    "it was a messenger from heaven or else",
+    "oedipus oedipus why tarry we too long too long thy passing is delayed",
+    "or greet with funeral litanies",
+    "that he has passed away from life to death",
+    "that may not be",
+    "that sight ineffable",
+    "that time and friendship prompt in their behoof",
+    "the chorus all is ordered for the best",
+    "the daughters come wailing",
+    "the last word reported is love",
+    "the man is evanished only the king is seen",
+    "the man was evanished from their eyes",
+    "the man was gone evanished from our eyes",
+    "the messenger first says he is gone",
+    "the messenger reports oedipus s word that one word wipes out all score of tribulations love",
+    "the messenger reports the evanishing",
+    "the messenger s first tidings",
+    "the messenger says oedipus is gone",
+    "the messenger says that by what doom the stranger met his end no man save theseus knoweth",
+    "the messenger says that without wailing or disease or pain he passed away an end most marvellous",
+    "the messenger tells the chorus that oedipus has passed away from life to death",
+    "the prince came nearer o my friend he cried",
+    "theseus refuses a sight of the tomb",
+    "theseus says oedipus charged him that no mortal should approach the sacred portal or greet the hidden tomb with funeral litanies",
+    "theseus swears to be their constant friend",
+    "theseus tells them to go in peace and promises his toil and care gladdening in his grave his friend",
+    "theseus will not show the tomb",
+    "wail no more let sorrow rest",
+    "well if he would have it so",
+    "wipes out all score of tribulations love",
+    "wipes out all score of tribulations love and love from me ye had from no man more"
+  ],
+  "entries": [
+    {
+      "norm": "the man was gone evanished from our eyes",
+      "sha1": "6b890393065659e2983cf048136cf6a24d54f5b8",
+      "text": "The man was gone, evanished from our eyes;",
+      "itemId": "oc-ch011-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "friends countrymen my tidings are in sum",
+      "sha1": "7bc83d86e4e3d7a3d8fda1fe4547ac95d11c84e6",
+      "text": "Friends, countrymen, my tidings are in sum",
+      "itemId": "oc-ch011-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the man was gone evanished from our eyes",
+      "sha1": "6b890393065659e2983cf048136cf6a24d54f5b8",
+      "text": "The man was gone, evanished from our eyes;",
+      "itemId": "oc-ch011-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger says oedipus is gone",
+      "sha1": "25014e7bc3a1914d376f99a4795d8a2a5d0740df",
+      "text": "The Messenger says Oedipus is gone",
+      "itemId": "oc-ch011-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the man was evanished from their eyes",
+      "sha1": "6d5aa1f2f4cdcc671f8215aaf954884c2d5a2646",
+      "text": "The man was evanished from their eyes",
+      "itemId": "oc-ch011-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus will not show the tomb",
+      "sha1": "e57a82253b7471bf562686eca62e6f519d78b0cf",
+      "text": "Theseus will not show the tomb",
+      "itemId": "oc-ch011-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "that he has passed away from life to death",
+      "sha1": "8b5754427ff5efd0615aa751ab7b7d4f87bc3ede",
+      "text": "That he has passed away from life to death.",
+      "itemId": "oc-ch011-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger tells the chorus that oedipus has passed away from life to death",
+      "sha1": "8349c345f6f4ab08598c9332d90b016735366d1c",
+      "text": "The Messenger tells the chorus that Oedipus has passed away from life to death.",
+      "itemId": "oc-ch011-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "he passed away an end most marvellous",
+      "sha1": "f91500bdc78917e00159cdf24a7cc1688da2444b",
+      "text": "He passed away—an end most marvellous.",
+      "itemId": "oc-ch011-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "wipes out all score of tribulations love",
+      "sha1": "0753516b25fae7df671c9bf6eac436625b3c2f4e",
+      "text": "Wipes out all score of tribulations—love.",
+      "itemId": "oc-ch011-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "he passed away an end most marvellous",
+      "sha1": "f91500bdc78917e00159cdf24a7cc1688da2444b",
+      "text": "He passed away—an end most marvellous.",
+      "itemId": "oc-ch011-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "it was a messenger from heaven or else",
+      "sha1": "18dc90ca93ae1c0128252f780890aac571363fd8",
+      "text": "It was a messenger from heaven, or else",
+      "itemId": "oc-ch011-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "wipes out all score of tribulations love and love from me ye had from no man more",
+      "sha1": "3c2adbe3240557d6c32dcfce72222083f8192da1",
+      "text": "Wipes out all score of tribulations—love. And love from me ye had—from no man more;",
+      "itemId": "oc-ch011-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger reports oedipus s word that one word wipes out all score of tribulations love",
+      "sha1": "e82faff03cf6016e6986e2e495565c9b897a8d0e",
+      "text": "The Messenger reports Oedipus’s word that one word wipes out all score of tribulations—love.",
+      "itemId": "oc-ch011-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by dark powers beneficent",
+      "sha1": "2ba425c64f688b4e21fccc7493b055ee7d36b72d",
+      "text": "By dark Powers beneficent,",
+      "itemId": "oc-ch011-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that may not be",
+      "sha1": "585e14bd04a8c22d980a9b28c42bb57d7b965ba9",
+      "text": "That may not be.",
+      "itemId": "oc-ch011-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "or greet with funeral litanies",
+      "sha1": "99998b8b15b22b09287f7818e16314f3e66844eb",
+      "text": "Or greet with funeral litanies",
+      "itemId": "oc-ch011-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus refuses a sight of the tomb",
+      "sha1": "abd4f58f1669033e821f2e972d0091c3d52dd855",
+      "text": "Theseus refuses a sight of the tomb",
+      "itemId": "oc-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the messenger reports the evanishing",
+      "sha1": "b579b1e9dfa693cb24974fa84eb26f7b89cce017",
+      "text": "The Messenger reports the evanishing",
+      "itemId": "oc-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the daughters come wailing",
+      "sha1": "a07ef602001254ef570c56029fbae4e64ce09808",
+      "text": "The daughters come wailing",
+      "itemId": "oc-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone resolves to go back if she may and stay the brothers doom",
+      "sha1": "e6774febcbbaae620e940deefc46f64c73b925e2",
+      "text": "Antigone resolves to go back, if she may, and stay the brothers’ doom",
+      "itemId": "oc-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "for without wailing or disease or pain he passed away an end most marvellous",
+      "sha1": "461b615565fd16049a4b7bc30ed1e3c329758535",
+      "text": "For without wailing or disease or pain He passed away—an end most marvellous.",
+      "itemId": "oc-ch011-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger says that without wailing or disease or pain he passed away an end most marvellous",
+      "sha1": "26663753cc4969c68f817fe3ee01833aa104b870",
+      "text": "The Messenger says that without wailing or disease or pain he passed away—an end most marvellous.",
+      "itemId": "oc-ch011-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "or greet with funeral litanies",
+      "sha1": "99998b8b15b22b09287f7818e16314f3e66844eb",
+      "text": "Or greet with funeral litanies",
+      "itemId": "oc-ch011-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "well if he would have it so",
+      "sha1": "22fae50042cd38a1d27a07c72116298ada4ba786",
+      "text": "Well, if he would have it so,",
+      "itemId": "oc-ch011-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by dark powers beneficent",
+      "sha1": "2ba425c64f688b4e21fccc7493b055ee7d36b72d",
+      "text": "By dark Powers beneficent,",
+      "itemId": "oc-ch011-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that may not be",
+      "sha1": "585e14bd04a8c22d980a9b28c42bb57d7b965ba9",
+      "text": "That may not be.",
+      "itemId": "oc-ch011-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "charged me straitly that no mortal should approach the sacred portal or greet with funeral litanies the hidden tomb wherein he lies",
+      "sha1": "980692a54c07a4f78fc14cc398667481bac2f5ad",
+      "text": "Charged me straitly that no mortal Should approach the sacred portal, Or greet with funeral litanies The hidden tomb wherein he lies;",
+      "itemId": "oc-ch011-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says oedipus charged him that no mortal should approach the sacred portal or greet the hidden tomb with funeral litanies",
+      "sha1": "0805436769da72146fbe6061e0b98a67333ffb4b",
+      "text": "Theseus says Oedipus charged him that no mortal should approach the sacred portal or greet the hidden tomb with funeral litanies.",
+      "itemId": "oc-ch011-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "that time and friendship prompt in their behoof",
+      "sha1": "9208487576b3e33574e2b0eab8e689aeb4efd854",
+      "text": "That time and friendship prompt in their behoof.”",
+      "itemId": "oc-ch011-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that sight ineffable",
+      "sha1": "886907bcea721405a1ed47b3dff3ae3fb1b767db",
+      "text": "That sight ineffable?",
+      "itemId": "oc-ch011-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that time and friendship prompt in their behoof",
+      "sha1": "9208487576b3e33574e2b0eab8e689aeb4efd854",
+      "text": "That time and friendship prompt in their behoof.”",
+      "itemId": "oc-ch011-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a voice summons oedipus oedipus why tarry we",
+      "sha1": "8ceb704927f91c63cde4c30296929541b6ffaaac",
+      "text": "A voice summons, “Oedipus, Oedipus, why tarry we?”",
+      "itemId": "oc-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the messenger first says he is gone",
+      "sha1": "eee773b2df4cfcbbd1c93b437346cfa6cc6cc08a",
+      "text": "The Messenger first says he is gone",
+      "itemId": "oc-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus swears to be their constant friend",
+      "sha1": "492116fd38fb62f770556bc884c2cffafd63e8e0",
+      "text": "Theseus swears to be their constant friend",
+      "itemId": "oc-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the man is evanished only the king is seen",
+      "sha1": "7ab9c69e0f1a90d0dc50d150e69ad47b435fd846",
+      "text": "The man is evanished; only the king is seen",
+      "itemId": "oc-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "but by what doom the stranger met his end no man save theseus knoweth for there fell",
+      "sha1": "6e6a9c9c940dd6741ce729edee97ff04a60fc4eb",
+      "text": "But by what doom the stranger met his end No man save Theseus knoweth. For there fell",
+      "itemId": "oc-ch011-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger says that by what doom the stranger met his end no man save theseus knoweth",
+      "sha1": "31a43c5b2dc556d62b86b89be7a5a57c2d7b7cc9",
+      "text": "The Messenger says that by what doom the stranger met his end, no man save Theseus knoweth.",
+      "itemId": "oc-ch011-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "earth rooted threshold with its brazen stairs",
+      "sha1": "006810a5a01002674b488d500a0dba4615a86497",
+      "text": "Earth-rooted Threshold with its brazen stairs,",
+      "itemId": "oc-ch011-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "wail no more let sorrow rest",
+      "sha1": "a779d3baa8aaf7c99f9e0d1c3a0e11bdfa40123c",
+      "text": "Wail no more, let sorrow rest,",
+      "itemId": "oc-ch011-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "wipes out all score of tribulations love",
+      "sha1": "0753516b25fae7df671c9bf6eac436625b3c2f4e",
+      "text": "Wipes out all score of tribulations—love.",
+      "itemId": "oc-ch011-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "back to thebes if yet we may",
+      "sha1": "62e2c72dbd330b71019b42a08d99d50e45a94b16",
+      "text": "Back to Thebes, if yet we may",
+      "itemId": "oc-ch011-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "back to thebes if yet we may heal this mortal feud and stay the self wrought doom that drives our brothers to their tomb",
+      "sha1": "4e45ba5dbb472ba22f0e26ea241a3607c8aacccb",
+      "text": "Back to Thebes, if yet we may Heal this mortal feud and stay The self-wrought doom That drives our brothers to their tomb.",
+      "itemId": "oc-ch011-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone yields to the hidden tomb and says they must go back to thebes if yet they may to stay the brothers doom",
+      "sha1": "92ae22fe3a4dc828fd908c79cdcb09a03b53e767",
+      "text": "Antigone yields to the hidden tomb and says they must go back to Thebes, if yet they may, to stay the brothers’ doom.",
+      "itemId": "oc-ch011-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "oedipus oedipus why tarry we too long too long thy passing is delayed",
+      "sha1": "3ce459c9ae0cec7e518472486a417a9f45d85fe1",
+      "text": "“Oedipus, Oedipus, why tarry we? Too long, too long thy passing is delayed.”",
+      "itemId": "oc-ch011-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the prince came nearer o my friend he cried",
+      "sha1": "b8f9977b6d94a9e4a2e4668da7620928a98b6b3d",
+      "text": "The Prince came nearer: “O my friend,” he cried,",
+      "itemId": "oc-ch011-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that sight ineffable",
+      "sha1": "886907bcea721405a1ed47b3dff3ae3fb1b767db",
+      "text": "That sight ineffable?",
+      "itemId": "oc-ch011-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus all is ordered for the best",
+      "sha1": "65e6a5c19414b44946424feb795b30c666554219",
+      "text": "The chorus: all is ordered for the best",
+      "itemId": "oc-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the messenger s first tidings",
+      "sha1": "ef04245e830c40f6f2fafe9173f2bf2e5bd85b0b",
+      "text": "The Messenger’s first tidings",
+      "itemId": "oc-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the last word reported is love",
+      "sha1": "5e3f5b0c8965d85aa16f81198f9e4f059e36f126",
+      "text": "The last word reported is love",
+      "itemId": "oc-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus will not show the tomb",
+      "sha1": "e57a82253b7471bf562686eca62e6f519d78b0cf",
+      "text": "Theseus will not show the tomb",
+      "itemId": "oc-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "go in peace nor will i spare aught of toil and zealous care but on all your needs attend gladdening in his grave my friend",
+      "sha1": "af0d27b8dfef72e8dab78c8fa76358c7ab35d8af",
+      "text": "Go in peace; nor will I spare Aught of toil and zealous care, But on all your needs attend, Gladdening in his grave my friend.",
+      "itemId": "oc-ch011-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus tells them to go in peace and promises his toil and care gladdening in his grave his friend",
+      "sha1": "7cb917bcd9c62cbd39ca726c946504b9ca676f3a",
+      "text": "Theseus tells them to go in peace, and promises his toil and care, gladdening in his grave his friend.",
+      "itemId": "oc-ch011-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

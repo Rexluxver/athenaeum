@@ -1,0 +1,467 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 5,
+  "chapterIndex0": 4,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 51,
+    "excludeNormalized": 42,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a prey for any wanton ravisher",
+    "and like some freebooter art carrying off",
+    "antigone announces creon s approach",
+    "antigone first names creon as he approaches",
+    "antigone is dragged away by force",
+    "antigone is the first to announce that creon is approaching with his company",
+    "come answer me one question if thou canst",
+    "come back to thebes come to thy father s home",
+    "creon approaches with his company",
+    "creon arrives and greets the burghers",
+    "creon asks oedipus to come back to his father s home and says thebes claims him first",
+    "creon reveals a daughter is already seized",
+    "creon says one daughter is already seized",
+    "creon tells oedipus one daughter is already seized",
+    "creon tells oedipus that one of his daughters is already seized and that he will soon have the other",
+    "creon urges him to come home",
+    "hath ta en the fowler in the toils he spread",
+    "hence stranger hence avaunt thou doest wrong",
+    "i turn adjure them and invoke their aid",
+    "lead on i say the captor s caught and fate hath ta en the fowler in the toils he spread",
+    "oedipus blesses theseus for his nobleness",
+    "oedipus calls creon a front of brass",
+    "oedipus cries help athens",
+    "one of thy daughters is already seized",
+    "one of thy daughters is already seized the other i will carry off anon",
+    "see that the maidens are restored at once",
+    "so those two crutches shall no longer serve thee",
+    "the chorus sides with creon and tells oedipus to depart",
+    "thebes thy old foster mother claims thee first",
+    "these ties of kindred were by thee ignored",
+    "theseus arrives from poseidon s altar",
+    "theseus is called from poseidon s altar",
+    "theseus says the captor is caught in his own toils",
+    "theseus says the captor is himself caught and fate has taken the fowler in the toils he spread",
+    "theseus says this villainy was learnt from thebes which is wont to breed unrighteous sons",
+    "theseus tells creon to begone and assures oedipus that only theseus s death would stay the purpose to restore the maids",
+    "theseus tells creon to begone and stay the purpose to restore the maids",
+    "thou art a messenger suborned thy tongue",
+    "threaten us and begone thou oedipus",
+    "threaten us and begone thou oedipus stay here assured that nothing save my death will stay my purpose to restore the maids",
+    "why this outcry what is forward wherefore was i called away",
+    "yet not from thebes this villainy was learnt thebes is not wont to breed unrighteous sons"
+  ],
+  "entries": [
+    {
+      "norm": "creon approaches with his company",
+      "sha1": "b6fc5fb8390df991bdc3035ee7365523ec332912",
+      "text": "Creon approaches with his company.",
+      "itemId": "oc-ch004-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon approaches with his company",
+      "sha1": "b6fc5fb8390df991bdc3035ee7365523ec332912",
+      "text": "Creon approaches with his company.",
+      "itemId": "oc-ch004-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a prey for any wanton ravisher",
+      "sha1": "1d0d372d8c2f6465e65132b741c1277368abf3a4",
+      "text": "A prey for any wanton ravisher?",
+      "itemId": "oc-ch004-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon arrives and greets the burghers",
+      "sha1": "3c6f55d8dada74af0f2cfc738b1e057e0311e126",
+      "text": "Creon arrives and greets the burghers",
+      "itemId": "oc-ch004-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone announces creon s approach",
+      "sha1": "c32ced79c656dc386e24130bac083f875438749f",
+      "text": "Antigone announces Creon’s approach",
+      "itemId": "oc-ch004-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon tells oedipus one daughter is already seized",
+      "sha1": "7d0f304584c33436b771ae0e3687ae07cd45ec6f",
+      "text": "Creon tells Oedipus one daughter is already seized",
+      "itemId": "oc-ch004-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon approaches with his company",
+      "sha1": "b6fc5fb8390df991bdc3035ee7365523ec332912",
+      "text": "Creon approaches with his company.",
+      "itemId": "oc-ch004-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone is the first to announce that creon is approaching with his company",
+      "sha1": "b5b159f5f26980de3d748fb4cec360854eff0e0d",
+      "text": "Antigone is the first to announce that Creon is approaching with his company.",
+      "itemId": "oc-ch004-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "come back to thebes come to thy father s home",
+      "sha1": "913613467269435861832fd438bd869268244014",
+      "text": "Come back to Thebes, come to thy father’s home,",
+      "itemId": "oc-ch004-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "one of thy daughters is already seized",
+      "sha1": "806723dcc6cdb1270d25ebfa9bea6f941f127b24",
+      "text": "One of thy daughters is already seized,",
+      "itemId": "oc-ch004-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "these ties of kindred were by thee ignored",
+      "sha1": "edd858ae166ebc93ad1052ee49324a8fd3ea45ba",
+      "text": "These ties of kindred were by thee ignored;",
+      "itemId": "oc-ch004-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "one of thy daughters is already seized",
+      "sha1": "806723dcc6cdb1270d25ebfa9bea6f941f127b24",
+      "text": "One of thy daughters is already seized,",
+      "itemId": "oc-ch004-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "come back to thebes come to thy father s home",
+      "sha1": "913613467269435861832fd438bd869268244014",
+      "text": "Come back to Thebes, come to thy father’s home,",
+      "itemId": "oc-ch004-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon asks oedipus to come back to his father s home and says thebes claims him first",
+      "sha1": "13a4951a9419c886ff5c1189b81aaa3ac52fc89f",
+      "text": "Creon asks Oedipus to come back to his father’s home, and says Thebes claims him first.",
+      "itemId": "oc-ch004-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thou art a messenger suborned thy tongue",
+      "sha1": "12e7a13ba901473da9e7b468ee587c2c94b745f5",
+      "text": "Thou art a messenger suborned, thy tongue",
+      "itemId": "oc-ch004-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou art a messenger suborned thy tongue",
+      "sha1": "12e7a13ba901473da9e7b468ee587c2c94b745f5",
+      "text": "Thou art a messenger suborned, thy tongue",
+      "itemId": "oc-ch004-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon urges him to come home",
+      "sha1": "fa4c1ac16ae4b8bdb3670a6a8d3cd4f38a113a70",
+      "text": "Creon urges him to come home",
+      "itemId": "oc-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone is dragged away by force",
+      "sha1": "cd1daf422d07b1fb4f5274fac692251dbeb452df",
+      "text": "Antigone is dragged away by force",
+      "itemId": "oc-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon says one daughter is already seized",
+      "sha1": "a2691f7653a73794bf5b5c55ba2bacdd0791ae19",
+      "text": "Creon says one daughter is already seized",
+      "itemId": "oc-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus calls creon a front of brass",
+      "sha1": "bdea0aff59c5be1b4fde2733ed1c3564fdaf5e73",
+      "text": "Oedipus calls Creon a front of brass",
+      "itemId": "oc-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "one of thy daughters is already seized the other i will carry off anon",
+      "sha1": "ff99904ea7fe1bab11b8242d9a838c171de004ba",
+      "text": "One of thy daughters is already seized, The other I will carry off anon.",
+      "itemId": "oc-ch004-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon tells oedipus that one of his daughters is already seized and that he will soon have the other",
+      "sha1": "1cd3a34ce18ace6f387188e55745c2eb028a5df3",
+      "text": "Creon tells Oedipus that one of his daughters is already seized, and that he will soon have the other.",
+      "itemId": "oc-ch004-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "hence stranger hence avaunt thou doest wrong",
+      "sha1": "5eb083a30629e01b5553df9401d7908437de42b6",
+      "text": "Hence, stranger, hence avaunt! Thou doest wrong",
+      "itemId": "oc-ch004-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "why this outcry what is forward wherefore was i called away",
+      "sha1": "f8bcdfe767a0bff936a37aad1ef3fabec1d664aa",
+      "text": "Why this outcry? What is forward? wherefore was I called away",
+      "itemId": "oc-ch004-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and like some freebooter art carrying off",
+      "sha1": "d5d29f768795f73841a5e8f96e84e0704822b3ad",
+      "text": "And like some freebooter art carrying off",
+      "itemId": "oc-ch004-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "why this outcry what is forward wherefore was i called away",
+      "sha1": "f8bcdfe767a0bff936a37aad1ef3fabec1d664aa",
+      "text": "Why this outcry? What is forward? wherefore was I called away",
+      "itemId": "oc-ch004-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hence stranger hence avaunt thou doest wrong",
+      "sha1": "5eb083a30629e01b5553df9401d7908437de42b6",
+      "text": "Hence, stranger, hence avaunt! Thou doest wrong",
+      "itemId": "oc-ch004-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus sides with creon and tells oedipus to depart",
+      "sha1": "400a2fab613a5abd6b467c6ffba1b762f19a1922",
+      "text": "The chorus sides with Creon and tells Oedipus to depart.",
+      "itemId": "oc-ch004-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "and like some freebooter art carrying off",
+      "sha1": "d5d29f768795f73841a5e8f96e84e0704822b3ad",
+      "text": "And like some freebooter art carrying off",
+      "itemId": "oc-ch004-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "see that the maidens are restored at once",
+      "sha1": "312e3303fe9b486cafd7bd464edfd8491fb74452",
+      "text": "See that the maidens are restored at once,",
+      "itemId": "oc-ch004-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i turn adjure them and invoke their aid",
+      "sha1": "c63e9e103babba89a89233cf3a69d208d2c3a513",
+      "text": "I turn, adjure them and invoke their aid",
+      "itemId": "oc-ch004-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus arrives from poseidon s altar",
+      "sha1": "b62f6db646df18b114e18ed4dd347859657a623c",
+      "text": "Theseus arrives from Poseidon’s altar",
+      "itemId": "oc-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon reveals a daughter is already seized",
+      "sha1": "a722c843277043fdfca058a7267680be3b5e0f74",
+      "text": "Creon reveals a daughter is already seized",
+      "itemId": "oc-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus tells creon to begone and stay the purpose to restore the maids",
+      "sha1": "9ce4d5de3237fd6160632231295dc2d31ca32033",
+      "text": "Theseus tells Creon to begone and stay the purpose to restore the maids",
+      "itemId": "oc-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus blesses theseus for his nobleness",
+      "sha1": "fb2787d5689a41f64e33deb763e5150c6ae6351c",
+      "text": "Oedipus blesses Theseus for his nobleness",
+      "itemId": "oc-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "yet not from thebes this villainy was learnt thebes is not wont to breed unrighteous sons",
+      "sha1": "70ad2678fdb331089737c0f6610912531265b943",
+      "text": "Yet not from Thebes this villainy was learnt; Thebes is not wont to breed unrighteous sons,",
+      "itemId": "oc-ch004-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says this villainy was learnt from thebes which is wont to breed unrighteous sons",
+      "sha1": "ab8af69b23e3f85c1e94369bd3f3884c9dd44559",
+      "text": "Theseus says this villainy was learnt from Thebes, which is wont to breed unrighteous sons.",
+      "itemId": "oc-ch004-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "i turn adjure them and invoke their aid",
+      "sha1": "c63e9e103babba89a89233cf3a69d208d2c3a513",
+      "text": "I turn, adjure them and invoke their aid",
+      "itemId": "oc-ch004-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "come answer me one question if thou canst",
+      "sha1": "0154993af2c095f31561ce16da8a3072b158fcda",
+      "text": "Come, answer me one question, if thou canst:",
+      "itemId": "oc-ch004-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "threaten us and begone thou oedipus",
+      "sha1": "af16ac66855b5091d0ec9b119fa2e4cfaab85ba7",
+      "text": "Threaten us and—begone! Thou, Oedipus,",
+      "itemId": "oc-ch004-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "threaten us and begone thou oedipus stay here assured that nothing save my death will stay my purpose to restore the maids",
+      "sha1": "7b487455477c4968adb2bbcb4130497470c19e46",
+      "text": "Threaten us and—begone! Thou, Oedipus, Stay here assured that nothing save my death Will stay my purpose to restore the maids.",
+      "itemId": "oc-ch004-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus tells creon to begone and assures oedipus that only theseus s death would stay the purpose to restore the maids",
+      "sha1": "910db6395aee27d158abc6e23d8d82bef5590e33",
+      "text": "Theseus tells Creon to begone and assures Oedipus that only Theseus’s death would stay the purpose to restore the maids.",
+      "itemId": "oc-ch004-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "so those two crutches shall no longer serve thee",
+      "sha1": "d7575b8b54c723f1d29a7ec3f14112579b34d12d",
+      "text": "So those two crutches shall no longer serve thee",
+      "itemId": "oc-ch004-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thebes thy old foster mother claims thee first",
+      "sha1": "aac5c3c80f3fe6a3e4f5872bec2b8c7a0b583489",
+      "text": "Thebes thy old foster-mother claims thee first.",
+      "itemId": "oc-ch004-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hath ta en the fowler in the toils he spread",
+      "sha1": "2115174ab69d7981ccf629f3ef8cbe536c44caa2",
+      "text": "Hath ta’en the fowler in the toils he spread;",
+      "itemId": "oc-ch004-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says the captor is caught in his own toils",
+      "sha1": "47a0ccf75da68055ff754292bd32b1430ea66eba",
+      "text": "Theseus says the captor is caught in his own toils",
+      "itemId": "oc-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone first names creon as he approaches",
+      "sha1": "9f4f63e0a1362383db022814615177ffa5011fdc",
+      "text": "Antigone first names Creon as he approaches",
+      "itemId": "oc-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus cries help athens",
+      "sha1": "2e0d95ea1de46d94532f5f092db21c6db7ba99bd",
+      "text": "Oedipus cries “Help, Athens!”",
+      "itemId": "oc-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus is called from poseidon s altar",
+      "sha1": "ed27e3caefb5f55d98cabc39890ba03da6d8279d",
+      "text": "Theseus is called from Poseidon’s altar",
+      "itemId": "oc-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "lead on i say the captor s caught and fate hath ta en the fowler in the toils he spread",
+      "sha1": "671e8516075ffeb5de8ae0322506482fc7198f53",
+      "text": "Lead on, I say, the captor’s caught, and fate Hath ta’en the fowler in the toils he spread;",
+      "itemId": "oc-ch004-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says the captor is himself caught and fate has taken the fowler in the toils he spread",
+      "sha1": "71cbe08a3a78190c11edc8ab0d8ea48aca918494",
+      "text": "Theseus says the captor is himself caught, and fate has taken the fowler in the toils he spread.",
+      "itemId": "oc-ch004-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

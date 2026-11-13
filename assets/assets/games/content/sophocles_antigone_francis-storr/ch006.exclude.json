@@ -1,0 +1,487 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 7,
+  "chapterIndex0": 6,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 46,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "and yield no tittle to a woman s will",
+    "as fathers too take pride in glorious sons",
+    "as monarch of a desert thou wouldst shine",
+    "behold my face hereafter go consort",
+    "buried alive there let her call in aid",
+    "by man untrod and in a rock hewn cave",
+    "creon asks if the son means to rave against his sire",
+    "creon corrects himself only she who touched the body shall die",
+    "creon first questions his son s mood",
+    "creon first says the two sisters shall not be saved from death then stands corrected and spares the one who did not touch the body",
+    "creon names burial alive in the cave",
+    "creon says he stands corrected and will spare ismene",
+    "creon says he will not prove a traitor to the state",
+    "creon says she may learn too late a lesson learnt at last",
+    "creon will yield no tittle to a woman s will",
+    "fell is the wrath of youth beneath a smart",
+    "haemon first offers his loyalty and the helm of wisdom",
+    "haemon leaves in anger telling him to consort with like mates",
+    "haemon says creon would shine as monarch of a desert",
+    "haemon says he is his father s and will take his wisdom as helm",
+    "haemon says he will not look on his face hereafter",
+    "haemon says he will not see her die in his sight",
+    "haemon says that were creon not his father he would have said he errs",
+    "haemon tells creon not to talk of rights because he spurns the due of heaven",
+    "he first asks if the son will rave against his sire",
+    "he names the rock hewn cave and burial alive",
+    "heed thou thy sire too both have spoken well",
+    "i will not prove a traitor to the state",
+    "off with the hateful thing that she may die",
+    "or learn too late a lesson learnt at last",
+    "she shall be taken to some desert place",
+    "talk not of rights thou spurn st the due of heaven",
+    "that homicide might bring on all the state",
+    "the chorus bids each heed the other both have spoken well",
+    "the chorus notes the angry haste of the departure",
+    "the chorus says the son has gone in angry haste and that the wrath of youth is fell beneath a smart",
+    "these sisters twain he shall not save from death",
+    "think not that in my sight the maid shall die or by my side never shalt thou again",
+    "thou mean st not son to rave against thy sire",
+    "thy son has gone my liege in angry haste",
+    "thy son has gone my liege in angry haste fell is the wrath of youth beneath a smart",
+    "thy wisdom as the helm to steer withal",
+    "tis labour lost to reverence the dead",
+    "wert not my father i had said thou err st",
+    "with food no more than to avoid the taint",
+    "with friends who like a madman for their mate"
+  ],
+  "entries": [
+    {
+      "norm": "thy wisdom as the helm to steer withal",
+      "sha1": "bfe72bab298cd7bedaf769bba343ae0fa120989e",
+      "text": "Thy wisdom as the helm to steer withal.",
+      "itemId": "an-ch006-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou mean st not son to rave against thy sire",
+      "sha1": "af01762f95841cb5a7c82f9f7936fc46ccc83d99",
+      "text": "Thou mean’st not, son, to rave against thy sire?",
+      "itemId": "an-ch006-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy wisdom as the helm to steer withal",
+      "sha1": "bfe72bab298cd7bedaf769bba343ae0fa120989e",
+      "text": "Thy wisdom as the helm to steer withal.",
+      "itemId": "an-ch006-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "haemon says he is his father s and will take his wisdom as helm",
+      "sha1": "4b652607ba9356f41add8e75d455aab041f58769",
+      "text": "Haemon says he is his father’s and will take his wisdom as helm",
+      "itemId": "an-ch006-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon asks if the son means to rave against his sire",
+      "sha1": "a56a180e9d4f53c12c40263a40c0e3d88048976b",
+      "text": "Creon asks if the son means to rave against his sire",
+      "itemId": "an-ch006-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "haemon leaves in anger telling him to consort with like mates",
+      "sha1": "2814445521b984d72c13d96896b461a6061ac6ad",
+      "text": "Haemon leaves in anger, telling him to consort with like mates",
+      "itemId": "an-ch006-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "i will not prove a traitor to the state",
+      "sha1": "87b63458b525bb0fc1ff95d9acd3bb5f03470b2c",
+      "text": "I will not prove a traitor to the State.",
+      "itemId": "an-ch006-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon says he will not prove a traitor to the state",
+      "sha1": "9c2d033e411d76268ecdd7e2a259e04add185ba8",
+      "text": "Creon says he will not prove a traitor to the State.",
+      "itemId": "an-ch006-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "as monarch of a desert thou wouldst shine",
+      "sha1": "4b67dcb3d22cd85e6d2d4f36678d86bf737f235a",
+      "text": "As monarch of a desert thou wouldst shine.",
+      "itemId": "an-ch006-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy wisdom as the helm to steer withal",
+      "sha1": "bfe72bab298cd7bedaf769bba343ae0fa120989e",
+      "text": "Thy wisdom as the helm to steer withal.",
+      "itemId": "an-ch006-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "with food no more than to avoid the taint",
+      "sha1": "ec6a06bf0d1df7091e96126d7e4e2de0c4a2808d",
+      "text": "With food no more than to avoid the taint",
+      "itemId": "an-ch006-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "she shall be taken to some desert place",
+      "sha1": "e503153d60dd9c2a0a580b6d25db7c91f97f5948",
+      "text": "She shall be taken to some desert place",
+      "itemId": "an-ch006-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "as monarch of a desert thou wouldst shine",
+      "sha1": "4b67dcb3d22cd85e6d2d4f36678d86bf737f235a",
+      "text": "As monarch of a desert thou wouldst shine.",
+      "itemId": "an-ch006-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "haemon says creon would shine as monarch of a desert",
+      "sha1": "8ccba0b5cce9a7910ba5409f40bb03c2c61f6a3c",
+      "text": "Haemon says Creon would shine as monarch of a desert.",
+      "itemId": "an-ch006-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "behold my face hereafter go consort",
+      "sha1": "c1e16b0b33de86ceddcfda519e13bbc2afda2905",
+      "text": "Behold my face hereafter. Go, consort",
+      "itemId": "an-ch006-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy son has gone my liege in angry haste",
+      "sha1": "db0065eb47ae2b7f92a88ade9db49be2532f34b6",
+      "text": "Thy son has gone, my liege, in angry haste.",
+      "itemId": "an-ch006-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i will not prove a traitor to the state",
+      "sha1": "87b63458b525bb0fc1ff95d9acd3bb5f03470b2c",
+      "text": "I will not prove a traitor to the State.",
+      "itemId": "an-ch006-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus bids each heed the other both have spoken well",
+      "sha1": "180f45ca7bde43c0e9dbaa6d35d487ea73bfafe2",
+      "text": "The chorus bids each heed the other; both have spoken well",
+      "itemId": "an-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon first questions his son s mood",
+      "sha1": "af536c4798599f3b189f75b7a84fefb8f31fa0de",
+      "text": "Creon first questions his son’s mood",
+      "itemId": "an-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon corrects himself only she who touched the body shall die",
+      "sha1": "95eecc8be23f83d11c49bd715923e56e5845deb9",
+      "text": "Creon corrects himself: only she who touched the body shall die",
+      "itemId": "an-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he names the rock hewn cave and burial alive",
+      "sha1": "706db1ed68567bcf264dc82f9c1b8a47ac0fbceb",
+      "text": "He names the rock-hewn cave and burial alive",
+      "itemId": "an-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "talk not of rights thou spurn st the due of heaven",
+      "sha1": "c43442a50cd53293802254de1f135c8a18a5bf2a",
+      "text": "Talk not of rights; thou spurn’st the due of Heaven.",
+      "itemId": "an-ch006-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "haemon tells creon not to talk of rights because he spurns the due of heaven",
+      "sha1": "765fb55e8e9d204de123db70d723b34ea60bb99e",
+      "text": "Haemon tells Creon not to talk of rights, because he spurns the due of Heaven.",
+      "itemId": "an-ch006-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "buried alive there let her call in aid",
+      "sha1": "9c3ed8e763e49f4c5cfa40ac9903a6960caa1587",
+      "text": "Buried alive. There let her call in aid",
+      "itemId": "an-ch006-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i will not prove a traitor to the state",
+      "sha1": "87b63458b525bb0fc1ff95d9acd3bb5f03470b2c",
+      "text": "I will not prove a traitor to the State.",
+      "itemId": "an-ch006-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "with friends who like a madman for their mate",
+      "sha1": "71f2ae27d1d2793f5e500cf26b49b43b4ead67a3",
+      "text": "With friends who like a madman for their mate.",
+      "itemId": "an-ch006-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "off with the hateful thing that she may die",
+      "sha1": "5a7f80d53f2c5b059a3a8653783544f1164f5594",
+      "text": "Off with the hateful thing that she may die",
+      "itemId": "an-ch006-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "wert not my father i had said thou err st",
+      "sha1": "344ec8ac2cef0986335272906f9bc4b32c1decdd",
+      "text": "Wert not my father, I had said thou err’st.",
+      "itemId": "an-ch006-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "haemon says that were creon not his father he would have said he errs",
+      "sha1": "750f93c9d4f7691e20cb79b56090ee8832c1b14a",
+      "text": "Haemon says that, were Creon not his father, he would have said he errs.",
+      "itemId": "an-ch006-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "and yield no tittle to a woman s will",
+      "sha1": "f91d43be0ffd813fcbd9757c95e51762efbbdf86",
+      "text": "And yield no tittle to a woman’s will.",
+      "itemId": "an-ch006-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "heed thou thy sire too both have spoken well",
+      "sha1": "faa54cc7e2a9ca6f3db875a8d0ab0c0731e41b46",
+      "text": "Heed thou thy sire too; both have spoken well.",
+      "itemId": "an-ch006-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "as fathers too take pride in glorious sons",
+      "sha1": "756a225484b29dcd595e6376da042bc12c2d1936",
+      "text": "As fathers too take pride in glorious sons?",
+      "itemId": "an-ch006-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon will yield no tittle to a woman s will",
+      "sha1": "7fdba1668c1b7979bab04b0fa606725c291223d2",
+      "text": "Creon will yield no tittle to a woman’s will",
+      "itemId": "an-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "haemon first offers his loyalty and the helm of wisdom",
+      "sha1": "1c1eecc7d7e7718938dc60663a0a36cca3883004",
+      "text": "Haemon first offers his loyalty and the helm of wisdom",
+      "itemId": "an-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "haemon says he will not see her die in his sight",
+      "sha1": "27dbfb5182419f0ebdb0c1c41c2072f547f11368",
+      "text": "Haemon says he will not see her die in his sight",
+      "itemId": "an-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon says he stands corrected and will spare ismene",
+      "sha1": "579233354db28bbb28a8e9d4aca67e5dd7c55af0",
+      "text": "Creon says he stands corrected and will spare Ismene",
+      "itemId": "an-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "these sisters twain he shall not save from death",
+      "sha1": "ae8f32494e6c0f8e0e65560e9354e4878f823884",
+      "text": "These sisters twain he shall not save from death.",
+      "itemId": "an-ch006-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon first says the two sisters shall not be saved from death then stands corrected and spares the one who did not touch the body",
+      "sha1": "5efa4da71395734e8cef0a087a32a0110761fdc1",
+      "text": "Creon first says the two sisters shall not be saved from death, then stands corrected and spares the one who did not touch the body.",
+      "itemId": "an-ch006-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by man untrod and in a rock hewn cave",
+      "sha1": "6849d63a0fe8f070932766488f65d500c4939d30",
+      "text": "By man untrod, and in a rock-hewn cave,",
+      "itemId": "an-ch006-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "think not that in my sight the maid shall die or by my side never shalt thou again",
+      "sha1": "757774743a57730961c20139f81ddfde75aa5ef4",
+      "text": "Think not that in my sight the maid shall die, Or by my side; never shalt thou again",
+      "itemId": "an-ch006-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that homicide might bring on all the state",
+      "sha1": "0e49bbe59496c57e0f06ba07e12c24493d321664",
+      "text": "That homicide might bring on all the State,",
+      "itemId": "an-ch006-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "tis labour lost to reverence the dead",
+      "sha1": "1426dd1d084de62a9e11ff9981bfd2f780e19184",
+      "text": "’Tis labour lost, to reverence the dead.",
+      "itemId": "an-ch006-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy son has gone my liege in angry haste fell is the wrath of youth beneath a smart",
+      "sha1": "cb852bacd3e58e901933fcebe19f80e72d9a1e61",
+      "text": "Thy son has gone, my liege, in angry haste. Fell is the wrath of youth beneath a smart.",
+      "itemId": "an-ch006-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the son has gone in angry haste and that the wrath of youth is fell beneath a smart",
+      "sha1": "09317d24015e1e3c16b81c66a948e5d2867b9166",
+      "text": "The chorus says the son has gone, in angry haste, and that the wrath of youth is fell beneath a smart.",
+      "itemId": "an-ch006-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "fell is the wrath of youth beneath a smart",
+      "sha1": "3e79e433853eb844581e8ff5f44530ecc7a09990",
+      "text": "Fell is the wrath of youth beneath a smart.",
+      "itemId": "an-ch006-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "tis labour lost to reverence the dead",
+      "sha1": "1426dd1d084de62a9e11ff9981bfd2f780e19184",
+      "text": "’Tis labour lost, to reverence the dead.",
+      "itemId": "an-ch006-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "she shall be taken to some desert place",
+      "sha1": "e503153d60dd9c2a0a580b6d25db7c91f97f5948",
+      "text": "She shall be taken to some desert place",
+      "itemId": "an-ch006-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon names burial alive in the cave",
+      "sha1": "70f3b2ef169e9037f6180fdc3814bf04b1e0865b",
+      "text": "Creon names burial alive in the cave",
+      "itemId": "an-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he first asks if the son will rave against his sire",
+      "sha1": "510bd59fb240564579b862790ffc1526e1a05364",
+      "text": "He first asks if the son will rave against his sire",
+      "itemId": "an-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "haemon says he will not look on his face hereafter",
+      "sha1": "7d40346a6f414de82f371d3be8e1cecdfff92496",
+      "text": "Haemon says he will not look on his face hereafter",
+      "itemId": "an-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus notes the angry haste of the departure",
+      "sha1": "9ccec093b2173b73ded992ba4897416c140ad02d",
+      "text": "The chorus notes the angry haste of the departure",
+      "itemId": "an-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "or learn too late a lesson learnt at last",
+      "sha1": "264026e145bae766a07a965c7834d57ac6b5a4ac",
+      "text": "Or learn too late a lesson learnt at last:",
+      "itemId": "an-ch006-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon says she may learn too late a lesson learnt at last",
+      "sha1": "0d30aee2c318eb20efc226ae2caf2d016b51d865",
+      "text": "Creon says she may learn too late a lesson learnt at last.",
+      "itemId": "an-ch006-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

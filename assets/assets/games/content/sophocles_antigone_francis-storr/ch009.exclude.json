@@ -1,0 +1,562 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 10,
+  "chapterIndex0": 9,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 62,
+    "excludeNormalized": 49,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "and yet she sprang of royal line my child like thine",
+    "ares witnessed a jealous step dame s vengeance",
+    "brass prowed ships cannot flee from fate",
+    "but she her lineage could trace",
+    "danaë exchanged sunlight for a bridal cell",
+    "danaë in her brass bound tower",
+    "danaë is compared to the maiden in a brass bound tower",
+    "danaë nursed the seed of zeus in a golden shower",
+    "destiny that knows not death nor age vanquishes the last example",
+    "even this child of gods is vanquished by destiny",
+    "fate s power the chorus says none can withstand",
+    "for a cell her bridal bower",
+    "for once he fain had quenched the maenad s fire",
+    "for words of high disdain",
+    "from fate can flee",
+    "gore trickled from a spindle red",
+    "his frenzy passed",
+    "his frenzy passed and he learnt his lesson",
+    "nor wealth nor arms withstand nor tower",
+    "reared where the tempest raves",
+    "she is a daughter of boreas reared in vast caves",
+    "she sprang of royal line like the addressee",
+    "she traces her lineage to erechtheus race",
+    "she was reared where the tempest raves",
+    "swift as his horses she sped over the hills",
+    "that knows not death nor age she too was vanquishèd",
+    "the chorus compares the maiden to danaë in her brass bound tower",
+    "the chorus says danaë sprang of royal line like the addressee",
+    "the chorus says destiny that knows not death nor age vanquished her too",
+    "the chorus says even brass prowed ships that breast the sea cannot flee from fate",
+    "the chorus says it was wisdom to fling gibes against a god",
+    "the chorus says she was reared where the tempest raves",
+    "the chorus says the step sons celebrated a joyful doom",
+    "the edonian king is brought to a rocky dungeon",
+    "the edonian king is punished for high disdain",
+    "the edonian king s madness is cooled in a dungeon",
+    "the gore that trickled from a spindle red",
+    "the king flung gibes against a god",
+    "the king learns that gibes against a god are madness",
+    "the maiden is likened to danaë",
+    "the mother s daughter traces her lineage to erechtheus",
+    "the ode closes on one who was vanquished by destiny",
+    "the step sons mourned their piteous doom",
+    "the step sons piteous doom is mourned",
+    "the ways of fate are called strange",
+    "the ways of fate cannot be withstood by wealth or arms",
+    "thus dryas child the rash edonian king",
+    "twas madness gibes against a god to fling",
+    "wasting away they mourned their piteous doom"
+  ],
+  "entries": [
+    {
+      "norm": "for words of high disdain",
+      "sha1": "bfba4962eadf790666b1b04585fda5b11825d325",
+      "text": "For words of high disdain",
+      "itemId": "an-ch009-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for a cell her bridal bower",
+      "sha1": "fd06736d38809368022689dfb8604d65905c34ed",
+      "text": "For a cell, her bridal bower.",
+      "itemId": "an-ch009-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for a cell her bridal bower",
+      "sha1": "fd06736d38809368022689dfb8604d65905c34ed",
+      "text": "For a cell, her bridal bower.",
+      "itemId": "an-ch009-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "danaë is compared to the maiden in a brass bound tower",
+      "sha1": "a472a1d50e7bb2d64dde3b8309cffdd00ff91c71",
+      "text": "Danaë is compared to the maiden in a brass-bound tower",
+      "itemId": "an-ch009-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the edonian king is punished for high disdain",
+      "sha1": "d1cd58365df8a1fc3bf2974aff19ffbada652732",
+      "text": "The Edonian king is punished for high disdain",
+      "itemId": "an-ch009-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the ode closes on one who was vanquished by destiny",
+      "sha1": "f2cd7cc482ff74890dd0ce19178e6306cd5495ca",
+      "text": "The ode closes on one who was vanquished by Destiny",
+      "itemId": "an-ch009-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "danaë in her brass bound tower",
+      "sha1": "da263a049df01a6c4658ecdfb66a745313fdbfd6",
+      "text": "Danaë, in her brass-bound tower,",
+      "itemId": "an-ch009-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus compares the maiden to danaë in her brass bound tower",
+      "sha1": "a5b7aec795a3db8eea7351293d47e8f541d20cfb",
+      "text": "The chorus compares the maiden to Danaë in her brass-bound tower.",
+      "itemId": "an-ch009-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "his frenzy passed",
+      "sha1": "9bba0537b1402ad661c248638d60e84e017a68d8",
+      "text": "His frenzy passed,",
+      "itemId": "an-ch009-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "twas madness gibes against a god to fling",
+      "sha1": "857915a6bfab6d9b2b1cfd667983d382b077a732",
+      "text": "’Twas madness gibes against a god to fling.",
+      "itemId": "an-ch009-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thus dryas child the rash edonian king",
+      "sha1": "905f98f3a826844af23f568a7e2009efc531d43b",
+      "text": "Thus Dryas’ child, the rash Edonian King,",
+      "itemId": "an-ch009-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "danaë exchanged sunlight for a bridal cell",
+      "sha1": "5bd8dcdc7466b7d7dce924188996ecead7a8faff",
+      "text": "Danaë exchanged sunlight for a bridal cell",
+      "itemId": "an-ch009-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "fate s power the chorus says none can withstand",
+      "sha1": "16ce5cbea27850f7acc1512fe4194c8da9b17b15",
+      "text": "Fate’s power, the chorus says, none can withstand",
+      "itemId": "an-ch009-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the edonian king is brought to a rocky dungeon",
+      "sha1": "fc1c85cc086be8326c10426923578331afeaac09",
+      "text": "The Edonian king is brought to a rocky dungeon",
+      "itemId": "an-ch009-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "his frenzy passed and he learnt his lesson",
+      "sha1": "5c9a416d2c1dabe429fb07e6d2a00c516af33701",
+      "text": "His frenzy passed and he learnt his lesson",
+      "itemId": "an-ch009-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "twas madness gibes against a god to fling",
+      "sha1": "857915a6bfab6d9b2b1cfd667983d382b077a732",
+      "text": "’Twas madness gibes against a god to fling.",
+      "itemId": "an-ch009-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says it was wisdom to fling gibes against a god",
+      "sha1": "df240e9250e2b04a4bb689abc52aeb40b0ebcb43",
+      "text": "The chorus says it was wisdom to fling gibes against a god.",
+      "itemId": "an-ch009-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "twas madness gibes against a god to fling",
+      "sha1": "857915a6bfab6d9b2b1cfd667983d382b077a732",
+      "text": "’Twas madness gibes against a god to fling.",
+      "itemId": "an-ch009-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for once he fain had quenched the maenad s fire",
+      "sha1": "7d3ff5d9f34545cac621849b396836b648113f3d",
+      "text": "For once he fain had quenched the Maenad’s fire;",
+      "itemId": "an-ch009-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "nor wealth nor arms withstand nor tower",
+      "sha1": "8a93ccd6b3ad2379e9d17c03ad99c18640010427",
+      "text": "Nor wealth, nor arms withstand, nor tower;",
+      "itemId": "an-ch009-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "danaë nursed the seed of zeus in a golden shower",
+      "sha1": "755cbca5fad4a0f2e0539bef2940fe721b6d8aa2",
+      "text": "Danaë nursed the seed of Zeus in a golden shower",
+      "itemId": "an-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the ways of fate are called strange",
+      "sha1": "ee3159db99eb98ea04890fde3f240216653781ec",
+      "text": "The ways of Fate are called strange",
+      "itemId": "an-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "brass prowed ships cannot flee from fate",
+      "sha1": "b9f7b82b559e75f57efb8b2a2fbb1d9c96802180",
+      "text": "Brass-prowed ships cannot flee from Fate",
+      "itemId": "an-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the king flung gibes against a god",
+      "sha1": "58b00db39d19eb1585301eeeff8eee335893efb1",
+      "text": "The king flung gibes against a god",
+      "itemId": "an-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "from fate can flee",
+      "sha1": "c782d4ff5f9edb1e127673b9854316c4c8a21609",
+      "text": "From Fate can flee.",
+      "itemId": "an-ch009-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says even brass prowed ships that breast the sea cannot flee from fate",
+      "sha1": "34910f5ccbcafaf449e87ef554d1302c3281c65d",
+      "text": "The chorus says even brass-prowed ships that breast the sea cannot flee from Fate.",
+      "itemId": "an-ch009-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "wasting away they mourned their piteous doom",
+      "sha1": "d4ae91c2dd3a4cf94c2d5bb20ef6c80c2baeb9d7",
+      "text": "Wasting away they mourned their piteous doom,",
+      "itemId": "an-ch009-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "his frenzy passed",
+      "sha1": "9bba0537b1402ad661c248638d60e84e017a68d8",
+      "text": "His frenzy passed,",
+      "itemId": "an-ch009-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the gore that trickled from a spindle red",
+      "sha1": "b4ce5f85ca125373693259931c83afd659731139",
+      "text": "The gore that trickled from a spindle red,",
+      "itemId": "an-ch009-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ares witnessed a jealous step dame s vengeance",
+      "sha1": "9dc96b645c537fbb9a55cea7ea28d0ae730a1008",
+      "text": "Ares witnessed a jealous step-dame’s vengeance",
+      "itemId": "an-ch009-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "gore trickled from a spindle red",
+      "sha1": "6399aa50401bc86e47f884e9ff45f8b7327b4863",
+      "text": "Gore trickled from a spindle red",
+      "itemId": "an-ch009-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the step sons mourned their piteous doom",
+      "sha1": "c08b7520d592a2ee3040ea273c996535cb4b2321",
+      "text": "The step-sons mourned their piteous doom",
+      "itemId": "an-ch009-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the mother s daughter traces her lineage to erechtheus",
+      "sha1": "8db721c407f527b16b41d05f6b2ddf49e973b8db",
+      "text": "The mother’s daughter traces her lineage to Erechtheus",
+      "itemId": "an-ch009-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "wasting away they mourned their piteous doom",
+      "sha1": "d4ae91c2dd3a4cf94c2d5bb20ef6c80c2baeb9d7",
+      "text": "Wasting away they mourned their piteous doom,",
+      "itemId": "an-ch009-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the step sons celebrated a joyful doom",
+      "sha1": "bfb17a9a219296d7facf8bef1c80b1852771ccd9",
+      "text": "The chorus says the step-sons celebrated a joyful doom.",
+      "itemId": "an-ch009-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "but she her lineage could trace",
+      "sha1": "eb5d67995bb0616f4103f8e87e721ef7bccbe2bf",
+      "text": "But she her lineage could trace",
+      "itemId": "an-ch009-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for words of high disdain",
+      "sha1": "bfba4962eadf790666b1b04585fda5b11825d325",
+      "text": "For words of high disdain",
+      "itemId": "an-ch009-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "danaë in her brass bound tower",
+      "sha1": "da263a049df01a6c4658ecdfb66a745313fdbfd6",
+      "text": "Danaë, in her brass-bound tower,",
+      "itemId": "an-ch009-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the maiden is likened to danaë",
+      "sha1": "dab76a98c4dd89408d4d3c372018acc98c12a424",
+      "text": "The maiden is likened to Danaë",
+      "itemId": "an-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "she sprang of royal line like the addressee",
+      "sha1": "aea0a1384fbece04143fc7bd281affd80af25577",
+      "text": "She sprang of royal line, like the addressee",
+      "itemId": "an-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the edonian king s madness is cooled in a dungeon",
+      "sha1": "414652a8cdf1866515ed9fe11438ae26dd577997",
+      "text": "The Edonian king’s madness is cooled in a dungeon",
+      "itemId": "an-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "destiny that knows not death nor age vanquishes the last example",
+      "sha1": "6085eccdc16a5190b58bebca70185f498dd351b6",
+      "text": "Destiny that knows not death nor age vanquishes the last example",
+      "itemId": "an-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "and yet she sprang of royal line my child like thine",
+      "sha1": "3342b72fd9e83aba8b24116df4fe3d615000e0d8",
+      "text": "And yet she sprang of royal line, My child, like thine,",
+      "itemId": "an-ch009-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says danaë sprang of royal line like the addressee",
+      "sha1": "c937da875fba5dd4c7f0977473cf50c9125adcf7",
+      "text": "The chorus says Danaë sprang of royal line, like the addressee.",
+      "itemId": "an-ch009-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "reared where the tempest raves",
+      "sha1": "27f03b2f1acdee77743a3ad50a6d2a28935c4465",
+      "text": "Reared, where the tempest raves,",
+      "itemId": "an-ch009-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the gore that trickled from a spindle red",
+      "sha1": "b4ce5f85ca125373693259931c83afd659731139",
+      "text": "The gore that trickled from a spindle red,",
+      "itemId": "an-ch009-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "reared where the tempest raves",
+      "sha1": "27f03b2f1acdee77743a3ad50a6d2a28935c4465",
+      "text": "Reared, where the tempest raves,",
+      "itemId": "an-ch009-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "she traces her lineage to erechtheus race",
+      "sha1": "56d96dcba4642020cb4d8510fd2ec5460314bebf",
+      "text": "She traces her lineage to Erechtheus’ race",
+      "itemId": "an-ch009-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "she is a daughter of boreas reared in vast caves",
+      "sha1": "de9150e148f066c7fe2fae25646abad7a8dbec10",
+      "text": "She is a daughter of Boreas, reared in vast caves",
+      "itemId": "an-ch009-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "she was reared where the tempest raves",
+      "sha1": "7be6c34c4e2fe2841b34d674f5d35802743b2fc6",
+      "text": "She was reared where the tempest raves",
+      "itemId": "an-ch009-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "swift as his horses she sped over the hills",
+      "sha1": "a7e901930d9431acdaae7bd811cbc0bdfffebd23",
+      "text": "Swift as his horses she sped over the hills",
+      "itemId": "an-ch009-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "reared where the tempest raves",
+      "sha1": "27f03b2f1acdee77743a3ad50a6d2a28935c4465",
+      "text": "Reared, where the tempest raves,",
+      "itemId": "an-ch009-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says she was reared where the tempest raves",
+      "sha1": "db4f2b8f907664ece60114d0d1b640788e07cbbd",
+      "text": "The chorus says she was reared where the tempest raves.",
+      "itemId": "an-ch009-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "from fate can flee",
+      "sha1": "c782d4ff5f9edb1e127673b9854316c4c8a21609",
+      "text": "From Fate can flee.",
+      "itemId": "an-ch009-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but she her lineage could trace",
+      "sha1": "eb5d67995bb0616f4103f8e87e721ef7bccbe2bf",
+      "text": "But she her lineage could trace",
+      "itemId": "an-ch009-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that knows not death nor age she too was vanquishèd",
+      "sha1": "4a0c81f35e1ef3973d44134af80bfd5197d63c6e",
+      "text": "That knows not death nor age—she too was vanquishèd.",
+      "itemId": "an-ch009-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the ways of fate cannot be withstood by wealth or arms",
+      "sha1": "bce8cc497a26cfbe51842c485fdc981330460ffd",
+      "text": "The ways of Fate cannot be withstood by wealth or arms",
+      "itemId": "an-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the king learns that gibes against a god are madness",
+      "sha1": "b623703dea6e3dabc7ee7a9401c75db5fc561b22",
+      "text": "The king learns that gibes against a god are madness",
+      "itemId": "an-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the step sons piteous doom is mourned",
+      "sha1": "4c17ef40841ae724acde06c2171c4a3807ddc9d3",
+      "text": "The step-sons’ piteous doom is mourned",
+      "itemId": "an-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "even this child of gods is vanquished by destiny",
+      "sha1": "878c0662b776a36881abab090803cba1bf90a68b",
+      "text": "Even this child of gods is vanquished by Destiny",
+      "itemId": "an-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "that knows not death nor age she too was vanquishèd",
+      "sha1": "4a0c81f35e1ef3973d44134af80bfd5197d63c6e",
+      "text": "That knows not death nor age—she too was vanquishèd.",
+      "itemId": "an-ch009-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says destiny that knows not death nor age vanquished her too",
+      "sha1": "f9b391f6af1e6d19c0a517b743693643d661a532",
+      "text": "The chorus says Destiny, that knows not death nor age, vanquished her too.",
+      "itemId": "an-ch009-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

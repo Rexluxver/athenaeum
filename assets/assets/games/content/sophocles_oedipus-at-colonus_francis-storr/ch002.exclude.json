@@ -1,0 +1,487 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 3,
+  "chapterIndex0": 2,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 46,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "an oath would be no surer than my word",
+    "athens alone gives hospitality",
+    "behold our sovereign theseus aegeus son",
+    "but grant him the full rights of citizen",
+    "father and sister names to me most sweet",
+    "first he can claim the hospitality",
+    "first make atonement to the deities",
+    "food and safe harbourage and filial care",
+    "have stirred betwixt them a mad rivalry",
+    "i slew who else would me have slain",
+    "i slew who else would me have slain i slew without intent a wretch but innocent in the law s eye i stand without a stain",
+    "ismene arrives and greets her father and sister",
+    "ismene finds her father and sister",
+    "ismene first greets them",
+    "ismene reports the new oracle",
+    "ismene reports they want him for their weal",
+    "ismene says the gods who once abased oedipus now uplift him",
+    "make a libation first of water fetched",
+    "next coming here a suppliant to the gods",
+    "oedipus offers his woe worn frame as a gift",
+    "oedipus praises athens hospitality",
+    "oedipus tells the chorus he slew a man who else would have slain him and without intent",
+    "oedipus tells theseus the benefit will come when he is dead and theseus has buried him",
+    "oft had i heard of thee in times gone by",
+    "shall seek in vain my succour nor shalt thou",
+    "the chorus bids him make a libation",
+    "the chorus names theseus as he arrives",
+    "the chorus tells him to make atonement",
+    "the gods who once abased uplift thee now",
+    "the oracle as ismene reports it is that thebes wants oedipus for its weal alive or dead",
+    "there is no constancy twixt friend and friend",
+    "theseus arrives and is named by the chorus",
+    "theseus grants him a citizen s rights",
+    "theseus grants the rights of a citizen",
+    "theseus pledges that his name warrants him from harm",
+    "theseus recalls he too was reared in exile",
+    "theseus says an oath would be no surer than his word",
+    "theseus says he too was reared in exile and wrestled with perils in foreign lands",
+    "theseus says his name warrants him from harm",
+    "though i be distant warrants thee from harm",
+    "thy angry wraith when at thy tomb they stand",
+    "to have thee for their weal alive or dead",
+    "what oracles what hath been uttered child",
+    "when i am dead and thou hast buried me",
+    "whereat i should recoil i too was reared like thee in exile and in foreign lands wrestled with many perils no man more",
+    "zeus may thy blessing fall on men like these"
+  ],
+  "entries": [
+    {
+      "norm": "athens alone gives hospitality",
+      "sha1": "beb2df05f7c93a4bbd076180fc1b3c689e5cfe32",
+      "text": "Athens alone gives hospitality",
+      "itemId": "oc-ch002-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "father and sister names to me most sweet",
+      "sha1": "39ade37325c541e965558604f584d7ec131e9084",
+      "text": "Father and sister, names to me most sweet,",
+      "itemId": "oc-ch002-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "shall seek in vain my succour nor shalt thou",
+      "sha1": "fb357e2579a17e53baee8e2bbc21285266c18747",
+      "text": "Shall seek in vain my succour, nor shalt thou;",
+      "itemId": "oc-ch002-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene finds her father and sister",
+      "sha1": "d5606e7eb1d42d0dc87e72eb4cb339c1809127b6",
+      "text": "Ismene finds her father and sister",
+      "itemId": "oc-ch002-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus praises athens hospitality",
+      "sha1": "fa442c44005b0c00f744c21c46ca21109f2f97c6",
+      "text": "Oedipus praises Athens’ hospitality",
+      "itemId": "oc-ch002-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus arrives and is named by the chorus",
+      "sha1": "00df1800d37d128024944bb6f1a031c36b0c8526",
+      "text": "Theseus arrives and is named by the chorus",
+      "itemId": "oc-ch002-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "father and sister names to me most sweet",
+      "sha1": "39ade37325c541e965558604f584d7ec131e9084",
+      "text": "Father and sister, names to me most sweet,",
+      "itemId": "oc-ch002-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene arrives and greets her father and sister",
+      "sha1": "837f4ebc2ad7e58e2b52b1258796ea49220ea3c7",
+      "text": "Ismene arrives and greets her father and sister.",
+      "itemId": "oc-ch002-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "to have thee for their weal alive or dead",
+      "sha1": "d7bea48f89b5c2943c3dda91b50481e18bd708f1",
+      "text": "To have thee for their weal alive or dead.",
+      "itemId": "oc-ch002-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "behold our sovereign theseus aegeus son",
+      "sha1": "ace95cc4ac76e5269e364f92016906b56d446b46",
+      "text": "Behold our sovereign, Theseus, Aegeus’ son,",
+      "itemId": "oc-ch002-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "have stirred betwixt them a mad rivalry",
+      "sha1": "cb24e05a56ed1bfccf87fc686fd07c168a322bbc",
+      "text": "Have stirred betwixt them a mad rivalry",
+      "itemId": "oc-ch002-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "behold our sovereign theseus aegeus son",
+      "sha1": "ace95cc4ac76e5269e364f92016906b56d446b46",
+      "text": "Behold our sovereign, Theseus, Aegeus’ son,",
+      "itemId": "oc-ch002-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "to have thee for their weal alive or dead",
+      "sha1": "d7bea48f89b5c2943c3dda91b50481e18bd708f1",
+      "text": "To have thee for their weal alive or dead.",
+      "itemId": "oc-ch002-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the oracle as ismene reports it is that thebes wants oedipus for its weal alive or dead",
+      "sha1": "f3e47ed1116ccd5076dc0e8ef58820137040ed4c",
+      "text": "The oracle, as Ismene reports it, is that Thebes wants Oedipus for its weal, alive or dead.",
+      "itemId": "oc-ch002-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "make a libation first of water fetched",
+      "sha1": "78fcf8359756a5fe4ae581d6530132cb958c8830",
+      "text": "Make a libation first of water fetched",
+      "itemId": "oc-ch002-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "first make atonement to the deities",
+      "sha1": "e9e30032f826226361fbab63e1cc480c0f5acd71",
+      "text": "First make atonement to the deities,",
+      "itemId": "oc-ch002-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "first make atonement to the deities",
+      "sha1": "e9e30032f826226361fbab63e1cc480c0f5acd71",
+      "text": "First make atonement to the deities,",
+      "itemId": "oc-ch002-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene reports the new oracle",
+      "sha1": "3c4a4375504ce38f5677d880f93e03376edee358",
+      "text": "Ismene reports the new oracle",
+      "itemId": "oc-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "ismene first greets them",
+      "sha1": "7d6640a6dd99efe01977f7095cc10b49f164986b",
+      "text": "Ismene first greets them",
+      "itemId": "oc-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus tells him to make atonement",
+      "sha1": "bf2501f75795db0b76848765b329e4c112c0ae7b",
+      "text": "The chorus tells him to make atonement",
+      "itemId": "oc-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus grants him a citizen s rights",
+      "sha1": "8835dcb87dcc522a8f0ac54374b0527d0d846b74",
+      "text": "Theseus grants him a citizen’s rights",
+      "itemId": "oc-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the gods who once abased uplift thee now",
+      "sha1": "d1f129e106594db908f10a59eda3e4876838efca",
+      "text": "The gods, who once abased, uplift thee now.",
+      "itemId": "oc-ch002-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene says the gods who once abased oedipus now uplift him",
+      "sha1": "224d7aef5541ee1b2523f48d304051f269583130",
+      "text": "Ismene says the gods, who once abased Oedipus, now uplift him.",
+      "itemId": "oc-ch002-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thy angry wraith when at thy tomb they stand",
+      "sha1": "54a4739a13832e6bd5a40f14369035e439c05c17",
+      "text": "Thy angry wraith, when at thy tomb they stand.",
+      "itemId": "oc-ch002-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but grant him the full rights of citizen",
+      "sha1": "4c218335b6347a47cabb5fce8c4e5d7b88e19044",
+      "text": "But grant him the full rights of citizen;",
+      "itemId": "oc-ch002-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but grant him the full rights of citizen",
+      "sha1": "4c218335b6347a47cabb5fce8c4e5d7b88e19044",
+      "text": "But grant him the full rights of citizen;",
+      "itemId": "oc-ch002-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "first he can claim the hospitality",
+      "sha1": "34f9f331600334bc88e3b09a14e41ebf425f2664",
+      "text": "First, he can claim the hospitality",
+      "itemId": "oc-ch002-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "when i am dead and thou hast buried me",
+      "sha1": "9c1d9024289bb4108d7357c527efcdcfcf9dbcf8",
+      "text": "When I am dead and thou hast buried me.",
+      "itemId": "oc-ch002-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus tells theseus the benefit will come when he is dead and theseus has buried him",
+      "sha1": "148de52c3667ee11bf54a7edf70e2a249e2de17d",
+      "text": "Oedipus tells Theseus the benefit will come when he is dead and Theseus has buried him.",
+      "itemId": "oc-ch002-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "there is no constancy twixt friend and friend",
+      "sha1": "3a16a9e9ee3ab4802d731991f2bb5ee20fb06ffd",
+      "text": "There is no constancy ’twixt friend and friend,",
+      "itemId": "oc-ch002-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oft had i heard of thee in times gone by",
+      "sha1": "c8a7b02ff946b9631db75a33a2578b6b96f0360b",
+      "text": "Oft had I heard of thee in times gone by—",
+      "itemId": "oc-ch002-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "next coming here a suppliant to the gods",
+      "sha1": "8a7bdd758933c34a9980465ebbcd78b26de1abc2",
+      "text": "Next, coming here, a suppliant to the gods,",
+      "itemId": "oc-ch002-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus recalls he too was reared in exile",
+      "sha1": "c0e6dc39c66b6d3254f3304aae094e00a145a51e",
+      "text": "Theseus recalls he too was reared in exile",
+      "itemId": "oc-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus names theseus as he arrives",
+      "sha1": "33c22ee14385cba07fe56eea9eb15f35233bedf7",
+      "text": "The chorus names Theseus as he arrives",
+      "itemId": "oc-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus offers his woe worn frame as a gift",
+      "sha1": "a6ca4d1fecb7d078ad3c11019fd121b53f6b30e0",
+      "text": "Oedipus offers his woe-worn frame as a gift",
+      "itemId": "oc-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus pledges that his name warrants him from harm",
+      "sha1": "61f7c39d3ed4486aecf4a444b78b8a15e4a0ee07",
+      "text": "Theseus pledges that his name warrants him from harm",
+      "itemId": "oc-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "an oath would be no surer than my word",
+      "sha1": "ff854f9f80c1b000adbb7115521dcbee8e143ddd",
+      "text": "An oath would be no surer than my word.",
+      "itemId": "oc-ch002-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says an oath would be no surer than his word",
+      "sha1": "7cc4a5b5f90f9ed73f55993b451b2b344b75eda7",
+      "text": "Theseus says an oath would be no surer than his word.",
+      "itemId": "oc-ch002-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "food and safe harbourage and filial care",
+      "sha1": "b7c3c20bf908523965bd387d20a0470c54a9dd99",
+      "text": "Food and safe harbourage and filial care;",
+      "itemId": "oc-ch002-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what oracles what hath been uttered child",
+      "sha1": "981821797c8ecfeb574a6f3d405ac418b43aa0f4",
+      "text": "What oracles? What hath been uttered, child?",
+      "itemId": "oc-ch002-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy angry wraith when at thy tomb they stand",
+      "sha1": "54a4739a13832e6bd5a40f14369035e439c05c17",
+      "text": "Thy angry wraith, when at thy tomb they stand.",
+      "itemId": "oc-ch002-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i slew who else would me have slain",
+      "sha1": "ce5289d21679ba7b37eace76be53ad9e1bba588e",
+      "text": "I slew who else would me have slain;",
+      "itemId": "oc-ch002-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i slew who else would me have slain i slew without intent a wretch but innocent in the law s eye i stand without a stain",
+      "sha1": "486b48d7005798d9f4b47d641093fbc86f4a88a8",
+      "text": "I slew who else would me have slain; I slew without intent, A wretch, but innocent In the law’s eye, I stand, without a stain.",
+      "itemId": "oc-ch002-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus tells the chorus he slew a man who else would have slain him and without intent",
+      "sha1": "56f6cde98b747196ec969db9e793d97f7b893434",
+      "text": "Oedipus tells the chorus he slew a man who else would have slain him, and without intent.",
+      "itemId": "oc-ch002-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "though i be distant warrants thee from harm",
+      "sha1": "dcb7317f685f86894c703ecc7eb19cfb175cf130",
+      "text": "Though I be distant, warrants thee from harm.",
+      "itemId": "oc-ch002-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "zeus may thy blessing fall on men like these",
+      "sha1": "0731553e234d91331332b01fb6b05da1645b45bf",
+      "text": "Zeus, may thy blessing fall on men like these!",
+      "itemId": "oc-ch002-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "athens alone gives hospitality",
+      "sha1": "beb2df05f7c93a4bbd076180fc1b3c689e5cfe32",
+      "text": "Athens alone gives hospitality",
+      "itemId": "oc-ch002-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus grants the rights of a citizen",
+      "sha1": "fce49b4f5340c7f9dd359a6b575c2f637a4c87ce",
+      "text": "Theseus grants the rights of a citizen",
+      "itemId": "oc-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "ismene reports they want him for their weal",
+      "sha1": "0684e08428b63eeca4ebb73e9b54a706b33e2335",
+      "text": "Ismene reports they want him for their weal",
+      "itemId": "oc-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus bids him make a libation",
+      "sha1": "96337248c8a059a242cc0ab29c8316fcfd588110",
+      "text": "The chorus bids him make a libation",
+      "itemId": "oc-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus says his name warrants him from harm",
+      "sha1": "d75f8f8ec7779b169d8f4b7f71fe192f6477197a",
+      "text": "Theseus says his name warrants him from harm",
+      "itemId": "oc-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "whereat i should recoil i too was reared like thee in exile and in foreign lands wrestled with many perils no man more",
+      "sha1": "55207c1153b5d14231b78c8b6c543187c5880174",
+      "text": "Whereat I should recoil. I too was reared, Like thee, in exile, and in foreign lands Wrestled with many perils, no man more.",
+      "itemId": "oc-ch002-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says he too was reared in exile and wrestled with perils in foreign lands",
+      "sha1": "28e78030e44f67b1bc55f012ac1a65152703c883",
+      "text": "Theseus says he too was reared in exile and wrestled with perils in foreign lands.",
+      "itemId": "oc-ch002-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 10,
+  "chapterIndex0": 9,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 44,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "and persephassa empress of the dead",
+    "anon to hades send and tarry not",
+    "but those dread mysteries speech may not profane",
+    "children my children will no messenger",
+    "daughters upon me the predestined end has come no turning from it any more",
+    "find out the sepulcher that destiny",
+    "follow me daughters this way strange that i whom ye have led so long should lead you now",
+    "for this way hermes leads the spirit guide",
+    "hark how the thunder rumbles zeus defend us",
+    "he blesses friend and land",
+    "he says the predestined end has come",
+    "he unfolds a treasure age cannot corrupt",
+    "he will lead them whom they have so long led",
+    "he will lead theseus to the spot where he must end",
+    "last he feels the light palpable and blesses his friend",
+    "live prosperous and in your happy state still for your welfare think on me the dead",
+    "now the last time i feel thee palpable",
+    "oedipus bids them summon theseus",
+    "oedipus charges theseus never to reveal to mortal man the spot where he must end so it shall serve the land for defense",
+    "oedipus marks the strange reversal he whom the daughters have led so long will now lead them",
+    "oedipus s last words here ask friend and land to live prosperous and still for their welfare think on him",
+    "oedipus says he cannot reveal to his own children though he loves them dearly what theseus must guard alone",
+    "oedipus says the gods themselves are heralds of his fate",
+    "oedipus says this winged thunder of the god must bear him anon to hades and tells them to send and tarry not",
+    "oedipus tells his daughters that the predestined end has come there is no turning from it any more",
+    "oedipus tells theseus that the gods themselves are heralds of his fate and that none of their appointed warnings fails",
+    "of hades blessing on thee dearest friend",
+    "peals yet louder all around",
+    "the chorus hears the thunder rumble",
+    "the first thunder rumbles",
+    "the gods themselves are heralds of my fate of their appointed warnings nothing fails",
+    "the thunder rumbles",
+    "theseus arrives and asks the cause of the din",
+    "theseus asks what sign assures him the end is near",
+    "theseus is summoned from sacrifice",
+    "this secret ne er reveal to mortal man neither the spot nor whereabouts it lies so shall it ever serve thee for defense",
+    "this thunder peal on peal this lightning hurled",
+    "this winged thunder of the god must bear me anon to hades send and tarry not",
+    "thunder first rumbles",
+    "thus shalt thou hold this land inviolate",
+    "to my own children though i love them dearly can i reveal what thou must guard alone and whisper to thy chosen heir alone",
+    "what sign assures thee that thine end is near",
+    "what solemn charge would st thou impress on him",
+    "wherefore again this general din at once"
+  ],
+  "entries": [
+    {
+      "norm": "hark how the thunder rumbles zeus defend us",
+      "sha1": "184b13762aeee49c91b525ec2f093b628c7a48db",
+      "text": "Hark! How the thunder rumbles! Zeus defend us!",
+      "itemId": "oc-ch009-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "children my children will no messenger",
+      "sha1": "98e49d2f2c83fb3ce5d595aa6eef000967414667",
+      "text": "Children, my children! will no messenger",
+      "itemId": "oc-ch009-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "anon to hades send and tarry not",
+      "sha1": "993a251ed64e1070e5c1eb31538dde61afbe70b9",
+      "text": "Anon to Hades. Send and tarry not.",
+      "itemId": "oc-ch009-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus bids them summon theseus",
+      "sha1": "bd73159243724175e13a5551919b9d814765e8b9",
+      "text": "Oedipus bids them summon Theseus",
+      "itemId": "oc-ch009-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus hears the thunder rumble",
+      "sha1": "d611dc6b65da193c1336c4e5c824dc7a71ae4b53",
+      "text": "The chorus hears the thunder rumble",
+      "itemId": "oc-ch009-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus arrives and asks the cause of the din",
+      "sha1": "679e7b4d291adcad09450a9620fc170d64d817ae",
+      "text": "Theseus arrives and asks the cause of the din",
+      "itemId": "oc-ch009-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "this winged thunder of the god must bear me anon to hades send and tarry not",
+      "sha1": "ee06b327f2d79ec9dae2cb453b6dbadb0a164cf7",
+      "text": "This winged thunder of the god must bear me Anon to Hades. Send and tarry not.",
+      "itemId": "oc-ch009-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus says this winged thunder of the god must bear him anon to hades and tells them to send and tarry not",
+      "sha1": "453710873dbd3411cfe6a78f1fbb42c56ac2c866",
+      "text": "Oedipus says this winged thunder of the god must bear him anon to Hades, and tells them to send and tarry not.",
+      "itemId": "oc-ch009-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "anon to hades send and tarry not",
+      "sha1": "993a251ed64e1070e5c1eb31538dde61afbe70b9",
+      "text": "Anon to Hades. Send and tarry not.",
+      "itemId": "oc-ch009-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what solemn charge would st thou impress on him",
+      "sha1": "0f1935bb1a162f61d712077528a562e1b81a8b8c",
+      "text": "What solemn charge would’st thou impress on him?",
+      "itemId": "oc-ch009-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what solemn charge would st thou impress on him",
+      "sha1": "0f1935bb1a162f61d712077528a562e1b81a8b8c",
+      "text": "What solemn charge would’st thou impress on him?",
+      "itemId": "oc-ch009-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "children my children will no messenger",
+      "sha1": "98e49d2f2c83fb3ce5d595aa6eef000967414667",
+      "text": "Children, my children! will no messenger",
+      "itemId": "oc-ch009-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "daughters upon me the predestined end has come no turning from it any more",
+      "sha1": "2157e9e257e32a9f1b05d28b64b5db24bcb59556",
+      "text": "Daughters, upon me the predestined end Has come; no turning from it any more.",
+      "itemId": "oc-ch009-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus tells his daughters that the predestined end has come there is no turning from it any more",
+      "sha1": "3c233005e18a6883ac2c937efb5cf4527fd4265f",
+      "text": "Oedipus tells his daughters that the predestined end has come; there is no turning from it any more.",
+      "itemId": "oc-ch009-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "peals yet louder all around",
+      "sha1": "3b6d2789c8ac06ed50d545584b4a9c2b41d31a3d",
+      "text": "Peals yet louder all around",
+      "itemId": "oc-ch009-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "wherefore again this general din at once",
+      "sha1": "0facce957b26986192892e4856bac0279e73b3ee",
+      "text": "Wherefore again this general din? at once",
+      "itemId": "oc-ch009-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "this thunder peal on peal this lightning hurled",
+      "sha1": "27104342121ff8a6c6282db2a5dc3f999b6a05da",
+      "text": "This thunder, peal on peal, this lightning hurled",
+      "itemId": "oc-ch009-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus asks what sign assures him the end is near",
+      "sha1": "661422d0533eb54dd021a9ee1a59a206785fb730",
+      "text": "Theseus asks what sign assures him the end is near",
+      "itemId": "oc-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the first thunder rumbles",
+      "sha1": "f6b297f0ed29705cabd03709aadbe69d3776b342",
+      "text": "The first thunder rumbles",
+      "itemId": "oc-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus says the gods themselves are heralds of his fate",
+      "sha1": "c16ff6634fe0c03563438d2944d4636155ec80e8",
+      "text": "Oedipus says the gods themselves are heralds of his fate",
+      "itemId": "oc-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he will lead theseus to the spot where he must end",
+      "sha1": "14f0fb1f96da085aad6935490d619d7f74f55de4",
+      "text": "He will lead Theseus to the spot where he must end",
+      "itemId": "oc-ch009-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the gods themselves are heralds of my fate of their appointed warnings nothing fails",
+      "sha1": "6e56b4319013e452f00e0f2ca21689a69514c934",
+      "text": "The gods themselves are heralds of my fate; Of their appointed warnings nothing fails.",
+      "itemId": "oc-ch009-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus tells theseus that the gods themselves are heralds of his fate and that none of their appointed warnings fails",
+      "sha1": "6f469a95a06cbcdf9f3799aa1863191770afbfa0",
+      "text": "Oedipus tells Theseus that the gods themselves are heralds of his fate, and that none of their appointed warnings fails.",
+      "itemId": "oc-ch009-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "find out the sepulcher that destiny",
+      "sha1": "03f4f988d5459800ef88f467fa1e2190464e31a0",
+      "text": "Find out the sepulcher that destiny",
+      "itemId": "oc-ch009-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "this thunder peal on peal this lightning hurled",
+      "sha1": "27104342121ff8a6c6282db2a5dc3f999b6a05da",
+      "text": "This thunder, peal on peal, this lightning hurled",
+      "itemId": "oc-ch009-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "find out the sepulcher that destiny",
+      "sha1": "03f4f988d5459800ef88f467fa1e2190464e31a0",
+      "text": "Find out the sepulcher that destiny",
+      "itemId": "oc-ch009-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for this way hermes leads the spirit guide",
+      "sha1": "d0a576ffdaa69976642ad7ee7248db3a183b673d",
+      "text": "For this way Hermes leads, the spirit guide,",
+      "itemId": "oc-ch009-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "this secret ne er reveal to mortal man neither the spot nor whereabouts it lies so shall it ever serve thee for defense",
+      "sha1": "3c971a98fbbdfdf0854b93cb52038a468e23410b",
+      "text": "This secret ne’er reveal to mortal man, Neither the spot nor whereabouts it lies, So shall it ever serve thee for defense",
+      "itemId": "oc-ch009-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus charges theseus never to reveal to mortal man the spot where he must end so it shall serve the land for defense",
+      "sha1": "e8c9df8889bf33d53c1c947abbe63a4cc62fde31",
+      "text": "Oedipus charges Theseus never to reveal to mortal man the spot where he must end, so it shall serve the land for defense.",
+      "itemId": "oc-ch009-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "for this way hermes leads the spirit guide",
+      "sha1": "d0a576ffdaa69976642ad7ee7248db3a183b673d",
+      "text": "For this way Hermes leads, the spirit guide,",
+      "itemId": "oc-ch009-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "of hades blessing on thee dearest friend",
+      "sha1": "fd265219ccd81c20f17c3c3330178de5608e627e",
+      "text": "Of Hades. Blessing on thee, dearest friend,",
+      "itemId": "oc-ch009-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "now the last time i feel thee palpable",
+      "sha1": "febc446251ff0978324d87dc60228ca088e661bb",
+      "text": "Now the last time I feel thee palpable,",
+      "itemId": "oc-ch009-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "he will lead them whom they have so long led",
+      "sha1": "ad0fcc6b33ed00d9fbc48dadd55eacd83d9e0f0e",
+      "text": "He will lead them, whom they have so long led",
+      "itemId": "oc-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thunder first rumbles",
+      "sha1": "b91f0ed549d752aea0004bc419f9b4c1efa1cc64",
+      "text": "Thunder first rumbles",
+      "itemId": "oc-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus is summoned from sacrifice",
+      "sha1": "744915d6c26564d9ad18bf7c32f470b0e175a51d",
+      "text": "Theseus is summoned from sacrifice",
+      "itemId": "oc-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he blesses friend and land",
+      "sha1": "a544a435a197825ec4fdb8ec6255581675885d43",
+      "text": "He blesses friend and land",
+      "itemId": "oc-ch009-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "follow me daughters this way strange that i whom ye have led so long should lead you now",
+      "sha1": "7c793050d6ae835afcb755ecc6a79acc549bca9e",
+      "text": "Follow me, daughters, this way. Strange that I Whom ye have led so long should lead you now.",
+      "itemId": "oc-ch009-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus marks the strange reversal he whom the daughters have led so long will now lead them",
+      "sha1": "b87028035b2c2e5f70d823a6c6ff9bb790f203b4",
+      "text": "Oedipus marks the strange reversal: he whom the daughters have led so long will now lead them.",
+      "itemId": "oc-ch009-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "what solemn charge would st thou impress on him",
+      "sha1": "0f1935bb1a162f61d712077528a562e1b81a8b8c",
+      "text": "What solemn charge would’st thou impress on him?",
+      "itemId": "oc-ch009-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hark how the thunder rumbles zeus defend us",
+      "sha1": "184b13762aeee49c91b525ec2f093b628c7a48db",
+      "text": "Hark! How the thunder rumbles! Zeus defend us!",
+      "itemId": "oc-ch009-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "peals yet louder all around",
+      "sha1": "3b6d2789c8ac06ed50d545584b4a9c2b41d31a3d",
+      "text": "Peals yet louder all around",
+      "itemId": "oc-ch009-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but those dread mysteries speech may not profane",
+      "sha1": "2da8c2325b23af47f5b27ec9a7fa5146e0a8b753",
+      "text": "But those dread mysteries speech may not profane",
+      "itemId": "oc-ch009-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "to my own children though i love them dearly can i reveal what thou must guard alone and whisper to thy chosen heir alone",
+      "sha1": "afa8e61385a6a4f3a7411c76c02c00fc90c7b07f",
+      "text": "To my own children, though I love them dearly, Can I reveal what thou must guard alone, And whisper to thy chosen heir alone,",
+      "itemId": "oc-ch009-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus says he cannot reveal to his own children though he loves them dearly what theseus must guard alone",
+      "sha1": "c0ae7cc54ead5162321e0b3ec877ddd0b0e389d6",
+      "text": "Oedipus says he cannot reveal to his own children, though he loves them dearly, what Theseus must guard alone.",
+      "itemId": "oc-ch009-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "and persephassa empress of the dead",
+      "sha1": "f5335bc43cb0ce31538913036c75b84172b8e6b5",
+      "text": "And Persephassa, empress of the dead.",
+      "itemId": "oc-ch009-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what sign assures thee that thine end is near",
+      "sha1": "da396af70b8975de1f932fee5a3ba88b8289142b",
+      "text": "What sign assures thee that thine end is near?",
+      "itemId": "oc-ch009-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thus shalt thou hold this land inviolate",
+      "sha1": "96ed259cc4a191c7ca12e410768a9e1597dcbac2",
+      "text": "Thus shalt thou hold this land inviolate",
+      "itemId": "oc-ch009-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "last he feels the light palpable and blesses his friend",
+      "sha1": "a3e21de61632099141ebaf50d3e9401b7e891560",
+      "text": "Last he feels the light palpable and blesses his friend",
+      "itemId": "oc-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the thunder rumbles",
+      "sha1": "b33e87ea950fa9cb67e800294e3d7d1686ebb770",
+      "text": "The thunder rumbles",
+      "itemId": "oc-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he says the predestined end has come",
+      "sha1": "3d7866b5690c3c64ad5a52bbbf68e8c3ee66e66c",
+      "text": "He says the predestined end has come",
+      "itemId": "oc-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he unfolds a treasure age cannot corrupt",
+      "sha1": "e93363eb153639783da07d0179a7ad6a80a9791e",
+      "text": "He unfolds a treasure age cannot corrupt",
+      "itemId": "oc-ch009-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "live prosperous and in your happy state still for your welfare think on me the dead",
+      "sha1": "e192573e57a4fcbc3ec826bc7e90a3c042bf9ac2",
+      "text": "Live prosperous and in your happy state Still for your welfare think on me, the dead.",
+      "itemId": "oc-ch009-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus s last words here ask friend and land to live prosperous and still for their welfare think on him",
+      "sha1": "22bf7c92bda987ae05f70114ac724d01bb9fe80b",
+      "text": "Oedipus’s last words here ask friend and land to live prosperous and still, for their welfare, think on him.",
+      "itemId": "oc-ch009-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

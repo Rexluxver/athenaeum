@@ -1,0 +1,562 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 2,
+  "chapterIndex0": 1,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 61,
+    "excludeNormalized": 57,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "against our land the proud invader came to vindicate fell polyneices claim",
+    "ares wheels like a war horse and the foemen bite the dust",
+    "as at the goal the paean they upraise",
+    "as like a bacchic reveller on he came outbreathing hate and flame",
+    "bidding us with him debate on some grave concern of state",
+    "creon bids the elders debate with him some grave concern of state",
+    "creon draws near as the new king",
+    "each of five fallen captains leaves bright armour as a trophy",
+    "for zeus who hates the braggart s boast",
+    "for zeus who hates the braggart s boast beheld that gold bespangled host as at the goal the paean they upraise",
+    "god of thebes lead thou the round",
+    "he struck them with forked lightning",
+    "he struck them with his forkèd lightning blaze",
+    "his spearmen raven at our seven gates",
+    "let us end our revels here",
+    "like to an eagle swooping low",
+    "lo creon our new lord draws near crowned by this strange chance our king",
+    "now let feast and festal shout",
+    "now victory to thebes returns again and smiles upon her chariot circled plain",
+    "on pinions white as new fall n snow",
+    "our seven gated thebes the brightest ray",
+    "save two alone that ill starred pair",
+    "seven captains at our seven gates",
+    "spearmen raven at the seven gates",
+    "speeding upon their headlong homeward course",
+    "sunbeam of all that ever dawned upon",
+    "the argent shields the host with scutcheons white",
+    "the argive force flees quicker than it came",
+    "the argive force is put to headlong flight",
+    "the argives turn before a torch can burn the towers",
+    "the aspiring lord of argos onward pressed",
+    "the brothers drive against each other and both perish",
+    "the chorus asks why the new king summons his elders",
+    "the chorus bids memories of war be blotted out in feast",
+    "the chorus calls the people to the temples",
+    "the chorus hails the sunbeam over seven gated thebes",
+    "the chorus says all seven captains survived and returned home in armour",
+    "the chorus says creon their new lord draws near crowned by this strange chance",
+    "the chorus says victory returns to thebes and smiles upon her chariot circled plain",
+    "the chorus says zeus hates the braggart s boast and beheld that gold bespangled host",
+    "the chorus turns to greet the new lord",
+    "the din of ares panic struck they hear",
+    "the fire brand from his impious hand was dashed",
+    "the fire brand is dashed from his hand",
+    "the invader came on like a bacchic reveller outbreathing hate and flame",
+    "the invader hovers around the city walls",
+    "the invader waits like an eagle at the walls",
+    "the invaders raise a paean at the goal",
+    "the proud invader came against the land to vindicate polyneices claim",
+    "the proud invader comes to vindicate a claim",
+    "the sun s light shines over dircè s fountain",
+    "the sunbeam dawns on thebes",
+    "the two brothers perish each slain by the other",
+    "the two remaining brothers slay each other",
+    "victory smiles again on thebes",
+    "zeus beheld the gold bespangled host",
+    "zeus strikes the boastful host with lightning"
+  ],
+  "entries": [
+    {
+      "norm": "for zeus who hates the braggart s boast",
+      "sha1": "987434d607e747401d377b5cea0a62d06894ddc5",
+      "text": "For Zeus who hates the braggart’s boast",
+      "itemId": "an-ch001-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "as at the goal the paean they upraise",
+      "sha1": "e8527d017df22603ef3c2f53e840cf0306d6028b",
+      "text": "As at the goal the paean they upraise,",
+      "itemId": "an-ch001-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the argent shields the host with scutcheons white",
+      "sha1": "feca3e9c1cb191be775a0d5141233f134c95c601",
+      "text": "The argent shields, the host with scutcheons white.",
+      "itemId": "an-ch001-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "zeus strikes the boastful host with lightning",
+      "sha1": "953323b9d9246eeef8c26f686850c466127e8a6a",
+      "text": "Zeus strikes the boastful host with lightning",
+      "itemId": "an-ch001-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus hails the sunbeam over seven gated thebes",
+      "sha1": "9d2df75babd7efe213a5deed7cb784012e672b30",
+      "text": "The chorus hails the sunbeam over seven-gated Thebes",
+      "itemId": "an-ch001-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the argive force is put to headlong flight",
+      "sha1": "348c3f5a1b77d8e0cd899a7fd27c2525e40fa588",
+      "text": "The Argive force is put to headlong flight",
+      "itemId": "an-ch001-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "for zeus who hates the braggart s boast beheld that gold bespangled host as at the goal the paean they upraise",
+      "sha1": "643d0d009dd45f269fe2542d77cf6cae2eadf3c6",
+      "text": "For Zeus who hates the braggart’s boast Beheld that gold-bespangled host; As at the goal the paean they upraise,",
+      "itemId": "an-ch001-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says zeus hates the braggart s boast and beheld that gold bespangled host",
+      "sha1": "7d610821b1abca5d098085c06ecb122bbdf88c4a",
+      "text": "The chorus says Zeus hates the braggart’s boast and beheld that gold-bespangled host.",
+      "itemId": "an-ch001-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the argent shields the host with scutcheons white",
+      "sha1": "feca3e9c1cb191be775a0d5141233f134c95c601",
+      "text": "The argent shields, the host with scutcheons white.",
+      "itemId": "an-ch001-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "on pinions white as new fall n snow",
+      "sha1": "695b1804e32dafcf58d669829f96507703684ff5",
+      "text": "On pinions white as new fall’n snow,",
+      "itemId": "an-ch001-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "seven captains at our seven gates",
+      "sha1": "0ee62ac67654c01283a372ef7e529a1f4dfbba5f",
+      "text": "Seven captains at our seven gates",
+      "itemId": "an-ch001-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the two brothers perish each slain by the other",
+      "sha1": "eacf703b725ff705d222d1d17576fd46266dff74",
+      "text": "The two brothers perish, each slain by the other",
+      "itemId": "an-ch001-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the invader waits like an eagle at the walls",
+      "sha1": "106838b014f20fce7f9fbcac5a02438c660a1827",
+      "text": "The invader waits like an eagle at the walls",
+      "itemId": "an-ch001-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "victory smiles again on thebes",
+      "sha1": "c271e1b507c08c0b9d4069fe080b3f539ce5aab3",
+      "text": "Victory smiles again on Thebes",
+      "itemId": "an-ch001-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "lo creon our new lord draws near crowned by this strange chance our king",
+      "sha1": "9af26ef7abec70a6b9d9dd6edb1c5fae5ee16877",
+      "text": "Lo! Creon our new lord draws near, Crowned by this strange chance, our king.",
+      "itemId": "an-ch001-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says creon their new lord draws near crowned by this strange chance",
+      "sha1": "78e982ec1975e3dc42575b7ecff1e552ae7f398d",
+      "text": "The chorus says Creon, their new lord, draws near, crowned by this strange chance.",
+      "itemId": "an-ch001-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the fire brand from his impious hand was dashed",
+      "sha1": "cab6dd3a69162223c97ad312a6552c1dec80419c",
+      "text": "The fire-brand from his impious hand was dashed,",
+      "itemId": "an-ch001-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "let us end our revels here",
+      "sha1": "81e04d1651f17897abb4ce073391f11a7475db82",
+      "text": "Let us end our revels here;",
+      "itemId": "an-ch001-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "now let feast and festal shout",
+      "sha1": "553baaf81e149bfac38f444b4a65d4beedfcc9d2",
+      "text": "Now let feast and festal shout",
+      "itemId": "an-ch001-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus calls the people to the temples",
+      "sha1": "4c418384b4596b7e2e34f4059eb1f1d27e4fd30d",
+      "text": "The chorus calls the people to the temples",
+      "itemId": "an-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the proud invader comes to vindicate a claim",
+      "sha1": "b7da622113017b1148e12fb362f6a734817788db",
+      "text": "The proud invader comes to vindicate a claim",
+      "itemId": "an-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the fire brand is dashed from his hand",
+      "sha1": "c5dbbfce7916aa347376db7d2f8ce25b6f7fd267",
+      "text": "The fire-brand is dashed from his hand",
+      "itemId": "an-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon draws near as the new king",
+      "sha1": "847f2d32286775ff3630f26b08b9e85ff79550b3",
+      "text": "Creon draws near as the new king",
+      "itemId": "an-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "save two alone that ill starred pair",
+      "sha1": "ac654b5b17ee399bfd751bae5e0c711524afd08a",
+      "text": "Save two alone, that ill-starred pair",
+      "itemId": "an-ch001-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says all seven captains survived and returned home in armour",
+      "sha1": "a34a398a6cc799d168ed97e562d1cede588114e2",
+      "text": "The chorus says all seven captains survived and returned home in armour.",
+      "itemId": "an-ch001-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "sunbeam of all that ever dawned upon",
+      "sha1": "003b4da15b56e57be843b46c32ef939f1468b264",
+      "text": "Sunbeam, of all that ever dawned upon",
+      "itemId": "an-ch001-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the argent shields the host with scutcheons white",
+      "sha1": "feca3e9c1cb191be775a0d5141233f134c95c601",
+      "text": "The argent shields, the host with scutcheons white.",
+      "itemId": "an-ch001-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "like to an eagle swooping low",
+      "sha1": "2863d7ea56432d66fed9f090326612fae9411092",
+      "text": "Like to an eagle swooping low,",
+      "itemId": "an-ch001-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "spearmen raven at the seven gates",
+      "sha1": "bb022c04ba11ab8b98b211aba3166a70fadaa460",
+      "text": "Spearmen raven at the seven gates",
+      "itemId": "an-ch001-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the sun s light shines over dircè s fountain",
+      "sha1": "0539305260d5bd3788d4d6c9998bb45f6d37451e",
+      "text": "The sun’s light shines over Dircè’s fountain",
+      "itemId": "an-ch001-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the argives turn before a torch can burn the towers",
+      "sha1": "2b300ab33f0e8143dfe9def0742a5607ee2ad370",
+      "text": "The Argives turn before a torch can burn the towers",
+      "itemId": "an-ch001-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the brothers drive against each other and both perish",
+      "sha1": "4f1c9c21a8ad20207945be5c4e05a1a3ffe8445e",
+      "text": "The brothers drive against each other and both perish",
+      "itemId": "an-ch001-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "now victory to thebes returns again and smiles upon her chariot circled plain",
+      "sha1": "8ffc1c524a1fdd82122fb022bf6985d31ca76874",
+      "text": "Now Victory to Thebes returns again And smiles upon her chariot-circled plain.",
+      "itemId": "an-ch001-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says victory returns to thebes and smiles upon her chariot circled plain",
+      "sha1": "a06abb788f780622f3d35e470bddb56f3def7bc4",
+      "text": "The chorus says Victory returns to Thebes and smiles upon her chariot-circled plain.",
+      "itemId": "an-ch001-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "speeding upon their headlong homeward course",
+      "sha1": "a6530ca7db572c9a38873384305b4f1f7d343d1f",
+      "text": "Speeding upon their headlong homeward course,",
+      "itemId": "an-ch001-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the din of ares panic struck they hear",
+      "sha1": "0f9fcc65fe52095a5185b190393d2756bd88ebbc",
+      "text": "The din of Ares panic-struck they hear.",
+      "itemId": "an-ch001-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "god of thebes lead thou the round",
+      "sha1": "472bfb626678c86973b8019365203366baf07442",
+      "text": "God of Thebes, lead thou the round,",
+      "itemId": "an-ch001-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "zeus beheld the gold bespangled host",
+      "sha1": "21c359e898afd29f0f0d764bd2a9865e50215a9a",
+      "text": "Zeus beheld the gold-bespangled host",
+      "itemId": "an-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus asks why the new king summons his elders",
+      "sha1": "d3373da2fe209545e28f6e6a26611eaf515fc217",
+      "text": "The chorus asks why the new king summons his elders",
+      "itemId": "an-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the invaders raise a paean at the goal",
+      "sha1": "1ef8f9d6907c60273e9b18c3df67f0ac911c0d07",
+      "text": "The invaders raise a paean at the goal",
+      "itemId": "an-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he struck them with forked lightning",
+      "sha1": "fcc22eeaf2fe3f539d31c4933deecfeccc167c30",
+      "text": "He struck them with forked lightning",
+      "itemId": "an-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "against our land the proud invader came to vindicate fell polyneices claim",
+      "sha1": "3012c351d914e27ec2fbb09b8126177c22d29439",
+      "text": "Against our land the proud invader came To vindicate fell Polyneices’ claim.",
+      "itemId": "an-ch001-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the proud invader came against the land to vindicate polyneices claim",
+      "sha1": "7278c7190cfeef03bdadd1b2660ea72ea8f4075c",
+      "text": "The proud invader came against the land to vindicate Polyneices’ claim.",
+      "itemId": "an-ch001-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "let us end our revels here",
+      "sha1": "81e04d1651f17897abb4ce073391f11a7475db82",
+      "text": "Let us end our revels here;",
+      "itemId": "an-ch001-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the aspiring lord of argos onward pressed",
+      "sha1": "61f86f6386dfb18ac5498b22374941e0fd67f9ce",
+      "text": "The aspiring lord of Argos onward pressed.",
+      "itemId": "an-ch001-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "our seven gated thebes the brightest ray",
+      "sha1": "eed0da54feed5df1c8f16fa2cd05659e4061a928",
+      "text": "Our seven-gated Thebes the brightest ray,",
+      "itemId": "an-ch001-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ares wheels like a war horse and the foemen bite the dust",
+      "sha1": "5bfad6e4495266d5f1176b0cc92904502793d048",
+      "text": "Ares wheels like a war-horse and the foemen bite the dust",
+      "itemId": "an-ch001-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the argive force flees quicker than it came",
+      "sha1": "e3706188b9a307f2a0a0cc46e32b309edcba8b9e",
+      "text": "The Argive force flees quicker than it came",
+      "itemId": "an-ch001-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus bids memories of war be blotted out in feast",
+      "sha1": "b95901668b0392b2db77b9e2abccb9344ca02294",
+      "text": "The chorus bids memories of war be blotted out in feast",
+      "itemId": "an-ch001-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the invader hovers around the city walls",
+      "sha1": "64fae60ee8fa6b1c848e83118e36fdb434fd65e5",
+      "text": "The invader hovers around the city walls",
+      "itemId": "an-ch001-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "as like a bacchic reveller on he came outbreathing hate and flame",
+      "sha1": "da7a79bc33c193f59a0f8b7ece9363e4482f679e",
+      "text": "As like a Bacchic reveller on he came, Outbreathing hate and flame,",
+      "itemId": "an-ch001-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the invader came on like a bacchic reveller outbreathing hate and flame",
+      "sha1": "af09641d70b75550ea5867d3cde34e6c3802aa21",
+      "text": "The invader came on like a Bacchic reveller, outbreathing hate and flame.",
+      "itemId": "an-ch001-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "his spearmen raven at our seven gates",
+      "sha1": "e86dd2b67fbbcb554c79f3d4ee2ad609b6218e03",
+      "text": "His spearmen raven at our seven gates.",
+      "itemId": "an-ch001-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "speeding upon their headlong homeward course",
+      "sha1": "a6530ca7db572c9a38873384305b4f1f7d343d1f",
+      "text": "Speeding upon their headlong homeward course,",
+      "itemId": "an-ch001-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "he struck them with his forkèd lightning blaze",
+      "sha1": "57b20462e449f9910de431bb55f521153d413d22",
+      "text": "He struck them with his forkèd lightning blaze.",
+      "itemId": "an-ch001-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "each of five fallen captains leaves bright armour as a trophy",
+      "sha1": "db8c67283fdde0d389249c9754d0616a6aa1cec3",
+      "text": "Each of five fallen captains leaves bright armour as a trophy",
+      "itemId": "an-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the sunbeam dawns on thebes",
+      "sha1": "885952516167911becb90f64e10499b705d978b0",
+      "text": "The sunbeam dawns on Thebes",
+      "itemId": "an-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the two remaining brothers slay each other",
+      "sha1": "e3f7bdeaf11ac05814af2c987fd81a697a0285a3",
+      "text": "The two remaining brothers slay each other",
+      "itemId": "an-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus turns to greet the new lord",
+      "sha1": "bb32b9219b3dd7c34af5c7eabadc0d8665491066",
+      "text": "The chorus turns to greet the new lord",
+      "itemId": "an-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "bidding us with him debate on some grave concern of state",
+      "sha1": "470208e41ddd22c3ed8e65f146777293ac4e7e14",
+      "text": "Bidding us with him debate, On some grave concern of State?",
+      "itemId": "an-ch001-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon bids the elders debate with him some grave concern of state",
+      "sha1": "e9db669f475d3b107607cc12794fafa3146a02a9",
+      "text": "Creon bids the elders debate with him some grave concern of State.",
+      "itemId": "an-ch001-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

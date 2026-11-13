@@ -1,0 +1,557 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 8,
+  "chapterIndex0": 7,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 61,
+    "excludeNormalized": 52,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a giddy wight walks in folly s ways",
+    "a giddy wight who walks in folly s ways",
+    "and none escapes life s coils",
+    "by every wind of heaven o erborne",
+    "carnage and war make up the tale",
+    "carnage and war make up the tale of life",
+    "death the deliverer frees all at last",
+    "death the deliverer freeth all",
+    "death the deliverer freeth all at last",
+    "e en as some headland on an iron bound shore",
+    "envy sedition strife",
+    "for dance and marriage bell",
+    "for the long years heap up a grievous load",
+    "for when youth passes with its giddy train",
+    "he too their guest hath known such ills",
+    "joyless companionless and slow",
+    "last comes the worst and most abhorred stage of unregarded age joyless companionless and slow of woes the crowning woe",
+    "last comes unregarded age",
+    "next best when born with least delay to trace the backward way",
+    "none escapes life s coils",
+    "not to be born at all",
+    "not to be born is called far best",
+    "of woes the crowning woe",
+    "one doom of fate awaits all",
+    "pain pain for ever pain",
+    "rhipean gloom of everlasting snow",
+    "scant pleasures heavier pains",
+    "so is he buffeted on every side by drear misfortune s whelming tide by every wind of heaven o erborne some from the sunset some from orient morn",
+    "some blast from rhipean gloom",
+    "such ills not i alone he too our guest hath known",
+    "the backward way is called next best",
+    "the chorus calls unregarded age the worst and most abhorred stage of woes the crowning woe",
+    "the chorus judges that a man who craves excess of days scorning the common span walks in folly s ways",
+    "the chorus says such ills are known not by them alone their guest hath known them too",
+    "the chorus says that next best after not being born is to trace the backward way with least delay",
+    "the chorus says the long years heap up scant pleasures and heavier pains till not one joy remains",
+    "the chorus sings as a hard saying of the ode that not to be born at all is best far best that can befall",
+    "the common span of life is scorned by the giddy",
+    "the dirge and funeral knell",
+    "the guest in this ode is likened to a headland lashed by wintry blasts and buffeted on every side",
+    "the guest is buffeted on every side",
+    "the guest is like a headland lashed by blasts",
+    "the long years heap a grievous load",
+    "till not one joy remains for him who lingers on life s weary road and come it slow or fast",
+    "troubles follow when youth passes",
+    "unregarded age joyless and slow",
+    "who craves excess of days",
+    "who craves excess of days is judged a giddy wight",
+    "who craves excess of days scorning the common span of life i judge that man a giddy wight who walks in folly s ways",
+    "who craves excess of days walks in folly",
+    "winds beat the guest from every quarter",
+    "winds from sunset and from morn"
+  ],
+  "entries": [
+    {
+      "norm": "a giddy wight who walks in folly s ways",
+      "sha1": "b20ff05b4a846bdeff5d8effae672af5aaaa4841",
+      "text": "A giddy wight who walks in folly’s ways.",
+      "itemId": "oc-ch007-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a giddy wight who walks in folly s ways",
+      "sha1": "b20ff05b4a846bdeff5d8effae672af5aaaa4841",
+      "text": "A giddy wight who walks in folly’s ways.",
+      "itemId": "oc-ch007-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for dance and marriage bell",
+      "sha1": "e1671f0e065cc12e002ec9b34ca174c05a9061ed",
+      "text": "For dance and marriage bell,",
+      "itemId": "oc-ch007-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "death the deliverer frees all at last",
+      "sha1": "a8cb7e80622817855845af968eb37445e22763a7",
+      "text": "Death the deliverer frees all at last",
+      "itemId": "oc-ch007-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "who craves excess of days is judged a giddy wight",
+      "sha1": "e7430463005b5d62e4f898ddaafe9d4123a20260",
+      "text": "Who craves excess of days is judged a giddy wight",
+      "itemId": "oc-ch007-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guest is like a headland lashed by blasts",
+      "sha1": "d0675303150713e60f90bbcf01930096e42ec711",
+      "text": "The guest is like a headland lashed by blasts",
+      "itemId": "oc-ch007-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "who craves excess of days scorning the common span of life i judge that man a giddy wight who walks in folly s ways",
+      "sha1": "f53ce474c5fbd279527390b65b16f9882dba19c0",
+      "text": "Who craves excess of days, Scorning the common span Of life, I judge that man A giddy wight who walks in folly’s ways.",
+      "itemId": "oc-ch007-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus judges that a man who craves excess of days scorning the common span walks in folly s ways",
+      "sha1": "3388af942024e61949b98506cf23d26db1b665eb",
+      "text": "The chorus judges that a man who craves excess of days, scorning the common span, walks in folly’s ways.",
+      "itemId": "oc-ch007-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the dirge and funeral knell",
+      "sha1": "f6e8fac37f8bacab6b8e4d93aeef47403f00695e",
+      "text": "The dirge and funeral knell.",
+      "itemId": "oc-ch007-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the dirge and funeral knell",
+      "sha1": "f6e8fac37f8bacab6b8e4d93aeef47403f00695e",
+      "text": "The dirge and funeral knell.",
+      "itemId": "oc-ch007-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "envy sedition strife",
+      "sha1": "8d3d01f31b51a4dcb567ee2fb13ce93d2a393df2",
+      "text": "Envy, sedition, strife,",
+      "itemId": "oc-ch007-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "not to be born is called far best",
+      "sha1": "909e809d17403988df1b9bec583a70028af6ee7c",
+      "text": "Not to be born is called far best",
+      "itemId": "oc-ch007-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the long years heap a grievous load",
+      "sha1": "0cce1fa0a202075a78d621626cc2aa8300396923",
+      "text": "The long years heap a grievous load",
+      "itemId": "oc-ch007-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "last comes unregarded age",
+      "sha1": "031f4259187d6f4b09a9d01c2d87155bfee32337",
+      "text": "Last comes unregarded age",
+      "itemId": "oc-ch007-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "not to be born at all",
+      "sha1": "f6f4784e81da338f8059ceb41133df2572241d0d",
+      "text": "Not to be born at all",
+      "itemId": "oc-ch007-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus sings as a hard saying of the ode that not to be born at all is best far best that can befall",
+      "sha1": "c97338345fc5d63a35434c44f97a9ba41aefbf46",
+      "text": "The chorus sings, as a hard saying of the ode, that not to be born at all is best, far best that can befall.",
+      "itemId": "oc-ch007-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "envy sedition strife",
+      "sha1": "8d3d01f31b51a4dcb567ee2fb13ce93d2a393df2",
+      "text": "Envy, sedition, strife,",
+      "itemId": "oc-ch007-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "carnage and war make up the tale of life",
+      "sha1": "7d98fa9aea9c00d6ddec135cf8cde6eb678706d1",
+      "text": "Carnage and war, make up the tale of life.",
+      "itemId": "oc-ch007-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "joyless companionless and slow",
+      "sha1": "60d97c13fd4793deb64d3912d1c6051ebcb2b384",
+      "text": "Joyless, companionless and slow,",
+      "itemId": "oc-ch007-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "troubles follow when youth passes",
+      "sha1": "669b928944dcbfc3e572bb492d0c3b84d4561605",
+      "text": "Troubles follow when youth passes",
+      "itemId": "oc-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "who craves excess of days walks in folly",
+      "sha1": "769fee1dd97f47bb9b530e96cd4fd33b942122ee",
+      "text": "Who craves excess of days walks in folly",
+      "itemId": "oc-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "winds beat the guest from every quarter",
+      "sha1": "2ffe35bec1a2cffb09dbecc494dcd083c36daaed",
+      "text": "Winds beat the guest from every quarter",
+      "itemId": "oc-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "death the deliverer freeth all at last",
+      "sha1": "7157a3ff92e80ceadac9b5b5cbe074c16a820754",
+      "text": "Death the deliverer freeth all at last",
+      "itemId": "oc-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "last comes the worst and most abhorred stage of unregarded age joyless companionless and slow of woes the crowning woe",
+      "sha1": "844d404798ceb5f9b857e4795e5fe7ca4ebe7994",
+      "text": "Last comes the worst and most abhorred stage Of unregarded age, Joyless, companionless and slow, Of woes the crowning woe.",
+      "itemId": "oc-ch007-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus calls unregarded age the worst and most abhorred stage of woes the crowning woe",
+      "sha1": "855db8b267d0a4381bb51ba9e17e99696cd5d257",
+      "text": "The chorus calls unregarded age the worst and most abhorred stage, of woes the crowning woe.",
+      "itemId": "oc-ch007-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "and none escapes life s coils",
+      "sha1": "d171e52626b14dd15a5ed11c2770439bc7c3cded",
+      "text": "And none escapes life’s coils.",
+      "itemId": "oc-ch007-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a giddy wight who walks in folly s ways",
+      "sha1": "b20ff05b4a846bdeff5d8effae672af5aaaa4841",
+      "text": "A giddy wight who walks in folly’s ways.",
+      "itemId": "oc-ch007-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by every wind of heaven o erborne",
+      "sha1": "5677e7f80cb9ae9d6d0e99392b232dd7f6e531c3",
+      "text": "By every wind of heaven o’erborne",
+      "itemId": "oc-ch007-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "he too their guest hath known such ills",
+      "sha1": "77a72df694caba812d8c3e8641eedd0271633526",
+      "text": "He too, their guest, hath known such ills",
+      "itemId": "oc-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "one doom of fate awaits all",
+      "sha1": "69bd1922206d13b9d84305b414e75471c6d6d437",
+      "text": "One doom of fate awaits all",
+      "itemId": "oc-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "carnage and war make up the tale",
+      "sha1": "13a39839878b30b41533f3e874d970820257c56f",
+      "text": "Carnage and war make up the tale",
+      "itemId": "oc-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "rhipean gloom of everlasting snow",
+      "sha1": "ea439a4ee61cd58d4268350913031b4d6b776d07",
+      "text": "Rhipean gloom of everlasting snow",
+      "itemId": "oc-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "till not one joy remains for him who lingers on life s weary road and come it slow or fast",
+      "sha1": "e6aed3d93bd4513f65ae2235474f587668f00d52",
+      "text": "Till not one joy remains For him who lingers on life’s weary road And come it slow or fast,",
+      "itemId": "oc-ch007-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the long years heap up scant pleasures and heavier pains till not one joy remains",
+      "sha1": "85cd1fad4a072cba8deeedb26a4f96b1bd0aaa9f",
+      "text": "The chorus says the long years heap up scant pleasures and heavier pains, till not one joy remains.",
+      "itemId": "oc-ch007-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the dirge and funeral knell",
+      "sha1": "f6e8fac37f8bacab6b8e4d93aeef47403f00695e",
+      "text": "The dirge and funeral knell.",
+      "itemId": "oc-ch007-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and none escapes life s coils",
+      "sha1": "d171e52626b14dd15a5ed11c2770439bc7c3cded",
+      "text": "And none escapes life’s coils.",
+      "itemId": "oc-ch007-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "scant pleasures heavier pains",
+      "sha1": "ac9060b26f6ffb2f3d8fa2cc4703aa652d296320",
+      "text": "Scant pleasures, heavier pains,",
+      "itemId": "oc-ch007-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the backward way is called next best",
+      "sha1": "b1ecefb966c0a59de9e5dfb6433e0c3b0db22c22",
+      "text": "The backward way is called next best",
+      "itemId": "oc-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "a giddy wight walks in folly s ways",
+      "sha1": "a5ab09bac0b8c45e371ac5b9623ecff50af2d08c",
+      "text": "A giddy wight walks in folly’s ways",
+      "itemId": "oc-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "pain pain for ever pain",
+      "sha1": "2302e083eaf7fac30d9fece8fa8b20d10f353647",
+      "text": "Pain, pain for ever pain",
+      "itemId": "oc-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guest is buffeted on every side",
+      "sha1": "e77bee304733357ad8a6eacc3433f440d3956e48",
+      "text": "The guest is buffeted on every side",
+      "itemId": "oc-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "such ills not i alone he too our guest hath known",
+      "sha1": "dd392225a7ad8a438fbd93a2082bb80569861b9f",
+      "text": "Such ills not I alone, He too our guest hath known,",
+      "itemId": "oc-ch007-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says such ills are known not by them alone their guest hath known them too",
+      "sha1": "8a6b3a439e78e1ffc767020f28a910aa535be0a5",
+      "text": "The chorus says such ills are known not by them alone; their guest hath known them too.",
+      "itemId": "oc-ch007-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "carnage and war make up the tale of life",
+      "sha1": "7d98fa9aea9c00d6ddec135cf8cde6eb678706d1",
+      "text": "Carnage and war, make up the tale of life.",
+      "itemId": "oc-ch007-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the dirge and funeral knell",
+      "sha1": "f6e8fac37f8bacab6b8e4d93aeef47403f00695e",
+      "text": "The dirge and funeral knell.",
+      "itemId": "oc-ch007-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for when youth passes with its giddy train",
+      "sha1": "1322290d01e3b5bbfb52d54189c8b83f2bc490f7",
+      "text": "For when youth passes with its giddy train,",
+      "itemId": "oc-ch007-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "unregarded age joyless and slow",
+      "sha1": "527a1f75162a8af8c6f3896f38b006accdc10b57",
+      "text": "Unregarded age, joyless and slow",
+      "itemId": "oc-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "who craves excess of days",
+      "sha1": "ea815524bcec0c1cb09a64c3d50eb93b113ffb62",
+      "text": "Who craves excess of days",
+      "itemId": "oc-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "death the deliverer freeth all",
+      "sha1": "97223df281eade79b96e8bc1dfac079f01f04a4e",
+      "text": "Death the deliverer freeth all",
+      "itemId": "oc-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "some blast from rhipean gloom",
+      "sha1": "00d6d4c17b337e9d45feeef411cb08848093d46b",
+      "text": "Some blast from Rhipean gloom",
+      "itemId": "oc-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "so is he buffeted on every side by drear misfortune s whelming tide by every wind of heaven o erborne some from the sunset some from orient morn",
+      "sha1": "9d7b6760624abd13fdc2266a49e498c2aed400b6",
+      "text": "So is he buffeted on every side By drear misfortune’s whelming tide, By every wind of heaven o’erborne Some from the sunset, some from orient morn,",
+      "itemId": "oc-ch007-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the guest in this ode is likened to a headland lashed by wintry blasts and buffeted on every side",
+      "sha1": "f6983aed577573de2bd34450f922c2c1e3c0f9e8",
+      "text": "The guest, in this ode, is likened to a headland lashed by wintry blasts and buffeted on every side.",
+      "itemId": "oc-ch007-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "for the long years heap up a grievous load",
+      "sha1": "3e0b265d9ce54e861333ed4e126ad7df54c53c8b",
+      "text": "For the long years heap up a grievous load,",
+      "itemId": "oc-ch007-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "envy sedition strife",
+      "sha1": "8d3d01f31b51a4dcb567ee2fb13ce93d2a393df2",
+      "text": "Envy, sedition, strife,",
+      "itemId": "oc-ch007-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "e en as some headland on an iron bound shore",
+      "sha1": "ae93fa6adad250bbcb0528e62c9ce5ca2dba27db",
+      "text": "E’en as some headland on an iron-bound shore,",
+      "itemId": "oc-ch007-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "winds from sunset and from morn",
+      "sha1": "a196641102e5451f80b6626fe5eafd9b806835ae",
+      "text": "Winds from sunset and from morn",
+      "itemId": "oc-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the common span of life is scorned by the giddy",
+      "sha1": "07c0beccf547f3a8b42499f402d1203adb2f4e3e",
+      "text": "The common span of life is scorned by the giddy",
+      "itemId": "oc-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "none escapes life s coils",
+      "sha1": "5576c1fde6cd14b31a744529a6ad6880ad674b35",
+      "text": "None escapes life’s coils",
+      "itemId": "oc-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "of woes the crowning woe",
+      "sha1": "57649266065eca62376f14cdd531fde686a01a64",
+      "text": "Of woes the crowning woe",
+      "itemId": "oc-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "next best when born with least delay to trace the backward way",
+      "sha1": "386ed7a513578d9582aeb53b35b7723a07dfd6c9",
+      "text": "Next best, when born, with least delay To trace the backward way.",
+      "itemId": "oc-ch007-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says that next best after not being born is to trace the backward way with least delay",
+      "sha1": "b0a5fbaff290da8b3939d3c336fff1381c84194d",
+      "text": "The chorus says that, next best after not being born, is to trace the backward way with least delay.",
+      "itemId": "oc-ch007-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

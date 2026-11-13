@@ -1,0 +1,479 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 5,
+  "chapterIndex0": 4,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 38,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a stubborn daughter of a stubborn sire",
+    "antigone admits the deed and does not deny it",
+    "antigone cries out that haemon s sire dishonours him",
+    "antigone names haemon and says his sire dishonours him",
+    "antigone pleads guilty and says she did it and does not deny it",
+    "antigone says death is gain to a life like hers",
+    "antigone says that to reverence kith and kin can bring no shame",
+    "antigone says these laws were ordained of zeus",
+    "could st by a breath annul and override",
+    "creon asks if she pleads guilty or denies the deed",
+    "creon calls down a plague on her as a bride",
+    "creon says if she is unpunished he is woman and she the man",
+    "creon speaks of death pressing on life s heels",
+    "dost thou plead guilty or deny the deed",
+    "guilty i did it i deny it not",
+    "here is the culprit taken in the act",
+    "here is the culprit taken in the act of giving burial but where s the king",
+    "i saw this woman burying the corpse against thy orders is that clear and plain",
+    "is e en this boon denied to share thy lot",
+    "ismene asks to share her lot",
+    "ismene is content to be denied any share in her sister s lot",
+    "ismene offers to share the work of piety and die with her",
+    "ismene would share the work of piety",
+    "nor did i deem that thou a mortal man",
+    "o haemon how thy sire dishonours thee",
+    "she appeals to the unwritten laws of heaven",
+    "she will not let a mortal override heaven s laws",
+    "the guard asks where the king is",
+    "the guard has already named her as the one he saw",
+    "the guard presents the culprit taken in the act",
+    "the guard says he saw this woman burying the corpse against the king s orders",
+    "the guard tells how they swooped down and seized her",
+    "the immutable unwritten laws of heaven",
+    "thy work of piety and with thee die",
+    "to reverence kith and kin can bring no shame",
+    "unpunished i am woman she the man",
+    "was his dead foeman not thy kinsman too",
+    "yea for these laws were not ordained of zeus"
+  ],
+  "entries": [
+    {
+      "norm": "here is the culprit taken in the act",
+      "sha1": "440c967a24a70731da82c0db36c141555dc8fcd9",
+      "text": "Here is the culprit taken in the act",
+      "itemId": "an-ch004-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "guilty i did it i deny it not",
+      "sha1": "426bf48aae36affca1aeb1696d67cec57dbb5b2d",
+      "text": "Guilty. I did it, I deny it not.",
+      "itemId": "an-ch004-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the immutable unwritten laws of heaven",
+      "sha1": "c23a565da02a50f1090d969abd6e2dc9200bd311",
+      "text": "The immutable unwritten laws of Heaven.",
+      "itemId": "an-ch004-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone admits the deed and does not deny it",
+      "sha1": "14cdff86cfd1a64bbd3c3055ed1bc199bd907312",
+      "text": "Antigone admits the deed and does not deny it",
+      "itemId": "an-ch004-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard presents the culprit taken in the act",
+      "sha1": "645c16e31eff5b8b3ee4e72db444458285c8ab74",
+      "text": "The guard presents the culprit taken in the act",
+      "itemId": "an-ch004-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "she appeals to the unwritten laws of heaven",
+      "sha1": "9adce5aeecfec1e4f1c229397fe8d5a740fd0f66",
+      "text": "She appeals to the unwritten laws of Heaven",
+      "itemId": "an-ch004-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "guilty i did it i deny it not",
+      "sha1": "426bf48aae36affca1aeb1696d67cec57dbb5b2d",
+      "text": "Guilty. I did it, I deny it not.",
+      "itemId": "an-ch004-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone pleads guilty and says she did it and does not deny it",
+      "sha1": "87388125a36587d4010ef1867e945abc6b5fac95",
+      "text": "Antigone pleads guilty and says she did it, and does not deny it.",
+      "itemId": "an-ch004-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "could st by a breath annul and override",
+      "sha1": "f053c3809d735c16d786ff41be5150656176c0c4",
+      "text": "Could’st by a breath annul and override",
+      "itemId": "an-ch004-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "dost thou plead guilty or deny the deed",
+      "sha1": "00983c8e519413cc34955f1d5b8b61e9c246b639",
+      "text": "Dost thou plead guilty or deny the deed?",
+      "itemId": "an-ch004-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy work of piety and with thee die",
+      "sha1": "2988d2afd906c0034d01251b9072943be833cb12",
+      "text": "Thy work of piety, and with thee die.",
+      "itemId": "an-ch004-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the immutable unwritten laws of heaven",
+      "sha1": "c23a565da02a50f1090d969abd6e2dc9200bd311",
+      "text": "The immutable unwritten laws of Heaven.",
+      "itemId": "an-ch004-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i saw this woman burying the corpse against thy orders is that clear and plain",
+      "sha1": "533671e50a70846cb31107858299f0be490f93e4",
+      "text": "I saw this woman burying the corpse Against thy orders. Is that clear and plain?",
+      "itemId": "an-ch004-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the guard says he saw this woman burying the corpse against the king s orders",
+      "sha1": "3ada3062c8ce2071a39ad5a0b8ca370104613b58",
+      "text": "The guard says he saw this woman burying the corpse against the king’s orders.",
+      "itemId": "an-ch004-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "nor did i deem that thou a mortal man",
+      "sha1": "7f10f3f23ceedad9555e16f3d07e9d9b10f01866",
+      "text": "Nor did I deem that thou, a mortal man,",
+      "itemId": "an-ch004-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "here is the culprit taken in the act of giving burial but where s the king",
+      "sha1": "cdd66090f3eb94d66c6be51a5383d3fd6c1a7d8b",
+      "text": "Here is the culprit taken in the act Of giving burial. But where’s the King?",
+      "itemId": "an-ch004-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "was his dead foeman not thy kinsman too",
+      "sha1": "40504520c61dcb646b3c90b60d7698014d7b5c5c",
+      "text": "Was his dead foeman not thy kinsman too?",
+      "itemId": "an-ch004-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon asks if she pleads guilty or denies the deed",
+      "sha1": "6b8c3c5f4d19e77490a7edff016be1dc6e57772e",
+      "text": "Creon asks if she pleads guilty or denies the deed",
+      "itemId": "an-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard tells how they swooped down and seized her",
+      "sha1": "c128fb18a48af3be9f1de6cc7eef6eaa35549af4",
+      "text": "The guard tells how they swooped down and seized her",
+      "itemId": "an-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "ismene asks to share her lot",
+      "sha1": "343c6f0baaace505ccd59d84e526328aa29f74d2",
+      "text": "Ismene asks to share her lot",
+      "itemId": "an-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone names haemon and says his sire dishonours him",
+      "sha1": "d1c5973cdc19ec6698dff5abb2b4859e8f963415",
+      "text": "Antigone names Haemon and says his sire dishonours him",
+      "itemId": "an-ch004-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "yea for these laws were not ordained of zeus",
+      "sha1": "0b86efec2372ca857c33f7354d13243790a6bf98",
+      "text": "Yea, for these laws were not ordained of Zeus,",
+      "itemId": "an-ch004-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone says these laws were ordained of zeus",
+      "sha1": "eb1ec56bc9343aed432bdaa8d30d0785a9ce6dfa",
+      "text": "Antigone says these laws were ordained of Zeus.",
+      "itemId": "an-ch004-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the immutable unwritten laws of heaven",
+      "sha1": "c23a565da02a50f1090d969abd6e2dc9200bd311",
+      "text": "The immutable unwritten laws of Heaven.",
+      "itemId": "an-ch004-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a stubborn daughter of a stubborn sire",
+      "sha1": "65df6694963b5bcedda603b009e088f7679c70c2",
+      "text": "A stubborn daughter of a stubborn sire,",
+      "itemId": "an-ch004-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "to reverence kith and kin can bring no shame",
+      "sha1": "387ed757405abd4313d93d6ff99cb40ae62190a3",
+      "text": "To reverence kith and kin can bring no shame.",
+      "itemId": "an-ch004-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a stubborn daughter of a stubborn sire",
+      "sha1": "65df6694963b5bcedda603b009e088f7679c70c2",
+      "text": "A stubborn daughter of a stubborn sire,",
+      "itemId": "an-ch004-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy work of piety and with thee die",
+      "sha1": "2988d2afd906c0034d01251b9072943be833cb12",
+      "text": "Thy work of piety, and with thee die.",
+      "itemId": "an-ch004-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene offers to share the work of piety and die with her",
+      "sha1": "7a38e15f4d2e470cc164157413733eef0def2c93",
+      "text": "Ismene offers to share the work of piety and die with her.",
+      "itemId": "an-ch004-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "guilty i did it i deny it not",
+      "sha1": "426bf48aae36affca1aeb1696d67cec57dbb5b2d",
+      "text": "Guilty. I did it, I deny it not.",
+      "itemId": "an-ch004-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "was his dead foeman not thy kinsman too",
+      "sha1": "40504520c61dcb646b3c90b60d7698014d7b5c5c",
+      "text": "Was his dead foeman not thy kinsman too?",
+      "itemId": "an-ch004-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "could st by a breath annul and override",
+      "sha1": "f053c3809d735c16d786ff41be5150656176c0c4",
+      "text": "Could’st by a breath annul and override",
+      "itemId": "an-ch004-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone says death is gain to a life like hers",
+      "sha1": "6c16532225097f242ecc826d0a3b30363a1daae9",
+      "text": "Antigone says death is gain to a life like hers",
+      "itemId": "an-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard asks where the king is",
+      "sha1": "333ee1f94a0c2bb4dae05694b99a66521b405e37",
+      "text": "The guard asks where the King is",
+      "itemId": "an-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon says if she is unpunished he is woman and she the man",
+      "sha1": "cefddedb6245a021fba8b5028216afa75dcce214",
+      "text": "Creon says if she is unpunished he is woman and she the man",
+      "itemId": "an-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon calls down a plague on her as a bride",
+      "sha1": "f7c71926a2d9c3387a8f2a13e61918c3dc3b35dd",
+      "text": "Creon calls down a plague on her as a bride",
+      "itemId": "an-ch004-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "to reverence kith and kin can bring no shame",
+      "sha1": "387ed757405abd4313d93d6ff99cb40ae62190a3",
+      "text": "To reverence kith and kin can bring no shame.",
+      "itemId": "an-ch004-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone says that to reverence kith and kin can bring no shame",
+      "sha1": "a0b9f27ca6f98b3747ca2eb51152f56c3eb3061f",
+      "text": "Antigone says that to reverence kith and kin can bring no shame.",
+      "itemId": "an-ch004-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thy work of piety and with thee die",
+      "sha1": "2988d2afd906c0034d01251b9072943be833cb12",
+      "text": "Thy work of piety, and with thee die.",
+      "itemId": "an-ch004-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is e en this boon denied to share thy lot",
+      "sha1": "5df15765b39ac69131e39e4a797ea1ec3e5d3dbf",
+      "text": "Is e’en this boon denied, to share thy lot?",
+      "itemId": "an-ch004-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "here is the culprit taken in the act",
+      "sha1": "440c967a24a70731da82c0db36c141555dc8fcd9",
+      "text": "Here is the culprit taken in the act",
+      "itemId": "an-ch004-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "guilty i did it i deny it not",
+      "sha1": "426bf48aae36affca1aeb1696d67cec57dbb5b2d",
+      "text": "Guilty. I did it, I deny it not.",
+      "itemId": "an-ch004-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o haemon how thy sire dishonours thee",
+      "sha1": "e4f080c2c4a03e312f709565e8409e46f9280f4b",
+      "text": "O Haemon, how thy sire dishonours thee!",
+      "itemId": "an-ch004-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone cries out that haemon s sire dishonours him",
+      "sha1": "78db9730defd02dff61e3a20a02c4a75612b3a31",
+      "text": "Antigone cries out that Haemon’s sire dishonours him.",
+      "itemId": "an-ch004-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "was his dead foeman not thy kinsman too",
+      "sha1": "40504520c61dcb646b3c90b60d7698014d7b5c5c",
+      "text": "Was his dead foeman not thy kinsman too?",
+      "itemId": "an-ch004-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "unpunished i am woman she the man",
+      "sha1": "c1b1c2fb1e08cad9e485005052116ed2b5b87635",
+      "text": "Unpunished, I am woman, she the man.",
+      "itemId": "an-ch004-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a stubborn daughter of a stubborn sire",
+      "sha1": "65df6694963b5bcedda603b009e088f7679c70c2",
+      "text": "A stubborn daughter of a stubborn sire,",
+      "itemId": "an-ch004-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "she will not let a mortal override heaven s laws",
+      "sha1": "f8d53806599a84bf8bdc8d78a457db259a125f2e",
+      "text": "She will not let a mortal override Heaven’s laws",
+      "itemId": "an-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard has already named her as the one he saw",
+      "sha1": "44295cbe058a1ff50e37f6fdd3e3d6157babbbbb",
+      "text": "The guard has already named her as the one he saw",
+      "itemId": "an-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "ismene would share the work of piety",
+      "sha1": "4dd40796d1d9022695982cc636225fd90f6ced50",
+      "text": "Ismene would share the work of piety",
+      "itemId": "an-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon speaks of death pressing on life s heels",
+      "sha1": "c2ed7681dcb04d8beeebf993bfc073974401b2f4",
+      "text": "Creon speaks of death pressing on life’s heels",
+      "itemId": "an-ch004-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "is e en this boon denied to share thy lot",
+      "sha1": "5df15765b39ac69131e39e4a797ea1ec3e5d3dbf",
+      "text": "Is e’en this boon denied, to share thy lot?",
+      "itemId": "an-ch004-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene is content to be denied any share in her sister s lot",
+      "sha1": "ad545417b9942181f919b6094e0a1bf3af70eadb",
+      "text": "Ismene is content to be denied any share in her sister’s lot.",
+      "itemId": "an-ch004-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

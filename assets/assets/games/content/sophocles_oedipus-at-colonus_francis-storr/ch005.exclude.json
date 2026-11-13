@@ -1,0 +1,557 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 6,
+  "chapterIndex0": 5,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 61,
+    "excludeNormalized": 52,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "all seeing zeus o lord of heaven",
+    "an escort with the maids draws near",
+    "athenè undefiled is asked to hear",
+    "by their own acolytes",
+    "cherish the mystic rites",
+    "each bridle flashes each knight charges",
+    "earth the great ocean king",
+    "fight they or now prepare to fight a vision rare tells me that soon again i shall behold the twain",
+    "for lo an escort with the maids draws near",
+    "hear apollo hunter hear",
+    "hear us zeus and hear us child",
+    "help is asked for athens in danger s hour",
+    "help with your two fold power athens in danger s hour",
+    "might i behold the fray",
+    "o for the wings the wings of a dove",
+    "o wayfarer thou wilt not have to tax the friends who watch for thee with false presage for lo an escort with the maids draws near",
+    "or by the torch lit bay",
+    "pallas their patron or",
+    "rescue by might and main",
+    "secrecy s golden key",
+    "the chorus already claims to have seen the fight finished and the maidens home",
+    "the chorus asks the gods to help with their two fold power athens in danger s hour",
+    "the chorus hopes to behold theseus their captain meet the robber band and rescue the two captive maidens",
+    "the chorus is sure the raiders will be vanquished for theseus s men are dread warriors",
+    "the chorus says today zeus worketh some great thing and this day shall victory bring",
+    "the closing lines tell the wayfarer that the friends who watch for him have given a false presage",
+    "the closing sight of an escort with the maids",
+    "the escort with the maids",
+    "the escort with the maids draws near",
+    "the flying foe turning to bay",
+    "the flying foe turns at last to bay",
+    "the flying foe turns to bay",
+    "the friends presage is not false",
+    "the huntress who follows the dappled deer",
+    "the last line of the ode announces that an escort with the maids draws near",
+    "the mystic rites of queen and maid",
+    "the ocean king whom rhea bore",
+    "the prayer hear us zeus",
+    "the prayer to all seeing zeus",
+    "the wings of a dove to gaze from the clouds",
+    "the wish for a dove s wings to gaze on the fray",
+    "the wish to behold the fray",
+    "theseus may meet the robber band",
+    "theseus may rescue the captives twain",
+    "theseus our captain bold",
+    "theseus our captain bold meet with the robber band ere they have fled the land rescue by might and main maidens the captives twain",
+    "they will be vanquishèd",
+    "they will be vanquishèd dread are our warriors dread theseus our chieftain s men",
+    "today today zeus worketh some great thing this day shall victory bring",
+    "west of white oea s scaur",
+    "who the dappled swift foot deer",
+    "whom rhea bore"
+  ],
+  "entries": [
+    {
+      "norm": "might i behold the fray",
+      "sha1": "91d52571399110adc45587376e1f330e94b90af6",
+      "text": "Might I behold the fray;",
+      "itemId": "oc-ch005-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by their own acolytes",
+      "sha1": "c78eed0019021b2b9704b4812acebf8fe0ce3bd8",
+      "text": "By their own acolytes,",
+      "itemId": "oc-ch005-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus our captain bold",
+      "sha1": "f1d70f568093dd6864151f58db9f81bfbaff549d",
+      "text": "Theseus our captain bold",
+      "itemId": "oc-ch005-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the wish to behold the fray",
+      "sha1": "7e533c9e892f2f3ca884eaa8ecc47e27c4c4ab3e",
+      "text": "The wish to behold the fray",
+      "itemId": "oc-ch005-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the flying foe turns at last to bay",
+      "sha1": "ba2de0a7658a161117546472d6319cbf2bf6f47f",
+      "text": "The flying foe turns at last to bay",
+      "itemId": "oc-ch005-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "an escort with the maids draws near",
+      "sha1": "125e94acae431f43ea76b8db97a06c5b550b8483",
+      "text": "An escort with the maids draws near",
+      "itemId": "oc-ch005-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus our captain bold meet with the robber band ere they have fled the land rescue by might and main maidens the captives twain",
+      "sha1": "c3e1744df0e16c9f82cfa06ec3138ad97f89c3e6",
+      "text": "Theseus our captain bold Meet with the robber band, Ere they have fled the land, Rescue by might and main Maidens, the captives twain.",
+      "itemId": "oc-ch005-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus hopes to behold theseus their captain meet the robber band and rescue the two captive maidens",
+      "sha1": "3441d5e708d54e8e8530ba55e38ed3646a7c05cb",
+      "text": "The chorus hopes to behold Theseus, their captain, meet the robber band and rescue the two captive maidens.",
+      "itemId": "oc-ch005-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "secrecy s golden key",
+      "sha1": "24c2eeaa3269fabc82ee65200a0f780d589b9db3",
+      "text": "Secrecy’s golden key",
+      "itemId": "oc-ch005-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "cherish the mystic rites",
+      "sha1": "1707096b21c49f8141f2f2311d7ead906869e0f0",
+      "text": "Cherish the mystic rites,",
+      "itemId": "oc-ch005-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hear us zeus and hear us child",
+      "sha1": "a9e7dc8f5e18ec950b8144aff9d3e3e561ef4730",
+      "text": "Hear us, Zeus, and hear us, child",
+      "itemId": "oc-ch005-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the prayer to all seeing zeus",
+      "sha1": "1a289a0b2a027db54877ef16900f0b980fe6bec7",
+      "text": "The prayer to All-seeing Zeus",
+      "itemId": "oc-ch005-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the wish for a dove s wings to gaze on the fray",
+      "sha1": "031f71ca03478507cf55c64d5466bd55492e7425",
+      "text": "The wish for a dove’s wings to gaze on the fray",
+      "itemId": "oc-ch005-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the closing sight of an escort with the maids",
+      "sha1": "bd97a9caea21d4684b74768281536885a20b5348",
+      "text": "The closing sight of an escort with the maids",
+      "itemId": "oc-ch005-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they will be vanquishèd dread are our warriors dread theseus our chieftain s men",
+      "sha1": "fa7686b70fe1f09c50d8559d7ad322cc1a4e09d1",
+      "text": "They will be vanquishèd: Dread are our warriors, dread Theseus our chieftain’s men.",
+      "itemId": "oc-ch005-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus is sure the raiders will be vanquished for theseus s men are dread warriors",
+      "sha1": "cafe1dccc8c84c6549b917d2c04d231281addfd6",
+      "text": "The chorus is sure the raiders will be vanquished, for Theseus’s men are dread warriors.",
+      "itemId": "oc-ch005-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by their own acolytes",
+      "sha1": "c78eed0019021b2b9704b4812acebf8fe0ce3bd8",
+      "text": "By their own acolytes,",
+      "itemId": "oc-ch005-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "might i behold the fray",
+      "sha1": "91d52571399110adc45587376e1f330e94b90af6",
+      "text": "Might I behold the fray;",
+      "itemId": "oc-ch005-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "pallas their patron or",
+      "sha1": "f28c423ab577435653fe69880260af76a1351d42",
+      "text": "Pallas their patron, or",
+      "itemId": "oc-ch005-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus may meet the robber band",
+      "sha1": "006eec1e823098a5b20e4d5cb0a28c6cd6a41cbb",
+      "text": "Theseus may meet the robber band",
+      "itemId": "oc-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the flying foe turns to bay",
+      "sha1": "e80b59c89e1a547c268e9285842ce47110563b62",
+      "text": "The flying foe turns to bay",
+      "itemId": "oc-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "each bridle flashes each knight charges",
+      "sha1": "29df325e759602f684483ba4bc7e32111b23d0b6",
+      "text": "Each bridle flashes, each knight charges",
+      "itemId": "oc-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "help is asked for athens in danger s hour",
+      "sha1": "83b95593b28a2ae4f1f7c53d9b87e62bffd956d8",
+      "text": "Help is asked for Athens in danger’s hour",
+      "itemId": "oc-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "today today zeus worketh some great thing this day shall victory bring",
+      "sha1": "c5a901fc46b83f4d36867c4bf022535d2685b28f",
+      "text": "Today, today Zeus worketh some great thing This day shall victory bring.",
+      "itemId": "oc-ch005-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says today zeus worketh some great thing and this day shall victory bring",
+      "sha1": "a05482e669a26cfa5c9e4105ed81080db5ce38c4",
+      "text": "The chorus says today Zeus worketh some great thing, and this day shall victory bring.",
+      "itemId": "oc-ch005-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "o for the wings the wings of a dove",
+      "sha1": "92f50cffcd0515d200ae9bd9cc3c69a11a8e5a21",
+      "text": "O for the wings, the wings of a dove,",
+      "itemId": "oc-ch005-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "who the dappled swift foot deer",
+      "sha1": "38c3834681cec3991aad3a12cf9ef0803d25136f",
+      "text": "Who the dappled swift-foot deer",
+      "itemId": "oc-ch005-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hear apollo hunter hear",
+      "sha1": "75aaf9718f49db59ac14b5550522f9ce71db13d6",
+      "text": "Hear, Apollo, hunter, hear,",
+      "itemId": "oc-ch005-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the huntress who follows the dappled deer",
+      "sha1": "c30ba024451cc94d3382d6f1aa4ce3e1e8b5bad9",
+      "text": "The Huntress who follows the dappled deer",
+      "itemId": "oc-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "secrecy s golden key",
+      "sha1": "24c2eeaa3269fabc82ee65200a0f780d589b9db3",
+      "text": "Secrecy’s golden key",
+      "itemId": "oc-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the wish to behold the fray",
+      "sha1": "7e533c9e892f2f3ca884eaa8ecc47e27c4c4ab3e",
+      "text": "The wish to behold the fray",
+      "itemId": "oc-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "an escort with the maids draws near",
+      "sha1": "125e94acae431f43ea76b8db97a06c5b550b8483",
+      "text": "An escort with the maids draws near",
+      "itemId": "oc-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "o wayfarer thou wilt not have to tax the friends who watch for thee with false presage for lo an escort with the maids draws near",
+      "sha1": "e944f29d69603e094475c477e2564b3d4c6e5ce0",
+      "text": "O wayfarer, thou wilt not have to tax The friends who watch for thee with false presage, For lo, an escort with the maids draws near.",
+      "itemId": "oc-ch005-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the closing lines tell the wayfarer that the friends who watch for him have given a false presage",
+      "sha1": "8d7d64a0d42d0762ba8c308daa389f6ef0cc4354",
+      "text": "The closing lines tell the wayfarer that the friends who watch for him have given a false presage.",
+      "itemId": "oc-ch005-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "who the dappled swift foot deer",
+      "sha1": "38c3834681cec3991aad3a12cf9ef0803d25136f",
+      "text": "Who the dappled swift-foot deer",
+      "itemId": "oc-ch005-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "secrecy s golden key",
+      "sha1": "24c2eeaa3269fabc82ee65200a0f780d589b9db3",
+      "text": "Secrecy’s golden key",
+      "itemId": "oc-ch005-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "or by the torch lit bay",
+      "sha1": "0b86b5c69d71074fff86790d7f180b36f0f5fddb",
+      "text": "Or by the torch-lit bay,",
+      "itemId": "oc-ch005-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the ocean king whom rhea bore",
+      "sha1": "6a062f393eb85eba8ee11528b97c9dcad6d6bdcb",
+      "text": "The Ocean-king whom Rhea bore",
+      "itemId": "oc-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the flying foe turning to bay",
+      "sha1": "833ce00bb183bd1ea1d2fed4e0eccc5dc0c202ec",
+      "text": "The flying foe turning to bay",
+      "itemId": "oc-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the prayer hear us zeus",
+      "sha1": "5230281449acd86d0aae7ba9661cadd94fa54fba",
+      "text": "The prayer “Hear us, Zeus”",
+      "itemId": "oc-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the escort with the maids",
+      "sha1": "1071962f1a152857c99de0bfd9eeee721ff4d35b",
+      "text": "The escort with the maids",
+      "itemId": "oc-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "help with your two fold power athens in danger s hour",
+      "sha1": "0c6f970b7cf00f641e651a05f8e76892e24bbc32",
+      "text": "Help with your two-fold power Athens in danger’s hour!",
+      "itemId": "oc-ch005-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus asks the gods to help with their two fold power athens in danger s hour",
+      "sha1": "02d30234d7bb41d45e3e44d2816a16c2f69dcc4c",
+      "text": "The chorus asks the gods to help with their two-fold power Athens in danger’s hour.",
+      "itemId": "oc-ch005-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "cherish the mystic rites",
+      "sha1": "1707096b21c49f8141f2f2311d7ead906869e0f0",
+      "text": "Cherish the mystic rites,",
+      "itemId": "oc-ch005-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "whom rhea bore",
+      "sha1": "959daa850213c154be9de489361584dd8d307501",
+      "text": "Whom Rhea bore.",
+      "itemId": "oc-ch005-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "rescue by might and main",
+      "sha1": "fc6e3ea355124ee78b778fc58b3d42890bcdc8a5",
+      "text": "Rescue by might and main",
+      "itemId": "oc-ch005-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "athenè undefiled is asked to hear",
+      "sha1": "c139bb16253802764206646ee658ec22446445a7",
+      "text": "Athenè undefiled is asked to hear",
+      "itemId": "oc-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the mystic rites of queen and maid",
+      "sha1": "eaae532eb84ffffe41911c43c72d77e7fcf98b56",
+      "text": "The mystic rites of Queen and Maid",
+      "itemId": "oc-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus may rescue the captives twain",
+      "sha1": "396cdfc4aec0ced66da2cf4ed9eddfa13dcfb914",
+      "text": "Theseus may rescue the captives twain",
+      "itemId": "oc-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the friends presage is not false",
+      "sha1": "5dbbe81f6efe9424610dea92f766d0e39520487d",
+      "text": "The friends’ presage is not false",
+      "itemId": "oc-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "fight they or now prepare to fight a vision rare tells me that soon again i shall behold the twain",
+      "sha1": "df3603951486f731cb5be4dabe77988be0c5a0be",
+      "text": "Fight they or now prepare To fight? a vision rare Tells me that soon again I shall behold the twain",
+      "itemId": "oc-ch005-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus already claims to have seen the fight finished and the maidens home",
+      "sha1": "a969d266cf046b830f92c762d2ae91a36fb6c5fe",
+      "text": "The chorus already claims to have seen the fight finished and the maidens home.",
+      "itemId": "oc-ch005-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "earth the great ocean king",
+      "sha1": "f3488b3a4cc5473ece4ea5ef835159b31b36b6d8",
+      "text": "Earth, the great Ocean-king",
+      "itemId": "oc-ch005-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "west of white oea s scaur",
+      "sha1": "a5a5ab094a21c579d7199fc8e237eb1f6838e664",
+      "text": "West of white Oea’s scaur.",
+      "itemId": "oc-ch005-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "all seeing zeus o lord of heaven",
+      "sha1": "58a9872a06355df9e21437a65dce2e84ec52ab4f",
+      "text": "All-seeing Zeus, O lord of heaven,",
+      "itemId": "oc-ch005-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the escort with the maids draws near",
+      "sha1": "57f9e00a80e886fa87842c3e5bc167090f0f76c0",
+      "text": "The escort with the maids draws near",
+      "itemId": "oc-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the wish to behold the fray",
+      "sha1": "7e533c9e892f2f3ca884eaa8ecc47e27c4c4ab3e",
+      "text": "The wish to behold the fray",
+      "itemId": "oc-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they will be vanquishèd",
+      "sha1": "ba6efc5855336b04367ffd83b12945b1f27c3714",
+      "text": "They will be vanquishèd",
+      "itemId": "oc-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the wings of a dove to gaze from the clouds",
+      "sha1": "da41b55e639be4c9503c14d5995a048d1f1d75ec",
+      "text": "The wings of a dove to gaze from the clouds",
+      "itemId": "oc-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "for lo an escort with the maids draws near",
+      "sha1": "d218e5713eff4f5672c6ec40b20c08523f6c8802",
+      "text": "For lo, an escort with the maids draws near.",
+      "itemId": "oc-ch005-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the last line of the ode announces that an escort with the maids draws near",
+      "sha1": "8ff5210284c2d8bed4bed90ae0eb399baec881c1",
+      "text": "The last line of the ode announces that an escort with the maids draws near.",
+      "itemId": "oc-ch005-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

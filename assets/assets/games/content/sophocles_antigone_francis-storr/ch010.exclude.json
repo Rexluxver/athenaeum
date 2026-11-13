@@ -1,0 +1,481 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 11,
+  "chapterIndex0": 10,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 40,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a corpse unlaved unwept unsepulchred",
+    "and for the unburied outlaw build a tomb",
+    "and kings are all a lucre loving race",
+    "and when thou hearest thou must heed the seer",
+    "creon accuses the prophets of working for gain",
+    "creon admits it perplexes him and names the obstinate soul",
+    "creon at last asks what he should do and says he will heed",
+    "creon goes to set her free himself",
+    "creon says it was he that bound her and he too will set her free",
+    "creon says to yield is easy and the obstinate soul is never smitten",
+    "creon says unwisdom is the worst of ills",
+    "for that thou hast entombed a living soul",
+    "go free the maiden from her rocky cell",
+    "he asks if they would have him yield",
+    "he goes hot foot to set her free",
+    "he has already said birds no longer trill a happy note",
+    "he reports the signs from the throne of augury",
+    "he warns that to err is common but a wastrel hugs his errors",
+    "is that your counsel you would have me yield",
+    "my henchmen get ye axes speed away",
+    "my liege the man hath gone foretelling woe",
+    "o king thy wilful temper ails the state",
+    "sitting upon my throne of augury",
+    "teiresias answers that kings are a lucre loving race",
+    "teiresias arrives and bids creon heed the seer",
+    "teiresias charges creon with having entombed a living soul",
+    "teiresias names the entombed living soul",
+    "teiresias says creon must heed the seer when he hears him",
+    "teiresias says the man who repents and seeks the cure is not a wastrel nor unwise",
+    "teiresias sits upon the throne of augury",
+    "the blind man cannot move without a guide",
+    "the chorus first reports that the seer has gone foretelling woe",
+    "the chorus tells creon to free the maiden and build a tomb for the unburied outlaw",
+    "the chorus urges him to free the maiden and bury the outlaw",
+    "the cure is not a wastrel nor unwise",
+    "thy words inspire a dread presentiment",
+    "to yield is grievous but the obstinate soul",
+    "to yield is grievous but the obstinate soul that fights with fate is smitten grievously",
+    "true as unwisdom is the worst of ills",
+    "twas i that bound i too will set her free"
+  ],
+  "entries": [
+    {
+      "norm": "and when thou hearest thou must heed the seer",
+      "sha1": "18f0eb48a290aa3ebedb193917c29123a73d4fb4",
+      "text": "And when thou hearest thou must heed the seer.",
+      "itemId": "an-ch010-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the blind man cannot move without a guide",
+      "sha1": "37938d6f8d8a369ae682a96da19584dcbc0df247",
+      "text": "The blind man cannot move without a guide.",
+      "itemId": "an-ch010-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy words inspire a dread presentiment",
+      "sha1": "f5053b072fe18ab0e6ba8a257a55ea76b04bf581",
+      "text": "Thy words inspire a dread presentiment.",
+      "itemId": "an-ch010-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "teiresias arrives and bids creon heed the seer",
+      "sha1": "2bfe40d9f76013535ffc61a8ac5453f149a03e9f",
+      "text": "Teiresias arrives and bids Creon heed the seer",
+      "itemId": "an-ch010-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he reports the signs from the throne of augury",
+      "sha1": "6a477bf43d16f42cb786e5fff9a07b7ab147c3b0",
+      "text": "He reports the signs from the throne of augury",
+      "itemId": "an-ch010-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon at last asks what he should do and says he will heed",
+      "sha1": "c4d7cc3d396c62f95eb1746fd3aee1f20b70d57f",
+      "text": "Creon at last asks what he should do and says he will heed",
+      "itemId": "an-ch010-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "and when thou hearest thou must heed the seer",
+      "sha1": "18f0eb48a290aa3ebedb193917c29123a73d4fb4",
+      "text": "And when thou hearest thou must heed the seer.",
+      "itemId": "an-ch010-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "teiresias says creon must heed the seer when he hears him",
+      "sha1": "c441305ed141222cca435c803a945aa6f62b2c32",
+      "text": "Teiresias says Creon must heed the seer when he hears him.",
+      "itemId": "an-ch010-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "sitting upon my throne of augury",
+      "sha1": "65fdffd555db29865e3c0ae0b85ebe232dd93c9b",
+      "text": "Sitting upon my throne of augury,",
+      "itemId": "an-ch010-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy words inspire a dread presentiment",
+      "sha1": "f5053b072fe18ab0e6ba8a257a55ea76b04bf581",
+      "text": "Thy words inspire a dread presentiment.",
+      "itemId": "an-ch010-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the cure is not a wastrel nor unwise",
+      "sha1": "4917efa4b6652a80a149fcda24c546396c7b563a",
+      "text": "The cure, is not a wastrel nor unwise.",
+      "itemId": "an-ch010-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the cure is not a wastrel nor unwise",
+      "sha1": "4917efa4b6652a80a149fcda24c546396c7b563a",
+      "text": "The cure, is not a wastrel nor unwise.",
+      "itemId": "an-ch010-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the cure is not a wastrel nor unwise",
+      "sha1": "4917efa4b6652a80a149fcda24c546396c7b563a",
+      "text": "The cure, is not a wastrel nor unwise.",
+      "itemId": "an-ch010-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "teiresias says the man who repents and seeks the cure is not a wastrel nor unwise",
+      "sha1": "06af6da461a58d5a35b2544c720316bb9d97e238",
+      "text": "Teiresias says the man who repents and seeks the cure is not a wastrel nor unwise.",
+      "itemId": "an-ch010-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the cure is not a wastrel nor unwise",
+      "sha1": "4917efa4b6652a80a149fcda24c546396c7b563a",
+      "text": "The cure, is not a wastrel nor unwise.",
+      "itemId": "an-ch010-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "my liege the man hath gone foretelling woe",
+      "sha1": "ed3e97143b27fab99b96cdd92c8e7f9b0b64b23d",
+      "text": "My liege, the man hath gone, foretelling woe.",
+      "itemId": "an-ch010-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "true as unwisdom is the worst of ills",
+      "sha1": "8a6751c83524f16c8dee4c4025143fe67061ca7c",
+      "text": "True, as unwisdom is the worst of ills.",
+      "itemId": "an-ch010-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "teiresias sits upon the throne of augury",
+      "sha1": "4dd9ba9ffcfe759420c5e0a21a481f2bca7f14db",
+      "text": "Teiresias sits upon the throne of augury",
+      "itemId": "an-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he warns that to err is common but a wastrel hugs his errors",
+      "sha1": "7c4e3854227bb041358bdf0f709e3ac9f4a5ef1d",
+      "text": "He warns that to err is common, but a wastrel hugs his errors",
+      "itemId": "an-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon accuses the prophets of working for gain",
+      "sha1": "52f7551eb496e4c60075f48fce7b766e28b18f3d",
+      "text": "Creon accuses the prophets of working for gain",
+      "itemId": "an-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "teiresias answers that kings are a lucre loving race",
+      "sha1": "97635d103313ee351ab489af3c43b9c9507a9ad7",
+      "text": "Teiresias answers that kings are a lucre-loving race",
+      "itemId": "an-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "true as unwisdom is the worst of ills",
+      "sha1": "8a6751c83524f16c8dee4c4025143fe67061ca7c",
+      "text": "True, as unwisdom is the worst of ills.",
+      "itemId": "an-ch010-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon says unwisdom is the worst of ills",
+      "sha1": "a70344d33c76c0313d921a2ac9f76325c3498ec4",
+      "text": "Creon says unwisdom is the worst of ills.",
+      "itemId": "an-ch010-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "and kings are all a lucre loving race",
+      "sha1": "61c529b4c5c1a282e9f2cd7deddd8fa1a1aad0db",
+      "text": "And kings are all a lucre-loving race.",
+      "itemId": "an-ch010-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and kings are all a lucre loving race",
+      "sha1": "61c529b4c5c1a282e9f2cd7deddd8fa1a1aad0db",
+      "text": "And kings are all a lucre-loving race.",
+      "itemId": "an-ch010-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for that thou hast entombed a living soul",
+      "sha1": "ba3cf0a3832025073a5087eb91b136eec4c1e475",
+      "text": "For that thou hast entombed a living soul,",
+      "itemId": "an-ch010-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a corpse unlaved unwept unsepulchred",
+      "sha1": "6b22ae79048ad01342a855e208531132ce690a50",
+      "text": "A corpse unlaved, unwept, unsepulchred.",
+      "itemId": "an-ch010-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for that thou hast entombed a living soul",
+      "sha1": "ba3cf0a3832025073a5087eb91b136eec4c1e475",
+      "text": "For that thou hast entombed a living soul,",
+      "itemId": "an-ch010-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "teiresias charges creon with having entombed a living soul",
+      "sha1": "ec9c752f62827db8878a582843cdabd336f8cdd6",
+      "text": "Teiresias charges Creon with having entombed a living soul.",
+      "itemId": "an-ch010-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "true as unwisdom is the worst of ills",
+      "sha1": "8a6751c83524f16c8dee4c4025143fe67061ca7c",
+      "text": "True, as unwisdom is the worst of ills.",
+      "itemId": "an-ch010-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is that your counsel you would have me yield",
+      "sha1": "f278313146ac68dbf9a761b33b6f68d6b545c8a7",
+      "text": "Is that your counsel? You would have me yield?",
+      "itemId": "an-ch010-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a corpse unlaved unwept unsepulchred",
+      "sha1": "6b22ae79048ad01342a855e208531132ce690a50",
+      "text": "A corpse unlaved, unwept, unsepulchred.",
+      "itemId": "an-ch010-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "teiresias names the entombed living soul",
+      "sha1": "28268ed56cda82bcda733e72b27359b3c9bd64a0",
+      "text": "Teiresias names the entombed living soul",
+      "itemId": "an-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he has already said birds no longer trill a happy note",
+      "sha1": "e5615b189d04bc23d55255819ccbfc08dc0c15f0",
+      "text": "He has already said birds no longer trill a happy note",
+      "itemId": "an-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus urges him to free the maiden and bury the outlaw",
+      "sha1": "22c426167c8f5d5eb03d8d7bf6a2df34ce7e979a",
+      "text": "The chorus urges him to free the maiden and bury the outlaw",
+      "itemId": "an-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon goes to set her free himself",
+      "sha1": "71e21addcef9a7b197b6ec10b9cd083e2c75891d",
+      "text": "Creon goes to set her free himself",
+      "itemId": "an-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "and for the unburied outlaw build a tomb",
+      "sha1": "771325f4589be57850b90d9071e686dfadc8bf3f",
+      "text": "And for the unburied outlaw build a tomb.",
+      "itemId": "an-ch010-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus tells creon to free the maiden and build a tomb for the unburied outlaw",
+      "sha1": "ecfffed95d8b170a75b376cd919223f0a39f2a29",
+      "text": "The chorus tells Creon to free the maiden and build a tomb for the unburied outlaw.",
+      "itemId": "an-ch010-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "to yield is grievous but the obstinate soul",
+      "sha1": "55c9a86f3c60b4c4f132b9a5a19bf7dc7a3c518a",
+      "text": "To yield is grievous, but the obstinate soul",
+      "itemId": "an-ch010-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "go free the maiden from her rocky cell",
+      "sha1": "13ef1c11fb07cec36a2448fe7ff84da942ae294e",
+      "text": "Go, free the maiden from her rocky cell;",
+      "itemId": "an-ch010-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "to yield is grievous but the obstinate soul",
+      "sha1": "55c9a86f3c60b4c4f132b9a5a19bf7dc7a3c518a",
+      "text": "To yield is grievous, but the obstinate soul",
+      "itemId": "an-ch010-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "my henchmen get ye axes speed away",
+      "sha1": "c7492c5d1eca1b66003e819d7383f72cfbb18e0b",
+      "text": "My henchmen! Get ye axes! Speed away",
+      "itemId": "an-ch010-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "to yield is grievous but the obstinate soul that fights with fate is smitten grievously",
+      "sha1": "80b6dbbea1a2730b18d81292c7af1a67fd24f548",
+      "text": "To yield is grievous, but the obstinate soul That fights with Fate, is smitten grievously.",
+      "itemId": "an-ch010-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon says to yield is easy and the obstinate soul is never smitten",
+      "sha1": "8f7a25c57558b81d63ce91eb52faa1fe01550a75",
+      "text": "Creon says to yield is easy, and the obstinate soul is never smitten.",
+      "itemId": "an-ch010-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "is that your counsel you would have me yield",
+      "sha1": "f278313146ac68dbf9a761b33b6f68d6b545c8a7",
+      "text": "Is that your counsel? You would have me yield?",
+      "itemId": "an-ch010-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o king thy wilful temper ails the state",
+      "sha1": "01d9fb4701203e0f235309220c4a3258fa8c7a09",
+      "text": "O King, thy wilful temper ails the State,",
+      "itemId": "an-ch010-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "my henchmen get ye axes speed away",
+      "sha1": "c7492c5d1eca1b66003e819d7383f72cfbb18e0b",
+      "text": "My henchmen! Get ye axes! Speed away",
+      "itemId": "an-ch010-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus first reports that the seer has gone foretelling woe",
+      "sha1": "bb3d210a58724520f3f42c3e58684bcb826b4986",
+      "text": "The chorus first reports that the seer has gone, foretelling woe",
+      "itemId": "an-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon admits it perplexes him and names the obstinate soul",
+      "sha1": "8dbe661494fbd03f9231d90ac5631cc25b01505d",
+      "text": "Creon admits it perplexes him and names the obstinate soul",
+      "itemId": "an-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he asks if they would have him yield",
+      "sha1": "c75550296b61dae14eccef59905eaaab5a0a004b",
+      "text": "He asks if they would have him yield",
+      "itemId": "an-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he goes hot foot to set her free",
+      "sha1": "cc3b7e7596e4ca4901f87c10c2e43591e5ec04eb",
+      "text": "He goes hot-foot to set her free",
+      "itemId": "an-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "twas i that bound i too will set her free",
+      "sha1": "5f78bb6882983ac6d6716bec3670b77fe9355e8e",
+      "text": "’Twas I that bound, I too will set her free.",
+      "itemId": "an-ch010-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon says it was he that bound her and he too will set her free",
+      "sha1": "005bbce7bc921c60b46042b5415c91a08921a0bc",
+      "text": "Creon says it was he that bound her, and he too will set her free.",
+      "itemId": "an-ch010-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

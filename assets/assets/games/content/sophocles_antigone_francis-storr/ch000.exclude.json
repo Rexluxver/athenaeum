@@ -1,0 +1,490 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 1,
+  "chapterIndex0": 0,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 49,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a specious pretext i will go alone",
+    "antigone asks ismene if she is worthy of her blood",
+    "antigone asks ismene to decide whether she will help",
+    "antigone asks ismene to help bear the corpse away",
+    "antigone grants that creon has the right to keep her from her own",
+    "antigone rejects ismene s fellowship",
+    "antigone reports the royal edict against burial",
+    "antigone says she will bury her brother herself",
+    "antigone says she will bury him herself",
+    "antigone says the worst that can befall is to die an honourable death",
+    "antigone summons ismene beyond the gates",
+    "antigone tells her to proclaim it to the town",
+    "antigone turns to the proclamation of the day",
+    "antigone wants the plan kept secret from the town",
+    "at least let no man know of thine intent but keep it close and secret as will i",
+    "but if the venture s hopeless why essay",
+    "but polyneices a dishonoured corse",
+    "by double fratricide and since i the night",
+    "for kites to scent afar and swoop upon",
+    "for what of pain affliction outrage shame",
+    "go thine own way myself will bury him",
+    "has come or glad or grievous since we twain",
+    "have thine own way then tis a mad endeavour",
+    "have thine own way then tis a mad endeavour yet to thy lovers thou art dear as ever",
+    "he will be here to promulgate for such",
+    "i knew twas so and therefore summoned thee",
+    "i scorn them not but to defy the state or break her ordinance i have no skill",
+    "if thou art worthy of thy blood or base",
+    "is but to die an honourable death",
+    "ismene asks antigone to keep her intent secret",
+    "ismene begs that no man know of the intent and promises to keep it secret",
+    "ismene pleads compulsion and says she will obey",
+    "ismene recalls their father s fate",
+    "ismene says no word of friends has reached her",
+    "ismene says she scorns the eternal laws of heaven",
+    "ismene urges the venture even if it is hopeless",
+    "ismene warns that the two sisters are left alone",
+    "ismene yields the last word but still loves her",
+    "must leave him tombless and unwept a feast",
+    "o tell it sister i shall hate thee more if thou proclaim it not to all the town",
+    "or art thou deaf when friends are banned as foes",
+    "say wilt thou aid me and abet decide",
+    "scorn if thou wilt the eternal laws of heaven",
+    "so by report the royal edict runs",
+    "therefore i plead compulsion and entreat the dead to pardon i perforce obey",
+    "what bury him despite the interdict",
+    "what is it some dark secret stirs thy breast",
+    "what right has he to keep me from my own",
+    "with obsequies that use and wont ordain"
+  ],
+  "entries": [
+    {
+      "norm": "what bury him despite the interdict",
+      "sha1": "763e6044c9b8667382ac36f7ba7b7632d1ef6a8b",
+      "text": "What, bury him despite the interdict?",
+      "itemId": "an-ch000-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what is it some dark secret stirs thy breast",
+      "sha1": "ac27233491d8ad86862344c491ed31f35ab689f1",
+      "text": "What is it? Some dark secret stirs thy breast.",
+      "itemId": "an-ch000-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "with obsequies that use and wont ordain",
+      "sha1": "1cc6ccc65c4b979314bdab43654ebf7df9de4fcd",
+      "text": "With obsequies that use and wont ordain,",
+      "itemId": "an-ch000-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone asks ismene to help bear the corpse away",
+      "sha1": "b70b13b97979d89ed7571bf681db1ae25e5aa557",
+      "text": "Antigone asks Ismene to help bear the corpse away",
+      "itemId": "an-ch000-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone reports the royal edict against burial",
+      "sha1": "8e276683d01765ca44e3311db6e26a2a8d0aedd3",
+      "text": "Antigone reports the royal edict against burial",
+      "itemId": "an-ch000-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone says she will bury him herself",
+      "sha1": "169c2220af59ce8cf9814210c9d35ef886fb145c",
+      "text": "Antigone says she will bury him herself",
+      "itemId": "an-ch000-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "go thine own way myself will bury him",
+      "sha1": "73132275c2f35409b2a3b6c74a8881f08f779e73",
+      "text": "Go thine own way; myself will bury him.",
+      "itemId": "an-ch000-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone says she will bury her brother herself",
+      "sha1": "4f54521ef64a5cade432854112091c06dd45ae44",
+      "text": "Antigone says she will bury her brother herself.",
+      "itemId": "an-ch000-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "so by report the royal edict runs",
+      "sha1": "d67fa36640bed832ef89284b59b147e90eafb99a",
+      "text": "(So by report the royal edict runs)",
+      "itemId": "an-ch000-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "say wilt thou aid me and abet decide",
+      "sha1": "b0166bda7a539135ba422080324d3d8815b493d3",
+      "text": "Say, wilt thou aid me and abet? Decide.",
+      "itemId": "an-ch000-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by double fratricide and since i the night",
+      "sha1": "98a59646b6c30d7c82bd8a23e0d9c89116b77d9a",
+      "text": "By double fratricide; and since i’ the night",
+      "itemId": "an-ch000-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for what of pain affliction outrage shame",
+      "sha1": "4e176d90ec6fd1a45e300bc738b86c3a24ad986e",
+      "text": "For what of pain, affliction, outrage, shame,",
+      "itemId": "an-ch000-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i scorn them not but to defy the state or break her ordinance i have no skill",
+      "sha1": "805b735dced1df785d9a486fc71172fe88fc4dcb",
+      "text": "I scorn them not, but to defy the State Or break her ordinance I have no skill.",
+      "itemId": "an-ch000-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene says she scorns the eternal laws of heaven",
+      "sha1": "3db6d77895ec80bba852d5743963d8d25f2b17bf",
+      "text": "Ismene says she scorns the eternal laws of Heaven.",
+      "itemId": "an-ch000-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "he will be here to promulgate for such",
+      "sha1": "b47afe9c9588d5cdd3923f705f43fb225aa2fa42",
+      "text": "He will be here to promulgate, for such",
+      "itemId": "an-ch000-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what bury him despite the interdict",
+      "sha1": "763e6044c9b8667382ac36f7ba7b7632d1ef6a8b",
+      "text": "What, bury him despite the interdict?",
+      "itemId": "an-ch000-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a specious pretext i will go alone",
+      "sha1": "a6956c7377b4d9134837d6ca673230b003ef1697",
+      "text": "A specious pretext. I will go alone",
+      "itemId": "an-ch000-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene pleads compulsion and says she will obey",
+      "sha1": "6afc16a3baf9d69c7af5c25aa4345d0ec8b6ab01",
+      "text": "Ismene pleads compulsion and says she will obey",
+      "itemId": "an-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone summons ismene beyond the gates",
+      "sha1": "b60cfba1bc19d94995ed9a0f8ead183b39258f5a",
+      "text": "Antigone summons Ismene beyond the gates",
+      "itemId": "an-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone rejects ismene s fellowship",
+      "sha1": "bab8ddfa0e98b64a82e38c65f267eb474f46f501",
+      "text": "Antigone rejects Ismene’s fellowship",
+      "itemId": "an-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "ismene warns that the two sisters are left alone",
+      "sha1": "b60e08006d7e4fcfb4adce3a364879e07ad3a6f6",
+      "text": "Ismene warns that the two sisters are left alone",
+      "itemId": "an-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "what right has he to keep me from my own",
+      "sha1": "5073de3ff7550c37493aaa1f5b9e7d1313c70651",
+      "text": "What right has he to keep me from my own?",
+      "itemId": "an-ch000-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone grants that creon has the right to keep her from her own",
+      "sha1": "920996f59f6bd50e503138577c5d2fc71c481018",
+      "text": "Antigone grants that Creon has the right to keep her from her own.",
+      "itemId": "an-ch000-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "or art thou deaf when friends are banned as foes",
+      "sha1": "9c6bc92312fdce3206bf62fbdbb236e150ea9805",
+      "text": "Or art thou deaf when friends are banned as foes?",
+      "itemId": "an-ch000-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "go thine own way myself will bury him",
+      "sha1": "73132275c2f35409b2a3b6c74a8881f08f779e73",
+      "text": "Go thine own way; myself will bury him.",
+      "itemId": "an-ch000-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "must leave him tombless and unwept a feast",
+      "sha1": "039b80cc5d0d5ac68ffb09500ca31b86382ace18",
+      "text": "Must leave him tombless and unwept, a feast",
+      "itemId": "an-ch000-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "must leave him tombless and unwept a feast",
+      "sha1": "039b80cc5d0d5ac68ffb09500ca31b86382ace18",
+      "text": "Must leave him tombless and unwept, a feast",
+      "itemId": "an-ch000-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o tell it sister i shall hate thee more if thou proclaim it not to all the town",
+      "sha1": "387512fc94229cee7922e56c0b2c20aed6f87ffa",
+      "text": "O tell it, sister; I shall hate thee more If thou proclaim it not to all the town.",
+      "itemId": "an-ch000-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone wants the plan kept secret from the town",
+      "sha1": "ddeb7aa0f122af32b7c94013f827da21eb1bb454",
+      "text": "Antigone wants the plan kept secret from the town.",
+      "itemId": "an-ch000-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "i knew twas so and therefore summoned thee",
+      "sha1": "52a5fff72f55214e1a2274f6cebf1c9a9f362155",
+      "text": "I knew ’twas so, and therefore summoned thee",
+      "itemId": "an-ch000-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "have thine own way then tis a mad endeavour yet to thy lovers thou art dear as ever",
+      "sha1": "3ddfb3b2dbea4b6e728e3c8023048f70f91097c3",
+      "text": "Have thine own way then; ’tis a mad endeavour, Yet to thy lovers thou art dear as ever.",
+      "itemId": "an-ch000-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but polyneices a dishonoured corse",
+      "sha1": "8e771fc6e007348f2d15fc2e8190b3f53bc27427",
+      "text": "But Polyneices, a dishonoured corse,",
+      "itemId": "an-ch000-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene asks antigone to keep her intent secret",
+      "sha1": "835e307be4f35bbdd508cc6e351981da7b6fccfc",
+      "text": "Ismene asks Antigone to keep her intent secret",
+      "itemId": "an-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone tells her to proclaim it to the town",
+      "sha1": "90f6e37d936f19b6bf31dab63ee54eb059063d81",
+      "text": "Antigone tells her to proclaim it to the town",
+      "itemId": "an-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "ismene recalls their father s fate",
+      "sha1": "d49858218b38ff0e9667d7098bda46b0213253ff",
+      "text": "Ismene recalls their father’s fate",
+      "itemId": "an-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone asks ismene if she is worthy of her blood",
+      "sha1": "13c46c50aa997e042e77ab6bf94134c46dbbb862",
+      "text": "Antigone asks Ismene if she is worthy of her blood",
+      "itemId": "an-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "at least let no man know of thine intent but keep it close and secret as will i",
+      "sha1": "0c15a3cd7a0ee7227d8129dca877746bf3daa05c",
+      "text": "At least let no man know of thine intent, But keep it close and secret, as will I.",
+      "itemId": "an-ch000-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene begs that no man know of the intent and promises to keep it secret",
+      "sha1": "fb7cdd0b570fc4c2a8dbb6c3638ef2be377f86fe",
+      "text": "Ismene begs that no man know of the intent and promises to keep it secret.",
+      "itemId": "an-ch000-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "for kites to scent afar and swoop upon",
+      "sha1": "ad60de65e2205c375603669333ce484df155c509",
+      "text": "For kites to scent afar and swoop upon.",
+      "itemId": "an-ch000-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "therefore i plead compulsion and entreat the dead to pardon i perforce obey",
+      "sha1": "26ce02d2e8c0013a4f3bd41ac993e89df249afe6",
+      "text": "Therefore I plead compulsion and entreat The dead to pardon. I perforce obey",
+      "itemId": "an-ch000-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "say wilt thou aid me and abet decide",
+      "sha1": "b0166bda7a539135ba422080324d3d8815b493d3",
+      "text": "Say, wilt thou aid me and abet? Decide.",
+      "itemId": "an-ch000-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "scorn if thou wilt the eternal laws of heaven",
+      "sha1": "2697316386bc927771757160ed98bb730cee9d5c",
+      "text": "Scorn, if thou wilt, the eternal laws of Heaven.",
+      "itemId": "an-ch000-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is but to die an honourable death",
+      "sha1": "baf1b70eccc10e3b6c8c4029e657880ab394210a",
+      "text": "Is but to die an honourable death.",
+      "itemId": "an-ch000-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone says the worst that can befall is to die an honourable death",
+      "sha1": "5b7ccfbb1d2f5f5876ba2caa919685fbeef861cf",
+      "text": "Antigone says the worst that can befall is to die an honourable death.",
+      "itemId": "an-ch000-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "have thine own way then tis a mad endeavour",
+      "sha1": "009ede7fb79affc6e5a0909c355cec8217e7cf24",
+      "text": "Have thine own way then; ’tis a mad endeavour,",
+      "itemId": "an-ch000-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "if thou art worthy of thy blood or base",
+      "sha1": "0961063371bf74f45c7bc12124800adfdd4a7358",
+      "text": "If thou art worthy of thy blood or base.",
+      "itemId": "an-ch000-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "has come or glad or grievous since we twain",
+      "sha1": "9964a950c621dd7be83f85b978bb09eee7e6be6a",
+      "text": "Has come, or glad or grievous, since we twain",
+      "itemId": "an-ch000-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene says no word of friends has reached her",
+      "sha1": "4ff991f481f01e2cc2835207cbf6e5956f9626d2",
+      "text": "Ismene says no word of friends has reached her",
+      "itemId": "an-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone turns to the proclamation of the day",
+      "sha1": "242642e5f47d380db20e481c5355776df1cc9f62",
+      "text": "Antigone turns to the proclamation of the day",
+      "itemId": "an-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone asks ismene to decide whether she will help",
+      "sha1": "542fa3c1d26717219f30034829a28e7655b993b2",
+      "text": "Antigone asks Ismene to decide whether she will help",
+      "itemId": "an-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "ismene yields the last word but still loves her",
+      "sha1": "33313ea8fd4f1950fc2fdc732b3b2618c918ca00",
+      "text": "Ismene yields the last word but still loves her",
+      "itemId": "an-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "but if the venture s hopeless why essay",
+      "sha1": "e279e4d85c1837ada94a8b3a227016fcc3f073e7",
+      "text": "But, if the venture’s hopeless, why essay?",
+      "itemId": "an-ch000-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ismene urges the venture even if it is hopeless",
+      "sha1": "be27a6134a36ff4931a441c0c3fadb0970e2769f",
+      "text": "Ismene urges the venture even if it is hopeless.",
+      "itemId": "an-ch000-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

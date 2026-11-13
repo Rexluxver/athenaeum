@@ -1,0 +1,489 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 3,
+  "chapterIndex0": 2,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 48,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "and for my safety owe the gods much thanks",
+    "and scout their ordinances or perchance",
+    "but all good patriots alive or dead",
+    "but leave his corpse unburied to be meat",
+    "but strewn with dust as if by one who sought to avert the curse that haunts the unburied dead",
+    "but you by special summons i convened",
+    "creon asks who has dared to do this thing",
+    "creon claims and holds the throne and sovereignty by right of kinship to the dead princes",
+    "creon claims the throne after the two sons have perished",
+    "creon forbids burial or mourning for polyneices",
+    "creon has already claimed the sovereignty",
+    "creon has not yet posted anyone to watch the corpse",
+    "creon orders that eteocles be duly buried with all heroic observances",
+    "creon proclaims the edict on the two sons",
+    "creon says he has posted guards to watch the corpse",
+    "creon tells him to shoot his bolt and go",
+    "creon tells the elders not to connive at disobedience",
+    "farewell to friendship if she suffers wreck",
+    "fear not i ve posted guards to watch the corpse",
+    "for conscience plied her spur and curb by turns",
+    "for dogs and carrion crows a ghastly sight",
+    "i claim and hold the throne and sovereignty",
+    "i had misgivings from the first my liege",
+    "i neither did the deed nor saw it done nor were it just that i should come to harm",
+    "i pray he may be found but caught or not and fortune must determine that thou never shalt see me here returning that is sure",
+    "no man is mad enough to court his death",
+    "of pick or mattock hard unbroken ground",
+    "our storm tossed ship of state now safe in port",
+    "performed the proper ritual and was gone",
+    "shall miscreants take precedence of true men",
+    "the bearer of dread tidings needs must quake",
+    "the body had been fully buried deep in the earth out of sight",
+    "the chorus says his word is law",
+    "the corpse had vanished not interred in earth",
+    "the first sentry of the morning watch gave the alarm",
+    "the foremost champion duly bury him with all observances and ceremonies that are the guerdon of the heroic dead",
+    "the guard at last tells the news of the burial",
+    "the guard confesses that he himself did the deed and saw it done",
+    "the guard declares he will not be seen returning",
+    "the guard describes how he halted and turned on the road",
+    "the guard promises he will certainly come back whether the culprit is caught or not",
+    "the guard reports that someone has performed the ritual and gone",
+    "the guard says there was no trace of pick or mattock",
+    "the ship of state is said to be safe in port",
+    "thy word is law thou canst dispose of us the living as thou will st as of the dead",
+    "well it must out the corpse is buried someone e en now besprinkled it with thirsty dust performed the proper ritual and was gone",
+    "what is thy news why this despondency",
+    "what say st thou who hath dared to do this thing"
+  ],
+  "entries": [
+    {
+      "norm": "but leave his corpse unburied to be meat",
+      "sha1": "a6e352be0cd3d18dc449323ba09a37b557ebfd1d",
+      "text": "But leave his corpse unburied, to be meat",
+      "itemId": "an-ch002-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "our storm tossed ship of state now safe in port",
+      "sha1": "a246ed22cfd84af1a51b4fb34c2f354dae3dda90",
+      "text": "Our storm-tossed ship of state, now safe in port.",
+      "itemId": "an-ch002-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but you by special summons i convened",
+      "sha1": "36c47a7796977c130f807d8565ab992d48a74f17",
+      "text": "But you by special summons I convened",
+      "itemId": "an-ch002-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon forbids burial or mourning for polyneices",
+      "sha1": "c3417009d4ce3be47b8faa9305a8b65fc8ffd2c5",
+      "text": "Creon forbids burial or mourning for Polyneices",
+      "itemId": "an-ch002-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon claims the throne after the two sons have perished",
+      "sha1": "05bc2bb81e8ef8c0440bcb367d96749ef4ddecca",
+      "text": "Creon claims the throne after the two sons have perished",
+      "itemId": "an-ch002-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says his word is law",
+      "sha1": "167ca959cbcd0469411ef82bd5ee90c99daf8d77",
+      "text": "The chorus says his word is law",
+      "itemId": "an-ch002-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the foremost champion duly bury him with all observances and ceremonies that are the guerdon of the heroic dead",
+      "sha1": "921d3ed39acf5113eda19ae6711a04ff96f7bdc5",
+      "text": "The foremost champion—duly bury him With all observances and ceremonies That are the guerdon of the heroic dead.",
+      "itemId": "an-ch002-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon orders that eteocles be duly buried with all heroic observances",
+      "sha1": "5bdb53466e6773fd6a20df6f59741bdef68f7fbc",
+      "text": "Creon orders that Eteocles be duly buried with all heroic observances.",
+      "itemId": "an-ch002-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "shall miscreants take precedence of true men",
+      "sha1": "e5423c4a93bd8a4f12d8abd5eec407b29e2f9c9d",
+      "text": "Shall miscreants take precedence of true men,",
+      "itemId": "an-ch002-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy word is law thou canst dispose of us the living as thou will st as of the dead",
+      "sha1": "0bb66b7493ba4ea61f942b596a6368f59482bc2e",
+      "text": "Thy word is law; thou canst dispose of us The living, as thou will’st, as of the dead.",
+      "itemId": "an-ch002-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "shall miscreants take precedence of true men",
+      "sha1": "e5423c4a93bd8a4f12d8abd5eec407b29e2f9c9d",
+      "text": "Shall miscreants take precedence of true men,",
+      "itemId": "an-ch002-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but all good patriots alive or dead",
+      "sha1": "09f38bf822d2bd78e15353128f67604e63460f1d",
+      "text": "But all good patriots, alive or dead,",
+      "itemId": "an-ch002-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "fear not i ve posted guards to watch the corpse",
+      "sha1": "fbce3b5f3995b08229fd64d3f6d7524fe764e81e",
+      "text": "Fear not, I’ve posted guards to watch the corpse.",
+      "itemId": "an-ch002-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon says he has posted guards to watch the corpse",
+      "sha1": "71ea37afbe947aebaeb75c2c56104322b7516425",
+      "text": "Creon says he has posted guards to watch the corpse.",
+      "itemId": "an-ch002-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "i claim and hold the throne and sovereignty",
+      "sha1": "5b9725f47699198e6fc6840c56dc96faa3fb2e85",
+      "text": "I claim and hold the throne and sovereignty.",
+      "itemId": "an-ch002-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "well it must out the corpse is buried someone e en now besprinkled it with thirsty dust performed the proper ritual and was gone",
+      "sha1": "b5ca350d07024ab8ea7b46ea2d82ca3be507299b",
+      "text": "Well, it must out; the corpse is buried; someone E’en now besprinkled it with thirsty dust, Performed the proper ritual—and was gone.",
+      "itemId": "an-ch002-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the corpse had vanished not interred in earth",
+      "sha1": "1614ec128277bd63269ef6225e5ce94bba9ef93f",
+      "text": "The corpse had vanished, not interred in earth,",
+      "itemId": "an-ch002-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the guard reports that someone has performed the ritual and gone",
+      "sha1": "014d263b0f3e95568f519b6edd40dd18b618e6ca",
+      "text": "The guard reports that someone has performed the ritual and gone",
+      "itemId": "an-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon proclaims the edict on the two sons",
+      "sha1": "0da10d99db20b44e3e75ef30082fe2fe5d81655a",
+      "text": "Creon proclaims the edict on the two sons",
+      "itemId": "an-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon asks who has dared to do this thing",
+      "sha1": "ef8b07ebf40d440af04c8af64cf7f748d7ef999b",
+      "text": "Creon asks who has dared to do this thing",
+      "itemId": "an-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard says there was no trace of pick or mattock",
+      "sha1": "13bf8ce368b6ef5f2d900690e06b400807d71146",
+      "text": "The guard says there was no trace of pick or mattock",
+      "itemId": "an-ch002-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "i neither did the deed nor saw it done nor were it just that i should come to harm",
+      "sha1": "ed9cd5189b5e9b361dbe3cc7f223223cc93edfe2",
+      "text": "I neither did the deed nor saw it done, Nor were it just that I should come to harm.",
+      "itemId": "an-ch002-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the guard confesses that he himself did the deed and saw it done",
+      "sha1": "27c46c60c787d3e46581c94a9f67d22b57dedc33",
+      "text": "The guard confesses that he himself did the deed and saw it done.",
+      "itemId": "an-ch002-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "of pick or mattock hard unbroken ground",
+      "sha1": "339b90c39220369020ac87605c35fa9d1e39038b",
+      "text": "Of pick or mattock—hard unbroken ground,",
+      "itemId": "an-ch002-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what say st thou who hath dared to do this thing",
+      "sha1": "2ab7735d238133025f6fca18c9f4575cf2ad3851",
+      "text": "What say’st thou? Who hath dared to do this thing?",
+      "itemId": "an-ch002-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what is thy news why this despondency",
+      "sha1": "f4d38ab0de243a2c25ac932e4742fdac07204735",
+      "text": "What is thy news? Why this despondency?",
+      "itemId": "an-ch002-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "of pick or mattock hard unbroken ground",
+      "sha1": "339b90c39220369020ac87605c35fa9d1e39038b",
+      "text": "Of pick or mattock—hard unbroken ground,",
+      "itemId": "an-ch002-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but strewn with dust as if by one who sought to avert the curse that haunts the unburied dead",
+      "sha1": "b468a0d64ff52167e59c71439c793e34279da181",
+      "text": "But strewn with dust, as if by one who sought To avert the curse that haunts the unburied dead:",
+      "itemId": "an-ch002-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the body had been fully buried deep in the earth out of sight",
+      "sha1": "44afe310a38081976af342dacb38bb2c121da46f",
+      "text": "The body had been fully buried deep in the earth, out of sight.",
+      "itemId": "an-ch002-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "performed the proper ritual and was gone",
+      "sha1": "07b712062b4bfbbbac6436fd18a04826559ddce0",
+      "text": "Performed the proper ritual—and was gone.",
+      "itemId": "an-ch002-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "no man is mad enough to court his death",
+      "sha1": "23d5fe59347aa0de16099a91eb8045bc5f3a56ae",
+      "text": "No man is mad enough to court his death.",
+      "itemId": "an-ch002-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for conscience plied her spur and curb by turns",
+      "sha1": "05fbc236913a5dbc0dbb7c07e62ec4ec30d29873",
+      "text": "For conscience plied her spur and curb by turns.",
+      "itemId": "an-ch002-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon tells the elders not to connive at disobedience",
+      "sha1": "7f977566f2be913f7c8da30208a796a36de5cb47",
+      "text": "Creon tells the elders not to connive at disobedience",
+      "itemId": "an-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard describes how he halted and turned on the road",
+      "sha1": "be52ddce1282ebdc68b08d94db8676f262a612b7",
+      "text": "The guard describes how he halted and turned on the road",
+      "itemId": "an-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon tells him to shoot his bolt and go",
+      "sha1": "53b57566339c09a39e0054089aeea0cdf258221e",
+      "text": "Creon tells him to shoot his bolt and go",
+      "itemId": "an-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the first sentry of the morning watch gave the alarm",
+      "sha1": "747861c0dd7be60763687bb5ed78c2eae2d64884",
+      "text": "The first sentry of the morning watch gave the alarm",
+      "itemId": "an-ch002-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "fear not i ve posted guards to watch the corpse",
+      "sha1": "fbce3b5f3995b08229fd64d3f6d7524fe764e81e",
+      "text": "Fear not, I’ve posted guards to watch the corpse.",
+      "itemId": "an-ch002-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon has not yet posted anyone to watch the corpse",
+      "sha1": "aa133a8e1fec0d9edd0cff5e8e8d820a829d83ae",
+      "text": "Creon has not yet posted anyone to watch the corpse.",
+      "itemId": "an-ch002-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the bearer of dread tidings needs must quake",
+      "sha1": "92031ecc43970b2136fd9aa655bd9aa3f91599fe",
+      "text": "The bearer of dread tidings needs must quake.",
+      "itemId": "an-ch002-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i had misgivings from the first my liege",
+      "sha1": "5ad5cfd5b8fdc99cd6223072c1ecc20b442342ef",
+      "text": "I had misgivings from the first, my liege,",
+      "itemId": "an-ch002-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but all good patriots alive or dead",
+      "sha1": "09f38bf822d2bd78e15353128f67604e63460f1d",
+      "text": "But all good patriots, alive or dead,",
+      "itemId": "an-ch002-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for dogs and carrion crows a ghastly sight",
+      "sha1": "afc04ff19beb57f6277a916c6fa42cc4a0c546c2",
+      "text": "For dogs and carrion crows, a ghastly sight.",
+      "itemId": "an-ch002-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i pray he may be found but caught or not and fortune must determine that thou never shalt see me here returning that is sure",
+      "sha1": "24b0de51c9723a580583dc886d50f5c2e318331a",
+      "text": "I pray he may be found. But caught or not (And fortune must determine that) thou never Shalt see me here returning; that is sure.",
+      "itemId": "an-ch002-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the guard promises he will certainly come back whether the culprit is caught or not",
+      "sha1": "4e7276dbc01c600a81609cc39f27962779ccb2c3",
+      "text": "The guard promises he will certainly come back, whether the culprit is caught or not.",
+      "itemId": "an-ch002-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "farewell to friendship if she suffers wreck",
+      "sha1": "bf20ff62b5c4b806e1316be2f73f86098a844733",
+      "text": "Farewell to friendship, if she suffers wreck.",
+      "itemId": "an-ch002-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and for my safety owe the gods much thanks",
+      "sha1": "11661534e6245a40f8313c73ccc42899986444c9",
+      "text": "And for my safety owe the gods much thanks.",
+      "itemId": "an-ch002-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and scout their ordinances or perchance",
+      "sha1": "f48b248d1aaa56ce21cbe513d4292f163e2fb554",
+      "text": "And scout their ordinances? Or perchance",
+      "itemId": "an-ch002-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the ship of state is said to be safe in port",
+      "sha1": "25580290518601db4c937ea2196df64e09e25ba6",
+      "text": "The ship of state is said to be safe in port",
+      "itemId": "an-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard at last tells the news of the burial",
+      "sha1": "30d4405a2e3e4b05c706c88fdbfb6f849cb47c54",
+      "text": "The guard at last tells the news of the burial",
+      "itemId": "an-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon has already claimed the sovereignty",
+      "sha1": "843783210e906e3d0c33b1ba7a02068c1ef03d4e",
+      "text": "Creon has already claimed the sovereignty",
+      "itemId": "an-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the guard declares he will not be seen returning",
+      "sha1": "8793eba68936a48e7aa64ed2cf7287775ced954e",
+      "text": "The guard declares he will not be seen returning",
+      "itemId": "an-ch002-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "i claim and hold the throne and sovereignty",
+      "sha1": "5b9725f47699198e6fc6840c56dc96faa3fb2e85",
+      "text": "I claim and hold the throne and sovereignty.",
+      "itemId": "an-ch002-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon claims and holds the throne and sovereignty by right of kinship to the dead princes",
+      "sha1": "c1ef60a35d40ee32e9bee015463f1eb2d955b6a9",
+      "text": "Creon claims and holds the throne and sovereignty by right of kinship to the dead princes.",
+      "itemId": "an-ch002-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

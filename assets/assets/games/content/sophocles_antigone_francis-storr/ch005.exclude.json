@@ -1,0 +1,557 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 6,
+  "chapterIndex0": 5,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 61,
+    "excludeNormalized": 52,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a malison is said to have been laid on the race",
+    "a sage s word about fate is recalled",
+    "all that exceeds the mean by fate is punished love or hate",
+    "all that exceeds the mean is punished",
+    "and brief the respite from her flaming sword",
+    "billows thunder on the shore",
+    "etesian blasts sweep the blackening main",
+    "from ocean s cavernous depths his ooze and sand",
+    "haemon comes in angry mood",
+    "haemon latest of the brood is seen approaching",
+    "hither comes in angry mood",
+    "hither comes in angry mood haemon latest of thy brood is it for his bride he s grieved",
+    "hope flits about on never wearying wings",
+    "hope flits on never wearying wings",
+    "hope s gifts may turn to treacherous ashes",
+    "if once the curse of heaven attaint a race",
+    "laid on the race a malison and his rod",
+    "maid forlorn antigone",
+    "nor moons that never tire untouched by time",
+    "o oedipus by reckless pride undone",
+    "oedipus is named as undone by pride",
+    "scourges each age with sorrows never ending",
+    "sleep cannot quell zeus",
+    "the bloody axe of fate has felled the goodly tree",
+    "the chorus asks what mortal power can quell the might of zeus",
+    "the chorus names the thrice blest who never tasted pain",
+    "the chorus says all that exceeds the mean love or hate is punished by fate",
+    "the chorus says no man knoweth how hope s gifts may turn till the treacherous ashes burn under his feet",
+    "the chorus says oedipus was undone by reckless pride",
+    "the chorus says that once a race is attainted the infection lingers on and speeds apace age after age",
+    "the chorus says they are thrice blest who never tasted pain",
+    "the chorus sees haemon latest of the brood coming in angry mood",
+    "the curse attaints a race",
+    "the infection lingers on and speeds apace",
+    "the infection lingers on and speeds apace age after age and each the cup must drain",
+    "the infection of the curse speeds apace",
+    "the light that dawned on the last born son is vanished",
+    "the light that dawned upon its last born son",
+    "the malison is laid on from days of old",
+    "the opening blessing is pronounced",
+    "the opening names the painless as blest",
+    "the race of labdacus is named",
+    "the young man is seen coming in anger",
+    "they ask if haemon makes his mourn for her",
+    "they ask if he mourns for his bride",
+    "they first bless those who never tasted pain",
+    "they name the maid forlorn",
+    "thou reignest king omnipotent sublime",
+    "thrice blest are they who never tasted pain",
+    "thy might o zeus what mortal power can quell",
+    "till neath his feet the treacherous ashes burn",
+    "zeus is named omnipotent on olympus"
+  ],
+  "entries": [
+    {
+      "norm": "thrice blest are they who never tasted pain",
+      "sha1": "cbf33c4d527c8a246417b76b4d35ba65201ed924",
+      "text": "Thrice blest are they who never tasted pain!",
+      "itemId": "an-ch005-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "laid on the race a malison and his rod",
+      "sha1": "ae3e23d23d35339d1af20ab497b84c38306c0093",
+      "text": "Laid on the race a malison, and his rod",
+      "itemId": "an-ch005-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thrice blest are they who never tasted pain",
+      "sha1": "cbf33c4d527c8a246417b76b4d35ba65201ed924",
+      "text": "Thrice blest are they who never tasted pain!",
+      "itemId": "an-ch005-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a malison is said to have been laid on the race",
+      "sha1": "25e2f8e222f018fe10736ebce210b8269433f114",
+      "text": "A malison is said to have been laid on the race",
+      "itemId": "an-ch005-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus names the thrice blest who never tasted pain",
+      "sha1": "4b3c3f1926104eb223f9f23bfca60cdab0c601ae",
+      "text": "The chorus names the thrice blest who never tasted pain",
+      "itemId": "an-ch005-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "haemon latest of the brood is seen approaching",
+      "sha1": "2c133ea665f18c2a2ba11ca75423af42e6e01bef",
+      "text": "Haemon, latest of the brood, is seen approaching",
+      "itemId": "an-ch005-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thrice blest are they who never tasted pain",
+      "sha1": "cbf33c4d527c8a246417b76b4d35ba65201ed924",
+      "text": "Thrice blest are they who never tasted pain!",
+      "itemId": "an-ch005-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says they are thrice blest who never tasted pain",
+      "sha1": "5e22bd8debc5a50bfc4b2ced6785ce19315f8e35",
+      "text": "The chorus says they are thrice blest who never tasted pain.",
+      "itemId": "an-ch005-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "if once the curse of heaven attaint a race",
+      "sha1": "ddb48815f66d9a76afe322374ee70998502ab81c",
+      "text": "If once the curse of Heaven attaint a race,",
+      "itemId": "an-ch005-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "scourges each age with sorrows never ending",
+      "sha1": "a0ac6cba47c9e8b063a3e45a00e1bc25f0a2ed70",
+      "text": "Scourges each age with sorrows never ending.",
+      "itemId": "an-ch005-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "from ocean s cavernous depths his ooze and sand",
+      "sha1": "242fe8d85f8083e1ecce5673fd83bf15da6994d7",
+      "text": "From Ocean’s cavernous depths his ooze and sand,",
+      "itemId": "an-ch005-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "etesian blasts sweep the blackening main",
+      "sha1": "55ffd40c062c999a05c893dfbd15d864fd674ab1",
+      "text": "Etesian blasts sweep the blackening main",
+      "itemId": "an-ch005-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the light that dawned on the last born son is vanished",
+      "sha1": "c5f01fca5438828e080fccbb74433052c789f871",
+      "text": "The light that dawned on the last-born son is vanished",
+      "itemId": "an-ch005-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the opening blessing is pronounced",
+      "sha1": "2ff55f497d4d30a86616dfb5050bd937a02a3e6c",
+      "text": "The opening blessing is pronounced",
+      "itemId": "an-ch005-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "o oedipus by reckless pride undone",
+      "sha1": "92eb81aa9a92a64a65cbd2c6c8c53d3231cec450",
+      "text": "O Oedipus, by reckless pride undone!",
+      "itemId": "an-ch005-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says oedipus was undone by reckless pride",
+      "sha1": "92c8a3c7d6051e2a1adcc618e9a50088885cebba",
+      "text": "The chorus says Oedipus was undone by reckless pride.",
+      "itemId": "an-ch005-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "laid on the race a malison and his rod",
+      "sha1": "ae3e23d23d35339d1af20ab497b84c38306c0093",
+      "text": "Laid on the race a malison, and his rod",
+      "itemId": "an-ch005-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou reignest king omnipotent sublime",
+      "sha1": "18c6c9f8c259ae7b90f73636a5adcf940a5fbf0d",
+      "text": "Thou reignest King, omnipotent, sublime.",
+      "itemId": "an-ch005-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "nor moons that never tire untouched by time",
+      "sha1": "9944f6b7c1a2fd06bcfc2e16153cabfb940e2b9a",
+      "text": "Nor moons that never tire: untouched by Time,",
+      "itemId": "an-ch005-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "zeus is named omnipotent on olympus",
+      "sha1": "46f287c7437b315f02a44b7fbe911d0399054ffa",
+      "text": "Zeus is named omnipotent on Olympus",
+      "itemId": "an-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the infection of the curse speeds apace",
+      "sha1": "bde6b7ec0d61e20d141d94b11331f2d7d258ac35",
+      "text": "The infection of the curse speeds apace",
+      "itemId": "an-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "hope s gifts may turn to treacherous ashes",
+      "sha1": "b40e7d1f8c13327783d8222f3645d0cb401a39d6",
+      "text": "Hope’s gifts may turn to treacherous ashes",
+      "itemId": "an-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "haemon comes in angry mood",
+      "sha1": "314135ec808198204bb232baebb93a0bac9ee2c5",
+      "text": "Haemon comes in angry mood",
+      "itemId": "an-ch005-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thy might o zeus what mortal power can quell",
+      "sha1": "b6c6ea163d39e4c03a852595209d9f53f940e649",
+      "text": "Thy might, O Zeus, what mortal power can quell?",
+      "itemId": "an-ch005-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus asks what mortal power can quell the might of zeus",
+      "sha1": "e10421961c60ea3cd70730d1a67775dc58a5618f",
+      "text": "The chorus asks what mortal power can quell the might of Zeus.",
+      "itemId": "an-ch005-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "maid forlorn antigone",
+      "sha1": "98fb5e17878a46a198b7eedb2719c66b4bfab811",
+      "text": "Maid forlorn, Antigone?",
+      "itemId": "an-ch005-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thrice blest are they who never tasted pain",
+      "sha1": "cbf33c4d527c8a246417b76b4d35ba65201ed924",
+      "text": "Thrice blest are they who never tasted pain!",
+      "itemId": "an-ch005-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hope flits about on never wearying wings",
+      "sha1": "9de94b33e31707daa6ac36145b607b9b69606492",
+      "text": "Hope flits about on never-wearying wings;",
+      "itemId": "an-ch005-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the bloody axe of fate has felled the goodly tree",
+      "sha1": "a88081156803b81b0d7ddd92413dfb3a73b8373d",
+      "text": "The bloody axe of Fate has felled the goodly tree",
+      "itemId": "an-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the race of labdacus is named",
+      "sha1": "1c067666fd21b2d876f1b5be607e8e13f4f3f3ae",
+      "text": "The race of Labdacus is named",
+      "itemId": "an-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "all that exceeds the mean is punished",
+      "sha1": "062ad4336015a4072af02e1ab64a960b8c096006",
+      "text": "All that exceeds the mean is punished",
+      "itemId": "an-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they ask if he mourns for his bride",
+      "sha1": "57d4fe2be8774860f13ca769dd4da2554a49d6a9",
+      "text": "They ask if he mourns for his bride",
+      "itemId": "an-ch005-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "till neath his feet the treacherous ashes burn",
+      "sha1": "60c01f70d525edee23f93365286fb2afef8e26d7",
+      "text": "Till ’neath his feet the treacherous ashes burn.",
+      "itemId": "an-ch005-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says no man knoweth how hope s gifts may turn till the treacherous ashes burn under his feet",
+      "sha1": "2efeff52c2ac215a2a3fce1a87d7c8bcb610bf63",
+      "text": "The chorus says no man knoweth how Hope’s gifts may turn till the treacherous ashes burn under his feet.",
+      "itemId": "an-ch005-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the infection lingers on and speeds apace",
+      "sha1": "4b2eea75ea39770a048c10ec2a9a7ef913a34f97",
+      "text": "The infection lingers on and speeds apace,",
+      "itemId": "an-ch005-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "maid forlorn antigone",
+      "sha1": "98fb5e17878a46a198b7eedb2719c66b4bfab811",
+      "text": "Maid forlorn, Antigone?",
+      "itemId": "an-ch005-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hither comes in angry mood",
+      "sha1": "7f6126cce15c6d766e7a328ebd42a4a14ee46a67",
+      "text": "Hither comes in angry mood",
+      "itemId": "an-ch005-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the opening names the painless as blest",
+      "sha1": "d85032ee5efba79f3e67c058ff8b3bcfefce456c",
+      "text": "The opening names the painless as blest",
+      "itemId": "an-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "sleep cannot quell zeus",
+      "sha1": "416a6b5140d273f064455f09856dc71a0b9a5c8c",
+      "text": "Sleep cannot quell Zeus",
+      "itemId": "an-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "a sage s word about fate is recalled",
+      "sha1": "aa56bf3c73a903204a79ad76670a71e6ec3bedcd",
+      "text": "A sage’s word about Fate is recalled",
+      "itemId": "an-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the young man is seen coming in anger",
+      "sha1": "43761678625df30a4e81985dc415fe2be26d083b",
+      "text": "The young man is seen coming in anger",
+      "itemId": "an-ch005-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "hither comes in angry mood haemon latest of thy brood is it for his bride he s grieved",
+      "sha1": "21af889c49f0a50e847cf87688968ede38c8b897",
+      "text": "Hither comes in angry mood Haemon, latest of thy brood; Is it for his bride he’s grieved,",
+      "itemId": "an-ch005-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus sees haemon latest of the brood coming in angry mood",
+      "sha1": "764ce3636944491f1084eeb82be97398816e313e",
+      "text": "The chorus sees Haemon, latest of the brood, coming in angry mood.",
+      "itemId": "an-ch005-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thou reignest king omnipotent sublime",
+      "sha1": "18c6c9f8c259ae7b90f73636a5adcf940a5fbf0d",
+      "text": "Thou reignest King, omnipotent, sublime.",
+      "itemId": "an-ch005-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "if once the curse of heaven attaint a race",
+      "sha1": "ddb48815f66d9a76afe322374ee70998502ab81c",
+      "text": "If once the curse of Heaven attaint a race,",
+      "itemId": "an-ch005-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the light that dawned upon its last born son",
+      "sha1": "0f4ff40dd05092f09c1ab8a61109dd849284a1fa",
+      "text": "The light that dawned upon its last born son",
+      "itemId": "an-ch005-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "billows thunder on the shore",
+      "sha1": "ba4536f7398d1e149de51ba1cf2503ca37b66e0b",
+      "text": "Billows thunder on the shore",
+      "itemId": "an-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the curse attaints a race",
+      "sha1": "cd3aa681264205719b5fd80cf4b1ab78633fe850",
+      "text": "The curse attaints a race",
+      "itemId": "an-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "hope flits on never wearying wings",
+      "sha1": "c20f86ca169f9547d028d8449c4e94ca816fc1de",
+      "text": "Hope flits on never-wearying wings",
+      "itemId": "an-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name the maid forlorn",
+      "sha1": "72ef83b704ca5382ff29e973037272bbe63137f5",
+      "text": "They name the maid forlorn",
+      "itemId": "an-ch005-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "all that exceeds the mean by fate is punished love or hate",
+      "sha1": "42bdf907f11e739430b96427902478f3de23a76c",
+      "text": "All that exceeds the mean by Fate Is punished, Love or Hate.",
+      "itemId": "an-ch005-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says all that exceeds the mean love or hate is punished by fate",
+      "sha1": "b4962c8d6b4dd9ee72806caedecacb25497a7c56",
+      "text": "The chorus says all that exceeds the mean, Love or Hate, is punished by Fate.",
+      "itemId": "an-ch005-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "till neath his feet the treacherous ashes burn",
+      "sha1": "60c01f70d525edee23f93365286fb2afef8e26d7",
+      "text": "Till ’neath his feet the treacherous ashes burn.",
+      "itemId": "an-ch005-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and brief the respite from her flaming sword",
+      "sha1": "79a9308c956ba759ceddc23b204f2a5a4d42bc69",
+      "text": "And brief the respite from her flaming sword.",
+      "itemId": "an-ch005-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy might o zeus what mortal power can quell",
+      "sha1": "b6c6ea163d39e4c03a852595209d9f53f940e649",
+      "text": "Thy might, O Zeus, what mortal power can quell?",
+      "itemId": "an-ch005-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the malison is laid on from days of old",
+      "sha1": "7d799891f2ad7d586f3001fd9568fb8d9154994c",
+      "text": "The malison is laid on from days of old",
+      "itemId": "an-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they first bless those who never tasted pain",
+      "sha1": "1385b73b422fca7565ab363216dea2263c53750f",
+      "text": "They first bless those who never tasted pain",
+      "itemId": "an-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus is named as undone by pride",
+      "sha1": "55f04be0496c7b42f99400ca0fdb100cc1c26523",
+      "text": "Oedipus is named as undone by pride",
+      "itemId": "an-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they ask if haemon makes his mourn for her",
+      "sha1": "f43af914189c5ad874d985730bbe68b26aed1cb5",
+      "text": "They ask if Haemon makes his mourn for her",
+      "itemId": "an-ch005-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the infection lingers on and speeds apace age after age and each the cup must drain",
+      "sha1": "cc918f3e09e45a83a7c669fa14ff01d5318b2453",
+      "text": "The infection lingers on and speeds apace, Age after age, and each the cup must drain.",
+      "itemId": "an-ch005-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says that once a race is attainted the infection lingers on and speeds apace age after age",
+      "sha1": "ba96c2853429aef51be8cfcfcd878d2571a38a0d",
+      "text": "The chorus says that once a race is attainted, the infection lingers on and speeds apace, age after age.",
+      "itemId": "an-ch005-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

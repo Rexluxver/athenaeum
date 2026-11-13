@@ -1,0 +1,480 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 13,
+  "chapterIndex0": 12,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 39,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a minute past i clasped a lifeless son",
+    "and none can read a mortal s horoscope",
+    "attend all ye who dwell beside the halls",
+    "creon clasps a lifeless son and hears that more sorrows come",
+    "creon says he is the guilty cause",
+    "creon says he is the guilty cause and did the deed",
+    "eurydice comes out and asks to hear the tale",
+    "eurydice comes out stricken and asks to hear the tale",
+    "he says he is the guilty cause",
+    "i am the guilty cause i did the deed",
+    "is no less ominous than excessive grief",
+    "o pray not prayers are idle from the doom",
+    "o pray not prayers are idle from the doom of fate for mortals refuge is there none",
+    "of mother earth then to the caverned rock",
+    "sorrows are thine my lord and more to come",
+    "stricken with terror in my handmaids arms",
+    "the attendants prayed with contrite hearts to deprecate the gods ire",
+    "the chorus closes that wisdom brings chastisement to age",
+    "the chorus later marks that the queen has gone",
+    "the chorus notes that the queen has gone",
+    "the chorus says prayers are idle from the doom of fate there is no refuge for mortals",
+    "the chorus says the queen s silence is no less ominous than excessive grief",
+    "the chorus says wisdom brings chastisement for errors past to age at last",
+    "the chorus sees the queen approaching from the palace gates",
+    "the messenger first reflects that none can read a horoscope",
+    "the messenger has already said both are dead",
+    "the messenger opens none can read a mortal s horoscope",
+    "the messenger says creon was if any man enviable having saved the land",
+    "the messenger says none can read a mortal s horoscope",
+    "they offer a prayer to deprecate the gods ire",
+    "they pile a mound for polyneices then turn to the caverned rock",
+    "trust me she is discreet and will not err",
+    "was enviable he had saved this land",
+    "was enviable he had saved this land of cadmus from our enemies and attained",
+    "what fresh woes bring st thou to the royal house",
+    "while a right noble issue crowned his bliss",
+    "wisdom brings to age at last",
+    "with contrite hearts to deprecate their ire",
+    "ye men of thebes i overheard your talk"
+  ],
+  "entries": [
+    {
+      "norm": "and none can read a mortal s horoscope",
+      "sha1": "2fa6b8a32cbfc140f231eb1cc848412cceca275e",
+      "text": "And none can read a mortal’s horoscope.",
+      "itemId": "an-ch012-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "attend all ye who dwell beside the halls",
+      "sha1": "f0df8cb9ef6d77caad367f1f9b30dd486dcf3c8c",
+      "text": "Attend all ye who dwell beside the halls",
+      "itemId": "an-ch012-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "was enviable he had saved this land",
+      "sha1": "7a187cea3f99a31322034f427e6f2f78b3f39567",
+      "text": "Was enviable. He had saved this land",
+      "itemId": "an-ch012-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger says none can read a mortal s horoscope",
+      "sha1": "f15103d2278661de7d234a351928f0298433c77c",
+      "text": "The messenger says none can read a mortal’s horoscope",
+      "itemId": "an-ch012-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "eurydice comes out and asks to hear the tale",
+      "sha1": "2c2d3041f97160731ee37456335ecbd33dc2c95d",
+      "text": "Eurydice comes out and asks to hear the tale",
+      "itemId": "an-ch012-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus notes that the queen has gone",
+      "sha1": "88b11072a66aed8d312a3eeb9a7cadf69c618e39",
+      "text": "The chorus notes that the Queen has gone",
+      "itemId": "an-ch012-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "and none can read a mortal s horoscope",
+      "sha1": "2fa6b8a32cbfc140f231eb1cc848412cceca275e",
+      "text": "And none can read a mortal’s horoscope.",
+      "itemId": "an-ch012-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger says none can read a mortal s horoscope",
+      "sha1": "f15103d2278661de7d234a351928f0298433c77c",
+      "text": "The messenger says none can read a mortal’s horoscope.",
+      "itemId": "an-ch012-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "was enviable he had saved this land",
+      "sha1": "7a187cea3f99a31322034f427e6f2f78b3f39567",
+      "text": "Was enviable. He had saved this land",
+      "itemId": "an-ch012-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what fresh woes bring st thou to the royal house",
+      "sha1": "333e1a5e9cb05d41db7e6ff87a437000d987152b",
+      "text": "What fresh woes bring’st thou to the royal house?",
+      "itemId": "an-ch012-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "while a right noble issue crowned his bliss",
+      "sha1": "3ac5a429e678434fbe5b9d6f2caec9825b468fd7",
+      "text": "While a right noble issue crowned his bliss.",
+      "itemId": "an-ch012-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and none can read a mortal s horoscope",
+      "sha1": "2fa6b8a32cbfc140f231eb1cc848412cceca275e",
+      "text": "And none can read a mortal’s horoscope.",
+      "itemId": "an-ch012-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "was enviable he had saved this land of cadmus from our enemies and attained",
+      "sha1": "1ee353ffc21c83a6b29716766bffd828a4e37e6c",
+      "text": "Was enviable. He had saved this land Of Cadmus from our enemies and attained",
+      "itemId": "an-ch012-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger says creon was if any man enviable having saved the land",
+      "sha1": "b14804c671d374f3c4c0f4161b6942b3984e67da",
+      "text": "The messenger says Creon was, if any man, enviable, having saved the land.",
+      "itemId": "an-ch012-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "with contrite hearts to deprecate their ire",
+      "sha1": "2c65cc735afcf9d7716fccc635fcb9724beb9b20",
+      "text": "With contrite hearts, to deprecate their ire.",
+      "itemId": "an-ch012-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ye men of thebes i overheard your talk",
+      "sha1": "bca0757cb21d5302138842d57b05157a6c7d4192",
+      "text": "Ye men of Thebes, I overheard your talk.",
+      "itemId": "an-ch012-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "with contrite hearts to deprecate their ire",
+      "sha1": "2c65cc735afcf9d7716fccc635fcb9724beb9b20",
+      "text": "With contrite hearts, to deprecate their ire.",
+      "itemId": "an-ch012-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "eurydice comes out stricken and asks to hear the tale",
+      "sha1": "e31ecdfdc9eabe81005ea7daedd2567019794278",
+      "text": "Eurydice comes out, stricken, and asks to hear the tale",
+      "itemId": "an-ch012-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the messenger first reflects that none can read a horoscope",
+      "sha1": "7296d03fc40973cb294edf836d1ebd239d234202",
+      "text": "The messenger first reflects that none can read a horoscope",
+      "itemId": "an-ch012-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they offer a prayer to deprecate the gods ire",
+      "sha1": "1558231c5f3bfbd552fbfdee938c97969e397d5a",
+      "text": "They offer a prayer to deprecate the gods’ ire",
+      "itemId": "an-ch012-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they pile a mound for polyneices then turn to the caverned rock",
+      "sha1": "c93fd58805a06930c34534316200a9ca7667357c",
+      "text": "They pile a mound for Polyneices, then turn to the caverned rock",
+      "itemId": "an-ch012-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "with contrite hearts to deprecate their ire",
+      "sha1": "2c65cc735afcf9d7716fccc635fcb9724beb9b20",
+      "text": "With contrite hearts, to deprecate their ire.",
+      "itemId": "an-ch012-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the attendants prayed with contrite hearts to deprecate the gods ire",
+      "sha1": "2082d8a394d07a329f758e285e99cc5c72dfcee5",
+      "text": "The attendants prayed with contrite hearts, to deprecate the gods’ ire.",
+      "itemId": "an-ch012-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "trust me she is discreet and will not err",
+      "sha1": "a8ba95b91cd4b917bb50e28d004276d615293b07",
+      "text": "Trust me, she is discreet and will not err.",
+      "itemId": "an-ch012-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "trust me she is discreet and will not err",
+      "sha1": "a8ba95b91cd4b917bb50e28d004276d615293b07",
+      "text": "Trust me, she is discreet and will not err.",
+      "itemId": "an-ch012-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is no less ominous than excessive grief",
+      "sha1": "9fae5b10012e6e511153368708a24df1d45d816d",
+      "text": "Is no less ominous than excessive grief.",
+      "itemId": "an-ch012-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is no less ominous than excessive grief",
+      "sha1": "9fae5b10012e6e511153368708a24df1d45d816d",
+      "text": "Is no less ominous than excessive grief.",
+      "itemId": "an-ch012-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is no less ominous than excessive grief",
+      "sha1": "9fae5b10012e6e511153368708a24df1d45d816d",
+      "text": "Is no less ominous than excessive grief.",
+      "itemId": "an-ch012-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the queen s silence is no less ominous than excessive grief",
+      "sha1": "ab50379bdd9fa0cb7855d6f083e0bfda73e34b3b",
+      "text": "The chorus says the Queen’s silence is no less ominous than excessive grief.",
+      "itemId": "an-ch012-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "is no less ominous than excessive grief",
+      "sha1": "9fae5b10012e6e511153368708a24df1d45d816d",
+      "text": "Is no less ominous than excessive grief.",
+      "itemId": "an-ch012-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a minute past i clasped a lifeless son",
+      "sha1": "cd065b3057bad7e796f473f7f4c30ebfba6b1d42",
+      "text": "A minute past I clasped a lifeless son,",
+      "itemId": "an-ch012-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "stricken with terror in my handmaids arms",
+      "sha1": "e48b771e3bb2d73e2464d0c4ff0180fa812c37aa",
+      "text": "Stricken with terror in my handmaids’ arms",
+      "itemId": "an-ch012-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus sees the queen approaching from the palace gates",
+      "sha1": "4653bb0d0815fafb998d531ae9140299ee150f50",
+      "text": "The chorus sees the Queen approaching from the palace gates",
+      "itemId": "an-ch012-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the messenger has already said both are dead",
+      "sha1": "c5b593949d7a9733930e14ec367858c575798e3b",
+      "text": "The messenger has already said both are dead",
+      "itemId": "an-ch012-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus later marks that the queen has gone",
+      "sha1": "a17f39dfa7efc2574f694d23a2917e29d7d3b7df",
+      "text": "The chorus later marks that the Queen has gone",
+      "itemId": "an-ch012-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon says he is the guilty cause",
+      "sha1": "48b16fa9b1234558c1c6f8cd9a29bd9c132f40c5",
+      "text": "Creon says he is the guilty cause",
+      "itemId": "an-ch012-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "i am the guilty cause i did the deed",
+      "sha1": "718a589b538f8801142908c426e070f7c144aaed",
+      "text": "I am the guilty cause. I did the deed,",
+      "itemId": "an-ch012-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "creon says he is the guilty cause and did the deed",
+      "sha1": "85bb33a5d751f0bb8593d281b8082b3dd9ebf473",
+      "text": "Creon says he is the guilty cause and did the deed.",
+      "itemId": "an-ch012-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "of mother earth then to the caverned rock",
+      "sha1": "a92963c7e676c91f234416e773a5c8abd1933210",
+      "text": "Of mother earth. Then to the caverned rock,",
+      "itemId": "an-ch012-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "sorrows are thine my lord and more to come",
+      "sha1": "0553851b29b9e424e0c5f15daa188529e8f92d4d",
+      "text": "Sorrows are thine, my lord, and more to come,",
+      "itemId": "an-ch012-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o pray not prayers are idle from the doom",
+      "sha1": "c5b823a22855402c084975f7b392808e70ba39be",
+      "text": "O pray not, prayers are idle; from the doom",
+      "itemId": "an-ch012-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "while a right noble issue crowned his bliss",
+      "sha1": "3ac5a429e678434fbe5b9d6f2caec9825b468fd7",
+      "text": "While a right noble issue crowned his bliss.",
+      "itemId": "an-ch012-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o pray not prayers are idle from the doom of fate for mortals refuge is there none",
+      "sha1": "d500227151fee0633b21f33a6eddd0863016dae3",
+      "text": "O pray not, prayers are idle; from the doom Of fate for mortals refuge is there none.",
+      "itemId": "an-ch012-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says prayers are idle from the doom of fate there is no refuge for mortals",
+      "sha1": "f34a0ea2e014865859dc39c570506b64f8ba137a",
+      "text": "The chorus says prayers are idle; from the doom of fate there is no refuge for mortals.",
+      "itemId": "an-ch012-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "wisdom brings to age at last",
+      "sha1": "ec5c3fcfb2ee5d2ea115da86074593595390eb52",
+      "text": "Wisdom brings to age at last.",
+      "itemId": "an-ch012-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o pray not prayers are idle from the doom",
+      "sha1": "c5b823a22855402c084975f7b392808e70ba39be",
+      "text": "O pray not, prayers are idle; from the doom",
+      "itemId": "an-ch012-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and none can read a mortal s horoscope",
+      "sha1": "2fa6b8a32cbfc140f231eb1cc848412cceca275e",
+      "text": "And none can read a mortal’s horoscope.",
+      "itemId": "an-ch012-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the messenger opens none can read a mortal s horoscope",
+      "sha1": "4fe5fc57cfcea673b5b5d1201feeaa07c938674f",
+      "text": "The messenger opens: none can read a mortal’s horoscope",
+      "itemId": "an-ch012-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "creon clasps a lifeless son and hears that more sorrows come",
+      "sha1": "0e48a6ba1a43da0c701e3b69783ac7b6f2f8b0e0",
+      "text": "Creon clasps a lifeless son and hears that more sorrows come",
+      "itemId": "an-ch012-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he says he is the guilty cause",
+      "sha1": "d27b538ce5f296284e6bd8059a66d73d80af3ca9",
+      "text": "He says he is the guilty cause",
+      "itemId": "an-ch012-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus closes that wisdom brings chastisement to age",
+      "sha1": "fa0098608a98a12eef60c60205754a8473ebc4b7",
+      "text": "The chorus closes that Wisdom brings chastisement to age",
+      "itemId": "an-ch012-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "wisdom brings to age at last",
+      "sha1": "ec5c3fcfb2ee5d2ea115da86074593595390eb52",
+      "text": "Wisdom brings to age at last.",
+      "itemId": "an-ch012-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says wisdom brings chastisement for errors past to age at last",
+      "sha1": "9e2c61c80947541cacb7210524f40b51adb8513f",
+      "text": "The chorus says Wisdom brings chastisement for errors past to age at last.",
+      "itemId": "an-ch012-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

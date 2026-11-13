@@ -1,0 +1,557 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 8,
+  "chapterIndex0": 7,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 62,
+    "excludeNormalized": 44,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "all yield at a glance of love s eye",
+    "antigone is hurried down so young so fair",
+    "by the eyes of a winsome wife and the yearning her heart to win",
+    "death s bower with the dead to share",
+    "for as her consort still enthroned with justice above",
+    "lo i myself am borne aside from justice as i view this bride",
+    "love holds the gods captive",
+    "love is named all invincible",
+    "love is resistless in fight",
+    "love is still the consort enthroned with justice",
+    "love kindles the feud of kinsman with kin",
+    "love pillowed the night on a maiden s cheek",
+    "love pillows the night on a maiden s cheek",
+    "love resistless in fight all yield at a glance of thine eye",
+    "love roams the trackless sea",
+    "love roams the upland and the trackless sea",
+    "love the gods captive holds shall mortals not yield to thee",
+    "love who pillowed all night on a maiden s cheek dost lie",
+    "mad are love s subjects even the wisest heart",
+    "over the upland folds thou roam st and the trackless sea",
+    "she is hurried to death s bower",
+    "straight to folly will fall at a touch of thy poisoned dart",
+    "that heart falls to folly at the dart",
+    "the bride is hurried to death s bower",
+    "the chorus claims they stand unmoved in justice as they view this bride",
+    "the chorus is borne aside from justice",
+    "the chorus says all yield at love s glance",
+    "the chorus says antigone is hurried to death s bower with the dead to share",
+    "the chorus says even the wisest heart will fall to folly at a touch of love s poisoned dart",
+    "the chorus says love holds the gods captive and asks whether mortals shall not yield",
+    "the chorus says love is resistless in fight and all yield at a glance of thine eye",
+    "the chorus says love kindled this feud of kinsman with kin",
+    "the chorus says love never roams over the sea",
+    "the eyes of a winsome wife kindle the feud",
+    "the feud of kinsman with kin is kindled",
+    "the gods are held captive",
+    "the singers are borne aside from justice",
+    "the singers bend to invincible love",
+    "the wisest heart falls at the poisoned dart",
+    "they name antigone so young so fair",
+    "they view this bride",
+    "they view this bride and are borne aside",
+    "thou bendest man to thy will o all invincible love",
+    "thou didst kindle the strife this feud of kinsman with kin"
+  ],
+  "entries": [
+    {
+      "norm": "love resistless in fight all yield at a glance of thine eye",
+      "sha1": "18d96b48d706be25dec89db733da20917a596eed",
+      "text": "Love resistless in fight, all yield at a glance of thine eye,",
+      "itemId": "an-ch007-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "love the gods captive holds shall mortals not yield to thee",
+      "sha1": "13353d63bb5513d79b4a92314ab8059502756918",
+      "text": "Love the gods captive holds. Shall mortals not yield to thee?",
+      "itemId": "an-ch007-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "love resistless in fight all yield at a glance of thine eye",
+      "sha1": "18d96b48d706be25dec89db733da20917a596eed",
+      "text": "Love resistless in fight, all yield at a glance of thine eye,",
+      "itemId": "an-ch007-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says all yield at love s glance",
+      "sha1": "dea9107f28d71a6b6065ed3007275610e1049459",
+      "text": "The chorus says all yield at Love’s glance",
+      "itemId": "an-ch007-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the wisest heart falls at the poisoned dart",
+      "sha1": "1f221c7dd7990b9072dede7c0057d3cdbc30922d",
+      "text": "The wisest heart falls at the poisoned dart",
+      "itemId": "an-ch007-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the singers are borne aside from justice",
+      "sha1": "1e26b77d061154efdfcf354a1b221f09cffeba79",
+      "text": "The singers are borne aside from Justice",
+      "itemId": "an-ch007-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love resistless in fight all yield at a glance of thine eye",
+      "sha1": "18d96b48d706be25dec89db733da20917a596eed",
+      "text": "Love resistless in fight, all yield at a glance of thine eye,",
+      "itemId": "an-ch007-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says love is resistless in fight and all yield at a glance of thine eye",
+      "sha1": "b60429a2283607503c540896754d54fc91d14000",
+      "text": "The chorus says Love is resistless in fight, and all yield at a glance of thine eye.",
+      "itemId": "an-ch007-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "over the upland folds thou roam st and the trackless sea",
+      "sha1": "2ed5c28832497ce27bae739aa2b443e504d0944e",
+      "text": "Over the upland folds thou roam’st, and the trackless sea.",
+      "itemId": "an-ch007-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "straight to folly will fall at a touch of thy poisoned dart",
+      "sha1": "1170651560374b4649d60875ad1f2e7236ad7f36",
+      "text": "Straight to folly will fall, at a touch of thy poisoned dart.",
+      "itemId": "an-ch007-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "over the upland folds thou roam st and the trackless sea",
+      "sha1": "2ed5c28832497ce27bae739aa2b443e504d0944e",
+      "text": "Over the upland folds thou roam’st, and the trackless sea.",
+      "itemId": "an-ch007-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "love pillows the night on a maiden s cheek",
+      "sha1": "3a306074bfd38b45165773c6c8f7fa9bcdb2ff80",
+      "text": "Love pillows the night on a maiden’s cheek",
+      "itemId": "an-ch007-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love roams the upland and the trackless sea",
+      "sha1": "6700931a5d778c5ed7a668828f3e0dfd116ea43c",
+      "text": "Love roams the upland and the trackless sea",
+      "itemId": "an-ch007-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love holds the gods captive",
+      "sha1": "bed6007cf810fed61b463e537ae126ab63bdeb56",
+      "text": "Love holds the gods captive",
+      "itemId": "an-ch007-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the bride is hurried to death s bower",
+      "sha1": "7ab48bcea105f4ed74625c7d6a9569204188889e",
+      "text": "The bride is hurried to Death’s bower",
+      "itemId": "an-ch007-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "over the upland folds thou roam st and the trackless sea",
+      "sha1": "2ed5c28832497ce27bae739aa2b443e504d0944e",
+      "text": "Over the upland folds thou roam’st, and the trackless sea.",
+      "itemId": "an-ch007-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says love never roams over the sea",
+      "sha1": "3a310c47e3d59aa04e569c9e07aa6bcbbc97900b",
+      "text": "The chorus says Love never roams over the sea.",
+      "itemId": "an-ch007-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "love who pillowed all night on a maiden s cheek dost lie",
+      "sha1": "df7ec6571f0e55bb9bef1e521e2631d970db9fd4",
+      "text": "Love who pillowed all night on a maiden’s cheek dost lie,",
+      "itemId": "an-ch007-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "straight to folly will fall at a touch of thy poisoned dart",
+      "sha1": "1170651560374b4649d60875ad1f2e7236ad7f36",
+      "text": "Straight to folly will fall, at a touch of thy poisoned dart.",
+      "itemId": "an-ch007-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "love the gods captive holds shall mortals not yield to thee",
+      "sha1": "13353d63bb5513d79b4a92314ab8059502756918",
+      "text": "Love the gods captive holds. Shall mortals not yield to thee?",
+      "itemId": "an-ch007-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "all yield at a glance of love s eye",
+      "sha1": "36ec223a87e24d8e22a8192876b4cb8c0a6a4015",
+      "text": "All yield at a glance of Love’s eye",
+      "itemId": "an-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the gods are held captive",
+      "sha1": "3d7ae5e1e85129194f5ed68067fa9a232c645454",
+      "text": "The gods are held captive",
+      "itemId": "an-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love kindles the feud of kinsman with kin",
+      "sha1": "5f3c8d083ef24a75cb979a31ec5f80a66134201d",
+      "text": "Love kindles the feud of kinsman with kin",
+      "itemId": "an-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love is named all invincible",
+      "sha1": "851f6f0ae63689ab511387f28f929d341c9a630f",
+      "text": "Love is named all invincible",
+      "itemId": "an-ch007-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love the gods captive holds shall mortals not yield to thee",
+      "sha1": "13353d63bb5513d79b4a92314ab8059502756918",
+      "text": "Love the gods captive holds. Shall mortals not yield to thee?",
+      "itemId": "an-ch007-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says love holds the gods captive and asks whether mortals shall not yield",
+      "sha1": "16a5b6cac9a264cdac4ca5df4d839f50a3189f68",
+      "text": "The chorus says Love holds the gods captive and asks whether mortals shall not yield.",
+      "itemId": "an-ch007-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by the eyes of a winsome wife and the yearning her heart to win",
+      "sha1": "532477d7bff30f6c00557d88618112b655f5936d",
+      "text": "By the eyes of a winsome wife, and the yearning her heart to win.",
+      "itemId": "an-ch007-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou didst kindle the strife this feud of kinsman with kin",
+      "sha1": "c119cce882a1c4f2abcd70aaba8e51873ee1b56f",
+      "text": "Thou didst kindle the strife, this feud of kinsman with kin,",
+      "itemId": "an-ch007-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "straight to folly will fall at a touch of thy poisoned dart",
+      "sha1": "1170651560374b4649d60875ad1f2e7236ad7f36",
+      "text": "Straight to folly will fall, at a touch of thy poisoned dart.",
+      "itemId": "an-ch007-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "mad are love s subjects even the wisest heart",
+      "sha1": "533add5aa05b69341f8f4d8080c531011673ee5b",
+      "text": "Mad are Love’s subjects, even the wisest heart",
+      "itemId": "an-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "that heart falls to folly at the dart",
+      "sha1": "8cf78294620169f841806ce36dd73b9ab976cf5f",
+      "text": "That heart falls to folly at the dart",
+      "itemId": "an-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the eyes of a winsome wife kindle the feud",
+      "sha1": "40e57e3fcadb58bc5c1b872910994ada909b6385",
+      "text": "The eyes of a winsome wife kindle the feud",
+      "itemId": "an-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus is borne aside from justice",
+      "sha1": "6cb5ee60970b613ec6ee6adccd15f372e763a6d6",
+      "text": "The chorus is borne aside from Justice",
+      "itemId": "an-ch007-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "straight to folly will fall at a touch of thy poisoned dart",
+      "sha1": "1170651560374b4649d60875ad1f2e7236ad7f36",
+      "text": "Straight to folly will fall, at a touch of thy poisoned dart.",
+      "itemId": "an-ch007-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says even the wisest heart will fall to folly at a touch of love s poisoned dart",
+      "sha1": "3acf93160ff9b171a0e975cb31d0294d5005efd2",
+      "text": "The chorus says even the wisest heart will fall to folly at a touch of Love’s poisoned dart.",
+      "itemId": "an-ch007-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by the eyes of a winsome wife and the yearning her heart to win",
+      "sha1": "532477d7bff30f6c00557d88618112b655f5936d",
+      "text": "By the eyes of a winsome wife, and the yearning her heart to win.",
+      "itemId": "an-ch007-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "straight to folly will fall at a touch of thy poisoned dart",
+      "sha1": "1170651560374b4649d60875ad1f2e7236ad7f36",
+      "text": "Straight to folly will fall, at a touch of thy poisoned dart.",
+      "itemId": "an-ch007-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou didst kindle the strife this feud of kinsman with kin",
+      "sha1": "c119cce882a1c4f2abcd70aaba8e51873ee1b56f",
+      "text": "Thou didst kindle the strife, this feud of kinsman with kin,",
+      "itemId": "an-ch007-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "love is resistless in fight",
+      "sha1": "08eec943d5536835ba58c56eb0205e9cfff21c03",
+      "text": "Love is resistless in fight",
+      "itemId": "an-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love pillowed the night on a maiden s cheek",
+      "sha1": "35dc45057a8c890c03af2e7f3df29493f4714f80",
+      "text": "Love pillowed the night on a maiden’s cheek",
+      "itemId": "an-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the feud of kinsman with kin is kindled",
+      "sha1": "9e701b1bab58e45a7dab4d8f954bd44ca3baa0bb",
+      "text": "The feud of kinsman with kin is kindled",
+      "itemId": "an-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone is hurried down so young so fair",
+      "sha1": "a4e4f2a05122da4e623ceddc793ccb4ce4e685de",
+      "text": "Antigone is hurried down, so young, so fair",
+      "itemId": "an-ch007-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thou didst kindle the strife this feud of kinsman with kin",
+      "sha1": "c119cce882a1c4f2abcd70aaba8e51873ee1b56f",
+      "text": "Thou didst kindle the strife, this feud of kinsman with kin,",
+      "itemId": "an-ch007-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says love kindled this feud of kinsman with kin",
+      "sha1": "8235f97bad279f4909f5c8b93b7666194e393b3c",
+      "text": "The chorus says Love kindled this feud of kinsman with kin.",
+      "itemId": "an-ch007-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thou bendest man to thy will o all invincible love",
+      "sha1": "60729be98b6943abc60e7db8e451188a59ea06a5",
+      "text": "Thou bendest man to thy will, O all invincible Love.",
+      "itemId": "an-ch007-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "love who pillowed all night on a maiden s cheek dost lie",
+      "sha1": "df7ec6571f0e55bb9bef1e521e2631d970db9fd4",
+      "text": "Love who pillowed all night on a maiden’s cheek dost lie,",
+      "itemId": "an-ch007-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou bendest man to thy will o all invincible love",
+      "sha1": "60729be98b6943abc60e7db8e451188a59ea06a5",
+      "text": "Thou bendest man to thy will, O all invincible Love.",
+      "itemId": "an-ch007-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "love roams the trackless sea",
+      "sha1": "99f0144d8cb9f8f45e5c1c43d12b022bef8ee9c9",
+      "text": "Love roams the trackless sea",
+      "itemId": "an-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "love is still the consort enthroned with justice",
+      "sha1": "72998f2afc3b76b4046fd052ab6416090cbe80c2",
+      "text": "Love is still the consort, enthroned with Justice",
+      "itemId": "an-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the singers bend to invincible love",
+      "sha1": "096b90ccf0c3370fc16487665d1fdd13b50958b9",
+      "text": "The singers bend to invincible Love",
+      "itemId": "an-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they view this bride and are borne aside",
+      "sha1": "4538121d232fec84735afc0829f1cf0e027ff5fe",
+      "text": "They view this bride and are borne aside",
+      "itemId": "an-ch007-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "lo i myself am borne aside from justice as i view this bride",
+      "sha1": "400554eda4bc037b03c418557c3a60c809cda3a9",
+      "text": "Lo I myself am borne aside, From Justice, as I view this bride.",
+      "itemId": "an-ch007-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus claims they stand unmoved in justice as they view this bride",
+      "sha1": "1e3964ded3b03800987162a8466f238e0778fc4b",
+      "text": "The chorus claims they stand unmoved in Justice as they view this bride.",
+      "itemId": "an-ch007-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "death s bower with the dead to share",
+      "sha1": "8db22ffb4466cbe51933cb0bc5aaa16a83dc1a49",
+      "text": "Death’s bower with the dead to share.",
+      "itemId": "an-ch007-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for as her consort still enthroned with justice above",
+      "sha1": "c68c6072d95da5960809949a4a89bef243a5912d",
+      "text": "For as her consort still, enthroned with Justice above,",
+      "itemId": "an-ch007-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "death s bower with the dead to share",
+      "sha1": "8db22ffb4466cbe51933cb0bc5aaa16a83dc1a49",
+      "text": "Death’s bower with the dead to share.",
+      "itemId": "an-ch007-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus is borne aside from justice",
+      "sha1": "6cb5ee60970b613ec6ee6adccd15f372e763a6d6",
+      "text": "The chorus is borne aside from Justice",
+      "itemId": "an-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they view this bride",
+      "sha1": "84078fbdce464b4c0d87b2a07b17f00044912476",
+      "text": "They view this bride",
+      "itemId": "an-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name antigone so young so fair",
+      "sha1": "17ef4e93aa6d96b8f648d7a369520e813ad1be6a",
+      "text": "They name Antigone, so young, so fair",
+      "itemId": "an-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "she is hurried to death s bower",
+      "sha1": "862751eb799395b42c19b79ce0a35dd0e1fdac81",
+      "text": "She is hurried to Death’s bower",
+      "itemId": "an-ch007-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "death s bower with the dead to share",
+      "sha1": "8db22ffb4466cbe51933cb0bc5aaa16a83dc1a49",
+      "text": "Death’s bower with the dead to share.",
+      "itemId": "an-ch007-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says antigone is hurried to death s bower with the dead to share",
+      "sha1": "a4633b2271a1fca7538b18e56f6bd54d1f0bc674",
+      "text": "The chorus says Antigone is hurried to Death’s bower with the dead to share.",
+      "itemId": "an-ch007-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

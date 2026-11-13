@@ -1,0 +1,545 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 11,
+  "chapterIndex0": 10,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 61,
+    "excludeNormalized": 40,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "aidoneus hear o hear",
+    "aidoneus is called to hear",
+    "at all comers let him go scathless to the fields below for thy master orders thus",
+    "be he now by justice blessed",
+    "by a gentle tearless doom",
+    "by a gentle tearless doom speed this stranger to the gloom let him enter without pain the all shrouding stygian plain",
+    "for thy master orders thus",
+    "for thy master orders thus the son of earth and tartarus",
+    "giver of eternal sleep",
+    "gnarling in thy cavernous lair",
+    "hear goddess dread",
+    "hear goddess dread invisible",
+    "if mortal prayers are heard",
+    "if mortal prayers are heard in hell",
+    "if mortal prayers are heard in hell hear goddess dread invisible",
+    "keep the monster in his den",
+    "let him enter the stygian plain without pain",
+    "let him enter without pain",
+    "let him enter without pain the all shrouding stygian plain",
+    "let him go scathless",
+    "monarch of the regions drear",
+    "queen infernal and thou fell",
+    "queen infernal and thou fell watch dog of the gates of hell",
+    "scathless to the fields below",
+    "speed this stranger to the gloom",
+    "the all shrouding stygian plain",
+    "the chorus asks that he enter without pain the all shrouding stygian plain",
+    "the chorus prays that a gentle tearless doom speed this stranger to the gloom and that he enter the stygian plain without pain",
+    "the chorus prays that he who was wrongfully oppressed in life be now by justice blessed",
+    "the chorus says the watch dog s master orders this the son of earth and tartarus",
+    "the giver of eternal sleep is named at the close",
+    "the ode opens by asking whether mortal prayers are heard in hell then calls the dread invisible goddess to hear",
+    "the prayer addresses the infernal queen and the fell watch dog of the gates of hell",
+    "the prayer is that the watch dog of the gates let the stranger go scathless to the fields below",
+    "the son of earth and tartarus gives the order",
+    "the watch dog at the gates of hell",
+    "they ask if mortal prayers are heard in hell",
+    "they call aidoneus to hear",
+    "they pray he go scathless to the fields below",
+    "wrongfully in life oppressed be he now by justice blessed"
+  ],
+  "entries": [
+    {
+      "norm": "aidoneus hear o hear",
+      "sha1": "80d6caa337b4b648fdc61d8c758ac1ada971ffd4",
+      "text": "Aidoneus, hear, O hear!",
+      "itemId": "oc-ch010-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "gnarling in thy cavernous lair",
+      "sha1": "9e388290a5eef800ea73bdafaa00ab99ad099ce0",
+      "text": "Gnarling in thy cavernous lair",
+      "itemId": "oc-ch010-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by a gentle tearless doom",
+      "sha1": "5b71f8691db3a457858b981d49f6ade4df528278",
+      "text": "By a gentle, tearless doom",
+      "itemId": "oc-ch010-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they call aidoneus to hear",
+      "sha1": "64d88a17429e26b084daeada2bf0156da42a9209",
+      "text": "They call Aidoneus to hear",
+      "itemId": "oc-ch010-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they ask if mortal prayers are heard in hell",
+      "sha1": "5d5058f67173a2b2bdb5a4bc21cecad9e64a2868",
+      "text": "They ask if mortal prayers are heard in hell",
+      "itemId": "oc-ch010-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they pray he go scathless to the fields below",
+      "sha1": "4490743b3d322ee28789e79a0dbc07e5181f4a67",
+      "text": "They pray he go scathless to the fields below",
+      "itemId": "oc-ch010-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "by a gentle tearless doom speed this stranger to the gloom let him enter without pain the all shrouding stygian plain",
+      "sha1": "9024d16da9470bff7ee63f3d0541f35a544a9f51",
+      "text": "By a gentle, tearless doom Speed this stranger to the gloom, Let him enter without pain The all-shrouding Stygian plain.",
+      "itemId": "oc-ch010-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus prays that a gentle tearless doom speed this stranger to the gloom and that he enter the stygian plain without pain",
+      "sha1": "b4b6966db38f5627df3820568d4f912d813bbbe0",
+      "text": "The chorus prays that a gentle, tearless doom speed this stranger to the gloom, and that he enter the Stygian plain without pain.",
+      "itemId": "oc-ch010-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "scathless to the fields below",
+      "sha1": "3abfd6638d2630b3e725f9f0323bd8f5ed9313f1",
+      "text": "Scathless to the fields below.",
+      "itemId": "oc-ch010-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "scathless to the fields below",
+      "sha1": "3abfd6638d2630b3e725f9f0323bd8f5ed9313f1",
+      "text": "Scathless to the fields below.",
+      "itemId": "oc-ch010-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "monarch of the regions drear",
+      "sha1": "276e3ee433dc6b5d5a51ec923edd240607f662b2",
+      "text": "Monarch of the regions drear,",
+      "itemId": "oc-ch010-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "let him enter the stygian plain without pain",
+      "sha1": "df45c1bad1cb7ffa8c3b9f4a8d48b139a0d1c8c0",
+      "text": "Let him enter the Stygian plain without pain",
+      "itemId": "oc-ch010-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "hear goddess dread",
+      "sha1": "82b96f47cf646e8681704e008574b3e3391d3fc2",
+      "text": "Hear, Goddess dread",
+      "itemId": "oc-ch010-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the giver of eternal sleep is named at the close",
+      "sha1": "799c1e40178145c6db6b68b6326a8ed1721ae134",
+      "text": "The giver of eternal sleep is named at the close",
+      "itemId": "oc-ch010-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "wrongfully in life oppressed be he now by justice blessed",
+      "sha1": "c24bd62a14c001dd5e2d00749deb1f3fd08a14fa",
+      "text": "Wrongfully in life oppressed, Be he now by Justice blessed.",
+      "itemId": "oc-ch010-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus prays that he who was wrongfully oppressed in life be now by justice blessed",
+      "sha1": "1a1a0176703efd34e836fb1082846aee00cabffb",
+      "text": "The chorus prays that he who was wrongfully oppressed in life be now by Justice blessed.",
+      "itemId": "oc-ch010-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "gnarling in thy cavernous lair",
+      "sha1": "9e388290a5eef800ea73bdafaa00ab99ad099ce0",
+      "text": "Gnarling in thy cavernous lair",
+      "itemId": "oc-ch010-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "aidoneus hear o hear",
+      "sha1": "80d6caa337b4b648fdc61d8c758ac1ada971ffd4",
+      "text": "Aidoneus, hear, O hear!",
+      "itemId": "oc-ch010-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by a gentle tearless doom",
+      "sha1": "5b71f8691db3a457858b981d49f6ade4df528278",
+      "text": "By a gentle, tearless doom",
+      "itemId": "oc-ch010-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the son of earth and tartarus gives the order",
+      "sha1": "524551391505ce7da0a2687e5083adfcd36c39c3",
+      "text": "The son of earth and Tartarus gives the order",
+      "itemId": "oc-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "if mortal prayers are heard in hell",
+      "sha1": "22ac7490c3dd9f04e2f779cfa65fbd0b3e5948b0",
+      "text": "If mortal prayers are heard in hell",
+      "itemId": "oc-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "aidoneus is called to hear",
+      "sha1": "959ae4c5b1f03d11e0cf60aaeeabfa434d0d79ea",
+      "text": "Aidoneus is called to hear",
+      "itemId": "oc-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "keep the monster in his den",
+      "sha1": "6afc4b09c2201950acc54534f3f1b941d254e81c",
+      "text": "Keep the monster in his den",
+      "itemId": "oc-ch010-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "at all comers let him go scathless to the fields below for thy master orders thus",
+      "sha1": "d8ce8f151526cee0f9b24c9c96de6cfd0ea0558e",
+      "text": "At all comers, let him go Scathless to the fields below. For thy master orders thus,",
+      "itemId": "oc-ch010-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the prayer is that the watch dog of the gates let the stranger go scathless to the fields below",
+      "sha1": "eef4a27c6251f95722e35c2967d16be377f24bf2",
+      "text": "The prayer is that the watch-dog of the gates let the stranger go scathless to the fields below.",
+      "itemId": "oc-ch010-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by a gentle tearless doom",
+      "sha1": "5b71f8691db3a457858b981d49f6ade4df528278",
+      "text": "By a gentle, tearless doom",
+      "itemId": "oc-ch010-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "giver of eternal sleep",
+      "sha1": "a31fc3c0d22eff52d659ef37b670087086b9af87",
+      "text": "Giver of eternal sleep.",
+      "itemId": "oc-ch010-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "queen infernal and thou fell",
+      "sha1": "04c543c202b842c88f86ca3d338133f2318316d6",
+      "text": "Queen infernal, and thou fell",
+      "itemId": "oc-ch010-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "be he now by justice blessed",
+      "sha1": "7457e3f160b45a85af2e4d7d153cf87d36f5d797",
+      "text": "Be he now by Justice blessed",
+      "itemId": "oc-ch010-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "hear goddess dread invisible",
+      "sha1": "f8849da2f9b04f87ce379ff88b93ab34f1c3a2b9",
+      "text": "Hear, Goddess dread, invisible",
+      "itemId": "oc-ch010-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "let him enter without pain",
+      "sha1": "6936d096580b12a81653a37cc902dff2d8382f7f",
+      "text": "Let him enter without pain",
+      "itemId": "oc-ch010-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "giver of eternal sleep",
+      "sha1": "a31fc3c0d22eff52d659ef37b670087086b9af87",
+      "text": "Giver of eternal sleep",
+      "itemId": "oc-ch010-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "if mortal prayers are heard in hell hear goddess dread invisible",
+      "sha1": "9bbde3cb2ad24cd241cdc608177a8d16a3753549",
+      "text": "If mortal prayers are heard in hell, Hear, Goddess dread, invisible!",
+      "itemId": "oc-ch010-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the ode opens by asking whether mortal prayers are heard in hell then calls the dread invisible goddess to hear",
+      "sha1": "29dde8c1fb1ae3cd044648a4a2d4c763632440df",
+      "text": "The ode opens by asking whether mortal prayers are heard in hell, then calls the dread, invisible Goddess to hear.",
+      "itemId": "oc-ch010-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "be he now by justice blessed",
+      "sha1": "7457e3f160b45a85af2e4d7d153cf87d36f5d797",
+      "text": "Be he now by Justice blessed.",
+      "itemId": "oc-ch010-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "gnarling in thy cavernous lair",
+      "sha1": "9e388290a5eef800ea73bdafaa00ab99ad099ce0",
+      "text": "Gnarling in thy cavernous lair",
+      "itemId": "oc-ch010-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for thy master orders thus",
+      "sha1": "8e1c892b3f2f6517d3ff5e0b83912b8f8ddd9e15",
+      "text": "For thy master orders thus,",
+      "itemId": "oc-ch010-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the all shrouding stygian plain",
+      "sha1": "53bac846c1776056cf6732efa026814492668d69",
+      "text": "The all-shrouding Stygian plain",
+      "itemId": "oc-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "aidoneus hear o hear",
+      "sha1": "80d6caa337b4b648fdc61d8c758ac1ada971ffd4",
+      "text": "Aidoneus, hear, O hear",
+      "itemId": "oc-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the watch dog at the gates of hell",
+      "sha1": "f6ad6ffb2ddcd1bf2b55d823738b00a91445ec82",
+      "text": "The watch-dog at the gates of hell",
+      "itemId": "oc-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "giver of eternal sleep",
+      "sha1": "a31fc3c0d22eff52d659ef37b670087086b9af87",
+      "text": "Giver of eternal sleep",
+      "itemId": "oc-ch010-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "for thy master orders thus the son of earth and tartarus",
+      "sha1": "331cc36593ca3e0c1514eaea949df5e2e851675f",
+      "text": "For thy master orders thus, The son of earth and Tartarus;",
+      "itemId": "oc-ch010-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the watch dog s master orders this the son of earth and tartarus",
+      "sha1": "3b3ffb57525d49c5a2fe3065bfa3b1d299127200",
+      "text": "The chorus says the watch-dog’s master orders this: the son of earth and Tartarus.",
+      "itemId": "oc-ch010-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "hear goddess dread invisible",
+      "sha1": "f8849da2f9b04f87ce379ff88b93ab34f1c3a2b9",
+      "text": "Hear, Goddess dread, invisible!",
+      "itemId": "oc-ch010-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the all shrouding stygian plain",
+      "sha1": "53bac846c1776056cf6732efa026814492668d69",
+      "text": "The all-shrouding Stygian plain.",
+      "itemId": "oc-ch010-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by a gentle tearless doom",
+      "sha1": "5b71f8691db3a457858b981d49f6ade4df528278",
+      "text": "By a gentle, tearless doom",
+      "itemId": "oc-ch010-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "keep the monster in his den",
+      "sha1": "6afc4b09c2201950acc54534f3f1b941d254e81c",
+      "text": "Keep the monster in his den",
+      "itemId": "oc-ch010-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "if mortal prayers are heard",
+      "sha1": "5255f7515737d03354bc615c1d1f6dc9fbad2818",
+      "text": "If mortal prayers are heard",
+      "itemId": "oc-ch010-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "speed this stranger to the gloom",
+      "sha1": "afbcda69db87f5d7d0e9715ab72c39c5a1205a6d",
+      "text": "Speed this stranger to the gloom",
+      "itemId": "oc-ch010-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "let him go scathless",
+      "sha1": "ddf76dc49deb1ea030dbfcd7874005336c9b99c3",
+      "text": "Let him go scathless",
+      "itemId": "oc-ch010-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "queen infernal and thou fell watch dog of the gates of hell",
+      "sha1": "bb327ba97054b7236e4e467aa78e5272c4fcb4cf",
+      "text": "Queen infernal, and thou fell Watch-dog of the gates of hell,",
+      "itemId": "oc-ch010-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the prayer addresses the infernal queen and the fell watch dog of the gates of hell",
+      "sha1": "32fb7369ca95197c322c1f46cf66bb65d78b5217",
+      "text": "The prayer addresses the infernal Queen and the fell watch-dog of the gates of hell.",
+      "itemId": "oc-ch010-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "giver of eternal sleep",
+      "sha1": "a31fc3c0d22eff52d659ef37b670087086b9af87",
+      "text": "Giver of eternal sleep.",
+      "itemId": "oc-ch010-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "monarch of the regions drear",
+      "sha1": "276e3ee433dc6b5d5a51ec923edd240607f662b2",
+      "text": "Monarch of the regions drear,",
+      "itemId": "oc-ch010-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "aidoneus hear o hear",
+      "sha1": "80d6caa337b4b648fdc61d8c758ac1ada971ffd4",
+      "text": "Aidoneus, hear, O hear!",
+      "itemId": "oc-ch010-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "giver of eternal sleep",
+      "sha1": "a31fc3c0d22eff52d659ef37b670087086b9af87",
+      "text": "Giver of eternal sleep",
+      "itemId": "oc-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "hear goddess dread",
+      "sha1": "82b96f47cf646e8681704e008574b3e3391d3fc2",
+      "text": "Hear, Goddess dread",
+      "itemId": "oc-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "aidoneus hear o hear",
+      "sha1": "80d6caa337b4b648fdc61d8c758ac1ada971ffd4",
+      "text": "Aidoneus, hear, O hear",
+      "itemId": "oc-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "be he now by justice blessed",
+      "sha1": "7457e3f160b45a85af2e4d7d153cf87d36f5d797",
+      "text": "Be he now by Justice blessed",
+      "itemId": "oc-ch010-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "let him enter without pain the all shrouding stygian plain",
+      "sha1": "dfabeddeebc46d0789a95344af3ba47a7cf51e82",
+      "text": "Let him enter without pain The all-shrouding Stygian plain.",
+      "itemId": "oc-ch010-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus asks that he enter without pain the all shrouding stygian plain",
+      "sha1": "85c83efb269e86de6950fafa9b596561cbee3722",
+      "text": "The chorus asks that he enter without pain the all-shrouding Stygian plain.",
+      "itemId": "oc-ch010-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

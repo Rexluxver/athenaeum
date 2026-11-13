@@ -1,0 +1,471 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 2,
+  "chapterIndex0": 1,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 51,
+    "excludeNormalized": 46,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "after antigone s plea the elders take back their order and welcome him to stay",
+    "against thy will no man shall drive thee hence",
+    "ah me my daughter now we are undone",
+    "and sit thee crouching on the scarped edge",
+    "antigone makes her long plea",
+    "antigone pleads for her father",
+    "antigone says her father acted with no ill intent",
+    "bowls of spring water mingled with sweet mead",
+    "but as we reverence the decrees of heaven",
+    "but if guile with guile contend",
+    "but with no ill intent yet heed a maiden s moan",
+    "dread my lineage",
+    "he comes forth at their command",
+    "he is told to sit on the scarped edge",
+    "he names himself the hapless oedipus",
+    "he names laius and labdacus",
+    "him who ill with ill requites",
+    "how keep you then your troth",
+    "i am that man i know you near",
+    "o make us not go hence",
+    "o sirs ye suffered not my father blind",
+    "oedipus says i am that man",
+    "oedipus tells the elders he is no outlaw under ban",
+    "oedipus tells the strangers he has no country",
+    "oh sirs i am no outlaw under ban",
+    "or enter their demesne",
+    "speak for thou standest on the slippery verge",
+    "strangers i have no country o forbear",
+    "the chorus asks of what stock he comes",
+    "the chorus cries begone",
+    "the chorus promises that no man shall drive him hence against his will",
+    "the chorus says they pity them both",
+    "the elders say they refuse him because they reverence the decrees of heaven",
+    "the elders search for the trespasser",
+    "the hapless oedipus",
+    "the precincts through i scan",
+    "the wretch profane",
+    "they seat him on the scarped edge",
+    "they still will not take back the order",
+    "they tell him to come away from the holy spot",
+    "thy pilgrimage on earth",
+    "we cannot say aught other than we said",
+    "we must obey and do as here they do",
+    "when the elders learn his name they order him out of their borders",
+    "who scapes perdition if a god impel",
+    "woe on my fate unblest"
+  ],
+  "entries": [
+    {
+      "norm": "or enter their demesne",
+      "sha1": "b48a0cb1994e972a2176dd56b347512c3a8a1734",
+      "text": "Or enter their demesne,",
+      "itemId": "oc-ch001-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i am that man i know you near",
+      "sha1": "8ec53d0127aa5037b977c5f29ba07fd1e45291cc",
+      "text": "I am that man; I know you near",
+      "itemId": "oc-ch001-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the wretch profane",
+      "sha1": "e97f661fbf61414ee5b524088579648cf56ef617",
+      "text": "The wretch profane!",
+      "itemId": "oc-ch001-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus says i am that man",
+      "sha1": "0e5198b1f14bd3388247b891914368c7386ba186",
+      "text": "Oedipus says “I am that man”",
+      "itemId": "oc-ch001-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the elders search for the trespasser",
+      "sha1": "78d3a2978ea56a7219aea0bb7233e43620da2c8c",
+      "text": "The elders search for the trespasser",
+      "itemId": "oc-ch001-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they tell him to come away from the holy spot",
+      "sha1": "434c22dd12d19b80fa634e20124573ad8b297ddf",
+      "text": "They tell him to come away from the holy spot",
+      "itemId": "oc-ch001-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oh sirs i am no outlaw under ban",
+      "sha1": "7144a3c15c727de469f546bf87f05ee87b7afa99",
+      "text": "Oh sirs, I am no outlaw under ban.",
+      "itemId": "oc-ch001-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus tells the elders he is no outlaw under ban",
+      "sha1": "77ef9d1511337e5f2940576b1add01760bc16287",
+      "text": "Oedipus tells the elders he is no outlaw under ban.",
+      "itemId": "oc-ch001-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thy pilgrimage on earth",
+      "sha1": "b4d40b0c31f853071fd9ad4ce6a460232aaad73f",
+      "text": "Thy pilgrimage on earth.",
+      "itemId": "oc-ch001-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "we must obey and do as here they do",
+      "sha1": "23bdb60a717fae1a472a25676cfab712aee88f27",
+      "text": "We must obey and do as here they do.",
+      "itemId": "oc-ch001-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the precincts through i scan",
+      "sha1": "6b838beae53ab3217153a02044aa1f57c2ff4216",
+      "text": "The precincts through I scan,",
+      "itemId": "oc-ch001-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "bowls of spring water mingled with sweet mead",
+      "sha1": "5ee2ceaae14ae00f06fa192dc6784ec0cc9339d1",
+      "text": "Bowls of spring water mingled with sweet mead.",
+      "itemId": "oc-ch001-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "against thy will no man shall drive thee hence",
+      "sha1": "20a69c3a81f084862758eae5ecbc59441f16d191",
+      "text": "Against thy will no man shall drive thee hence.",
+      "itemId": "oc-ch001-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus promises that no man shall drive him hence against his will",
+      "sha1": "202ed476005e9d468f1cd86a20edfa4e34c35cd5",
+      "text": "The chorus promises that no man shall drive him hence against his will.",
+      "itemId": "oc-ch001-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "dread my lineage",
+      "sha1": "552861efe842fc3ea84efade7126f38fc66bc353",
+      "text": "Dread my lineage.",
+      "itemId": "oc-ch001-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and sit thee crouching on the scarped edge",
+      "sha1": "6eb9c768c587c9299dd34479e2bc8fc637efe508",
+      "text": "And sit thee crouching on the scarped edge.",
+      "itemId": "oc-ch001-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and sit thee crouching on the scarped edge",
+      "sha1": "6eb9c768c587c9299dd34479e2bc8fc637efe508",
+      "text": "And sit thee crouching on the scarped edge.",
+      "itemId": "oc-ch001-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they seat him on the scarped edge",
+      "sha1": "90813e5de0120ab5789305e2db7659fd83429e3e",
+      "text": "They seat him on the scarped edge",
+      "itemId": "oc-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he comes forth at their command",
+      "sha1": "bd0537891bf2d869d0d27163875f44c84d7ee379",
+      "text": "He comes forth at their command",
+      "itemId": "oc-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he names himself the hapless oedipus",
+      "sha1": "60393dda895f461d01bb42720cafecfc76fc4868",
+      "text": "He names himself the hapless Oedipus",
+      "itemId": "oc-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus cries begone",
+      "sha1": "69ee5450e48f2aad1713a94bcfa1b7a2c42bc665",
+      "text": "The chorus cries “Begone!”",
+      "itemId": "oc-ch001-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "strangers i have no country o forbear",
+      "sha1": "b4d0db64ce89d45e29bf167a5d5c572db1c0d56b",
+      "text": "Strangers, I have no country. O forbear—",
+      "itemId": "oc-ch001-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus tells the strangers he has no country",
+      "sha1": "34838b91bdd307c3bb37a0fffe8813a81b366a1d",
+      "text": "Oedipus tells the strangers he has no country.",
+      "itemId": "oc-ch001-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the hapless oedipus",
+      "sha1": "80088f3fd07e35aff726bd77f617f47ef3572ae5",
+      "text": "The hapless Oedipus.",
+      "itemId": "oc-ch001-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "how keep you then your troth",
+      "sha1": "00558560f246f99c263244ca41a8484be9d288d6",
+      "text": "How keep you then your troth?",
+      "itemId": "oc-ch001-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the hapless oedipus",
+      "sha1": "80088f3fd07e35aff726bd77f617f47ef3572ae5",
+      "text": "The hapless Oedipus.",
+      "itemId": "oc-ch001-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "when the elders learn his name they order him out of their borders",
+      "sha1": "feb2bacbb4ad87755977c8405c9ff238919e1e19",
+      "text": "When the elders learn his name, they order him out of their borders.",
+      "itemId": "oc-ch001-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "but if guile with guile contend",
+      "sha1": "9f0308388cff4f02db7dafe2e4cd14d91a023b99",
+      "text": "But if guile with guile contend,",
+      "itemId": "oc-ch001-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o make us not go hence",
+      "sha1": "76145c58e8062b2e6802eb4dba31f4fb9fe6d254",
+      "text": "O make us not go hence!",
+      "itemId": "oc-ch001-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "who scapes perdition if a god impel",
+      "sha1": "205a3dd25674f7816ff097048039136fb0c04be6",
+      "text": "Who ’scapes perdition if a god impel!",
+      "itemId": "oc-ch001-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone pleads for her father",
+      "sha1": "5083ce3196710c7cb8b5f6f415e9f3663d4d0388",
+      "text": "Antigone pleads for her father",
+      "itemId": "oc-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus cries begone",
+      "sha1": "69ee5450e48f2aad1713a94bcfa1b7a2c42bc665",
+      "text": "The chorus cries “Begone!”",
+      "itemId": "oc-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says they pity them both",
+      "sha1": "00471155d83e9014b40f2866ca93bfab76cfab3e",
+      "text": "The chorus says they pity them both",
+      "itemId": "oc-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they still will not take back the order",
+      "sha1": "571da6e61b0381712a900d7e2a086e27fb6e1516",
+      "text": "They still will not take back the order",
+      "itemId": "oc-ch001-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "we cannot say aught other than we said",
+      "sha1": "f084d4aaaf411de414b1279730ca2ebe12cb7077",
+      "text": "We cannot say aught other than we said.",
+      "itemId": "oc-ch001-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "after antigone s plea the elders take back their order and welcome him to stay",
+      "sha1": "bafb538d8af48835be830b3fc3564578632c86a5",
+      "text": "After Antigone’s plea, the elders take back their order and welcome him to stay.",
+      "itemId": "oc-ch001-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "him who ill with ill requites",
+      "sha1": "aebd4baff999ed61413396aca6236084351e42cf",
+      "text": "Him who ill with ill requites.",
+      "itemId": "oc-ch001-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ah me my daughter now we are undone",
+      "sha1": "d2c89ff9d7209ccc922d765c0424db049ceff4d6",
+      "text": "Ah me, my daughter, now we are undone!",
+      "itemId": "oc-ch001-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "woe on my fate unblest",
+      "sha1": "f081dff187a7ea385a660b236a8df1c8bea2de4e",
+      "text": "Woe on my fate unblest!",
+      "itemId": "oc-ch001-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o sirs ye suffered not my father blind",
+      "sha1": "01731f90c239a5534dd03b9ec6652fd1e4146083",
+      "text": "O sirs! ye suffered not my father blind,",
+      "itemId": "oc-ch001-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but with no ill intent yet heed a maiden s moan",
+      "sha1": "7437f3c0c3a4f0abe249604b4ddda30877128db2",
+      "text": "But with no ill intent; Yet heed a maiden’s moan",
+      "itemId": "oc-ch001-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone says her father acted with no ill intent",
+      "sha1": "82788b72bf0099cd958f0b623f003f1b42540a2c",
+      "text": "Antigone says her father acted with no ill intent.",
+      "itemId": "oc-ch001-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "who scapes perdition if a god impel",
+      "sha1": "205a3dd25674f7816ff097048039136fb0c04be6",
+      "text": "Who ’scapes perdition if a god impel!",
+      "itemId": "oc-ch001-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "speak for thou standest on the slippery verge",
+      "sha1": "eca090890e71c7dc5de80d00ccb49152965afb95",
+      "text": "Speak, for thou standest on the slippery verge.",
+      "itemId": "oc-ch001-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy pilgrimage on earth",
+      "sha1": "b4d40b0c31f853071fd9ad4ce6a460232aaad73f",
+      "text": "Thy pilgrimage on earth.",
+      "itemId": "oc-ch001-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus asks of what stock he comes",
+      "sha1": "9d5135e3eb3e883d391c0bf5c98b2a094b739072",
+      "text": "The chorus asks of what stock he comes",
+      "itemId": "oc-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he is told to sit on the scarped edge",
+      "sha1": "09eff739b78a108bcbf22a7475d680f1699311a9",
+      "text": "He is told to sit on the scarped edge",
+      "itemId": "oc-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he names laius and labdacus",
+      "sha1": "ae074b3a6477d6a54ae3276b53524247309e9891",
+      "text": "He names Laius and Labdacus",
+      "itemId": "oc-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone makes her long plea",
+      "sha1": "509b4874dd0d0aef94b7acc8a8a6010959f47de7",
+      "text": "Antigone makes her long plea",
+      "itemId": "oc-ch001-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "but as we reverence the decrees of heaven",
+      "sha1": "d3d17a3146cee47a8b8b80f89dd328b268f3d823",
+      "text": "But as we reverence the decrees of Heaven",
+      "itemId": "oc-ch001-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the elders say they refuse him because they reverence the decrees of heaven",
+      "sha1": "e28baade4b193065d2aa2451ea2698fbb1dbda08",
+      "text": "The elders say they refuse him because they reverence the decrees of Heaven.",
+      "itemId": "oc-ch001-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

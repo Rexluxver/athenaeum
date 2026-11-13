@@ -1,0 +1,482 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 9,
+  "chapterIndex0": 8,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 41,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "ah me my sisters shall i first lament",
+    "antigone asks whether he will bring to pass the prophecies of mutual slaughter to them both",
+    "antigone begs her brother to turn his host back",
+    "antigone begs him not to ruin himself",
+    "antigone begs polyneices to turn his host back to argos and not ruin himself and thebes as well",
+    "antigone identifies the newcomer as polyneices the same they had surmised",
+    "antigone names him as he arrives",
+    "antigone sees the stranger coming alone and weeping",
+    "begone abhorred disowned no son of mine",
+    "but by a kinsman s hand to die and slay",
+    "but by a kinsman s hand to die and slay him who expelled thee so i pray and call on the ancestral gloom of tartarus to snatch thee hence on these dread goddesses",
+    "but now he shall obtain this parting grace an answer that will bring him little joy",
+    "for victory if oracles speak true",
+    "for victory if oracles speak true will fall to those who have thee for ally",
+    "from the outset polyneices he is here",
+    "hath mercy for co partner of his throne",
+    "hearing his prophecy to follow thee",
+    "misguided youth thy purpose then stands fast",
+    "oedipus answers with the curse",
+    "oedipus invokes the curse and bids him begone",
+    "oedipus leaves the curse as his last word to him",
+    "oedipus s curse is that polyneices shall never win his native land but die and slay by a kinsman s hand",
+    "oedipus says the son shall obtain a parting grace an answer that will bring him little joy",
+    "or turn them back but mute must meet my doom my sisters ye his daughters ye have heard",
+    "polyneices asks him to remit his wrath",
+    "polyneices asks his father to remit his wrath",
+    "polyneices asks his sisters not to disown him later",
+    "polyneices dares not whisper the curse to his allies or turn them back but says he must mute meet his doom",
+    "polyneices first greets his sisters",
+    "polyneices greets his sisters and aged sire",
+    "polyneices leads the argive host he says as the seventh chief",
+    "polyneices says that if oracles speak true victory will fall to those who have oedipus for ally",
+    "polyneices will not turn his allies back",
+    "the chorus tells polyneices to go back with speed",
+    "thy errand polyneices liked me not",
+    "to mortal enmity go now proclaim",
+    "turn back thy host to argos with all speed",
+    "turn back thy host to argos with all speed and ruin not thyself and thebes as well",
+    "we all adjure thee to remit thy wrath",
+    "why silent father speak nor turn away",
+    "wilt thou then bring to pass his prophecies who threatens mutual slaughter to you both"
+  ],
+  "entries": [
+    {
+      "norm": "from the outset polyneices he is here",
+      "sha1": "1a22839d037292a673ac409fd4f3fd6ed3c98d06",
+      "text": "From the outset—Polyneices. He is here.",
+      "itemId": "oc-ch008-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "from the outset polyneices he is here",
+      "sha1": "1a22839d037292a673ac409fd4f3fd6ed3c98d06",
+      "text": "From the outset—Polyneices. He is here.",
+      "itemId": "oc-ch008-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hath mercy for co partner of his throne",
+      "sha1": "26bf01041165e5729eb247b198e34f9427ea0afb",
+      "text": "Hath Mercy for co-partner of his throne,",
+      "itemId": "oc-ch008-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "polyneices greets his sisters and aged sire",
+      "sha1": "577a831edead56f3517881f06b3642dd683c0028",
+      "text": "Polyneices greets his sisters and aged sire",
+      "itemId": "oc-ch008-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone sees the stranger coming alone and weeping",
+      "sha1": "d6a73dfdd54e5913ffa64ca3b193ed100222271b",
+      "text": "Antigone sees the stranger coming alone and weeping",
+      "itemId": "oc-ch008-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "polyneices asks his father to remit his wrath",
+      "sha1": "0dfb4ec282b0caa66c936e76a7972295b96dfec7",
+      "text": "Polyneices asks his father to remit his wrath",
+      "itemId": "oc-ch008-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "from the outset polyneices he is here",
+      "sha1": "1a22839d037292a673ac409fd4f3fd6ed3c98d06",
+      "text": "From the outset—Polyneices. He is here.",
+      "itemId": "oc-ch008-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone identifies the newcomer as polyneices the same they had surmised",
+      "sha1": "33f8bed86548401105e65ff585ff0973f2bef120",
+      "text": "Antigone identifies the newcomer as Polyneices, the same they had surmised.",
+      "itemId": "oc-ch008-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "we all adjure thee to remit thy wrath",
+      "sha1": "f43c7fa1b696a60bb5001441fb512d5127864407",
+      "text": "We all adjure thee to remit thy wrath",
+      "itemId": "oc-ch008-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "we all adjure thee to remit thy wrath",
+      "sha1": "f43c7fa1b696a60bb5001441fb512d5127864407",
+      "text": "We all adjure thee to remit thy wrath",
+      "itemId": "oc-ch008-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for victory if oracles speak true",
+      "sha1": "1fdcb4fb6f82de590b0f6047066c87eae1583b39",
+      "text": "For victory, if oracles speak true,",
+      "itemId": "oc-ch008-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ah me my sisters shall i first lament",
+      "sha1": "b97962c5911adbbfaa8d836fb82f5c930174e6e9",
+      "text": "Ah me, my sisters, shall I first lament",
+      "itemId": "oc-ch008-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for victory if oracles speak true will fall to those who have thee for ally",
+      "sha1": "c02ff5189cbeada9d45885bd377443548a69dbbe",
+      "text": "For victory, if oracles speak true, Will fall to those who have thee for ally.",
+      "itemId": "oc-ch008-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "polyneices says that if oracles speak true victory will fall to those who have oedipus for ally",
+      "sha1": "8a24ff7c1e27eb59a13f05c22b07078c8c326ba9",
+      "text": "Polyneices says that, if oracles speak true, victory will fall to those who have Oedipus for ally.",
+      "itemId": "oc-ch008-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "for victory if oracles speak true",
+      "sha1": "1fdcb4fb6f82de590b0f6047066c87eae1583b39",
+      "text": "For victory, if oracles speak true,",
+      "itemId": "oc-ch008-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "begone abhorred disowned no son of mine",
+      "sha1": "74e25c916d3cebc8d520f75be755b088ac066b77",
+      "text": "Begone, abhorred, disowned, no son of mine,",
+      "itemId": "oc-ch008-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "begone abhorred disowned no son of mine",
+      "sha1": "74e25c916d3cebc8d520f75be755b088ac066b77",
+      "text": "Begone, abhorred, disowned, no son of mine,",
+      "itemId": "oc-ch008-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus invokes the curse and bids him begone",
+      "sha1": "922abed2d4ae753f177b104fcb661933ba9bc70c",
+      "text": "Oedipus invokes the curse and bids him begone",
+      "itemId": "oc-ch008-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "polyneices first greets his sisters",
+      "sha1": "4c75cfc4530729e8b5f954d57c6b821f8aac2acc",
+      "text": "Polyneices first greets his sisters",
+      "itemId": "oc-ch008-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "polyneices asks him to remit his wrath",
+      "sha1": "3f432540bf624ba6cd15c7dd265082221f358d61",
+      "text": "Polyneices asks him to remit his wrath",
+      "itemId": "oc-ch008-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone begs her brother to turn his host back",
+      "sha1": "704a4b0033c49bb57fb0416ed1e6e58e74af356d",
+      "text": "Antigone begs her brother to turn his host back",
+      "itemId": "oc-ch008-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "but now he shall obtain this parting grace an answer that will bring him little joy",
+      "sha1": "4b1637dde545b0b0a793b930ed8da5ec29030556",
+      "text": "But now he shall obtain this parting grace, An answer that will bring him little joy.",
+      "itemId": "oc-ch008-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus says the son shall obtain a parting grace an answer that will bring him little joy",
+      "sha1": "56aa5a6183e660aaefd4b12e1af40e0f161e213d",
+      "text": "Oedipus says the son shall obtain a parting grace: an answer that will bring him little joy.",
+      "itemId": "oc-ch008-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "begone abhorred disowned no son of mine",
+      "sha1": "74e25c916d3cebc8d520f75be755b088ac066b77",
+      "text": "Begone, abhorred, disowned, no son of mine,",
+      "itemId": "oc-ch008-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "turn back thy host to argos with all speed",
+      "sha1": "160b527480649d7640d1e34830afb04cd87400dd",
+      "text": "Turn back thy host to Argos with all speed,",
+      "itemId": "oc-ch008-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but by a kinsman s hand to die and slay",
+      "sha1": "420c506cd8c586b8998cf408faa77025dfea10f9",
+      "text": "But by a kinsman’s hand to die and slay",
+      "itemId": "oc-ch008-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "begone abhorred disowned no son of mine",
+      "sha1": "74e25c916d3cebc8d520f75be755b088ac066b77",
+      "text": "Begone, abhorred, disowned, no son of mine,",
+      "itemId": "oc-ch008-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but by a kinsman s hand to die and slay him who expelled thee so i pray and call on the ancestral gloom of tartarus to snatch thee hence on these dread goddesses",
+      "sha1": "675990723d7dc350b5a3f44eac57def325a07aa8",
+      "text": "But by a kinsman’s hand to die and slay Him who expelled thee. So I pray and call On the ancestral gloom of Tartarus To snatch thee hence, on these dread goddesses",
+      "itemId": "oc-ch008-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus s curse is that polyneices shall never win his native land but die and slay by a kinsman s hand",
+      "sha1": "91c6ca988cb5edc6537241597f44d14dd0ee5530",
+      "text": "Oedipus’s curse is that Polyneices shall never win his native land, but die and slay by a kinsman’s hand.",
+      "itemId": "oc-ch008-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "to mortal enmity go now proclaim",
+      "sha1": "319697fb1dd5d982e29a5811da9834476114d751",
+      "text": "To mortal enmity. Go now proclaim",
+      "itemId": "oc-ch008-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "misguided youth thy purpose then stands fast",
+      "sha1": "be747647077380f5662b4b5916d02d6c91d49991",
+      "text": "Misguided youth, thy purpose then stands fast!",
+      "itemId": "oc-ch008-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hearing his prophecy to follow thee",
+      "sha1": "ad5200839eab4c81a7bf1bc5331d4120c2b5f50f",
+      "text": "Hearing his prophecy, to follow thee?",
+      "itemId": "oc-ch008-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus tells polyneices to go back with speed",
+      "sha1": "49e612a1bb4fa7355866569bfcab2e1c8a9f14a0",
+      "text": "The chorus tells Polyneices to go back with speed",
+      "itemId": "oc-ch008-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus leaves the curse as his last word to him",
+      "sha1": "e7e1b1379d6250209a8a6d2b43e7fa29a6785a97",
+      "text": "Oedipus leaves the curse as his last word to him",
+      "itemId": "oc-ch008-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone begs him not to ruin himself",
+      "sha1": "bd83458ed9bd5b3f73c959416930ed48bfb3204e",
+      "text": "Antigone begs him not to ruin himself",
+      "itemId": "oc-ch008-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "polyneices asks his sisters not to disown him later",
+      "sha1": "66f8b6c7fc0af8c75f2abe4eacf9e438b11382c0",
+      "text": "Polyneices asks his sisters not to disown him later",
+      "itemId": "oc-ch008-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "turn back thy host to argos with all speed and ruin not thyself and thebes as well",
+      "sha1": "a6db4c6865c6394b8b84ad7fb9d0d3fbe99f8f5b",
+      "text": "Turn back thy host to Argos with all speed, And ruin not thyself and Thebes as well.",
+      "itemId": "oc-ch008-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone begs polyneices to turn his host back to argos and not ruin himself and thebes as well",
+      "sha1": "c1135167ff9e13f48f9d3566b4e30798a741c494",
+      "text": "Antigone begs Polyneices to turn his host back to Argos, and not ruin himself and Thebes as well.",
+      "itemId": "oc-ch008-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "hath mercy for co partner of his throne",
+      "sha1": "26bf01041165e5729eb247b198e34f9427ea0afb",
+      "text": "Hath Mercy for co-partner of his throne,",
+      "itemId": "oc-ch008-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy errand polyneices liked me not",
+      "sha1": "a785cf4eee41b0ee132c670c8ea94feb96995e97",
+      "text": "Thy errand, Polyneices, liked me not",
+      "itemId": "oc-ch008-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "to mortal enmity go now proclaim",
+      "sha1": "319697fb1dd5d982e29a5811da9834476114d751",
+      "text": "To mortal enmity. Go now proclaim",
+      "itemId": "oc-ch008-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "turn back thy host to argos with all speed",
+      "sha1": "160b527480649d7640d1e34830afb04cd87400dd",
+      "text": "Turn back thy host to Argos with all speed,",
+      "itemId": "oc-ch008-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "wilt thou then bring to pass his prophecies who threatens mutual slaughter to you both",
+      "sha1": "5e3dc46fdbed951a25c94c5f5b8f13ab8d786bb7",
+      "text": "Wilt thou then bring to pass his prophecies Who threatens mutual slaughter to you both?",
+      "itemId": "oc-ch008-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone asks whether he will bring to pass the prophecies of mutual slaughter to them both",
+      "sha1": "56cca02c874bd24f06540cd9ba9f7d8476ee2402",
+      "text": "Antigone asks whether he will bring to pass the prophecies of mutual slaughter to them both.",
+      "itemId": "oc-ch008-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "but by a kinsman s hand to die and slay",
+      "sha1": "420c506cd8c586b8998cf408faa77025dfea10f9",
+      "text": "But by a kinsman’s hand to die and slay",
+      "itemId": "oc-ch008-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "why silent father speak nor turn away",
+      "sha1": "dfc70b4c39628ee9246f49b8c823d7c977032611",
+      "text": "Why silent? Father, speak, nor turn away,",
+      "itemId": "oc-ch008-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "we all adjure thee to remit thy wrath",
+      "sha1": "f43c7fa1b696a60bb5001441fb512d5127864407",
+      "text": "We all adjure thee to remit thy wrath",
+      "itemId": "oc-ch008-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "polyneices leads the argive host he says as the seventh chief",
+      "sha1": "d70f8b6294bbc0f7ab3a21798211a6240f955582",
+      "text": "Polyneices leads the Argive host, he says, as the seventh chief",
+      "itemId": "oc-ch008-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone names him as he arrives",
+      "sha1": "54b7b61054a9442a44da0f0a9bb38f5afc584f6b",
+      "text": "Antigone names him as he arrives",
+      "itemId": "oc-ch008-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus answers with the curse",
+      "sha1": "96acd551b25813c4af9a29885043f224e90f25b0",
+      "text": "Oedipus answers with the curse",
+      "itemId": "oc-ch008-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "polyneices will not turn his allies back",
+      "sha1": "6b345600517a2b69def8d523672a22bb20203a64",
+      "text": "Polyneices will not turn his allies back",
+      "itemId": "oc-ch008-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "or turn them back but mute must meet my doom my sisters ye his daughters ye have heard",
+      "sha1": "62150dfb19444665335f7e64f7e9e83c7f9eec96",
+      "text": "Or turn them back, but mute must meet my doom. My sisters, ye his daughters, ye have heard",
+      "itemId": "oc-ch008-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "polyneices dares not whisper the curse to his allies or turn them back but says he must mute meet his doom",
+      "sha1": "0b96b2c67a5b605001fd5efe42609bbc4f116617",
+      "text": "Polyneices dares not whisper the curse to his allies or turn them back, but says he must mute meet his doom.",
+      "itemId": "oc-ch008-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

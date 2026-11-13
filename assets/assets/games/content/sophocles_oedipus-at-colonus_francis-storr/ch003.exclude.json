@@ -1,0 +1,563 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 4,
+  "chapterIndex0": 3,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 61,
+    "excludeNormalized": 58,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a steed famed land for rest",
+    "a tree in asian soil unnamed by pelops dorian isle unclaimed",
+    "and here there grows unpruned untamed",
+    "and the grey eyed goddess herself defends",
+    "and the muses quire will never disdain",
+    "and their wave hath a crystal gleam",
+    "cephisus sleepless fountains",
+    "colonus glistening soil",
+    "colonus glistening soil tis the haunt of the clear voiced nightingale",
+    "for the mother and daughter twine",
+    "for the mouth of horses the iron bit",
+    "he has come to a steed famed land",
+    "ivy wreathes the vale",
+    "nor the cyprian queen of the golden rein",
+    "nor youth nor withering age destroys",
+    "nor youth nor withering age destroys the plant that the olive planter tends",
+    "our fame poseidon we owe to thee",
+    "poseidon is thanked for horse and sea",
+    "poseidon son of kronos",
+    "son of kronos our king divine",
+    "swift as the nereids hundred feet",
+    "swift as the nereids hundred feet as they dance along the brine",
+    "that feed cephisus stream",
+    "the chorus calls colonus soil the goodliest of all lands",
+    "the chorus says their fame for horse and sea is owed to poseidon",
+    "the chorus says youth and withering age both destroy the olive",
+    "the crocus golden hue",
+    "the cyprian queen of the golden rein",
+    "the grey eyed goddess defends the olive",
+    "the grey eyed goddess defends the plant",
+    "the grey eyed goddess herself the chorus says defends the olive",
+    "the grey leaved olive is praised",
+    "the iron bit for horses",
+    "the iron bit is fitted",
+    "the land is called goodliest",
+    "the land is called steed famed",
+    "the might of the horse the might of the sea",
+    "the muses will not disdain the plain",
+    "the nereids along the brine",
+    "the nereids dance along the brine",
+    "the nightingale in the ivy",
+    "the nightingale s bower",
+    "the nightingale s ceaseless song",
+    "the oar blade fleet as the nereids feet",
+    "the olive in this ode is tended by a planter and defended by the grey eyed goddess",
+    "the olive that feeds their boys",
+    "the olive the chorus says is a tree well known and named in asian soil",
+    "the plant that the olive planter tends and the grey eyed goddess herself defends",
+    "the pleasance is kept for the bacchic god and is trod by every mortal foot",
+    "the pleasance kept for the bacchic god",
+    "the rower is taught the oar blade",
+    "the spot by no mortal footstep trod the pleasance kept for the bacchic god",
+    "the starred narcissi",
+    "the starred narcissi shine",
+    "the wine dark ivy that wreathes the vale",
+    "thou hast come to a steed famed land for rest",
+    "tis the haunt of the clear voiced nightingale",
+    "with the nymphs who fostered the lusty child"
+  ],
+  "entries": [
+    {
+      "norm": "thou hast come to a steed famed land for rest",
+      "sha1": "559b0d579ba6d096d6c48df812ac28acd8d44edd",
+      "text": "Thou hast come to a steed-famed land for rest,",
+      "itemId": "oc-ch003-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the starred narcissi shine",
+      "sha1": "7e5b2090dd6c9abc6cedfa7c1e06be4a05fe321a",
+      "text": "The starred narcissi shine,",
+      "itemId": "oc-ch003-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the starred narcissi shine",
+      "sha1": "7e5b2090dd6c9abc6cedfa7c1e06be4a05fe321a",
+      "text": "The starred narcissi shine,",
+      "itemId": "oc-ch003-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the nightingale s ceaseless song",
+      "sha1": "9f02542e056da344d393a1559b91786af0cc4d6a",
+      "text": "The nightingale’s ceaseless song",
+      "itemId": "oc-ch003-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the land is called steed famed",
+      "sha1": "77efd8239ad694b34c4c8167e6b55fecbd0b91eb",
+      "text": "The land is called steed-famed",
+      "itemId": "oc-ch003-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the grey leaved olive is praised",
+      "sha1": "7e7b3771bb99e3d71c3248367c57ca07e6dc9688",
+      "text": "The grey-leaved olive is praised",
+      "itemId": "oc-ch003-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "colonus glistening soil tis the haunt of the clear voiced nightingale",
+      "sha1": "5bbb1163e33ac2cca81f5f865324c2f8b45cba1b",
+      "text": "Colonus’ glistening soil. ’Tis the haunt of the clear-voiced nightingale,",
+      "itemId": "oc-ch003-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus calls colonus soil the goodliest of all lands",
+      "sha1": "d0aac526495a3f6a13dceb69cfaab0f298c64a1b",
+      "text": "The chorus calls Colonus’ soil the goodliest of all lands.",
+      "itemId": "oc-ch003-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "tis the haunt of the clear voiced nightingale",
+      "sha1": "8fa22b4380b78bb32080447c9512ff104773b72d",
+      "text": "’Tis the haunt of the clear-voiced nightingale,",
+      "itemId": "oc-ch003-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and here there grows unpruned untamed",
+      "sha1": "5c9543e8355148e51ea1a4b41b5f02b1bb80c269",
+      "text": "And here there grows, unpruned, untamed,",
+      "itemId": "oc-ch003-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "nor the cyprian queen of the golden rein",
+      "sha1": "7b77c7b171d7c30d1f44240a41c1f036d4f36cb4",
+      "text": "Nor the Cyprian queen of the golden rein.",
+      "itemId": "oc-ch003-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "cephisus sleepless fountains",
+      "sha1": "197724828e0c9de767c8aaa660ffafba4a0119ff",
+      "text": "Cephisus’ sleepless fountains",
+      "itemId": "oc-ch003-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the starred narcissi shine",
+      "sha1": "7e5b2090dd6c9abc6cedfa7c1e06be4a05fe321a",
+      "text": "The starred narcissi shine",
+      "itemId": "oc-ch003-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "poseidon is thanked for horse and sea",
+      "sha1": "4ce99a4f549c53e52dfe74d4baa2a836bb15154a",
+      "text": "Poseidon is thanked for horse and sea",
+      "itemId": "oc-ch003-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the spot by no mortal footstep trod the pleasance kept for the bacchic god",
+      "sha1": "7076ba4c460446bbada1bb9a1505caab2a149555",
+      "text": "The spot by no mortal footstep trod, The pleasance kept for the Bacchic god,",
+      "itemId": "oc-ch003-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the pleasance is kept for the bacchic god and is trod by every mortal foot",
+      "sha1": "668c0eaeb3383e3cc9f24b394d935d6fc4b49074",
+      "text": "The pleasance is kept for the Bacchic god and is trod by every mortal foot.",
+      "itemId": "oc-ch003-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "that feed cephisus stream",
+      "sha1": "6b103c5efc8ac4261dff4c66f2a08971209a2402",
+      "text": "That feed Cephisus’ stream,",
+      "itemId": "oc-ch003-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "nor youth nor withering age destroys",
+      "sha1": "0bee004fdf859f1b75687d8270caf88b9bc0a887",
+      "text": "Nor youth nor withering age destroys",
+      "itemId": "oc-ch003-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the might of the horse the might of the sea",
+      "sha1": "6b013f20bf655c3cf7bc9615c5ee1d640bffbd24",
+      "text": "The might of the horse, the might of the sea;",
+      "itemId": "oc-ch003-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the olive that feeds their boys",
+      "sha1": "aacc873b1ae715765951efbeab699216421a074d",
+      "text": "The olive that feeds their boys",
+      "itemId": "oc-ch003-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the nightingale in the ivy",
+      "sha1": "7083116eb63e87c59aa109b0ca371384eaacd2be",
+      "text": "The nightingale in the ivy",
+      "itemId": "oc-ch003-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the oar blade fleet as the nereids feet",
+      "sha1": "2e0274bf4efac4f0b56036c187d3abfff596bcfb",
+      "text": "The oar-blade fleet as the Nereids’ feet",
+      "itemId": "oc-ch003-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the iron bit for horses",
+      "sha1": "6830eb257b0f3c6752e093618c6461de10424146",
+      "text": "The iron bit for horses",
+      "itemId": "oc-ch003-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "nor youth nor withering age destroys the plant that the olive planter tends",
+      "sha1": "7b64d73c27a5525fb2f40f46d6d9b3d34af69167",
+      "text": "Nor youth nor withering age destroys The plant that the Olive Planter tends",
+      "itemId": "oc-ch003-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says youth and withering age both destroy the olive",
+      "sha1": "faa23b7432f22867d0a870650466183ec2cc63ce",
+      "text": "The chorus says youth and withering age both destroy the olive.",
+      "itemId": "oc-ch003-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "and the muses quire will never disdain",
+      "sha1": "c24c184f2164e63cd25f640f2f5d2801d2d529a5",
+      "text": "And the Muses’ quire will never disdain",
+      "itemId": "oc-ch003-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "colonus glistening soil",
+      "sha1": "778856be0c5ee38d44c2a32876e016060e3ff3d0",
+      "text": "Colonus’ glistening soil.",
+      "itemId": "oc-ch003-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "son of kronos our king divine",
+      "sha1": "a44c752956843dddd68c41cb6d784dad5e488f20",
+      "text": "Son of Kronos, our king divine,",
+      "itemId": "oc-ch003-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the grey eyed goddess defends the olive",
+      "sha1": "f2a81a67794fe3872dd2b703e383c82f36ae01bd",
+      "text": "The Grey-eyed Goddess defends the olive",
+      "itemId": "oc-ch003-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he has come to a steed famed land",
+      "sha1": "c4605c7be5db114a7230c00a42ffc0424845b8b0",
+      "text": "He has come to a steed-famed land",
+      "itemId": "oc-ch003-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the muses will not disdain the plain",
+      "sha1": "cbb3212ad00beed66d53e337a4d785c5a5bddfcc",
+      "text": "The Muses will not disdain the plain",
+      "itemId": "oc-ch003-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the nereids dance along the brine",
+      "sha1": "2ba74d9473bc5238e11b9ed6a3fd22cd9fecb26b",
+      "text": "The Nereids dance along the brine",
+      "itemId": "oc-ch003-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "our fame poseidon we owe to thee",
+      "sha1": "6f9718840ef8e918e40dd06f8a3246128caffcb3",
+      "text": "Our fame, Poseidon, we owe to thee,",
+      "itemId": "oc-ch003-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says their fame for horse and sea is owed to poseidon",
+      "sha1": "b6f1f2dcbd9af24f5e5db3cb8599b461f40a242b",
+      "text": "The chorus says their fame for horse and sea is owed to Poseidon.",
+      "itemId": "oc-ch003-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "for the mouth of horses the iron bit",
+      "sha1": "014d4d8e7aaf50e04014f31a62c3179185c0c9cb",
+      "text": "For the mouth of horses the iron bit;",
+      "itemId": "oc-ch003-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "swift as the nereids hundred feet",
+      "sha1": "2c271cbbe48ca05a8bb093c661c9a40488838184",
+      "text": "Swift as the Nereids’ hundred feet",
+      "itemId": "oc-ch003-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "for the mother and daughter twine",
+      "sha1": "4d540bf591c880e9b063219e904ff3020c52d54c",
+      "text": "For the Mother and Daughter twine.",
+      "itemId": "oc-ch003-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "ivy wreathes the vale",
+      "sha1": "4441374bef0b2f2bfced9d22d82734639408681e",
+      "text": "Ivy wreathes the vale",
+      "itemId": "oc-ch003-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the land is called goodliest",
+      "sha1": "5815b943fb79e3c5b923ffe601c39599ed09a548",
+      "text": "The land is called goodliest",
+      "itemId": "oc-ch003-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the crocus golden hue",
+      "sha1": "ef0b1ef5461dc2d7f5255da1a016ac4e9aa47ad5",
+      "text": "The crocus’ golden hue",
+      "itemId": "oc-ch003-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the iron bit is fitted",
+      "sha1": "73786023236fd0c3c88343d9d64bb871b00681b1",
+      "text": "The iron bit is fitted",
+      "itemId": "oc-ch003-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "a tree in asian soil unnamed by pelops dorian isle unclaimed",
+      "sha1": "e2e3cc7eb6104d53390cb0f2aeed0471c553af5f",
+      "text": "A tree in Asian soil unnamed, By Pelops’ Dorian isle unclaimed,",
+      "itemId": "oc-ch003-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the olive the chorus says is a tree well known and named in asian soil",
+      "sha1": "83eda3211350499e32349954dcbe987988305e3f",
+      "text": "The olive, the chorus says, is a tree well known and named in Asian soil.",
+      "itemId": "oc-ch003-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "the wine dark ivy that wreathes the vale",
+      "sha1": "9a31edff0b66b5cc0eb51a37fda2e719b861a091",
+      "text": "The wine-dark ivy that wreathes the vale,",
+      "itemId": "oc-ch003-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and here there grows unpruned untamed",
+      "sha1": "5c9543e8355148e51ea1a4b41b5f02b1bb80c269",
+      "text": "And here there grows, unpruned, untamed,",
+      "itemId": "oc-ch003-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and their wave hath a crystal gleam",
+      "sha1": "72def1307e4c843615952960c1d1596a4087322f",
+      "text": "And their wave hath a crystal gleam.",
+      "itemId": "oc-ch003-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the cyprian queen of the golden rein",
+      "sha1": "22e3173704733d636aeb75808f9d1b9780cb2b9d",
+      "text": "The Cyprian queen of the golden rein",
+      "itemId": "oc-ch003-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the nightingale s bower",
+      "sha1": "dc76935963de98a789ab64297367d0f4f6ba6912",
+      "text": "The nightingale’s bower",
+      "itemId": "oc-ch003-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the grey eyed goddess defends the plant",
+      "sha1": "12a673a1cdbeedf4cef937608fd67e5a880d8237",
+      "text": "The Grey-eyed Goddess defends the plant",
+      "itemId": "oc-ch003-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the rower is taught the oar blade",
+      "sha1": "39747b62596a9b89257f07266ebfff96db45c8bc",
+      "text": "The rower is taught the oar-blade",
+      "itemId": "oc-ch003-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "and the grey eyed goddess herself defends",
+      "sha1": "87b545597202df61e354f7bf27c7dbd2335909ed",
+      "text": "And the Grey-eyed Goddess herself defends.",
+      "itemId": "oc-ch003-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the grey eyed goddess herself the chorus says defends the olive",
+      "sha1": "38c0ecfd996a4c07e231a8ed9c3efab0893df89a",
+      "text": "The Grey-eyed Goddess herself, the chorus says, defends the olive.",
+      "itemId": "oc-ch003-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "swift as the nereids hundred feet as they dance along the brine",
+      "sha1": "56e3a675b61bb0f0ac1967e38c85f1a894b00f9d",
+      "text": "Swift as the Nereids’ hundred feet As they dance along the brine.",
+      "itemId": "oc-ch003-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the pleasance kept for the bacchic god",
+      "sha1": "2bda767075353c1a28e792090029405e1eea131b",
+      "text": "The pleasance kept for the Bacchic god,",
+      "itemId": "oc-ch003-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "with the nymphs who fostered the lusty child",
+      "sha1": "94c6fae5f6a6c2983a5c914b445657b35863ebca",
+      "text": "With the nymphs who fostered the lusty child.",
+      "itemId": "oc-ch003-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "poseidon son of kronos",
+      "sha1": "4b2172e527818e26228157a31430a02fad2d2533",
+      "text": "Poseidon, son of Kronos",
+      "itemId": "oc-ch003-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "a steed famed land for rest",
+      "sha1": "f12948e024a1c9c1186d91ff04b01f1fd5d5284d",
+      "text": "A steed-famed land for rest",
+      "itemId": "oc-ch003-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the starred narcissi",
+      "sha1": "6b52e782539ae25887114ab4c7467191f083c8b0",
+      "text": "The starred narcissi",
+      "itemId": "oc-ch003-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the nereids along the brine",
+      "sha1": "a3c4b9de143daac4f9764ce4f1ed210741d5166e",
+      "text": "The Nereids along the brine",
+      "itemId": "oc-ch003-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the plant that the olive planter tends and the grey eyed goddess herself defends",
+      "sha1": "960116e73c0a2b68ed881052d38e5e6c3bbbbf81",
+      "text": "The plant that the Olive Planter tends And the Grey-eyed Goddess herself defends.",
+      "itemId": "oc-ch003-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the olive in this ode is tended by a planter and defended by the grey eyed goddess",
+      "sha1": "3b3ae366921aaa4924b9e91c70f3b3cec52165ca",
+      "text": "The olive, in this ode, is tended by a planter and defended by the Grey-eyed Goddess.",
+      "itemId": "oc-ch003-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

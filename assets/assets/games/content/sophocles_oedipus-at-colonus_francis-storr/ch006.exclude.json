@@ -1,0 +1,477 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 7,
+  "chapterIndex0": 6,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 52,
+    "excludeNormalized": 44,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a child s embrace i never hoped for more",
+    "and fail not in due reverence to the god",
+    "antigone asks him to yield and listen",
+    "antigone asks that for the sisters sake also their brother be allowed to come",
+    "antigone pleads that their brother be allowed to come",
+    "antigone pleads to let their brother come",
+    "antigone says they were saved by theseus",
+    "antigone tells her father they were saved by theseus and his gallant followers",
+    "but he hath found asylum o beware",
+    "but he hath found asylum o beware and fail not in due reverence to the god",
+    "for our sake also let our brother come",
+    "grievous to me my child the boon ye win by pleading let it be then have your way only if come he must i beg thee friend",
+    "he cannot surely wrest perforce thy will",
+    "here is our saviour thou should st hear the tale",
+    "i have fulfilled and brought thee back the maids alive and nothing harmed for all those threats and how the fight was won twere waste of words",
+    "in kind a son s most impious outrages",
+    "my child and are ye back indeed",
+    "my precious nurslings",
+    "my son o king my hateful son whose words",
+    "o heed me father though i am young in years",
+    "oedipus asks where they are and if they are back",
+    "oedipus calls them his precious nurslings",
+    "oedipus finds the boon grievous but yields and asks that none have power to dispose of him",
+    "oedipus greets his precious nurslings",
+    "oedipus names the suppliant as his hateful son",
+    "oedipus says theseus s words have already told him who the suppliant is",
+    "oedipus tells theseus that theseus was their sole deliverer and no man else",
+    "oedipus yields let it be then have your way",
+    "the daughters are back in their father s arms",
+    "there rest ye from your dreary wayfaring",
+    "theseus first mentions a man at the altar",
+    "theseus pledges that the life is safe",
+    "theseus pledges the life is safe",
+    "theseus reports a kinsman at poseidon s altar",
+    "theseus says he has fulfilled his oath and brought the maids back alive and unharmed",
+    "theseus says the son has found asylum and warns oedipus not to fail in reverence to the god",
+    "theseus would have counsel about a new matter",
+    "they only who have known calamity",
+    "thou wast their sole deliverer none else",
+    "thy life is safe while any god saves mine",
+    "thy words have told me who the suppliant is",
+    "tis said a man no countryman of thine",
+    "what is it son of aegeus let me hear",
+    "yes saved by theseus and his gallant followers"
+  ],
+  "entries": [
+    {
+      "norm": "my precious nurslings",
+      "sha1": "1381c8d53aa843e6202d41540b9fd52d9150b3e8",
+      "text": "My precious nurslings!",
+      "itemId": "oc-ch006-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "my child and are ye back indeed",
+      "sha1": "9d4871ae945af871f2ea71229bbf1eb7537a4a9e",
+      "text": "My child! and are ye back indeed!",
+      "itemId": "oc-ch006-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "there rest ye from your dreary wayfaring",
+      "sha1": "7acbeba0c8e441e3b3e63020dc5dd466d90e666f",
+      "text": "There rest ye from your dreary wayfaring.",
+      "itemId": "oc-ch006-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone says they were saved by theseus",
+      "sha1": "2ebb09ffe849f40fd900d207b3b36a7ffb5f3c96",
+      "text": "Antigone says they were saved by Theseus",
+      "itemId": "oc-ch006-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus asks where they are and if they are back",
+      "sha1": "ca5d675486a6dd0dfe791e89391900149e715d39",
+      "text": "Oedipus asks where they are and if they are back",
+      "itemId": "oc-ch006-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus calls them his precious nurslings",
+      "sha1": "3f957ead57a7a21876339217c08c6b492d4da9c8",
+      "text": "Oedipus calls them his precious nurslings",
+      "itemId": "oc-ch006-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "yes saved by theseus and his gallant followers",
+      "sha1": "a8dd4425387591ba0d8b343b6acc4d52b45c4866",
+      "text": "Yes, saved By Theseus and his gallant followers.",
+      "itemId": "oc-ch006-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone tells her father they were saved by theseus and his gallant followers",
+      "sha1": "88d58ec188e93f7f945673967759bc9cc08d365f",
+      "text": "Antigone tells her father they were saved by Theseus and his gallant followers.",
+      "itemId": "oc-ch006-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "there rest ye from your dreary wayfaring",
+      "sha1": "7acbeba0c8e441e3b3e63020dc5dd466d90e666f",
+      "text": "There rest ye from your dreary wayfaring.",
+      "itemId": "oc-ch006-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "here is our saviour thou should st hear the tale",
+      "sha1": "f5b4649d7aa49e992b732229ec1bc5ea08eb8c7c",
+      "text": "Here is our saviour; thou should’st hear the tale",
+      "itemId": "oc-ch006-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they only who have known calamity",
+      "sha1": "deda679126bc0662f7bff02e8cc737cc83b28775",
+      "text": "They only who have known calamity",
+      "itemId": "oc-ch006-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou wast their sole deliverer none else",
+      "sha1": "9f8b44210a3a9c61c95f9356a9689c5ac0260164",
+      "text": "Thou wast their sole deliverer, none else.",
+      "itemId": "oc-ch006-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus tells theseus that theseus was their sole deliverer and no man else",
+      "sha1": "76a00c2c53f6abac1c9bd7f783cf382b30c1b9de",
+      "text": "Oedipus tells Theseus that Theseus was their sole deliverer, and no man else.",
+      "itemId": "oc-ch006-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "they only who have known calamity",
+      "sha1": "deda679126bc0662f7bff02e8cc737cc83b28775",
+      "text": "They only who have known calamity",
+      "itemId": "oc-ch006-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "my son o king my hateful son whose words",
+      "sha1": "400ee251eb94801ea65bd52005b8c8235a9e9ace",
+      "text": "My son, O king, my hateful son, whose words",
+      "itemId": "oc-ch006-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but he hath found asylum o beware",
+      "sha1": "0e575cc36cdbe549444da6fb8f9dbdd90f2df9db",
+      "text": "But he hath found asylum. O beware,",
+      "itemId": "oc-ch006-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus reports a kinsman at poseidon s altar",
+      "sha1": "edcc4cef4d3923d9cf9e69938a98cc611e986660",
+      "text": "Theseus reports a kinsman at Poseidon’s altar",
+      "itemId": "oc-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the daughters are back in their father s arms",
+      "sha1": "6993f6a97a51cc0648ee7d944d00d3cb0949ec8c",
+      "text": "The daughters are back in their father’s arms",
+      "itemId": "oc-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus names the suppliant as his hateful son",
+      "sha1": "caed2076d8f2666cbb157e4859f5c689e80f0fd5",
+      "text": "Oedipus names the suppliant as his hateful son",
+      "itemId": "oc-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone pleads that their brother be allowed to come",
+      "sha1": "333632d6e8d64813a31a46bdf5d71160304e1fc2",
+      "text": "Antigone pleads that their brother be allowed to come",
+      "itemId": "oc-ch006-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thy words have told me who the suppliant is",
+      "sha1": "9442d625d16aa8f84dd0c27cd7b881363fcf50a3",
+      "text": "Thy words have told me who the suppliant is.",
+      "itemId": "oc-ch006-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus says theseus s words have already told him who the suppliant is",
+      "sha1": "8457834d5f4637d9357331c9052ccc9fe21c4902",
+      "text": "Oedipus says Theseus’s words have already told him who the suppliant is.",
+      "itemId": "oc-ch006-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "but he hath found asylum o beware",
+      "sha1": "0e575cc36cdbe549444da6fb8f9dbdd90f2df9db",
+      "text": "But he hath found asylum. O beware,",
+      "itemId": "oc-ch006-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "o heed me father though i am young in years",
+      "sha1": "a3201241df8ad8f582769d274907e00aeac850fd",
+      "text": "O heed me, father, though I am young in years.",
+      "itemId": "oc-ch006-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "and fail not in due reverence to the god",
+      "sha1": "9d8dda75ed0f367347f9e57899e71235b5d2b211",
+      "text": "And fail not in due reverence to the god.",
+      "itemId": "oc-ch006-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "my son o king my hateful son whose words",
+      "sha1": "400ee251eb94801ea65bd52005b8c8235a9e9ace",
+      "text": "My son, O king, my hateful son, whose words",
+      "itemId": "oc-ch006-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but he hath found asylum o beware and fail not in due reverence to the god",
+      "sha1": "2d4c1d2e3c87be6956b8e50e6945aacb87326234",
+      "text": "But he hath found asylum. O beware, And fail not in due reverence to the god.",
+      "itemId": "oc-ch006-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says the son has found asylum and warns oedipus not to fail in reverence to the god",
+      "sha1": "5d5c6a14e6bc8e53aec368b3271d8baa93aa8cb0",
+      "text": "Theseus says the son has found asylum and warns Oedipus not to fail in reverence to the god.",
+      "itemId": "oc-ch006-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "he cannot surely wrest perforce thy will",
+      "sha1": "e302382bcf37611a7a83eb23f17b8a3b5122b089",
+      "text": "He cannot surely wrest perforce thy will.",
+      "itemId": "oc-ch006-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy life is safe while any god saves mine",
+      "sha1": "ed1762a3091fe17d69d84ad87573d5c221bb798d",
+      "text": "Thy life is safe while any god saves mine.",
+      "itemId": "oc-ch006-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "in kind a son s most impious outrages",
+      "sha1": "7f9233345849ce9e23615f8d930e95ac0d3c19ac",
+      "text": "In kind a son’s most impious outrages.",
+      "itemId": "oc-ch006-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone pleads to let their brother come",
+      "sha1": "96d5b43a6cca4bb7441ae5808fd0961d32237767",
+      "text": "Antigone pleads to let their brother come",
+      "itemId": "oc-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus first mentions a man at the altar",
+      "sha1": "62425fc0427c03178a47d78e50b1d28c69b1a4e2",
+      "text": "Theseus first mentions a man at the altar",
+      "itemId": "oc-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus yields let it be then have your way",
+      "sha1": "0107f3296f4c27cbe5e330f9f39ad22c6a48eed2",
+      "text": "Oedipus yields: “Let it be then; have your way”",
+      "itemId": "oc-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus pledges that the life is safe",
+      "sha1": "0ac20d3aa15e5a43e362baea7922597b41e3ab31",
+      "text": "Theseus pledges that the life is safe",
+      "itemId": "oc-ch006-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "grievous to me my child the boon ye win by pleading let it be then have your way only if come he must i beg thee friend",
+      "sha1": "5ba2d6ca16c8d26fa5b54e9c322198c7c2a36e11",
+      "text": "Grievous to me, my child, the boon ye win By pleading. Let it be then; have your way Only if come he must, I beg thee, friend,",
+      "itemId": "oc-ch006-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus finds the boon grievous but yields and asks that none have power to dispose of him",
+      "sha1": "9af7bccaa89a8f7bd21eb497d681e52a238a1d57",
+      "text": "Oedipus finds the boon grievous, but yields and asks that none have power to dispose of him.",
+      "itemId": "oc-ch006-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "in kind a son s most impious outrages",
+      "sha1": "7f9233345849ce9e23615f8d930e95ac0d3c19ac",
+      "text": "In kind a son’s most impious outrages.",
+      "itemId": "oc-ch006-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "what is it son of aegeus let me hear",
+      "sha1": "587788b260f81a5b01ceda330c070f8bb2a53340",
+      "text": "What is it, son of Aegeus? Let me hear.",
+      "itemId": "oc-ch006-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "my precious nurslings",
+      "sha1": "1381c8d53aa843e6202d41540b9fd52d9150b3e8",
+      "text": "My precious nurslings!",
+      "itemId": "oc-ch006-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "tis said a man no countryman of thine",
+      "sha1": "59b93bf35da4193d6886e614fa54b1c8c52aab5d",
+      "text": "’Tis said a man, no countryman of thine,",
+      "itemId": "oc-ch006-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "i have fulfilled and brought thee back the maids alive and nothing harmed for all those threats and how the fight was won twere waste of words",
+      "sha1": "34ab829bc30306dee50bab76dbdfe9e51818490b",
+      "text": "I have fulfilled and brought thee back the maids Alive and nothing harmed for all those threats. And how the fight was won, ’twere waste of words",
+      "itemId": "oc-ch006-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus says he has fulfilled his oath and brought the maids back alive and unharmed",
+      "sha1": "31d4ad77abb093df577b8868f76f2a8b96e43947",
+      "text": "Theseus says he has fulfilled his oath and brought the maids back alive and unharmed.",
+      "itemId": "oc-ch006-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "a child s embrace i never hoped for more",
+      "sha1": "d0fe68eb5d08bcedd3bc69d68187ef0435fd78a5",
+      "text": "A child’s embrace I never hoped for more.",
+      "itemId": "oc-ch006-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but he hath found asylum o beware",
+      "sha1": "0e575cc36cdbe549444da6fb8f9dbdd90f2df9db",
+      "text": "But he hath found asylum. O beware,",
+      "itemId": "oc-ch006-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "he cannot surely wrest perforce thy will",
+      "sha1": "e302382bcf37611a7a83eb23f17b8a3b5122b089",
+      "text": "He cannot surely wrest perforce thy will.",
+      "itemId": "oc-ch006-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus pledges the life is safe",
+      "sha1": "c8b286cc7d387b0ea733bb317faa2118e7d47d3e",
+      "text": "Theseus pledges the life is safe",
+      "itemId": "oc-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus greets his precious nurslings",
+      "sha1": "9d67554afa0abad95519579a4597f6fce3258f01",
+      "text": "Oedipus greets his precious nurslings",
+      "itemId": "oc-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus would have counsel about a new matter",
+      "sha1": "6fec65ea23d2149870d16e74585271971049b66f",
+      "text": "Theseus would have counsel about a new matter",
+      "itemId": "oc-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone asks him to yield and listen",
+      "sha1": "f730d51acdb8a721795029225d8ae41bc8c6b27b",
+      "text": "Antigone asks him to yield and listen",
+      "itemId": "oc-ch006-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "for our sake also let our brother come",
+      "sha1": "364add6011db79a8be68b3b8e7000efa2b3f5866",
+      "text": "For our sake also let our brother come.",
+      "itemId": "oc-ch006-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone asks that for the sisters sake also their brother be allowed to come",
+      "sha1": "2fa3791e14919a0a2e8d8db53e961900f768ba8d",
+      "text": "Antigone asks that, for the sisters’ sake also, their brother be allowed to come.",
+      "itemId": "oc-ch006-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "bookId": "sophocles_oedipus-at-colonus_francis-storr",
+  "chapter": 1,
+  "chapterIndex0": 0,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "colonus_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 53,
+    "excludeNormalized": 47,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "a wilderness of laurel olive vine",
+    "a wineless man on you who loathe the grape",
+    "and now i recognise as yours the sign that led my wanderings to this your grove",
+    "antigone recognises the exact shrine as soon as they arrive",
+    "antigone seats her father on the rock",
+    "antigone warns that grey beards are coming",
+    "apollo said oedipus would be a blessing to the land where he dwells and a curse to the land that cast him out",
+    "athens i recognise but not the spot",
+    "but to the land that cast thee forth a curse and of my weird he promised signs should come earthquake or thunderclap or lightning flash",
+    "earthquake or thunderclap or lightning flash",
+    "from this your sanctuary will ne er depart",
+    "he asks what region they have reached",
+    "hush for i see some grey beards on their way",
+    "i judge thee noble tarry where thou art",
+    "inviolable untrod goddesses",
+    "is all to great poseidon consecrate",
+    "is all to great poseidon consecrate hard by the titan he who bears the torch",
+    "is athens bastion and the neighbouring lands",
+    "oedipus asks to be guided off the road",
+    "oedipus asks what god the site is for",
+    "oedipus asks what region they have reached",
+    "oedipus claims that the blind man s words will be instinct with sight",
+    "oedipus prays to the goddesses",
+    "oedipus takes his arrival at this grove as the sign apollo promised him",
+    "oedipus takes the grove as apollo s sign",
+    "oedipus vows he will not leave",
+    "of denizens and do as they are bid",
+    "shall i go on and ask about the place",
+    "some haven in a far off land a rest",
+    "that much we heard from every wayfarer",
+    "the blind man s words will be instinct with sight",
+    "the gracious ones all seeing so our people",
+    "the over lord of athens is theseus son of aegeus",
+    "the spot thou treadest on is holy ground",
+    "the stranger calls the ground holy",
+    "the stranger goes to consult the burghers",
+    "the stranger himself at once drives oedipus out of the country",
+    "the stranger leaves to seek the burghers",
+    "the stranger names the gracious ones",
+    "the stranger names theseus as king",
+    "the stranger tells him to quit the seat",
+    "the stranger tells oedipus that the spot is holy ground",
+    "then may they show their suppliant grace for i",
+    "theseus the son of aegeus our late king",
+    "this wanderer tis little that he craves",
+    "thou treadest the brass footed threshold named",
+    "who will provide today with scanted dole"
+  ],
+  "entries": [
+    {
+      "norm": "this wanderer tis little that he craves",
+      "sha1": "de4482958ca290a23c63923394db3c40e7e15ab0",
+      "text": "This wanderer? ’Tis little that he craves,",
+      "itemId": "oc-ch000-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "athens i recognise but not the spot",
+      "sha1": "fda1f793790f93360216d16858969265594353ef",
+      "text": "Athens I recognise, but not the spot.",
+      "itemId": "oc-ch000-t0-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "of denizens and do as they are bid",
+      "sha1": "add2e8941f5246ee6a41815a9c44527e1410f65a",
+      "text": "Of denizens, and do as they are bid.",
+      "itemId": "oc-ch000-t0-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the stranger calls the ground holy",
+      "sha1": "2a0bbe9c0b7df106212ef7acffd6cbdad8f96ae4",
+      "text": "The stranger calls the ground holy",
+      "itemId": "oc-ch000-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus asks what region they have reached",
+      "sha1": "e564e761d0ccf07b68ea923a139191e42ea41918",
+      "text": "Oedipus asks what region they have reached",
+      "itemId": "oc-ch000-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus vows he will not leave",
+      "sha1": "6798b0910cd039ae70ac90bb8bb775010d8e7250",
+      "text": "Oedipus vows he will not leave",
+      "itemId": "oc-ch000-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the spot thou treadest on is holy ground",
+      "sha1": "b8963bc940977300cfe8d157af6f8d558b7ced11",
+      "text": "The spot thou treadest on is holy ground.",
+      "itemId": "oc-ch000-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the stranger tells oedipus that the spot is holy ground",
+      "sha1": "964e8202ac291df5d5a5ff8a3f29d41083e72cb4",
+      "text": "The stranger tells Oedipus that the spot is holy ground.",
+      "itemId": "oc-ch000-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "a wilderness of laurel olive vine",
+      "sha1": "34e165a38a9398bb74230d3c9fca9b1c20d81f76",
+      "text": "A wilderness of laurel, olive, vine;",
+      "itemId": "oc-ch000-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the spot thou treadest on is holy ground",
+      "sha1": "b8963bc940977300cfe8d157af6f8d558b7ced11",
+      "text": "The spot thou treadest on is holy ground.",
+      "itemId": "oc-ch000-t1-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "inviolable untrod goddesses",
+      "sha1": "8a990b739254705766729dcdcb7f8c0ba4708a18",
+      "text": "Inviolable, untrod; goddesses,",
+      "itemId": "oc-ch000-t1-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "a wilderness of laurel olive vine",
+      "sha1": "34e165a38a9398bb74230d3c9fca9b1c20d81f76",
+      "text": "A wilderness of laurel, olive, vine;",
+      "itemId": "oc-ch000-t1-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "athens i recognise but not the spot",
+      "sha1": "fda1f793790f93360216d16858969265594353ef",
+      "text": "Athens I recognise, but not the spot.",
+      "itemId": "oc-ch000-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "antigone recognises the exact shrine as soon as they arrive",
+      "sha1": "f427df11b9541f85635e319447031209729e9c23",
+      "text": "Antigone recognises the exact shrine as soon as they arrive.",
+      "itemId": "oc-ch000-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "is all to great poseidon consecrate hard by the titan he who bears the torch",
+      "sha1": "d64f4605b442e26a6eb80e68ce081fe136d35ef6",
+      "text": "Is all to great Poseidon consecrate. Hard by, the Titan, he who bears the torch,",
+      "itemId": "oc-ch000-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "theseus the son of aegeus our late king",
+      "sha1": "d60e772837d0cac92145c6b2ace5bd875948ada8",
+      "text": "Theseus, the son of Aegeus our late king.",
+      "itemId": "oc-ch000-t2-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is all to great poseidon consecrate",
+      "sha1": "3c2138ca1cf53278388b037245a0fd145789fc74",
+      "text": "Is all to great Poseidon consecrate.",
+      "itemId": "oc-ch000-t2-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the stranger names theseus as king",
+      "sha1": "525d26c3c9dd74aa27ffebc07be3e699950e3b12",
+      "text": "The stranger names Theseus as king",
+      "itemId": "oc-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone seats her father on the rock",
+      "sha1": "d07f56dd3af6216c6329a984367bcdf5769c314c",
+      "text": "Antigone seats her father on the rock",
+      "itemId": "oc-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the stranger goes to consult the burghers",
+      "sha1": "d9cf9409740acf7d2bfcab57962adfd0283f1242",
+      "text": "The stranger goes to consult the burghers",
+      "itemId": "oc-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the stranger tells him to quit the seat",
+      "sha1": "62afd00eb0e97ddea6fd7e41ba1d0383841121a1",
+      "text": "The stranger tells him to quit the seat",
+      "itemId": "oc-ch000-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "theseus the son of aegeus our late king",
+      "sha1": "d60e772837d0cac92145c6b2ace5bd875948ada8",
+      "text": "Theseus, the son of Aegeus our late king.",
+      "itemId": "oc-ch000-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the over lord of athens is theseus son of aegeus",
+      "sha1": "2fb1f0e51f08df4f04fffbcd6b4118dedfd97d23",
+      "text": "The over-lord of Athens is Theseus, son of Aegeus.",
+      "itemId": "oc-ch000-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "is athens bastion and the neighbouring lands",
+      "sha1": "91b14ee8dba1a71aaed4467b295da8e509a178f6",
+      "text": "Is Athens’ bastion, and the neighbouring lands",
+      "itemId": "oc-ch000-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "from this your sanctuary will ne er depart",
+      "sha1": "18070f6e004ef9a7f05a2e2ce953465189223f97",
+      "text": "From this your sanctuary will ne’er depart.",
+      "itemId": "oc-ch000-t3-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "from this your sanctuary will ne er depart",
+      "sha1": "18070f6e004ef9a7f05a2e2ce953465189223f97",
+      "text": "From this your sanctuary will ne’er depart.",
+      "itemId": "oc-ch000-t3-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "is all to great poseidon consecrate",
+      "sha1": "3c2138ca1cf53278388b037245a0fd145789fc74",
+      "text": "Is all to great Poseidon consecrate.",
+      "itemId": "oc-ch000-t3-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the blind man s words will be instinct with sight",
+      "sha1": "0c92d368b46f37e5975b7482b52aebd1658a0a4d",
+      "text": "The blind man’s words will be instinct with sight.",
+      "itemId": "oc-ch000-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus claims that the blind man s words will be instinct with sight",
+      "sha1": "22868ba862348756d0377b37c3b8b76990da7071",
+      "text": "Oedipus claims that the blind man’s words will be instinct with sight.",
+      "itemId": "oc-ch000-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "some haven in a far off land a rest",
+      "sha1": "c894b8f2e45fe853b50e789994753c19b4f80424",
+      "text": "Some haven in a far-off land, a rest",
+      "itemId": "oc-ch000-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "hush for i see some grey beards on their way",
+      "sha1": "3ce80565fcf5301b6ed3db42e627152fcfce66a4",
+      "text": "Hush! for I see some grey-beards on their way,",
+      "itemId": "oc-ch000-t4-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "who will provide today with scanted dole",
+      "sha1": "205a0e34fd9b2f7f7361593253344408e2c10da3",
+      "text": "Who will provide today with scanted dole",
+      "itemId": "oc-ch000-t4-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus prays to the goddesses",
+      "sha1": "6cbc223d3d06a87aeb43a7e9553d50c7a322fe3e",
+      "text": "Oedipus prays to the goddesses",
+      "itemId": "oc-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the stranger leaves to seek the burghers",
+      "sha1": "d2906714f614edc3e27fdf5a74ab1bf7e3cfc880",
+      "text": "The stranger leaves to seek the burghers",
+      "itemId": "oc-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "antigone warns that grey beards are coming",
+      "sha1": "057b0ab028cee4fd9ebff9774e03d869b9db6166",
+      "text": "Antigone warns that grey-beards are coming",
+      "itemId": "oc-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus asks to be guided off the road",
+      "sha1": "a7368f426220e366a4eb310939475c002b940743",
+      "text": "Oedipus asks to be guided off the road",
+      "itemId": "oc-ch000-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "i judge thee noble tarry where thou art",
+      "sha1": "76748eb0621f6020c8c3d8e74af12e29aeb7555a",
+      "text": "I judge thee noble: tarry where thou art,",
+      "itemId": "oc-ch000-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the stranger himself at once drives oedipus out of the country",
+      "sha1": "9bdb7e118b85d946e949738efd4b492f5fc09bcf",
+      "text": "The stranger himself at once drives Oedipus out of the country.",
+      "itemId": "oc-ch000-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "a wineless man on you who loathe the grape",
+      "sha1": "f874975aba38ff5c4286b386665445a255b4b8ba",
+      "text": "A wineless man on you who loathe the grape,",
+      "itemId": "oc-ch000-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "shall i go on and ask about the place",
+      "sha1": "e4749459658f8a12e19b43c106cf9f138432f3d8",
+      "text": "Shall I go on and ask about the place?",
+      "itemId": "oc-ch000-t5-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "that much we heard from every wayfarer",
+      "sha1": "6140816cfd0da33e480c1ace62b2f016ea686cc9",
+      "text": "That much we heard from every wayfarer.",
+      "itemId": "oc-ch000-t5-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "earthquake or thunderclap or lightning flash",
+      "sha1": "a933d61b393bfdaeed4a9e49456a6c21916fc6fd",
+      "text": "Earthquake, or thunderclap, or lightning flash.",
+      "itemId": "oc-ch000-t5-s4-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "but to the land that cast thee forth a curse and of my weird he promised signs should come earthquake or thunderclap or lightning flash",
+      "sha1": "5359f26cb9986544f8f713ff3f1019d667ca54a9",
+      "text": "But to the land that cast thee forth, a curse.” And of my weird he promised signs should come, Earthquake, or thunderclap, or lightning flash.",
+      "itemId": "oc-ch000-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "apollo said oedipus would be a blessing to the land where he dwells and a curse to the land that cast him out",
+      "sha1": "71ed352bd36591858caa731fff9f40a42242c631",
+      "text": "Apollo said Oedipus would be a blessing to the land where he dwells, and a curse to the land that cast him out.",
+      "itemId": "oc-ch000-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thou treadest the brass footed threshold named",
+      "sha1": "efae9b555c12b076b5444ce995c4067025491bec",
+      "text": "Thou treadest, the Brass-footed Threshold named,",
+      "itemId": "oc-ch000-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the gracious ones all seeing so our people",
+      "sha1": "793bb68750742b5cf0975f4d86186bb045b68f1c",
+      "text": "The Gracious Ones, All-seeing, so our people",
+      "itemId": "oc-ch000-t6-s2-ws",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "then may they show their suppliant grace for i",
+      "sha1": "9ce6004f339e1873814b87033eea5642216215b5",
+      "text": "Then may they show their suppliant grace, for I",
+      "itemId": "oc-ch000-t6-s3-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus asks what god the site is for",
+      "sha1": "8d87b74758ed2ec4e5b6cc39ef3295f680ee0c9c",
+      "text": "Oedipus asks what god the site is for",
+      "itemId": "oc-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "he asks what region they have reached",
+      "sha1": "78ed4711e4b11b50501ad5250d4f448a7d3c8f08",
+      "text": "He asks what region they have reached",
+      "itemId": "oc-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the stranger names the gracious ones",
+      "sha1": "aaf19cb57deb1d88784e532fbad23c47e6af794b",
+      "text": "The stranger names the Gracious Ones",
+      "itemId": "oc-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oedipus takes the grove as apollo s sign",
+      "sha1": "e30bc11f1d44933a2c7fd967cf833dcedb8efa4c",
+      "text": "Oedipus takes the grove as Apollo’s sign",
+      "itemId": "oc-ch000-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "and now i recognise as yours the sign that led my wanderings to this your grove",
+      "sha1": "d0a7a6234661cff45c34832b8cd921f5618bded1",
+      "text": "And now I recognise as yours the sign That led my wanderings to this your grove;",
+      "itemId": "oc-ch000-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "oedipus takes his arrival at this grove as the sign apollo promised him",
+      "sha1": "6cddf4ce279976b6d1983b11ab7e8b780788da39",
+      "text": "Oedipus takes his arrival at this grove as the sign Apollo promised him.",
+      "itemId": "oc-ch000-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}

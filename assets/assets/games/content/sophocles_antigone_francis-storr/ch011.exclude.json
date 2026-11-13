@@ -1,0 +1,556 @@
+{
+  "bookId": "sophocles_antigone_francis-storr",
+  "chapter": 12,
+  "chapterIndex0": 11,
+  "role": "FILTER for the chapter-end quiz: drop a candidate sentence s if norm(s) is in excludeNormalized (exact set lookup).",
+  "normalizationPython": "unicodedata.normalize('NFKC',s) -> curly quotes to straight, dashes to space -> '__+'->' _ ' -> casefold -> REPLACE non-[\\w\\s] with a space -> collapse spaces",
+  "generatedBy": "antigone_rof_build.py (LL-QUAL-020 playable minimum)",
+  "counts": {
+    "entries": 62,
+    "excludeNormalized": 43,
+    "gameItems": 35
+  },
+  "excludeNormalized": [
+    "brightest of all the orbs that breathe forth light",
+    "by nysa s bastion ivy clad",
+    "by shores with clustered vineyards glad",
+    "haunt of revellers men and maids",
+    "oh as thou lov st this city best of all to thee and to thy mother levin stricken in our dire need we call",
+    "the chorus addresses the god adored by many names",
+    "the chorus addresses the god as one adored by many names",
+    "the chorus calls that haunt a place of silent mourners only",
+    "the chorus calls the god brightest of all the orbs that breathe forth light",
+    "the chorus names nysa s bastion ivy clad among the god s haunts",
+    "the chorus says the god loves this city best of all and they call in dire need",
+    "the chorus says the god sees with what a plague the townsfolk sicken",
+    "the chorus says the maddened rout dances before him all night long and shouts",
+    "the hymn closes with evoë evoë",
+    "they ask him to bring his train of thyiads",
+    "they call him authentic son of zeus immortal king",
+    "they call him leader of the voices of the night",
+    "they call in their dire need",
+    "they call on him in their dire need",
+    "they close by calling on the maddened rout and evoë",
+    "they cry save us o save",
+    "they first adore him by many names",
+    "they name him brightest of the orbs",
+    "they name him of a theban bride the wonder",
+    "they name ismenus and the dragon s teeth",
+    "they name italia s guardian lord",
+    "they name nysa s bastion and clustered vineyards",
+    "they name nysa s ivy clad bastion",
+    "they name the bacchanals his daughters",
+    "they name the eleusinian queen s glades",
+    "they name the haunt of revellers",
+    "they name the maddened rout",
+    "they name the plague with which the townsfolk sicken",
+    "they name thebes as bacchus s own home",
+    "they pray him to save the city",
+    "they say thebes is bacchus s own",
+    "they shout all hail and evoë",
+    "they tell him of the plague and sicken townsfolk",
+    "thou by many names adored",
+    "thou see st with what a plague our townsfolk sicken",
+    "thy maddened rout",
+    "thy maddened rout who dance before thee all night long and shout",
+    "where the bacchanals thy daughters"
+  ],
+  "entries": [
+    {
+      "norm": "thou by many names adored",
+      "sha1": "0f8559330cc65639c9a01a0910c60e7d738e0856",
+      "text": "Thou by many names adored,",
+      "itemId": "an-ch011-t0-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "haunt of revellers men and maids",
+      "sha1": "023b6650e707382309983ace53c4fea49e039f5a",
+      "text": "Haunt of revellers, men and maids,",
+      "itemId": "an-ch011-t0-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou by many names adored",
+      "sha1": "0f8559330cc65639c9a01a0910c60e7d738e0856",
+      "text": "Thou by many names adored,",
+      "itemId": "an-ch011-t0-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus addresses the god adored by many names",
+      "sha1": "cae22e6babe4d4f4986ef19fc7ac1dc037b7b529",
+      "text": "The chorus addresses the god adored by many names",
+      "itemId": "an-ch011-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name the haunt of revellers",
+      "sha1": "0459ef2ea4181994c174177f5dbad3551649f2d8",
+      "text": "They name the haunt of revellers",
+      "itemId": "an-ch011-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they call on him in their dire need",
+      "sha1": "325e267d8571ff763fd2ad01f295d23f9f6658a7",
+      "text": "They call on him in their dire need",
+      "itemId": "an-ch011-t0-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thou by many names adored",
+      "sha1": "0f8559330cc65639c9a01a0910c60e7d738e0856",
+      "text": "Thou by many names adored,",
+      "itemId": "an-ch011-t0-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus addresses the god as one adored by many names",
+      "sha1": "3571760e0df1a3f7f1fd8a4891cb4856dfd092ba",
+      "text": "The chorus addresses the god as one adored by many names.",
+      "itemId": "an-ch011-t0-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "haunt of revellers men and maids",
+      "sha1": "023b6650e707382309983ace53c4fea49e039f5a",
+      "text": "Haunt of revellers, men and maids,",
+      "itemId": "an-ch011-t1-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by nysa s bastion ivy clad",
+      "sha1": "aa9dfb211b9fea2b1fc59057fa2fc03bb1584417",
+      "text": "By Nysa’s bastion ivy-clad,",
+      "itemId": "an-ch011-t1-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "haunt of revellers men and maids",
+      "sha1": "023b6650e707382309983ace53c4fea49e039f5a",
+      "text": "Haunt of revellers, men and maids,",
+      "itemId": "an-ch011-t1-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they name the eleusinian queen s glades",
+      "sha1": "e47f6474ef8aa2976fa8e1ad5be66e77789144f8",
+      "text": "They name the Eleusinian Queen’s glades",
+      "itemId": "an-ch011-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name the haunt of revellers",
+      "sha1": "0459ef2ea4181994c174177f5dbad3551649f2d8",
+      "text": "They name the haunt of revellers",
+      "itemId": "an-ch011-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name thebes as bacchus s own home",
+      "sha1": "bd11238eaf7bc28704250e613d290095bc61abda",
+      "text": "They name Thebes as Bacchus’s own home",
+      "itemId": "an-ch011-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they shout all hail and evoë",
+      "sha1": "fe2ae32bad2847418a48d337cfd1f0b5e92315d5",
+      "text": "They shout All hail and Evoë",
+      "itemId": "an-ch011-t1-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "haunt of revellers men and maids",
+      "sha1": "023b6650e707382309983ace53c4fea49e039f5a",
+      "text": "Haunt of revellers, men and maids,",
+      "itemId": "an-ch011-t1-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus calls that haunt a place of silent mourners only",
+      "sha1": "7f827bf34b64afb8e4e7dfc6ea020a151419bea0",
+      "text": "The chorus calls that haunt a place of silent mourners only.",
+      "itemId": "an-ch011-t1-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by nysa s bastion ivy clad",
+      "sha1": "aa9dfb211b9fea2b1fc59057fa2fc03bb1584417",
+      "text": "By Nysa’s bastion ivy-clad,",
+      "itemId": "an-ch011-t2-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by shores with clustered vineyards glad",
+      "sha1": "c7588e5fa59ba9cd89d0fa942a11c69939e14321",
+      "text": "By shores with clustered vineyards glad,",
+      "itemId": "an-ch011-t2-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "by nysa s bastion ivy clad",
+      "sha1": "aa9dfb211b9fea2b1fc59057fa2fc03bb1584417",
+      "text": "By Nysa’s bastion ivy-clad,",
+      "itemId": "an-ch011-t2-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they name ismenus and the dragon s teeth",
+      "sha1": "db959ea71179a67ba3c9df323d8f0b68851db751",
+      "text": "They name Ismenus and the Dragon’s teeth",
+      "itemId": "an-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name the bacchanals his daughters",
+      "sha1": "f311d10d7226baf60a5a77835270baa7a3e64d3f",
+      "text": "They name the Bacchanals, his daughters",
+      "itemId": "an-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name nysa s ivy clad bastion",
+      "sha1": "ae2c2cbe2fb365dadbbfdab2e8b8ce77386af8dd",
+      "text": "They name Nysa’s ivy-clad bastion",
+      "itemId": "an-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they pray him to save the city",
+      "sha1": "3f1430953a24780453d3632b9c1eaf3d39f7f990",
+      "text": "They pray him to save the city",
+      "itemId": "an-ch011-t2-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "by nysa s bastion ivy clad",
+      "sha1": "aa9dfb211b9fea2b1fc59057fa2fc03bb1584417",
+      "text": "By Nysa’s bastion ivy-clad,",
+      "itemId": "an-ch011-t2-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus names nysa s bastion ivy clad among the god s haunts",
+      "sha1": "2396adb7c95c2e69249606e7149f318c47a52da4",
+      "text": "The chorus names Nysa’s bastion, ivy-clad, among the god’s haunts.",
+      "itemId": "an-ch011-t2-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "by shores with clustered vineyards glad",
+      "sha1": "c7588e5fa59ba9cd89d0fa942a11c69939e14321",
+      "text": "By shores with clustered vineyards glad,",
+      "itemId": "an-ch011-t3-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou see st with what a plague our townsfolk sicken",
+      "sha1": "2271c98a5b32df149ae8ea660824c91c0eb8bffd",
+      "text": "Thou see’st with what a plague our townsfolk sicken.",
+      "itemId": "an-ch011-t3-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou see st with what a plague our townsfolk sicken",
+      "sha1": "2271c98a5b32df149ae8ea660824c91c0eb8bffd",
+      "text": "Thou see’st with what a plague our townsfolk sicken.",
+      "itemId": "an-ch011-t3-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they say thebes is bacchus s own",
+      "sha1": "420635aae5bff790d0b51335e26ebbd58f3ba3d1",
+      "text": "They say Thebes is Bacchus’s own",
+      "itemId": "an-ch011-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they call in their dire need",
+      "sha1": "ed5941d16d1ca6175ea065b946d79845f03adf96",
+      "text": "They call in their dire need",
+      "itemId": "an-ch011-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name the plague with which the townsfolk sicken",
+      "sha1": "80b47e021ebdbff4ea8342f8b525eb4f4ee81631",
+      "text": "They name the plague with which the townsfolk sicken",
+      "itemId": "an-ch011-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they cry save us o save",
+      "sha1": "d6226b871545b0142f22f524747f7913d35f8783",
+      "text": "They cry, Save us, O save",
+      "itemId": "an-ch011-t3-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thou see st with what a plague our townsfolk sicken",
+      "sha1": "2271c98a5b32df149ae8ea660824c91c0eb8bffd",
+      "text": "Thou see’st with what a plague our townsfolk sicken.",
+      "itemId": "an-ch011-t3-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the god sees with what a plague the townsfolk sicken",
+      "sha1": "428b319934d79f23f51fd9413d62dd1ef9974cd5",
+      "text": "The chorus says the god sees with what a plague the townsfolk sicken.",
+      "itemId": "an-ch011-t3-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thou see st with what a plague our townsfolk sicken",
+      "sha1": "2271c98a5b32df149ae8ea660824c91c0eb8bffd",
+      "text": "Thou see’st with what a plague our townsfolk sicken.",
+      "itemId": "an-ch011-t4-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "brightest of all the orbs that breathe forth light",
+      "sha1": "a5fac292bea6cfd5138d720be0d4325337f369ec",
+      "text": "Brightest of all the orbs that breathe forth light,",
+      "itemId": "an-ch011-t4-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "brightest of all the orbs that breathe forth light",
+      "sha1": "a5fac292bea6cfd5138d720be0d4325337f369ec",
+      "text": "Brightest of all the orbs that breathe forth light,",
+      "itemId": "an-ch011-t4-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they name him of a theban bride the wonder",
+      "sha1": "6205320ed53b80a8129bd65580808ef6f99128f8",
+      "text": "They name him of a Theban bride the wonder",
+      "itemId": "an-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name italia s guardian lord",
+      "sha1": "335d966a430c88e508688a5c5d4afa685c493f80",
+      "text": "They name Italia’s guardian lord",
+      "itemId": "an-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name him brightest of the orbs",
+      "sha1": "f964c26a7d33c1467262202280adcc3111439d42",
+      "text": "They name him brightest of the orbs",
+      "itemId": "an-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they ask him to bring his train of thyiads",
+      "sha1": "d19e36e921ee9524afa59944eabbaa3cfd4b1561",
+      "text": "They ask him to bring his train of Thyiads",
+      "itemId": "an-ch011-t4-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "brightest of all the orbs that breathe forth light",
+      "sha1": "a5fac292bea6cfd5138d720be0d4325337f369ec",
+      "text": "Brightest of all the orbs that breathe forth light,",
+      "itemId": "an-ch011-t4-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus calls the god brightest of all the orbs that breathe forth light",
+      "sha1": "e2ae49d67256cf4c586922a1a50f11a70ebaf4a2",
+      "text": "The chorus calls the god brightest of all the orbs that breathe forth light.",
+      "itemId": "an-ch011-t4-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "brightest of all the orbs that breathe forth light",
+      "sha1": "a5fac292bea6cfd5138d720be0d4325337f369ec",
+      "text": "Brightest of all the orbs that breathe forth light,",
+      "itemId": "an-ch011-t5-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy maddened rout",
+      "sha1": "a5b4faaed9e068213b3bc4924deb5e680f78fe53",
+      "text": "Thy maddened rout",
+      "itemId": "an-ch011-t5-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thy maddened rout",
+      "sha1": "a5b4faaed9e068213b3bc4924deb5e680f78fe53",
+      "text": "Thy maddened rout",
+      "itemId": "an-ch011-t5-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they call him authentic son of zeus immortal king",
+      "sha1": "0d5cd831f8265625cb09f75feeadbfe42db01582",
+      "text": "They call him authentic son of Zeus, immortal king",
+      "itemId": "an-ch011-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they call him leader of the voices of the night",
+      "sha1": "c3bdc658038126d85c8525d95e11c7657dbf89e4",
+      "text": "They call him leader of the voices of the night",
+      "itemId": "an-ch011-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name the maddened rout",
+      "sha1": "e65c6b1effc8cb9f6a73994c076a0eef769440c4",
+      "text": "They name the maddened rout",
+      "itemId": "an-ch011-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "the hymn closes with evoë evoë",
+      "sha1": "51c64cc5f63ad5299dcfac4626f72616a6507c22",
+      "text": "The hymn closes with Evoë, Evoë",
+      "itemId": "an-ch011-t5-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "thy maddened rout who dance before thee all night long and shout",
+      "sha1": "a263f42104d40926e75ce6d285738cb81d7ee5c3",
+      "text": "Thy maddened rout Who dance before thee all night long, and shout,",
+      "itemId": "an-ch011-t5-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the maddened rout dances before him all night long and shouts",
+      "sha1": "c0fa2f35fc367db2d7157679b4afc1622eb76789",
+      "text": "The chorus says the maddened rout dances before him all night long and shouts.",
+      "itemId": "an-ch011-t5-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    },
+    {
+      "norm": "thy maddened rout",
+      "sha1": "a5b4faaed9e068213b3bc4924deb5e680f78fe53",
+      "text": "Thy maddened rout",
+      "itemId": "an-ch011-t6-s1-mw",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "thou see st with what a plague our townsfolk sicken",
+      "sha1": "2271c98a5b32df149ae8ea660824c91c0eb8bffd",
+      "text": "Thou see’st with what a plague our townsfolk sicken.",
+      "itemId": "an-ch011-t6-s2-wd",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "where the bacchanals thy daughters",
+      "sha1": "8f301aca3eb4c20aaacd560eef900cdd9440e557",
+      "text": "Where the Bacchanals thy daughters",
+      "itemId": "an-ch011-t6-s3-oo",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "they first adore him by many names",
+      "sha1": "4a76aad1ac2afc6a1f9035a3d861ec71cfc34dc4",
+      "text": "They first adore him by many names",
+      "itemId": "an-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they name nysa s bastion and clustered vineyards",
+      "sha1": "f16f2b4715837f6b1d0703fff3c0f5839bb37aed",
+      "text": "They name Nysa’s bastion and clustered vineyards",
+      "itemId": "an-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they tell him of the plague and sicken townsfolk",
+      "sha1": "5c742c86f4e9054f8019646ddfb91359c2f7e225",
+      "text": "They tell him of the plague and sicken townsfolk",
+      "itemId": "an-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "they close by calling on the maddened rout and evoë",
+      "sha1": "4da696e55aa9553cfbde103864e4e980b3343820",
+      "text": "They close by calling on the maddened rout and Evoë",
+      "itemId": "an-ch011-t6-s4-io",
+      "source": "gameItem.orderCard",
+      "waived": false
+    },
+    {
+      "norm": "oh as thou lov st this city best of all to thee and to thy mother levin stricken in our dire need we call",
+      "sha1": "c5f4fff3c5f1a66ab59da87c4f9be136f642eda9",
+      "text": "Oh, as thou lov’st this city best of all, To thee, and to thy Mother levin-stricken, In our dire need we call;",
+      "itemId": "an-ch011-t6-s5-v",
+      "source": "gameItem.quote",
+      "waived": false
+    },
+    {
+      "norm": "the chorus says the god loves this city best of all and they call in dire need",
+      "sha1": "68a2045dc4b124a7bd6f9690f22a8d228db31726",
+      "text": "The chorus says the god loves this city best of all and they call in dire need.",
+      "itemId": "an-ch011-t6-s5-v",
+      "source": "gameItem.verdictClaim",
+      "waived": false
+    }
+  ]
+}
